@@ -5,6 +5,7 @@ const auth = firebase.auth();
 const db = firebase.database();
 const TS = firebase.database.ServerValue.TIMESTAMP;
 const $ = id => document.getElementById(id);
+const CLIENT_VERSION = "0.8.1";
 
 let authMode = "login";
 let profile = null;
@@ -840,7 +841,8 @@ async function hostQuiz(code){
           totalMs: 0,
           joinedAt: now,
           seenQuizBefore: priorQuizInfo(quiz.code).seen,
-          quizSeenCount: priorQuizInfo(quiz.code).seenCount
+          quizSeenCount: priorQuizInfo(quiz.code).seenCount,
+          clientVersion: CLIENT_VERSION
         }
       }
     };
@@ -886,15 +888,23 @@ async function joinByHomePin(){
 
   if (!exists.exists()){
     const prior = priorQuizInfo(meta.quizCode);
-    await db.ref(`games/${pin}/players/${user.uid}`).set({
-      name: profile.username,
-      ready: false,
-      score: 0,
-      totalMs: 0,
-      joinedAt: serverNow(),
-      seenQuizBefore: prior.seen,
-      quizSeenCount: prior.seenCount
-    });
+    try{
+      await db.ref(`games/${pin}/players/${user.uid}`).set({
+        name: profile.username,
+        ready: false,
+        score: 0,
+        totalMs: 0,
+        joinedAt: serverNow(),
+        seenQuizBefore: prior.seen,
+        quizSeenCount: prior.seenCount,
+        clientVersion: CLIENT_VERSION
+      });
+    }catch(e){
+      if (String(e?.code || e?.message || "").toLowerCase().includes("permission")){
+        throw new Error("Odaya katılım izni reddedildi. Sayfayı Ctrl+F5 ile yenileyip tekrar dene.");
+      }
+      throw e;
+    }
   }
 
   await logActivity("game_joined", {
