@@ -15,7 +15,19 @@
         "Şık D"
       ],
       "answer": 0,
-      "time": 20
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "",
+      "imageAlt": "",
+      "imageCredit": "",
+      "imagePosition": "center",
+      "imageFit": "cover"
     }
+  ],
+  "schemaVersion": 2,
+  "description": "Quiz açıklaması",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür"
   ]
 }

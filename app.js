@@ -18,11 +18,24 @@ let phaseTimer = null;
 let hostTimer = null;
 let hostTimerKey = "";
 let finalRecordedKey = "";
+let lastLobbyPlayerSignature = null;
+let roomPresencePin = null;
+let roomPresenceDisconnect = null;
+let currentQuestionVisual = null;
 
-db.ref(".info/connected").on("value", s => {
+db.ref(".info/connected").on("value", async s => {
   const live = !!s.val();
   $("connDot")?.classList.toggle("live", live);
   if ($("connText")) $("connText").textContent = live ? "Bağlı" : "Çevrimdışı";
+  const banner = $("connectionBanner");
+  if (banner){
+    banner.classList.toggle("show", !live);
+    $("connectionBannerText").textContent = live ? "Bağlandı" : "Bağlantı koptu — oyun korunuyor, yeniden bağlanınca devam edecek.";
+  }
+  if (live && currentRoom && currentGame?.meta && amHost()){
+    await setupHostPresence(true).catch(()=>{});
+    coordinateHost();
+  }
 });
 
 db.ref(".info/serverTimeOffset").on("value", s => {
@@ -109,6 +122,9 @@ function stopHostTimer(){
 function stopRoomWatch(){
   stopPhaseTimer();
   stopHostTimer();
+  if (roomPresenceDisconnect){
+    roomPresenceDisconnect.cancel().catch(()=>{});
+  }
 
   if (roomRef && roomListener){
     roomRef.off("value", roomListener);
@@ -119,7 +135,61 @@ function stopRoomWatch(){
   currentRoom = null;
   currentGame = null;
   currentQuiz = null;
+  lastLobbyPlayerSignature = null;
+  roomPresencePin = null;
+  roomPresenceDisconnect = null;
 }
+
+
+async function setupHostPresence(force=false){
+  if (!currentRoom || !amHost()) return;
+  if (roomPresencePin === currentRoom && !force) return;
+  roomPresencePin = currentRoom;
+  const onlineRef = db.ref(`games/${currentRoom}/meta/hostOnline`);
+  roomPresenceDisconnect = onlineRef.onDisconnect();
+  await roomPresenceDisconnect.set(false);
+  await db.ref(`games/${currentRoom}/meta`).update({hostOnline:true,hostLastSeenAt:TS});
+}
+function estimateQuizMinutes(){
+  if (!currentQuiz?.questions?.length) return 1;
+  const qSec=currentQuiz.questions.reduce((s,q)=>s+Number(q.time||20),0);
+  const tSec=currentQuiz.questions.length*Number(CFG.revealSeconds||5)+Math.max(0,currentQuiz.questions.length-1)*2.2+Number(CFG.countdownSeconds||3);
+  return Math.max(1,Math.round((qSec+tSec)/60));
+}
+async function maybeResetReadyAfterRosterChange(){
+  if (!amHost() || currentGame?.meta?.state !== 'lobby') return;
+  const ids=Object.keys(currentGame?.players||{}).sort(); const sig=ids.join('|');
+  if (lastLobbyPlayerSignature===null){lastLobbyPlayerSignature=sig;return;}
+  if (sig===lastLobbyPlayerSignature) return;
+  lastLobbyPlayerSignature=sig;
+  const updates={}; ids.forEach(uid=>updates[`players/${uid}/ready`]=false);
+  if (Object.keys(updates).length){await db.ref(`games/${currentRoom}`).update(updates);toast('Oyuncu listesi değişti · Hazır durumları sıfırlandı.');}
+}
+async function kickPlayer(uid){
+  if (!amHost() || !uid || uid===auth.currentUser?.uid) return;
+  await db.ref(`games/${currentRoom}/players/${uid}`).remove();
+}
+function questionTypeLabel(q){
+  if (q?.questionType==='image-choice'||q?.image) return 'Görsel soru';
+  if (q?.questionType==='true-false') return 'Doğru / Yanlış';
+  return 'Çoktan seçmeli';
+}
+function openQuestionImage(){
+  if (!currentQuestionVisual?.src) return;
+  $('imageModalImg').src=currentQuestionVisual.src;$('imageModalImg').alt=currentQuestionVisual.alt||'Soru görseli';$('imageModalCredit').textContent=currentQuestionVisual.credit||'';$('imageModal').classList.add('show');
+}
+function closeQuestionImage(){$('imageModal').classList.remove('show');}
+function playerStats(uid){
+  const n=currentQuiz?.questions?.length||currentGame?.meta?.totalQuestions||0;let correct=0,answered=0,totalElapsed=0;
+  for(let i=0;i<n;i++){const a=currentGame?.answers?.[qKey(i)]?.[uid];if(!a)continue;answered++;if(a.correct===true)correct++;totalElapsed+=Number(a.elapsedMs||0);}
+  return {correct,answered,avgMs:answered?Math.round(totalElapsed/answered):0};
+}
+function detailedLeaderRows(){return leaderRows().map(r=>({...r,...playerStats(r.uid)}));}
+function formatSeconds(ms){return !ms?'—':(ms/1000).toFixed(1).replace('.',',')+' sn';}
+function podiumCard(r,place){if(!r)return '<div></div>';const cls=place===1?'first':place===2?'second':'third';return `<div class="podiumCard ${cls}"><div class="podiumPlace">${place}</div><div class="podiumName">${esc(r.name)}</div><div class="podiumScore">${r.score} puan</div><div class="podiumMeta">${r.correct}/${currentGame.meta.totalQuestions} doğru<br>Ort. ${formatSeconds(r.avgMs)}</div></div>`;}
+function detailedLeaderHtml(rows){return rows.map((r,i)=>`<li class="${r.uid===auth.currentUser.uid?'me':''}"><span class="rank">${i+1}</span><div><strong>${esc(r.name)}</strong><div class="finalPlayerSub">${r.correct}/${currentGame.meta.totalQuestions} doğru · Ort. ${formatSeconds(r.avgMs)}</div></div><span class="score">${r.score}</span></li>`).join('');}
+function celebrateFinal(){const layer=$('confettiLayer');if(!layer)return;layer.innerHTML='';for(let i=0;i<30;i++){const s=document.createElement('i');s.className='confetti';s.style.left=(3+Math.random()*94)+'%';s.style.animationDuration=(2.2+Math.random()*1.8)+'s';s.style.animationDelay=(Math.random()*.55)+'s';s.style.setProperty('--drift',((Math.random()-.5)*180)+'px');layer.appendChild(s);}setTimeout(()=>layer.innerHTML='',4500);}
+document.addEventListener('visibilitychange',async()=>{if(document.visibilityState!=='visible'||!currentRoom)return;try{const snap=await db.ref(`games/${currentRoom}`).get();if(snap.exists()){currentGame=snap.val();renderRoom();if(amHost()){await setupHostPresence().catch(()=>{});coordinateHost();}}}catch{}});
 
 function togglePassword(id, btn){
   const input = $(id);
@@ -574,7 +644,10 @@ function watchRoom(pin){
       if (!currentQuiz || currentQuiz.code !== currentGame.meta.quizCode){
         currentQuiz = await loadQuiz(currentGame.meta.quizCode);
       }
-
+      if (amHost()){
+        await setupHostPresence().catch(()=>{});
+        await maybeResetReadyAfterRosterChange().catch(()=>{});
+      }
       renderRoom();
       coordinateHost();
 
@@ -613,52 +686,18 @@ function renderRoom(){
 }
 
 function renderLobby(){
-  stopPhaseTimer();
-  hideCountdown();
-  go("lobby");
-
-  $("hostBadge").style.display = amHost() ? "inline-flex" : "none";
-  $("lobbyCode").textContent = currentRoom;
-  $("lobbyQuizTitle").textContent = currentGame.meta.quizTitle;
-  $("lobbyQuizMeta").textContent =
-    `${currentGame.meta.totalQuestions} soru · ${currentGame.meta.difficulty}/10 zorluk`;
-
-  const me = myPlayer();
-
-  $("readyBtn").textContent = me?.ready ? "Hazırım ✓" : "Hazırım";
-  $("readyBtn").className = me?.ready ? "btn primary" : "btn soft";
-
-  const arr = playersArray()
-    .sort((a,b) => (a.joinedAt || 0) - (b.joinedAt || 0));
-
-  const list = $("playersList");
-  list.innerHTML = "";
-
-  arr.forEach(p => {
-    const d = document.createElement("div");
-    d.className = "player" + (p.uid === auth.currentUser.uid ? " me" : "");
-
-    const role = p.uid === currentGame.meta.hostUid ? "Kurucu" : "Oyuncu";
-
-    d.innerHTML = `
-      <div class="avatar">${esc(initials(p.name))}</div>
-      <div>
-        <div class="playerName">${esc(p.name)}</div>
-        <div class="playerSub">${role}</div>
-      </div>
-      <span class="badge ${p.ready ? "green" : ""}">
-        ${p.ready ? "Hazır" : "Bekliyor"}
-      </span>
-    `;
-
-    list.appendChild(d);
-  });
-
-  const readyCount = arr.filter(p => p.ready).length;
-
-  $("readyState").textContent = `${readyCount} / ${arr.length} kişi hazır`;
-  $("hostStartArea").style.display = amHost() ? "block" : "none";
-  $("hostStartBtn").disabled = !allReady();
+  stopPhaseTimer();hideCountdown();go('lobby');
+  $('hostBadge').style.display=amHost()?'inline-flex':'none';$('lobbyCode').textContent=currentRoom;$('lobbyQuizTitle').textContent=currentGame.meta.quizTitle;
+  const estimated=currentQuiz?.estimatedMinutes||estimateQuizMinutes();
+  $('lobbyQuizMeta').innerHTML=`<span class="badge">${currentGame.meta.totalQuestions} soru</span><span class="badge blue">${currentGame.meta.difficulty}/10 zorluk</span><span class="badge">≈ ${estimated} dk</span><span class="badge">${esc(currentQuiz?.category||'Quiz')}</span>`;
+  const hostStatus=$('hostStatusBanner');
+  if(amHost()){hostStatus.className='hostStatus online';hostStatus.textContent='Kurucu sensin · bağlantı aktif.';}
+  else if(currentGame.meta.hostOnline===false){hostStatus.className='hostStatus offline';hostStatus.textContent='Kurucunun bağlantısı koptu. Oda korunuyor; geri geldiğinde oyun devam edecek.';}
+  else{hostStatus.className='hostStatus online';hostStatus.textContent='Kurucu bağlı · oyun başlatılmaya hazır.';}
+  const me=myPlayer();$('readyBtn').textContent=me?.ready?'Hazırım ✓':'Hazırım';$('readyBtn').className=me?.ready?'btn primary':'btn soft';
+  const arr=playersArray().sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));$('lobbyPlayerCount').textContent=`${arr.length} oyuncu`;const list=$('playersList');list.innerHTML='';
+  arr.forEach(p=>{const d=document.createElement('div');d.className='player playerIn'+(p.uid===auth.currentUser.uid?' me':'');const role=p.uid===currentGame.meta.hostUid?'Kurucu':'Oyuncu';const remove=amHost()&&p.uid!==auth.currentUser.uid?`<button class="kickBtn" onclick="kickPlayer('${p.uid}')">Çıkar</button>`:'';d.innerHTML=`<div class="avatar">${esc(initials(p.name))}</div><div><div class="playerName">${esc(p.name)}</div><div class="playerSub">${role}</div></div><div class="playerActions"><span class="badge ${p.ready?'green':''}">${p.ready?'Hazır':'Bekliyor'}</span>${remove}</div>`;list.appendChild(d);});
+  const readyCount=arr.filter(p=>p.ready).length;$('readyState').textContent=allReady()?'Herkes hazır · Kurucu oyunu başlatabilir.':`${readyCount} / ${arr.length} kişi hazır`;$('hostStartArea').style.display=amHost()?'block':'none';$('hostStartBtn').disabled=!allReady();$('hostStartBtn').textContent=allReady()?'Herkes hazır · Oyunu başlat':'Oyunu başlat';
 }
 
 async function toggleReady(){
@@ -704,10 +743,8 @@ function renderCountdown(){
     const left = Math.max(0, meta.phaseEndsAt - serverNow());
     const n = Math.max(1, Math.ceil(left / 1000) - 1);
 
-    showCountdown(
-      left < 900 ? "BAŞLA" : String(n),
-      left < 900 ? "Soru geliyor" : "Hazır olun"
-    );
+    const value=left<900?'BAŞLA':String(n);const num=$('countNum');if(num.textContent!==value){num.style.animation='none';void num.offsetWidth;num.style.animation='';}
+    showCountdown(value,left<900?'Soru geliyor':(meta.currentIndex>0?`Soru ${meta.currentIndex+1}`:'Hazır olun'));
   };
 
   stopPhaseTimer();
@@ -736,15 +773,18 @@ function renderGame(){
   $("gameRoomBadge").textContent = "Oda " + currentRoom;
   $("gameProgress").textContent =
     `Soru ${meta.currentIndex + 1} / ${meta.totalQuestions}`;
-  $("questionText").textContent = q.text;
 
-  if (q.image){
-    $("questionImage").src = q.image;
-    $("questionImage").alt = q.imageAlt || "Soru görseli";
-    $("questionImage").style.display = "block";
+  const gameHostStatus = $("gameHostStatus");
+  if (!amHost() && meta.hostOnline === false){
+    gameHostStatus.className = "hostStatus offline";
+    gameHostStatus.textContent = "Kurucunun bağlantısı koptu. Oyun durumu korunuyor; kurucu geri gelince otomatik devam edecek.";
   }else{
-    $("questionImage").style.display = "none";
+    gameHostStatus.style.display = "none";
+    gameHostStatus.className = "hostStatus";
   }
+  $("questionText").textContent=q.text;$("questionTypeBadge").textContent=questionTypeLabel(q);$("questionVisualHint").textContent=q.image?"Görseli büyütmek için tıkla":"";
+  if(q.image){$("questionImage").src=q.image;$("questionImage").alt=q.imageAlt||"Soru görseli";$("questionImage").style.objectPosition=q.imagePosition||"center";$("questionImage").style.objectFit=q.imageFit||"cover";$("questionImage").style.display="block";$("questionImageCredit").textContent=q.imageCredit||"";$("questionImageCredit").style.display=q.imageCredit?"block":"none";currentQuestionVisual={src:q.image,alt:q.imageAlt||"Soru görseli",credit:q.imageCredit||""};}
+  else{$("questionImage").style.display="none";$("questionImageCredit").style.display="none";currentQuestionVisual=null;}
 
   const answer = myAnswer();
   const grid = $("answerGrid");
@@ -786,30 +826,8 @@ function renderGame(){
   const status = $("answerStatus");
   const board = $("roundBoard");
 
-  if (meta.state === "question"){
-    board.style.display = "none";
-    status.style.display = answer ? "block" : "none";
-
-    if (answer){
-      status.innerHTML =
-        '<b>Cevabın kaydedildi.</b><div class="muted small" style="margin-top:4px">Diğer oyuncular bekleniyor.</div>';
-    }
-
-  }else{
-    status.style.display = "block";
-    board.style.display = "block";
-
-    const a = myAnswer();
-    const good = a?.correct === true;
-
-    status.innerHTML = `
-      <div class="eyebrow">Tur sonucu</div>
-      <div class="resultBig">${a ? (good ? "Doğru" : "Yanlış") : "Cevap yok"}</div>
-      <div class="points">${a?.points ? `+${a.points} puan` : ""}</div>
-      <div class="muted small" style="margin-top:5px">
-        Doğru cevap: ${esc(q.options[meta.revealCorrect])}
-      </div>
-    `;
+  if(meta.state==="question"){board.style.display="none";status.style.display=answer?"block":"none";status.className="status";if(answer){status.innerHTML=`<div class="waitingLine"><span>Cevabın kaydedildi</span><span class="waitingDots"><i></i><i></i><i></i></span></div><div class="muted small" style="margin-top:5px">Diğer oyuncular bekleniyor.</div>`;}}
+  else{status.style.display="block";board.style.display="block";const a=myAnswer();const good=a?.correct===true;status.className="status "+(good?"revealGood":"revealBad");status.innerHTML=`<div class="eyebrow">Tur sonucu</div><div class="resultBig">${a?(good?"Doğru":"Yanlış"):"Cevap yok"}</div><div class="points">${a?.points?`+${a.points} puan`:""}</div><div class="muted small" style="margin-top:5px">Doğru cevap: ${esc(q.options[meta.revealCorrect])}</div>`;
 
     board.innerHTML =
       `<h3>Sıralama</h3><ol class="leader">${leaderHtml()}</ol>`;
@@ -888,18 +906,9 @@ function leaderHtml(){
 }
 
 function renderFinal(){
-  stopPhaseTimer();
-  hideCountdown();
-  go("final");
-
-  const rows = leaderRows();
-
-  $("finalQuiz").textContent = currentGame.meta.quizTitle;
-  $("winnerText").textContent =
-    rows[0] ? `1. ${rows[0].name}` : "Oyun tamamlandı";
-  $("finalBoard").innerHTML = leaderHtml();
-
-  recordOwnFinal(rows);
+  stopPhaseTimer();hideCountdown();go('final');const rows=detailedLeaderRows();$('finalQuiz').textContent=currentGame.meta.quizTitle;
+  if(rows[0]){$('winnerText').textContent=`${rows[0].name} kazandı`;const gap=rows[1]?rows[0].score-rows[1].score:null;$('finalGap').textContent=gap===null?`${rows[0].score} puan`:gap===0?'Puanlar eşit · daha hızlı toplam süre sıralamayı belirledi.':`${gap} puan farkla birinci.`;}else{$('winnerText').textContent='Oyun tamamlandı';$('finalGap').textContent='';}
+  $('finalPodium').innerHTML=podiumCard(rows[1]||null,2)+podiumCard(rows[0]||null,1)+podiumCard(rows[2]||null,3);$('finalBoard').innerHTML=detailedLeaderHtml(rows);celebrateFinal();recordOwnFinal(rows);
 }
 
 async function recordOwnFinal(rows){
@@ -1182,3 +1191,5 @@ auth.onAuthStateChanged(async user => {
     console.warn(e);
   }
 })();
+
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeQuestionImage();});

@@ -1,3 +1,15 @@
+# Quizsel v0.7 — Experience Pack
+
+1. Oyun hissi geliştirmeleri
+2. Gelişmiş lobi ve oyuncu çıkarma
+3. Görsel soru sistemi
+4. Gelişmiş final/podium
+5. Bağlantı ve reload recovery
+
+# Quizsel v0.6.1 — Oda Kurma Hotfix
+
+Bu sürüm Realtime Database `PERMISSION_DENIED` oda kurma hatasını düzeltir.
+
 # Quizsel v0.6 — Spark / Kullanıcı Adı + Şifre
 
 Bu sürüm Spark planında çalışacak şekilde hazırlanmıştır.

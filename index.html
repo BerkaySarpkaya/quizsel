@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f4f6fa">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Quizsel</title>
-  <link rel="stylesheet" href="styles.css?v=6.1">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 <div class="app">
@@ -129,9 +129,16 @@
 
       <div class="sep"></div>
       <h3 id="lobbyQuizTitle">Quiz</h3>
-      <div id="lobbyQuizMeta" class="muted small"></div>
+      <div id="lobbyQuizMeta" class="quizBadges lobbyMeta"></div>
+      <div id="hostStatusBanner" class="hostStatus" style="display:none"></div>
 
-      <div class="section"><div id="playersList" class="players"></div></div>
+      <div class="section">
+        <div class="row" style="justify-content:space-between;margin-bottom:9px">
+          <h3 style="margin:0">Oyuncular</h3>
+          <span id="lobbyPlayerCount" class="badge"></span>
+        </div>
+        <div id="playersList" class="players"></div>
+      </div>
 
       <div class="readyPanel">
         <button id="readyBtn" class="btn soft" onclick="toggleReady()">Hazırım</button>
@@ -155,9 +162,15 @@
 
     <div class="progressHead"><span id="gameProgress">Soru 1 / 10</span><span id="gameTimer">20 sn</span></div>
     <div class="progress"><i id="gameBar"></i></div>
+    <div id="gameHostStatus" class="hostStatus" style="display:none"></div>
 
     <div class="qCard">
-      <img id="questionImage" class="qImage" alt="" style="display:none">
+      <div class="row" style="justify-content:space-between;margin-bottom:10px">
+        <span id="questionTypeBadge" class="badge blue"></span>
+        <span id="questionVisualHint" class="tiny muted"></span>
+      </div>
+      <img id="questionImage" class="qImage" alt="" style="display:none" onclick="openQuestionImage()">
+      <div id="questionImageCredit" class="imageCredit" style="display:none"></div>
       <div id="questionText" class="qText"></div>
     </div>
 
@@ -172,14 +185,19 @@
       <span class="badge green">Tamamlandı</span>
     </div>
 
-    <div class="card">
+    <div class="card finalHero">
       <div class="eyebrow">Final</div>
       <h1 style="font-size:34px;margin-top:8px">Sonuçlar</h1>
       <p id="finalQuiz" class="muted"></p>
       <div id="winnerText" class="resultBig"></div>
+      <div id="finalGap" class="muted small" style="margin-top:5px"></div>
     </div>
 
-    <div class="section"><ol id="finalBoard" class="leader"></ol></div>
+    <div id="finalPodium" class="podium section"></div>
+    <div class="section">
+      <h3>Tam sıralama</h3>
+      <ol id="finalBoard" class="leader finalLeader"></ol>
+    </div>
     <div class="section"><button class="btn primary" onclick="finishGame()">Tamamla ve çıkış yap</button></div>
   </section>
 
@@ -201,6 +219,11 @@
   </section>
 </div>
 
+<div id="connectionBanner" class="connectionBanner">
+  <span class="connectionPulse"></span>
+  <span id="connectionBannerText">Bağlantı yeniden kuruluyor…</span>
+</div>
+
 <div id="countOverlay" class="countOverlay">
   <div>
     <div id="countNum" class="countNum">3</div>
@@ -208,12 +231,18 @@
   </div>
 </div>
 
+<div id="imageModal" class="imageModal" onclick="closeQuestionImage()">
+  <button class="imageModalClose" aria-label="Kapat">×</button>
+  <img id="imageModalImg" alt="">
+  <div id="imageModalCredit" class="imageModalCredit"></div>
+</div>
+<div id="confettiLayer" class="confettiLayer" aria-hidden="true"></div>
 <div id="toast" class="toast"></div>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
 <script src="config.js?v=6"></script>
-<script src="app.js?v=6.1"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>
