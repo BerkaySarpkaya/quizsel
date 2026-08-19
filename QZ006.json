@@ -15,7 +15,7 @@
         "Kurt Vonnegut"
       ],
       "answer": 1,
-      "time": 16,
+      "time": 15,
       "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M192%20104h74c20%200%2034%2012%2034%2030v106c-9-11-21-16-38-16h-70zM368%20104h-74c-20%200-34%2012-34%2030v106c9-11%2021-16%2038-16h70z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%227%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M221%20140h46M221%20169h46M293%20140h46M293%20169h46%22%20stroke%3D%22%239aabff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3EEdebiyat%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EYazar%20ve%20eser%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
       "imageAlt": "Kitap illüstrasyonu",
       "questionType": "image-choice",
@@ -33,7 +33,7 @@
         "Salvador Dalí"
       ],
       "answer": 3,
-      "time": 18,
+      "time": 15,
       "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M280%2079c-78%200-122%2048-122%20105%200%2047%2035%2080%2082%2080h18c16%200%2023-18%2012-29-8-8-4-22%208-25h33c55%200%2091-26%2091-67%200-38-47-64-122-64z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%227%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22221%22%20cy%3D%22139%22%20r%3D%2212%22%20fill%3D%22%23315efb%22%2F%3E%3Ccircle%20cx%3D%22265%22%20cy%3D%22118%22%20r%3D%2212%22%20fill%3D%22%237c93ff%22%2F%3E%3Ccircle%20cx%3D%22314%22%20cy%3D%22125%22%20r%3D%2212%22%20fill%3D%22%23a7b5ff%22%2F%3E%3Ccircle%20cx%3D%22345%22%20cy%3D%22158%22%20r%3D%2212%22%20fill%3D%22%23315efb%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3ESanat%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EEser%20ve%20sanat%C3%A7%C4%B1%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
       "imageAlt": "Sanat paleti illüstrasyonu",
       "questionType": "image-choice",
@@ -51,7 +51,7 @@
         "Sidney Lumet"
       ],
       "answer": 0,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -64,7 +64,7 @@
         "Jorge Luis Borges"
       ],
       "answer": 2,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -77,7 +77,7 @@
         "Final bölümünde koro kullanması"
       ],
       "answer": 3,
-      "time": 20,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -90,7 +90,7 @@
         "Egon Schiele"
       ],
       "answer": 1,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -103,7 +103,7 @@
         "Lee Chang-dong"
       ],
       "answer": 0,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -116,7 +116,7 @@
         "Marcel Proust"
       ],
       "answer": 2,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -129,7 +129,7 @@
         "Rodin"
       ],
       "answer": 1,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -142,7 +142,7 @@
         "Ahmet Hamdi Tanpınar"
       ],
       "answer": 3,
-      "time": 20,
+      "time": 15,
       "questionType": "multiple-choice"
     }
   ],

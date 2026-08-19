@@ -85,3 +85,90 @@ input:focus{border-color:#91a8ff;box-shadow:0 0 0 4px rgba(49,94,251,.08)}
 .finalHero{text-align:center;overflow:hidden}.podium{display:grid;grid-template-columns:1fr 1.14fr 1fr;gap:9px;align-items:end}.podiumCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px 10px;text-align:center;box-shadow:var(--shadow);position:relative}.podiumCard.first{padding-top:20px;min-height:174px;border-color:#cbd5ff}.podiumCard.second{min-height:150px}.podiumCard.third{min-height:136px}.podiumPlace{width:34px;height:34px;border-radius:12px;margin:0 auto 8px;display:grid;place-items:center;background:var(--surface2);font-weight:950;color:var(--muted)}.podiumCard.first .podiumPlace{background:var(--blue);color:#fff}.podiumName{font-weight:950;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.podiumScore{font-size:18px;font-weight:950;color:var(--blue);margin-top:5px}.podiumMeta{font-size:10px;color:var(--muted);margin-top:5px;line-height:1.35}.finalLeader li{grid-template-columns:34px 1fr auto}.finalPlayerSub{font-size:10px;color:var(--muted);margin-top:2px;font-weight:700}
 .confettiLayer{position:fixed;inset:0;pointer-events:none;z-index:145;overflow:hidden}.confetti{position:absolute;top:-16px;width:7px;height:13px;border-radius:2px;opacity:.88;animation:confettiFall linear forwards}.confetti:nth-child(4n+1){background:#315efb}.confetti:nth-child(4n+2){background:#89a0ff}.confetti:nth-child(4n+3){background:#16a36d}.confetti:nth-child(4n){background:#f0b429}@keyframes confettiFall{to{transform:translate3d(var(--drift),110vh,0) rotate(520deg);opacity:.1}}
 @media(max-width:470px){.podium{gap:6px}.podiumCard{padding-left:7px;padding-right:7px}.podiumName{font-size:12px}.podiumScore{font-size:15px}}
+
+
+/* Quizsel v0.8 — Race Control, Quiz History, Stronger Visual Identity */
+.raceActionBar{display:flex;justify-content:flex-end;gap:8px;margin:-8px 0 14px}
+.raceEndBtn{margin-top:9px}.raceExitBtn{white-space:nowrap}
+
+.exposureSummary{
+  margin-top:12px;padding:11px 12px;border:1px solid var(--line);border-radius:13px;
+  background:#fafbfc;color:var(--muted);font-size:12px;font-weight:800;line-height:1.4
+}
+.exposureSummary.hasSeen{background:#fff8ea;border-color:#f0dfb8;color:#8b5b08}
+.exposureSummary.allFresh{background:var(--greenSoft);border-color:#d7eee5;color:var(--green)}
+.badge.seenQuiz{background:#fff8ea;border-color:#efddb2;color:#8a5a07}
+.badge.freshQuiz{background:var(--greenSoft);border-color:#d6eee5;color:var(--green)}
+.playerActions{flex-wrap:wrap;justify-content:flex-end}
+
+.avatarWrap{position:relative;display:inline-grid;place-items:center;flex:none}
+.avatar{
+  width:42px;height:42px;border-radius:14px;
+  background:linear-gradient(145deg,hsl(var(--avatar-h) 88% 95%),hsl(var(--avatar-h) 82% 88%));
+  color:hsl(var(--avatar-h) 62% 34%);
+  border:1px solid hsl(var(--avatar-h) 65% 80%);
+  display:grid;place-items:center;font-weight:950;text-transform:uppercase;
+  box-shadow:0 8px 20px hsla(var(--avatar-h),60%,45%,.12)
+}
+.avatarWrap.host .avatar{box-shadow:0 0 0 2px #fff,0 0 0 4px #315efb,0 8px 20px rgba(49,94,251,.18)}
+.avatarMark{
+  position:absolute;right:-5px;top:-6px;min-width:19px;height:19px;padding:0 4px;
+  border-radius:999px;background:#111827;color:#fff;border:2px solid #fff;
+  display:grid;place-items:center;font-size:9px;font-weight:950
+}
+.avatarWrap.large .avatar{width:68px;height:68px;border-radius:22px;font-size:24px}
+.avatarWrap.hero .avatar{width:82px;height:82px;border-radius:26px;font-size:29px;box-shadow:0 0 0 5px #fff,0 0 0 8px #dce4ff,0 18px 40px rgba(49,94,251,.2)}
+.avatarWrap.micro .avatar{width:31px;height:31px;border-radius:10px;font-size:11px;box-shadow:none}
+
+.leaderIdentity{display:flex;align-items:center;gap:9px;min-width:0}
+.leaderIdentityText{min-width:0}.leaderIdentityText strong{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.winnerAvatar{display:flex;justify-content:center;margin:14px 0 10px}
+.podium{align-items:end;gap:11px}
+.podiumCard{
+  padding:0!important;overflow:visible;background:transparent;border:0;box-shadow:none;
+  display:flex;flex-direction:column;align-items:center;min-width:0
+}
+.podiumPerson{
+  width:100%;background:#fff;border:1px solid var(--line);border-radius:18px 18px 10px 10px;
+  padding:14px 8px 12px;text-align:center;box-shadow:var(--shadow);position:relative;z-index:2
+}
+.podiumCard.first .podiumPerson{border-color:#b9c8ff;box-shadow:0 18px 46px rgba(49,94,251,.14)}
+.podiumMedal{
+  position:absolute;left:50%;top:-12px;transform:translateX(-50%);
+  width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+  background:#111827;color:#fff;border:3px solid #fff;font-size:11px;font-weight:950
+}
+.podiumCard.first .podiumMedal{background:#315efb}
+.podiumCard.second .podiumMedal{background:#748094}
+.podiumCard.third .podiumMedal{background:#a56a3a}
+.podiumBase{
+  width:82%;border-radius:0 0 15px 15px;background:linear-gradient(180deg,#e8edff,#dbe3ff);
+  border:1px solid #ced8ff;border-top:0;display:grid;place-items:end center;padding-bottom:8px;
+  color:#315efb;font-weight:950;font-size:20px;letter-spacing:-.5px
+}
+.podiumCard.first .podiumBase{height:84px;background:linear-gradient(180deg,#dfe6ff,#cfd9ff)}
+.podiumCard.second .podiumBase{height:58px}
+.podiumCard.third .podiumBase{height:43px}
+.podiumName{margin-top:10px}.podiumScore{margin-top:4px}.podiumMeta{margin-top:5px}
+.podiumCard.first{min-height:0}.podiumCard.second{min-height:0}.podiumCard.third{min-height:0}
+
+.decisionModal{
+  position:fixed;inset:0;background:rgba(10,16,28,.62);backdrop-filter:blur(5px);
+  z-index:190;display:none;place-items:end center;padding:18px
+}
+.decisionModal.show{display:grid}
+.decisionCard{
+  width:min(100%,520px);background:#fff;border:1px solid var(--line);border-radius:23px;
+  padding:20px;box-shadow:0 24px 70px rgba(10,16,28,.25);animation:sheetUp .18s ease
+}
+@keyframes sheetUp{from{transform:translateY(14px);opacity:.55}to{transform:none;opacity:1}}
+.decisionCard h3{font-size:22px;margin:7px 0 7px}
+.decisionActions{display:grid;gap:9px;margin:18px 0 10px}
+
+@media(max-width:470px){
+  .raceActionBar{justify-content:stretch}.raceActionBar .btn{flex:1}
+  .podium{gap:5px}.podiumPerson{padding-left:5px;padding-right:5px}
+  .podiumCard .avatarWrap.large .avatar{width:54px;height:54px;border-radius:18px;font-size:19px}
+  .podiumName{font-size:11px}.podiumMeta{font-size:9px}
+}

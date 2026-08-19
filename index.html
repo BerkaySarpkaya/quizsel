@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f4f6fa">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Quizsel</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 <div class="app">
@@ -117,7 +117,7 @@
 
   <section id="view-lobby" class="view">
     <div class="top">
-      <button class="back" onclick="leaveLobby()">Odadan çık</button>
+      <button class="btn sm ghost raceExitBtn" onclick="confirmLeaveCompetition()">Yarışmadan çık</button>
       <span id="hostBadge" class="badge blue" style="display:none">Kurucu</span>
     </div>
 
@@ -130,6 +130,7 @@
       <div class="sep"></div>
       <h3 id="lobbyQuizTitle">Quiz</h3>
       <div id="lobbyQuizMeta" class="quizBadges lobbyMeta"></div>
+      <div id="quizExposureSummary" class="exposureSummary"></div>
       <div id="hostStatusBanner" class="hostStatus" style="display:none"></div>
 
       <div class="section">
@@ -146,6 +147,7 @@
 
         <div id="hostStartArea" class="section" style="display:none">
           <button id="hostStartBtn" class="btn primary" onclick="startGame()" disabled>Oyunu başlat</button>
+          <button class="btn danger raceEndBtn" onclick="confirmTerminateCompetition()">Yarışmayı sonlandır</button>
         </div>
       </div>
     </div>
@@ -160,7 +162,12 @@
       </div>
     </div>
 
-    <div class="progressHead"><span id="gameProgress">Soru 1 / 10</span><span id="gameTimer">20 sn</span></div>
+    <div class="raceActionBar">
+      <button class="btn sm ghost" onclick="confirmLeaveCompetition()">Yarışmadan çık</button>
+      <button id="gameTerminateBtn" class="btn sm danger" onclick="confirmTerminateCompetition()" style="display:none">Yarışmayı sonlandır</button>
+    </div>
+
+    <div class="progressHead"><span id="gameProgress">Soru 1 / 10</span><span id="gameTimer">15 sn</span></div>
     <div class="progress"><i id="gameBar"></i></div>
     <div id="gameHostStatus" class="hostStatus" style="display:none"></div>
 
@@ -189,6 +196,7 @@
       <div class="eyebrow">Final</div>
       <h1 style="font-size:34px;margin-top:8px">Sonuçlar</h1>
       <p id="finalQuiz" class="muted"></p>
+      <div id="finalWinnerAvatar" class="winnerAvatar"></div>
       <div id="winnerText" class="resultBig"></div>
       <div id="finalGap" class="muted small" style="margin-top:5px"></div>
     </div>
@@ -231,6 +239,16 @@
   </div>
 </div>
 
+<div id="decisionModal" class="decisionModal" aria-hidden="true">
+  <div class="decisionCard" role="dialog" aria-modal="true" aria-labelledby="decisionTitle">
+    <div id="decisionKicker" class="eyebrow">Yarışma</div>
+    <h3 id="decisionTitle">Emin misin?</h3>
+    <p id="decisionMessage" class="muted small"></p>
+    <div id="decisionActions" class="decisionActions"></div>
+    <button class="btn ghost" onclick="closeDecision()">Vazgeç</button>
+  </div>
+</div>
+
 <div id="imageModal" class="imageModal" onclick="closeQuestionImage()">
   <button class="imageModalClose" aria-label="Kapat">×</button>
   <img id="imageModalImg" alt="">
@@ -243,6 +261,6 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
 <script src="config.js?v=6"></script>
-<script src="app.js?v=7"></script>
+<script src="app.js?v=8"></script>
 </body>
 </html>

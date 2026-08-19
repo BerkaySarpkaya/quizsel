@@ -17,6 +17,7 @@ window.QUIZSEL_CONFIG = {
   // Bu adres sadece Firebase Auth iç kimliğidir.
   adminInternalEmail: "quizsel-admin@quizsel.app",
 
+  questionSeconds: 15,
   countdownSeconds: 3,
   revealSeconds: 5
 };

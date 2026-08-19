@@ -1,3 +1,19 @@
+# Quizsel v0.8 — Race Control & Quiz History
+
+Yeni özellikler:
+- Eski oyun geçmişi `activityLogs` içinden bir defalık profile taşınır; v0.8 öncesi tamamlanmış quizler de 'daha önce gördü' bilgisinde kullanılabilir.
+- Oyuncular yarışmadan onay ekranıyla çıkabilir.
+- Kurucu yarışmadan çıkarsa kuruculuk en eski kalan oyuncuya otomatik devredilir; yarışma devam eder.
+- Kurucu ayrıca "Yarışmayı sonlandır" ile odayı tamamen kapatabilir.
+- Oyuncu çıkarken kendi cevap kayıtları temizlenir.
+- Tüm sorular 15 saniyedir.
+- Profil bazında quiz görme geçmişi tutulur.
+- Lobi, her oyuncunun o quizin sorularını daha önce görüp görmediğini gösterir.
+- Avatarlar, canlı sıralama ve final kürsüsü görsel olarak güçlendirildi.
+- Finalde daha belirgin kazanan avatarı ve gerçek kürsü görünümü vardır.
+
+Not: database.rules.json değişti. Bu sürüm yüklenince Firebase Realtime Database Rules yeniden Publish edilmelidir.
+
 # Quizsel v0.7 — Experience Pack
 
 1. Oyun hissi geliştirmeleri

@@ -15,7 +15,7 @@
         "Porto Riko Çukuru"
       ],
       "answer": 0,
-      "time": 18,
+      "time": 15,
       "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M205%2098l65-24%2061%2027%2042-18v139l-42%2018-61-27-65%2024z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%227%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M270%2075v138M331%20101v139%22%20stroke%3D%22%23a6b4ff%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22307%22%20cy%3D%22155%22%20r%3D%2213%22%20fill%3D%22%23315efb%22%2F%3E%3Cpath%20d%3D%22M307%20168l-16%2025h32z%22%20fill%3D%22%23315efb%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3EHarita%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EKonum%20ili%C5%9Fkisini%20d%C3%BC%C5%9F%C3%BCn%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
       "imageAlt": "Harita illüstrasyonu",
       "questionType": "image-choice",
@@ -33,7 +33,7 @@
         "Perth"
       ],
       "answer": 2,
-      "time": 16,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -46,7 +46,7 @@
         "Alpler"
       ],
       "answer": 1,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -59,7 +59,7 @@
         "Karadeniz – Marmara Denizi"
       ],
       "answer": 3,
-      "time": 16,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -72,7 +72,7 @@
         "Zambezi"
       ],
       "answer": 2,
-      "time": 16,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -85,7 +85,7 @@
         "Arabistan Çölü"
       ],
       "answer": 0,
-      "time": 20,
+      "time": 15,
       "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22160%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cellipse%20cx%3D%22280%22%20cy%3D%22160%22%20rx%3D%2234%22%20ry%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%238aa0ff%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M208%20160h144M218%20128h124M218%20192h124%22%20fill%3D%22none%22%20stroke%3D%22%238aa0ff%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3ED%C3%BCnya%20%26%20Co%C4%9Frafya%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EG%C3%B6rsel%20ipucu%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
       "imageAlt": "Dünya küresi illüstrasyonu",
       "questionType": "image-choice",
@@ -103,7 +103,7 @@
         "Güney Afrika"
       ],
       "answer": 3,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -116,7 +116,7 @@
         "Akdeniz – Karadeniz"
       ],
       "answer": 1,
-      "time": 20,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -129,7 +129,7 @@
         "Ege Denizi"
       ],
       "answer": 0,
-      "time": 18,
+      "time": 15,
       "questionType": "multiple-choice"
     },
     {
@@ -142,7 +142,7 @@
         "Avustralya"
       ],
       "answer": 2,
-      "time": 22,
+      "time": 15,
       "questionType": "multiple-choice"
     }
   ],

@@ -22,6 +22,9 @@ let lastLobbyPlayerSignature = null;
 let roomPresencePin = null;
 let roomPresenceDisconnect = null;
 let currentQuestionVisual = null;
+let pendingDecisionAction = null;
+let intentionalRoomExit = false;
+const quizSeenRoomMarks = new Set();
 
 db.ref(".info/connected").on("value", async s => {
   const live = !!s.val();
@@ -152,7 +155,7 @@ async function setupHostPresence(force=false){
 }
 function estimateQuizMinutes(){
   if (!currentQuiz?.questions?.length) return 1;
-  const qSec=currentQuiz.questions.reduce((s,q)=>s+Number(q.time||20),0);
+  const qSec=currentQuiz.questions.length * Number(CFG.questionSeconds || 15);
   const tSec=currentQuiz.questions.length*Number(CFG.revealSeconds||5)+Math.max(0,currentQuiz.questions.length-1)*2.2+Number(CFG.countdownSeconds||3);
   return Math.max(1,Math.round((qSec+tSec)/60));
 }
@@ -190,6 +193,279 @@ function podiumCard(r,place){if(!r)return '<div></div>';const cls=place===1?'fir
 function detailedLeaderHtml(rows){return rows.map((r,i)=>`<li class="${r.uid===auth.currentUser.uid?'me':''}"><span class="rank">${i+1}</span><div><strong>${esc(r.name)}</strong><div class="finalPlayerSub">${r.correct}/${currentGame.meta.totalQuestions} doğru · Ort. ${formatSeconds(r.avgMs)}</div></div><span class="score">${r.score}</span></li>`).join('');}
 function celebrateFinal(){const layer=$('confettiLayer');if(!layer)return;layer.innerHTML='';for(let i=0;i<30;i++){const s=document.createElement('i');s.className='confetti';s.style.left=(3+Math.random()*94)+'%';s.style.animationDuration=(2.2+Math.random()*1.8)+'s';s.style.animationDelay=(Math.random()*.55)+'s';s.style.setProperty('--drift',((Math.random()-.5)*180)+'px');layer.appendChild(s);}setTimeout(()=>layer.innerHTML='',4500);}
 document.addEventListener('visibilitychange',async()=>{if(document.visibilityState!=='visible'||!currentRoom)return;try{const snap=await db.ref(`games/${currentRoom}`).get();if(snap.exists()){currentGame=snap.val();renderRoom();if(amHost()){await setupHostPresence().catch(()=>{});coordinateHost();}}}catch{}});
+
+
+function avatarHue(name){
+  let h = 0;
+  const s = String(name || "?");
+  for (let i=0;i<s.length;i++) h = (h * 31 + s.charCodeAt(i)) % 360;
+  return h;
+}
+
+function avatarHtml(name, {size="", host=false, mark=""} = {}){
+  const cls = ["avatarWrap", size, host ? "host" : ""].filter(Boolean).join(" ");
+  return `<div class="${cls}" style="--avatar-h:${avatarHue(name)}">
+    <div class="avatar">${esc(initials(name))}</div>
+    ${mark ? `<span class="avatarMark">${esc(mark)}</span>` : ""}
+  </div>`;
+}
+
+
+async function backfillLegacyQuizHistory(){
+  const user = auth.currentUser;
+  if (!user || isAdmin(user) || profile?.historyMigratedAt) return;
+
+  const snap = await db.ref(`activityLogs/${user.uid}`).get().catch(()=>null);
+  const logs = Object.values(snap?.val() || {});
+  const byQuiz = {};
+
+  logs.forEach(log => {
+    if (log?.type !== "game_finished" || !log.quizCode) return;
+    const code = String(log.quizCode).toUpperCase();
+    byQuiz[code] = byQuiz[code] || {
+      seenCount:0,
+      completedCount:0,
+      lastAt:0,
+      lastRoom:""
+    };
+    byQuiz[code].seenCount += 1;
+    byQuiz[code].completedCount += 1;
+    if (Number(log.at || 0) >= byQuiz[code].lastAt){
+      byQuiz[code].lastAt = Number(log.at || 0);
+      byQuiz[code].lastRoom = String(log.room || "").slice(0,12);
+    }
+  });
+
+  for (const [code, legacy] of Object.entries(byQuiz)){
+    await db.ref(`profiles/${user.uid}/quizHistory/${code}`).transaction(h => {
+      h = h || {};
+      h.seen = true;
+      h.seenCount = Math.max(Number(h.seenCount || 0), legacy.seenCount);
+      h.completedCount = Math.max(Number(h.completedCount || 0), legacy.completedCount);
+      h.lastSeenAt = Math.max(Number(h.lastSeenAt || 0), legacy.lastAt || serverNow());
+      h.lastCompletedAt = Math.max(Number(h.lastCompletedAt || 0), legacy.lastAt || serverNow());
+      h.lastRoom = h.lastRoom || legacy.lastRoom || "legacy";
+      h.lastCompletedRoom = h.lastCompletedRoom || legacy.lastRoom || "legacy";
+      return h;
+    });
+  }
+
+  await db.ref(`profiles/${user.uid}/historyMigratedAt`).set(TS);
+  const refreshed = await db.ref(`profiles/${user.uid}`).get();
+  profile = refreshed.val() || profile;
+}
+
+function priorQuizInfo(code){
+  const h = profile?.quizHistory?.[code] || {};
+  return {
+    seen: !!h.seen,
+    seenCount: Number(h.seenCount || 0),
+    completedCount: Number(h.completedCount || 0)
+  };
+}
+
+async function markQuizSeen(){
+  const user = auth.currentUser;
+  const code = currentGame?.meta?.quizCode;
+  if (!user || !code || !currentRoom || isAdmin(user)) return;
+
+  const markKey = `${currentRoom}:${code}:${user.uid}`;
+  if (quizSeenRoomMarks.has(markKey)) return;
+  quizSeenRoomMarks.add(markKey);
+
+  const ref = db.ref(`profiles/${user.uid}/quizHistory/${code}`);
+  const room = currentRoom;
+  const now = serverNow();
+
+  const tx = await ref.transaction(h => {
+    h = h || {};
+    const isNewRoom = h.lastRoom !== room;
+    h.seen = true;
+    h.seenCount = Number(h.seenCount || 0) + (isNewRoom ? 1 : 0);
+    h.lastSeenAt = now;
+    h.lastRoom = room;
+    h.completedCount = Number(h.completedCount || 0);
+    return h;
+  });
+
+  if (tx.committed){
+    profile = profile || {};
+    profile.quizHistory = profile.quizHistory || {};
+    profile.quizHistory[code] = tx.snapshot.val();
+  }
+}
+
+async function markQuizCompleted(){
+  const user = auth.currentUser;
+  const code = currentGame?.meta?.quizCode;
+  if (!user || !code || !currentRoom || isAdmin(user)) return;
+
+  const room = currentRoom;
+  const ref = db.ref(`profiles/${user.uid}/quizHistory/${code}`);
+  const now = serverNow();
+
+  const tx = await ref.transaction(h => {
+    h = h || {};
+    h.seen = true;
+    h.seenCount = Math.max(1, Number(h.seenCount || 0));
+    if (h.lastCompletedRoom !== room){
+      h.completedCount = Number(h.completedCount || 0) + 1;
+    }
+    h.lastCompletedRoom = room;
+    h.lastCompletedAt = now;
+    h.lastSeenAt = h.lastSeenAt || now;
+    h.lastRoom = h.lastRoom || room;
+    return h;
+  });
+
+  if (tx.committed){
+    profile = profile || {};
+    profile.quizHistory = profile.quizHistory || {};
+    profile.quizHistory[code] = tx.snapshot.val();
+  }
+}
+
+function openDecision({kicker="Yarışma", title, message, confirmLabel, danger=false, action}){
+  pendingDecisionAction = action || null;
+  $("decisionKicker").textContent = kicker;
+  $("decisionTitle").textContent = title;
+  $("decisionMessage").textContent = message;
+  $("decisionActions").innerHTML = `
+    <button class="btn ${danger ? "danger" : "primary"}" onclick="runDecision()">${esc(confirmLabel)}</button>
+  `;
+  $("decisionModal").classList.add("show");
+  $("decisionModal").setAttribute("aria-hidden","false");
+}
+
+function closeDecision(){
+  pendingDecisionAction = null;
+  $("decisionModal").classList.remove("show");
+  $("decisionModal").setAttribute("aria-hidden","true");
+}
+
+async function runDecision(){
+  const action = pendingDecisionAction;
+  closeDecision();
+  if (typeof action === "function") await action();
+}
+
+function confirmLeaveCompetition(){
+  if (!currentRoom || !currentGame) return renderHome();
+
+  const remaining = playersArray().filter(p => p.uid !== auth.currentUser?.uid);
+  const host = amHost();
+
+  const message = host
+    ? (remaining.length
+        ? "Kuruculuk odadaki başka bir oyuncuya geçecek. Sen yarışmadan çıkacaksın ama yarışma devam edecek."
+        : "Odada senden başka oyuncu yok. Çıkarsan bu oda kapanacak.")
+    : (currentGame.meta.state === "lobby"
+        ? "Lobiden ayrılacaksın. İstersen oyun başlamadan önce kodla tekrar katılabilirsin."
+        : "Yarışmadan ayrılacaksın. Oyun başladıktan sonra bu odaya tekrar katılamazsın.");
+
+  openDecision({
+    title:"Yarışmadan çıkılsın mı?",
+    message,
+    confirmLabel:"Evet, yarışmadan çık",
+    danger:false,
+    action:leaveCompetition
+  });
+}
+
+function confirmTerminateCompetition(){
+  if (!amHost()) return;
+  openDecision({
+    title:"Yarışma sonlandırılsın mı?",
+    message:"Oda tamamen kapanacak ve tüm oyuncular yarışmadan çıkarılacak. Bu işlem geri alınamaz.",
+    confirmLabel:"Evet, yarışmayı sonlandır",
+    danger:true,
+    action:terminateCompetition
+  });
+}
+
+async function removeOwnAnswerData(pin, uid, game){
+  const keys = Object.keys(game?.answers || {});
+  await Promise.all(keys.map(k =>
+    db.ref(`games/${pin}/answers/${k}/${uid}`).remove().catch(()=>{})
+  ));
+}
+
+async function leaveCompetition(){
+  const uid = auth.currentUser?.uid;
+  const pin = currentRoom;
+  if (!uid || !pin || !currentGame) return renderHome();
+
+  intentionalRoomExit = true;
+  const freshSnap = await db.ref(`games/${pin}`).get().catch(()=>null);
+
+  if (!freshSnap?.exists()){
+    localStorage.removeItem("quizsel_room");
+    stopRoomWatch();
+    intentionalRoomExit = false;
+    return renderHome();
+  }
+
+  const game = freshSnap.val();
+  const wasHost = game.meta?.hostUid === uid;
+  const players = Object.entries(game.players || {})
+    .map(([id,p]) => ({uid:id,...p}))
+    .sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
+  const remaining = players.filter(p => p.uid !== uid);
+
+  if (wasHost){
+    if (remaining.length === 0){
+      await logActivity("game_left", {room:pin, quizCode:game.meta?.quizCode, host:true});
+      await db.ref(`games/${pin}`).remove();
+    }else{
+      const nextHost = remaining[0];
+      const updates = {
+        "meta/hostUid": nextHost.uid,
+        "meta/hostName": nextHost.name || "Oyuncu",
+        "meta/hostOnline": false,
+        "meta/hostLastSeenAt": TS,
+        [`players/${uid}`]: null
+      };
+
+      Object.keys(game.answers || {}).forEach(k => {
+        updates[`answers/${k}/${uid}`] = null;
+      });
+
+      await db.ref(`games/${pin}`).update(updates);
+      await logActivity("game_left", {
+        room:pin,
+        quizCode:game.meta?.quizCode,
+        host:true,
+        transferredTo:nextHost.uid
+      });
+    }
+  }else{
+    await removeOwnAnswerData(pin, uid, game);
+    await db.ref(`games/${pin}/players/${uid}`).remove();
+    await logActivity("game_left", {room:pin, quizCode:game.meta?.quizCode, host:false});
+  }
+
+  localStorage.removeItem("quizsel_room");
+  stopRoomWatch();
+  intentionalRoomExit = false;
+  renderHome();
+  toast("Yarışmadan çıktın.");
+}
+
+async function terminateCompetition(){
+  if (!amHost() || !currentRoom) return;
+  const pin = currentRoom;
+  const quizCode = currentGame?.meta?.quizCode;
+
+  intentionalRoomExit = true;
+  await logActivity("game_terminated", {room:pin, quizCode});
+  await db.ref(`games/${pin}`).remove();
+
+  localStorage.removeItem("quizsel_room");
+  stopRoomWatch();
+  intentionalRoomExit = false;
+  renderHome();
+  toast("Yarışma sonlandırıldı.");
+}
 
 function togglePassword(id, btn){
   const input = $(id);
@@ -385,6 +661,8 @@ async function loadProfile(){
     usernameKey: "",
     stats: {games:0,wins:0,points:0}
   };
+
+  await backfillLegacyQuizHistory().catch(()=>{});
 }
 
 async function logActivity(type, extra = {}){
@@ -403,7 +681,7 @@ function renderHome(){
   const stats = profile?.stats || {games:0,wins:0,points:0};
 
   $("profileCard").innerHTML = `
-    <div class="avatar">${esc(initials(name))}</div>
+    ${avatarHtml(name,{host:false})}
     <div class="grow">
       <div class="name">${esc(name)}</div>
       <div class="sub">Quizsel hesabı</div>
@@ -560,7 +838,9 @@ async function hostQuiz(code){
           ready: false,
           score: 0,
           totalMs: 0,
-          joinedAt: now
+          joinedAt: now,
+          seenQuizBefore: priorQuizInfo(quiz.code).seen,
+          quizSeenCount: priorQuizInfo(quiz.code).seenCount
         }
       }
     };
@@ -605,12 +885,15 @@ async function joinByHomePin(){
   const exists = await db.ref(`games/${pin}/players/${user.uid}`).get();
 
   if (!exists.exists()){
+    const prior = priorQuizInfo(meta.quizCode);
     await db.ref(`games/${pin}/players/${user.uid}`).set({
       name: profile.username,
       ready: false,
       score: 0,
       totalMs: 0,
-      joinedAt: serverNow()
+      joinedAt: serverNow(),
+      seenQuizBefore: prior.seen,
+      quizSeenCount: prior.seenCount
     });
   }
 
@@ -631,7 +914,7 @@ function watchRoom(pin){
 
   roomListener = roomRef.on("value", async snap => {
     if (!snap.exists()){
-      toast("Oda kapandı.");
+      if (!intentionalRoomExit) toast("Yarışma sona erdi veya oda kapandı.");
       localStorage.removeItem("quizsel_room");
       stopRoomWatch();
       renderHome();
@@ -647,6 +930,9 @@ function watchRoom(pin){
       if (amHost()){
         await setupHostPresence().catch(()=>{});
         await maybeResetReadyAfterRosterChange().catch(()=>{});
+      }
+      if (["question","reveal","ended"].includes(currentGame.meta.state)){
+        await markQuizSeen().catch(()=>{});
       }
       renderRoom();
       coordinateHost();
@@ -686,18 +972,97 @@ function renderRoom(){
 }
 
 function renderLobby(){
-  stopPhaseTimer();hideCountdown();go('lobby');
-  $('hostBadge').style.display=amHost()?'inline-flex':'none';$('lobbyCode').textContent=currentRoom;$('lobbyQuizTitle').textContent=currentGame.meta.quizTitle;
-  const estimated=currentQuiz?.estimatedMinutes||estimateQuizMinutes();
-  $('lobbyQuizMeta').innerHTML=`<span class="badge">${currentGame.meta.totalQuestions} soru</span><span class="badge blue">${currentGame.meta.difficulty}/10 zorluk</span><span class="badge">≈ ${estimated} dk</span><span class="badge">${esc(currentQuiz?.category||'Quiz')}</span>`;
-  const hostStatus=$('hostStatusBanner');
-  if(amHost()){hostStatus.className='hostStatus online';hostStatus.textContent='Kurucu sensin · bağlantı aktif.';}
-  else if(currentGame.meta.hostOnline===false){hostStatus.className='hostStatus offline';hostStatus.textContent='Kurucunun bağlantısı koptu. Oda korunuyor; geri geldiğinde oyun devam edecek.';}
-  else{hostStatus.className='hostStatus online';hostStatus.textContent='Kurucu bağlı · oyun başlatılmaya hazır.';}
-  const me=myPlayer();$('readyBtn').textContent=me?.ready?'Hazırım ✓':'Hazırım';$('readyBtn').className=me?.ready?'btn primary':'btn soft';
-  const arr=playersArray().sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));$('lobbyPlayerCount').textContent=`${arr.length} oyuncu`;const list=$('playersList');list.innerHTML='';
-  arr.forEach(p=>{const d=document.createElement('div');d.className='player playerIn'+(p.uid===auth.currentUser.uid?' me':'');const role=p.uid===currentGame.meta.hostUid?'Kurucu':'Oyuncu';const remove=amHost()&&p.uid!==auth.currentUser.uid?`<button class="kickBtn" onclick="kickPlayer('${p.uid}')">Çıkar</button>`:'';d.innerHTML=`<div class="avatar">${esc(initials(p.name))}</div><div><div class="playerName">${esc(p.name)}</div><div class="playerSub">${role}</div></div><div class="playerActions"><span class="badge ${p.ready?'green':''}">${p.ready?'Hazır':'Bekliyor'}</span>${remove}</div>`;list.appendChild(d);});
-  const readyCount=arr.filter(p=>p.ready).length;$('readyState').textContent=allReady()?'Herkes hazır · Kurucu oyunu başlatabilir.':`${readyCount} / ${arr.length} kişi hazır`;$('hostStartArea').style.display=amHost()?'block':'none';$('hostStartBtn').disabled=!allReady();$('hostStartBtn').textContent=allReady()?'Herkes hazır · Oyunu başlat':'Oyunu başlat';
+  stopPhaseTimer();
+  hideCountdown();
+  go("lobby");
+
+  $("hostBadge").style.display = amHost() ? "inline-flex" : "none";
+  $("lobbyCode").textContent = currentRoom;
+  $("lobbyQuizTitle").textContent = currentGame.meta.quizTitle;
+
+  const estimated = currentQuiz?.estimatedMinutes || estimateQuizMinutes();
+  $("lobbyQuizMeta").innerHTML = `
+    <span class="badge">${currentGame.meta.totalQuestions} soru</span>
+    <span class="badge blue">${currentGame.meta.difficulty}/10 zorluk</span>
+    <span class="badge">≈ ${estimated} dk</span>
+    <span class="badge">${esc(currentQuiz?.category || "Quiz")}</span>
+  `;
+
+  const hostStatus = $("hostStatusBanner");
+  if (amHost()){
+    hostStatus.className = "hostStatus online";
+    hostStatus.textContent = "Kurucu sensin · bağlantı aktif.";
+  }else if (currentGame.meta.hostOnline === false){
+    hostStatus.className = "hostStatus offline";
+    hostStatus.textContent = "Kurucu değişiyor veya bağlantısı koptu. Oda korunuyor.";
+  }else{
+    hostStatus.className = "hostStatus online";
+    hostStatus.textContent = "Kurucu bağlı · oyun başlatılmaya hazır.";
+  }
+
+  const me = myPlayer();
+  $("readyBtn").textContent = me?.ready ? "Hazırım ✓" : "Hazırım";
+  $("readyBtn").className = me?.ready ? "btn primary" : "btn soft";
+
+  const arr = playersArray()
+    .sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
+
+  $("lobbyPlayerCount").textContent = `${arr.length} oyuncu`;
+
+  const seenCount = arr.filter(p => p.seenQuizBefore === true).length;
+  const exposure = $("quizExposureSummary");
+
+  if (seenCount === 0){
+    exposure.className = "exposureSummary allFresh";
+    exposure.textContent = "Bu lobideki herkes bu quizin sorularını ilk kez görüyor.";
+  }else{
+    exposure.className = "exposureSummary hasSeen";
+    exposure.textContent = `${seenCount} oyuncu bu quizin sorularını daha önce gördü. Oyuncu kartlarında kim olduğu işaretli.`;
+  }
+
+  const list = $("playersList");
+  list.innerHTML = "";
+
+  arr.forEach(p => {
+    const d = document.createElement("div");
+    d.className = "player playerIn" + (p.uid === auth.currentUser.uid ? " me" : "");
+
+    const isRoomHost = p.uid === currentGame.meta.hostUid;
+    const role = isRoomHost ? "Kurucu" : "Oyuncu";
+    const historyBadge = p.seenQuizBefore
+      ? `<span class="badge seenQuiz">Daha önce gördü${p.quizSeenCount ? ` · ${p.quizSeenCount} kez` : ""}</span>`
+      : `<span class="badge freshQuiz">İlk kez</span>`;
+
+    const remove = amHost() && p.uid !== auth.currentUser.uid
+      ? `<button class="kickBtn" onclick="kickPlayer('${p.uid}')">Çıkar</button>`
+      : "";
+
+    d.innerHTML = `
+      ${avatarHtml(p.name,{host:isRoomHost,mark:isRoomHost ? "K" : ""})}
+      <div>
+        <div class="playerName">${esc(p.name)}</div>
+        <div class="playerSub">${role}</div>
+      </div>
+      <div class="playerActions">
+        ${historyBadge}
+        <span class="badge ${p.ready ? "green" : ""}">${p.ready ? "Hazır" : "Bekliyor"}</span>
+        ${remove}
+      </div>
+    `;
+
+    list.appendChild(d);
+  });
+
+  const readyCount = arr.filter(p => p.ready).length;
+  $("readyState").textContent = allReady()
+    ? "Herkes hazır · Kurucu oyunu başlatabilir."
+    : `${readyCount} / ${arr.length} kişi hazır`;
+
+  $("hostStartArea").style.display = amHost() ? "block" : "none";
+  $("hostStartBtn").disabled = !allReady();
+  $("hostStartBtn").textContent = allReady()
+    ? "Herkes hazır · Oyunu başlat"
+    : "Oyunu başlat";
 }
 
 async function toggleReady(){
@@ -770,6 +1135,7 @@ function renderGame(){
   if (!q) return;
 
   $("gameHostBadge").style.display = amHost() ? "inline-flex" : "none";
+  $("gameTerminateBtn").style.display = amHost() ? "inline-flex" : "none";
   $("gameRoomBadge").textContent = "Oda " + currentRoom;
   $("gameProgress").textContent =
     `Soru ${meta.currentIndex + 1} / ${meta.totalQuestions}`;
@@ -898,7 +1264,10 @@ function leaderHtml(){
     .map((r,i) => `
       <li class="${r.uid === auth.currentUser.uid ? "me" : ""}">
         <span class="rank">${i+1}</span>
-        <strong>${esc(r.name)}</strong>
+        <div class="leaderIdentity">
+          ${avatarHtml(r.name,{size:"micro",mark:i===0 ? "1" : ""})}
+          <div class="leaderIdentityText"><strong>${esc(r.name)}</strong></div>
+        </div>
         <span class="score">${r.score}</span>
       </li>
     `)
@@ -907,7 +1276,7 @@ function leaderHtml(){
 
 function renderFinal(){
   stopPhaseTimer();hideCountdown();go('final');const rows=detailedLeaderRows();$('finalQuiz').textContent=currentGame.meta.quizTitle;
-  if(rows[0]){$('winnerText').textContent=`${rows[0].name} kazandı`;const gap=rows[1]?rows[0].score-rows[1].score:null;$('finalGap').textContent=gap===null?`${rows[0].score} puan`:gap===0?'Puanlar eşit · daha hızlı toplam süre sıralamayı belirledi.':`${gap} puan farkla birinci.`;}else{$('winnerText').textContent='Oyun tamamlandı';$('finalGap').textContent='';}
+  if(rows[0]){$('finalWinnerAvatar').innerHTML=avatarHtml(rows[0].name,{size:"hero",mark:"1"});$('winnerText').textContent=`${rows[0].name} kazandı`;const gap=rows[1]?rows[0].score-rows[1].score:null;$('finalGap').textContent=gap===null?`${rows[0].score} puan`:gap===0?'Puanlar eşit · daha hızlı toplam süre sıralamayı belirledi.':`${gap} puan farkla birinci.`;}else{$('finalWinnerAvatar').innerHTML='';$('winnerText').textContent='Oyun tamamlandı';$('finalGap').textContent='';}
   $('finalPodium').innerHTML=podiumCard(rows[1]||null,2)+podiumCard(rows[0]||null,1)+podiumCard(rows[2]||null,3);$('finalBoard').innerHTML=detailedLeaderHtml(rows);celebrateFinal();recordOwnFinal(rows);
 }
 
@@ -937,6 +1306,8 @@ async function recordOwnFinal(rows){
     return s;
   }).catch(() => {});
 
+  await markQuizCompleted().catch(()=>{});
+
   await logActivity("game_finished", {
     room: currentRoom,
     quizCode: currentGame.meta.quizCode,
@@ -959,29 +1330,7 @@ async function finishGame(){
 }
 
 async function leaveLobby(){
-  const uid = auth.currentUser?.uid;
-
-  if (
-    currentRoom &&
-    uid &&
-    currentGame?.meta?.state === "lobby"
-  ){
-    const wasHost = amHost();
-
-    await db.ref(`games/${currentRoom}/players/${uid}`)
-      .remove()
-      .catch(() => {});
-
-    if (wasHost){
-      await db.ref(`games/${currentRoom}`)
-        .remove()
-        .catch(() => {});
-    }
-  }
-
-  localStorage.removeItem("quizsel_room");
-  stopRoomWatch();
-  renderHome();
+  confirmLeaveCompetition();
 }
 
 function copyRoomCode(){
@@ -1039,7 +1388,7 @@ async function beginQuestion(index){
     currentIndex: index,
     currentKey: qKey(index),
     phaseStartedAt: now,
-    phaseEndsAt: now + (q.time || 20) * 1000,
+    phaseEndsAt: now + Number(CFG.questionSeconds || 15) * 1000,
     revealCorrect: null
   });
 }
@@ -1063,7 +1412,7 @@ async function revealQuestion(g){
       (a.answeredAt || meta.phaseEndsAt) - meta.phaseStartedAt
     );
 
-    const limit = (q.time || 20) * 1000;
+    const limit = Number(CFG.questionSeconds || 15) * 1000;
     const frac = Math.min(1, elapsed / limit);
     const correct = a.choice === q.answer;
     const points = correct
@@ -1192,4 +1541,4 @@ auth.onAuthStateChanged(async user => {
   }
 })();
 
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeQuestionImage();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeQuestionImage();closeDecision();}});
