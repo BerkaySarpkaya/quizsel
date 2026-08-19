@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "quizzes": [
     {
       "code": "QZ001",
@@ -57,6 +57,86 @@
       "difficulty": 6,
       "questions": 10,
       "file": "QZ007.json"
+    },
+    {
+      "code": "Y.Q001",
+      "title": "Yeni Genel Kültür — 01",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ001.json"
+    },
+    {
+      "code": "Y.Q002",
+      "title": "Yeni Genel Kültür — 02",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ002.json"
+    },
+    {
+      "code": "Y.Q003",
+      "title": "Yeni Genel Kültür — 03",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ003.json"
+    },
+    {
+      "code": "Y.Q004",
+      "title": "Yeni Genel Kültür — 04",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ004.json"
+    },
+    {
+      "code": "Y.Q005",
+      "title": "Yeni Genel Kültür — 05",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ005.json"
+    },
+    {
+      "code": "Y.Q006",
+      "title": "Yeni Genel Kültür — 06",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ006.json"
+    },
+    {
+      "code": "Y.Q007",
+      "title": "Yeni Genel Kültür — 07",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ007.json"
+    },
+    {
+      "code": "Y.Q008",
+      "title": "Yeni Genel Kültür — 08",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ008.json"
+    },
+    {
+      "code": "Y.Q009",
+      "title": "Yeni Genel Kültür — 09",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ009.json"
+    },
+    {
+      "code": "Y.Q010",
+      "title": "Yeni Genel Kültür — 10",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ010.json"
     }
   ]
 }

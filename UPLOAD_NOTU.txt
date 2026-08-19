@@ -1,0 +1,19 @@
+QUIZSEL — YENİ GENEL KÜLTÜR PAKETİ
+
+Bu klasörde 10 yeni quiz vardır:
+Y.Q001 ... Y.Q010
+
+GitHub'a repo ana dizinine yükle:
+- YQ001.json ... YQ010.json
+- quiz-index.json
+
+ÖNEMLİ:
+Uygulamada görünen quiz kodları Y.Q001 biçimindedir.
+Dosya adları ve Firebase-safe iç kodlar YQ001 biçimindedir.
+Mevcut Quizsel kodu "Y.Q001" yazıldığında noktayı otomatik temizleyip YQ001.json dosyasını açar.
+
+Tüm quizler:
+- Genel kültür / karma kategori
+- 10 soru
+- zorluk 6/10
+- soru süresi 15 saniye

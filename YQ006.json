@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ006",
+  "displayCode": "Y.Q006",
+  "title": "Yeni Genel Kültür — 06",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Meiji Restorasyonu hangi ülkede gerçekleşmiştir?",
+      "options": [
+        "Çin",
+        "Japonya",
+        "Kore",
+        "Tayland"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Moğolistan'ın başkenti hangisidir?",
+      "options": [
+        "Ulan Batur",
+        "Bişkek",
+        "Taşkent",
+        "Astana"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ozonun kimyasal formülü hangisidir?",
+      "options": [
+        "O₄",
+        "CO₃",
+        "O₃",
+        "O₂"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Venüs'ün Doğuşu (The Birth of Venus) tablosunun ressamı kimdir?",
+      "options": [
+        "Titian",
+        "Caravaggio",
+        "Raffaello",
+        "Sandro Botticelli"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Prag kentinden geçen nehir hangisidir?",
+      "options": [
+        "Vltava",
+        "Oder",
+        "Ren",
+        "Tuna"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Alfred Nobel'in vasiyetinde başlangıçta kaç ayrı ödül alanı bulunuyordu?",
+      "options": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Suç ve Ceza romanının yazarı kimdir?",
+      "options": [
+        "İvan Turgenyev",
+        "Fyodor Dostoyevski",
+        "Lev Tolstoy",
+        "Nikolay Gogol"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Işığın boşluktaki hızı yaklaşık kaç km/s'dir?",
+      "options": [
+        "3.000.000 km/s",
+        "300.000 km/s",
+        "150.000 km/s",
+        "30.000 km/s"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Angkor Wat tapınak kompleksi hangi ülkededir?",
+      "options": [
+        "Myanmar",
+        "Kamboçya",
+        "Laos",
+        "Tayland"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kimyasal sembolü Sn olan element hangisidir?",
+      "options": [
+        "Antimon",
+        "Çinko",
+        "Kurşun",
+        "Kalay"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

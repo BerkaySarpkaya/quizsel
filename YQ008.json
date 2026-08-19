@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ008",
+  "displayCode": "Y.Q008",
+  "title": "Yeni Genel Kültür — 08",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Rosetta Taşı üzerindeki üç yazı sisteminden biri hangisidir?",
+      "options": [
+        "Antik Yunanca",
+        "Fenikece",
+        "Latince",
+        "Sanskritçe"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Şili'nin başkenti hangisidir?",
+      "options": [
+        "Concepción",
+        "Antofagasta",
+        "Santiago",
+        "Valparaíso"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "25°C'de saf suyun nötr pH değeri kaçtır?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İnsanoğlu (The Son of Man) tablosunun ressamı kimdir?",
+      "options": [
+        "Salvador Dalí",
+        "Joan Miró",
+        "René Magritte",
+        "Marc Chagall"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Kızıldeniz esas olarak Afrika ile hangi yarımada arasında yer alır?",
+      "options": [
+        "Hindistan Yarımadası",
+        "Arap Yarımadası",
+        "İber Yarımadası",
+        "Balkan Yarımadası"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Celsius ve Fahrenheit ölçekleri hangi sıcaklıkta aynı sayısal değeri gösterir?",
+      "options": [
+        "-40°",
+        "0°",
+        "-20°",
+        "40°"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Usta ile Margarita romanının yazarı kimdir?",
+      "options": [
+        "Aleksandr Soljenitsin",
+        "Vladimir Nabokov",
+        "Mihail Bulgakov",
+        "Boris Pasternak"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Modern olimpik maratonun resmi mesafesi kaç kilometredir?",
+      "options": [
+        "41,195 km",
+        "42,195 km",
+        "42,500 km",
+        "40,000 km"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dünya'daki yüzölçümü en büyük tektonik levha hangisidir?",
+      "options": [
+        "Afrika Levhası",
+        "Pasifik Levhası",
+        "Avrasya Levhası",
+        "Kuzey Amerika Levhası"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Frekansın SI birimi hangisidir?",
+      "options": [
+        "Tesla",
+        "Watt",
+        "Lümen",
+        "Hertz"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

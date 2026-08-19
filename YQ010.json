@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ010",
+  "displayCode": "Y.Q010",
+  "title": "Yeni Genel Kültür — 10",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1713 Utrecht Antlaşmaları en çok hangi savaşın sona erdirilmesiyle ilişkilidir?",
+      "options": [
+        "Otuz Yıl Savaşları",
+        "Kırım Savaşı",
+        "İspanya Veraset Savaşı",
+        "Yedi Yıl Savaşları"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Peru'nun başkenti hangisidir?",
+      "options": [
+        "Quito",
+        "Lima",
+        "Asunción",
+        "La Paz"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ökaryotik hücrelerde rRNA sentezi ve ribozom alt birimlerinin ilk montajı ağırlıklı olarak hangi yapıda gerçekleşir?",
+      "options": [
+        "Çekirdekçik",
+        "Sentrozom",
+        "Golgi aygıtı",
+        "Lizozom"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Sihirli Flüt (Die Zauberflöte) operasının bestecisi kimdir?",
+      "options": [
+        "Richard Wagner",
+        "Joseph Haydn",
+        "Wolfgang Amadeus Mozart",
+        "Gioachino Rossini"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Hürmüz Boğazı hangi iki su kütlesini birbirine bağlar?",
+      "options": [
+        "Basra Körfezi ile Umman Körfezi",
+        "Arap Denizi ile Kızıldeniz",
+        "Akdeniz ile Karadeniz",
+        "Kızıldeniz ile Aden Körfezi"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Dorian Gray'in Portresi romanının yazarı kimdir?",
+      "options": [
+        "Charles Dickens",
+        "Robert Louis Stevenson",
+        "Oscar Wilde",
+        "Thomas Hardy"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kimyasal sembolü K olan element hangisidir?",
+      "options": [
+        "Kobalt",
+        "Kripton",
+        "Kalsiyum",
+        "Potasyum"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "1893'te kadınlara ulusal parlamento seçimlerinde oy hakkı tanıyan ilk kendi kendini yöneten ülke olarak kabul edilen ülke hangisidir?",
+      "options": [
+        "Yeni Zelanda",
+        "Norveç",
+        "Avustralya",
+        "Finlandiya"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Angel Şelalesi hangi ülkededir?",
+      "options": [
+        "Guyana",
+        "Brezilya",
+        "Kolombiya",
+        "Venezuela"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Macarca hangi dil ailesine aittir?",
+      "options": [
+        "Slav dil ailesi",
+        "Cermen dil ailesi",
+        "Ural dil ailesi",
+        "Roman dil ailesi"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

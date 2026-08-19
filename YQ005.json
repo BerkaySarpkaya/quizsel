@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ005",
+  "displayCode": "Y.Q005",
+  "title": "Yeni Genel Kültür — 05",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1494 Tordesillas Antlaşması esas olarak hangi iki krallık arasında imzalanmıştır?",
+      "options": [
+        "Fransa ile Portekiz",
+        "İspanya ile Portekiz",
+        "Portekiz ile İngiltere",
+        "İspanya ile Fransa"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kanada'nın başkenti hangisidir?",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Güneş ışığı etkisiyle insan derisinde sentezlenebilen vitamin hangisidir?",
+      "options": [
+        "K vitamini",
+        "C vitamini",
+        "A vitamini",
+        "D vitamini"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Öpücük (The Kiss) adlı ünlü mermer heykelin sanatçısı kimdir?",
+      "options": [
+        "Donatello",
+        "Gian Lorenzo Bernini",
+        "Auguste Rodin",
+        "Constantin Brâncuși"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Periyodik tablonun atom numarası 1 olan ilk elementi hangisidir?",
+      "options": [
+        "Helyum",
+        "Oksijen",
+        "Hidrojen",
+        "Lityum"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Baykal Gölü hangi ülkededir?",
+      "options": [
+        "Rusya",
+        "Kazakistan",
+        "Moğolistan",
+        "Çin"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Körlük (Ensaio sobre a Cegueira) romanının yazarı kimdir?",
+      "options": [
+        "Mario Vargas Llosa",
+        "Fernando Pessoa",
+        "José Saramago",
+        "Jorge Luis Borges"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "İlk FIFA Dünya Kupası 1930'da hangi ülkede düzenlenmiştir?",
+      "options": [
+        "Uruguay",
+        "Brezilya",
+        "İtalya",
+        "Arjantin"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İnsan vücudundaki en büyük iç organ hangisidir?",
+      "options": [
+        "Karaciğer",
+        "Pankreas",
+        "Akciğer",
+        "Beyin"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Voyager 1 uzay aracı hangi yıl fırlatılmıştır?",
+      "options": [
+        "1977",
+        "1969",
+        "1972",
+        "1981"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ009",
+  "displayCode": "Y.Q009",
+  "title": "Yeni Genel Kültür — 09",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1814-1815 Viyana Kongresi, Avrupa düzenini esas olarak hangi savaşlar dizisinin ardından yeniden şekillendirmeyi amaçladı?",
+      "options": [
+        "Otuz Yıl Savaşları",
+        "Yedi Yıl Savaşları",
+        "Napolyon Savaşları",
+        "Kırım Savaşı"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Madagaskar'ın başkenti hangisidir?",
+      "options": [
+        "Lilongwe",
+        "Antananarivo",
+        "Maputo",
+        "Lusaka"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Böbreğin temel işlevsel birimi hangisidir?",
+      "options": [
+        "Villus",
+        "Nöron",
+        "Alveol",
+        "Nefron"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "American Gothic tablosunun ressamı kimdir?",
+      "options": [
+        "Edward Hopper",
+        "Jackson Pollock",
+        "Grant Wood",
+        "Norman Rockwell"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Yaşlı Adam ve Deniz (The Old Man and the Sea) eserinin yazarı kimdir?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "Ernest Hemingway",
+        "John Steinbeck"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Danimarka Boğazı hangi iki kara kütlesi arasında yer alır?",
+      "options": [
+        "Grönland ile İzlanda",
+        "Danimarka ile İsveç",
+        "İzlanda ile Norveç",
+        "Britanya ile Fransa"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kimyasal sembolü Ag olan element hangisidir?",
+      "options": [
+        "Altın",
+        "Argon",
+        "Gümüş",
+        "Kalay"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Standart basketbol potasının çember yüksekliği yaklaşık kaç metredir?",
+      "options": [
+        "2,75 m",
+        "3,50 m",
+        "3,25 m",
+        "3,05 m"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kıtalar hariç tutulduğunda dünyanın en büyük adası hangisidir?",
+      "options": [
+        "Yeni Gine",
+        "Grönland",
+        "Madagaskar",
+        "Borneo"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Uranüs'ün en büyük uydusu hangisidir?",
+      "options": [
+        "Titania",
+        "Ariel",
+        "Miranda",
+        "Oberon"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

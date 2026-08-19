@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ002",
+  "displayCode": "Y.Q002",
+  "title": "Yeni Genel Kültür — 02",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1856'da Kırım Savaşı'nı sona erdiren antlaşma hangisidir?",
+      "options": [
+        "Londra Antlaşması",
+        "Ayastefanos Antlaşması",
+        "Paris Antlaşması",
+        "Berlin Antlaşması"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yeni Zelanda'nın başkenti hangisidir?",
+      "options": [
+        "Dunedin",
+        "Christchurch",
+        "Auckland",
+        "Wellington"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Manyetik akı yoğunluğunun SI birimi hangisidir?",
+      "options": [
+        "Gauss",
+        "Henry",
+        "Weber",
+        "Tesla"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Dört Mevsim (The Four Seasons) adlı konçerto dizisinin bestecisi kimdir?",
+      "options": [
+        "Arcangelo Corelli",
+        "Johann Sebastian Bach",
+        "Georg Friedrich Händel",
+        "Antonio Vivaldi"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Maksimum derinliği bakımından dünyanın en derin tatlı su gölü hangisidir?",
+      "options": [
+        "Tanganyika Gölü",
+        "Victoria Gölü",
+        "Superior Gölü",
+        "Baykal Gölü"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Küçük Prens (Le Petit Prince) adlı eserin yazarı kimdir?",
+      "options": [
+        "Victor Hugo",
+        "Jules Verne",
+        "Antoine de Saint-Exupéry",
+        "Albert Camus"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "İlk modern Olimpiyat Oyunları 1896'da hangi şehirde düzenlenmiştir?",
+      "options": [
+        "Londra",
+        "Atina",
+        "Roma",
+        "Paris"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Mohs sertlik ölçeğinde en yüksek değere sahip doğal mineral hangisidir?",
+      "options": [
+        "Kuvars",
+        "Elmas",
+        "Korindon",
+        "Topaz"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Penisilinin keşfiyle özdeşleşen bilim insanı kimdir?",
+      "options": [
+        "Robert Koch",
+        "Joseph Lister",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Machu Picchu hangi uygarlık tarafından inşa edilmiştir?",
+      "options": [
+        "Olmek",
+        "Maya",
+        "İnka",
+        "Aztek"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

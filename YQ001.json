@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ001",
+  "displayCode": "Y.Q001",
+  "title": "Yeni Genel Kültür — 01",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Avrupa Birliği'nin kurulmasının hukuki temelini oluşturan ve 1993'te yürürlüğe giren antlaşma hangisidir?",
+      "options": [
+        "Maastricht Antlaşması",
+        "Lizbon Antlaşması",
+        "Schengen Anlaşması",
+        "Roma Antlaşması"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kutup bölgeleri dışındaki en büyük sıcak çöl hangisidir?",
+      "options": [
+        "Sahra Çölü",
+        "Arabistan Çölü",
+        "Gobi Çölü",
+        "Kalahari Çölü"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Gece Devriyesi (The Night Watch) tablosunun ressamı kimdir?",
+      "options": [
+        "Johannes Vermeer",
+        "Rembrandt",
+        "Frans Hals",
+        "Peter Paul Rubens"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Atom numarası 79 olan element hangisidir?",
+      "options": [
+        "Altın",
+        "Gümüş",
+        "Platin",
+        "Cıva"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Gülün Adı (The Name of the Rose) romanının yazarı kimdir?",
+      "options": [
+        "José Saramago",
+        "Milan Kundera",
+        "Italo Calvino",
+        "Umberto Eco"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Marakeş şehri hangi ülkededir?",
+      "options": [
+        "Fas",
+        "Cezayir",
+        "Ürdün",
+        "Tunus"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Wimbledon tenis turnuvasının geleneksel kort zemini hangisidir?",
+      "options": [
+        "Halı",
+        "Çim",
+        "Sert kort",
+        "Toprak"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nobel Ödülü kazanan ilk kadın kimdir?",
+      "options": [
+        "Jane Addams",
+        "Selma Lagerlöf",
+        "Marie Curie",
+        "Bertha von Suttner"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "UNESCO'nun genel merkezi hangi şehirdedir?",
+      "options": [
+        "Cenevre",
+        "Paris",
+        "New York",
+        "Brüksel"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Neptün'ün en büyük uydusu hangisidir?",
+      "options": [
+        "Titan",
+        "Charon",
+        "Titania",
+        "Triton"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

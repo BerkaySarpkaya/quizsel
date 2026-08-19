@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ003",
+  "displayCode": "Y.Q003",
+  "title": "Yeni Genel Kültür — 03",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Antik Pompeii kentini MS 79'da büyük ölçüde yok eden yanardağ hangisidir?",
+      "options": [
+        "Vezüv",
+        "Vulcano",
+        "Stromboli",
+        "Etna"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Namibya'nın başkenti hangisidir?",
+      "options": [
+        "Lusaka",
+        "Gaborone",
+        "Maputo",
+        "Windhoek"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnci Küpeli Kız (Girl with a Pearl Earring) tablosunun ressamı kimdir?",
+      "options": [
+        "Frans Hals",
+        "Rembrandt",
+        "Jan Steen",
+        "Johannes Vermeer"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Gücün SI birimi hangisidir?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Joule",
+        "Newton"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Tamamı Avrupa kıtası içinde akan en uzun nehir hangisidir?",
+      "options": [
+        "Volga",
+        "Tuna",
+        "Dinyeper",
+        "Ren"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Karanlığın Yüreği (Heart of Darkness) romanının yazarı kimdir?",
+      "options": [
+        "W. Somerset Maugham",
+        "Joseph Conrad",
+        "Rudyard Kipling",
+        "Robert Louis Stevenson"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Dünya atmosferinde hacimce en fazla bulunan gaz hangisidir?",
+      "options": [
+        "Azot",
+        "Argon",
+        "Oksijen",
+        "Karbondioksit"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Petra antik kenti günümüzde hangi ülke sınırları içindedir?",
+      "options": [
+        "Suriye",
+        "Ürdün",
+        "Mısır",
+        "Lübnan"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Yapay yollarla üretilen ilk element olarak kabul edilen element hangisidir?",
+      "options": [
+        "Neptünyum",
+        "Polonyum",
+        "Teknesyum",
+        "Uranyum"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Tour de France'ta genel klasman liderinin giydiği mayo hangi renktir?",
+      "options": [
+        "Yeşil",
+        "Kırmızı",
+        "Beyaz",
+        "Sarı"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
