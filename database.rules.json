@@ -53,7 +53,7 @@
       ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
       "$pin": {
         ".read": "auth != null",
-        ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (data.exists() && data.child('meta').child('hostUid').val() == auth.uid && !newData.exists()))",
+        ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (!data.exists() && newData.child('meta').child('hostUid').val() == auth.uid && newData.child('meta').child('state').val() == 'lobby' && newData.child('players').child(auth.uid).exists()) || (data.exists() && data.child('meta').child('hostUid').val() == auth.uid))",
         "meta": {
           ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (!data.exists() && newData.child('hostUid').val() == auth.uid) || (data.exists() && data.child('hostUid').val() == auth.uid))",
           ".validate": "newData.hasChildren(['hostUid','hostName','quizCode','quizTitle','state','currentIndex','currentKey','createdAt']) && (!data.exists() || newData.child('hostUid').val() == data.child('hostUid').val())"

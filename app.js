@@ -467,33 +467,35 @@ async function hostQuiz(code){
     if (exists.exists()) continue;
 
     const now = serverNow();
-    const updates = {};
 
-    updates[`games/${pin}/meta`] = {
-      hostUid: user.uid,
-      hostName: profile.username,
-      quizCode: quiz.code,
-      quizTitle: quiz.title,
-      difficulty: quiz.difficulty || 6,
-      totalQuestions: quiz.questions.length,
-      state: "lobby",
-      currentIndex: 0,
-      currentKey: "q0",
-      phaseStartedAt: 0,
-      phaseEndsAt: 0,
-      revealCorrect: null,
-      createdAt: now
+    const roomData = {
+      meta: {
+        hostUid: user.uid,
+        hostName: profile.username,
+        quizCode: quiz.code,
+        quizTitle: quiz.title,
+        difficulty: quiz.difficulty || 6,
+        totalQuestions: quiz.questions.length,
+        state: "lobby",
+        currentIndex: 0,
+        currentKey: "q0",
+        phaseStartedAt: 0,
+        phaseEndsAt: 0,
+        revealCorrect: null,
+        createdAt: now
+      },
+      players: {
+        [user.uid]: {
+          name: profile.username,
+          ready: false,
+          score: 0,
+          totalMs: 0,
+          joinedAt: now
+        }
+      }
     };
 
-    updates[`games/${pin}/players/${user.uid}`] = {
-      name: profile.username,
-      ready: false,
-      score: 0,
-      totalMs: 0,
-      joinedAt: now
-    };
-
-    await db.ref().update(updates);
+    await db.ref(`games/${pin}`).set(roomData);
 
     await logActivity("game_created", {
       room: pin,
