@@ -1,1114 +1,219 @@
 <!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#f7f8fb" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f6fa">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <title>Quizsel</title>
-  <style>
-    :root{
-      --bg:#f7f8fb;
-      --surface:#ffffff;
-      --surface-2:#f1f3f8;
-      --text:#121826;
-      --muted:#697386;
-      --line:#e5e9f0;
-      --primary:#315efb;
-      --primary-strong:#2448cf;
-      --success:#138a5b;
-      --danger:#c83a4a;
-      --warning:#b87500;
-      --shadow:0 14px 40px rgba(20,31,55,.08);
-      --radius:20px;
-      --radius-sm:14px;
-    }
-    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Arial,sans-serif}
-    body{min-height:100vh}
-    button,input,textarea,select{font:inherit}
-    button{cursor:pointer}
-    .app{max-width:620px;margin:0 auto;min-height:100vh;padding:max(20px,env(safe-area-inset-top)) 18px calc(28px + env(safe-area-inset-bottom))}
-    .view{display:none}
-    .view.active{display:block;animation:fade .18s ease}
-    @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
-
-    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px}
-    .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.5px;font-size:24px}
-    .brand-mark{width:28px;height:28px;border-radius:9px;background:var(--primary);display:grid;place-items:center;color:#fff;font-weight:900;font-size:14px;box-shadow:0 7px 18px rgba(49,94,251,.22)}
-    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:800}
-    h1,h2,h3,p{margin-top:0}
-    h1{font-size:38px;line-height:1.06;letter-spacing:-1.2px;margin-bottom:12px}
-    h2{font-size:26px;line-height:1.15;letter-spacing:-.6px;margin-bottom:8px}
-    h3{font-size:18px;margin-bottom:6px}
-    .lead{font-size:17px;line-height:1.5;color:var(--muted);margin-bottom:28px}
-    .muted{color:var(--muted)}
-    .small{font-size:13px}
-    .tiny{font-size:12px}
-    .center{text-align:center}
-
-    .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
-    .card + .card{margin-top:14px}
-    .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
-    .section{margin-top:24px}
-    .section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:12px}
-    .section-head h3{margin:0}
-    .divider{height:1px;background:var(--line);margin:18px 0}
-
-    .btn{width:100%;min-height:54px;border:0;border-radius:16px;padding:14px 16px;font-weight:800;font-size:16px;transition:.12s ease;display:flex;align-items:center;justify-content:center;gap:9px}
-    .btn:active{transform:scale(.985)}
-    .btn.primary{background:var(--primary);color:#fff}
-    .btn.primary:hover{background:var(--primary-strong)}
-    .btn.secondary{background:var(--surface);color:var(--text);border:1px solid var(--line)}
-    .btn.ghost{background:transparent;color:var(--primary);border:1px solid #dfe5ff}
-    .btn.danger{background:#fff3f4;color:var(--danger);border:1px solid #f5d8dc}
-    .btn.small{width:auto;min-height:40px;padding:9px 12px;border-radius:12px;font-size:14px}
-    .btn[disabled]{opacity:.45;cursor:not-allowed}
-    .actions{display:grid;gap:12px}
-    .actions.two{grid-template-columns:1fr 1fr}
-    @media(max-width:430px){.actions.two{grid-template-columns:1fr}}
-
-    .home-hero{padding-top:34px}
-    .home-actions{display:grid;gap:12px;margin-top:22px}
-    .home-note{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13px;margin-top:18px}
-    .dot{width:8px;height:8px;border-radius:50%;background:#9aa4b6}
-    .dot.live{background:var(--success);box-shadow:0 0 0 4px rgba(19,138,91,.10)}
-
-    label{display:block;font-size:13px;font-weight:800;color:#344054;margin:14px 0 7px}
-    input,textarea,select{
-      width:100%;border:1px solid #d9dee8;border-radius:14px;background:#fff;color:var(--text);
-      padding:13px 14px;outline:none;font-size:16px;transition:.12s ease;
-    }
-    input:focus,textarea:focus,select:focus{border-color:#9bb0ff;box-shadow:0 0 0 4px rgba(49,94,251,.08)}
-    textarea{resize:vertical;min-height:88px}
-    .pin-input{font-size:28px;font-weight:850;letter-spacing:.16em;text-align:center}
-    .field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    @media(max-width:430px){.field-row{grid-template-columns:1fr}}
-    .error{display:none;margin-top:12px;background:#fff3f4;border:1px solid #f3d2d7;color:#9d2735;border-radius:12px;padding:11px 12px;font-size:13px;font-weight:700}
-    .error.show{display:block}
-
-    .back{border:0;background:transparent;color:var(--muted);font-weight:800;padding:8px 0}
-    .back:before{content:"←";margin-right:7px}
-
-    .quiz-grid{display:grid;gap:12px}
-    .quiz-item{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;gap:14px;align-items:center}
-    .quiz-item .meta{flex:1;min-width:0}
-    .quiz-item h3{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:4px}
-    .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;color:var(--muted);background:#fafbfc}
-    .badge.blue{color:var(--primary);background:#f2f5ff;border-color:#dde4ff}
-    .badge.green{color:var(--success);background:#effaf6;border-color:#d5f0e6}
-    .badge.orange{color:var(--warning);background:#fff8ea;border-color:#f7e6bd}
-    .row-badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-
-    .lobby-code{font-size:52px;font-weight:900;letter-spacing:.15em;text-align:center;margin:18px 0 8px;color:var(--primary)}
-    .copy-line{text-align:center;color:var(--muted);font-size:13px;margin-bottom:22px}
-    .player-list{display:grid;gap:8px}
-    .player{display:flex;align-items:center;gap:10px;padding:11px 12px;border:1px solid var(--line);border-radius:13px;background:#fff}
-    .avatar{width:34px;height:34px;border-radius:11px;background:#eef2ff;color:var(--primary);display:grid;place-items:center;font-weight:900}
-    .player .name{font-weight:800;flex:1}
-    .player .score{font-weight:900;color:var(--primary)}
-    .empty{padding:18px;text-align:center;color:var(--muted);border:1px dashed #d7dce6;border-radius:14px}
-
-    .progress-wrap{margin-bottom:16px}
-    .progress-head{display:flex;justify-content:space-between;gap:12px;font-size:13px;font-weight:800;color:var(--muted);margin-bottom:8px}
-    .progress{height:8px;background:#e9edf4;border-radius:999px;overflow:hidden}
-    .progress i{display:block;height:100%;background:var(--primary);width:0%;transition:width .2s linear}
-    .question-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:20px;margin-bottom:14px;box-shadow:var(--shadow)}
-    .question-text{font-size:25px;line-height:1.28;font-weight:850;letter-spacing:-.4px;margin:8px 0 2px}
-    .timer{display:inline-flex;min-width:52px;height:36px;padding:0 12px;border-radius:999px;background:#eef2ff;color:var(--primary);align-items:center;justify-content:center;font-weight:900}
-    .answers{display:grid;gap:10px}
-    .answer{
-      min-height:66px;border-radius:16px;border:1px solid var(--line);background:#fff;color:var(--text);
-      padding:15px 16px;text-align:left;font-weight:800;font-size:16px;display:flex;align-items:center;gap:12px;
-    }
-    .answer .letter{width:30px;height:30px;border-radius:10px;background:#f0f3f8;display:grid;place-items:center;font-size:13px;color:var(--muted);font-weight:900}
-    .answer.selected{border-color:#9bb0ff;background:#f5f7ff}
-    .answer.correct{border-color:#bfe6d7;background:#f1fbf7;color:#0d6b46}
-    .answer.wrong{border-color:#efc5cb;background:#fff5f6;color:#a32d3b}
-    .answer.dim{opacity:.55}
-    .status-box{border-radius:16px;padding:16px;border:1px solid var(--line);background:#fff;margin-top:12px}
-    .big-result{font-size:30px;font-weight:900;letter-spacing:-.6px;margin:4px 0}
-    .points{font-size:24px;font-weight:900;color:var(--primary)}
-
-    .leaderboard{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-    .leaderboard li{display:grid;grid-template-columns:38px 1fr auto;align-items:center;gap:10px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:11px 12px}
-    .rank{font-weight:900;color:var(--muted)}
-    .leaderboard li.me{border-color:#bfcaff;background:#f7f8ff}
-    .leaderboard li.top{border-color:#dbe2ff}
-    .score{font-weight:900}
-
-    .host-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
-    .metric{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
-    .metric b{display:block;font-size:20px}
-    .metric span{display:block;color:var(--muted);font-size:11px;font-weight:800;margin-top:3px}
-
-    .edit-q{border:1px solid var(--line);border-radius:16px;padding:14px;background:#fff;margin-bottom:12px}
-    .edit-q-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px}
-    .option-line{display:grid;grid-template-columns:34px 1fr auto;gap:8px;align-items:center;margin-top:8px}
-    .option-radio{width:34px;height:34px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;background:#f7f8fb}
-    .option-radio input{width:17px;height:17px;margin:0}
-    .option-line input[type=text]{min-width:0}
-    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f1f3f6;border-radius:8px;padding:2px 6px;font-size:12px}
-    .toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:#111827;color:#fff;padding:11px 14px;border-radius:12px;font-size:13px;font-weight:750;opacity:0;pointer-events:none;transition:.2s;z-index:100;max-width:90vw;text-align:center}
-    .toast.show{opacity:1;transform:translate(-50%,0)}
-    .connection{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:800;color:var(--muted)}
-    .spacer{height:8px}
-  </style>
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 <div class="app">
 
-  <section id="view-home" class="view active">
-    <div class="topbar">
-      <div class="brand"><span class="brand-mark">Q</span>Quizsel</div>
+  <section id="view-auth" class="view active">
+    <div class="top">
+      <div class="brand"><span class="logo">Q</span>Quizsel</div>
       <div class="connection"><span id="connDot" class="dot"></span><span id="connText">Bağlanıyor</span></div>
     </div>
-    <div class="home-hero">
-      <div class="eyebrow">Ailece canlı yarış</div>
+    <div class="homeHero">
+      <div class="eyebrow">Canlı aile yarışması</div>
+      <h1>Kullanıcı adınla gir.<br>Skorun sende kalsın.</h1>
+      <p class="lead">İlk kez kullanıcı adı ve şifreni oluştur. Sonraki yarışlarda aynı bilgilerle hesabına gir.</p>
+    </div>
+
+    <div class="card">
+      <div class="tabs">
+        <button id="tabLogin" class="tab active" onclick="setAuthMode('login')">Giriş</button>
+        <button id="tabRegister" class="tab" onclick="setAuthMode('register')">Kayıt Ol</button>
+      </div>
+
+      <label>Kullanıcı adı</label>
+      <input id="authUsername" maxlength="20" autocomplete="username" autocapitalize="none" placeholder="Örn. berkay">
+
+      <label>Şifre</label>
+      <div class="passwordWrap">
+        <input id="authPassword" type="password" minlength="6" maxlength="72" autocomplete="current-password" placeholder="En az 6 karakter">
+        <button class="passwordToggle" type="button" onclick="togglePassword('authPassword',this)">Göster</button>
+      </div>
+
+      <div id="authErr" class="error"></div>
+      <div class="section"><button id="authBtn" class="btn primary" onclick="submitAuth()">Giriş yap</button></div>
+      <p class="authNote">E-posta, telefon veya şifre kurtarma ekranı yoktur. Şifreni unutursan hesap otomatik kurtarılamaz.</p>
+
+      <div class="sep"></div>
+      <button class="btn ghost" onclick="openAdminLogin()">Yönetici girişi</button>
+    </div>
+  </section>
+
+  <section id="view-adminlogin" class="view">
+    <button class="back" onclick="go('auth')">Geri</button>
+    <div class="card">
+      <div class="eyebrow">Yönetici</div>
+      <h2>Admin girişi</h2>
+      <p class="muted small">Yalnızca yönetici şifreni gir.</p>
+      <label>Yönetici şifresi</label>
+      <div class="passwordWrap">
+        <input id="adminPassword" type="password" maxlength="72" autocomplete="current-password" placeholder="Şifre">
+        <button class="passwordToggle" type="button" onclick="togglePassword('adminPassword',this)">Göster</button>
+      </div>
+      <div id="adminErr" class="error"></div>
+      <div class="section"><button id="adminBtn" class="btn primary" onclick="adminLogin()">Giriş yap</button></div>
+    </div>
+  </section>
+
+  <section id="view-home" class="view">
+    <div class="top">
+      <div class="brand"><span class="logo">Q</span>Quizsel</div>
+      <button class="btn sm ghost" onclick="logoutToAuth()">Çıkış</button>
+    </div>
+
+    <div id="profileCard" class="profile"></div>
+    <div id="profileStats" class="profileStats"></div>
+
+    <div class="homeHero">
+      <div class="eyebrow">Canlı yarış</div>
       <h1>Aynı soru.<br>Aynı anda.</h1>
-      <p class="lead">Odaya katıl, soruyu herkesle birlikte gör ve en hızlı doğru cevabı ver.</p>
-      <div class="home-actions">
-        <button class="btn primary" onclick="go('join')">Oyuna Katıl</button>
-        <button class="btn secondary" onclick="openHost()">Oyun Kur</button>
-      </div>
-      <div class="home-note">
-        <span class="dot live"></span>
-        <span>Kayıt gerektirmez. Oda koduyla anında katıl.</span>
+      <p class="lead">Oda koduyla katıl veya hazır quizlerden birini seçip kendi odanı kur.</p>
+
+      <div class="quick">
+        <div class="card">
+          <h3>Odaya katıl</h3>
+          <label>6 haneli kod</label>
+          <input id="homePin" class="pin" inputmode="numeric" maxlength="6" placeholder="000000">
+          <div class="section"><button class="btn primary" onclick="joinByHomePin()">Katıl</button></div>
+        </div>
+
+        <div class="card">
+          <h3>Oyun kur</h3>
+          <p class="muted small">Hazır quiz seç, oda kodunu paylaş ve sen de yarış.</p>
+          <div class="section"><button class="btn soft" onclick="openQuizBrowser()">Quiz seç</button></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="view-join" class="view">
-    <button class="back" onclick="go('home')">Ana sayfa</button>
-    <div class="card">
-      <div class="eyebrow">Oyuncu</div>
-      <h2>Odaya katıl</h2>
-      <p class="muted">Yöneticinin ekrandaki 6 haneli kodunu gir.</p>
-      <label>Oda kodu</label>
-      <input id="joinPin" class="pin-input" inputmode="numeric" maxlength="6" placeholder="000000" />
-      <label>Adın</label>
-      <input id="joinName" maxlength="24" placeholder="Örn. Berkay" />
-      <div id="joinErr" class="error"></div>
-      <div class="spacer"></div>
-      <button id="joinBtn" class="btn primary" onclick="joinGame()">Katıl</button>
-    </div>
-  </section>
-
-  <section id="view-host" class="view">
-    <div class="topbar">
+  <section id="view-quizzes" class="view">
+    <div class="top">
       <button class="back" onclick="go('home')">Ana sayfa</button>
-      <button class="btn ghost small" onclick="newCustomQuiz()">Yeni quiz</button>
-    </div>
-    <div class="eyebrow">Yönetici</div>
-    <h2>Bir quiz seç</h2>
-    <p class="muted">Hazır quizlerden birini başlat veya kendi quizini oluştur.</p>
-
-    <div class="section">
-      <div class="section-head"><h3>Hazır quizler</h3><span class="badge blue">6/10 zorluk</span></div>
-      <div id="builtinList" class="quiz-grid"></div>
+      <span class="badge blue">Hazır quizler</span>
     </div>
 
-    <div class="section">
-      <div class="section-head"><h3>Benim quizlerim</h3><span class="tiny muted">Bu cihazda saklanır</span></div>
-      <div id="customList" class="quiz-grid"></div>
-    </div>
-  </section>
+    <div class="eyebrow">Oyun kur</div>
+    <h2>Quiz seç</h2>
+    <p class="muted small">Yeni quiz dosyalarını QZ008, QZ009 gibi ekleyebilirsin. Ana uygulama kodu değişmez.</p>
 
-  <section id="view-editor" class="view">
-    <button class="back" onclick="go('host')">Quizler</button>
     <div class="card">
-      <div class="eyebrow">Quiz oluşturucu</div>
-      <h2>Quiz düzenle</h2>
-      <label>Quiz adı</label>
-      <input id="editorTitle" maxlength="60" placeholder="Örn. Aile Finali" />
-      <div id="editorQuestions" class="section"></div>
-      <button class="btn secondary" onclick="addEditorQuestion()">Soru ekle</button>
-      <div class="spacer"></div>
-      <button class="btn primary" onclick="saveCustomQuiz()">Quiz'i kaydet</button>
+      <label>Quiz koduyla aç</label>
+      <div class="row">
+        <input id="quizCodeInput" class="grow" maxlength="16" autocapitalize="characters" placeholder="QZ008">
+        <button class="btn sm primary" onclick="openQuizByCode()">Aç</button>
+      </div>
+      <div id="quizCodeErr" class="error"></div>
     </div>
+
+    <div class="section"><div id="quizList" class="quizGrid"></div></div>
   </section>
 
   <section id="view-lobby" class="view">
-    <div class="topbar">
-      <button class="back" onclick="leaveCurrentGame()">Oyundan çık</button>
-      <span id="lobbyRole" class="badge blue"></span>
+    <div class="top">
+      <button class="back" onclick="leaveLobby()">Odadan çık</button>
+      <span id="hostBadge" class="badge blue" style="display:none">Kurucu</span>
     </div>
+
     <div class="card">
       <div class="eyebrow">Oda kodu</div>
-      <div id="lobbyPin" class="lobby-code">000000</div>
-      <div class="copy-line"><button class="btn ghost small" onclick="copyPin()">Kodu kopyala</button></div>
-      <h3 id="lobbyQuiz">Quiz</h3>
-      <p id="lobbyText" class="muted">Oyuncular bekleniyor.</p>
-      <div id="playerList" class="player-list"></div>
-      <div id="hostLobbyActions" class="section" style="display:none">
-        <button id="startBtn" class="btn primary" onclick="hostStart()">Oyunu başlat</button>
-      </div>
-      <div id="playerLobbyActions" class="section" style="display:none">
-        <div class="empty">Yönetici oyunu başlattığında soru otomatik açılacak.</div>
+      <div id="lobbyCode" class="lobbyCode">000000</div>
+      <div class="lobbyHint">Kodu diğer oyunculara gönder</div>
+      <button class="btn sm soft" style="margin:auto" onclick="copyRoomCode()">Kodu kopyala</button>
+
+      <div class="sep"></div>
+      <h3 id="lobbyQuizTitle">Quiz</h3>
+      <div id="lobbyQuizMeta" class="muted small"></div>
+
+      <div class="section"><div id="playersList" class="players"></div></div>
+
+      <div class="readyPanel">
+        <button id="readyBtn" class="btn soft" onclick="toggleReady()">Hazırım</button>
+        <div id="readyState" class="readyState"></div>
+
+        <div id="hostStartArea" class="section" style="display:none">
+          <button id="hostStartBtn" class="btn primary" onclick="startGame()" disabled>Oyunu başlat</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="view-play" class="view">
-    <div class="topbar">
-      <div class="brand"><span class="brand-mark">Q</span>Quizsel</div>
-      <span id="playPinBadge" class="badge"></span>
+  <section id="view-game" class="view">
+    <div class="top">
+      <div class="brand"><span class="logo">Q</span>Quizsel</div>
+      <div class="row">
+        <span id="gameHostBadge" class="badge blue" style="display:none">Kurucu</span>
+        <span id="gameRoomBadge" class="badge"></span>
+      </div>
     </div>
-    <div class="progress-wrap">
-      <div class="progress-head"><span id="playProgress">Soru 1 / 10</span><span id="playTimer" class="timer">20</span></div>
-      <div class="progress"><i id="playBar"></i></div>
-    </div>
-    <div class="question-card">
-      <div id="playQuestion" class="question-text"></div>
-    </div>
-    <div id="playAnswers" class="answers"></div>
-    <div id="playResult" class="status-box" style="display:none"></div>
-    <div id="playLeaderboard" class="section" style="display:none"></div>
-  </section>
 
-  <section id="view-hostgame" class="view">
-    <div class="topbar">
-      <div class="brand"><span class="brand-mark">Q</span>Quizsel</div>
-      <span id="hostPinBadge" class="badge blue"></span>
+    <div class="progressHead"><span id="gameProgress">Soru 1 / 10</span><span id="gameTimer">20 sn</span></div>
+    <div class="progress"><i id="gameBar"></i></div>
+
+    <div class="qCard">
+      <img id="questionImage" class="qImage" alt="" style="display:none">
+      <div id="questionText" class="qText"></div>
     </div>
-    <div class="host-summary">
-      <div class="metric"><b id="hostMetricQ">1/10</b><span>SORU</span></div>
-      <div class="metric"><b id="hostMetricAns">0/0</b><span>CEVAP</span></div>
-      <div class="metric"><b id="hostMetricTime">20</b><span>SANİYE</span></div>
-    </div>
-    <div class="question-card">
-      <div id="hostQuestion" class="question-text"></div>
-    </div>
-    <div id="hostOptionStats" class="answers"></div>
-    <div class="section">
-      <button id="hostAdvanceBtn" class="btn primary" onclick="hostAdvance()">Sonuçları göster</button>
-    </div>
-    <div id="hostLeaderboard" class="section"></div>
+
+    <div id="answerGrid" class="answerGrid"></div>
+    <div id="answerStatus" class="status" style="display:none"></div>
+    <div id="roundBoard" class="section" style="display:none"></div>
   </section>
 
   <section id="view-final" class="view">
-    <div class="topbar">
-      <div class="brand"><span class="brand-mark">Q</span>Quizsel</div>
+    <div class="top">
+      <div class="brand"><span class="logo">Q</span>Quizsel</div>
       <span class="badge green">Tamamlandı</span>
     </div>
-    <div class="card center">
+
+    <div class="card">
       <div class="eyebrow">Final</div>
       <h1 style="font-size:34px;margin-top:8px">Sonuçlar</h1>
-      <p id="finalQuizName" class="muted"></p>
-      <div id="finalWinner" class="big-result"></div>
+      <p id="finalQuiz" class="muted"></p>
+      <div id="winnerText" class="resultBig"></div>
     </div>
-    <div class="section">
-      <ol id="finalBoard" class="leaderboard"></ol>
-    </div>
-    <div class="section">
-      <button class="btn primary" onclick="finishAndHome()">Ana sayfaya dön</button>
-    </div>
+
+    <div class="section"><ol id="finalBoard" class="leader"></ol></div>
+    <div class="section"><button class="btn primary" onclick="finishGame()">Tamamla ve çıkış yap</button></div>
   </section>
 
+  <section id="view-admin" class="view">
+    <div class="top">
+      <div class="brand"><span class="logo">Q</span>Quizsel Admin</div>
+      <button class="btn sm ghost" onclick="logoutToAuth()">Çıkış</button>
+    </div>
+
+    <div class="adminStats">
+      <div class="metric"><b id="adminUserCount">—</b><span>KULLANICI</span></div>
+      <div class="metric"><b id="adminRoomCount">—</b><span>AKTİF ODA</span></div>
+    </div>
+
+    <div class="section">
+      <h3>Aktif odalar</h3>
+      <div id="adminRooms" class="stack"></div>
+    </div>
+  </section>
 </div>
+
+<div id="countOverlay" class="countOverlay">
+  <div>
+    <div id="countNum" class="countNum">3</div>
+    <div id="countLabel" class="countLabel">Hazır olun</div>
+  </div>
+</div>
+
 <div id="toast" class="toast"></div>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
-<script>
-const firebaseConfig = {
-  apiKey: "AIzaSyCNCzHkRbEPAX1_A83MReEd-Nr-hLuDcRI",
-  authDomain: "quizfamily-e06a4.firebaseapp.com",
-  databaseURL: "https://quizfamily-e06a4-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "quizfamily-e06a4",
-  storageBucket: "quizfamily-e06a4.firebasestorage.app",
-  messagingSenderId: "913487040824",
-  appId: "1:913487040824:web:2c6c16b7ca2e5c36e6b1cd"
-};
-
-firebase.initializeApp(firebaseConfig);
-const db = firebase.database();
-const TS = firebase.database.ServerValue.TIMESTAMP;
-const $ = id => document.getElementById(id);
-
-const BUILTIN_QUIZZES = [
-  {
-    id:"builtin-1",
-    title:"Genel Kültür — Tur 1",
-    difficulty:"6/10",
-    questions:[
-      {text:"Kimyasal sembolü W olan element hangisidir?", options:["Tungsten","Titanyum","Tantal","Kalay"], correct:0, time:18},
-      {text:"Slovenya'nın başkenti hangisidir?", options:["Ljubljana","Bratislava","Zagreb","Saraybosna"], correct:0, time:18},
-      {text:"Dava romanının yazarı kimdir?", options:["Franz Kafka","Albert Camus","Thomas Mann","Hermann Hesse"], correct:0, time:18},
-      {text:"Güneş Sistemi'nin en büyük uydusu hangisidir?", options:["Ganymede","Titan","Callisto","Io"], correct:0, time:18},
-      {text:"Las Meninas tablosunun ressamı kimdir?", options:["Diego Velázquez","Francisco Goya","El Greco","Joan Miró"], correct:0, time:18},
-      {text:"Almanya ile I. Dünya Savaşı'nı resmen sona erdiren antlaşma hangisidir?", options:["Versailles Antlaşması","Lozan Antlaşması","Trianon Antlaşması","Brest-Litovsk Antlaşması"], correct:0, time:20},
-      {text:"Asya ile Kuzey Amerika'yı ayıran boğaz hangisidir?", options:["Bering Boğazı","Malakka Boğazı","Hürmüz Boğazı","Dover Boğazı"], correct:0, time:18},
-      {text:"Elektrik direncinin SI birimi hangisidir?", options:["Ohm","Tesla","Watt","Farad"], correct:0, time:16},
-      {text:"Eritrosit transfüzyonunda evrensel donör kabul edilen kan grubu hangisidir?", options:["0 Rh negatif","AB Rh pozitif","A Rh negatif","B Rh pozitif"], correct:0, time:18},
-      {text:"Yetişkin bir insan iskeletinde tipik olarak kaç kemik bulunur?", options:["206","186","226","246"], correct:0, time:16}
-    ]
-  },
-  {
-    id:"builtin-2",
-    title:"Genel Kültür — Tur 2",
-    difficulty:"6/10",
-    questions:[
-      {text:"Budapeşte şehrinden geçen büyük nehir hangisidir?", options:["Tuna","Ren","Vistül","Elbe"], correct:0, time:16},
-      {text:"Oda sıcaklığında sıvı halde bulunan ametal element hangisidir?", options:["Brom","İyot","Klor","Kükürt"], correct:0, time:18},
-      {text:"İstanbul'un Osmanlılar tarafından fethedildiği yıl hangisidir?", options:["1453","1444","1461","1473"], correct:0, time:16},
-      {text:"Dünya'nın ilk yapay uydusunun adı nedir?", options:["Sputnik 1","Vostok 1","Explorer 1","Luna 2"], correct:0, time:18},
-      {text:"Yüzyıllık Yalnızlık romanının yazarı kimdir?", options:["Gabriel García Márquez","Mario Vargas Llosa","Jorge Luis Borges","Pablo Neruda"], correct:0, time:18},
-      {text:"Avrupa ile Asya arasında geleneksel coğrafi sınır kabul edilen dağ sırası hangisidir?", options:["Ural Dağları","Alpler","Kafkas Dağları","Karpatlar"], correct:0, time:18},
-      {text:"Dünya üzerindeki doğal göl sayısı bakımından öne çıkan ülke hangisidir?", options:["Kanada","Finlandiya","Rusya","Norveç"], correct:0, time:20},
-      {text:"Güneş Sistemi'nde kendi ekseni etrafında en kısa sürede dönen gezegen hangisidir?", options:["Jüpiter","Satürn","Mars","Neptün"], correct:0, time:18},
-      {text:"Yüksek enflasyon ile ekonomik durgunluğun aynı anda görülmesine ne ad verilir?", options:["Stagflasyon","Deflasyon","Resesyon","Devalüasyon"], correct:0, time:18},
-      {text:"Guernica tablosunun ressamı kimdir?", options:["Pablo Picasso","Salvador Dalí","Henri Matisse","Paul Cézanne"], correct:0, time:16}
-    ]
-  }
-];
-
-let customQuizzes = loadCustomQuizzes();
-let editorId = null;
-let editorQuestions = [];
-let role = null;
-let gamePin = null;
-let playerId = null;
-let gameRef = null;
-let gameListener = null;
-let hostQuiz = null;
-let localTimer = null;
-let serverOffset = 0;
-let lastRenderedState = null;
-
-db.ref(".info/connected").on("value", s=>{
-  const live = !!s.val();
-  $("connDot").classList.toggle("live",live);
-  $("connText").textContent = live ? "Bağlı" : "Çevrimdışı";
-});
-db.ref(".info/serverTimeOffset").on("value", s=>serverOffset=s.val()||0);
-const now = ()=>Date.now()+serverOffset;
-
-function go(name){
-  document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
-  $("view-"+name).classList.add("active");
-  window.scrollTo({top:0,behavior:"instant"});
-}
-function toast(msg){
-  const t=$("toast"); t.textContent=msg; t.classList.add("show");
-  clearTimeout(t._x); t._x=setTimeout(()=>t.classList.remove("show"),1800);
-}
-function showErr(id,msg){const e=$(id);e.textContent=msg;e.classList.add("show")}
-function clearErr(id){$(id).classList.remove("show")}
-function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}
-function uid(){return crypto?.randomUUID ? crypto.randomUUID() : "p_"+Date.now()+"_"+Math.random().toString(36).slice(2,10)}
-function randPin(){return String(Math.floor(100000+Math.random()*900000))}
-function shuffle(arr){
-  const a=arr.slice();
-  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}
-  return a;
-}
-function normalizedQuiz(q){
-  return {
-    ...q,
-    questions:q.questions.map(x=>{
-      const pairs=x.options.map((label,i)=>({label,correct:i===x.correct}));
-      const mixed=shuffle(pairs);
-      return {...x,options:mixed.map(p=>p.label),correct:mixed.findIndex(p=>p.correct)};
-    })
-  };
-}
-
-function openHost(){renderHostDashboard();go("host")}
-function renderHostDashboard(){
-  const b=$("builtinList"); b.innerHTML="";
-  BUILTIN_QUIZZES.forEach(q=>b.appendChild(quizRow(q,true)));
-  const c=$("customList"); c.innerHTML="";
-  if(!customQuizzes.length){c.innerHTML='<div class="empty">Henüz özel quiz yok.</div>'}
-  else customQuizzes.forEach(q=>c.appendChild(quizRow(q,false)));
-}
-function quizRow(q,builtin){
-  const d=document.createElement("div"); d.className="quiz-item";
-  d.innerHTML=`<div class="meta">
-      <h3>${esc(q.title)}</h3>
-      <div class="row-badges">
-        <span class="badge">${q.questions.length} soru</span>
-        ${builtin?'<span class="badge blue">6/10</span>':'<span class="badge">Özel</span>'}
-      </div>
-    </div>
-    <button class="btn primary small">Başlat</button>`;
-  d.querySelector("button").onclick=()=>createGame(q);
-  if(!builtin){
-    const edit=document.createElement("button");
-    edit.className="btn ghost small";
-    edit.textContent="Düzenle";
-    edit.onclick=()=>editCustomQuiz(q.id);
-    d.appendChild(edit);
-  }
-  return d;
-}
-
-function loadCustomQuizzes(){
-  try{return JSON.parse(localStorage.getItem("quizsel_custom_quizzes")||"[]")}catch{return[]}
-}
-function persistCustom(){localStorage.setItem("quizsel_custom_quizzes",JSON.stringify(customQuizzes))}
-function blankQ(){return {text:"",options:["","","",""],correct:0,time:18}}
-function newCustomQuiz(){
-  editorId=null;
-  editorQuestions=[blankQ()];
-  $("editorTitle").value="";
-  renderEditor();
-  go("editor");
-}
-function editCustomQuiz(id){
-  const q=customQuizzes.find(x=>x.id===id);
-  if(!q)return;
-  editorId=id;
-  $("editorTitle").value=q.title;
-  editorQuestions=JSON.parse(JSON.stringify(q.questions));
-  renderEditor();
-  go("editor");
-}
-function renderEditor(){
-  const box=$("editorQuestions");
-  box.innerHTML="";
-  editorQuestions.forEach((q,i)=>{
-    const d=document.createElement("div");
-    d.className="edit-q";
-    d.innerHTML=`<div class="edit-q-head"><strong>Soru ${i+1}</strong>${editorQuestions.length>1?`<button class="btn danger small" onclick="removeEditorQuestion(${i})">Sil</button>`:""}</div>
-      <label>Soru</label>
-      <textarea maxlength="180" oninput="editorQuestions[${i}].text=this.value">${esc(q.text)}</textarea>
-      <label>Şıklar</label>
-      ${q.options.map((o,k)=>`<div class="option-line">
-        <div class="option-radio"><input type="radio" name="correct_${i}" ${q.correct===k?"checked":""} onchange="editorQuestions[${i}].correct=${k}"></div>
-        <input type="text" maxlength="80" value="${esc(o)}" placeholder="Şık ${k+1}" oninput="editorQuestions[${i}].options[${k}]=this.value">
-        <span class="tiny muted">${String.fromCharCode(65+k)}</span>
-      </div>`).join("")}
-      <label>Süre</label>
-      <select onchange="editorQuestions[${i}].time=Number(this.value)">
-        ${[10,15,18,20,25,30].map(t=>`<option value="${t}" ${q.time===t?"selected":""}>${t} saniye</option>`).join("")}
-      </select>`;
-    box.appendChild(d);
-  });
-}
-function addEditorQuestion(){
-  editorQuestions.push(blankQ());
-  renderEditor();
-}
-function removeEditorQuestion(i){
-  editorQuestions.splice(i,1);
-  renderEditor();
-}
-function saveCustomQuiz(){
-  const title=$("editorTitle").value.trim();
-  if(!title)return toast("Quiz adı gerekli.");
-  for(const q of editorQuestions){
-    if(!q.text.trim())return toast("Boş soru var.");
-    if(q.options.filter(x=>x.trim()).length<2)return toast("Her soruda en az 2 şık olmalı.");
-    if(!q.options[q.correct]?.trim())return toast("Doğru şık boş olamaz.");
-  }
-  const payload={
-    id:editorId||"custom_"+Date.now(),
-    title,
-    questions:editorQuestions.map(q=>({...q,text:q.text.trim(),options:q.options.map(x=>x.trim())}))
-  };
-  if(editorId)customQuizzes=customQuizzes.map(x=>x.id===editorId?payload:x);
-  else customQuizzes.unshift(payload);
-  persistCustom();
-  renderHostDashboard();
-  go("host");
-  toast("Quiz kaydedildi.");
-}
-
-async function createGame(rawQuiz){
-  const quiz=normalizedQuiz(rawQuiz);
-  for(let tries=0;tries<10;tries++){
-    const pin=randPin();
-    const snap=await db.ref("games/"+pin).get();
-    if(snap.exists())continue;
-
-    const game={
-      quizTitle:quiz.title,
-      state:"lobby",
-      current:0,
-      qStart:0,
-      reveal:null,
-      createdAt:TS,
-      totalQuestions:quiz.questions.length,
-      players:{}
-    };
-
-    await db.ref("games/"+pin).set(game);
-
-    role="host";
-    gamePin=pin;
-    playerId=null;
-    hostQuiz=quiz;
-
-    localStorage.setItem("quizsel_host_"+pin,JSON.stringify(quiz));
-    localStorage.setItem("quizsel_session",JSON.stringify({role:"host",pin}));
-
-    watchGame(pin);
-    return;
-  }
-  toast("Oda kodu üretilemedi.");
-}
-
-async function joinGame(){
-  clearErr("joinErr");
-
-  const pin=$("joinPin").value.replace(/\D/g,"").slice(0,6);
-  const name=$("joinName").value.trim().slice(0,24);
-
-  if(pin.length!==6)return showErr("joinErr","6 haneli oda kodunu gir.");
-  if(name.length<2)return showErr("joinErr","Adın en az 2 karakter olsun.");
-
-  $("joinBtn").disabled=true;
-
-  try{
-    const snap=await db.ref("games/"+pin).get();
-
-    if(!snap.exists())throw new Error("Bu oda bulunamadı.");
-
-    const g=snap.val();
-
-    if(g.state!=="lobby")throw new Error("Bu oyun zaten başladı.");
-
-    playerId=localStorage.getItem("quizsel_player_id")||uid();
-    localStorage.setItem("quizsel_player_id",playerId);
-
-    await db.ref(`games/${pin}/players/${playerId}`).set({
-      name,
-      score:0,
-      joinedAt:TS,
-      answers:{}
-    });
-
-    role="player";
-    gamePin=pin;
-    hostQuiz=null;
-
-    localStorage.setItem("quizsel_session",JSON.stringify({
-      role:"player",
-      pin,
-      playerId
-    }));
-
-    watchGame(pin);
-  }catch(e){
-    showErr("joinErr",e.message);
-  }finally{
-    $("joinBtn").disabled=false;
-  }
-}
-
-function watchGame(pin){
-  stopWatch();
-
-  gamePin=pin;
-  gameRef=db.ref("games/"+pin);
-
-  gameListener=gameRef.on("value",snap=>{
-    if(!snap.exists()){
-      toast("Oda kapandı.");
-      resetSession();
-      go("home");
-      return;
-    }
-    renderGame(snap.val());
-  });
-}
-
-function stopWatch(){
-  if(gameRef&&gameListener)gameRef.off("value",gameListener);
-  gameRef=null;
-  gameListener=null;
-  stopTimer();
-}
-
-function renderGame(g){
-  lastRenderedState=g.state;
-
-  if(g.state==="lobby"){
-    renderLobby(g);
-  }else if(g.state==="question"||g.state==="reveal"){
-    role==="host" ? renderHostGame(g) : renderPlayerGame(g);
-  }else if(g.state==="ended"){
-    renderFinal(g);
-  }
-}
-
-function renderLobby(g){
-  go("lobby");
-
-  $("lobbyPin").textContent=gamePin;
-  $("lobbyQuiz").textContent=g.quizTitle;
-  $("lobbyRole").textContent=role==="host" ? "Yönetici" : "Oyuncu";
-
-  const players=g.players||{};
-  const rows=Object.entries(players);
-
-  $("lobbyText").textContent=rows.length
-    ? `${rows.length} oyuncu hazır.`
-    : "Oyuncular bekleniyor.";
-
-  const list=$("playerList");
-  list.innerHTML="";
-
-  if(!rows.length){
-    list.innerHTML='<div class="empty">Henüz kimse katılmadı.</div>';
-  }else{
-    rows.forEach(([id,p])=>{
-      const d=document.createElement("div");
-      d.className="player";
-      d.innerHTML=`
-        <div class="avatar">${esc((p.name||"?")[0].toUpperCase())}</div>
-        <div class="name">${esc(p.name)}</div>
-        <span class="badge green">Hazır</span>
-      `;
-      list.appendChild(d);
-    });
-  }
-
-  $("hostLobbyActions").style.display=role==="host" ? "block" : "none";
-  $("playerLobbyActions").style.display=role==="player" ? "block" : "none";
-  $("startBtn").disabled=rows.length<1;
-}
-
-function copyPin(){
-  navigator.clipboard?.writeText(gamePin)
-    .then(()=>toast("Oda kodu kopyalandı."));
-}
-
-async function hostStart(){
-  if(role!=="host"||!hostQuiz)return;
-
-  const snap=await db.ref(`games/${gamePin}/players`).get();
-
-  if(!snap.exists()){
-    return toast("En az 1 oyuncu gerekli.");
-  }
-
-  await pushQuestion(0);
-}
-
-async function pushQuestion(index){
-  const q=hostQuiz.questions[index];
-
-  await db.ref(`games/${gamePin}`).update({
-    state:"question",
-    current:index,
-    qStart:TS,
-    reveal:null,
-    currentQuestion:{
-      text:q.text,
-      options:q.options,
-      time:q.time||18
-    }
-  });
-}
-
-function stopTimer(){
-  if(localTimer){
-    clearInterval(localTimer);
-    localTimer=null;
-  }
-}
-
-function runTimer(start,time,onEnd){
-  stopTimer();
-
-  const total=time*1000;
-
-  const tick=()=>{
-    const left=Math.max(0,total-(now()-start));
-    onEnd(left,total);
-
-    if(left<=0){
-      stopTimer();
-    }
-  };
-
-  tick();
-  localTimer=setInterval(tick,200);
-}
-
-function renderPlayerGame(g){
-  go("play");
-
-  $("playPinBadge").textContent="Oda "+gamePin;
-
-  const q=g.currentQuestion;
-  if(!q)return;
-
-  const qi=g.current||0;
-
-  $("playProgress").textContent=`Soru ${qi+1} / ${g.totalQuestions||10}`;
-  $("playQuestion").textContent=q.text;
-
-  const me=(g.players||{})[playerId]||{};
-  const ans=me.answers?.[qi];
-  const reveal=g.reveal;
-
-  const box=$("playAnswers");
-  box.innerHTML="";
-
-  q.options.forEach((opt,k)=>{
-    if(!opt)return;
-
-    const b=document.createElement("button");
-    b.className="answer";
-
-    if(ans){
-      if(ans.choice===k){
-        b.classList.add("selected");
-      }else{
-        b.classList.add("dim");
-      }
-    }
-
-    if(g.state==="reveal"&&reveal){
-      b.classList.remove("dim");
-
-      if(k===reveal.correct){
-        b.classList.add("correct");
-      }else if(ans?.choice===k){
-        b.classList.add("wrong");
-      }
-    }
-
-    b.innerHTML=`
-      <span class="letter">${String.fromCharCode(65+k)}</span>
-      <span>${esc(opt)}</span>
-    `;
-
-    if(g.state==="question"&&!ans){
-      b.onclick=()=>submitAnswer(g,k);
-    }
-
-    box.appendChild(b);
-  });
-
-  $("playResult").style.display=g.state==="reveal" ? "block" : "none";
-  $("playLeaderboard").style.display=g.state==="reveal" ? "block" : "none";
-
-  if(g.state==="reveal"){
-    stopTimer();
-
-    const latest=((g.players||{})[playerId]||{}).answers?.[qi];
-    const good=latest?.correct;
-
-    $("playResult").innerHTML=`
-      <div class="eyebrow">${good?"Doğru cevap":"Sonuç"}</div>
-      <div class="big-result">${latest ? (good?"Doğru":"Yanlış") : "Cevap verilmedi"}</div>
-      <div class="points">${latest?.points?`+${latest.points} puan`:""}</div>
-      <div class="muted small">Doğru cevap: ${esc(q.options[reveal.correct])}</div>
-    `;
-
-    $("playLeaderboard").innerHTML=`
-      <h3>Sıralama</h3>
-      <ol class="leaderboard">${leaderboardHtml(g,playerId)}</ol>
-    `;
-  }else{
-    $("playLeaderboard").innerHTML="";
-
-    runTimer(g.qStart||now(),q.time||18,(left,total)=>{
-      $("playTimer").textContent=Math.ceil(left/1000);
-      $("playBar").style.width=(left/total*100)+"%";
-
-      if(left<=0&&!((g.players||{})[playerId]?.answers?.[qi])){
-        box.querySelectorAll("button").forEach(b=>{
-          b.disabled=true;
-          b.classList.add("dim");
-        });
-
-        $("playResult").style.display="block";
-        $("playResult").innerHTML=`
-          <div class="big-result" style="font-size:22px">Süre doldu</div>
-          <div class="muted small">Sonuç için yöneticiyi bekle.</div>
-        `;
-      }
-    });
-  }
-}
-
-async function submitAnswer(g,choice){
-  const qi=g.current||0;
-  const path=`games/${gamePin}/players/${playerId}/answers/${qi}`;
-  const ref=db.ref(path);
-
-  const snap=await ref.get();
-
-  if(snap.exists())return;
-
-  const elapsed=Math.max(0,now()-(g.qStart||now()));
-  const limit=(g.currentQuestion?.time||18)*1000;
-
-  if(elapsed>limit+400){
-    return toast("Süre doldu.");
-  }
-
-  await ref.set({
-    choice,
-    answeredAt:TS,
-    elapsed
-  });
-}
-
-function renderHostGame(g){
-  go("hostgame");
-
-  $("hostPinBadge").textContent="Oda "+gamePin;
-
-  if(!hostQuiz){
-    try{
-      hostQuiz=JSON.parse(localStorage.getItem("quizsel_host_"+gamePin)||"null");
-    }catch{}
-  }
-
-  const qi=g.current||0;
-  const q=g.currentQuestion;
-
-  if(!q)return;
-
-  const players=g.players||{};
-  const answered=Object.values(players).filter(p=>p.answers?.[qi]).length;
-  const total=Object.keys(players).length;
-
-  $("hostMetricQ").textContent=`${qi+1}/${hostQuiz?.questions?.length||10}`;
-  $("hostMetricAns").textContent=`${answered}/${total}`;
-  $("hostQuestion").textContent=q.text;
-  $("hostMetricTime").textContent=g.state==="reveal" ? "0" : (q.time||18);
-
-  const stats=$("hostOptionStats");
-  stats.innerHTML="";
-
-  const counts=q.options.map(()=>0);
-
-  Object.values(players).forEach(p=>{
-    const a=p.answers?.[qi];
-    if(a){
-      counts[a.choice]=(counts[a.choice]||0)+1;
-    }
-  });
-
-  q.options.forEach((opt,k)=>{
-    const d=document.createElement("div");
-    d.className="answer";
-
-    if(g.state==="reveal"&&g.reveal?.correct===k){
-      d.classList.add("correct");
-    }
-
-    d.innerHTML=`
-      <span class="letter">${String.fromCharCode(65+k)}</span>
-      <span style="flex:1">${esc(opt)}</span>
-      <strong>${counts[k]||0}</strong>
-    `;
-
-    stats.appendChild(d);
-  });
-
-  if(g.state==="question"){
-    $("hostAdvanceBtn").textContent=
-      answered===total&&total>0
-        ? "Herkes cevapladı · Sonuçları göster"
-        : "Sonuçları göster";
-
-    runTimer(g.qStart||now(),q.time||18,(left,totalMs)=>{
-      $("hostMetricTime").textContent=Math.ceil(left/1000);
-
-      if(left<=0){
-        $("hostAdvanceBtn").textContent="Süre doldu · Sonuçları göster";
-      }
-    });
-  }else{
-    stopTimer();
-
-    const last=qi>=((hostQuiz?.questions?.length||1)-1);
-
-    $("hostAdvanceBtn").textContent=
-      last ? "Oyunu bitir" : "Sonraki soru";
-  }
-
-  $("hostLeaderboard").innerHTML=`
-    <h3>Sıralama</h3>
-    <ol class="leaderboard">${leaderboardHtml(g,null)}</ol>
-  `;
-}
-
-async function hostAdvance(){
-  if(role!=="host"||!hostQuiz)return;
-
-  const snap=await db.ref("games/"+gamePin).get();
-  const g=snap.val();
-
-  if(!g)return;
-
-  const qi=g.current||0;
-
-  if(g.state==="question"){
-    const correct=hostQuiz.questions[qi].correct;
-    const players=g.players||{};
-    const updates={};
-
-    Object.entries(players).forEach(([id,p])=>{
-      const a=p.answers?.[qi];
-
-      if(!a)return;
-
-      const correctAns=a.choice===correct;
-      const limit=(g.currentQuestion?.time||18)*1000;
-      const frac=Math.min(
-        Math.max((a.elapsed||limit)/limit,0),
-        1
-      );
-
-      const points=correctAns
-        ? Math.round(1000-500*frac)
-        : 0;
-
-      updates[`players/${id}/answers/${qi}/correct`]=correctAns;
-      updates[`players/${id}/answers/${qi}/points`]=points;
-      updates[`players/${id}/score`]=(p.score||0)+points;
-    });
-
-    updates.state="reveal";
-    updates.reveal={correct};
-
-    await db.ref("games/"+gamePin).update(updates);
-
-  }else if(g.state==="reveal"){
-
-    if(qi>=hostQuiz.questions.length-1){
-      await db.ref("games/"+gamePin).update({
-        state:"ended"
-      });
-    }else{
-      await pushQuestion(qi+1);
-    }
-  }
-}
-
-function leaderboardRows(g){
-  return Object.entries(g.players||{})
-    .map(([id,p])=>({
-      id,
-      name:p.name||"Oyuncu",
-      score:p.score||0
-    }))
-    .sort((a,b)=>
-      b.score-a.score ||
-      a.name.localeCompare(b.name,"tr")
-    );
-}
-
-function leaderboardHtml(g,me){
-  const rows=leaderboardRows(g);
-
-  if(!rows.length){
-    return `
-      <li>
-        <span class="rank">—</span>
-        <span class="muted">Oyuncu yok</span>
-        <span></span>
-      </li>
-    `;
-  }
-
-  return rows.map((r,i)=>`
-    <li class="${r.id===me?"me":""} ${i===0?"top":""}">
-      <span class="rank">${i+1}</span>
-      <strong>${esc(r.name)}</strong>
-      <span class="score">${r.score}</span>
-    </li>
-  `).join("");
-}
-
-function renderFinal(g){
-  stopTimer();
-  go("final");
-
-  const rows=leaderboardRows(g);
-
-  $("finalQuizName").textContent=g.quizTitle;
-
-  $("finalWinner").textContent=
-    rows[0]
-      ? `1. ${rows[0].name}`
-      : "Oyun tamamlandı";
-
-  $("finalBoard").innerHTML=
-    leaderboardHtml(
-      g,
-      role==="player" ? playerId : null
-    );
-}
-
-function finishAndHome(){
-  leaveCurrentGame(false);
-}
-
-function leaveCurrentGame(goHome=true){
-  stopWatch();
-
-  if(role==="host"&&gamePin&&lastRenderedState!=="ended"){
-    db.ref("games/"+gamePin).remove().catch(()=>{});
-  }
-
-  localStorage.removeItem("quizsel_session");
-
-  resetSession();
-
-  if(goHome){
-    go("home");
-  }else{
-    go("home");
-  }
-}
-
-function resetSession(){
-  role=null;
-  gamePin=null;
-  playerId=null;
-  hostQuiz=null;
-  lastRenderedState=null;
-}
-
-renderHostDashboard();
-
-(async function restoreSession(){
-  try{
-    const s=JSON.parse(
-      localStorage.getItem("quizsel_session")||"null"
-    );
-
-    if(!s?.pin||!s?.role)return;
-
-    const snap=await db.ref("games/"+s.pin).get();
-
-    if(!snap.exists()){
-      localStorage.removeItem("quizsel_session");
-      return;
-    }
-
-    role=s.role;
-    gamePin=s.pin;
-
-    if(role==="host"){
-      hostQuiz=JSON.parse(
-        localStorage.getItem("quizsel_host_"+gamePin)||"null"
-      );
-    }
-
-    if(role==="player"){
-      playerId=
-        s.playerId ||
-        localStorage.getItem("quizsel_player_id");
-    }
-
-    watchGame(gamePin);
-
-  }catch(e){
-    console.warn("Session restore skipped",e);
-  }
-})();
-</script>
+<script src="config.js?v=6"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

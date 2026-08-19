@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-08-18",
+  "quizzes": [
+    {
+      "code": "QZ001",
+      "title": "Genel Kültür — Tur 1",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ001.json"
+    },
+    {
+      "code": "QZ002",
+      "title": "Genel Kültür — Tur 2",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ002.json"
+    },
+    {
+      "code": "QZ003",
+      "title": "Bilim & Doğa",
+      "category": "Bilim",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ003.json"
+    },
+    {
+      "code": "QZ004",
+      "title": "Tarih & Uygarlıklar",
+      "category": "Tarih",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ004.json"
+    },
+    {
+      "code": "QZ005",
+      "title": "Dünya Coğrafyası",
+      "category": "Coğrafya",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ005.json"
+    },
+    {
+      "code": "QZ006",
+      "title": "Sanat, Sinema & Edebiyat",
+      "category": "Kültür & Sanat",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ006.json"
+    },
+    {
+      "code": "QZ007",
+      "title": "Mantık & Sayılar",
+      "category": "Mantık",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "QZ007.json"
+    }
+  ]
+}

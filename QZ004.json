@@ -1,0 +1,131 @@
+{
+  "code": "QZ004",
+  "title": "Tarih & Uygarlıklar",
+  "category": "Tarih",
+  "difficulty": 6,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Magna Carta hangi yıl imzalanmıştır?",
+      "options": [
+        "1066",
+        "1453",
+        "1492",
+        "1215"
+      ],
+      "answer": 3,
+      "time": 20,
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M190%20160h180%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%228%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22215%22%20cy%3D%22160%22%20r%3D%2216%22%20fill%3D%22%23315efb%22%2F%3E%3Ccircle%20cx%3D%22280%22%20cy%3D%22160%22%20r%3D%2216%22%20fill%3D%22%237c93ff%22%2F%3E%3Ccircle%20cx%3D%22345%22%20cy%3D%22160%22%20r%3D%2216%22%20fill%3D%22%23315efb%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M215%20122v-28M280%20198v28M345%20122v-28%22%20stroke%3D%22%238aa0ff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3ETarih%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EZaman%20%C3%A7izgisi%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "imageAlt": "Zaman çizgisi illüstrasyonu"
+    },
+    {
+      "id": 2,
+      "text": "Hastings Savaşı hangi yılda gerçekleşmiştir?",
+      "options": [
+        "1099",
+        "1066",
+        "1215",
+        "1415"
+      ],
+      "answer": 1,
+      "time": 18
+    },
+    {
+      "id": 3,
+      "text": "Otuz Yıl Savaşları'nı sona erdiren antlaşmalar bütünü hangi adla bilinir?",
+      "options": [
+        "Utrecht Barışı",
+        "Augsburg Barışı",
+        "Westphalia Barışı",
+        "Paris Barışı"
+      ],
+      "answer": 2,
+      "time": 20
+    },
+    {
+      "id": 4,
+      "text": "Osmanlı Devleti'nde Tanzimat Fermanı hangi yıl ilan edilmiştir?",
+      "options": [
+        "1839",
+        "1808",
+        "1826",
+        "1876"
+      ],
+      "answer": 0,
+      "time": 18
+    },
+    {
+      "id": 5,
+      "text": "Hammurabi Kanunları hangi Mezopotamya uygarlığıyla ilişkilidir?",
+      "options": [
+        "Asur",
+        "Babil",
+        "Sümer",
+        "Akad"
+      ],
+      "answer": 1,
+      "time": 18
+    },
+    {
+      "id": 6,
+      "text": "Rönesans hareketinin ilk güçlü merkezleri hangi bölgede ortaya çıkmıştır?",
+      "options": [
+        "İskandinav krallıkları",
+        "İber Yarımadası",
+        "Balkan prenslikleri",
+        "İtalyan şehir devletleri"
+      ],
+      "answer": 3,
+      "time": 18
+    },
+    {
+      "id": 7,
+      "text": "Hareketli metal harfli matbaanın Avrupa'da yaygınlaşmasıyla özdeşleşen isim kimdir?",
+      "options": [
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+        "Johannes Gutenberg",
+        "Francis Bacon"
+      ],
+      "answer": 2,
+      "time": 18
+    },
+    {
+      "id": 8,
+      "text": "Fransız Devrimi'nin simgesel başlangıcı kabul edilen Bastille Baskını hangi yılda gerçekleşmiştir?",
+      "options": [
+        "1789",
+        "1776",
+        "1799",
+        "1815"
+      ],
+      "answer": 0,
+      "time": 18
+    },
+    {
+      "id": 9,
+      "text": "Napolyon Savaşları sonrasında Avrupa'nın siyasi düzenini yeniden kurmayı amaçlayan kongre hangisidir?",
+      "options": [
+        "Berlin Kongresi",
+        "Paris Kongresi",
+        "Lahey Kongresi",
+        "Viyana Kongresi"
+      ],
+      "answer": 3,
+      "time": 20
+    },
+    {
+      "id": 10,
+      "text": "Kadeş Antlaşması hangi iki büyük güç arasında imzalanmıştır?",
+      "options": [
+        "Roma – Kartaca",
+        "Mısır – Hitit",
+        "Pers – Yunan",
+        "Asur – Babil"
+      ],
+      "answer": 1,
+      "time": 20
+    }
+  ]
+}

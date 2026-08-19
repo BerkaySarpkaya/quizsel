@@ -1,0 +1,106 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "profiles": {
+      ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
+      "$uid": {
+        ".read": "auth != null && (auth.uid == $uid || auth.token.email == 'quizsel-admin@quizsel.app')",
+        ".write": "auth != null && (auth.uid == $uid || auth.token.email == 'quizsel-admin@quizsel.app')",
+        "username": {
+          ".validate": "newData.isString() && newData.val().length >= 3 && newData.val().length <= 24"
+        },
+        "usernameKey": {
+          ".validate": "newData.isString() && newData.val().length >= 3 && newData.val().length <= 20"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "lastSeenAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "stats": {
+          ".validate": "newData.hasChildren(['games','wins','points'])",
+          "games": {
+            ".validate": "newData.isNumber() && newData.val() >= 0"
+          },
+          "wins": {
+            ".validate": "newData.isNumber() && newData.val() >= 0"
+          },
+          "points": {
+            ".validate": "newData.isNumber() && newData.val() >= 0"
+          }
+        }
+      }
+    },
+    "activityLogs": {
+      ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
+      "$uid": {
+        ".read": "auth != null && (auth.uid == $uid || auth.token.email == 'quizsel-admin@quizsel.app')",
+        "$entry": {
+          ".write": "auth != null && (auth.uid == $uid || auth.token.email == 'quizsel-admin@quizsel.app')",
+          ".validate": "newData.hasChildren(['type','at'])",
+          "type": {
+            ".validate": "newData.isString() && newData.val().length <= 40"
+          },
+          "at": {
+            ".validate": "newData.isNumber()"
+          }
+        }
+      }
+    },
+    "games": {
+      ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
+      "$pin": {
+        ".read": "auth != null",
+        ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (data.exists() && data.child('meta').child('hostUid').val() == auth.uid && !newData.exists()))",
+        "meta": {
+          ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (!data.exists() && newData.child('hostUid').val() == auth.uid) || (data.exists() && data.child('hostUid').val() == auth.uid))",
+          ".validate": "newData.hasChildren(['hostUid','hostName','quizCode','quizTitle','state','currentIndex','currentKey','createdAt']) && (!data.exists() || newData.child('hostUid').val() == data.child('hostUid').val())"
+        },
+        "players": {
+          "$uid": {
+            ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (auth.uid == $uid && root.child('games').child($pin).child('meta').child('state').val() == 'lobby' && ((!data.exists() && newData.hasChildren(['name','ready','score','totalMs','joinedAt']) && newData.child('score').val() == 0 && newData.child('totalMs').val() == 0) || !newData.exists() || (data.exists() && newData.child('score').val() == data.child('score').val() && newData.child('totalMs').val() == data.child('totalMs').val() && newData.child('joinedAt').val() == data.child('joinedAt').val() && newData.child('name').val() == data.child('name').val()))) || root.child('games').child($pin).child('meta').child('hostUid').val() == auth.uid)",
+            "name": {
+              ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 24"
+            },
+            "ready": {
+              ".validate": "newData.isBoolean()"
+            },
+            "score": {
+              ".validate": "newData.isNumber() && newData.val() >= 0"
+            },
+            "totalMs": {
+              ".validate": "newData.isNumber() && newData.val() >= 0"
+            },
+            "joinedAt": {
+              ".validate": "newData.isNumber()"
+            }
+          }
+        },
+        "answers": {
+          "$q": {
+            "$uid": {
+              ".write": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (auth.uid == $uid && !data.exists() && root.child('games').child($pin).child('meta').child('state').val() == 'question' && root.child('games').child($pin).child('meta').child('currentKey').val() == $q && now <= root.child('games').child($pin).child('meta').child('phaseEndsAt').val() + 1000) || root.child('games').child($pin).child('meta').child('hostUid').val() == auth.uid)",
+              "choice": {
+                ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 3"
+              },
+              "answeredAt": {
+                ".validate": "newData.isNumber() && newData.val() <= now + 1000"
+              },
+              "correct": {
+                ".validate": "newData.isBoolean()"
+              },
+              "points": {
+                ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 1000"
+              },
+              "elapsedMs": {
+                ".validate": "newData.isNumber() && newData.val() >= 0"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

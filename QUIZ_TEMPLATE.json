@@ -1,0 +1,21 @@
+{
+  "code": "QZ008",
+  "title": "Yeni Quiz",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Soru metni",
+      "options": [
+        "Şık A",
+        "Şık B",
+        "Şık C",
+        "Şık D"
+      ],
+      "answer": 0,
+      "time": 20
+    }
+  ]
+}

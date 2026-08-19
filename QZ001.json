@@ -1,0 +1,135 @@
+{
+  "code": "QZ001",
+  "title": "Genel Kültür — Tur 1",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kimyasal sembolü W olan element hangisidir?",
+      "options": [
+        "Tungsten",
+        "Titanyum",
+        "Tantal",
+        "Kalay"
+      ],
+      "answer": 0,
+      "time": 18
+    },
+    {
+      "id": 2,
+      "text": "Slovenya'nın başkenti hangisidir?",
+      "options": [
+        "Bratislava",
+        "Zagreb",
+        "Ljubljana",
+        "Saraybosna"
+      ],
+      "answer": 2,
+      "time": 18
+    },
+    {
+      "id": 3,
+      "text": "Dava romanının yazarı kimdir?",
+      "options": [
+        "Albert Camus",
+        "Franz Kafka",
+        "Thomas Mann",
+        "Hermann Hesse"
+      ],
+      "answer": 1,
+      "time": 18,
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M192%20104h74c20%200%2034%2012%2034%2030v106c-9-11-21-16-38-16h-70zM368%20104h-74c-20%200-34%2012-34%2030v106c9-11%2021-16%2038-16h70z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%227%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M221%20140h46M221%20169h46M293%20140h46M293%20169h46%22%20stroke%3D%22%239aabff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3EEdebiyat%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EYazar%20ve%20eser%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "imageAlt": "Açık kitap illüstrasyonu"
+    },
+    {
+      "id": 4,
+      "text": "Güneş Sistemi'nin en büyük uydusu hangisidir?",
+      "options": [
+        "Titan",
+        "Callisto",
+        "Io",
+        "Ganymede"
+      ],
+      "answer": 3,
+      "time": 18,
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22250%22%20cy%3D%22160%22%20r%3D%2254%22%20fill%3D%22%23315efb%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22330%22%20cy%3D%22110%22%20r%3D%2218%22%20fill%3D%22%23a7b5ff%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M187%20176c50%2035%20124%2035%20177-4%22%20fill%3D%22none%22%20stroke%3D%22%237c93ff%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22205%22%20cy%3D%2287%22%20r%3D%225%22%20fill%3D%22%23315efb%22%2F%3E%3Ccircle%20cx%3D%22373%22%20cy%3D%22207%22%20r%3D%226%22%20fill%3D%22%237c93ff%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3EUzay%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EG%C3%B6rsel%20ipucu%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "imageAlt": "Gezegen ve uydu illüstrasyonu"
+    },
+    {
+      "id": 5,
+      "text": "Las Meninas tablosunun ressamı kimdir?",
+      "options": [
+        "Francisco Goya",
+        "El Greco",
+        "Diego Velázquez",
+        "Joan Miró"
+      ],
+      "answer": 2,
+      "time": 18
+    },
+    {
+      "id": 6,
+      "text": "I. Dünya Savaşı sonrasında Almanya ile Müttefik Devletler arasındaki barış antlaşması hangisidir?",
+      "options": [
+        "Versailles Antlaşması",
+        "Trianon Antlaşması",
+        "Lozan Antlaşması",
+        "Brest-Litovsk Antlaşması"
+      ],
+      "answer": 0,
+      "time": 20
+    },
+    {
+      "id": 7,
+      "text": "Asya ile Kuzey Amerika'yı ayıran boğaz hangisidir?",
+      "options": [
+        "Malakka Boğazı",
+        "Hürmüz Boğazı",
+        "Dover Boğazı",
+        "Bering Boğazı"
+      ],
+      "answer": 3,
+      "time": 18,
+      "image": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22560%22%20height%3D%22300%22%20viewBox%3D%220%200%20560%20300%22%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22560%22%20height%3D%22300%22%20rx%3D%2228%22%20fill%3D%22%23f4f6fb%22%2F%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M205%2098l65-24%2061%2027%2042-18v139l-42%2018-61-27-65%2024z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23315efb%22%20stroke-width%3D%227%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M270%2075v138M331%20101v139%22%20stroke%3D%22%23a6b4ff%22%20stroke-width%3D%225%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22307%22%20cy%3D%22155%22%20r%3D%2213%22%20fill%3D%22%23315efb%22%2F%3E%3Cpath%20d%3D%22M307%20168l-16%2025h32z%22%20fill%3D%22%23315efb%22%2F%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%2242%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235d6677%22%3EHarita%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2228%22%20y%3D%22270%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%238a94a6%22%3EKonum%20ili%C5%9Fkisini%20d%C3%BC%C5%9F%C3%BCn%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "imageAlt": "Soyut harita illüstrasyonu"
+    },
+    {
+      "id": 8,
+      "text": "Elektrik direncinin SI birimi hangisidir?",
+      "options": [
+        "Tesla",
+        "Ohm",
+        "Farad",
+        "Watt"
+      ],
+      "answer": 1,
+      "time": 16
+    },
+    {
+      "id": 9,
+      "text": "Eritrosit transfüzyonunda evrensel donör olarak kabul edilen kan grubu hangisidir?",
+      "options": [
+        "0 Rh negatif",
+        "AB Rh pozitif",
+        "A Rh negatif",
+        "B Rh pozitif"
+      ],
+      "answer": 0,
+      "time": 18
+    },
+    {
+      "id": 10,
+      "text": "Yetişkin bir insan iskeletinde tipik olarak kaç kemik bulunur?",
+      "options": [
+        "186",
+        "226",
+        "206",
+        "246"
+      ],
+      "answer": 2,
+      "time": 16
+    }
+  ]
+}
