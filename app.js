@@ -5,7 +5,7 @@ const auth = firebase.auth();
 const db = firebase.database();
 const TS = firebase.database.ServerValue.TIMESTAMP;
 const $ = id => document.getElementById(id);
-const CLIENT_VERSION = "0.8.1";
+const CLIENT_VERSION = "0.9.0";
 
 let authMode = "login";
 let profile = null;
@@ -25,6 +25,11 @@ let roomPresenceDisconnect = null;
 let currentQuestionVisual = null;
 let pendingDecisionAction = null;
 let intentionalRoomExit = false;
+let readyPending = false;
+let lastRenderedQuestionKey = "";
+let manifestCache = null;
+let manifestCacheAt = 0;
+const quizCache = new Map();
 const quizSeenRoomMarks = new Set();
 
 db.ref(".info/connected").on("value", async s => {
@@ -49,9 +54,20 @@ db.ref(".info/serverTimeOffset").on("value", s => {
 const serverNow = () => Date.now() + serverOffset;
 
 function go(name){
-  document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
-  $("view-" + name)?.classList.add("active");
-  window.scrollTo({top:0,behavior:"instant"});
+  const next = $("view-" + name);
+  if (!next) return false;
+
+  const active = document.querySelector(".view.active");
+  if (active === next) return false;
+
+  active?.classList.remove("active");
+  next.classList.add("active");
+
+  requestAnimationFrame(() => {
+    window.scrollTo({top:0,left:0,behavior:"auto"});
+  });
+
+  return true;
 }
 
 function toast(msg){
@@ -139,6 +155,7 @@ function stopRoomWatch(){
   currentRoom = null;
   currentGame = null;
   currentQuiz = null;
+  lastRenderedQuestionKey = "";
   lastLobbyPlayerSignature = null;
   roomPresencePin = null;
   roomPresenceDisconnect = null;
@@ -193,7 +210,17 @@ function formatSeconds(ms){return !ms?'—':(ms/1000).toFixed(1).replace('.',','
 function podiumCard(r,place){if(!r)return '<div></div>';const cls=place===1?'first':place===2?'second':'third';return `<div class="podiumCard ${cls}"><div class="podiumPlace">${place}</div><div class="podiumName">${esc(r.name)}</div><div class="podiumScore">${r.score} puan</div><div class="podiumMeta">${r.correct}/${currentGame.meta.totalQuestions} doğru<br>Ort. ${formatSeconds(r.avgMs)}</div></div>`;}
 function detailedLeaderHtml(rows){return rows.map((r,i)=>`<li class="${r.uid===auth.currentUser.uid?'me':''}"><span class="rank">${i+1}</span><div><strong>${esc(r.name)}</strong><div class="finalPlayerSub">${r.correct}/${currentGame.meta.totalQuestions} doğru · Ort. ${formatSeconds(r.avgMs)}</div></div><span class="score">${r.score}</span></li>`).join('');}
 function celebrateFinal(){const layer=$('confettiLayer');if(!layer)return;layer.innerHTML='';for(let i=0;i<30;i++){const s=document.createElement('i');s.className='confetti';s.style.left=(3+Math.random()*94)+'%';s.style.animationDuration=(2.2+Math.random()*1.8)+'s';s.style.animationDelay=(Math.random()*.55)+'s';s.style.setProperty('--drift',((Math.random()-.5)*180)+'px');layer.appendChild(s);}setTimeout(()=>layer.innerHTML='',4500);}
-document.addEventListener('visibilitychange',async()=>{if(document.visibilityState!=='visible'||!currentRoom)return;try{const snap=await db.ref(`games/${currentRoom}`).get();if(snap.exists()){currentGame=snap.val();renderRoom();if(amHost()){await setupHostPresence().catch(()=>{});coordinateHost();}}}catch{}});
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || !currentRoom || !currentGame) return;
+
+  // RTDB listener already keeps this state synchronized.
+  renderRoom();
+
+  if (amHost()){
+    await setupHostPresence().catch(()=>{});
+    coordinateHost();
+  }
+});
 
 
 function avatarHue(name){
@@ -717,10 +744,19 @@ async function restoreRoomOrHome(){
   renderHome();
 }
 
-async function loadManifest(){
-  const r = await fetch(`quiz-index.json?t=${Date.now()}`, {cache:"no-store"});
+async function loadManifest(force=false){
+  const now = Date.now();
+
+  if (!force && manifestCache && now - manifestCacheAt < 30000){
+    return manifestCache;
+  }
+
+  const r = await fetch("quiz-index.json", {cache:"no-cache"});
   if (!r.ok) throw new Error("Quiz listesi yüklenemedi.");
-  return r.json();
+
+  manifestCache = await r.json();
+  manifestCacheAt = now;
+  return manifestCache;
 }
 
 async function loadQuiz(code){
@@ -731,8 +767,11 @@ async function loadQuiz(code){
 
   if (!clean) throw new Error("Quiz kodu boş.");
 
-  const r = await fetch(`${clean}.json?t=${Date.now()}`, {cache:"no-store"});
+  if (quizCache.has(clean)){
+    return quizCache.get(clean);
+  }
 
+  const r = await fetch(`${clean}.json`, {cache:"no-cache"});
   if (!r.ok) throw new Error(`${clean} bulunamadı.`);
 
   const q = await r.json();
@@ -741,6 +780,7 @@ async function loadQuiz(code){
     throw new Error("Quiz dosyası geçerli değil.");
   }
 
+  quizCache.set(clean, q);
   return q;
 }
 
@@ -981,6 +1021,68 @@ function renderRoom(){
   else if (s === "ended") renderFinal();
 }
 
+function lobbyPlayerMarkup(p){
+  const isRoomHost = p.uid === currentGame.meta.hostUid;
+  const role = isRoomHost ? "Kurucu" : "Oyuncu";
+  const historyBadge = p.seenQuizBefore
+    ? `<span class="badge seenQuiz">Daha önce gördü${p.quizSeenCount ? ` · ${p.quizSeenCount} kez` : ""}</span>`
+    : `<span class="badge freshQuiz">İlk kez</span>`;
+
+  const remove = amHost() && p.uid !== auth.currentUser.uid
+    ? `<button class="kickBtn" onclick="kickPlayer('${p.uid}')">Çıkar</button>`
+    : "";
+
+  return `
+    ${avatarHtml(p.name,{host:isRoomHost,mark:isRoomHost ? "K" : ""})}
+    <div>
+      <div class="playerName">${esc(p.name)}</div>
+      <div class="playerSub">${role}</div>
+    </div>
+    <div class="playerActions">
+      ${historyBadge}
+      <span class="badge ${p.ready ? "green" : ""}">${p.ready ? "Hazır" : "Bekliyor"}</span>
+      ${remove}
+    </div>
+  `;
+}
+
+function syncLobbyPlayers(arr){
+  const list = $("playersList");
+  const existing = new Map(
+    Array.from(list.children).map(el => [el.dataset.uid, el])
+  );
+  const keep = new Set();
+
+  arr.forEach(p => {
+    keep.add(p.uid);
+
+    let row = existing.get(p.uid);
+    const isNew = !row;
+
+    if (!row){
+      row = document.createElement("div");
+      row.dataset.uid = p.uid;
+    }
+
+    row.className =
+      "player" +
+      (isNew ? " playerIn" : "") +
+      (p.uid === auth.currentUser.uid ? " me" : "");
+
+    const nextMarkup = lobbyPlayerMarkup(p);
+    if (row._markup !== nextMarkup){
+      row.innerHTML = nextMarkup;
+      row._markup = nextMarkup;
+    }
+
+    list.appendChild(row);
+  });
+
+  existing.forEach((row, uid) => {
+    if (!keep.has(uid)) row.remove();
+  });
+}
+
 function renderLobby(){
   stopPhaseTimer();
   hideCountdown();
@@ -1013,6 +1115,8 @@ function renderLobby(){
   const me = myPlayer();
   $("readyBtn").textContent = me?.ready ? "Hazırım ✓" : "Hazırım";
   $("readyBtn").className = me?.ready ? "btn primary" : "btn soft";
+  $("readyBtn").disabled = readyPending;
+  $("readyBtn").setAttribute("aria-busy", readyPending ? "true" : "false");
 
   const arr = playersArray()
     .sort((a,b)=>(a.joinedAt||0)-(b.joinedAt||0));
@@ -1030,38 +1134,7 @@ function renderLobby(){
     exposure.textContent = `${seenCount} oyuncu bu quizin sorularını daha önce gördü. Oyuncu kartlarında kim olduğu işaretli.`;
   }
 
-  const list = $("playersList");
-  list.innerHTML = "";
-
-  arr.forEach(p => {
-    const d = document.createElement("div");
-    d.className = "player playerIn" + (p.uid === auth.currentUser.uid ? " me" : "");
-
-    const isRoomHost = p.uid === currentGame.meta.hostUid;
-    const role = isRoomHost ? "Kurucu" : "Oyuncu";
-    const historyBadge = p.seenQuizBefore
-      ? `<span class="badge seenQuiz">Daha önce gördü${p.quizSeenCount ? ` · ${p.quizSeenCount} kez` : ""}</span>`
-      : `<span class="badge freshQuiz">İlk kez</span>`;
-
-    const remove = amHost() && p.uid !== auth.currentUser.uid
-      ? `<button class="kickBtn" onclick="kickPlayer('${p.uid}')">Çıkar</button>`
-      : "";
-
-    d.innerHTML = `
-      ${avatarHtml(p.name,{host:isRoomHost,mark:isRoomHost ? "K" : ""})}
-      <div>
-        <div class="playerName">${esc(p.name)}</div>
-        <div class="playerSub">${role}</div>
-      </div>
-      <div class="playerActions">
-        ${historyBadge}
-        <span class="badge ${p.ready ? "green" : ""}">${p.ready ? "Hazır" : "Bekliyor"}</span>
-        ${remove}
-      </div>
-    `;
-
-    list.appendChild(d);
-  });
+  syncLobbyPlayers(arr);
 
   const readyCount = arr.filter(p => p.ready).length;
   $("readyState").textContent = allReady()
@@ -1077,10 +1150,25 @@ function renderLobby(){
 
 async function toggleReady(){
   const user = auth.currentUser;
-  if (!user || !currentRoom) return;
+  const player = myPlayer();
+  if (!user || !currentRoom || !player || readyPending) return;
 
-  await db.ref(`games/${currentRoom}/players/${user.uid}/ready`)
-    .set(!myPlayer()?.ready);
+  const previous = !!player.ready;
+  const next = !previous;
+
+  readyPending = true;
+  player.ready = next;
+  renderLobby();
+
+  try{
+    await db.ref(`games/${currentRoom}/players/${user.uid}/ready`).set(next);
+  }catch(e){
+    player.ready = previous;
+    toast("Hazır durumu güncellenemedi. Tekrar dene.");
+  }finally{
+    readyPending = false;
+    if (currentGame?.meta?.state === "lobby") renderLobby();
+  }
 }
 
 async function startGame(){
@@ -1124,7 +1212,7 @@ function renderCountdown(){
 
   stopPhaseTimer();
   tick();
-  phaseTimer = setInterval(tick, 120);
+  phaseTimer = setInterval(tick, 200);
 }
 
 function currentQuestion(){
@@ -1164,10 +1252,30 @@ function renderGame(){
 
   const answer = myAnswer();
   const grid = $("answerGrid");
-  grid.innerHTML = "";
+  const questionRenderKey = `${currentRoom}:${meta.currentKey}`;
 
-  q.options.forEach((opt,i) => {
-    const b = document.createElement("button");
+  if (
+    lastRenderedQuestionKey !== questionRenderKey ||
+    grid.children.length !== q.options.length
+  ){
+    grid.innerHTML = "";
+
+    q.options.forEach((opt,i) => {
+      const b = document.createElement("button");
+      b.className = "answer";
+      b.dataset.choice = String(i);
+      b.innerHTML = `
+        <span class="key">${String.fromCharCode(65+i)}</span>
+        <span>${esc(opt)}</span>
+      `;
+      b.onclick = () => submitAnswer(i);
+      grid.appendChild(b);
+    });
+
+    lastRenderedQuestionKey = questionRenderKey;
+  }
+
+  Array.from(grid.children).forEach((b,i) => {
     b.className = "answer";
 
     if (answer){
@@ -1186,17 +1294,6 @@ function renderGame(){
     }
 
     b.disabled = meta.state !== "question" || !!answer;
-
-    b.innerHTML = `
-      <span class="key">${String.fromCharCode(65+i)}</span>
-      <span>${esc(opt)}</span>
-    `;
-
-    if (!b.disabled){
-      b.onclick = () => submitAnswer(i);
-    }
-
-    grid.appendChild(b);
   });
 
   const status = $("answerStatus");
@@ -1234,24 +1331,41 @@ function startGameClock(){
   };
 
   tick();
-  phaseTimer = setInterval(tick, 120);
+  phaseTimer = setInterval(tick, 200);
 }
 
 async function submitAnswer(choice){
-  if (currentGame?.meta?.state !== "question") return;
+  if (currentGame?.meta?.state !== "question" || myAnswer()) return;
 
   const uid = auth.currentUser.uid;
   const key = currentGame.meta.currentKey;
   const ref = db.ref(`games/${currentRoom}/answers/${key}/${uid}`);
 
-  const exists = await ref.get();
-
-  if (exists.exists()) return;
-
-  await ref.set({
+  currentGame.answers = currentGame.answers || {};
+  currentGame.answers[key] = currentGame.answers[key] || {};
+  currentGame.answers[key][uid] = {
     choice,
-    answeredAt: TS
-  });
+    answeredAt: serverNow(),
+    pending:true
+  };
+
+  renderGame();
+
+  try{
+    await ref.set({
+      choice,
+      answeredAt: TS
+    });
+  }catch(e){
+    const optimistic = currentGame?.answers?.[key]?.[uid];
+
+    if (optimistic?.pending){
+      delete currentGame.answers[key][uid];
+    }
+
+    renderGame();
+    toast("Cevap gönderilemedi. Tekrar dene.");
+  }
 }
 
 function leaderRows(){
@@ -1368,12 +1482,10 @@ function coordinateHost(){
   const wait = Math.max(0, m.phaseEndsAt - serverNow() + 120);
 
   hostTimer = setTimeout(async () => {
-    const snap = await db.ref(`games/${currentRoom}`).get();
+    const metaSnap = await db.ref(`games/${currentRoom}/meta`).get();
+    if (!metaSnap.exists()) return;
 
-    if (!snap.exists()) return;
-
-    const g = snap.val();
-    const meta = g.meta;
+    const meta = metaSnap.val();
 
     if (`${meta.state}:${meta.currentIndex}:${meta.phaseEndsAt}` !== key){
       return;
@@ -1381,10 +1493,23 @@ function coordinateHost(){
 
     if (meta.state === "countdown"){
       await beginQuestion(meta.currentIndex);
+
     }else if (meta.state === "question"){
-      await revealQuestion(g);
+      const [playersSnap, answersSnap] = await Promise.all([
+        db.ref(`games/${currentRoom}/players`).get(),
+        db.ref(`games/${currentRoom}/answers/${meta.currentKey}`).get()
+      ]);
+
+      await revealQuestion({
+        meta,
+        players: playersSnap.val() || {},
+        answers: {
+          [meta.currentKey]: answersSnap.val() || {}
+        }
+      });
+
     }else if (meta.state === "reveal"){
-      await nextPhase(g);
+      await nextPhase({meta});
     }
   }, wait);
 }
