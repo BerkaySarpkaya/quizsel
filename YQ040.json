@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ040",
+  "displayCode": "Y.Q040",
+  "title": "Mühendislik — Ölçüm, Sistemler & Tasarım",
+  "category": "Mühendislik",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Ölçüm, kontrol, tasarım ve mühendislik analizi kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Mühendislik",
+    "Ölçüm",
+    "Sistemler",
+    "Tasarım"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir ölçüm cihazı aynı değeri tekrar tekrar birbirine çok yakın ölçüyor ancak gerçek değerden sistematik olarak sapıyorsa hangi özellik yüksektir?",
+      "options": [
+        "Hassasiyet",
+        "Doğruluk",
+        "Doğrusallık",
+        "Çözünürlük"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kalibrasyon işleminin temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Ölçüm aralığını fiziksel olarak iki katına çıkarmak",
+        "Ölçüm cihazını bilinen bir referansla karşılaştırmak",
+        "Sensörün örnekleme hızını sürekli artırmak",
+        "Ölçüm sonucundaki tüm belirsizliği sıfırlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kapalı çevrim bir kontrol sisteminde geri beslemenin temel amacı nedir?",
+      "options": [
+        "Kontrolcü olmadan kararlı çalışmayı garanti etmek",
+        "Sistemin giriş sinyalini tamamen ortadan kaldırmak",
+        "Çıkış ile hedef arasındaki hatayı izleyip düzeltmeye yardımcı olmak",
+        "Sensör ölçümlerini sistemden bağımsız hale getirmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir sürekli sinyal yetersiz örnekleme frekansıyla sayısallaştırıldığında oluşabilen yanıltıcı frekans etkisine ne ad verilir?",
+      "options": [
+        "Hysteresis",
+        "Damping",
+        "Saturation",
+        "Aliasing"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Mühendislik çiziminde tolerans en temel olarak neyi tanımlar?",
+      "options": [
+        "Üretim sürecinin toplam maliyet sınırını",
+        "Nominal değerden izin verilen sapma aralığını",
+        "Parçanın teorik olarak tam ağırlığını",
+        "Malzemenin yalnızca yüzey pürüzlülüğünü"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir AC gerilimin RMS değeri fiziksel olarak hangi karşılaştırmayı kolaylaştırır?",
+      "options": [
+        "Aynı dirençte eşdeğer ısı etkisi oluşturan DC değeriyle karşılaştırmayı",
+        "Faz açısını her durumda sıfıra indirmeyi",
+        "Devredeki toplam direnç değerini doğrudan ölçmeyi",
+        "Sinyalin yalnızca maksimum frekansını belirlemeyi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Sonlu elemanlar analizi en genel haliyle ne için kullanılır?",
+      "options": [
+        "Yalnız iki boyutlu teknik çizimleri otomatik renklendirmek",
+        "Tüm mühendislik problemlerini kapalı formda kesin çözmek",
+        "Malzeme özelliklerini deney yapmadan doğrudan belirlemek",
+        "Sürekli bir fiziksel problemi küçük elemanlara bölerek yaklaşık çözmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir sensörün fiziksel bir büyüklüğü elektriksel veya başka işlenebilir bir sinyale dönüştürmesine ne ad verilir?",
+      "options": [
+        "Filtreleme",
+        "Enterpolasyon",
+        "Dönüştürme",
+        "Doğrusallaştırma"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "FMEA çalışmasının temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Olası hata türlerini ve etkilerini sistematik biçimde değerlendirmek",
+        "Yalnız gerçekleşmiş arızaların maliyetini hesaplamak",
+        "Üretim hızını kalite kontrol olmadan artırmak",
+        "Tasarım alternatiflerini yalnız ağırlığa göre sıralamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir tasarımda emniyet katsayısını artırmak, diğer koşullar aynıyken genellikle ne anlama gelir?",
+      "options": [
+        "Malzeme dayanımını matematiksel olarak azaltmak",
+        "Talebe göre daha yüksek kapasite payı bırakmak",
+        "Uygulanan yükü fiziksel olarak sıfırlamak",
+        "Belirsizlikleri tamamen ortadan kaldırmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

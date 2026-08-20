@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ037",
+  "displayCode": "Y.Q037",
+  "title": "Avukatlık — Usul & Yargılama",
+  "category": "Avukatlık",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Hukuk usulü ve yargılama kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Avukatlık",
+    "Usul",
+    "Yargılama"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Hukuk yargılamasında istinaf kanun yolunun temel işlevi aşağıdakilerden hangisidir?",
+      "options": [
+        "İlk derece kararını maddi ve hukuki yönlerden denetlemek",
+        "Uyuşmazlığı mahkeme dışı uzlaşmayla sona erdirmek",
+        "İlk derece kararını yalnız biçim yönünden incelemek",
+        "Kesinleşmiş kararı doğrudan yeniden hükme bağlamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir mahkemenin belirli türdeki uyuşmazlığa bakıp bakamayacağını ifade eden kavram hangisidir?",
+      "options": [
+        "Yetki",
+        "Görev",
+        "Yargı çevresi",
+        "Kesin yetki"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hukuk yargılamasında genel ispat yükü kuralına göre bir vakıadan kendi lehine hak çıkaran taraf ne yapmalıdır?",
+      "options": [
+        "Yalnızca hukuki sebebi açıklamakla yetinmelidir",
+        "Mahkemeden bilirkişi atanmasını istemelidir",
+        "Dayandığı vakıanın varlığını ispatlamalıdır",
+        "Karşı tarafın bütün iddialarını çürütmelidir"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdakilerden hangisi hukuki dinlenilme hakkının temel unsurlarından biridir?",
+      "options": [
+        "Mahkemenin taraflardan bağımsız delil üretmesi",
+        "Tarafların yalnızca yazılı beyanda bulunabilmesi",
+        "Duruşmaların her durumda kapalı yapılabilmesi",
+        "Tarafların bilgi sahibi olup açıklama yapabilmesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir davacının dava konusu talebinden tamamen vazgeçmesine ne ad verilir?",
+      "options": [
+        "İbra",
+        "Feragat",
+        "Sulh",
+        "Kabul"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "İhtiyati tedbirin temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Yargılama sürerken hakkın ciddi zarara uğramasını önlemek",
+        "Tarafların kanun yoluna başvurma süresini uzatmak",
+        "Esas davayı açmadan uyuşmazlığı kesin hükme bağlamak",
+        "Mahkeme harçlarının ödenmesini geçici olarak ertelemek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mahkemenin taraflara veya ilgililere usulüne uygun biçimde resmi bildirim yapmasına ne ad verilir?",
+      "options": [
+        "İstinabe",
+        "Tensip",
+        "Müzekkere",
+        "Tebligat"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kesin hüküm kavramı en temel olarak hangi sonucu ifade eder?",
+      "options": [
+        "Mahkeme kararının hiçbir şekilde icraya konu edilememesini",
+        "Kararın yalnızca verildiği mahkemeyi bağlamasını",
+        "Aynı uyuşmazlığın aynı taraflar arasında yeniden görülmesini engellemesini",
+        "Tarafların dava sırasında yeni delil sunamamasını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir mahkemenin coğrafi olarak hangi yerdeki uyuşmazlığa bakacağını belirleyen kavram hangisidir?",
+      "options": [
+        "Yetki",
+        "Dava şartı",
+        "Hukuki yarar",
+        "Görev"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bilirkişinin yargılamadaki temel görevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Taraflardan biri adına delil toplamak ve savunma yapmak",
+        "Özel veya teknik bilgi gerektiren konuda görüş sunmak",
+        "Uyuşmazlığın hukuki sonucuna mahkeme yerine karar vermek",
+        "Dava dilekçesindeki hukuki sebepleri yeniden düzenlemek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

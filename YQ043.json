@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ043",
+  "displayCode": "Y.Q043",
+  "title": "İktisat — Mikroekonomi",
+  "category": "İktisat",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Mikroekonomi, piyasa yapıları ve refah analizine odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İktisat",
+    "Mikroekonomi"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Denge fiyatının altında bağlayıcı bir tavan fiyat uygulanırsa piyasada genel olarak hangi sonuç beklenir?",
+      "options": [
+        "Talep fazlası",
+        "Tam rekabet kaybı",
+        "Arz fazlası",
+        "Yeni denge fazlası"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Denge fiyatının üzerinde bağlayıcı bir taban fiyat uygulanırsa piyasada genel olarak hangi sonuç beklenir?",
+      "options": [
+        "Talebin tamamen kaybolması",
+        "Arz fazlası",
+        "Fiyatın sıfırlanması",
+        "Talep fazlası"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Tüketici rantı en temel olarak neyi ifade eder?",
+      "options": [
+        "Devletin vergi geliri ile kamu harcaması arasındaki farkı",
+        "Piyasa fiyatı ile üretim maliyeti arasındaki tüm farkı",
+        "Tüketicinin ödemeye razı olduğu tutar ile fiilen ödediği tutar arasındaki farkı",
+        "Üreticinin satış geliri ile toplam maliyeti arasındaki farkı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Azalan marjinal fayda ilkesi neyi ifade eder?",
+      "options": [
+        "Gelir arttıkça tüm malların talebinin azalmasını",
+        "Toplam faydanın her ek tüketimde mutlaka azalmasını",
+        "Malın fiyatı düştükçe marjinal maliyetin artmasını",
+        "Bir maldan ek bir birim tüketmenin sağladığı ek faydanın giderek azalmasını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Negatif dışsallığa en uygun örnek hangisidir?",
+      "options": [
+        "Bir tüketicinin indirimli üründen yararlanması",
+        "Bir fabrikanın çevredeki hava kalitesini bozması",
+        "Bir firmanın yeni makine alarak maliyetini düşürmesi",
+        "Bir öğrencinin eğitim alarak gelirini artırması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Saf kamusal malın iki temel özelliği hangisidir?",
+      "options": [
+        "Rakip olmama ve dışlanamama",
+        "Rakip olma ve dışlanabilme",
+        "Rakip olma ve dışlanamama",
+        "Rakip olmama ve dışlanabilme"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Aşağı doğru eğimli talep eğrisiyle karşılaşan tek fiyatlı bir monopolde marjinal gelir ile fiyat arasındaki ilişki genellikle nasıldır?",
+      "options": [
+        "Marjinal gelir fiyatla ilişkisizdir",
+        "Marjinal gelir fiyattan yüksektir",
+        "Marjinal gelir fiyata eşittir",
+        "Marjinal gelir fiyattan düşüktür"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Tam rekabetçi bir firmaya 'fiyat alıcı' denmesinin temel nedeni nedir?",
+      "options": [
+        "Üretim miktarını hiçbir zaman değiştirememesi",
+        "Her durumda sıfır ekonomik kâr elde etmesi",
+        "Tek başına piyasa fiyatını anlamlı biçimde değiştirememesi",
+        "Piyasadaki tüm firmalarla ortak fiyat belirlemesi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Talep esnekken fiyatın düşürülmesi toplam hasılayı genellikle nasıl etkiler?",
+      "options": [
+        "Artırır",
+        "Değiştirmez",
+        "Sıfırlar",
+        "Azaltır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir verginin yarattığı ölü ağırlık kaybı neyi ifade eder?",
+      "options": [
+        "Devletin topladığı toplam vergi gelirinin tamamını",
+        "Vergi nedeniyle gerçekleşmeyen karşılıklı faydalı işlemlerden doğan refah kaybını",
+        "Tüketicilerin fiyat artışı nedeniyle yaptığı tüm harcamayı",
+        "Üreticilerin ödediği muhasebe vergilerinin toplamını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

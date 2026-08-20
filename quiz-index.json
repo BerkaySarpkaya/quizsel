@@ -345,6 +345,70 @@
       "difficulty": 5.0,
       "questions": 10,
       "file": "YQ036.json"
+    },
+    {
+      "code": "Y.Q037",
+      "title": "Avukatlık — Usul & Yargılama",
+      "category": "Avukatlık",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ037.json"
+    },
+    {
+      "code": "Y.Q038",
+      "title": "Avukatlık — Meslek & Hukuk Uygulaması",
+      "category": "Avukatlık",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ038.json"
+    },
+    {
+      "code": "Y.Q039",
+      "title": "Mühendislik — Mekanik & Enerji",
+      "category": "Mühendislik",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ039.json"
+    },
+    {
+      "code": "Y.Q040",
+      "title": "Mühendislik — Ölçüm, Sistemler & Tasarım",
+      "category": "Mühendislik",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ040.json"
+    },
+    {
+      "code": "Y.Q041",
+      "title": "İstatistik — Dağılımlar & Örnekleme",
+      "category": "İstatistik",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ041.json"
+    },
+    {
+      "code": "Y.Q042",
+      "title": "İstatistik — Çıkarım & Regresyon",
+      "category": "İstatistik",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ042.json"
+    },
+    {
+      "code": "Y.Q043",
+      "title": "İktisat — Mikroekonomi",
+      "category": "İktisat",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ043.json"
+    },
+    {
+      "code": "Y.Q044",
+      "title": "İktisat — Makroekonomi & Para",
+      "category": "İktisat",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ044.json"
     }
   ]
 }

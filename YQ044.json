@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ044",
+  "displayCode": "Y.Q044",
+  "title": "İktisat — Makroekonomi & Para",
+  "category": "İktisat",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Makroekonomi, para politikası ve dış denge kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İktisat",
+    "Makroekonomi",
+    "Para"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "TÜFE ile GSYH deflatörü arasındaki temel farklardan biri hangisidir?",
+      "options": [
+        "TÜFE tüketici sepetine, GSYH deflatörü yurt içinde üretilen nihai çıktıya odaklanır",
+        "TÜFE yalnız kamu fiyatlarını, GSYH deflatörü yalnız özel fiyatları ölçer",
+        "TÜFE üretim miktarını, GSYH deflatörü işsizlik oranını ölçer",
+        "TÜFE yalnız ihracatı, GSYH deflatörü yalnız ithalatı ölçer"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Fisher yaklaşımında düşük oranlar için reel faiz yaklaşık nasıl hesaplanır?",
+      "options": [
+        "Nominal faiz × enflasyon",
+        "Nominal faiz − enflasyon",
+        "Nominal faiz + enflasyon",
+        "Enflasyon − nominal faiz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Merkez bankasının açık piyasa işlemleriyle tahvil satın alması, diğer koşullar sabitken genellikle hangi yönde etki yaratır?",
+      "options": [
+        "Gelir vergisi oranlarını artırma yönünde",
+        "Kamu harcamalarını doğrudan azaltma yönünde",
+        "Bankacılık sistemindeki likiditeyi artırma yönünde",
+        "Bankacılık sistemindeki rezervleri azaltma yönünde"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Daraltıcı maliye politikasına en uygun örnek hangisidir?",
+      "options": [
+        "Transfer ödemelerinin artırılması",
+        "Vergilerin azaltılması",
+        "Kamu harcamalarının artırılması",
+        "Kamu harcamalarının azaltılması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir ülkenin para biriminin değer kaybetmesi, diğer koşullar sabitken, genellikle hangi etkiyi yaratır?",
+      "options": [
+        "İhracatı yabancılar için pahalılaştırıp ithalatı yerli tüketici için ucuzlatır",
+        "İhracatı yabancılar için ucuzlatıp ithalatı yerli tüketici için pahalılaştırır",
+        "Dış ticaret fiyatlarını hiçbir şekilde etkilemez",
+        "Hem ihracatı hem ithalatı aynı oranda ucuzlatır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Cari işlemler hesabında aşağıdakilerden hangisi tipik olarak yer alır?",
+      "options": [
+        "Mal ve hizmet ticareti",
+        "Merkez bankası politika faizi",
+        "Borsa endeksinin günlük değişimi",
+        "Yurt içi banka rezervleri"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "İş değiştirme veya yeni iş arama sürecindeki geçici işsizlik hangi tür işsizliktir?",
+      "options": [
+        "Mevsimsel işsizlik",
+        "Konjonktürel işsizlik",
+        "Yapısal işsizlik",
+        "Friksiyonel işsizlik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kısa dönem Phillips eğrisi geleneksel olarak hangi iki değişken arasında ters yönlü ilişkiyi tartışır?",
+      "options": [
+        "Faiz ve döviz kuru",
+        "Tasarruf ve yatırım",
+        "Enflasyon ve işsizlik",
+        "İhracat ve ithalat"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kamu borçlanmasının faizleri yükselterek özel yatırımları azaltabilmesine ne ad verilir?",
+      "options": [
+        "Dışlama etkisi",
+        "İkame etkisi",
+        "Gelir etkisi",
+        "Çarpan etkisi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Pozitif çıktı açığı neyi ifade eder?",
+      "options": [
+        "İşsizlik oranının doğal oranla tam eşit olmasını",
+        "Fiili üretimin potansiyel üretimin üzerinde olmasını",
+        "Fiili üretimin potansiyel üretimin altında olmasını",
+        "Enflasyon oranının sıfırın altında olmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
