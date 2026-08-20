@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ027",
+  "displayCode": "Y.Q027",
+  "title": "Yeni Genel Kültür 5.5 — 27",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Birinci Haçlı Seferi sonunda Kudüs hangi yıl Haçlıların eline geçmiştir?",
+      "options": [
+        "1071",
+        "1147",
+        "1187",
+        "1099"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Sırbistan'ın başkenti hangisidir?",
+      "options": [
+        "Niş",
+        "Kragujevac",
+        "Novi Sad",
+        "Belgrad"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Göze giren ışık miktarını ayarlamak için göz bebeğinin çapını değiştiren yapı hangisidir?",
+      "options": [
+        "İris",
+        "Kornea",
+        "Mercek",
+        "Retina"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kâğıt Oyuncuları (The Card Players) serisinin ressamı kimdir?",
+      "options": [
+        "Paul Cézanne",
+        "Paul Gauguin",
+        "Claude Monet",
+        "Henri Matisse"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Sineklerin Tanrısı (Lord of the Flies) romanının yazarı kimdir?",
+      "options": [
+        "George Orwell",
+        "Graham Greene",
+        "William Golding",
+        "Aldous Huxley"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Futbolda bir takım maça sahada kaç oyuncuyla başlar?",
+      "options": [
+        "12",
+        "11",
+        "10",
+        "9"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Finlandia adlı senfonik şiirin bestecisi kimdir?",
+      "options": [
+        "Antonín Dvořák",
+        "Jean Sibelius",
+        "Edvard Grieg",
+        "Carl Nielsen"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Plüton'u 1930'da keşfeden astronom kimdir?",
+      "options": [
+        "Percival Lowell",
+        "Clyde Tombaugh",
+        "William Herschel",
+        "Edwin Hubble"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Flamenko kültürü özellikle İspanya'nın hangi bölgesiyle ilişkilidir?",
+      "options": [
+        "Katalonya",
+        "Endülüs",
+        "Galiçya",
+        "Bask Bölgesi"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "The Good, the Bad and the Ugly filminin yönetmeni kimdir?",
+      "options": [
+        "Luchino Visconti",
+        "Federico Fellini",
+        "Vittorio De Sica",
+        "Sergio Leone"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

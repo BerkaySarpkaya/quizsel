@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ024",
+  "displayCode": "Y.Q024",
+  "title": "Yeni Genel Kültür 5.5 — 24",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Trafalgar Deniz Savaşı hangi yıl gerçekleşmiştir?",
+      "options": [
+        "1815",
+        "1812",
+        "1798",
+        "1805"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Hırvatistan'ın başkenti hangisidir?",
+      "options": [
+        "Split",
+        "Rijeka",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsan beyninin hacimce en büyük bölümü hangisidir?",
+      "options": [
+        "Büyük beyin (serebrum)",
+        "Omurilik soğanı",
+        "Beyincik",
+        "Hipofiz bezi"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "3 Mayıs 1808 (The Third of May 1808) tablosunun ressamı kimdir?",
+      "options": [
+        "Francisco Goya",
+        "Diego Velázquez",
+        "El Greco",
+        "Joaquín Sorolla"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Fahrenheit 451 romanının yazarı kimdir?",
+      "options": [
+        "Isaac Asimov",
+        "Arthur C. Clarke",
+        "Ray Bradbury",
+        "Kurt Vonnegut"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Basketbolda başarılı bir serbest atış kaç sayı kazandırır?",
+      "options": [
+        "2 sayı",
+        "1 sayı",
+        "3 sayı",
+        "4 sayı"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Fındıkkıran (The Nutcracker) balesinin müziklerini kim bestelemiştir?",
+      "options": [
+        "Nikolay Rimski-Korsakov",
+        "Sergey Prokofyev",
+        "Igor Stravinsky",
+        "Pyotr İlyiç Çaykovski"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Dünya ile Ay arasındaki ortalama mesafe yaklaşık kaç kilometredir?",
+      "options": [
+        "3.844.000 km",
+        "1.280.000 km",
+        "384.400 km",
+        "149.600 km"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Yunan alfabesinin ilk harfi hangisidir?",
+      "options": [
+        "Beta",
+        "Delta",
+        "Alfa",
+        "Gamma"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Jaws filminin yönetmeni kimdir?",
+      "options": [
+        "George Lucas",
+        "Steven Spielberg",
+        "Martin Scorsese",
+        "Brian De Palma"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

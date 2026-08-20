@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ026",
+  "displayCode": "Y.Q026",
+  "title": "Yeni Genel Kültür 5.5 — 26",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1485 Bosworth Field Muharebesi hangi iç savaşlar dizisinin son önemli çatışması olarak kabul edilir?",
+      "options": [
+        "Güller Savaşı",
+        "Otuz Yıl Savaşları",
+        "İngiliz İç Savaşı",
+        "Yüz Yıl Savaşları"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Çekya'nın başkenti hangisidir?",
+      "options": [
+        "Prag",
+        "Ostrava",
+        "Plzeň",
+        "Brno"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Akciğerlerde oksijen ile karbondioksit değişiminin gerçekleştiği temel yapılar hangileridir?",
+      "options": [
+        "Alveoller",
+        "Bronşlar",
+        "Diyafram",
+        "Plevra"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Girl with Balloon eseriyle tanınan sokak sanatçısı kimdir?",
+      "options": [
+        "Shepard Fairey",
+        "Banksy",
+        "Jean-Michel Basquiat",
+        "Keith Haring"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Define Adası (Treasure Island) romanının yazarı kimdir?",
+      "options": [
+        "Robert Louis Stevenson",
+        "Joseph Conrad",
+        "Rudyard Kipling",
+        "Daniel Defoe"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Voleybolda libero oyuncusunun temel uzmanlık alanı hangisidir?",
+      "options": [
+        "File üstünden hücum",
+        "Savunma ve manşet",
+        "Servis atarak sayı kazanma",
+        "Blok yapma"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Adagio for Strings eserinin bestecisi kimdir?",
+      "options": [
+        "George Gershwin",
+        "Aaron Copland",
+        "Leonard Bernstein",
+        "Samuel Barber"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Galileo'nun teleskopla gözlemlediği ve bugün 'Galilei uyduları' denilen Jüpiter uydularının sayısı kaçtır?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Origami sanatı en güçlü biçimde hangi ülkenin kültürüyle ilişkilidir?",
+      "options": [
+        "Çin",
+        "Tayland",
+        "Japonya",
+        "Güney Kore"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Cinema Paradiso filminin yönetmeni kimdir?",
+      "options": [
+        "Federico Fellini",
+        "Roberto Benigni",
+        "Giuseppe Tornatore",
+        "Bernardo Bertolucci"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

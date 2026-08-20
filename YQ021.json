@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ021",
+  "displayCode": "Y.Q021",
+  "title": "Yeni Genel Kültür 5.5 — 21",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Roma İmparatorluğu'nun ilk imparatoru olarak kabul edilen kişi kimdir?",
+      "options": [
+        "Nero",
+        "Augustus",
+        "Trajanus",
+        "Marcus Aurelius"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Portekiz'in başkenti hangisidir?",
+      "options": [
+        "Lizbon",
+        "Braga",
+        "Porto",
+        "Coimbra"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kimyasal sembolü Mg olan element hangisidir?",
+      "options": [
+        "Manganez",
+        "Merkür",
+        "Magnezyum",
+        "Molibden"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Mona Lisa tablosu hangi müzede sergilenmektedir?",
+      "options": [
+        "Uffizi Galerisi",
+        "Prado Müzesi",
+        "Rijksmuseum",
+        "Louvre Müzesi"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Dracula romanının yazarı kimdir?",
+      "options": [
+        "Mary Shelley",
+        "Bram Stoker",
+        "Robert Louis Stevenson",
+        "H. G. Wells"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "FIBA kurallarına göre bir basketbol maçının normal oyun süresi toplam kaç dakikadır?",
+      "options": [
+        "40 dakika",
+        "60 dakika",
+        "36 dakika",
+        "48 dakika"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "2001: A Space Odyssey filminin yönetmeni kimdir?",
+      "options": [
+        "Francis Ford Coppola",
+        "Stanley Kubrick",
+        "Ridley Scott",
+        "George Lucas"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Güneş Sistemi'nde Güneş etrafındaki bir turunu en kısa sürede tamamlayan gezegen hangisidir?",
+      "options": [
+        "Merkür",
+        "Mars",
+        "Venüs",
+        "Dünya"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İsviçre'nin ulusal düzeyde kabul edilen kaç resmî dili vardır?",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "4"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Nobel Barış Ödülü'nün ödül töreni geleneksel olarak hangi şehirde yapılır?",
+      "options": [
+        "Kopenhag",
+        "Stockholm",
+        "Helsinki",
+        "Oslo"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

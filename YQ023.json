@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ023",
+  "displayCode": "Y.Q023",
+  "title": "Yeni Genel Kültür 5.5 — 23",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yüz Yıl Savaşları esas olarak hangi iki krallık arasında yaşanmıştır?",
+      "options": [
+        "Fransa ile İspanya",
+        "İngiltere ile İskoçya",
+        "İngiltere ile Fransa",
+        "İspanya ile Portekiz"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Vietnam'ın başkenti hangisidir?",
+      "options": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Hue",
+        "Da Nang"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Işık şiddetinin SI temel birimi hangisidir?",
+      "options": [
+        "Watt",
+        "Kandela",
+        "Lümen",
+        "Lüks"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Son Akşam Yemeği (The Last Supper) eserinin sanatçısı kimdir?",
+      "options": [
+        "Raffaello",
+        "Sandro Botticelli",
+        "Michelangelo",
+        "Leonardo da Vinci"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Alice Harikalar Diyarında adlı eserin yazarı kimdir?",
+      "options": [
+        "Kenneth Grahame",
+        "L. Frank Baum",
+        "J. M. Barrie",
+        "Lewis Carroll"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Olimpiyat sembolünde birbirine geçmiş kaç halka bulunur?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Sevil Berberi (The Barber of Seville) operasının bestecisi kimdir?",
+      "options": [
+        "Giacomo Puccini",
+        "Giuseppe Verdi",
+        "Gioachino Rossini",
+        "Gaetano Donizetti"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Dönme ekseni yörünge düzlemine göre yaklaşık 98° eğik olan gezegen hangisidir?",
+      "options": [
+        "Neptün",
+        "Mars",
+        "Uranüs",
+        "Satürn"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Roma rakamıyla XC hangi sayıyı ifade eder?",
+      "options": [
+        "40",
+        "90",
+        "110",
+        "60"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Citizen Kane filminin yönetmeni ve başrol oyuncusu kimdir?",
+      "options": [
+        "Orson Welles",
+        "Billy Wilder",
+        "John Ford",
+        "Howard Hawks"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

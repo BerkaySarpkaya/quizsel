@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ022",
+  "displayCode": "Y.Q022",
+  "title": "Yeni Genel Kültür 5.5 — 22",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Peloponez Savaşı esas olarak hangi iki Antik Yunan gücü arasında gerçekleşmiştir?",
+      "options": [
+        "Atina ile Sparta",
+        "Atina ile Teb",
+        "Makedonya ile Atina",
+        "Sparta ile Korint"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Finlandiya'nın başkenti hangisidir?",
+      "options": [
+        "Turku",
+        "Espoo",
+        "Helsinki",
+        "Tampere"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "C vitamini eksikliği klasik olarak hangi hastalığa yol açar?",
+      "options": [
+        "Beriberi",
+        "Raşitizm",
+        "Skorbüt",
+        "Pellagra"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İzlenim: Gün Doğumu (Impression, Sunrise) tablosunun ressamı kimdir?",
+      "options": [
+        "Édouard Manet",
+        "Pierre-Auguste Renoir",
+        "Alfred Sisley",
+        "Claude Monet"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Hobbit romanının yazarı kimdir?",
+      "options": [
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "Terry Pratchett",
+        "George R. R. Martin"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Fransa Açık tenis turnuvası Roland-Garros hangi kort zemininde oynanır?",
+      "options": [
+        "Çim",
+        "Sert kort",
+        "Halı",
+        "Toprak"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ay Işığı Sonatı (Moonlight Sonata) adıyla bilinen eserin bestecisi kimdir?",
+      "options": [
+        "Frédéric Chopin",
+        "Ludwig van Beethoven",
+        "Johannes Brahms",
+        "Franz Schubert"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Güneş Sistemi'nde ortalama yüzey sıcaklığı en yüksek gezegen hangisidir?",
+      "options": [
+        "Jüpiter",
+        "Mars",
+        "Merkür",
+        "Venüs"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Danimarka'nın para birimi hangisidir?",
+      "options": [
+        "Danimarka kronu",
+        "Euro",
+        "İsviçre frangı",
+        "İsveç kronu"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Spirited Away filminin yönetmeni kimdir?",
+      "options": [
+        "Hayao Miyazaki",
+        "Makoto Shinkai",
+        "Satoshi Kon",
+        "Mamoru Hosoda"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

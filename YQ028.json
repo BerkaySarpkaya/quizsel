@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ028",
+  "displayCode": "Y.Q028",
+  "title": "Yeni Genel Kültür 5.5 — 28",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1918 Brest-Litovsk Antlaşması sonucunda hangi ülke I. Dünya Savaşı'ndan çekilmiştir?",
+      "options": [
+        "Romanya",
+        "Bulgaristan",
+        "İtalya",
+        "Rusya"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "İsviçre'nin federal başkenti hangisidir?",
+      "options": [
+        "Bern",
+        "Cenevre",
+        "Zürih",
+        "Lozan"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Vücut sıcaklığının düzenlenmesinde merkezi rol oynayan beyin bölgesi hangisidir?",
+      "options": [
+        "Beyincik",
+        "Hipotalamus",
+        "Talamus",
+        "Hipokampus"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Başak Toplayan Kadınlar (The Gleaners) tablosunun ressamı kimdir?",
+      "options": [
+        "Gustave Courbet",
+        "Jean-François Millet",
+        "Honoré Daumier",
+        "Camille Corot"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İki Şehrin Hikâyesi (A Tale of Two Cities) romanının yazarı kimdir?",
+      "options": [
+        "Thomas Hardy",
+        "Charles Dickens",
+        "George Eliot",
+        "William Thackeray"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Tekvando hangi ülkenin kökenli dövüş sporu olarak bilinir?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Tayland",
+        "Güney Kore"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Yeni Dünya Senfonisi olarak bilinen 9. Senfoni'nin bestecisi kimdir?",
+      "options": [
+        "Gustav Mahler",
+        "Bedřich Smetana",
+        "Johannes Brahms",
+        "Antonín Dvořák"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Hubble Uzay Teleskobu hangi yıl uzaya fırlatılmıştır?",
+      "options": [
+        "1984",
+        "1990",
+        "1995",
+        "1987"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Haka adlı geleneksel performans hangi yerli halkla güçlü biçimde ilişkilidir?",
+      "options": [
+        "İnuitler",
+        "Aborjinler",
+        "Maoriler",
+        "Samiler"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Amélie filminin yönetmeni kimdir?",
+      "options": [
+        "Jean-Luc Godard",
+        "François Truffaut",
+        "Jean-Pierre Jeunet",
+        "Luc Besson"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

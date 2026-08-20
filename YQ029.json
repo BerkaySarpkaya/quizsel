@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ029",
+  "displayCode": "Y.Q029",
+  "title": "Yeni Genel Kültür 5.5 — 29",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Termopylae Muharebesi'nde Sparta kuvvetlerinin kralı kimdi?",
+      "options": [
+        "Perikles",
+        "Themistokles",
+        "Miltiades",
+        "Leonidas"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Belçika'nın başkenti hangisidir?",
+      "options": [
+        "Brugge",
+        "Brüksel",
+        "Gent",
+        "Anvers"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Metanın kimyasal formülü hangisidir?",
+      "options": [
+        "CO₂",
+        "CH₃OH",
+        "CH₄",
+        "C₂H₆"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Dans Dersi (The Dance Class) tablosunun ressamı kimdir?",
+      "options": [
+        "Claude Monet",
+        "Edgar Degas",
+        "Édouard Manet",
+        "Pierre-Auguste Renoir"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Robinson Crusoe romanının yazarı kimdir?",
+      "options": [
+        "Jonathan Swift",
+        "Henry Fielding",
+        "Daniel Defoe",
+        "Samuel Richardson"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Eskrimde épée disiplininde geçerli hedef bölgesi hangisidir?",
+      "options": [
+        "Yalnızca gövde",
+        "Belden yukarısı",
+        "Tüm vücut",
+        "Yalnızca baş ve kollar"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Peer Gynt için sahne müziklerini besteleyen kişi kimdir?",
+      "options": [
+        "Edvard Grieg",
+        "Carl Nielsen",
+        "Jean Sibelius",
+        "Antonín Dvořák"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Samanyolu Galaksisi hangi temel galaksi türüne girer?",
+      "options": [
+        "Merceksi galaksi",
+        "Eliptik galaksi",
+        "Düzensiz galaksi",
+        "Çubuklu sarmal galaksi"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Macaristan'ın para birimi hangisidir?",
+      "options": [
+        "Euro",
+        "Leu",
+        "Forint",
+        "Zloti"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Pan's Labyrinth filminin yönetmeni kimdir?",
+      "options": [
+        "Alfonso Cuarón",
+        "Alejandro G. Iñárritu",
+        "Guillermo del Toro",
+        "Pedro Almodóvar"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

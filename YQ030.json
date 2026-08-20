@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ030",
+  "displayCode": "Y.Q030",
+  "title": "Yeni Genel Kültür 5.5 — 30",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Antik Kartaca kenti günümüzde hangi ülkenin sınırları içindedir?",
+      "options": [
+        "Tunus",
+        "Cezayir",
+        "Libya",
+        "Fas"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Litvanya'nın başkenti hangisidir?",
+      "options": [
+        "Vilnius",
+        "Kaunas",
+        "Riga",
+        "Klaipėda"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İç kulakta denge duyusuyla en doğrudan ilişkili sistem hangisidir?",
+      "options": [
+        "Kulak zarı",
+        "Östaki borusu",
+        "Vestibüler sistem",
+        "Koklea"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Medusa'nın Salı (The Raft of the Medusa) tablosunun ressamı kimdir?",
+      "options": [
+        "Eugène Delacroix",
+        "Jacques-Louis David",
+        "Jean-Auguste-Dominique Ingres",
+        "Théodore Géricault"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Prens (Il Principe) adlı siyaset eserinin yazarı kimdir?",
+      "options": [
+        "John Locke",
+        "Thomas More",
+        "Niccolò Machiavelli",
+        "Jean-Jacques Rousseau"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Masa tenisinde standart bir oyun normalde kaç sayıya ulaşınca, en az iki farkla kazanılır?",
+      "options": [
+        "11",
+        "15",
+        "21",
+        "25"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Canon in D eserinin bestecisi kimdir?",
+      "options": [
+        "Johann Pachelbel",
+        "Johann Sebastian Bach",
+        "Georg Philipp Telemann",
+        "Antonio Vivaldi"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Güneş hangi yıldız sınıfına girer?",
+      "options": [
+        "B tipi mavi dev",
+        "G tipi ana kol yıldızı",
+        "M tipi kırmızı cüce",
+        "K tipi turuncu dev"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Latince 'carpe diem' ifadesinin en yakın anlamı hangisidir?",
+      "options": [
+        "Bilgi güçtür",
+        "Günü yaşa / anı değerlendir",
+        "Zaman her şeyi iyileştirir",
+        "Kader değişmez"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Yedi Samuray (Seven Samurai) filminin yönetmeni kimdir?",
+      "options": [
+        "Kenji Mizoguchi",
+        "Masaki Kobayashi",
+        "Yasujirō Ozu",
+        "Akira Kurosawa"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
