@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ046",
+  "displayCode": "Y.Q046",
+  "title": "İnşaat Mühendisliği — Geoteknik & Temeller",
+  "category": "İnşaat Mühendisliği",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Zemin mekaniği, temel mühendisliği ve yeraltı suyu kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İnşaat Mühendisliği",
+    "Geoteknik",
+    "Temeller"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Doygun bir zeminde toplam gerilme ile efektif gerilme arasındaki farkı oluşturan temel büyüklük hangisidir?",
+      "options": [
+        "Boşluk suyu basıncı",
+        "Doğal su muhtevası",
+        "Plastisite indisi",
+        "Kapiler yükselme yüksekliği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Terzaghi efektif gerilme prensibine göre zeminin kayma dayanımı ve deformasyon davranışını en doğrudan hangi gerilme kontrol eder?",
+      "options": [
+        "Toplam gerilme",
+        "Efektif gerilme",
+        "Başlangıç gerilmesi",
+        "Hidrostatik gerilme"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Standart Penetrasyon Deneyi'nde N değeri temel olarak neyi ifade eder?",
+      "options": [
+        "Yeraltı suyu seviyesinin derinliğini",
+        "Zeminin laboratuvar kuru birim hacim ağırlığını",
+        "Belirli penetrasyon için gereken darbe sayısını",
+        "Numunenin kohezyon değerini doğrudan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir kil zeminin konsolidasyon oturması esas olarak hangi süreçle ilişkilidir?",
+      "options": [
+        "Sadece yüzey suyunun buharlaşması",
+        "Zemin tanelerinin kimyasal olarak çözünmesi",
+        "Ani kesme dayanımı kaybının oluşması",
+        "Boşluk suyunun zamanla drenajı ve efektif gerilmenin artması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Temel tabanındaki taşıma gücü göçmesi hangi durumu ifade eder?",
+      "options": [
+        "Temel rijitliğinin yapı rijitliğine eşit olması",
+        "Zeminin kesme dayanımının temel yükünü güvenle taşıyamaması",
+        "Yeraltı suyunun tamamen ortadan kalkması",
+        "Temel betonunun çekme dayanımının sıfıra inmesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Drenajsız yükleme altında doygun kil için kısa süreli analizde en sık kullanılan dayanım parametresi hangisidir?",
+      "options": [
+        "Drenajsız kayma dayanımı Su",
+        "Dilatasyon açısı ψ",
+        "Geçirgenlik katsayısı k",
+        "Efektif kohezyon c′"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir zeminin geçirgenlik katsayısı özellikle hangi özelliği ifade eder?",
+      "options": [
+        "Zeminin kuru birim hacim ağırlığını",
+        "Zeminin plastik limitini",
+        "Zeminin tane yoğunluğunu",
+        "Suyun zemin içinden akış kolaylığını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Radye temel kullanımının tekil temellere göre daha uygun olabileceği tipik durumlardan biri hangisidir?",
+      "options": [
+        "Zeminin tamamen kayadan oluştuğu her durum",
+        "Yalnız tek katlı yapılarda zorunlu kullanım",
+        "Kolonların sık olduğu ve toplam temel alanının büyüdüğü durum",
+        "Yapı yüklerinin çok küçük ve kolonların çok seyrek olduğu durum"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Negatif çeper sürtünmesi kazıklı temellerde hangi yönde etki oluşturur?",
+      "options": [
+        "Kazığa ek aşağı yönlü yük getirir",
+        "Kazığı yukarı doğru kaldırır",
+        "Yalnız yatay yük kapasitesini artırır",
+        "Kazığın uç direncini tamamen yok eder"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Yeraltı suyu seviyesinin yükselmesi, diğer koşullar aynıyken efektif düşey gerilmeyi genel olarak nasıl etkiler?",
+      "options": [
+        "Sonsuza yaklaştırır",
+        "Azaltma eğilimi gösterir",
+        "Artırma eğilimi gösterir",
+        "Her durumda değiştirmez"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

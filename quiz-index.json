@@ -409,6 +409,54 @@
       "difficulty": 6.0,
       "questions": 10,
       "file": "YQ044.json"
+    },
+    {
+      "code": "Y.Q045",
+      "title": "İnşaat Mühendisliği — Yapı & Betonarme",
+      "category": "İnşaat Mühendisliği",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ045.json"
+    },
+    {
+      "code": "Y.Q046",
+      "title": "İnşaat Mühendisliği — Geoteknik & Temeller",
+      "category": "İnşaat Mühendisliği",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ046.json"
+    },
+    {
+      "code": "Y.Q047",
+      "title": "İnşaat Mühendisliği — Şantiye, Hidrolik & Ulaştırma",
+      "category": "İnşaat Mühendisliği",
+      "difficulty": 6.5,
+      "questions": 10,
+      "file": "YQ047.json"
+    },
+    {
+      "code": "Y.Q048",
+      "title": "Elektrik Mühendisliği — Devreler & Güç",
+      "category": "Elektrik Mühendisliği",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ048.json"
+    },
+    {
+      "code": "Y.Q049",
+      "title": "Elektrik Mühendisliği — Makineler & Enerji Sistemleri",
+      "category": "Elektrik Mühendisliği",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ049.json"
+    },
+    {
+      "code": "Y.Q050",
+      "title": "Elektrik Mühendisliği — Tesisat, Koruma & Kontrol",
+      "category": "Elektrik Mühendisliği",
+      "difficulty": 6.5,
+      "questions": 10,
+      "file": "YQ050.json"
     }
   ]
 }

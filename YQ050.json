@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ050",
+  "displayCode": "Y.Q050",
+  "title": "Elektrik Mühendisliği — Tesisat, Koruma & Kontrol",
+  "category": "Elektrik Mühendisliği",
+  "difficulty": 6.5,
+  "version": 1,
+  "description": "Elektrik tesisatı, koruma, ölçme ve kontrol sistemlerine odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Elektrik Mühendisliği",
+    "Tesisat",
+    "Koruma",
+    "Kontrol"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kaçak akım koruma cihazının temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Faz ve nötr akımları arasındaki farkı izleyerek kaçak durumunda devreyi açmak",
+        "Aşırı yükte yalnız kablo sıcaklığını ölçmek",
+        "Hat gerilimini sürekli sabit tutmak",
+        "Şebeke frekansını otomatik olarak düzeltmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir otomatik sigortanın termik açma bölümü esas olarak hangi duruma karşı koruma sağlar?",
+      "options": [
+        "Düşük güç faktörü",
+        "Uzun süreli aşırı akım",
+        "Ani yıldırım darbesi",
+        "Faz sırası değişimi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Topraklama sisteminin temel güvenlik amacı hangisidir?",
+      "options": [
+        "Frekans dalgalanmalarını mekanik olarak sönümlemek",
+        "Normal yük akımını toprağa taşımak",
+        "Arıza akımına düşük empedanslı yol sağlayıp dokunma gerilimini sınırlamaya katkı vermek",
+        "İşletme gerilimini her durumda yükseltmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir kablonun kesiti belirlenirken aşağıdakilerden hangisi tipik olarak birlikte değerlendirilir?",
+      "options": [
+        "Yalnız kablonun dış rengi",
+        "Yalnız hat uzunluğu",
+        "Sadece nominal şebeke frekansı",
+        "Akım taşıma kapasitesi, gerilim düşümü ve kısa devre dayanımı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Selektivite kavramı koruma sistemlerinde neyi hedefler?",
+      "options": [
+        "En büyük sigortanın her arızada açmasını",
+        "Arızaya en yakın koruma elemanının önce açmasını",
+        "Tüm koruma elemanlarının aynı anda açmasını",
+        "Koruma cihazlarının gecikmesiz devre dışı kalmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir PID kontrolörde integral teriminin temel katkısı nedir?",
+      "options": [
+        "Kalıcı durum hatasını azaltmaya yardımcı olmak",
+        "Sistemin fiziksel kazancını sıfırlamak",
+        "Geri beslemeyi tamamen kaldırmak",
+        "Sadece ani gürültüyü büyütmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Akım trafosu (CT) sekonderinin işletme sırasında açık devre bırakılması neden tehlikelidir?",
+      "options": [
+        "Aktif gücün ters yönde akması nedeniyle",
+        "Primer akımın otomatik olarak sıfırlanması nedeniyle",
+        "Şebeke frekansının iki katına çıkması nedeniyle",
+        "Sekonderde yüksek gerilim oluşabilme riski nedeniyle"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir SCADA sisteminin temel işlevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Kısa devre akımını fiziksel olarak sınırlamak",
+        "Elektrik enerjisini doğrudan üretmek",
+        "Uzak süreçleri izlemek, veri toplamak ve gerektiğinde denetim komutları vermek",
+        "Kablo yalıtımını mekanik olarak güçlendirmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Parafudrun temel görevi nedir?",
+      "options": [
+        "Aşırı gerilim darbelerini sınırlayıp güvenli yola yönlendirmek",
+        "Sürekli aşırı yük akımını ölçmek",
+        "Güç faktörünü doğrudan 1 yapmak",
+        "Motor hızını frekanstan bağımsız tutmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir ölçü transdüserinin temel işlevi hangisidir?",
+      "options": [
+        "Şebeke gerilimini mekanik enerjiye çevirmek",
+        "Fiziksel veya elektriksel bir büyüklüğü ölçülebilir standart sinyale dönüştürmek",
+        "Koruma rölesinin açma süresini rastgele değiştirmek",
+        "Devredeki tüm harmonikleri tamamen yok etmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
