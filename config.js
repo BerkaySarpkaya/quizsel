@@ -28,7 +28,7 @@ window.QUIZSEL_CONFIG = {
   const loadEnhancements = () => {
     if (document.querySelector('script[data-quizsel-v09-performance]')) return;
     const script = document.createElement("script");
-    script.src = "app-v09-performance.js?v=91";
+    script.src = "app-v09-performance.js?v=92";
     script.dataset.quizselV09Performance = "1";
     script.onerror = () => console.error("Quizsel v0.9 performance layer could not be loaded.");
     document.body.appendChild(script);
