@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ017",
+  "displayCode": "Y.Q017",
+  "title": "Yeni Genel Kültür — 17",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Osmanlı Devleti'nde Türkçe kitap basan ilk Müslüman matbaacı olarak bilinen kişi kimdir?",
+      "options": [
+        "Evliya Çelebi",
+        "Kâtip Çelebi",
+        "Şinasi",
+        "İbrahim Müteferrika"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "İzlanda'nın başkenti hangisidir?",
+      "options": [
+        "Bergen",
+        "Helsinki",
+        "Akureyri",
+        "Reykjavik"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kan pulcuklarının (trombositlerin) temel görevi hangisidir?",
+      "options": [
+        "Oksijen taşımak",
+        "Kan pıhtılaşmasına katkı sağlamak",
+        "Hormon salgılamak",
+        "Antikor üretmek"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Olympia tablosunun ressamı kimdir?",
+      "options": [
+        "Édouard Manet",
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Claude Monet"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İlyada destanının geleneksel olarak atfedildiği şair kimdir?",
+      "options": [
+        "Vergilius",
+        "Homeros",
+        "Hesiodos",
+        "Sophokles"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Akdeniz'in yüzölçümü bakımından en büyük adası hangisidir?",
+      "options": [
+        "Sicilya",
+        "Sardinya",
+        "Kıbrıs",
+        "Girit"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kimyasal sembolü Cl olan element hangisidir?",
+      "options": [
+        "Kalsiyum",
+        "Klor",
+        "Karbon",
+        "Kobalt"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Badmintonda standart bir oyun (game) normalde kaç sayıya ulaşınca, en az iki farkla kazanılır?",
+      "options": [
+        "30",
+        "25",
+        "15",
+        "21"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hangi gezegende bir yıldan daha uzun süren bir yıldız günü vardır?",
+      "options": [
+        "Venüs",
+        "Neptün",
+        "Mars",
+        "Merkür"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gezegenler (The Planets) adlı orkestral süitin bestecisi kimdir?",
+      "options": [
+        "Edward Elgar",
+        "Benjamin Britten",
+        "Gustav Holst",
+        "Ralph Vaughan Williams"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

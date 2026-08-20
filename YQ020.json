@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ020",
+  "displayCode": "Y.Q020",
+  "title": "Yeni Genel Kültür — 20",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Amerikan İç Savaşı hangi yıl sona ermiştir?",
+      "options": [
+        "1861",
+        "1870",
+        "1865",
+        "1863"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Uruguay'ın başkenti hangisidir?",
+      "options": [
+        "Asunción",
+        "Rosario",
+        "Buenos Aires",
+        "Montevideo"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Tiroit hormonlarının yapısında önemli rol oynayan eser element hangisidir?",
+      "options": [
+        "İyot",
+        "Bakır",
+        "Çinko",
+        "Selenyum"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Elçiler (The Ambassadors) tablosunun ressamı kimdir?",
+      "options": [
+        "Jan van Eyck",
+        "Albrecht Dürer",
+        "Lucas Cranach the Elder",
+        "Hans Holbein the Younger"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Veba (La Peste) romanının yazarı kimdir?",
+      "options": [
+        "Romain Gary",
+        "André Gide",
+        "Jean-Paul Sartre",
+        "Albert Camus"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Fransa'nın en uzun nehri hangisidir?",
+      "options": [
+        "Seine",
+        "Loire",
+        "Garonne",
+        "Rhône"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Enerjinin SI birimi hangisidir?",
+      "options": [
+        "Joule",
+        "Pascal",
+        "Watt",
+        "Newton"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Golfte bir deliği par değerinden bir vuruş azla tamamlamaya ne denir?",
+      "options": [
+        "Bogey",
+        "Birdie",
+        "Eagle",
+        "Par"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Güneş'ten sonra Dünya'ya en yakın yıldız hangisidir?",
+      "options": [
+        "Alpha Centauri A",
+        "Proxima Centauri",
+        "Sirius",
+        "Barnard Yıldızı"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Rhapsody in Blue eserinin bestecisi kimdir?",
+      "options": [
+        "George Gershwin",
+        "Leonard Bernstein",
+        "Aaron Copland",
+        "Samuel Barber"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

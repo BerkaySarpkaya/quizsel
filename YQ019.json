@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ019",
+  "displayCode": "Y.Q019",
+  "title": "Yeni Genel Kültür — 19",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Martin Luther'in 95 Tez'i geleneksel olarak hangi yıl yayımladığı kabul edilir?",
+      "options": [
+        "1555",
+        "1492",
+        "1517",
+        "1521"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Estonya'nın başkenti hangisidir?",
+      "options": [
+        "Tartu",
+        "Riga",
+        "Tallinn",
+        "Vilnius"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsan vücudundaki en uzun ve en kalın sinir hangisidir?",
+      "options": [
+        "Radial sinir",
+        "Siyatik sinir",
+        "Optik sinir",
+        "Vagus siniri"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Nighthawks tablosunun ressamı kimdir?",
+      "options": [
+        "Grant Wood",
+        "Edward Hopper",
+        "Andrew Wyeth",
+        "Georgia O'Keeffe"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Gazap Üzümleri (The Grapes of Wrath) romanının yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "Sinclair Lewis"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Kilimanjaro Dağı hangi ülkededir?",
+      "options": [
+        "Kenya",
+        "Uganda",
+        "Etiyopya",
+        "Tanzanya"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kimyasal sembolü Xe olan element hangisidir?",
+      "options": [
+        "Ksenon",
+        "Sezyum",
+        "Kripton",
+        "Klor"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Buz hokeyinde normal bir maç kaç periyottan oluşur?",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Asteroit Kuşağı'nın en büyük gök cismi ve bir cüce gezegen olan hangisidir?",
+      "options": [
+        "Hygiea",
+        "Ceres",
+        "Pallas",
+        "Vesta"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Obua hangi çalgı ailesine aittir?",
+      "options": [
+        "Vurmalı",
+        "Bakır üflemeli",
+        "Yaylı",
+        "Tahta üflemeli"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

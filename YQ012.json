@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ012",
+  "displayCode": "Y.Q012",
+  "title": "Yeni Genel Kültür — 12",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İkinci Dünya Savaşı'nın Avrupa'da sona erdiği yıl hangisidir?",
+      "options": [
+        "1943",
+        "1946",
+        "1945",
+        "1944"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Laos'un başkenti hangisidir?",
+      "options": [
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Luang Prabang"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hücrede proteinlerin işlenmesi, sınıflandırılması ve paketlenmesinde başlıca görev yapan organel hangisidir?",
+      "options": [
+        "Sentrozom",
+        "Çekirdekçik",
+        "Lizozom",
+        "Golgi aygıtı"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Halka Yol Gösteren Özgürlük (Liberty Leading the People) tablosunun ressamı kimdir?",
+      "options": [
+        "Eugène Delacroix",
+        "Gustave Courbet",
+        "Théodore Géricault",
+        "Jean-Auguste-Dominique Ingres"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Damızlık Kızın Öyküsü (The Handmaid's Tale) romanının yazarı kimdir?",
+      "options": [
+        "Doris Lessing",
+        "Ursula K. Le Guin",
+        "Alice Munro",
+        "Margaret Atwood"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Asya'nın en uzun nehri hangisidir?",
+      "options": [
+        "Ganj",
+        "Mekong",
+        "Sarı Irmak (Huang He)",
+        "Yangtze"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "B12 vitamininin yapısında bulunan metal element hangisidir?",
+      "options": [
+        "Magnezyum",
+        "Çinko",
+        "Demir",
+        "Kobalt"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Snooker'da faul olmadan yapılabilen standart maksimum seri kaç puandır?",
+      "options": [
+        "147",
+        "167",
+        "145",
+        "155"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Büyük Kırmızı Leke (Great Red Spot) hangi gezegende gözlemlenir?",
+      "options": [
+        "Jüpiter",
+        "Mars",
+        "Neptün",
+        "Satürn"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Elektrik yükünün SI birimi hangisidir?",
+      "options": [
+        "Coulomb",
+        "Tesla",
+        "Volt",
+        "Farad"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

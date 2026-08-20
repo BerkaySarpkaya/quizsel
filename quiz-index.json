@@ -137,6 +137,86 @@
       "difficulty": 6,
       "questions": 10,
       "file": "YQ010.json"
+    },
+    {
+      "code": "Y.Q011",
+      "title": "Yeni Genel Kültür — 11",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ011.json"
+    },
+    {
+      "code": "Y.Q012",
+      "title": "Yeni Genel Kültür — 12",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ012.json"
+    },
+    {
+      "code": "Y.Q013",
+      "title": "Yeni Genel Kültür — 13",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ013.json"
+    },
+    {
+      "code": "Y.Q014",
+      "title": "Yeni Genel Kültür — 14",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ014.json"
+    },
+    {
+      "code": "Y.Q015",
+      "title": "Yeni Genel Kültür — 15",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ015.json"
+    },
+    {
+      "code": "Y.Q016",
+      "title": "Yeni Genel Kültür — 16",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ016.json"
+    },
+    {
+      "code": "Y.Q017",
+      "title": "Yeni Genel Kültür — 17",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ017.json"
+    },
+    {
+      "code": "Y.Q018",
+      "title": "Yeni Genel Kültür — 18",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ018.json"
+    },
+    {
+      "code": "Y.Q019",
+      "title": "Yeni Genel Kültür — 19",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ019.json"
+    },
+    {
+      "code": "Y.Q020",
+      "title": "Yeni Genel Kültür — 20",
+      "category": "Genel Kültür",
+      "difficulty": 6,
+      "questions": 10,
+      "file": "YQ020.json"
     }
   ]
 }

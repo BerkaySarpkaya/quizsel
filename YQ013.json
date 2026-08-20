@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ013",
+  "displayCode": "Y.Q013",
+  "title": "Yeni Genel Kültür — 13",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İnebahtı (Lepanto) Deniz Savaşı hangi yıl gerçekleşmiştir?",
+      "options": [
+        "1606",
+        "1453",
+        "1571",
+        "1526"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kırgızistan'ın başkenti hangisidir?",
+      "options": [
+        "Taşkent",
+        "Aşkabat",
+        "Duşanbe",
+        "Bişkek"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Yüzölçümü bakımından dünyanın en büyük okyanusu hangisidir?",
+      "options": [
+        "Hint Okyanusu",
+        "Pasifik Okyanusu",
+        "Atlas Okyanusu",
+        "Arktik Okyanusu"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İnsan vücudundaki en büyük atardamar hangisidir?",
+      "options": [
+        "Aort",
+        "Karotis arteri",
+        "Femoral arter",
+        "Pulmoner arter"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Dünyevi Zevkler Bahçesi (The Garden of Earthly Delights) eserinin ressamı kimdir?",
+      "options": [
+        "Jan van Eyck",
+        "Albrecht Dürer",
+        "Hieronymus Bosch",
+        "Pieter Bruegel"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Dönüşüm (Die Verwandlung) adlı eserin yazarı kimdir?",
+      "options": [
+        "Franz Kafka",
+        "Thomas Mann",
+        "Stefan Zweig",
+        "Hermann Hesse"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kimyasal sembolü Na olan element hangisidir?",
+      "options": [
+        "Azot",
+        "Nikel",
+        "Sodyum",
+        "Neon"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdakilerden hangisi olimpik eskrimin üç silahından biri değildir?",
+      "options": [
+        "Epe",
+        "Flöre",
+        "Rapier",
+        "Kılıç (sabre)"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dünya'nın dönme ekseninin yörünge düzlemine dik doğrultuya göre eğikliği yaklaşık kaç derecedir?",
+      "options": [
+        "66,5°",
+        "11,5°",
+        "23,5°",
+        "45°"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Müzikte 'allegro' terimi genel olarak hangi tempoyu ifade eder?",
+      "options": [
+        "Hızlı ve canlı",
+        "Ağır ve görkemli",
+        "Çok yavaş",
+        "Serbest ritimli"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

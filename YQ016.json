@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ016",
+  "displayCode": "Y.Q016",
+  "title": "Yeni Genel Kültür — 16",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Batı Roma İmparatorluğu'nun geleneksel çöküş yılı hangisidir?",
+      "options": [
+        "527",
+        "395",
+        "476",
+        "410"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Etiyopya'nın başkenti hangisidir?",
+      "options": [
+        "Hartum",
+        "Nairobi",
+        "Addis Ababa",
+        "Asmara"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsan vücudundaki en uzun ve en büyük kemik hangisidir?",
+      "options": [
+        "Tibia",
+        "Humerus",
+        "Fibula",
+        "Femur"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kanagawa Açıklarında Büyük Dalga eserinin sanatçısı kimdir?",
+      "options": [
+        "Kitagawa Utamaro",
+        "Katsushika Hokusai",
+        "Utagawa Hiroshige",
+        "Sesshū Tōyō"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Frankenstein romanının yazarı kimdir?",
+      "options": [
+        "Ann Radcliffe",
+        "Bram Stoker",
+        "Emily Brontë",
+        "Mary Shelley"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Başlangıç meridyeni geleneksel olarak Londra'daki hangi gözlemevinden geçer?",
+      "options": [
+        "Jodrell Bank Gözlemevi",
+        "Kew Gözlemevi",
+        "Paris Gözlemevi",
+        "Greenwich Kraliyet Gözlemevi"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Amonyağın kimyasal formülü hangisidir?",
+      "options": [
+        "HNO₃",
+        "NO₂",
+        "N₂O",
+        "NH₃"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Satrançta kale hangi doğrultularda hareket eder?",
+      "options": [
+        "Yatay ve dikey",
+        "L şeklinde",
+        "Her yönde bir kare",
+        "Yalnızca çapraz"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Mars'ın iki küçük uydusunun adları hangileridir?",
+      "options": [
+        "Ariel ve Umbriel",
+        "Titan ve Rhea",
+        "Phobos ve Deimos",
+        "Io ve Europa"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Soğurulan iyonlaştırıcı radyasyon dozunun SI birimi hangisidir?",
+      "options": [
+        "Gray",
+        "Sievert",
+        "Tesla",
+        "Becquerel"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

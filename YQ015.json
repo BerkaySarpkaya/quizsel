@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ015",
+  "displayCode": "Y.Q015",
+  "title": "Yeni Genel Kültür — 15",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Milano Fermanı (Edict of Milan) hangi yıl yayımlanmıştır?",
+      "options": [
+        "325",
+        "212",
+        "380",
+        "313"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Nepal'in başkenti hangisidir?",
+      "options": [
+        "Dhaka",
+        "Katmandu",
+        "Thimphu",
+        "Pokhara"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Midede protein sindiriminde görev yapan temel enzim hangisidir?",
+      "options": [
+        "Amilaz",
+        "Laktaz",
+        "Lipaz",
+        "Pepsin"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Uyuyan Çingene (The Sleeping Gypsy) tablosunun ressamı kimdir?",
+      "options": [
+        "Henri Matisse",
+        "Henri Rousseau",
+        "Paul Gauguin",
+        "Georges Seurat"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Monte Kristo Kontu romanının yazarı kimdir?",
+      "options": [
+        "Alexandre Dumas",
+        "Émile Zola",
+        "Victor Hugo",
+        "Honoré de Balzac"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ren Nehri hangi denize dökülür?",
+      "options": [
+        "Kuzey Denizi",
+        "Akdeniz",
+        "Baltık Denizi",
+        "Karadeniz"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Yaklaşık 20°C'deki kuru havada sesin hızı yaklaşık kaç m/s'dir?",
+      "options": [
+        "240 m/s",
+        "1.230 m/s",
+        "343 m/s",
+        "500 m/s"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Voleybolda karar seti dışındaki standart bir set normalde kaç sayıya ulaşınca, en az iki farkla kazanılır?",
+      "options": [
+        "30",
+        "21",
+        "15",
+        "25"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kimyasal sembolü Ne olan element hangisidir?",
+      "options": [
+        "Neptünyum",
+        "Nikel",
+        "Azot",
+        "Neon"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Clair de Lune adlı piyano eserinin bestecisi kimdir?",
+      "options": [
+        "Claude Debussy",
+        "Erik Satie",
+        "Gabriel Fauré",
+        "Maurice Ravel"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

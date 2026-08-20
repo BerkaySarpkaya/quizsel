@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ011",
+  "displayCode": "Y.Q011",
+  "title": "Yeni Genel Kültür — 11",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1842 Nanking Antlaşması hangi savaşı sona erdirmiştir?",
+      "options": [
+        "Kırım Savaşı",
+        "Yedi Yıl Savaşı",
+        "Rus-Japon Savaşı",
+        "Birinci Afyon Savaşı"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bhutan'ın başkenti hangisidir?",
+      "options": [
+        "Katmandu",
+        "Thimphu",
+        "Paro",
+        "Dakka"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kimyasal sembolü Sb olan element hangisidir?",
+      "options": [
+        "Antimon",
+        "Bizmut",
+        "Selenyum",
+        "Arsenik"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Atina Okulu (The School of Athens) freskinin sanatçısı kimdir?",
+      "options": [
+        "Tiziano",
+        "Raffaello",
+        "Michelangelo",
+        "Donatello"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Cesur Yeni Dünya (Brave New World) romanının yazarı kimdir?",
+      "options": [
+        "Anthony Burgess",
+        "Aldous Huxley",
+        "George Orwell",
+        "H. G. Wells"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Yüzölçümü bakımından Afrika'nın en büyük gölü hangisidir?",
+      "options": [
+        "Malavi Gölü",
+        "Victoria Gölü",
+        "Çad Gölü",
+        "Tanganyika Gölü"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "İnsan vücudundaki en küçük kemik hangisidir?",
+      "options": [
+        "Çekiç kemiği (malleus)",
+        "Dil kemiği (hyoid)",
+        "Üzengi kemiği (stapes)",
+        "Örs kemiği (incus)"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Rugby union'da bir takım sahaya kaç oyuncuyla çıkar?",
+      "options": [
+        "13",
+        "15",
+        "17",
+        "11"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Io adlı uydu hangi gezegenin çevresinde dolanır?",
+      "options": [
+        "Uranüs",
+        "Neptün",
+        "Jüpiter",
+        "Satürn"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Işık akısının SI birimi hangisidir?",
+      "options": [
+        "Lüks",
+        "Kandela",
+        "Watt",
+        "Lümen"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

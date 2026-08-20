@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ014",
+  "displayCode": "Y.Q014",
+  "title": "Yeni Genel Kültür — 14",
+  "category": "Genel Kültür",
+  "difficulty": 6,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "Yeni Quiz"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ayasofya'nın 6. yüzyıldaki bugünkü ana yapısı hangi Bizans imparatoru döneminde inşa edilmiştir?",
+      "options": [
+        "I. Konstantin",
+        "I. Justinianus",
+        "II. Theodosius",
+        "Herakleios"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Myanmar'ın başkenti hangisidir?",
+      "options": [
+        "Mandalay",
+        "Bagan",
+        "Naypyidaw",
+        "Yangon"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsan kalbi normal anatomide kaç odacıktan oluşur?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Elektriksel kapasitansın SI birimi hangisidir?",
+      "options": [
+        "Coulomb",
+        "Siemens",
+        "Farad",
+        "Henry"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Gece Kahvesi (The Night Café) tablosunun ressamı kimdir?",
+      "options": [
+        "Paul Gauguin",
+        "Paul Cézanne",
+        "Vincent van Gogh",
+        "Henri de Toulouse-Lautrec"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ses ve Öfke (The Sound and the Fury) romanının yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "William Faulkner",
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında yer alır?",
+      "options": [
+        "Borneo",
+        "Sulawesi",
+        "Sumatra",
+        "Java"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Standart bir beyzbol maçında normal süre kaç inning'dir?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Voyager 2'nin 1989'da görüntülediği Büyük Karanlık Leke hangi gezegendeydi?",
+      "options": [
+        "Neptün",
+        "Uranüs",
+        "Satürn",
+        "Jüpiter"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kimyasal sembolü Mn olan element hangisidir?",
+      "options": [
+        "Magnezyum",
+        "Manganez",
+        "Molibden",
+        "Mendelevyum"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
