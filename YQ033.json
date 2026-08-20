@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ033",
+  "displayCode": "Y.Q033",
+  "title": "Avukatlık Mesleği — Türkiye",
+  "category": "Avukatlık",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "Avukatlık alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Avukatlık",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Türkiye'de avukatlık mesleğini düzenleyen temel kanunun numarası hangisidir?",
+      "options": [
+        "1136",
+        "5271",
+        "5237",
+        "6100"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "1136 sayılı Avukatlık Kanunu'na göre avukatlık nasıl tanımlanır?",
+      "options": [
+        "Memuriyet türü",
+        "Yalnızca ticari faaliyet",
+        "Yalnızca kamu görevi",
+        "Kamu hizmeti ve serbest meslek"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Türkiye'deki baroların üst meslek kuruluşu hangisidir?",
+      "options": [
+        "Hâkimler ve Savcılar Kurulu",
+        "Türkiye Barolar Birliği",
+        "Noterler Birliği",
+        "Adalet Akademisi"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ceza yargılamasında şüpheli veya sanığın savunmasını üstlenen avukata hangi ad verilir?",
+      "options": [
+        "Vekil",
+        "Müşteki",
+        "Bilirkişi",
+        "Müdafi"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir avukatın mesleği nedeniyle öğrendiği hususları açıklamaması hangi temel mesleki yükümlülükle ilgilidir?",
+      "options": [
+        "Tanıklık yapma yükümlülüğü",
+        "Arabuluculuk yükümlülüğü",
+        "Reklam yapma yükümlülüğü",
+        "Sır saklama yükümlülüğü"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "CMK kapsamında zorunlu müdafi görevlendirmeleri uygulamada esas olarak hangi meslek kuruluşu üzerinden yapılır?",
+      "options": [
+        "Belediye",
+        "Valilik",
+        "Baro",
+        "Noterlik"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Avukatın temsil ettiği kişi için hukuk dilinde en yaygın kullanılan terim hangisidir?",
+      "options": [
+        "Müvekkil",
+        "Müzekkere",
+        "Mütalaa",
+        "Mübaşir"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir avukatın mahkeme dışında taraflar arasında uyuşmazlığın çözümüne yardımcı olan süreçlerden biri hangisidir?",
+      "options": [
+        "Tebligat",
+        "Keşif",
+        "İstinaf",
+        "Arabuluculuk"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Avukatlık mesleğinde 'baro levhası' temel olarak neyi gösterir?",
+      "options": [
+        "Kanunların yürürlük listesini",
+        "Mahkemelerin duruşma takvimini",
+        "Bilirkişi ücretlerini",
+        "Baroya kayıtlı avukatların listesini"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Türkiye'de avukatların uyması gereken mesleki etik ilkelerin belirlenmesinde temel kurumlardan biri hangisidir?",
+      "options": [
+        "Rekabet Kurumu",
+        "Yüksek Seçim Kurulu",
+        "Türkiye Barolar Birliği",
+        "Sayıştay"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

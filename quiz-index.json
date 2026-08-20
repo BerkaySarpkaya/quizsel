@@ -297,6 +297,54 @@
       "difficulty": 5.5,
       "questions": 10,
       "file": "YQ030.json"
+    },
+    {
+      "code": "Y.Q031",
+      "title": "Tarih — Özel Set",
+      "category": "Tarih",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ031.json"
+    },
+    {
+      "code": "Y.Q032",
+      "title": "Doğa & Bilim — Özel Set",
+      "category": "Doğa & Bilim",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ032.json"
+    },
+    {
+      "code": "Y.Q033",
+      "title": "Avukatlık Mesleği — Türkiye",
+      "category": "Avukatlık",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ033.json"
+    },
+    {
+      "code": "Y.Q034",
+      "title": "Genel Mühendislik — Temel Kavramlar",
+      "category": "Mühendislik",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ034.json"
+    },
+    {
+      "code": "Y.Q035",
+      "title": "İstatistik — Temel Düzey",
+      "category": "İstatistik",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ035.json"
+    },
+    {
+      "code": "Y.Q036",
+      "title": "İktisat — Temel Düzey",
+      "category": "İktisat",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ036.json"
     }
   ]
 }

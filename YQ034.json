@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ034",
+  "displayCode": "Y.Q034",
+  "title": "Genel Mühendislik — Temel Kavramlar",
+  "category": "Mühendislik",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "Mühendislik alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Mühendislik",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mühendislikte gerilme (stress) en temel haliyle hangi oranla ifade edilir?",
+      "options": [
+        "Kuvvet / alan",
+        "Kütle / hacim",
+        "Enerji / zaman",
+        "Kuvvet × alan"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Emniyet katsayısı (factor of safety) genel olarak neyi karşılaştırır?",
+      "options": [
+        "Hızı ivmeye",
+        "Alanı hacme",
+        "Kapasiteyi beklenen talep veya yüke",
+        "Maliyeti süreye"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Elektrik devresinde Ohm Kanunu hangi bağıntıdır?",
+      "options": [
+        "V = I·R",
+        "F = m·a",
+        "P = m·g",
+        "Q = m·c·ΔT"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir malzemenin yoğunluğu hangi oranla tanımlanır?",
+      "options": [
+        "Kütle / hacim",
+        "Kuvvet / alan",
+        "Hacim / kütle",
+        "Enerji / sıcaklık"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Güç (power) mühendislikte hangi büyüklüğün zamana göre aktarım hızıdır?",
+      "options": [
+        "Enerji",
+        "Basınç",
+        "Uzunluk",
+        "Kütle"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir çubuğun sıcaklık artışıyla uzamasını yaklaşık hesaplayan doğrusal ısıl genleşme bağıntısında hangi katsayı kullanılır?",
+      "options": [
+        "Poisson oranı",
+        "Sürtünme katsayısı",
+        "Geçirgenlik katsayısı",
+        "Isıl genleşme katsayısı"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Hidrostatik basınç, aynı sıvı içinde derinlik arttıkça genel olarak nasıl değişir?",
+      "options": [
+        "Önce artar sonra sıfırlanır",
+        "Artar",
+        "Azalır",
+        "Sabit kalır"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "CAD kısaltması mühendislikte en yaygın olarak neyi ifade eder?",
+      "options": [
+        "Kontrollü analog devre",
+        "Merkezi veri denetimi",
+        "Bilgisayar destekli tasarım",
+        "Kritik akış diyagramı"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir ölçüm cihazının gerçek değere ne kadar yakın sonuç verdiğini ifade eden kavram hangisidir?",
+      "options": [
+        "Çözünürlük",
+        "Doğruluk (accuracy)",
+        "Hassasiyet (precision)",
+        "Tekrarlanabilirlik"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir sistemde enerji kayıplarını azaltmak için verim arttığında, aynı faydalı çıktı için gereken giriş enerjisi genel olarak ne olur?",
+      "options": [
+        "Artar",
+        "Sonsuza gider",
+        "Azalır",
+        "Değişmez"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ036",
+  "displayCode": "Y.Q036",
+  "title": "İktisat — Temel Düzey",
+  "category": "İktisat",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "İktisat alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "İktisat",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Fırsat maliyeti neyi ifade eder?",
+      "options": [
+        "Yalnızca ödenen nakit miktarını",
+        "Toplam vergi yükünü",
+        "Bir seçim nedeniyle vazgeçilen en iyi alternatifin değerini",
+        "Üretim maliyetlerinin toplamını"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Diğer koşullar sabitken bir malın fiyatı arttığında talep edilen miktarın azalmasını açıklayan temel ilke hangisidir?",
+      "options": [
+        "Arz kanunu",
+        "Karşılaştırmalı üstünlük",
+        "Paranın miktar teorisi",
+        "Talep kanunu"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Enflasyon en genel anlamıyla neyi ifade eder?",
+      "options": [
+        "Genel fiyat düzeyinin sürekli artışını",
+        "Tek bir ürünün fiyatının yükselmesini",
+        "İşsizliğin sıfırlanmasını",
+        "Üretimin mutlaka düşmesini"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Gayrisafi yurt içi hasıla (GSYH) temel olarak neyi ölçer?",
+      "options": [
+        "Bir ülkede belirli dönemde üretilen nihai mal ve hizmetlerin değerini",
+        "Ülkedeki toplam servetin tamamını",
+        "Yalnızca kamu harcamalarını",
+        "Merkez bankasının rezervlerini"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Merkez bankası politika faizini artırdığında, diğer koşullar sabitken borçlanma maliyetleri genellikle nasıl etkilenir?",
+      "options": [
+        "Hiçbir koşulda değişmez",
+        "Azalma eğilimi gösterir",
+        "Kesinlikle sıfırlanır",
+        "Artma eğilimi gösterir"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Talebin fiyat esnekliği mutlak değerce 1'den büyükse talep nasıl adlandırılır?",
+      "options": [
+        "Tam katı",
+        "Esnek olmayan",
+        "Esnek",
+        "Birim esnek"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Karşılaştırmalı üstünlük teorisine göre ticaretin temelinde hangi kavram bulunur?",
+      "options": [
+        "Göreli fırsat maliyetleri",
+        "Mutlak nüfus büyüklüğü",
+        "Sadece doğal kaynak miktarı",
+        "Yalnızca döviz kuru"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nominal GSYH ile reel GSYH arasındaki temel fark nedir?",
+      "options": [
+        "Nominal GSYH işsizliği ölçer",
+        "Reel GSYH fiyat değişimlerinin etkisini ayıklar",
+        "Reel GSYH yalnızca kamu sektörünü ölçer",
+        "Nominal GSYH yalnızca ihracatı ölçer"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İşsizlik oranı genel olarak işsiz sayısının hangi büyüklüğe oranıdır?",
+      "options": [
+        "Toplam nüfusa",
+        "Emekli nüfusa",
+        "Çalışan sayısına",
+        "İşgücüne"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Marjinal maliyet neyi ifade eder?",
+      "options": [
+        "Ortalama geliri",
+        "Vergi sonrası kârı",
+        "Bir birim daha üretmenin ek maliyetini",
+        "Toplam sabit maliyeti"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

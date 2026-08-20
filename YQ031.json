@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ031",
+  "displayCode": "Y.Q031",
+  "title": "Tarih — Özel Set",
+  "category": "Tarih",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Tarih",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "MÖ 44 yılında suikasta uğrayan Roma devlet adamı kimdir?",
+      "options": [
+        "Cicero",
+        "Augustus",
+        "Pompeius",
+        "Julius Caesar"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "İngiltere'de 1688'de gerçekleşen ve parlamentonun gücünü artıran olay hangi adla bilinir?",
+      "options": [
+        "Güller Savaşı",
+        "Magna Carta",
+        "Püriten Devrimi",
+        "Şanlı Devrim"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Amerikan İç Savaşı hangi yıllar arasında gerçekleşmiştir?",
+      "options": [
+        "1775–1783",
+        "1812–1815",
+        "1898–1901",
+        "1861–1865"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Osmanlı Devleti'nin ilk anayasası olan Kanun-ı Esasi hangi yıl ilan edilmiştir?",
+      "options": [
+        "1908",
+        "1876",
+        "1856",
+        "1839"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Sanayi Devrimi ilk olarak hangi ülkede büyük ölçekli biçimde başlamıştır?",
+      "options": [
+        "Fransa",
+        "Almanya",
+        "Belçika",
+        "Britanya"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Aztek İmparatorluğu'nun başkenti hangisiydi?",
+      "options": [
+        "Teotihuacan",
+        "Cusco",
+        "Chichén Itzá",
+        "Tenochtitlan"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Napolyon Bonapart 1804 yılında hangi unvanı aldı?",
+      "options": [
+        "Fransa Kralı",
+        "Roma İmparatoru",
+        "Fransız İmparatoru",
+        "Birinci Konsül"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Berlin Konferansı (1884–1885) ağırlıklı olarak hangi kıtanın sömürgeleştirilmesinin kurallarını belirlemeye çalıştı?",
+      "options": [
+        "Avustralya",
+        "Asya",
+        "Güney Amerika",
+        "Afrika"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Sümerler ağırlıklı olarak hangi tarihî bölgede yaşamıştır?",
+      "options": [
+        "Anadolu",
+        "Nil Deltası",
+        "Mezopotamya",
+        "İndus Vadisi"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "İkinci Dünya Savaşı Avrupa'da Almanya'nın hangi ülkeyi işgaliyle başladı?",
+      "options": [
+        "Polonya",
+        "Fransa",
+        "Belçika",
+        "Norveç"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

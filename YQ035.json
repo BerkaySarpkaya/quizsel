@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ035",
+  "displayCode": "Y.Q035",
+  "title": "İstatistik — Temel Düzey",
+  "category": "İstatistik",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "İstatistik alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "İstatistik",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "2, 4, 6, 8 ve 10 sayılarının aritmetik ortalaması kaçtır?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Sıralanmış 3, 5, 7, 9, 20 veri setinin medyanı kaçtır?",
+      "options": [
+        "9",
+        "8",
+        "5",
+        "7"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Standart sapma temel olarak neyi ölçer?",
+      "options": [
+        "Örneklem büyüklüğünü",
+        "En sık görülen değeri",
+        "Verilerin ortalama etrafındaki yayılımını",
+        "Verilerin toplamını"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir veri setinde en sık tekrar eden değere ne ad verilir?",
+      "options": [
+        "Mod",
+        "Varyans",
+        "Medyan",
+        "Çeyrekler açıklığı"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Korelasyon katsayısı r = +1 olduğunda iki değişken arasındaki doğrusal ilişki nasıldır?",
+      "options": [
+        "Mükemmel negatif doğrusal ilişki",
+        "Doğrusal ilişki yok",
+        "Mükemmel pozitif doğrusal ilişki",
+        "Nedensellik kesin"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Normal dağılım simetrik olduğunda ortalama ve medyan arasındaki ilişki nasıldır?",
+      "options": [
+        "Birbirine eşittir",
+        "Medyan her zaman daha büyüktür",
+        "Aralarında zorunlu bir ilişki yoktur",
+        "Ortalama her zaman daha büyüktür"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir örneklemden hesaplanan ortalama, ana kütle ortalamasını tahmin etmek için kullanıldığında bu değer hangi tür büyüklüktür?",
+      "options": [
+        "Sabit",
+        "Olasılık dağılımı",
+        "İstatistik",
+        "Parametre"
+      ],
+      "answer": 2,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir olayın olasılığı 0,25 ise yüzde olarak kaçtır?",
+      "options": [
+        "%40",
+        "%25",
+        "%75",
+        "%2,5"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Z-skoru 0 olan bir gözlem, veri dağılımında hangi konumdadır?",
+      "options": [
+        "En büyük değerdir",
+        "Medyanın kesin altındadır",
+        "Bir standart sapma üstündedir",
+        "Ortalama değerindedir"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "p-değeri 0,03 ve anlamlılık düzeyi 0,05 ise klasik karar kuralına göre sıfır hipotezi için ne yapılır?",
+      "options": [
+        "Örneklem büyütülmeden karar verilemez",
+        "Reddedilir",
+        "Kesinlikle kabul edilir",
+        "Standart sapma sıfırlanır"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

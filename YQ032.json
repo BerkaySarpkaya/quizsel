@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ032",
+  "displayCode": "Y.Q032",
+  "title": "Doğa & Bilim — Özel Set",
+  "category": "Doğa & Bilim",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Doğa & Bilim alanında 10 soruluk özel Quizsel seti.",
+  "estimatedMinutes": 4,
+  "tags": [
+    "Doğa & Bilim",
+    "Özel Set"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Dünya'nın katı dış tabakasını oluşturan litosfer hangi iki ana kısımdan oluşur?",
+      "options": [
+        "Atmosfer ve yer kabuğu",
+        "Yer kabuğu ve üst mantonun katı kısmı",
+        "Alt manto ve iç çekirdek",
+        "Yer kabuğu ve dış çekirdek"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir çözeltinin pH değeri 7'den küçükse çözelti genel olarak nasıl sınıflandırılır?",
+      "options": [
+        "Bazik",
+        "Asidik",
+        "Nötr",
+        "Doymuş"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsanlarda genetik bilginin taşındığı kromozomların büyük bölümü hücrenin hangi bölümündedir?",
+      "options": [
+        "Çekirdek",
+        "Hücre zarı",
+        "Golgi aygıtı",
+        "Ribozom"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Newton'un üçüncü hareket yasası hangi temel ilişkiyi ifade eder?",
+      "options": [
+        "Enerjinin korunmasını",
+        "Etki ve tepki kuvvetlerinin eşit ve zıt yönlü olmasını",
+        "Kuvvetin kütle ile ivmenin çarpımı olmasını",
+        "Basıncın hacimle ters orantısını"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Atmosferde hava olaylarının büyük bölümü hangi katmanda gerçekleşir?",
+      "options": [
+        "Troposfer",
+        "Stratosfer",
+        "Mezosfer",
+        "Termosfer"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir atomun proton sayısı neyi belirler?",
+      "options": [
+        "Elektron kabuğu sayısını",
+        "Nötron sayısını",
+        "İzotopun kütle numarasını",
+        "Elementin atom numarasını"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bitkilerde suyun kökten yapraklara taşınmasında görev yapan doku hangisidir?",
+      "options": [
+        "Epidermis",
+        "Ksilem",
+        "Floem",
+        "Kambiyum"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sesin havadaki yayılma hızı sıcaklık arttıkça genel olarak nasıl değişir?",
+      "options": [
+        "Sıfıra yaklaşır",
+        "Artar",
+        "Değişmez",
+        "Azalır"
+      ],
+      "answer": 1,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dünya'nın manyetik alanının oluşumunda en önemli rolü hangi katmanın hareketleri oynar?",
+      "options": [
+        "Yer kabuğu",
+        "Katı iç çekirdek",
+        "Üst manto",
+        "Sıvı dış çekirdek"
+      ],
+      "answer": 3,
+      "time": 15,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir ekosistemde üreticiler enerjilerini çoğunlukla hangi kaynaktan sağlar?",
+      "options": [
+        "Güneş ışığından",
+        "Atmosfer basıncından",
+        "Topraktaki minerallerden doğrudan",
+        "Tüketicilerden"
+      ],
+      "answer": 0,
+      "time": 15,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
