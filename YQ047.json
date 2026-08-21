@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ047",
+  "displayCode": "Y.Q047",
+  "title": "İnşaat Mühendisliği — Şantiye, Hidrolik & Ulaştırma",
+  "category": "İnşaat Mühendisliği",
+  "difficulty": 6.5,
+  "version": 1,
+  "description": "Şantiye yönetimi, hidrolik, ulaştırma ve proje uygulamasına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İnşaat Mühendisliği",
+    "Şantiye",
+    "Hidrolik",
+    "Ulaştırma"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kritik yol yönteminde kritik faaliyetlerin toplam bolluğu (total float) ideal durumda kaçtır?",
+      "options": [
+        "Sıfır",
+        "Bir gün",
+        "Proje süresine eşit",
+        "Faaliyet süresine eşit"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Metraj çalışmasının temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Proje çizimlerini yeniden tasarlamak",
+        "İmalat miktarlarını ölçülebilir kalemler halinde belirlemek",
+        "Yalnız işçilik ücretlerini hesaplamak",
+        "Sadece iş programındaki süreleri belirlemek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hakedişin temel işlevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Şantiye organizasyon şemasını oluşturmak",
+        "Proje başlangıcında toplam maliyeti kesinleştirmek",
+        "Gerçekleşen imalatların sözleşme koşullarına göre parasal karşılığını belirlemek",
+        "Yalnız malzeme stok miktarını belirlemek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bernoulli denkleminde ideal akım için enerji terimleri arasında hangileri bulunur?",
+      "options": [
+        "Sıcaklık, viskozite ve yoğunluk yükleri",
+        "Kesme, eğilme ve burulma yükleri",
+        "Akım, gerilim ve direnç terimleri",
+        "Basınç, hız ve kot yükleri"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Açık kanal akımında Froude sayısı 1'den küçükse akım nasıl sınıflandırılır?",
+      "options": [
+        "Süperkritik",
+        "Subkritik",
+        "Tam türbülanslı",
+        "Kritik"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Karayolu tasarımında dever uygulamasının temel amacı nedir?",
+      "options": [
+        "Kurplarda merkezkaç etkisine karşı taşıt dengesine katkı sağlamak",
+        "Düz kesimlerde fren mesafesini sıfırlamak",
+        "Yol platformunun boyuna eğimini artırmak",
+        "Kaplama kalınlığını her durumda azaltmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir yol kaplamasında tekerlek yüklerinin alt tabakalara daha geniş alana yayılması hangi yapısal amaca hizmet eder?",
+      "options": [
+        "Yolun boyuna eğimini artırmaya",
+        "Yağış miktarını azaltmaya",
+        "Trafik hızını doğrudan sabitlemeye",
+        "Zemin üzerindeki gerilme yoğunluğunu azaltmaya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Şantiyede kritik bir imalatın onaylı projeden farklı yapıldığı fark edilirse en doğru ilk yaklaşım hangisidir?",
+      "options": [
+        "Farkı yalnız işçilik maliyetine yansıtmak",
+        "Projeyi sahadaki imalata göre otomatik değiştirmek",
+        "İmalatı durdurup teknik ve sözleşmesel uygunluğu değerlendirmek",
+        "İmalata devam edip daha sonra kayıt altına almak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Birim fiyat analizinde aşağıdakilerden hangisi tipik bir girdidir?",
+      "options": [
+        "Malzeme, işçilik ve ekipman kaynakları",
+        "Yalnız şirket genel merkezi gideri",
+        "Sadece proje teslim tarihi",
+        "Yalnız işverenin ödeme takvimi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir iş programında gerçekleşen ilerleme planlananın gerisindeyse ilk yapılması gereken sağlıklı analiz hangisidir?",
+      "options": [
+        "Tüm faaliyet sürelerini aynı oranda azaltmak",
+        "Gecikmenin hangi faaliyetlerden ve hangi nedenlerden kaynaklandığını belirlemek",
+        "Program başlangıç tarihini geriye almak",
+        "Kritik olmayan faaliyetleri iptal etmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

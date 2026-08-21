@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ039",
+  "displayCode": "Y.Q039",
+  "title": "Mühendislik — Mekanik & Enerji",
+  "category": "Mühendislik",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Mekanik, enerji, akışkanlar ve temel mühendislik kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Mühendislik",
+    "Mekanik",
+    "Enerji"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Elastik bölgede Young modülü en temel haliyle hangi iki büyüklüğün oranıdır?",
+      "options": [
+        "Normal gerilme / birim şekil değiştirme",
+        "Kuvvet / yer değiştirme",
+        "Enerji / birim hacim",
+        "Kayma gerilmesi / açısal hız"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir kuvvetin bir nokta etrafındaki momenti hangi çarpımla ilişkilidir?",
+      "options": [
+        "Basınç × zaman",
+        "Kuvvet × dik uzaklık",
+        "Kuvvet × yüzey alanı",
+        "Kütle × hız"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Mekanik veya elektriksel bir sistemde güç en temel olarak neyi ifade eder?",
+      "options": [
+        "Kuvvetin alana oranını",
+        "Kütlenin hacme oranını",
+        "Enerjinin aktarılma hızını",
+        "Momentumun toplam değerini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir akışkan içinde ısı taşınımının akışkanın kütlesel hareketiyle gerçekleşmesine ne ad verilir?",
+      "options": [
+        "Işınım",
+        "İletim",
+        "Yalıtım",
+        "Taşınım"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Reynolds sayısı temel olarak hangi etkilerin oranını temsil eder?",
+      "options": [
+        "Basınç etkileri / sıcaklık etkileri",
+        "Atalet etkileri / viskoz etkiler",
+        "Yerçekimi etkileri / yüzey gerilimi etkileri",
+        "Elastik etkiler / plastik etkiler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Seri bağlı ideal elektrik dirençlerinin eşdeğer direnci nasıl bulunur?",
+      "options": [
+        "Direnç değerleri toplanır",
+        "En küçük direnç seçilir",
+        "Dirençlerin tersleri toplanır",
+        "En büyük direnç seçilir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir sistemin verimi aşağıdaki oranlardan hangisiyle en iyi ifade edilir?",
+      "options": [
+        "Kayıp enerji / faydalı çıktı",
+        "Toplam girdi / faydalı çıktı",
+        "Maksimum güç / minimum güç",
+        "Faydalı çıktı / toplam girdi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Zorlanmış titreşimde uyarma frekansı doğal frekansa yaklaştığında genliğin belirgin artmasına ne ad verilir?",
+      "options": [
+        "Sönüm",
+        "Burkulma",
+        "Rezonans",
+        "Histerezis"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir malzemenin tekrarlı yükler altında, tek seferlik dayanım sınırının altında bile hasar görebilmesine ne ad verilir?",
+      "options": [
+        "Yorulma",
+        "Korozyon",
+        "Sürünme",
+        "Gevreklik"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Hidrostatik durumda aynı sıvı içinde basınç değişimini belirleyen temel değişkenlerden biri hangisidir?",
+      "options": [
+        "Yüzey alanı",
+        "Düşey derinlik",
+        "Yatay mesafe",
+        "Kabın toplam hacmi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

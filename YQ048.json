@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ048",
+  "displayCode": "Y.Q048",
+  "title": "Elektrik Mühendisliği — Devreler & Güç",
+  "category": "Elektrik Mühendisliği",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Devre teorisi, AC sistemler ve temel elektrik gücü kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Elektrik Mühendisliği",
+    "Devreler",
+    "Güç"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kirchhoff Akım Kanunu'nun temel ifadesi hangisidir?",
+      "options": [
+        "Bir düğüme giren ve çıkan akımların cebirsel toplamı sıfırdır",
+        "Bir dirençte güç her zaman sabittir",
+        "Seri devrede tüm gerilimler birbirine eşittir",
+        "Kapalı çevrede gerilimlerin toplamı her zaman pozitiftir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kirchhoff Gerilim Kanunu neyi ifade eder?",
+      "options": [
+        "Bir devrede toplam gücün sıfır olmasını",
+        "Kapalı bir çevrede gerilimlerin cebirsel toplamının sıfır olmasını",
+        "Bir düğümde akımların aynı yönde olmasını",
+        "Paralel kollarda akımın eşit olmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Sinüzoidal AC sistemde güç faktörü en temel olarak hangi oranı ifade eder?",
+      "options": [
+        "Görünür güç / aktif güç",
+        "Reaktif güç / aktif güç",
+        "Aktif güç / görünür güç",
+        "Gerilim / akım"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Endüktif bir yükün güç faktörünü iyileştirmek için en yaygın kullanılan yöntem hangisidir?",
+      "options": [
+        "Yük akımını kesmek",
+        "Besleme frekansını sıfırlamak",
+        "Seri direnç eklemek",
+        "Paralel kondansatör kompanzasyonu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Üç fazlı dengeli bir sistemin önemli avantajlarından biri hangisidir?",
+      "options": [
+        "Nötr iletkenin her durumda zorunlu olması",
+        "Toplam gücün daha düzgün iletilebilmesi",
+        "Her fazda farklı frekans kullanılması",
+        "Hat geriliminin daima faz gerilimine eşit olması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir transformatörün temel çalışma prensibi hangisidir?",
+      "options": [
+        "Elektromanyetik indüksiyon",
+        "Fotoelektrik etki",
+        "Elektrostatik itme",
+        "Termoelektrik iletim"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "İdeal bir transformatörde sekonder gerilim / primer gerilim oranı hangi oranla ilişkilidir?",
+      "options": [
+        "Primer sarım / sekonder güç",
+        "Sekonder güç / primer frekans",
+        "Primer akım / sekonder direnç",
+        "Sekonder sarım / primer sarım"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir iletkende Joule kaybı hangi bağıntıyla ilişkilidir?",
+      "options": [
+        "V/R",
+        "L/R",
+        "I²R",
+        "Q/C"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kısa devre akımının normal işletme akımına göre çok yüksek olmasının temel nedeni hangisidir?",
+      "options": [
+        "Devre empedansının çok küçülmesi",
+        "Besleme frekansının sıfıra yaklaşması",
+        "Gerilim faz açısının 180° olması",
+        "Yük gücünün tamamen kaybolması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Reaktif güç hangi birimle ifade edilir?",
+      "options": [
+        "watt",
+        "var",
+        "tesla",
+        "joule"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ038",
+  "displayCode": "Y.Q038",
+  "title": "Avukatlık — Meslek & Hukuk Uygulaması",
+  "category": "Avukatlık",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Avukatlık mesleği, temsil ve hukuk uygulamasına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Avukatlık",
+    "Meslek",
+    "Hukuk Uygulaması"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir avukatın aynı uyuşmazlıkta menfaatleri açıkça çatışan iki tarafı temsil etmemesi öncelikle hangi ilkeyle ilgilidir?",
+      "options": [
+        "Çıkar çatışmasından kaçınma",
+        "Adli yardım",
+        "Mesleki bağımsızlık",
+        "Duruşma disiplini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir kişinin avukata kendisini hukuki işlemlerde temsil etme yetkisi verdiğini gösteren belge hangisidir?",
+      "options": [
+        "Tensip tutanağı",
+        "Vekâletname",
+        "İbraname",
+        "Müzekkere"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ceza yargılamasında mağdur veya katılanı temsil eden avukat için kullanılan terim hangisidir?",
+      "options": [
+        "Bilirkişi",
+        "Müdafi",
+        "Vekil",
+        "Müşteki"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ceza yargılamasında şüpheli veya sanığın savunmasını üstlenen avukat için kullanılan terim hangisidir?",
+      "options": [
+        "Katılan",
+        "Vekil",
+        "Uzlaştırmacı",
+        "Müdafi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Adli yardım kurumunun temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Yalnız ceza davalarında mahkeme masraflarını karşılamak",
+        "Maddi imkânı sınırlı kişilerin hukuki korunmaya erişimini kolaylaştırmak",
+        "Avukatların mesleki disiplin süreçlerini hızlandırmak",
+        "Her uyuşmazlıkta dava harçlarını tamamen ortadan kaldırmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Arabuluculuk sürecinde gizlilik ilkesi esas olarak neyi korur?",
+      "options": [
+        "Tarafların süreçte paylaştığı bilgi ve beyanların mahremiyetini",
+        "Mahkemenin vereceği kararın kamuya açıklanmamasını",
+        "Arabulucunun hukuki görüşünün bağlayıcı olmasını",
+        "Tarafların kimlik bilgilerinin devlet kayıtlarından silinmesini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ceza uyuşmazlıklarında uzlaştırmanın temel özelliği aşağıdakilerden hangisidir?",
+      "options": [
+        "Her suç bakımından zorunlu olarak uygulanması",
+        "Savcının yerine avukatın karar vermesini sağlaması",
+        "Yalnız mahkeme hükmünden sonra uygulanabilmesi",
+        "Kanunda öngörülen suçlarda tarafların anlaşmasına dayanması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "UYAP'ın hukuk uygulamasındaki temel işlevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Baro seçimlerini elektronik ortamda sonuçlandırmak",
+        "Kanun tasarılarını otomatik olarak yürürlüğe koymak",
+        "Yargısal işlemlerin elektronik ortamda yürütülmesini desteklemek",
+        "Avukatlık ücretlerini merkezi olarak belirlemek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Avukatın müvekkiline karşı mesleki bağımsızlığını koruması ne anlama gelir?",
+      "options": [
+        "Mesleki değerlendirmesini hukuk ve etik kurallar çerçevesinde yapması",
+        "Müvekkilin her talimatını hukuka uygunluk aramadan yerine getirmesi",
+        "Karşı tarafla hiçbir koşulda iletişim kurmaması",
+        "Uyuşmazlığın sonucunu müvekkiline garanti etmesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir tanık ile bilirkişi arasındaki temel fark aşağıdakilerden hangisidir?",
+      "options": [
+        "Tanık teknik görüş, bilirkişi yalnız hukuki görüş verir",
+        "Tanık gözlemlediği olayı, bilirkişi uzmanlık gerektiren konuyu açıklar",
+        "Tanık sadece yazılı, bilirkişi sadece sözlü beyanda bulunur",
+        "Tanık tarafların temsilcisidir, bilirkişi mahkemenin avukatıdır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

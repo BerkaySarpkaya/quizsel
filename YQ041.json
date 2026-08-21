@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ041",
+  "displayCode": "Y.Q041",
+  "title": "İstatistik — Dağılımlar & Örnekleme",
+  "category": "İstatistik",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Dağılım, örnekleme ve temel olasılık kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İstatistik",
+    "Dağılımlar",
+    "Örnekleme"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Standart sapma ile varyans arasındaki ilişki hangisidir?",
+      "options": [
+        "Varyans, standart sapmanın karesidir",
+        "Standart sapma, varyansın iki katıdır",
+        "Varyans, standart sapmanın yarısıdır",
+        "Standart sapma, varyansın karesidir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Çeyrekler açıklığı (IQR) hangi farkla hesaplanır?",
+      "options": [
+        "Ortalama − medyan",
+        "Q3 − Q1",
+        "Q2 − Q1",
+        "Maksimum − minimum"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Sağa çarpık bir dağılımda, güçlü aykırı değerler yoksa, ortalama ile medyan için genellikle hangi ilişki beklenir?",
+      "options": [
+        "Ortalama medyandan küçüktür",
+        "Ortalama her zaman medyana eşittir",
+        "Ortalama medyandan büyüktür",
+        "İki büyüklük arasında hiçbir yön ilişkisi kurulamaz"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdakilerden hangisi örnekleme yanlılığına en iyi örnektir?",
+      "options": [
+        "Rastgele seçilen öğrencilerin tamamına aynı sorunun sorulması",
+        "Verilerin analizden önce kodlanarak anonimleştirilmesi",
+        "Örneklem büyüklüğünün önceden hesaplanması",
+        "Bir okul anketinin yalnız gönüllü spor kulübü üyelerine uygulanması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Merkezi Limit Teoremi'nin temel sonucu aşağıdakilerden hangisidir?",
+      "options": [
+        "Her ham veri seti örneklem büyüdükçe tam normal dağılıma dönüşür",
+        "Uygun koşullarda örneklem ortalamalarının dağılımı yaklaşık normale yaklaşır",
+        "Standart sapma örneklem büyüdükçe zorunlu olarak sıfıra iner",
+        "Örneklem ortalaması her örneklemde ana kütle ortalamasına eşit olur"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "%95 güven aralığının frekansçı yorumu hangisidir?",
+      "options": [
+        "Aynı yöntem çok kez uygulanırsa aralıkların yaklaşık %95'i gerçek parametreyi kapsar",
+        "Hesaplanan tek aralıkta parametrenin bulunma olasılığı kesin olarak %95'tir",
+        "Ana kütlenin %95'i örneklem ortalamasına eşit olmak zorundadır",
+        "Örneklemdeki gözlemlerin tam %95'i bu aralığın içinde kalır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Binom dağılımı için aşağıdakilerden hangisi temel varsayımlardan biridir?",
+      "options": [
+        "Başarı olasılığının her denemede değişmesi",
+        "Her denemede sonuç sayısının sürekli olması",
+        "Deneme sayısının önceden belirsiz olması",
+        "Her denemede iki olası sonuç bulunması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Poisson dağılımı en tipik olarak hangi tür değişkeni modellemek için kullanılır?",
+      "options": [
+        "Sürekli ölçülen vücut sıcaklığını",
+        "Sıralı kategoriler arasındaki farkı",
+        "Belirli bir aralıktaki olay sayısını",
+        "İki kategorili tek deneme sonucunu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Normal dağılımda gözlemlerin yaklaşık ne kadarı ortalamanın bir standart sapma çevresinde yer alır?",
+      "options": [
+        "%68",
+        "%50",
+        "%95",
+        "%80"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Büyük Sayılar Kanunu en temel olarak neyi ifade eder?",
+      "options": [
+        "Küçük örneklemlerin her zaman normal dağılmasını",
+        "Deneme sayısı arttıkça örneklem ortalamasının beklenen değere yaklaşmasını",
+        "Örneklem büyüdükçe aykırı değerlerin tamamen yok olmasını",
+        "Her yeni gözlemle varyansın zorunlu olarak artmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ049",
+  "displayCode": "Y.Q049",
+  "title": "Elektrik Mühendisliği — Makineler & Enerji Sistemleri",
+  "category": "Elektrik Mühendisliği",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Elektrik makineleri, üretim, iletim ve enerji sistemlerine odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Elektrik Mühendisliği",
+    "Elektrik Makineleri",
+    "Enerji Sistemleri"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Asenkron motorun rotor hızı neden senkron hızdan genellikle biraz daha düşüktür?",
+      "options": [
+        "Tork üretimi için kayma gerektiğinden",
+        "Rotor frekansı her durumda sıfır olduğundan",
+        "Besleme gerilimi DC olduğundan",
+        "Stator alanı dönmediğinden"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Senkron hız hangi iki büyüklüğe bağlıdır?",
+      "options": [
+        "Akım ve stator empedansı",
+        "Besleme frekansı ve kutup sayısı",
+        "Gerilim ve rotor direnci",
+        "Güç faktörü ve tork"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Bir jeneratörün temel enerji dönüşümü hangisidir?",
+      "options": [
+        "Elektrik enerjisinden mekanik enerjiye",
+        "Isı enerjisinden yalnız manyetik enerjiye",
+        "Mekanik enerjiden elektrik enerjisine",
+        "Kimyasal enerjiden yalnız mekanik enerjiye"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Yüksek gerilimle enerji iletiminin temel avantajı nedir?",
+      "options": [
+        "Reaktif gücü tamamen ortadan kaldırmak",
+        "Hat direncini fiziksel olarak sıfırlamak",
+        "Frekansı otomatik olarak yükseltmek",
+        "Aynı güç için akımı ve I²R kayıplarını azaltabilmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Güç sisteminde frekansın düşmesi genellikle hangi dengesizliğe işaret eder?",
+      "options": [
+        "Üretimin tüketime göre fazla olmasına",
+        "Üretimin tüketime göre yetersiz kalmasına",
+        "Gerilim fazlarının tamamen eşitlenmesine",
+        "Hat direncinin sıfıra inmesine"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir güç sisteminde reaktif güç akışı gerilim profiliyle neden yakından ilişkilidir?",
+      "options": [
+        "Reaktif güç değişimleri gerilim büyüklüklerini belirgin etkileyebildiğinden",
+        "Aktif güç gerilimle hiçbir ilişki taşımadığından",
+        "Reaktif güç iletim hattında akım oluşturmadığından",
+        "Reaktif güç yalnız frekansı belirlediğinden"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir kesicinin temel görevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Frekansı sabit üretmek",
+        "Enerjiyi mekanik enerjiye çevirmek",
+        "Gerilimi sürekli yükseltmek",
+        "Normal ve arıza akımlarını güvenli biçimde açıp kapatmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Diferansiyel koruma en temel olarak hangi prensibe dayanır?",
+      "options": [
+        "Hat geriliminin yalnız maksimum değerine",
+        "Toprak direncinin yalnız mutlak değerine",
+        "Korunan bölgeye giren ve çıkan akımların karşılaştırılmasına",
+        "Frekansın sürekli artışına"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir transformatörde bakır kayıpları esas olarak neyle ilişkilidir?",
+      "options": [
+        "Sargı akımlarının I²R etkisiyle",
+        "Çekirdeğin histerezisiyle",
+        "Manyetik akının frekansıyla yalnız başına",
+        "Yalıtımın dielektrik sabitiyle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir enerji sisteminde N-1 kriteri en genel haliyle neyi hedefler?",
+      "options": [
+        "Sistemde yalnız bir üretim kaynağı bulunmasını",
+        "Tek bir önemli eleman devre dışı kaldığında sistemin kabul edilebilir işletmede kalmasını",
+        "Her arızada sistemin tamamının kapatılmasını",
+        "Tüm hatların aynı empedansa sahip olmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

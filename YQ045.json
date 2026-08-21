@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ045",
+  "displayCode": "Y.Q045",
+  "title": "İnşaat Mühendisliği — Yapı & Betonarme",
+  "category": "İnşaat Mühendisliği",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Yapı mekaniği, betonarme ve taşıyıcı sistem temel kavramlarına odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İnşaat Mühendisliği",
+    "Yapı",
+    "Betonarme"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Basit mesnetli bir kirişin orta noktasına tekil düşey yük uygulanırsa en büyük eğilme momenti genel olarak nerede oluşur?",
+      "options": [
+        "Kirişin orta noktasında",
+        "Sağ mesnet yakınında",
+        "Mesnetlerin dışında",
+        "Sol mesnet yakınında"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Betonarme bir elemanda donatının temel işlevlerinden biri aşağıdakilerden hangisidir?",
+      "options": [
+        "Betonun basınç dayanımını tek başına belirlemek",
+        "Çekme gerilmelerinin önemli bölümünü taşımak",
+        "Betonun birim ağırlığını azaltmak",
+        "Kesit yüksekliğini zorunlu olarak küçültmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Bir kirişte kesme kuvvetinin sıfır olduğu bir noktada, yükleme düzgün ve süreklilik koşulları uygunsa eğilme momenti için genellikle ne söylenebilir?",
+      "options": [
+        "Mutlaka sıfırdır",
+        "Mutlaka negatiftir",
+        "Yerel ekstremum olabilir",
+        "Sabit kalmak zorundadır"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Betonarme kolonlarda etriyenin temel görevlerinden biri hangisidir?",
+      "options": [
+        "Betonun priz süresini doğrudan kısaltmak",
+        "Kolon eksenel yükünü tamamen ortadan kaldırmak",
+        "Kesit atalet momentini yalnız başına belirlemek",
+        "Boyuna donatıyı çevreleyip kesme ve sarılma davranışına katkı sağlamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir yapısal elemanın rijitliği artarsa, aynı yükleme ve sınır koşullarında deplasman genel olarak nasıl değişir?",
+      "options": [
+        "Her durumda sıfır olur",
+        "Azalma eğilimi gösterir",
+        "Değişmek zorundadır denemez",
+        "Artma eğilimi gösterir"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Betonun karakteristik basınç dayanımı ifadesi en doğru şekilde neyi temsil eder?",
+      "options": [
+        "İstatistiksel olarak tanımlanan belirli bir güven düzeyindeki dayanımı",
+        "Yalnız tek bir küp numunenin ortalama dayanımını",
+        "Betonun çekme dayanımına eşit kabul edilen değeri",
+        "Tüm numunelerin aşmak zorunda olduğu mutlak minimumu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir kolonun narinliği arttıkça hangi davranışın önemi artar?",
+      "options": [
+        "Donatı aderans boyu",
+        "Yalnız kesme çatlakları",
+        "Betonun hidratasyon ısısı",
+        "İkinci mertebe etkileri ve burkulma"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sünek davranış hedeflenen betonarme tasarımda aşağıdakilerden hangisi genellikle tercih edilir?",
+      "options": [
+        "Tüm çatlakların tamamen önlenmesi",
+        "Donatının hiç akmaması",
+        "Enerji tüketebilen kontrollü plastik şekil değiştirme",
+        "Gevrek göçmenin önce oluşması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir kesitin atalet momenti büyüdüğünde, aynı malzeme ve açıklık için eğilme rijitliği nasıl etkilenir?",
+      "options": [
+        "Artar",
+        "Azalır",
+        "Değişmez",
+        "Yalnız kesme rijitliği etkilenir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Betonarme bir kirişte çekme donatısı oranının aşırı yüksek olması hangi davranış riskini artırabilir?",
+      "options": [
+        "Eğilme momentinin tamamen yok olması",
+        "Beton ezilmesine bağlı daha gevrek göçme",
+        "Donatının erken akmasıyla daha sünek göçme",
+        "Kesit ağırlığının sıfıra yaklaşması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,19 +1,19 @@
-QUIZSEL — YENİ GENEL KÜLTÜR PAKETİ
+Quizsel v0.9 — 20 saniye / cache fix
 
-Bu klasörde 10 yeni quiz vardır:
-Y.Q001 ... Y.Q010
+Yüklenecek branch:
+v0.9-test
 
-GitHub'a repo ana dizinine yükle:
-- YQ001.json ... YQ010.json
-- quiz-index.json
+Repo kökünde mevcut dosyaların ÜZERİNE yükle:
+1. index.html
+2. config.js
 
-ÖNEMLİ:
-Uygulamada görünen quiz kodları Y.Q001 biçimindedir.
-Dosya adları ve Firebase-safe iç kodlar YQ001 biçimindedir.
-Mevcut Quizsel kodu "Y.Q001" yazıldığında noktayı otomatik temizleyip YQ001.json dosyasını açar.
+Başka dosya değiştirme.
+Firebase Rules değiştirme.
+app.js değiştirme.
+app-v09-performance.js zaten repoda mevcut; yeniden yüklenmesi gerekmiyor.
 
-Tüm quizler:
-- Genel kültür / karma kategori
-- 10 soru
-- zorluk 6/10
-- soru süresi 15 saniye
+Bu revizyon:
+- index.html ilk timer etiketini 20 sn yapar.
+- config.js cache sürümünü v=92 yapar.
+- app-v09-performance.js isteğini v=92 ile yeniler.
+- questionSeconds = 20 olarak kalır.

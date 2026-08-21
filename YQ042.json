@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ042",
+  "displayCode": "Y.Q042",
+  "title": "İstatistik — Çıkarım & Regresyon",
+  "category": "İstatistik",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Hipotez testleri, regresyon ve istatistiksel çıkarıma odaklanan 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "İstatistik",
+    "Çıkarım",
+    "Regresyon"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tip I hata hangi durumu ifade eder?",
+      "options": [
+        "Doğru olan sıfır hipotezini reddetmek",
+        "Örneklem ortalamasını yanlış hesaplamak",
+        "Yanlış olan sıfır hipotezini reddetmemek",
+        "Doğru olan alternatif hipotezi kabul etmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir hipotez testinin istatistiksel gücü hangi ifadeye eşittir?",
+      "options": [
+        "1 − α",
+        "1 − β",
+        "α / β",
+        "α + β"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "p-değerinin doğru yorumu aşağıdakilerden hangisidir?",
+      "options": [
+        "Alternatif hipotezin yanlış olma olasılığı",
+        "Örneklem sonucunun ana kütlede aynen tekrar etme olasılığı",
+        "Sıfır hipotezi doğru kabul edildiğinde gözlenen kadar veya daha uç bir sonuç elde etme olasılığı",
+        "Sıfır hipotezinin doğru olma olasılığı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Diğer koşullar sabitken güven düzeyi %95'ten %99'a çıkarılırsa güven aralığının genişliği genellikle nasıl değişir?",
+      "options": [
+        "Değişmez",
+        "Sıfıra yaklaşır",
+        "Daralır",
+        "Genişler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Basit doğrusal regresyonda eğim katsayısı en temel olarak neyi ifade eder?",
+      "options": [
+        "Regresyon artıklarının toplam sayısını",
+        "Bağımsız değişkendeki bir birim değişime karşı beklenen bağımlı değişken değişimini",
+        "Bağımlı değişkenin her durumda aldığı başlangıç değerini",
+        "İki değişken arasındaki nedenselliğin kesin kanıtını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "R² değeri basitçe neyi özetler?",
+      "options": [
+        "Modelin bağımlı değişkendeki varyasyonun ne kadarını açıkladığını",
+        "Modeldeki her katsayının istatistiksel olarak anlamlı olduğunu",
+        "Regresyon hatalarının normal dağıldığını",
+        "Bağımsız değişkenlerin birbirinden tamamen bağımsız olduğunu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Çoklu doğrusal regresyonda bağımsız değişkenlerin birbirleriyle güçlü doğrusal ilişki göstermesine ne ad verilir?",
+      "options": [
+        "Otokorelasyon",
+        "Heteroskedastisite",
+        "Örnekleme yanlılığı",
+        "Çoklu doğrusal bağlantı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Regresyon artıklarının varyansının tahmin düzeyine göre sistematik biçimde değişmesine ne ad verilir?",
+      "options": [
+        "Bağımsızlık",
+        "Normallik",
+        "Heteroskedastisite",
+        "Çoklu doğrusal bağlantı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Aynı bireylerin bir müdahale öncesi ve sonrası ölçümleri karşılaştırılacaksa hangi yaklaşım daha uygundur?",
+      "options": [
+        "Eşleştirilmiş örneklem testi",
+        "Ki-kare bağımsızlık testi",
+        "Tek örneklem oran testi",
+        "Bağımsız iki örneklem testi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Çok sayıda bağımsız hipotez testi aynı anlamlılık düzeyinde yapıldığında temel risklerden biri nedir?",
+      "options": [
+        "Tüm testlerin istatistiksel gücünün otomatik olarak %100 olması",
+        "En az bir yanlış pozitif sonuç elde etme olasılığının artması",
+        "Her testin p-değerinin zorunlu olarak küçülmesi",
+        "Örneklem ortalamasının ana kütle ortalamasına eşitlenmesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
