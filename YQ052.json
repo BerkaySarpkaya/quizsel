@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ052",
+  "displayCode": "Y.Q052",
+  "title": "Yeni Genel Kültür 5.5 — 52",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Haiti, Fransız sömürge yönetiminden bağımsızlığını hangi yıl ilan etti?",
+      "options": [
+        "1810",
+        "1821",
+        "1804",
+        "1791"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Dünyanın en büyük tuz düzlüklerinden Salar de Uyuni hangi ülkededir?",
+      "options": [
+        "Bolivya",
+        "Şili",
+        "Arjantin",
+        "Peru"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Katalaz enzimi hücrelerde başlıca hangi maddeyi parçalayarak zararsızlaştırmaya yardımcı olur?",
+      "options": [
+        "Glikoz",
+        "Laktik asit",
+        "Sodyum klorür",
+        "Hidrojen peroksit"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Christina's World tablosunun ressamı kimdir?",
+      "options": [
+        "Grant Wood",
+        "Andrew Wyeth",
+        "Norman Rockwell",
+        "Edward Hopper"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Beloved romanının yazarı kimdir?",
+      "options": [
+        "Toni Morrison",
+        "Alice Walker",
+        "Zora Neale Hurston",
+        "Maya Angelou"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Atletizmde dekatlon toplam kaç farklı yarışmadan oluşur?",
+      "options": [
+        "12",
+        "9",
+        "10",
+        "8"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gymnopédie No. 1 adlı piyano eserinin bestecisi kimdir?",
+      "options": [
+        "Maurice Ravel",
+        "Erik Satie",
+        "Gabriel Fauré",
+        "Francis Poulenc"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir kuyruklu yıldız Güneş'e yaklaşırken oluşan kuyruğu genel olarak hangi yöne uzanır?",
+      "options": [
+        "Her zaman hareket yönüne",
+        "Yörünge merkezine doğru",
+        "Güneş'e doğru",
+        "Güneş'in ters yönüne"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Diwali bayramı dünya çapında yaygın olarak hangi adla da anılır?",
+      "options": [
+        "Renkler Festivali",
+        "Işıklar Festivali",
+        "Bahar Festivali",
+        "Hasat Festivali"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir Ayrılık (A Separation) filminin yönetmeni kimdir?",
+      "options": [
+        "Asghar Farhadi",
+        "Majid Majidi",
+        "Jafar Panahi",
+        "Abbas Kiarostami"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

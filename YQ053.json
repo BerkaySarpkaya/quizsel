@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ053",
+  "displayCode": "Y.Q053",
+  "title": "Yeni Genel Kültür 5.5 — 53",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "19. yüzyılın ortasında milyonlarca insanın ölümüne yol açan Taiping Ayaklanması hangi ülkede yaşandı?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Vietnam",
+        "Hindistan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Atacama Çölü'nün büyük bölümü hangi ülkenin kuzeyinde yer alır?",
+      "options": [
+        "Peru",
+        "Bolivya",
+        "Arjantin",
+        "Şili"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hücre içinde eskimiş yapıların ve büyük moleküllerin parçalanmasında görevli sindirim enzimlerini taşıyan organel hangisidir?",
+      "options": [
+        "Lizozom",
+        "Peroksizom",
+        "Ribozom",
+        "Sentrozom"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Campbell's Soup Cans adlı eser dizisi hangi sanatçıyla özdeşleşmiştir?",
+      "options": [
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Andy Warhol",
+        "Robert Rauschenberg"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Karanlığın Sol Eli (The Left Hand of Darkness) romanının yazarı kimdir?",
+      "options": [
+        "Doris Lessing",
+        "Margaret Atwood",
+        "Octavia E. Butler",
+        "Ursula K. Le Guin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Biathlon sporu hangi iki temel disiplini bir araya getirir?",
+      "options": [
+        "Alp kayağı ve okçuluk",
+        "Kayaklı koşu ve tüfek atışı",
+        "Sürat pateni ve tüfek atışı",
+        "Kayakla atlama ve koşu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Şehrazat (Scheherazade) adlı senfonik süitin bestecisi kimdir?",
+      "options": [
+        "Nikolay Rimski-Korsakov",
+        "Mihail Glinka",
+        "Aleksandr Borodin",
+        "Modest Mussorgski"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Eris astronomide hangi sınıfa giren bir Güneş Sistemi cismidir?",
+      "options": [
+        "Kuyruklu yıldız",
+        "Doğal uydu",
+        "Cüce gezegen",
+        "Gaz devi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Tango kültürünün tarihsel merkezlerinden olan Río de la Plata bölgesi hangi iki ülkeyle ilişkilidir?",
+      "options": [
+        "Arjantin ve Uruguay",
+        "Brezilya ve Paraguay",
+        "Kolombiya ve Venezuela",
+        "Şili ve Peru"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "2003 yapımı Oldboy filminin yönetmeni kimdir?",
+      "options": [
+        "Kim Jee-woon",
+        "Park Chan-wook",
+        "Lee Chang-dong",
+        "Bong Joon-ho"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

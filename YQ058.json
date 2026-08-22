@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ058",
+  "displayCode": "Y.Q058",
+  "title": "Yeni Genel Kültür 5.5 — 58",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "19. yüzyılın sonunda başlayıp 1900 civarında doruğa çıkan Boksör Ayaklanması hangi ülkede gerçekleşti?",
+      "options": [
+        "Filipinler",
+        "Kore",
+        "Japonya",
+        "Çin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Patagonya coğrafi bölgesi başlıca hangi iki ülkenin topraklarına yayılır?",
+      "options": [
+        "Arjantin ve Uruguay",
+        "Arjantin ve Şili",
+        "Peru ve Bolivya",
+        "Şili ve Peru"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Östaki borusunun temel görevlerinden biri aşağıdakilerden hangisidir?",
+      "options": [
+        "Dış kulak kanalında ses dalgalarının üretilmesine yardımcı olmak",
+        "Kulak zarının belirli ses frekanslarını seçerek güçlendirmesine yardımcı olmak",
+        "Orta kulak basıncını dış ortam basıncıyla dengelemeye yardımcı olmak",
+        "İç kulak titreşimlerini doğrudan sinir sinyaline çevirmeye yardımcı olmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Broadway Boogie Woogie tablosunun ressamı kimdir?",
+      "options": [
+        "Piet Mondrian",
+        "Theo van Doesburg",
+        "Wassily Kandinsky",
+        "Kazimir Maleviç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Kitap Hırsızı (The Book Thief) romanının yazarı kimdir?",
+      "options": [
+        "Anthony Doerr",
+        "Markus Zusak",
+        "John Boyne",
+        "Patrick Ness"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Krikette bir bowling oyuncusunun art arda üç atışta üç wicket almasına ne ad verilir?",
+      "options": [
+        "Run-out",
+        "Maiden over",
+        "Century",
+        "Hat-trick"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Enigma Variations eserinin bestecisi kimdir?",
+      "options": [
+        "Edward Elgar",
+        "Benjamin Britten",
+        "Gustav Holst",
+        "Ralph Vaughan Williams"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir parsek yaklaşık kaç ışık yılına eşittir?",
+      "options": [
+        "1,00 ışık yılı",
+        "0,62 ışık yılı",
+        "3,26 ışık yılı",
+        "9,46 ışık yılı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kimchi geleneksel olarak en güçlü biçimde hangi mutfakla ilişkilidir?",
+      "options": [
+        "Kore mutfağı",
+        "Çin mutfağı",
+        "Japon mutfağı",
+        "Vietnam mutfağı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gözlerindeki Sır (The Secret in Their Eyes, 2009) filminin yönetmeni kimdir?",
+      "options": [
+        "Pablo Trapero",
+        "Juan José Campanella",
+        "Damián Szifron",
+        "Alejandro Agresti"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

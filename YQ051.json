@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ051",
+  "displayCode": "Y.Q051",
+  "title": "Yeni Genel Kültür 5.5 — 51",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1598'de Fransa'daki Din Savaşları döneminde Protestanlara önemli haklar tanıyan Nantes Fermanı hangi kral tarafından yayımlandı?",
+      "options": [
+        "IV. Henri",
+        "I. François",
+        "XIII. Louis",
+        "XIV. Louis"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Okavango Deltası büyük ölçüde hangi Afrika ülkesinde yer alır?",
+      "options": [
+        "Namibya",
+        "Botsvana",
+        "Zambiya",
+        "Zimbabve"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Bağışıklık sisteminde çok miktarda antikor salgılamak üzere özelleşen hücre tipi hangisidir?",
+      "options": [
+        "Dendritik hücre",
+        "T yardımcı hücresi",
+        "Plazma hücresi",
+        "Doğal öldürücü hücre"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Üzerinde 'Bu bir pipo değildir' anlamındaki ifade bulunan İmgelerin İhaneti eserinin ressamı kimdir?",
+      "options": [
+        "Max Ernst",
+        "Paul Klee",
+        "Joan Miró",
+        "René Magritte"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Parçalanma (Things Fall Apart) romanının yazarı kimdir?",
+      "options": [
+        "Ngũgĩ wa Thiong'o",
+        "Chinua Achebe",
+        "Nadine Gordimer",
+        "Wole Soyinka"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Curling sporunda taşların gönderildiği eş merkezli dairelerden oluşan hedef bölgesine ne ad verilir?",
+      "options": [
+        "House",
+        "Crease",
+        "Pocket",
+        "Circle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Carmina Burana adlı sahne kantatının bestecisi kimdir?",
+      "options": [
+        "Paul Hindemith",
+        "Richard Strauss",
+        "Kurt Weill",
+        "Carl Orff"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kuiper Kuşağı Güneş Sistemi'nde esas olarak hangi gezegenin yörüngesinin ötesinde bulunur?",
+      "options": [
+        "Uranüs",
+        "Satürn",
+        "Neptün",
+        "Jüpiter"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hangıl (Hangul) hangi dilin yazımında kullanılan özgün alfabe sistemidir?",
+      "options": [
+        "Korece",
+        "Japonca",
+        "Moğolca",
+        "Vietnamca"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Aşk Zamanı (In the Mood for Love) filminin yönetmeni kimdir?",
+      "options": [
+        "Edward Yang",
+        "Wong Kar-wai",
+        "Tsai Ming-liang",
+        "Johnnie To"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

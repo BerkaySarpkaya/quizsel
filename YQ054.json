@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ054",
+  "displayCode": "Y.Q054",
+  "title": "Yeni Genel Kültür 5.5 — 54",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1848 Guadalupe Hidalgo Antlaşması hangi savaşı sona erdirdi?",
+      "options": [
+        "Teksas Devrimi",
+        "İspanya-Amerika Savaşı",
+        "Amerikan İç Savaşı",
+        "Meksika-Amerika Savaşı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Mekong Nehri'nin geniş deltası büyük ölçüde hangi ülkenin güneyinde yer alır?",
+      "options": [
+        "Laos",
+        "Kamboçya",
+        "Vietnam",
+        "Tayland"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Sinir hücrelerinde miyelin kılıfın temel etkisi aşağıdakilerden hangisidir?",
+      "options": [
+        "Oksijen depolamak",
+        "İletim hızını artırmak",
+        "Hücre bölünmesini başlatmak",
+        "Hormon üretimini artırmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "La Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası adlı tablo kimin eseridir?",
+      "options": [
+        "Georges Seurat",
+        "Camille Pissarro",
+        "Henri de Toulouse-Lautrec",
+        "Paul Signac"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Pedro Páramo romanının yazarı kimdir?",
+      "options": [
+        "Alejo Carpentier",
+        "Carlos Fuentes",
+        "Juan Rulfo",
+        "Juan Carlos Onetti"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Rugby union'da bir 'try' doğrudan kaç puan kazandırır?",
+      "options": [
+        "6 puan",
+        "4 puan",
+        "3 puan",
+        "5 puan"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir Sergiden Tablolar (Pictures at an Exhibition) eserinin bestecisi kimdir?",
+      "options": [
+        "Mihail Glinka",
+        "Modest Mussorgski",
+        "Nikolay Rimski-Korsakov",
+        "Aleksandr Borodin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Uzay çalışmalarında 'Lagrange noktası' terimi en çok hangi durumu tanımlar?",
+      "options": [
+        "İki büyük cismin kütleçekimi ile yörünge hareketinin dengelendiği bölgeleri",
+        "Bir yıldızın füzyon tepkimelerinin başladığı iç katman bölgelerini",
+        "Bir uydunun yüzey çekiminin en düşük olduğu yüzey bölgelerini",
+        "Bir gezegenin manyetik alanının en güçlü olduğu uzay bölgelerini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Sauna kültürü özellikle hangi ülkeyle güçlü biçimde özdeşleşmiştir?",
+      "options": [
+        "Estonya",
+        "Finlandiya",
+        "Norveç",
+        "İzlanda"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "400 Darbe (Les Quatre Cents Coups) filminin yönetmeni kimdir?",
+      "options": [
+        "François Truffaut",
+        "Jean-Luc Godard",
+        "Claude Chabrol",
+        "Louis Malle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

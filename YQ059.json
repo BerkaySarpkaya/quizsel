@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ059",
+  "displayCode": "Y.Q059",
+  "title": "Yeni Genel Kültür 5.5 — 59",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "19. yüzyılın sonlarında yaşanan Dreyfus Olayı hangi Avrupa ülkesinde büyük bir siyasi krize dönüştü?",
+      "options": [
+        "Fransa",
+        "Belçika",
+        "Avusturya",
+        "İtalya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Aconcagua Dağı hangi ülkede yer alır?",
+      "options": [
+        "Bolivya",
+        "Şili",
+        "Peru",
+        "Arjantin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Safra sıvısı insan vücudunda hangi organda üretilir?",
+      "options": [
+        "Pankreas",
+        "Karaciğer",
+        "Safra kesesi",
+        "İnce bağırsak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "No. 5, 1948 adlı soyut dışavurumcu tablonun sanatçısı kimdir?",
+      "options": [
+        "Willem de Kooning",
+        "Barnett Newman",
+        "Jackson Pollock",
+        "Mark Rothko"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Ruhlar Evi (The House of the Spirits) romanının yazarı kimdir?",
+      "options": [
+        "Laura Esquivel",
+        "Gioconda Belli",
+        "Elena Poniatowska",
+        "Isabel Allende"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Su topunda bir takım oyun alanında kaleci dahil aynı anda kaç oyuncuyla yer alır?",
+      "options": [
+        "7",
+        "9",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "'Nessun dorma' aryası hangi operada yer alır?",
+      "options": [
+        "Tosca",
+        "Madama Butterfly",
+        "Turandot",
+        "La Bohème"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Güneş'in Dünya'dan görülen ışık yayan yüzey tabakasına ne ad verilir?",
+      "options": [
+        "Korona",
+        "Fotosfer",
+        "Kromosfer",
+        "Konveksiyon bölgesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Samba müziği ve dansı en güçlü biçimde hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "Küba",
+        "Brezilya",
+        "Arjantin",
+        "Kolombiya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "2018 yapımı Roma filminin yönetmeni kimdir?",
+      "options": [
+        "Alfonso Cuarón",
+        "Guillermo del Toro",
+        "Carlos Reygadas",
+        "Alejandro G. Iñárritu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

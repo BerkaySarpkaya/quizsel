@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ055",
+  "displayCode": "Y.Q055",
+  "title": "Yeni Genel Kültür 5.5 — 55",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1905 Portsmouth Antlaşması hangi savaşı sona erdirdi?",
+      "options": [
+        "Rus-Japon Savaşı",
+        "Boksör Ayaklanması",
+        "Kırım Savaşı",
+        "Birinci Çin-Japon Savaşı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Sundarbans mangrov ormanları başlıca hangi iki ülkenin sınırları içinde yer alır?",
+      "options": [
+        "Hindistan ve Nepal",
+        "Hindistan ve Pakistan",
+        "Hindistan ve Bangladeş",
+        "Bangladeş ve Myanmar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "K vitamini insan vücudunda en doğrudan hangi süreçle ilişkilidir?",
+      "options": [
+        "Oksijen taşınması",
+        "Kan pıhtılaşması",
+        "Sinir iletimi",
+        "Görme pigmenti oluşumu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Whistler's Mother adıyla tanınan tablonun ressamı kimdir?",
+      "options": [
+        "Thomas Eakins",
+        "Winslow Homer",
+        "John Singer Sargent",
+        "James McNeill Whistler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Rüzgârın Gölgesi (The Shadow of the Wind) romanının yazarı kimdir?",
+      "options": [
+        "Javier Marías",
+        "Eduardo Mendoza",
+        "Carlos Ruiz Zafón",
+        "Arturo Pérez-Reverte"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Golfte bir deliği par değerinden üç vuruş azla tamamlamaya ne ad verilir?",
+      "options": [
+        "Albatross",
+        "Eagle",
+        "Birdie",
+        "Bogey"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Appalachian Spring adlı bale müziğinin bestecisi kimdir?",
+      "options": [
+        "George Gershwin",
+        "Aaron Copland",
+        "Samuel Barber",
+        "Leonard Bernstein"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Galileo'nun Venüs'ün evrelerini gözlemlemesi tarihsel olarak en çok hangi modeli destekleyen kanıtlardan biri sayılır?",
+      "options": [
+        "Dünya merkezli modeli",
+        "Sabit evren modelini",
+        "Düz Dünya modelini",
+        "Güneş merkezli modeli"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kintsugi sanatında kırılmış seramikler geleneksel olarak ne yapılarak onarılır?",
+      "options": [
+        "Çatlaklar lake ve metal tozuyla belirginleştirilerek",
+        "Seramik tamamen eritilip yeniden dökülerek",
+        "Çatlaklar yalnız balmumuyla doldurularak",
+        "Parçalar görünmeyecek biçimde boyanarak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Tanrı Kent (City of God) filminin yönetmenleri hangileridir?",
+      "options": [
+        "Alfonso Cuarón ve Iñárritu",
+        "Fernando Meirelles ve Kátia Lund",
+        "Lucrecia Martel ve Pablo Trapero",
+        "Walter Salles ve José Padilha"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

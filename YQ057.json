@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ057",
+  "displayCode": "Y.Q057",
+  "title": "Yeni Genel Kültür 5.5 — 57",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1618'deki Prag Defenestrasyonu hangi büyük Avrupa savaşının başlamasına katkıda bulunan olaylardan biridir?",
+      "options": [
+        "Yedi Yıl Savaşları",
+        "İspanya Veraset Savaşı",
+        "Otuz Yıl Savaşları",
+        "Napolyon Savaşları"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Mavi Nil'in çıktığı göl olarak bilinen Tana Gölü hangi ülkededir?",
+      "options": [
+        "Kenya",
+        "Sudan",
+        "Uganda",
+        "Etiyopya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Olgun insan alyuvarlarıyla ilgili aşağıdaki özelliklerden hangisi doğrudur?",
+      "options": [
+        "Çekirdeklerini kaybetmişlerdir",
+        "Mitokondrileri çok fazladır",
+        "Aktif olarak bölünürler",
+        "Antikor üretirler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İki Frida (The Two Fridas) tablosunun sanatçısı kimdir?",
+      "options": [
+        "Leonora Carrington",
+        "Frida Kahlo",
+        "Diego Rivera",
+        "Remedios Varo"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Günden Kalanlar (The Remains of the Day) romanının yazarı kimdir?",
+      "options": [
+        "Salman Rushdie",
+        "Julian Barnes",
+        "Ian McEwan",
+        "Kazuo Ishiguro"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Voleybolda servis karşılama durumundaki takım ralliyi kazanıp servis hakkını aldığında oyuncular ne yapar?",
+      "options": [
+        "Saat yönünün tersine iki pozisyon döner",
+        "Diziliş aynı kalmak zorundadır",
+        "Saat yönünde bir pozisyon döner",
+        "Saha değiştirir"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bahar Ayini (The Rite of Spring) adlı bale müziğinin bestecisi kimdir?",
+      "options": [
+        "Sergey Rahmaninov",
+        "Igor Stravinsky",
+        "Dmitri Şostakoviç",
+        "Sergey Prokofyev"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Işık yılı hangi fiziksel büyüklüğün birimidir?",
+      "options": [
+        "Uzaklık",
+        "Zaman",
+        "Işık şiddeti",
+        "Enerji"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Fransızca kökenli 'Mardi Gras' ifadesinin sözcük anlamı hangisidir?",
+      "options": [
+        "Yağlı Salı",
+        "Renkli Pazar",
+        "Kutsal Çarşamba",
+        "Büyük Perşembe"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bisiklet Hırsızları (Bicycle Thieves) filminin yönetmeni kimdir?",
+      "options": [
+        "Luchino Visconti",
+        "Vittorio De Sica",
+        "Michelangelo Antonioni",
+        "Roberto Rossellini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

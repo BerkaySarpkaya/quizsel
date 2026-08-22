@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ060",
+  "displayCode": "Y.Q060",
+  "title": "Yeni Genel Kültür 5.5 — 60",
+  "category": "Genel Kültür",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Tarih, coğrafya, bilim, sanat, edebiyat, spor, sinema, müzik ve farklı alanlardan karışık genel kültür soruları.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "5.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mahatma Gandhi'nin 1930'daki Tuz Yürüyüşü doğrudan hangi İngiliz sömürge uygulamasını protesto ediyordu?",
+      "options": [
+        "Demiryolu yolculukları üzerindeki ücret düzenini",
+        "Tuz üretimi ve satışı üzerindeki vergi-tekel düzenini",
+        "Çay ithalatı ve dağıtımı üzerindeki tekel düzenini",
+        "Pamuklu dokuma ihracatı üzerindeki kota düzenini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Dünyanın ikinci en yüksek dağı K2, hangi iki ülke tarafından yönetilen bölgelerin sınırında yer alır?",
+      "options": [
+        "Pakistan ve Afganistan",
+        "Hindistan ve Nepal",
+        "Pakistan ve Çin",
+        "Çin ve Nepal"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kimyasal bir sinapsta iki sinir hücresi arasındaki iletişimi çoğunlukla hangi maddeler sağlar?",
+      "options": [
+        "Sindirim enzimleri",
+        "Safra tuzları",
+        "Antikorlar",
+        "Nörotransmiterler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "The Fighting Temeraire tablosunun ressamı kimdir?",
+      "options": [
+        "J. M. W. Turner",
+        "John Constable",
+        "William Blake",
+        "Thomas Gainsborough"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Küçük Şeylerin Tanrısı (The God of Small Things) romanının yazarı kimdir?",
+      "options": [
+        "Jhumpa Lahiri",
+        "Kiran Desai",
+        "Arundhati Roy",
+        "Anita Desai"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Beyzbolda 'grand slam' hangi durumda vurulan home run'a verilen addır?",
+      "options": [
+        "Uzatma inning'inde",
+        "Tüm kaleler doluyken",
+        "Hiç koşucu yokken",
+        "İki out varken"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "The Young Person's Guide to the Orchestra adlı eserin bestecisi kimdir?",
+      "options": [
+        "Benjamin Britten",
+        "Michael Tippett",
+        "Edward Elgar",
+        "William Walton"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Oort Bulutu modeli en çok hangi gök cisimlerinin uzak kaynak bölgesini açıklamak için kullanılır?",
+      "options": [
+        "Asteroit Kuşağı cisimlerinin",
+        "Jüpiter'in büyük uydularının",
+        "Güneş lekelerinin",
+        "Uzun dönemli kuyruklu yıldızların"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Fado adlı geleneksel müzik türü en güçlü biçimde hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Portekiz",
+        "İspanya",
+        "Yunanistan",
+        "İtalya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kaplan ve Ejderha (Crouching Tiger, Hidden Dragon) filminin yönetmeni kimdir?",
+      "options": [
+        "John Woo",
+        "Ang Lee",
+        "Chen Kaige",
+        "Zhang Yimou"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

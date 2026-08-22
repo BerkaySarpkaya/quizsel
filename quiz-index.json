@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-20",
+  "updated": "2026-08-22",
   "quizzes": [
     {
       "code": "QZ001",
@@ -457,6 +457,86 @@
       "difficulty": 6.5,
       "questions": 10,
       "file": "YQ050.json"
+    },
+    {
+      "code": "Y.Q051",
+      "title": "Yeni Genel Kültür 5.5 — 51",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ051.json"
+    },
+    {
+      "code": "Y.Q052",
+      "title": "Yeni Genel Kültür 5.5 — 52",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ052.json"
+    },
+    {
+      "code": "Y.Q053",
+      "title": "Yeni Genel Kültür 5.5 — 53",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ053.json"
+    },
+    {
+      "code": "Y.Q054",
+      "title": "Yeni Genel Kültür 5.5 — 54",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ054.json"
+    },
+    {
+      "code": "Y.Q055",
+      "title": "Yeni Genel Kültür 5.5 — 55",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ055.json"
+    },
+    {
+      "code": "Y.Q056",
+      "title": "Yeni Genel Kültür 5.5 — 56",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ056.json"
+    },
+    {
+      "code": "Y.Q057",
+      "title": "Yeni Genel Kültür 5.5 — 57",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ057.json"
+    },
+    {
+      "code": "Y.Q058",
+      "title": "Yeni Genel Kültür 5.5 — 58",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ058.json"
+    },
+    {
+      "code": "Y.Q059",
+      "title": "Yeni Genel Kültür 5.5 — 59",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ059.json"
+    },
+    {
+      "code": "Y.Q060",
+      "title": "Yeni Genel Kültür 5.5 — 60",
+      "category": "Genel Kültür",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ060.json"
     }
   ]
 }
