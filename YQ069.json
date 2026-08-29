@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ069",
+  "displayCode": "Y.Q069",
+  "title": "Türk Magazin — 2000–2019 Detaylar",
+  "category": "Türk Magazin",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "6/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tuba Büyüküstün ile Onur Saylak 2011'de hangi şehirde evlendi?",
+      "options": [
+        "Paris",
+        "Prag",
+        "Roma",
+        "Londra"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tuba Büyüküstün ile Onur Saylak'ın ikizleri Toprak ve Maya hangi tarihte dünyaya geldi?",
+      "options": [
+        "29 Ocak 2012",
+        "19 Ocak 2012",
+        "19 Şubat 2012",
+        "9 Ocak 2012"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Çağla Şıkel ile Emre Altuğ'un iki oğlunun adları hangileridir?",
+      "options": [
+        "Kuzey ve Atlas",
+        "Atlas ve Uzay",
+        "Kuzey ve Uzay",
+        "Uzay ve Efehan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Tolgahan Sayışman ile Almeda Abazi 2017'de hangi şehirde evlendi?",
+      "options": [
+        "Las Vegas",
+        "Miami",
+        "New York",
+        "Los Angeles"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Tolgahan Sayışman ile Almeda Abazi'nin 2019'da dünyaya gelen oğullarının adı nedir?",
+      "options": [
+        "Fikret Ali",
+        "Efehan",
+        "Karan",
+        "Kurt Efe"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "2018'de oyuncu Öykü Karayel hangi müzisyenle evlendi?",
+      "options": [
+        "Can Bonomo",
+        "Mabel Matiz",
+        "Kenan Doğulu",
+        "Emre Altuğ"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "2018'de İdil Fırat ile evlenen oyuncu kimdir?",
+      "options": [
+        "Engin Hepileri",
+        "İbrahim Çelikkol",
+        "Serkan Keskin",
+        "Mert Fırat"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Oyuncu Bensu Soral'ın 2018'de nikâh masasına oturduğu iş insanı kimdi?",
+      "options": [
+        "Hakan Kurtaş",
+        "Hakan Yılmaz",
+        "Hakan Baş",
+        "Hakan Sabancı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Şarkıcı Ziynet Sali'nin 2019'daki düğününde damat kimdi?",
+      "options": [
+        "Erkan Erzurumlu",
+        "Erkan Can",
+        "Erkan Petekkaya",
+        "Erkan Kolçak Köstendil"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Deniz Baysal 2019 yılında hangi müzisyenle evlendi?",
+      "options": [
+        "Barış Kılıç",
+        "Barış Yurtçu",
+        "Barış Arduç",
+        "Barış Falay"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

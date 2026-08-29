@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ068",
+  "displayCode": "Y.Q068",
+  "title": "Genel Futbol — Taktik & Unutulmaz Anlar",
+  "category": "Futbol",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Kulüpler, turnuvalar, futbol tarihi, rekorlar ve taktik kavramlarından hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "5.5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Penaltıyı topun altına hafifçe girerek kalecinin ortasına doğru yumuşak vuruşla kullanma biçimi hangi futbolcunun soyadıyla anılır?",
+      "options": [
+        "Franz Beckenbauer",
+        "Ferenc Puskás",
+        "Johan Cruyff",
+        "Antonín Panenka"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "1995'teki Bosman kararı Avrupa futbolunda en doğrudan hangi konuda dönüm noktası oldu?",
+      "options": [
+        "VAR kullanımının zorunlu olması",
+        "Sözleşmesi biten oyuncuların serbest transferi",
+        "Üç puanlı galibiyet sisteminin başlaması",
+        "Ofsayt kuralının değiştirilmesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "'Sahte dokuz' (false nine) rolünü en iyi hangi tanım açıklar?",
+      "options": [
+        "Bekin sürekli çizgide kalması",
+        "Kalecinin stoperlerin arasına çıkması",
+        "Santrforun geriye gelerek orta saha bağlantısı kurması",
+        "Kanat oyuncusunun yalnız savunma yapması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "'Gegenpressing' terimi hangi oyun davranışını anlatır?",
+      "options": [
+        "Top kaybedilir kaybedilmez yoğun baskı yapılmasını",
+        "Savunma hattının sürekli ceza sahasına çekilmesini",
+        "Uzun topların yalnız hedef santrfora oynanmasını",
+        "Top kazanılınca oyunun bilinçli biçimde yavaşlatılmasını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "UEFA kulüp turnuvalarında deplasman golü kuralı hangi sezondan itibaren kaldırıldı?",
+      "options": [
+        "2023/24",
+        "2021/22",
+        "2017/18",
+        "2019/20"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "VAR sistemi FIFA Dünya Kupası'nda ilk kez hangi turnuvada kullanıldı?",
+      "options": [
+        "2022 Katar",
+        "2014 Brezilya",
+        "2010 Güney Afrika",
+        "2018 Rusya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "'İstanbul Mucizesi' olarak anılan 2005 Şampiyonlar Ligi finalinde Milan'ı penaltılarla yenen takım hangisiydi?",
+      "options": [
+        "Liverpool",
+        "Manchester United",
+        "Arsenal",
+        "Chelsea"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Real Madrid'in 'La Décima' diye anılan 10. Avrupa Kupası / Şampiyonlar Ligi şampiyonluğu hangi yıl geldi?",
+      "options": [
+        "2016",
+        "2012",
+        "2014",
+        "2010"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "1999 Şampiyonlar Ligi finalinde Manchester United'ın uzatma dakikalarında attığı iki golle yenip kupayı aldığı takım hangisiydi?",
+      "options": [
+        "Bayern Münih",
+        "Juventus",
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "EURO 2000 finalinde Fransa'ya İtalya karşısında kupayı getiren 'altın golü' kim attı?",
+      "options": [
+        "Youri Djorkaeff",
+        "David Trezeguet",
+        "Thierry Henry",
+        "Zinedine Zidane"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

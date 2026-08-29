@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ061",
+  "displayCode": "Y.Q061",
+  "title": "Türk Magazin — 2000'ler & 2010'ların Başı",
+  "category": "Türk Magazin",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "2005'te Hülya Avşar, uzun yıllar süren evliliğini hangi isimle sonlandırdı?",
+      "options": [
+        "Kaya Çilingiroğlu",
+        "Feraye Tanyolaç",
+        "Sadettin Saran",
+        "Mehmet Tecirli"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Gülben Ergen 2004 yılında hangi isimle evlendi?",
+      "options": [
+        "Taşkın Sabah",
+        "Mustafa Erdoğan",
+        "Oğuzhan Koç",
+        "Erhan Çelik"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "2009'da evlenen oyuncu çift Bergüzar Korel ile Halit Ergenç'ten hangisi bu evliliğin diğer tarafıdır?",
+      "options": [
+        "Murat Yıldırım",
+        "Engin Altan Düzyatan",
+        "Halit Ergenç",
+        "Kenan İmirzalıoğlu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Gülben Ergen'in 2009'da dünyaya gelen ikiz oğullarının adları hangileridir?",
+      "options": [
+        "Kuzey ve Güney",
+        "Ares ve Atlas",
+        "Atlas ve Güney",
+        "Ares ve Güney"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "2009'da oyuncu Memet Ali Alabora hangi isimle evlendi?",
+      "options": [
+        "Neslişah Alkoçlar",
+        "Pınar Öğün",
+        "Burçin Terzioğlu",
+        "Sinem Kobal"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Demet Akalın 2010'da evlenip aynı yıl boşandığı eşi kimdi?",
+      "options": [
+        "Önder Bekensir",
+        "Cenk Küpeli",
+        "Oğuz Kayhan",
+        "Okan Kurt"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gülben Ergen ile Mustafa Erdoğan'ın evliliği hangi yıl sona erdi?",
+      "options": [
+        "2016",
+        "2014",
+        "2010",
+        "2012"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "2014'te Engin Altan Düzyatan hangi isimle evlendi?",
+      "options": [
+        "Nazlı Kayı",
+        "Başak Dizer",
+        "Neslişah Alkoçlar",
+        "Sinem Kobal"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "2014'te evliliklerini sonlandırdıklarını duyuran oyuncu çift hangisiydi?",
+      "options": [
+        "Murat Yıldırım – Burçin Terzioğlu",
+        "Halit Ergenç – Bergüzar Korel",
+        "Burak Özçivit – Fahriye Evcen",
+        "Kenan İmirzalıoğlu – Sinem Kobal"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gülben Ergen 2014 yılında hangi gazeteci ve televizyon yöneticisiyle evlendi?",
+      "options": [
+        "Acun Ilıcalı",
+        "Erhan Çelik",
+        "Cem Arısoy",
+        "Mirgün Cabas"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

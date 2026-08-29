@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ067",
+  "displayCode": "Y.Q067",
+  "title": "Genel Futbol — Tarih & Rekorlar",
+  "category": "Futbol",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "Kulüpler, turnuvalar, futbol tarihi, rekorlar ve taktik kavramlarından hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "5.5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Dünya Kupası'nı art arda iki kez kazanan ilk milli takım hangisidir?",
+      "options": [
+        "Batı Almanya",
+        "Uruguay",
+        "İtalya",
+        "Brezilya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "1966 Dünya Kupası finalinde hat-trick yapan futbolcu kimdir?",
+      "options": [
+        "Eusébio",
+        "Bobby Charlton",
+        "Gerd Müller",
+        "Geoff Hurst"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Brezilya ilk FIFA Dünya Kupası şampiyonluğunu hangi yıl kazandı?",
+      "options": [
+        "1958",
+        "1950",
+        "1962",
+        "1970"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "1950 Dünya Kupası'nın son turunu lider bitirerek şampiyon olan ülke hangisidir?",
+      "options": [
+        "İspanya",
+        "Uruguay",
+        "İsveç",
+        "Brezilya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "UEFA Şampiyonlar Ligi tarihinin en golcü oyuncusu kimdir?",
+      "options": [
+        "Robert Lewandowski",
+        "Lionel Messi",
+        "Karim Benzema",
+        "Cristiano Ronaldo"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Milan'ın Avrupa Kupası / Şampiyonlar Ligi tarihindeki toplam şampiyonluk sayısı kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Cristiano Ronaldo EURO finallerinde kaç golle turnuva tarihinin gol rekorunu elinde tutar?",
+      "options": [
+        "9",
+        "14",
+        "11",
+        "16"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "2024 turnuvasıyla birlikte altı farklı EURO'da forma giyen ilk oyuncu kim oldu?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Pepe",
+        "Luka Modrić",
+        "Manuel Neuer"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "EURO tarihinde unvanını bir sonraki turnuvada korumayı başaran tek milli takım hangisidir?",
+      "options": [
+        "İspanya",
+        "Fransa",
+        "İtalya",
+        "Almanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "EURO 2024'te oynadığı yedi maçın tamamını kazanan şampiyon takım hangisiydi?",
+      "options": [
+        "Portekiz",
+        "İspanya",
+        "İngiltere",
+        "Fransa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

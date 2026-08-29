@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ065",
+  "displayCode": "Y.Q065",
+  "title": "Genel Futbol — Kulüpler & Rekabetler",
+  "category": "Futbol",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "Kulüpler, turnuvalar, futbol tarihi, rekorlar ve taktik kavramlarından hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Old Trafford hangi İngiliz kulübünün iç saha stadıdır?",
+      "options": [
+        "Manchester United",
+        "Arsenal",
+        "Liverpool",
+        "Manchester City"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Anfield hangi kulübün stadıdır?",
+      "options": [
+        "Tottenham Hotspur",
+        "Everton",
+        "Liverpool",
+        "Chelsea"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "San Siro / Giuseppe Meazza stadını geleneksel olarak paylaşan iki kulüp hangileridir?",
+      "options": [
+        "Genoa ve Sampdoria",
+        "Milan ve Inter",
+        "Roma ve Lazio",
+        "Juventus ve Torino"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "'El Clásico' adı en çok hangi iki kulüp arasındaki maç için kullanılır?",
+      "options": [
+        "Barcelona – Atlético Madrid",
+        "Real Madrid – Sevilla",
+        "Valencia – Villarreal",
+        "Real Madrid – Barcelona"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "'North London Derby' hangi iki kulüp arasında oynanır?",
+      "options": [
+        "Manchester United – Manchester City",
+        "Chelsea – Fulham",
+        "Arsenal – Tottenham Hotspur",
+        "Liverpool – Everton"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Almanya'da 'Der Klassiker' denildiğinde en çok hangi eşleşme anlaşılır?",
+      "options": [
+        "Bayern Münih – Borussia Dortmund",
+        "Hamburg – Werder Bremen",
+        "Bayern Münih – Schalke 04",
+        "Borussia Dortmund – Leverkusen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Hollanda'da 'De Klassieker' hangi iki kulüp arasındaki rekabettir?",
+      "options": [
+        "Ajax – PSV",
+        "Ajax – Feyenoord",
+        "AZ Alkmaar – Utrecht",
+        "PSV – Feyenoord"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Copa Libertadores hangi kıtasal futbol konfederasyonunun kulüp turnuvasıdır?",
+      "options": [
+        "AFC",
+        "CONCACAF",
+        "UEFA",
+        "CONMEBOL"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Afrika Uluslar Kupası'nı hangi konfederasyon düzenler?",
+      "options": [
+        "CAF",
+        "CONMEBOL",
+        "OFC",
+        "AFC"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Ballon d'Or ödülünü geleneksel olarak hangi yayın kuruluşu verir?",
+      "options": [
+        "UEFA",
+        "France Football",
+        "FIFA",
+        "L'Équipe"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

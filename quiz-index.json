@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-22",
+  "updated": "2026-08-29",
   "quizzes": [
     {
       "code": "QZ001",
@@ -537,6 +537,102 @@
       "difficulty": 5.5,
       "questions": 10,
       "file": "YQ060.json"
+    },
+    {
+      "code": "Y.Q061",
+      "title": "Türk Magazin — 2000'ler & 2010'ların Başı",
+      "category": "Türk Magazin",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ061.json"
+    },
+    {
+      "code": "Y.Q062",
+      "title": "Türk Magazin — 2016'dan 2023'e",
+      "category": "Türk Magazin",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ062.json"
+    },
+    {
+      "code": "Y.Q063",
+      "title": "Türk Magazin — Dönüm Noktaları",
+      "category": "Türk Magazin",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ063.json"
+    },
+    {
+      "code": "Y.Q064",
+      "title": "Türk Magazin — 2024–2026",
+      "category": "Türk Magazin",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ064.json"
+    },
+    {
+      "code": "Y.Q065",
+      "title": "Genel Futbol — Kulüpler & Rekabetler",
+      "category": "Futbol",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ065.json"
+    },
+    {
+      "code": "Y.Q066",
+      "title": "Genel Futbol — Büyük Turnuvalar",
+      "category": "Futbol",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ066.json"
+    },
+    {
+      "code": "Y.Q067",
+      "title": "Genel Futbol — Tarih & Rekorlar",
+      "category": "Futbol",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ067.json"
+    },
+    {
+      "code": "Y.Q068",
+      "title": "Genel Futbol — Taktik & Unutulmaz Anlar",
+      "category": "Futbol",
+      "difficulty": 5.5,
+      "questions": 10,
+      "file": "YQ068.json"
+    },
+    {
+      "code": "Y.Q069",
+      "title": "Türk Magazin — 2000–2019 Detaylar",
+      "category": "Türk Magazin",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ069.json"
+    },
+    {
+      "code": "Y.Q070",
+      "title": "Türk Magazin — 2021–2024 Detaylar",
+      "category": "Türk Magazin",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ070.json"
+    },
+    {
+      "code": "Y.Q071",
+      "title": "Genel Futbol — Dünya Kupası & EURO Rekorları",
+      "category": "Futbol",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ071.json"
+    },
+    {
+      "code": "Y.Q072",
+      "title": "Genel Futbol — Avrupa Kupası Tarihi",
+      "category": "Futbol",
+      "difficulty": 6.0,
+      "questions": 10,
+      "file": "YQ072.json"
     }
   ]
 }

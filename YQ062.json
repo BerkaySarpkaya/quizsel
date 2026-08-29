@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ062",
+  "displayCode": "Y.Q062",
+  "title": "Türk Magazin — 2016'dan 2023'e",
+  "category": "Türk Magazin",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kıvanç Tatlıtuğ 2016'da Paris'te kiminle evlendi?",
+      "options": [
+        "Pınar Dilek",
+        "Fahriye Evcen",
+        "Başak Dizer",
+        "Sinem Kobal"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tarkan 2016 yılında hangi isimle evlendi?",
+      "options": [
+        "Pınar Dilek",
+        "Çağla Altunkaya",
+        "Sinem Kobal",
+        "Başak Dizer"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "2016'da Cunda'da evlenen ünlü çift hangisiydi?",
+      "options": [
+        "Kıvanç Tatlıtuğ – Başak Dizer",
+        "Burak Özçivit – Fahriye Evcen",
+        "Tarkan – Pınar Dilek",
+        "Kenan İmirzalıoğlu – Sinem Kobal"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Fahriye Evcen ile Burak Özçivit 2017'de hangi mekânda evlendi?",
+      "options": [
+        "Çırağan Sarayı",
+        "Sait Halim Paşa Yalısı",
+        "Adile Sultan Sarayı",
+        "Esma Sultan Yalısı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "2018'de ilk kez baba olması magazin gündeminde öne çıkan şarkıcı kimdi?",
+      "options": [
+        "Tarkan",
+        "Kenan Doğulu",
+        "Oğuzhan Koç",
+        "Murat Boz"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "2018'de evliliklerini sonlandıran televizyoncu ve sosyal medya ünlüsü çift hangisiydi?",
+      "options": [
+        "Alişan – Buse Varol",
+        "Kenan Doğulu – Beren Saat",
+        "Acun Ilıcalı – Şeyma Subaşı",
+        "Kıvanç Tatlıtuğ – Başak Dizer"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Demet Akalın 2018 yılında hangi eşiyle boşandı?",
+      "options": [
+        "Cenk Küpeli",
+        "Okan Kurt",
+        "Önder Bekensir",
+        "Mustafa Erdoğan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "2021'de evliliklerini sonlandıran şarkıcı ve şef çift hangisiydi?",
+      "options": [
+        "Gülşen – Ozan Çolakoğlu",
+        "Hadise – Mehmet Dinçerler",
+        "Demet Özdemir – Oğuzhan Koç",
+        "Sıla – Hazer Amani"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hadise ile Mehmet Dinçerler'in 2022'de sona eren evliliği yaklaşık ne kadar sürdü?",
+      "options": [
+        "2 yıl",
+        "5 ay",
+        "18 ay",
+        "1 yıl"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "2023'te boşanan Demet Özdemir'in eski eşi kimdi?",
+      "options": [
+        "Oğuzhan Koç",
+        "Murat Boz",
+        "Eser Yenenler",
+        "İbrahim Büyükak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

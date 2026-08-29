@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ070",
+  "displayCode": "Y.Q070",
+  "title": "Türk Magazin — 2021–2024 Detaylar",
+  "category": "Türk Magazin",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "6/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Özge Özpirinçci ile Burak Yamantürk 2021'de nerede evlendi?",
+      "options": [
+        "Bodrum Gümüşlük",
+        "Çeşme Alaçatı",
+        "Marmaris Bozburun",
+        "Fethiye Göcek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Özge Özpirinçci ile Burak Yamantürk'ün 2021'de dünyaya gelen kızlarının adı nedir?",
+      "options": [
+        "Mercan",
+        "Maya",
+        "Mina",
+        "Lalin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İdo Tatlıses ile Yasemin Şefkatli 2021'de hangi tarihte evlendi?",
+      "options": [
+        "18 Ekim",
+        "28 Ekim",
+        "8 Eylül",
+        "8 Ekim"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ebru Şahin ile Cedi Osman 2022'de resmi nikâhlarını hangi şehirde kıydı?",
+      "options": [
+        "Üsküp",
+        "Ohrid",
+        "Saraybosna",
+        "Belgrad"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Özge Gürel ile Serkan Çayoğlu 2022'de resmi nikâhlarını Almanya'nın hangi kentinde yaptı?",
+      "options": [
+        "Karlsruhe",
+        "Düsseldorf",
+        "Hamburg",
+        "Köln"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Mustafa Sandal ile Melis Sütşurup 2022'de ilk nikâhlarını hangi şehirde kıydı?",
+      "options": [
+        "Viyana",
+        "Paris",
+        "Roma",
+        "Milano"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bora Akkaş ile Oben Alkan 2023'te hangi şehirde evlendi?",
+      "options": [
+        "Roma",
+        "Milano",
+        "Venedik",
+        "Floransa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Özcan Deniz ile Samar Dadgar'ın 2023'teki sade nikâh töreni İstanbul'un hangi semtindeki evlerinde yapıldı?",
+      "options": [
+        "Bebek",
+        "Tarabya",
+        "Kandilli",
+        "Zekeriyaköy"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "2024'te Reynmen adıyla tanınan Yusuf Aktaş hangi isimle evlendi?",
+      "options": [
+        "İrem Helvacıoğlu",
+        "Emire Cansu Kurtaran",
+        "Sima Tarkan",
+        "Aslı Sümen"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "2024'te oyuncu Beril Pozam hangi meslektaşıyla evlendi?",
+      "options": [
+        "Ersin Arıcı",
+        "Özgür Çevik",
+        "Ferit Kaya",
+        "Serkan Keskin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

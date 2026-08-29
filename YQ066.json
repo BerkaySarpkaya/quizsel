@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ066",
+  "displayCode": "Y.Q066",
+  "title": "Genel Futbol — Büyük Turnuvalar",
+  "category": "Futbol",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "Kulüpler, turnuvalar, futbol tarihi, rekorlar ve taktik kavramlarından hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "2010 FIFA Dünya Kupası'nı hangi ülke kazandı?",
+      "options": [
+        "Almanya",
+        "İspanya",
+        "Hollanda",
+        "Brezilya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "2022 FIFA Dünya Kupası şampiyonu hangi ülkeydi?",
+      "options": [
+        "Arjantin",
+        "Brezilya",
+        "Fransa",
+        "Hırvatistan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Erkekler FIFA Dünya Kupası'nı en fazla kazanan ülke hangisidir?",
+      "options": [
+        "Arjantin",
+        "Almanya",
+        "İtalya",
+        "Brezilya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "1966 Dünya Kupası'nı ev sahibi olarak kazanan ülke hangisidir?",
+      "options": [
+        "Portekiz",
+        "Batı Almanya",
+        "İngiltere",
+        "Brezilya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "UEFA EURO 2024'ü hangi ülke kazandı?",
+      "options": [
+        "İspanya",
+        "Fransa",
+        "Almanya",
+        "İngiltere"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Avrupa Kupası / UEFA Şampiyonlar Ligi tarihinde en çok şampiyonluğu bulunan kulüp hangisidir?",
+      "options": [
+        "Liverpool",
+        "Real Madrid",
+        "Milan",
+        "Bayern Münih"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Avrupa Şampiyon Kulüpler Kupası'nın ilk sezonu hangi dönem oynandı?",
+      "options": [
+        "1949/50",
+        "1960/61",
+        "1955/56",
+        "1965/66"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Avrupa Şampiyon Kulüpler Kupası, UEFA Champions League adıyla hangi sezonda yeniden yapılandırıldı?",
+      "options": [
+        "1995/96",
+        "1998/99",
+        "1988/89",
+        "1992/93"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "EURO 2024 sonrasında Avrupa Şampiyonası'nı en çok kazanan ülke hangisidir?",
+      "options": [
+        "Almanya",
+        "İspanya",
+        "Fransa",
+        "İtalya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "2025 UEFA Şampiyonlar Ligi finalinde Inter'i yenerek kupayı kazanan kulüp hangisidir?",
+      "options": [
+        "Paris Saint-Germain",
+        "Manchester City",
+        "Real Madrid",
+        "Bayern Münih"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ063",
+  "displayCode": "Y.Q063",
+  "title": "Türk Magazin — Dönüm Noktaları",
+  "category": "Türk Magazin",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "5.5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Atlas adı, 2007'de hangi ünlü şarkıcının ilk oğluna verildi?",
+      "options": [
+        "Demet Akalın",
+        "Gülben Ergen",
+        "Bengü",
+        "Sıla"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "2009'da Kıraç ile Ayşe Şule Bilgiç çiftinin dünyaya gelen kızının adı neydi?",
+      "options": [
+        "Eda",
+        "Lily Koi",
+        "Lalin",
+        "Iraz Elif"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Beren Saat ile Kenan Doğulu'nun 2014'teki düğünü hangi bölgede gerçekleşti?",
+      "options": [
+        "Malibu, Los Angeles",
+        "Bodrum, Muğla",
+        "Paris, Fransa",
+        "Cunda, Balıkesir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "2016'nın çok konuşulan düğünlerinden birinde Gülşen hangi müzisyenle evlendi?",
+      "options": [
+        "Kenan Doğulu",
+        "Sinan Akçıl",
+        "Ozan Çolakoğlu",
+        "Emre Altuğ"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "2016'da oyuncu Murat Yıldırım hangi isimle evlendi?",
+      "options": [
+        "Burçin Terzioğlu",
+        "Meryem Uzerli",
+        "Fahriye Evcen",
+        "İmane Elbani"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "2016'da nikâh masasına oturan Neslihan Atagül'ün eşi kimdir?",
+      "options": [
+        "İbrahim Çelikkol",
+        "Kadir Doğulu",
+        "Burak Özçivit",
+        "Engin Akyürek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "2021'de Aslışah Alkoçlar hangi isimle evlendi?",
+      "options": [
+        "Kaan Demirağ",
+        "Hakan Sabancı",
+        "Mert Vidinli",
+        "Cenk Küpeli"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "2021'de ikinci kez anne olduğu magazin gündeminde yer alan oyuncu kimdi?",
+      "options": [
+        "Serenay Sarıkaya",
+        "Hazal Kaya",
+        "Meryem Uzerli",
+        "Beren Saat"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kıvanç Tatlıtuğ ile Başak Dizer'in 2022'de dünyaya gelen oğullarının adı nedir?",
+      "options": [
+        "Kurt Efe",
+        "Atlas",
+        "Marsel",
+        "Karan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bengü 2024'te hangi isimle olan evliliğini sonlandırdı?",
+      "options": [
+        "Volkan Bahçekapılı",
+        "Selim Selimoğlu",
+        "Cihan Alpay",
+        "Serkan Sağdıç"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

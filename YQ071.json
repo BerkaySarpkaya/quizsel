@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ071",
+  "displayCode": "Y.Q071",
+  "title": "Genel Futbol — Dünya Kupası & EURO Rekorları",
+  "category": "Futbol",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Dünya Kupası, EURO ve Avrupa kulüp futbolu tarihinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "6/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "2006 FIFA Dünya Kupası'nın gol kralı hangi futbolcuydu?",
+      "options": [
+        "Thierry Henry",
+        "Miroslav Klose",
+        "David Villa",
+        "Lukas Podolski"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Brezilya 2014'te 6 gol atarak turnuvanın gol kralı olan Kolombiyalı futbolcu kimdi?",
+      "options": [
+        "Neymar",
+        "Thomas Müller",
+        "Lionel Messi",
+        "James Rodríguez"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Rusya 2018'de Altın Ayakkabı'yı 6 golle kazanan İngiliz futbolcu kimdi?",
+      "options": [
+        "Harry Kane",
+        "Kylian Mbappé",
+        "Antoine Griezmann",
+        "Romelu Lukaku"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "2022 FIFA Dünya Kupası'nda 8 golle Altın Ayakkabı'yı kazanan oyuncu kimdi?",
+      "options": [
+        "Olivier Giroud",
+        "Julián Álvarez",
+        "Kylian Mbappé",
+        "Lionel Messi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "2010 Dünya Kupası finalinde İspanya'ya kupayı getiren 116. dakika golünü kim attı?",
+      "options": [
+        "David Villa",
+        "Xavi Hernández",
+        "Fernando Torres",
+        "Andrés Iniesta"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "2014 Dünya Kupası finalinde Almanya'nın Arjantin'i 1-0 yenmesini sağlayan golü kim attı?",
+      "options": [
+        "André Schürrle",
+        "Mario Götze",
+        "Mesut Özil",
+        "Thomas Müller"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Tek bir FIFA Dünya Kupası turnuvasında 13 golle rekor kıran Just Fontaine bu başarıyı hangi turnuvada elde etti?",
+      "options": [
+        "1958 İsveç",
+        "1962 Şili",
+        "1954 İsviçre",
+        "1966 İngiltere"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "FIFA kayıtlarına göre Dünya Kupası tarihinin en hızlı golünü yaklaşık 11. saniyede atan futbolcu kimdir?",
+      "options": [
+        "Václav Mašek",
+        "Bryan Robson",
+        "Hakan Şükür",
+        "Clint Dempsey"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir Avrupa Şampiyonası final turnuvasında 9 golle tek turnuva rekorunu elinde tutan oyuncu kimdir?",
+      "options": [
+        "Michel Platini",
+        "Cristiano Ronaldo",
+        "Marco van Basten",
+        "Antoine Griezmann"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "EURO 2016'da 6 golle turnuvanın gol kralı olan futbolcu kimdi?",
+      "options": [
+        "Gareth Bale",
+        "Antoine Griezmann",
+        "Olivier Giroud",
+        "Cristiano Ronaldo"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

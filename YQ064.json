@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ064",
+  "displayCode": "Y.Q064",
+  "title": "Türk Magazin — 2024–2026",
+  "category": "Türk Magazin",
+  "difficulty": 5.5,
+  "version": 1,
+  "description": "2000–2026 dönemindeki kamuya açık Türk magazin gelişmelerinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Türk Magazin",
+    "5.5/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "2024'te Pınar Deniz hangi oyuncuyla evlendi?",
+      "options": [
+        "Uraz Kaygılaroğlu",
+        "Boran Kuzum",
+        "Kaan Urgancıoğlu",
+        "Kaan Yıldırım"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Acun Ilıcalı 2024 yılında hangi isimle evlendi?",
+      "options": [
+        "Sibil Çetinkaya",
+        "Nazlı Kayı",
+        "Çağla Altunkaya",
+        "Şeyma Subaşı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "2024'te milli futbolcu Yusuf Yazıcı ile evlenen oyuncu kimdi?",
+      "options": [
+        "Pınar Deniz",
+        "Melisa Aslı Pamuk",
+        "Meriç Aral",
+        "Merve Dizdar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "2024'te Merve Dizdar hangi isimle evlendi?",
+      "options": [
+        "Cihan Ayger",
+        "Serkan Keskin",
+        "Tolga Sarıtaş",
+        "Kaan Yıldırım"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Buse Terim 2024'te yaklaşık 10 yıllık evliliğini hangi isimle sonlandırdı?",
+      "options": [
+        "Cenk Küpeli",
+        "Cem Arısoy",
+        "Volkan Bahçekapılı",
+        "Selim Selimoğlu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ebru Gündeş 2025'te hangi eşiyle boşandı?",
+      "options": [
+        "Reza Zarrab",
+        "Selçuk Tektaş",
+        "Hamdi Vardar",
+        "Murat Özdemir"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Athena grubunun solisti Gökhan Özoğuz 2025'te hangi isimle evliliğini sonlandırdı?",
+      "options": [
+        "Seda Çınar",
+        "Melis Ülken",
+        "Şafak Özbir",
+        "Nazlı Kayı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "İbrahim Selim 2026'da İtalya'da hangi isimle evlendi?",
+      "options": [
+        "Ayşe Şeyma Keten",
+        "Öykü Cengiz",
+        "Pırıl Atasev",
+        "Ceyda Düvenci"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Ceyda Düvenci 2026'da Stockholm'de hangi isimle evlendi?",
+      "options": [
+        "Cihan Ayger",
+        "Güçlü Mete",
+        "İbrahim Selim",
+        "Bülent Şakrak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Hilmi Cem İntepe 2026'da hangi isimle evlendi?",
+      "options": [
+        "Pırıl Atasev",
+        "Asena Atalar",
+        "Esen Matraş",
+        "İlkay Akıncı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

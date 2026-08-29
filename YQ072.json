@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ072",
+  "displayCode": "Y.Q072",
+  "title": "Genel Futbol — Avrupa Kupası Tarihi",
+  "category": "Futbol",
+  "difficulty": 6.0,
+  "version": 1,
+  "description": "Dünya Kupası, EURO ve Avrupa kulüp futbolu tarihinden hazırlanmış 10 soruluk Quizsel seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Futbol",
+    "6/10",
+    "20 saniye"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "UEFA Champions League adıyla oynanan ilk sezon olan 1992/93'te kupayı hangi takım kazandı?",
+      "options": [
+        "Porto",
+        "Barcelona",
+        "Milan",
+        "Marseille"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "1993 Şampiyonlar Ligi finalinde Marseille'in Milan'ı 1-0 yenmesini sağlayan golü kim attı?",
+      "options": [
+        "Didier Deschamps",
+        "Abedi Pelé",
+        "Basile Boli",
+        "Rudi Völler"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "2004 Şampiyonlar Ligi finalinde Monaco'yu 3-0 yenen Porto'nun teknik direktörü kimdi?",
+      "options": [
+        "Louis van Gaal",
+        "José Mourinho",
+        "Rafael Benítez",
+        "Carlo Ancelotti"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Chelsea'nin 2012'deki ilk Şampiyonlar Ligi zaferinde takımın teknik direktörü kimdi?",
+      "options": [
+        "Roberto Di Matteo",
+        "Guus Hiddink",
+        "André Villas-Boas",
+        "José Mourinho"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "1967'de Avrupa Şampiyon Kulüpler Kupası'nı kazanarak bunu başaran ilk Britanya kulübü olan takım hangisidir?",
+      "options": [
+        "Nottingham Forest",
+        "Liverpool",
+        "Celtic",
+        "Manchester United"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "1986 finalinde Barcelona'yı penaltılarla geçerek Avrupa Kupası'nı kazanan Bükreş temsilcisi hangisidir?",
+      "options": [
+        "Dinamo București",
+        "CFR Cluj",
+        "Rapid București",
+        "Steaua București"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "PSV Eindhoven Avrupa Şampiyon Kulüpler Kupası'nı hangi yıl kazandı?",
+      "options": [
+        "1986",
+        "1988",
+        "1990",
+        "1992"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Belgrad merkezli hangi kulüp 1991 Avrupa Kupası finalinde Marseille'i penaltılarla yenerek şampiyon oldu?",
+      "options": [
+        "Crvena zvezda",
+        "Hajduk Split",
+        "Dinamo Zagreb",
+        "Partizan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "1997 finalinde Juventus'u yenen Borussia Dortmund'un başındaki teknik direktör kimdi?",
+      "options": [
+        "Christoph Daum",
+        "Ottmar Hitzfeld",
+        "Jupp Heynckes",
+        "Felix Magath"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "1995 finalinde Milan'ı yenerek kupayı alan Ajax'ın teknik direktörü kimdi?",
+      "options": [
+        "Louis van Gaal",
+        "Johan Cruyff",
+        "Ronald Koeman",
+        "Guus Hiddink"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
