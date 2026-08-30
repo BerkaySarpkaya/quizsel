@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ115",
+  "displayCode": "Y.Q115",
+  "title": "Genel Kültür 4.5 — 115",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Arrival filminin yönetmeni kimdir?",
+      "options": [
+        "Denis Villeneuve",
+        "Neill Blomkamp",
+        "Alex Garland",
+        "Duncan Jones"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "1978 Camp David Mutabakatları hangi iki ülke arasında barış sürecinin temelini güçlendirdi?",
+      "options": [
+        "Suriye ve İsrail",
+        "Mısır ve İsrail",
+        "Lübnan ve Suriye",
+        "Ürdün ve Mısır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Tavlada her oyuncu oyuna kaç pul ile başlar?",
+      "options": [
+        "15",
+        "18",
+        "12",
+        "16"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Lityum-iyon bataryaların yaygın özelliği hangisidir?",
+      "options": [
+        "Elektrik depolayamamaları",
+        "Yalnız otomobillerde çalışmaları",
+        "Yeniden şarj edilebilir olmaları",
+        "Sadece tek kullanımlık olmaları"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bitki yapraklarında gaz alışverişini sağlayan küçük açıklıklara ne ad verilir?",
+      "options": [
+        "Nektar",
+        "Kloroplast",
+        "Stoma",
+        "Rizom"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "İsveç'in Malmö kentindeki Turning Torso yapısının mimarı kimdir?",
+      "options": [
+        "Tadao Ando",
+        "Zaha Hadid",
+        "Jean Nouvel",
+        "Santiago Calatrava"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Uludağ hangi ilimizin sınırları içindedir?",
+      "options": [
+        "Balıkesir",
+        "Bursa",
+        "Bilecik",
+        "Kocaeli"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Cajón adlı kutu biçimli vurmalı çalgının kökeni hangi ülkedir?",
+      "options": [
+        "Peru",
+        "Meksika",
+        "İspanya",
+        "Arjantin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Vejetaryen romanının yazarı kimdir?",
+      "options": [
+        "Shin Kyung-sook",
+        "Cho Nam-joo",
+        "Bora Chung",
+        "Han Kang"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Maracaibo Gölü hangi ülkededir?",
+      "options": [
+        "Ekvador",
+        "Kolombiya",
+        "Guyana",
+        "Venezuela"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

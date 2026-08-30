@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ117",
+  "displayCode": "Y.Q117",
+  "title": "Genel Kültür 4.5 — 117",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sokotra (Socotra) Adası hangi ülkeye bağlıdır?",
+      "options": [
+        "Cibuti",
+        "Umman",
+        "Yemen",
+        "Somali"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Eşkıya filminin yönetmeni kimdir?",
+      "options": [
+        "Zeki Demirkubuz",
+        "Yavuz Turgul",
+        "Ömer Kavur",
+        "Atıf Yılmaz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Standart dart oyununda tek bir okla alınabilecek en yüksek skor kaçtır?",
+      "options": [
+        "75",
+        "50",
+        "60",
+        "100"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "1605'teki Barut Komplosu'yla adı özdeşleşen kişi kimdir?",
+      "options": [
+        "Francis Drake",
+        "Thomas More",
+        "Oliver Cromwell",
+        "Guy Fawkes"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İnsanlarda olgun kırmızı kan hücrelerinin ortalama yaşam süresi yaklaşık kaç gündür?",
+      "options": [
+        "120 gün",
+        "240 gün",
+        "60 gün",
+        "30 gün"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Koto adlı telli çalgı hangi ülkenin geleneksel müziğinde kullanılır?",
+      "options": [
+        "Vietnam",
+        "Japonya",
+        "Kore",
+        "Çin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Halfeti ilçesi hangi ilimize bağlıdır?",
+      "options": [
+        "Mardin",
+        "Gaziantep",
+        "Şanlıurfa",
+        "Adıyaman"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "HDMI kablosu yaygın olarak hangi iki tür sinyali birlikte taşıyabilir?",
+      "options": [
+        "Su ve elektrik",
+        "Yalnız analog ses",
+        "Dijital görüntü ve ses",
+        "Yalnız klavye verisi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Özgürlük Heykeli'nin heykeltıraşı kimdir?",
+      "options": [
+        "Jean Antoine Houdon",
+        "Aristide Maillol",
+        "Frédéric Auguste Bartholdi",
+        "Antoine Bourdelle"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Mor Yıllar (The Color Purple) romanının yazarı kimdir?",
+      "options": [
+        "Jhumpa Lahiri",
+        "Zora Neale Hurston",
+        "Maya Angelou",
+        "Alice Walker"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ109",
+  "displayCode": "Y.Q109",
+  "title": "Genel Kültür 4.5 — 109",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Madeira takımadaları hangi ülkeye bağlı özerk bir bölgedir?",
+      "options": [
+        "Fransa",
+        "İspanya",
+        "Portekiz",
+        "İtalya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "SONAR teknolojisi özellikle su altında nesne ve mesafe belirlemek için ne kullanır?",
+      "options": [
+        "Görünür ışık",
+        "Ses dalgaları",
+        "Statik elektrik",
+        "X ışınları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ozon tabakası atmosferin hangi katmanında yoğunlaşır?",
+      "options": [
+        "Stratosfer",
+        "Termosfer",
+        "Troposfer",
+        "Mezosfer"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Composition VIII adlı soyut eserin sanatçısı kimdir?",
+      "options": [
+        "Paul Klee",
+        "Wassily Kandinsky",
+        "Joan Miró",
+        "Kazimir Malevich"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir orkestrada müzisyenleri yöneten kişiye ne ad verilir?",
+      "options": [
+        "Şef",
+        "Librettist",
+        "Solist",
+        "Empresaryo"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Tutunamayanlar romanının yazarı kimdir?",
+      "options": [
+        "Bilge Karasu",
+        "Adalet Ağaoğlu",
+        "Yusuf Atılgan",
+        "Oğuz Atay"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Sakarya Nehri Karadeniz'e hangi ilimizin sınırlarında dökülür?",
+      "options": [
+        "Bolu",
+        "Kocaeli",
+        "Düzce",
+        "Sakarya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "The Grand Budapest Hotel filminin yönetmeni kimdir?",
+      "options": [
+        "Noah Baumbach",
+        "Wes Anderson",
+        "Alexander Payne",
+        "Spike Jonze"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Squash oyununda standart bir oyun normalde kaç sayıya kadar oynanır?",
+      "options": [
+        "21",
+        "15",
+        "11",
+        "9"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Güney Afrika'da apartheid sonrası ilk çok ırklı genel seçim hangi yıl yapıldı?",
+      "options": [
+        "1994",
+        "1996",
+        "1990",
+        "1992"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

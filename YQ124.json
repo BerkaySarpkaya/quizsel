@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ124",
+  "displayCode": "Y.Q124",
+  "title": "Genel Kültür 4.5 — 124",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Leopar (Il Gattopardo) romanının yazarı kimdir?",
+      "options": [
+        "Giuseppe Tomasi di Lampedusa",
+        "Cesare Pavese",
+        "Italo Svevo",
+        "Alberto Moravia"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Güvenlik duvarı (firewall) temel olarak neyi denetler?",
+      "options": [
+        "Ağ trafiğini",
+        "Batarya hücrelerini",
+        "Ekran renklerini",
+        "Klavye düzenini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Babam ve Oğlum filminin yönetmeni kimdir?",
+      "options": [
+        "Yavuz Turgul",
+        "Reha Erdem",
+        "Ferzan Özpetek",
+        "Çağan Irmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ratatouille yemeği hangi ülke mutfağıyla ilişkilidir?",
+      "options": [
+        "Fransa",
+        "İspanya",
+        "İtalya",
+        "Belçika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "1974'teki Karanfil Devrimi hangi ülkede gerçekleşti?",
+      "options": [
+        "Yunanistan",
+        "Portekiz",
+        "İspanya",
+        "İtalya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Yucatán Yarımadası'nın en büyük bölümü hangi ülkededir?",
+      "options": [
+        "Belize",
+        "Honduras",
+        "Guatemala",
+        "Meksika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kaş ilçesi hangi ilimize bağlıdır?",
+      "options": [
+        "Isparta",
+        "Mersin",
+        "Antalya",
+        "Muğla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bir maddenin katı hâlden doğrudan gaz hâline geçmesine ne ad verilir?",
+      "options": [
+        "Donma",
+        "Süblimleşme",
+        "Erime",
+        "Yoğuşma"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kabuki hangi ülkenin geleneksel tiyatro türüdür?",
+      "options": [
+        "Güney Kore",
+        "Çin",
+        "Vietnam",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Barselona'daki Casa Batlló hangi mimarın eseridir?",
+      "options": [
+        "Ricardo Bofill",
+        "Josep Puig i Cadafalch",
+        "Antoni Gaudí",
+        "Santiago Calatrava"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

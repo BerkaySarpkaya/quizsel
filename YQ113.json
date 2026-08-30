@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ113",
+  "displayCode": "Y.Q113",
+  "title": "Genel Kültür 4.5 — 113",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kuzuların Sessizliği (The Silence of the Lambs) filminin yönetmeni kimdir?",
+      "options": [
+        "Mike Nichols",
+        "Jonathan Demme",
+        "Alan J. Pakula",
+        "Sydney Pollack"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Qawwali müzik geleneği özellikle hangi dinî-mistik gelenekle ilişkilidir?",
+      "options": [
+        "Zen Budizmi",
+        "Tasavvuf",
+        "Şinto",
+        "Sihizm"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Pastel de nata hangi ülkenin ünlü tatlılarından biridir?",
+      "options": [
+        "İspanya",
+        "İtalya",
+        "Fransa",
+        "Portekiz"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "1998 Kutsal Cuma Anlaşması en doğrudan hangi bölgedeki çatışmanın çözüm süreciyle ilişkilidir?",
+      "options": [
+        "Kuzey İrlanda",
+        "Katalonya",
+        "Korsika",
+        "Bask Bölgesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Doktor Jivago romanının yazarı kimdir?",
+      "options": [
+        "Boris Pasternak",
+        "Vladimir Nabokov",
+        "Mihail Bulgakov",
+        "Aleksandr Soljenitsin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bird in Space adlı heykel serisi hangi sanatçıya aittir?",
+      "options": [
+        "Barbara Hepworth",
+        "Constantin Brâncuși",
+        "Alberto Giacometti",
+        "Alexander Calder"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Yellowstone Millî Parkı'nın büyük bölümü hangi ABD eyaletindedir?",
+      "options": [
+        "Idaho",
+        "Montana",
+        "Wyoming",
+        "Colorado"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Beypazarı ilçesi hangi ilimize bağlıdır?",
+      "options": [
+        "Çankırı",
+        "Ankara",
+        "Eskişehir",
+        "Bolu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Web tarayıcısındaki 'cookie' dosyaları genellikle ne saklamak için kullanılır?",
+      "options": [
+        "Ekran kartı sürücüsünü",
+        "Bilgisayarın tüm yedeğini",
+        "İşletim sistemi çekirdeğini",
+        "Siteyle ilgili küçük kullanıcı ve oturum verilerini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Dünya'nın dış çekirdeği fiziksel olarak ağırlıklı hangi hâldedir?",
+      "options": [
+        "Katı",
+        "Sıvı",
+        "Plazma",
+        "Gaz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

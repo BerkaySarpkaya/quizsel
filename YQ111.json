@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ111",
+  "displayCode": "Y.Q111",
+  "title": "Genel Kültür 4.5 — 111",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "D-Day olarak bilinen 6 Haziran 1944 çıkarmaları hangi bölgede yapıldı?",
+      "options": [
+        "Sicilya",
+        "Bretanya",
+        "Normandiya",
+        "Provence"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Siyah Kare (Black Square) adlı eseriyle tanınan sanatçı kimdir?",
+      "options": [
+        "Wassily Kandinsky",
+        "Kazimir Malevich",
+        "Piet Mondrian",
+        "El Lissitzky"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "On lobutlu bowling oyununda bir maç kaç frame'den oluşur?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "10"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kelebekler Vadisi hangi ilimizin Fethiye ilçesi yakınındadır?",
+      "options": [
+        "Muğla",
+        "İzmir",
+        "Aydın",
+        "Antalya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Geleceğe Dönüş (Back to the Future) filminin yönetmeni kimdir?",
+      "options": [
+        "Ivan Reitman",
+        "Robert Zemeckis",
+        "Joe Dante",
+        "John Hughes"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "CNC tezgâhlarında 'CNC' ifadesi neyi vurgular?",
+      "options": [
+        "Makinenin bilgisayarla sayısal kontrolünü",
+        "Yalnız elle çalıştırılmasını",
+        "Kimyasal soğutma sistemini",
+        "Kablosuz internet bağlantısını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gözyaşının büyük bölümünü üreten bezler hangileridir?",
+      "options": [
+        "Tükürük bezleri",
+        "Gözyaşı bezleri",
+        "Yağ bezleri",
+        "Ter bezleri"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Opera sanatının doğuşu hangi ülkeyle ilişkilendirilir?",
+      "options": [
+        "Almanya",
+        "Avusturya",
+        "İtalya",
+        "Fransa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Orinoco Nehri'nin büyük bölümü hangi ülkeden geçer?",
+      "options": [
+        "Kolombiya",
+        "Peru",
+        "Brezilya",
+        "Venezuela"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Karamazov Kardeşler romanının yazarı kimdir?",
+      "options": [
+        "Fyodor Dostoyevski",
+        "İvan Turgenyev",
+        "Lev Tolstoy",
+        "Nikolay Gogol"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

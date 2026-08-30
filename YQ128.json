@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ128",
+  "displayCode": "Y.Q128",
+  "title": "Genel Kültür 4.5 — 128",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Munzur Vadisi Millî Parkı hangi ilimizdedir?",
+      "options": [
+        "Elazığ",
+        "Bingöl",
+        "Erzincan",
+        "Tunceli"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Uğultulu Tepeler (Wuthering Heights) romanının yazarı kimdir?",
+      "options": [
+        "George Eliot",
+        "Emily Brontë",
+        "Charlotte Brontë",
+        "Anne Brontë"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Didgeridoo adlı nefesli çalgı hangi yerli kültürle özdeşleşmiştir?",
+      "options": [
+        "Sami toplulukları",
+        "Avustralya Aborjinleri",
+        "Maori toplulukları",
+        "İnuit toplulukları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Dünya'nın iç çekirdeği yüksek sıcaklığa rağmen ağırlıklı hangi hâldedir?",
+      "options": [
+        "Plazma",
+        "Gaz",
+        "Sıvı",
+        "Katı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Villa Savoye yapısı hangi mimarla özdeşleşmiştir?",
+      "options": [
+        "Alvar Aalto",
+        "Louis Kahn",
+        "Le Corbusier",
+        "Walter Gropius"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Teniste servis atarken top fileye değip doğru servis kutusuna düşerse genel olarak ne olur?",
+      "options": [
+        "Set sona erer",
+        "Sayı doğrudan rakibe gider",
+        "Servis tekrarlanır",
+        "Servis atan sayı kazanır"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Goodfellas filminin yönetmeni kimdir?",
+      "options": [
+        "Sidney Lumet",
+        "Brian De Palma",
+        "Martin Scorsese",
+        "Francis Ford Coppola"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Svalbard takımadaları hangi ülkenin egemenliğindedir?",
+      "options": [
+        "Finlandiya",
+        "Norveç",
+        "İsveç",
+        "Danimarka"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kore Savaşı'nı fiilen durduran ateşkes hangi yıl imzalandı?",
+      "options": [
+        "1953",
+        "1956",
+        "1960",
+        "1950"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bilgisayarda önbellek (cache) kullanımının temel amacı nedir?",
+      "options": [
+        "İnternet bağlantısını fiziksel olarak kesmek",
+        "Sık kullanılan veriye daha hızlı erişmek",
+        "Ekranı büyütmek",
+        "Dosyaları kalıcı olarak silmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

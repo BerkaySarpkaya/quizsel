@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ123",
+  "displayCode": "Y.Q123",
+  "title": "Genel Kültür 4.5 — 123",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bergama Antik Kenti hangi ilimizin sınırları içindedir?",
+      "options": [
+        "İzmir",
+        "Aydın",
+        "Manisa",
+        "Balıkesir"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Geceyarısı Çocukları (Midnight's Children) romanının yazarı kimdir?",
+      "options": [
+        "V. S. Naipaul",
+        "Amitav Ghosh",
+        "Vikram Seth",
+        "Salman Rushdie"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Go oyununda standart büyük tahta kaç çizgiye kaç çizgiden oluşur?",
+      "options": [
+        "15 × 15",
+        "19 × 19",
+        "21 × 21",
+        "17 × 17"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Tabla adı verilen vurmalı çalgı çifti hangi ülkenin müzik geleneğinde yaygındır?",
+      "options": [
+        "Hindistan",
+        "Türkiye",
+        "Çin",
+        "Brezilya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "1956 Süveyş Krizi öncesinde Süveyş Kanalı'nı millileştiren ülke hangisiydi?",
+      "options": [
+        "Mısır",
+        "Ürdün",
+        "Lübnan",
+        "Suriye"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "1979 yapımı Alien filminin yönetmeni kimdir?",
+      "options": [
+        "John Carpenter",
+        "David Cronenberg",
+        "Ridley Scott",
+        "James Cameron"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mauritius hangi okyanusta yer alan bir ada ülkesidir?",
+      "options": [
+        "Arktik Okyanusu",
+        "Atlas Okyanusu",
+        "Hint Okyanusu",
+        "Pasifik Okyanusu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nesnelerin İnterneti (IoT) kavramı en çok neyi ifade eder?",
+      "options": [
+        "Fiziksel cihazların ağa bağlanıp veri alışverişi yapmasını",
+        "Masaüstü oyunlarını yalnız ağ üzerinden çalıştırmayı",
+        "Yazıcıları sadece çevrimdışı biçimde kullanmayı",
+        "Analog telefon hatlarını sayısal olarak çoğaltmayı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dans (The Dance) adlı büyük kompozisyonuyla tanınan ressam kimdir?",
+      "options": [
+        "Henri Matisse",
+        "Henri Rousseau",
+        "Georges Braque",
+        "Paul Gauguin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Periyodik tabloda aynı sütunda bulunan elementler genel olarak ne olarak adlandırılır?",
+      "options": [
+        "İzotop",
+        "Alaşım",
+        "Periyot",
+        "Grup"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ108",
+  "displayCode": "Y.Q108",
+  "title": "Genel Kültür 4.5 — 108",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Klezmer müziği tarihsel olarak hangi kültürel toplulukla ilişkilidir?",
+      "options": [
+        "Aşkenaz Yahudileri",
+        "Berberi toplulukları",
+        "Sami toplulukları",
+        "Maori toplulukları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "İmkânsızın Şarkısı / Norwegian Wood romanının yazarı kimdir?",
+      "options": [
+        "Yasunari Kawabata",
+        "Kenzaburō Ōe",
+        "Haruki Murakami",
+        "Yukio Mishima"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Tierra del Fuego takımadaları hangi iki ülke arasında paylaşılır?",
+      "options": [
+        "Arjantin ve Uruguay",
+        "Bolivya ve Şili",
+        "Arjantin ve Şili",
+        "Şili ve Peru"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İshak Paşa Sarayı hangi ilimizin Doğubayazıt ilçesindedir?",
+      "options": [
+        "Iğdır",
+        "Erzurum",
+        "Kars",
+        "Ağrı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Memories of Murder filminin yönetmeni kimdir?",
+      "options": [
+        "Park Chan-wook",
+        "Lee Chang-dong",
+        "Kim Jee-woon",
+        "Bong Joon-ho"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Cezayir 1962'de hangi ülkeden bağımsızlığını kazandı?",
+      "options": [
+        "Birleşik Krallık",
+        "Fransa",
+        "İspanya",
+        "İtalya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "BIOS veya UEFI yazılımı bilgisayar açılırken hangi görevi üstlenir?",
+      "options": [
+        "Sosyal medya hesabı oluşturmak",
+        "Donanımı başlatıp işletim sisteminin yüklenmesini hazırlamak",
+        "Yalnız belge yazdırmak",
+        "Web sayfası tasarlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Rönesans resminde 'sfumato' tekniği en çok hangi sanatçıyla özdeşleşir?",
+      "options": [
+        "Sandro Botticelli",
+        "Andrea del Verrocchio",
+        "Piero della Francesca",
+        "Leonardo da Vinci"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Çukur ayna üzerine eksene paralel gelen ışınlar genel olarak ne yapar?",
+      "options": [
+        "Renklerine ayrılır",
+        "Tamamen dağılır",
+        "Bir odakta toplanır",
+        "Aynadan geçer"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Adobo adı verilen yemek hazırlama biçimi hangi ülkenin mutfağında özellikle simgeseldir?",
+      "options": [
+        "Vietnam",
+        "Filipinler",
+        "Japonya",
+        "Güney Kore"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ112",
+  "displayCode": "Y.Q112",
+  "title": "Genel Kültür 4.5 — 112",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Çernobil nükleer kazası 1986'da günümüzde hangi ülkenin sınırları içinde meydana geldi?",
+      "options": [
+        "Ukrayna",
+        "Rusya",
+        "Belarus",
+        "Litvanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "VPN teknolojisinin temel kullanım amaçlarından biri hangisidir?",
+      "options": [
+        "Ağ trafiği için şifreli bir tünel oluşturmak",
+        "Monitör görüntüsünü otomatik olarak iki kat büyütmek",
+        "Dosyaları başka disklere otomatik olarak kopyalamak",
+        "İşlemci sıcaklığını donanım olmadan azaltmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "New York'taki Solomon R. Guggenheim Müzesi'nin mimarı kimdir?",
+      "options": [
+        "Philip Cortelyou Johnson",
+        "Ludwig Mies van der Rohe",
+        "Eero Saarinen",
+        "Frank Lloyd Wright"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Taiko adı verilen büyük davullar hangi ülkenin müzik ve gösteri geleneğiyle özdeşleşmiştir?",
+      "options": [
+        "Moğolistan",
+        "Çin",
+        "Güney Kore",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "RNA'da DNA'daki timin yerine hangi azotlu baz bulunur?",
+      "options": [
+        "Urasil",
+        "Adenin",
+        "Guanin",
+        "Sitozin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Futsalda bir takım kaleci dâhil sahada aynı anda kaç oyuncuyla yer alır?",
+      "options": [
+        "6",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Moonlight filminin yönetmeni kimdir?",
+      "options": [
+        "Steve McQueen",
+        "Barry Jenkins",
+        "Jordan Peele",
+        "Ryan Coogler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Uzungöl hangi ilimizin Çaykara ilçesindedir?",
+      "options": [
+        "Rize",
+        "Artvin",
+        "Trabzon",
+        "Giresun"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İngiliz Hasta romanının yazarı kimdir?",
+      "options": [
+        "Kazuo Ishiguro",
+        "Yann Martel",
+        "Julian Barnes",
+        "Michael Ondaatje"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Pantanal sulak alanlarının en büyük bölümü hangi ülkededir?",
+      "options": [
+        "Paraguay",
+        "Bolivya",
+        "Brezilya",
+        "Arjantin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ114",
+  "displayCode": "Y.Q114",
+  "title": "Genel Kültür 4.5 — 114",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tom yum adlı ekşi-acı çorba hangi ülke mutfağına aittir?",
+      "options": [
+        "Laos",
+        "Tayland",
+        "Kamboçya",
+        "Vietnam"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Beni Asla Bırakma (Never Let Me Go) romanının yazarı kimdir?",
+      "options": [
+        "Julian Barnes",
+        "Kazuo Ishiguro",
+        "Ian McEwan",
+        "Martin Amis"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "New York'taki Seagram Building'in tasarımında öne çıkan mimar kimdir?",
+      "options": [
+        "Ludwig Mies van der Rohe",
+        "I. M. Pei",
+        "Frank Gehry",
+        "Eero Saarinen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Watergate skandalı sonucunda 1974'te istifa eden ABD başkanı kimdi?",
+      "options": [
+        "Gerald Ford",
+        "Richard Nixon",
+        "Jimmy Carter",
+        "Lyndon Johnson"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "1982 yapımı Blade Runner filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "Paul Verhoeven",
+        "Michael Mann",
+        "Tony Scott"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Konstanz Gölü (Bodensee) kıyısı bulunan üç ülke hangileridir?",
+      "options": [
+        "Fransa, İsviçre ve İtalya",
+        "Avusturya, İtalya ve Slovenya",
+        "Almanya, Hollanda ve Belçika",
+        "Almanya, İsviçre ve Avusturya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir atomun kimyasal özelliklerini büyük ölçüde belirleyen en dış elektronlarına ne ad verilir?",
+      "options": [
+        "Nötronlar",
+        "Değerlik elektronları",
+        "İzotoplar",
+        "Çekirdek elektronları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kızkalesi olarak bilinen tarihî yapı hangi ilimizdedir?",
+      "options": [
+        "Adana",
+        "Antalya",
+        "Hatay",
+        "Mersin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Fotovoltaik güneş paneli temel olarak hangi dönüşümü yapar?",
+      "options": [
+        "Ses enerjisini kimyasal enerjiye",
+        "Isıyı doğrudan kütleye",
+        "Elektriği yerçekimine",
+        "Işık enerjisini elektrik enerjisine"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Hula dansı hangi ada kültürüyle özdeşleşmiştir?",
+      "options": [
+        "Samoa",
+        "Tahiti",
+        "Hawaii",
+        "Fiji"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

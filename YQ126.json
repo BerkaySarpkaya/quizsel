@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ126",
+  "displayCode": "Y.Q126",
+  "title": "Genel Kültür 4.5 — 126",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yaban romanının yazarı kimdir?",
+      "options": [
+        "Refik Halit Karay",
+        "Memduh Şevket Esendal",
+        "Halide Edib Adıvar",
+        "Yakup Kadri Karaosmanoğlu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Brasília kentinin simgesel kamu yapılarıyla en çok özdeşleşen mimar kimdir?",
+      "options": [
+        "Lúcio Costa",
+        "Lina Bo Bardi",
+        "Oscar Niemeyer",
+        "Paulo Mendes da Rocha"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "1989'daki Kadife Devrim hangi ülkede komünist yönetimin sona ermesine giden süreci hızlandırdı?",
+      "options": [
+        "Polonya",
+        "Romanya",
+        "Çekoslovakya",
+        "Macaristan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "JPEG dosya biçimi en yaygın olarak hangi tür içerik için kullanılır?",
+      "options": [
+        "Fotoğraf ve görüntüler",
+        "Ses kayıtları",
+        "Çalıştırılabilir programlar",
+        "Elektronik tablolar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İnce bağırsaktaki villusların temel işlevi nedir?",
+      "options": [
+        "Mide asidi salgılamak",
+        "Kanı pıhtılaştırmak",
+        "Emilim yüzeyini artırmak",
+        "Safra üretmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Noh tiyatrosu hangi ülkenin klasik sahne sanatlarından biridir?",
+      "options": [
+        "Çin",
+        "Hindistan",
+        "Japonya",
+        "Tayland"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Dolomitler dağ grubu hangi ülkededir?",
+      "options": [
+        "Avusturya",
+        "İtalya",
+        "Slovenya",
+        "İsviçre"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "La Dolce Vita filminin yönetmeni kimdir?",
+      "options": [
+        "Sergio Leone",
+        "Bernardo Bertolucci",
+        "Pier Paolo Pasolini",
+        "Federico Fellini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dosa adı verilen ince krep hangi ülkenin özellikle güney mutfağıyla ilişkilidir?",
+      "options": [
+        "Pakistan",
+        "Hindistan",
+        "Nepal",
+        "Bangladeş"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Ihlara Vadisi hangi ilimizin sınırları içindedir?",
+      "options": [
+        "Niğde",
+        "Aksaray",
+        "Kayseri",
+        "Nevşehir"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

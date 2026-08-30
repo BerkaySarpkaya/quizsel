@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ119",
+  "displayCode": "Y.Q119",
+  "title": "Genel Kültür 4.5 — 119",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sachertorte adlı çikolatalı pasta hangi şehirle özdeşleşmiştir?",
+      "options": [
+        "Viyana",
+        "Münih",
+        "Prag",
+        "Budapeşte"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Aizanoi Antik Kenti hangi ilimizdedir?",
+      "options": [
+        "Uşak",
+        "Kütahya",
+        "Afyonkarahisar",
+        "Eskişehir"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Esaretin Bedeli (The Shawshank Redemption) filminin yönetmeni kimdir?",
+      "options": [
+        "Barry Levinson",
+        "Rob Reiner",
+        "Frank Darabont",
+        "Milos Forman"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Öpücük (The Kiss) adlı altın tonlu ünlü tablonun ressamı kimdir?",
+      "options": [
+        "Egon Schiele",
+        "Edvard Munch",
+        "Oskar Kokoschka",
+        "Gustav Klimt"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Ses dalgasının genliği arttığında algılanan hangi özellik genel olarak artar?",
+      "options": [
+        "Yayılma hızı",
+        "Sesin perdesi",
+        "Ses yüksekliği",
+        "Dalga boyu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ud (oud) hangi çalgı ailesine aittir?",
+      "options": [
+        "Vurmalı çalgılar",
+        "Telli çalgılar",
+        "Kamışlı nefesliler",
+        "Bakır üflemeliler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "1857'de başlayan büyük ayaklanma hangi ülkedeki Britanya yönetimine karşı gerçekleşti?",
+      "options": [
+        "Hindistan",
+        "Kanada",
+        "Güney Afrika",
+        "Mısır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Death Valley Millî Parkı ağırlıklı olarak hangi ABD eyaletindedir?",
+      "options": [
+        "Nevada",
+        "Arizona",
+        "Kaliforniya",
+        "New Mexico"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "DNS sisteminin internetteki temel görevi hangisidir?",
+      "options": [
+        "Bataryayı şarj etmek",
+        "Dosyaları sıkıştırmak",
+        "Ekran parlaklığını ayarlamak",
+        "Alan adlarını IP adresleriyle eşleştirmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Savaş ve Barış romanının yazarı kimdir?",
+      "options": [
+        "Lev Tolstoy",
+        "Nikolay Gogol",
+        "Anton Çehov",
+        "İvan Turgenyev"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

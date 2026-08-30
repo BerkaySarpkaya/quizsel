@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ120",
+  "displayCode": "Y.Q120",
+  "title": "Genel Kültür 4.5 — 120",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir yapının ön yüzünü ifade eden mimarlık terimi hangisidir?",
+      "options": [
+        "Saçak",
+        "Cephe",
+        "Kemer",
+        "Tonoz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Grand Canyon Millî Parkı hangi ABD eyaletindedir?",
+      "options": [
+        "Nevada",
+        "Utah",
+        "Arizona",
+        "New Mexico"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Sitar adlı telli çalgı en güçlü biçimde hangi ülkenin klasik müzik geleneğiyle ilişkilidir?",
+      "options": [
+        "Endonezya",
+        "Japonya",
+        "Hindistan",
+        "İran"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Mantar hücre duvarlarının önemli yapısal maddelerinden biri hangisidir?",
+      "options": [
+        "Keratin",
+        "Lignin",
+        "Selüloz",
+        "Kitin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "1948–1949 Berlin Hava Köprüsü hangi şehre havadan ikmal sağlamak için kuruldu?",
+      "options": [
+        "Varşova",
+        "Viyana",
+        "Batı Berlin",
+        "Prag"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Rashomon filminin yönetmeni kimdir?",
+      "options": [
+        "Yasujirō Ozu",
+        "Masaki Kobayashi",
+        "Kenji Mizoguchi",
+        "Akira Kurosawa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mezbaha No. 5 (Slaughterhouse-Five) romanının yazarı kimdir?",
+      "options": [
+        "Thomas Pynchon",
+        "John Updike",
+        "Joseph Heller",
+        "Kurt Vonnegut"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Standart softbol maçında normal oyun süresi kaç inning'dir?",
+      "options": [
+        "6",
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hititlerin başkenti Hattuşa hangi ilimizdedir?",
+      "options": [
+        "Çorum",
+        "Yozgat",
+        "Tokat",
+        "Kırıkkale"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "API terimi yazılım dünyasında en temel olarak neyi ifade eder?",
+      "options": [
+        "Kablosuz ağ parolasını",
+        "Görüntü kablosunun tipini",
+        "Uygulamaların birbiriyle iletişim kurmasını sağlayan arayüzü",
+        "Bilgisayar kasasının güç düğmesini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

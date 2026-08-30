@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ104",
+  "displayCode": "Y.Q104",
+  "title": "Genel Kültür 4.5 — 104",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Gayda (bagpipe) denince en çok hangi ülkenin kültürü akla gelir?",
+      "options": [
+        "İrlanda",
+        "İzlanda",
+        "İskoçya",
+        "Norveç"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Saf su deniz seviyesinde yaklaşık hangi sıcaklıkta donar?",
+      "options": [
+        "-10 °C",
+        "10 °C",
+        "4 °C",
+        "0 °C"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Klasik 9×9 Sudoku tablosunda toplam kaç hücre bulunur?",
+      "options": [
+        "64",
+        "90",
+        "81",
+        "72"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Wadi Rum çöl vadisi hangi ülkededir?",
+      "options": [
+        "Mısır",
+        "Suudi Arabistan",
+        "Ürdün",
+        "İsrail"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Milletler Cemiyeti'nin merkezi hangi şehirdeydi?",
+      "options": [
+        "Brüksel",
+        "Lahey",
+        "Paris",
+        "Cenevre"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Üç panelli bir sanat eserine ne ad verilir?",
+      "options": [
+        "Triptik",
+        "Friz",
+        "Mozaik",
+        "Dipti̇k"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Palandöken kayak merkezi hangi ilimizle özdeşleşmiştir?",
+      "options": [
+        "Bitlis",
+        "Erzincan",
+        "Kars",
+        "Erzurum"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "LiDAR sistemleri mesafe ölçümünde ağırlıklı olarak ne kullanır?",
+      "options": [
+        "Manyetik bant",
+        "Mekanik yay",
+        "Ses dalgaları",
+        "Lazer ışığı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kırmızı ve Siyah romanının yazarı kimdir?",
+      "options": [
+        "Gustave Flaubert",
+        "Stendhal",
+        "Honoré de Balzac",
+        "Victor Hugo"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Taxi Driver filminin yönetmeni kimdir?",
+      "options": [
+        "Alan J. Pakula",
+        "Martin Scorsese",
+        "Woody Allen",
+        "John Cassavetes"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

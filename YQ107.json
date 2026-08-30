@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ107",
+  "displayCode": "Y.Q107",
+  "title": "Genel Kültür 4.5 — 107",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Doğu ve Batı Almanya'nın resmen birleştiği yıl hangisidir?",
+      "options": [
+        "1987",
+        "1990",
+        "1992",
+        "1989"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kübizmin gelişiminde Pablo Picasso ile birlikte adı en çok anılan ressam kimdir?",
+      "options": [
+        "Marc Chagall",
+        "André Derain",
+        "Amedeo Modigliani",
+        "Georges Braque"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ahtapot ve kalamar gibi kafadanbacaklıların kanına mavimsi renk veren pigment hangisidir?",
+      "options": [
+        "Melanin",
+        "Hemosiyanin",
+        "Hemoglobin",
+        "Karoten"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Hasankeyf hangi ilimize bağlıdır?",
+      "options": [
+        "Batman",
+        "Mardin",
+        "Siirt",
+        "Diyarbakır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Inari Gölü hangi ülkededir?",
+      "options": [
+        "Estonya",
+        "Finlandiya",
+        "Norveç",
+        "İsveç"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Steelpan adlı metal vurmalı çalgı hangi ada ülkesiyle özdeşleşmiştir?",
+      "options": [
+        "Dominik Cumhuriyeti",
+        "Trinidad ve Tobago",
+        "Saint Lucia",
+        "Antigua ve Barbuda"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "OLED ekranlarda görüntü nasıl oluşturulur?",
+      "options": [
+        "Yalnız güneş ışığı yansıtılır",
+        "Manyetik bant okunur",
+        "Pikseller kendi ışıklarını yayar",
+        "Mekanik iğneler hareket eder"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Plaj voleybolunda bir takım sahada kaç oyuncuyla yer alır?",
+      "options": [
+        "2",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "The Shining filminin yönetmeni kimdir?",
+      "options": [
+        "Stanley Kubrick",
+        "William Friedkin",
+        "Brian De Palma",
+        "Roman Polanski"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Beyaz Kaplan (The White Tiger) romanının yazarı kimdir?",
+      "options": [
+        "Amitav Ghosh",
+        "Aravind Adiga",
+        "Vikram Chandra",
+        "Rohinton Mistry"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ125",
+  "displayCode": "Y.Q125",
+  "title": "Genel Kültür 4.5 — 125",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "CSV dosyalarında veriler genellikle nasıl düzenlenir?",
+      "options": [
+        "Ses dalgaları biçiminde",
+        "Satır ve ayırıcılarla tablo benzeri biçimde",
+        "Makine kodu olarak",
+        "Piksel katmanları hâlinde"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yol (The Road) romanının yazarı kimdir?",
+      "options": [
+        "John Irving",
+        "Philip Roth",
+        "Don DeLillo",
+        "Cormac McCarthy"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Mariachi müzik geleneği hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "Kolombiya",
+        "Küba",
+        "Arjantin",
+        "Meksika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bakterileri ökaryot hücrelerden ayıran temel özelliklerden biri hangisidir?",
+      "options": [
+        "DNA taşımamaları",
+        "Hücre zarlarının bulunmaması",
+        "Zarla çevrili çekirdeklerinin olmaması",
+        "Protein üretememeleri"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Paris'teki Centre Pompidou'nun tasarımında öne çıkan mimar ikilisi hangisidir?",
+      "options": [
+        "I. M. Pei ve Tadao Ando",
+        "Renzo Piano ve Richard Rogers",
+        "Norman Foster ve Zaha Hadid",
+        "Frank Gehry ve Jean Nouvel"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Datça hangi ilimizin ilçesidir?",
+      "options": [
+        "Muğla",
+        "Antalya",
+        "İzmir",
+        "Aydın"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Her filminin yönetmeni kimdir?",
+      "options": [
+        "Spike Jonze",
+        "Richard Linklater",
+        "Sam Mendes",
+        "Michel Gondry"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Pesto sosunun kökeni İtalya'nın hangi bölgesiyle özellikle ilişkilidir?",
+      "options": [
+        "Liguria",
+        "Sicilya",
+        "Puglia",
+        "Toskana"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Everglades Millî Parkı hangi ABD eyaletindedir?",
+      "options": [
+        "Florida",
+        "Alabama",
+        "Louisiana",
+        "Georgia"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "1968'deki Prag Baharı hangi ülkede gerçekleşti?",
+      "options": [
+        "Çekoslovakya",
+        "Polonya",
+        "Macaristan",
+        "Romanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
