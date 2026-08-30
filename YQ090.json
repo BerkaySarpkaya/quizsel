@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ090",
+  "displayCode": "Y.Q090",
+  "title": "Genel Kültür 4.5 — 90",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Havucun yenilen turuncu bölümü botanik olarak esasen hangi organdır?",
+      "options": [
+        "Yaprak",
+        "Gövde",
+        "Kök",
+        "Meyve"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Måneskin rock grubu hangi ülkede kurulmuştur?",
+      "options": [
+        "Fransa",
+        "Portekiz",
+        "İspanya",
+        "İtalya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ramen günümüzde en güçlü biçimde hangi ülke mutfağıyla ilişkilidir?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Tayland",
+        "Moğolistan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir web kaynağının internet üzerindeki tam adresini ifade eden standart kısaltma hangisidir?",
+      "options": [
+        "CSS",
+        "URL",
+        "DNS",
+        "HTML"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Yetişkinler salon hentbolunda normal maç süresi toplam kaç dakikadır?",
+      "options": [
+        "60 dakika",
+        "80 dakika",
+        "50 dakika",
+        "40 dakika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Kandiye (Heraklion) kenti hangi büyük Akdeniz adasındadır?",
+      "options": [
+        "Sicilya",
+        "Rodos",
+        "Girit",
+        "Kıbrıs"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ses dalgaları genel olarak hangi ortam türünde en hızlı yayılır?",
+      "options": [
+        "Katılarda",
+        "Vakumda",
+        "Gazlarda",
+        "Düşük basınçlı havada"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "1915 Çanakkale Köprüsü hangi yıl hizmete açıldı?",
+      "options": [
+        "2024",
+        "2020",
+        "2022",
+        "2018"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Paris'teki Eiffel Kulesi adını hangi mühendisten alır?",
+      "options": [
+        "Le Corbusier",
+        "Alexandre Gustave Bönickhausen",
+        "Georges-Eugène Haussmann",
+        "Gustave Eiffel"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Pinokyo'nun Maceraları kitabının yazarı kimdir?",
+      "options": [
+        "Edmondo De Amicis",
+        "Italo Calvino",
+        "Gianni Rodari",
+        "Carlo Collodi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

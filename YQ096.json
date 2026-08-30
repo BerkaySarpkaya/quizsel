@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ096",
+  "displayCode": "Y.Q096",
+  "title": "Genel Kültür 4.5 — 96",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İnsan vücudunun yüzey alanı bakımından en büyük organı hangisidir?",
+      "options": [
+        "İnce bağırsak",
+        "Deri",
+        "Akciğer",
+        "Karaciğer"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yeşilin Kızı Anne (Anne of Green Gables) romanının yazarı kimdir?",
+      "options": [
+        "Eleanor H. Porter",
+        "Frances Hodgson Burnett",
+        "Laura Ingalls Wilder",
+        "L. M. Montgomery"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Almancadaki 'ß' harfinin yaygın adı hangisidir?",
+      "options": [
+        "Eszett",
+        "Tilde",
+        "Cedilla",
+        "Umlaut"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "GIF dosya biçiminin açılımındaki 'G' hangi kelimeyi temsil eder?",
+      "options": [
+        "Generated",
+        "Graphics",
+        "General",
+        "Global"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Tarihî evleriyle tanınan Safranbolu hangi ilimize bağlıdır?",
+      "options": [
+        "Kastamonu",
+        "Bolu",
+        "Karabük",
+        "Bartın"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bibimbap hangi ülke mutfağının bilinen yemeklerindendir?",
+      "options": [
+        "Japonya",
+        "Moğolistan",
+        "Güney Kore",
+        "Çin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mevlânâ Müzesi hangi şehrimizdedir?",
+      "options": [
+        "Kayseri",
+        "Konya",
+        "Sivas",
+        "Eskişehir"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Futbolda penaltı noktası kale çizgisinden kaç metre uzaktadır?",
+      "options": [
+        "9 metre",
+        "10 metre",
+        "11 metre",
+        "12 metre"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Russell Crowe'un Maximus karakterini canlandırdığı 2000 yapımı Gladiator'ı kim yönetti?",
+      "options": [
+        "Tony Scott",
+        "Ridley Scott",
+        "Ron Howard",
+        "Oliver Stone"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Ponta Delgada, Atlas Okyanusu'ndaki hangi takımadaların en büyük kentidir?",
+      "options": [
+        "Azor Adaları",
+        "Madeira",
+        "Kanarya Adaları",
+        "Faroe Adaları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

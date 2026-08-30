@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ086",
+  "displayCode": "Y.Q086",
+  "title": "Genel Kültür 4.5 — 86",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Rooibos çayının doğal kökeni hangi ülkededir?",
+      "options": [
+        "Hindistan",
+        "Güney Afrika",
+        "Kenya",
+        "Sri Lanka"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Eight-ball bilardoda oyuna adını veren hedef topun numarası kaçtır?",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "7"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Niagara Şelaleleri hangi iki ülkenin sınır bölgesinde yer alır?",
+      "options": [
+        "Kanada ve Grönland",
+        "ABD ve Meksika",
+        "ABD ve Küba",
+        "Kanada ve ABD"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Sydney Opera Binası'nın tasarımını yapan Danimarkalı mimar kimdir?",
+      "options": [
+        "Arne Jacobsen",
+        "Jørn Utzon",
+        "Alvar Aalto",
+        "Eero Saarinen"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Kuru buz hangi maddenin katı hâlidir?",
+      "options": [
+        "Karbondioksit",
+        "Metan",
+        "Azot",
+        "Oksijen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Orman Kitabı (The Jungle Book) eserinin yazarı kimdir?",
+      "options": [
+        "Rudyard Kipling",
+        "Joseph Conrad",
+        "Jack London",
+        "E. M. Forster"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "GPU'nun temel uzmanlık alanı hangisidir?",
+      "options": [
+        "Grafik ve yoğun paralel hesaplama",
+        "Şebeke elektriğini dönüştürme",
+        "Uzun süreli dosya depolama",
+        "Klavye girdilerini toplama"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nuri Bilge Ceylan'ın 2014'te Altın Palmiye kazanan filmi hangisidir?",
+      "options": [
+        "Üç Maymun",
+        "Bir Zamanlar Anadolu'da",
+        "Kış Uykusu",
+        "Ahlat Ağacı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Macellan'ın seferini tamamlayarak ilk dünya çevresi yolculuğunu bitiren denizci kimdir?",
+      "options": [
+        "Amerigo Vespucci",
+        "Bartolomeu Dias",
+        "Vasco Núñez de Balboa",
+        "Juan Sebastián Elcano"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Louvre Müzesi'nin cam piramidini tasarlayan mimar kimdir?",
+      "options": [
+        "I. M. Pei",
+        "Richard Meier",
+        "Oscar Niemeyer",
+        "Tadao Ando"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

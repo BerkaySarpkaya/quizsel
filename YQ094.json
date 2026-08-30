@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ094",
+  "displayCode": "Y.Q094",
+  "title": "Genel Kültür 4.5 — 94",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Krikette top yere değmeden sınır çizgisinin dışına gönderilirse vurucu kaç koşu kazanır?",
+      "options": [
+        "8 koşu",
+        "6 koşu",
+        "5 koşu",
+        "4 koşu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Rusça günümüzde ağırlıklı olarak hangi alfabe ile yazılır?",
+      "options": [
+        "Latin alfabesi",
+        "Yunan alfabesi",
+        "Kiril alfabesi",
+        "Gürcü alfabesi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Toy Story filmi hangi animasyon stüdyosunun ilk uzun metrajlı filmidir?",
+      "options": [
+        "DreamWorks Animation",
+        "Laika",
+        "Illumination",
+        "Pixar"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "K-pop grubu BTS'in çıkış yaptığı ülke hangisidir?",
+      "options": [
+        "Güney Kore",
+        "Çin",
+        "Singapur",
+        "Japonya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Denizyıldızları hangi omurgasız hayvan grubuna aittir?",
+      "options": [
+        "Derisidikenliler",
+        "Halkalı solucanlar",
+        "Kabuklular",
+        "Yumuşakçalar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Dev heykelleriyle bilinen Nemrut Dağı arkeolojik alanı hangi ilimizdedir?",
+      "options": [
+        "Kahramanmaraş",
+        "Adıyaman",
+        "Malatya",
+        "Elazığ"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Patates, peynir taneleri ve sosla hazırlanan poutine hangi ülkeyle ilişkilidir?",
+      "options": [
+        "İrlanda",
+        "Kanada",
+        "ABD",
+        "Birleşik Krallık"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Demirin paslanması sonucunda oluşan bileşiklerin ana sınıfı hangisidir?",
+      "options": [
+        "Demir oksitler",
+        "Demir sülfürler",
+        "Demir klorürler",
+        "Demir karbonatlar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dünyanın ilk yer altı demiryolu sistemi 1863'te hangi şehirde hizmete girdi?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "New York",
+        "Londra"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bulut bilişimde dosya ve uygulamalar çoğunlukla nerede çalıştırılır veya saklanır?",
+      "options": [
+        "Uzak sunucularda",
+        "Monitörün içinde",
+        "Sadece yazıcı kartuşunda",
+        "Yalnız klavye belleğinde"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

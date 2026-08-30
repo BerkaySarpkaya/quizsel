@@ -1,19 +1,33 @@
-Quizsel v0.9 — 20 saniye / cache fix
+TELEFONDAN GITHUB'A YÜKLEME
 
-Yüklenecek branch:
-v0.9-test
+Branch: main
+Konum: repo kökü
 
-Repo kökünde mevcut dosyaların ÜZERİNE yükle:
-1. index.html
-2. config.js
+YQ083.json
+YQ084.json
+YQ085.json
+YQ086.json
+YQ087.json
+YQ088.json
+YQ089.json
+YQ090.json
+YQ091.json
+YQ092.json
+YQ093.json
+YQ094.json
+YQ095.json
+YQ096.json
+YQ097.json
+YQ098.json
+YQ099.json
+YQ100.json
+YQ101.json
+YQ102.json
 
-Başka dosya değiştirme.
-Firebase Rules değiştirme.
-app.js değiştirme.
-app-v09-performance.js zaten repoda mevcut; yeniden yüklenmesi gerekmiyor.
+EN SON mevcut dosyanın üzerine:
+quiz-index.json
 
-Bu revizyon:
-- index.html ilk timer etiketini 20 sn yapar.
-- config.js cache sürümünü v=92 yapar.
-- app-v09-performance.js isteğini v=92 ile yeniler.
-- questionSeconds = 20 olarak kalır.
+QUIZSEL_SORU_URETIM_MANUELI.md, QA_RAPORU.md ve KAYNAK_NOTU.md
+uygulamanın çalışması için zorunlu değildir; kalite/arşiv dokümanlarıdır.
+
+Firebase Rules / app.js / config.js değişikliği yok.

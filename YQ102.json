@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ102",
+  "displayCode": "Y.Q102",
+  "title": "Genel Kültür 4.5 — 102",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İnternet alan adlarındaki '.tr' uzantısı hangi ülkeye ait ülke kodudur?",
+      "options": [
+        "Tacikistan",
+        "Türkiye",
+        "Tunus",
+        "Türkmenistan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "14. yüzyılda büyük serveti ve hac yolculuğuyla ünlenen Mansa Musa hangi imparatorluğun hükümdarıydı?",
+      "options": [
+        "Mali İmparatorluğu",
+        "Gana İmparatorluğu",
+        "Songhay İmparatorluğu",
+        "Aksum Krallığı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Golfte topu tek vuruşta deliğe sokmaya yaygın olarak ne ad verilir?",
+      "options": [
+        "Eagle / two-under",
+        "Bogey / one-over",
+        "Birdie / one-under",
+        "Ace / hole-in-one"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Gulaş (goulash) hangi ülkenin geleneksel mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "Çekya",
+        "Macaristan",
+        "Polonya",
+        "Avusturya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Vakıf (Foundation) serisinin yazarı kimdir?",
+      "options": [
+        "Isaac Asimov",
+        "Arthur C. Clarke",
+        "Ray Bradbury",
+        "Ursula K. Le Guin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Kutup ışıkları ağırlıklı olarak hangi olayın sonucunda oluşur?",
+      "options": [
+        "Okyanusların ısı yayması",
+        "Bulutların elektrik yükünü kaybetmesi",
+        "Ay ışığının buz kristallerinden yansıması",
+        "Güneş kaynaklı yüklü parçacıkların atmosferle etkileşmesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bob Marley hangi ülkenin müzik kültürüyle özdeşleşmiştir?",
+      "options": [
+        "Trinidad ve Tobago",
+        "Jamaika",
+        "Barbados",
+        "Bahamalar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Hallstatt kasabası hangi ülkededir?",
+      "options": [
+        "Çekya",
+        "Almanya",
+        "Avusturya",
+        "İsviçre"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Rihanna hangi Karayip ada ülkesinde doğmuştur?",
+      "options": [
+        "Grenada",
+        "Bahamalar",
+        "Jamaika",
+        "Barbados"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Helyum periyodik tabloda hangi element grubunda yer alır?",
+      "options": [
+        "Halojenler",
+        "Alkali metaller",
+        "Toprak alkali metaller",
+        "Soy gazlar"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

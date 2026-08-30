@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ100",
+  "displayCode": "Y.Q100",
+  "title": "Genel Kültür 4.5 — 100",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Türkiye'nin yüksek çözünürlüklü yer gözlem uydularından GÖKTÜRK-2 hangi yıl yörüngeye yerleştirildi?",
+      "options": [
+        "2009",
+        "2015",
+        "2018",
+        "2012"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tour de France'taki beyaz mayo hangi klasman liderine verilir?",
+      "options": [
+        "Takım klasmanı liderine",
+        "Puan klasmanı liderine",
+        "Dağlar klasmanı liderine",
+        "Gençler klasmanı liderine"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Iguazú Şelaleleri ağırlıklı olarak hangi iki ülkenin sınırında bulunur?",
+      "options": [
+        "Peru ve Bolivya",
+        "Arjantin ve Brezilya",
+        "Arjantin ve Şili",
+        "Brezilya ve Paraguay"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kuskus (couscous) özellikle hangi bölgenin geleneksel mutfaklarında yaygındır?",
+      "options": [
+        "Güneydoğu Asya",
+        "Kuzey Afrika",
+        "Karayipler",
+        "İskandinavya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Köpekbalıklarının iskeleti ağırlıklı olarak hangi dokudan oluşur?",
+      "options": [
+        "Kıkırdak",
+        "Kemik",
+        "Keratin",
+        "Kitin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Gulliver'in Gezileri'nin yazarı kimdir?",
+      "options": [
+        "Jonathan Swift",
+        "Daniel Defoe",
+        "Henry Fielding",
+        "Laurence Sterne"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Buzun sıvı su üzerinde yüzebilmesinin temel nedeni hangisidir?",
+      "options": [
+        "Yoğunluğunun sıvı sudan düşük olması",
+        "Sıcaklığının her zaman sıfır olması",
+        "Yüzeyinin pürüzsüz olması",
+        "İçinde oksijen bulunması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Frédéric Chopin hangi ülkenin müzik kültürüyle özellikle özdeşleşmiş bir bestecidir?",
+      "options": [
+        "Çekya",
+        "Macaristan",
+        "Avusturya",
+        "Polonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "SSD depolama birimlerini klasik sabit disklerden ayıran temel özellik hangisidir?",
+      "options": [
+        "Veriyi manyetik banda yazması",
+        "Elektrik kullanmadan veri işlemesi",
+        "Hareketli mekanik parça içermemesi",
+        "Yalnız internete bağlı çalışması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bülbülü Öldürmek (To Kill a Mockingbird) romanının yazarı kimdir?",
+      "options": [
+        "Carson McCullers",
+        "Toni Morrison",
+        "Flannery O'Connor",
+        "Harper Lee"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

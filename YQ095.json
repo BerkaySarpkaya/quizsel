@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ095",
+  "displayCode": "Y.Q095",
+  "title": "Genel Kültür 4.5 — 95",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Birleşmiş Milletler, ülkenin yabancı dillerdeki resmî adını 'Türkiye' olarak kullanmaya hangi yıl başladı?",
+      "options": [
+        "2021",
+        "2022",
+        "2024",
+        "2019"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Ümit Burnu hangi ülkededir?",
+      "options": [
+        "Angola",
+        "Güney Afrika",
+        "Namibya",
+        "Mozambik"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Yazıda kullanılan 'etc.' kısaltması hangi Latince ifadenin kısaltmasıdır?",
+      "options": [
+        "Per se",
+        "Et cetera",
+        "Et alii",
+        "Id est"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Vikingler tarihsel olarak ağırlıklı biçimde hangi Avrupa bölgesinden çıkmıştır?",
+      "options": [
+        "Benelüks",
+        "İskandinavya",
+        "İber Yarımadası",
+        "Balkanlar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "GPS sistemi konum belirlemek için temel olarak hangi altyapıdan yararlanır?",
+      "options": [
+        "Yer altı sensörlerinden",
+        "Yörüngedeki uydulardan",
+        "Denizaltı kablolarından",
+        "FM radyo kulelerinden"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Patatesin yediğimiz yumrusu botanik olarak hangi yapının değişime uğramış hâlidir?",
+      "options": [
+        "Gövde",
+        "Yaprak",
+        "Meyve",
+        "Kök"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "1997 yapımı Titanic filminin yönetmeni kimdir?",
+      "options": [
+        "Ron Howard",
+        "Michael Bay",
+        "James Cameron",
+        "Robert Zemeckis"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sirkeye karakteristik ekşiliğini veren başlıca asit hangisidir?",
+      "options": [
+        "Asetik asit",
+        "Formik asit",
+        "Sitrik asit",
+        "Laktik asit"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "FIBA basketbolunda hücum süresi saati normalde kaç saniyedir?",
+      "options": [
+        "24 saniye",
+        "30 saniye",
+        "35 saniye",
+        "20 saniye"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gizli Bahçe (The Secret Garden) romanının yazarı kimdir?",
+      "options": [
+        "L. M. Montgomery",
+        "Louisa May Alcott",
+        "Edith Nesbit",
+        "Frances Hodgson Burnett"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

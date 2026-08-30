@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ093",
+  "displayCode": "Y.Q093",
+  "title": "Genel Kültür 4.5 — 93",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aziz Sancar 2015 yılında Nobel Ödülü'nü hangi alanda aldı?",
+      "options": [
+        "Edebiyat",
+        "Tıp",
+        "Fizik",
+        "Kimya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Küba Füze Krizi hangi yıl yaşandı?",
+      "options": [
+        "1973",
+        "1956",
+        "1968",
+        "1962"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Kaptan Ahab'ın beyaz balina takıntısını anlatan Moby-Dick'in yazarı kimdir?",
+      "options": [
+        "Herman Melville",
+        "Henry James",
+        "Nathaniel Hawthorne",
+        "Walt Whitman"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Shakira hangi ülkede doğmuştur?",
+      "options": [
+        "Venezuela",
+        "İspanya",
+        "Kolombiya",
+        "Meksika"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Sumo güreşi hangi ülkeyle özdeşleşmiş geleneksel bir spordur?",
+      "options": [
+        "Moğolistan",
+        "Japonya",
+        "Çin",
+        "Güney Kore"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Kaktüslerin çoğunda suyun önemli bölümü bitkinin hangi kısmında depolanır?",
+      "options": [
+        "Dikeninde",
+        "Çiçeğinde",
+        "Gövdesinde",
+        "Tohumunda"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "E-posta adreslerinde kullanılan '@' işaretinin İngilizce adı hangisidir?",
+      "options": [
+        "At sign",
+        "Asterisk",
+        "Ampersand",
+        "Hash sign"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Feijoada adlı fasulyeli yemek hangi ülkeyle özellikle özdeşleşmiştir?",
+      "options": [
+        "Kolombiya",
+        "Brezilya",
+        "Şili",
+        "Arjantin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Cam bir prizma beyaz ışığı renklerine ayırdığında gözlenen olaya ne ad verilir?",
+      "options": [
+        "Dağılma / dispersiyon",
+        "İletim / transmisyon",
+        "Rezonans / titreşim",
+        "İndüksiyon / uyarım"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Modern dijital emoji kültürü ilk olarak hangi ülkede yaygınlaşmaya başladı?",
+      "options": [
+        "Kanada",
+        "İsveç",
+        "Japonya",
+        "Brezilya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ091",
+  "displayCode": "Y.Q091",
+  "title": "Genel Kültür 4.5 — 91",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Türkiye'nin 2015'te ev sahipliği yaptığı G20 Liderler Zirvesi hangi şehirde düzenlendi?",
+      "options": [
+        "Antalya",
+        "İzmir",
+        "İstanbul",
+        "Ankara"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yüzüklerin Efendisi sinema üçlemesinin yönetmeni kimdir?",
+      "options": [
+        "Peter Jackson",
+        "Bryan Singer",
+        "Robert Zemeckis",
+        "Sam Raimi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Devenin hörgücünde esas olarak ne depolanır?",
+      "options": [
+        "Su",
+        "Yağ",
+        "Protein",
+        "Tuz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Arrakis gezegenini merkezine alan Dune evrenini hangi yazar yarattı?",
+      "options": [
+        "Frank Herbert",
+        "Arthur C. Clarke",
+        "Philip K. Dick",
+        "Robert A. Heinlein"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Curling taşları geleneksel olarak hangi kayaçtan yapılır?",
+      "options": [
+        "Kireçtaşı",
+        "Bazalt",
+        "Mermer",
+        "Granit"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Temassız kart ve telefon ödemelerinde yaygın kullanılan çok kısa menzilli kablosuz teknoloji hangisidir?",
+      "options": [
+        "GPS",
+        "NFC",
+        "HDMI",
+        "DSL"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "1666'daki büyük yangın hangi Avrupa başkentinin önemli bölümünü etkiledi?",
+      "options": [
+        "Paris",
+        "Viyana",
+        "Amsterdam",
+        "Londra"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nasi goreng adı verilen kızarmış pilav özellikle hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Sri Lanka",
+        "Endonezya",
+        "Hindistan",
+        "Filipinler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Matterhorn dağı hangi iki ülke arasındaki Alp sınırında yer alır?",
+      "options": [
+        "Fransa ve İsviçre",
+        "Fransa ve İtalya",
+        "İsviçre ve İtalya",
+        "İtalya ve Avusturya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kahve çekirdeği, kahve bitkisinin hangi bölümüdür?",
+      "options": [
+        "Kurutulmuş yaprağı",
+        "Öğütülmüş kökü",
+        "Kabuk dokusu",
+        "Meyvesinin tohumu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

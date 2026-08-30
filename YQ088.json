@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ088",
+  "displayCode": "Y.Q088",
+  "title": "Genel Kültür 4.5 — 88",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Dev pandaların doğal beslenmesinde en büyük payı hangi bitki oluşturur?",
+      "options": [
+        "Bambu",
+        "Palmiye",
+        "Okaliptüs",
+        "Sazlık otu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Giro d'Italia'da genel klasman lideri hangi renk mayoyu giyer?",
+      "options": [
+        "Sarı",
+        "Yeşil",
+        "Kırmızı",
+        "Pembe"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Charlotte's Web kitabının yazarı kimdir?",
+      "options": [
+        "Beverly Cleary",
+        "E. B. White",
+        "Richard Adams",
+        "Roald Dahl"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kolezyum (Colosseum) hangi antik imparatorluğun başkentinde inşa edilmiştir?",
+      "options": [
+        "Roma İmparatorluğu",
+        "Kartaca Devleti",
+        "Makedonya Krallığı",
+        "Pers İmparatorluğu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Plitvice Gölleri Millî Parkı hangi ülkededir?",
+      "options": [
+        "Hırvatistan",
+        "Bosna-Hersek",
+        "Karadağ",
+        "Slovenya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Mağara tavanından aşağı doğru büyüyen damlataş oluşumuna ne ad verilir?",
+      "options": [
+        "Dikit",
+        "Sarkıt",
+        "Obruk",
+        "Traverten"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Togg'un kullanıcılarla buluşan ilk seri üretim akıllı cihaz modelinin adı hangisidir?",
+      "options": [
+        "T12X",
+        "T8X",
+        "T10X",
+        "T10F"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "CPU kısaltması bilgisayarda hangi bileşeni ifade eder?",
+      "options": [
+        "Kablosuz ağ kartını",
+        "Kalıcı depolama birimini",
+        "Merkezî işlem birimini",
+        "Ses işleme birimini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "The Matrix filminin yönetmenleri hangi kardeşlerdir?",
+      "options": [
+        "Duffer kardeşler",
+        "Russo kardeşler",
+        "Coen kardeşler",
+        "Wachowski kardeşler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Nirvana grubunun solisti ve gitaristi kimdi?",
+      "options": [
+        "Kurt Cobain",
+        "Chris Cornell",
+        "Eddie Vedder",
+        "Dave Grohl"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

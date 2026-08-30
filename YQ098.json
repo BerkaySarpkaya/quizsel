@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ098",
+  "displayCode": "Y.Q098",
+  "title": "Genel Kültür 4.5 — 98",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Table Mountain manzarasıyla özdeşleşen Güney Afrika şehri hangisidir?",
+      "options": [
+        "Cape Town",
+        "Durban",
+        "Pretoria",
+        "Johannesburg"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Antik Olimpiyat Oyunları hangi Yunan kutsal alanında düzenlenirdi?",
+      "options": [
+        "Delphi",
+        "Olympia",
+        "Sparta",
+        "Knossos"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Dim sum geleneği en çok hangi mutfak kültürüyle ilişkilidir?",
+      "options": [
+        "Vietnam mutfağı",
+        "Japon mutfağı",
+        "Kanton mutfağı",
+        "Kore mutfağı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Yetişkin böceklerde tipik olarak kaç bacak bulunur?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Daft Punk elektronik müzik ikilisi hangi ülkeden çıkmıştır?",
+      "options": [
+        "Hollanda",
+        "Almanya",
+        "Fransa",
+        "Belçika"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "İstanbul Havalimanı'nın resmî açılışı hangi yıl yapıldı?",
+      "options": [
+        "2022",
+        "2020",
+        "2016",
+        "2018"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gurur ve Önyargı (Pride and Prejudice) romanının yazarı kimdir?",
+      "options": [
+        "Charlotte Brontë",
+        "Mary Wollstonecraft",
+        "George Eliot",
+        "Jane Austen"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Fira ve Oia yerleşimleriyle tanınan volkanik Yunan adası hangisidir?",
+      "options": [
+        "Santorini",
+        "Korfu",
+        "Rodos",
+        "Mikonos"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "RFID sistemleri etiketleri okumak için temel olarak ne kullanır?",
+      "options": [
+        "Ultrason dalgaları",
+        "Lazer yazıcı ışığı",
+        "Radyo dalgaları",
+        "Mekanik temas"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Buz hokeyinde bir takım kaleci dâhil normalde buz üzerinde kaç oyuncuyla yer alır?",
+      "options": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ099",
+  "displayCode": "Y.Q099",
+  "title": "Genel Kültür 4.5 — 99",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Marco Polo hangi İtalyan şehir devletiyle özdeşleşen bir tüccar ve gezgindi?",
+      "options": [
+        "Napoli",
+        "Floransa",
+        "Cenova",
+        "Venedik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "İstanbul'da oynanan 2023 UEFA Şampiyonlar Ligi finalini hangi takım kazandı?",
+      "options": [
+        "Bayern Münih",
+        "Inter",
+        "Real Madrid",
+        "Manchester City"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Olimpiyat meşalesinin geleneksel ateşleme töreni hangi antik kentte yapılır?",
+      "options": [
+        "Delphi",
+        "Korint",
+        "Sparta",
+        "Olympia"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Cakarta'nın da bulunduğu Java Adası hangi ülkeye aittir?",
+      "options": [
+        "Endonezya",
+        "Filipinler",
+        "Malezya",
+        "Brunei"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Yirmilik dişler dâhil yetişkin bir insanda tipik olarak kaç diş bulunur?",
+      "options": [
+        "32",
+        "28",
+        "30",
+        "36"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Seksen Günde Devrialem romanının yazarı kimdir?",
+      "options": [
+        "H. G. Wells",
+        "Jules Verne",
+        "Robert Louis Stevenson",
+        "Alexandre Dumas"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "eSIM'in klasik SIM karttan temel farkı nedir?",
+      "options": [
+        "Yalnız Wi-Fi ile çalışması",
+        "Telefon numarası kullanmaması",
+        "Cihaza gömülü olarak programlanabilmesi",
+        "Bataryayı şarj etmesi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Vincent Vega ve Jules Winnfield karakterlerinin yer aldığı Pulp Fiction'ı hangi yönetmen çekti?",
+      "options": [
+        "Paul Thomas Anderson",
+        "Guy Ritchie",
+        "David Fincher",
+        "Quentin Tarantino"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Yaşayan penguen türleri içinde en iri olan hangisidir?",
+      "options": [
+        "Kral pengueni",
+        "İmparator pengueni",
+        "Adelie pengueni",
+        "Macellan pengueni"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gazpacho adlı soğuk çorba hangi ülke mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "Fransa",
+        "İspanya",
+        "Portekiz",
+        "İtalya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

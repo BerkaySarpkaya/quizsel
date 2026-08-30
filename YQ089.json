@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ089",
+  "displayCode": "Y.Q089",
+  "title": "Genel Kültür 4.5 — 89",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tequila içkisinin kökeni hangi ülkedir?",
+      "options": [
+        "Meksika",
+        "Küba",
+        "Brezilya",
+        "İspanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tasmania adası hangi ülkenin bir eyaletidir?",
+      "options": [
+        "Fiji",
+        "Papua Yeni Gine",
+        "Yeni Zelanda",
+        "Avustralya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnternetin web sayfaları arasında gezinmeyi sağlayan sistemin yaygın 'WWW' kısaltmasındaki üç W neyi ifade eder?",
+      "options": [
+        "World Web Window",
+        "Web Wide World",
+        "Wide World Wire",
+        "World Wide Web"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "RAM belleğinin tipik özelliği hangisidir?",
+      "options": [
+        "İnternet bağlantısını yönetmesi",
+        "Yalnız görüntü dosyası tutması",
+        "Veriyi kalıcı olarak saklaması",
+        "Güç kesildiğinde içeriğinin kaybolması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Tsunamilerin en yaygın doğal nedenlerinden biri hangisidir?",
+      "options": [
+        "Güneş tutulmaları",
+        "Deniz tabanındaki büyük depremler",
+        "Kum fırtınaları",
+        "Dağ heyelanlarının tamamı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Uçurtma Avcısı (The Kite Runner) romanının yazarı kimdir?",
+      "options": [
+        "Khaled Hosseini",
+        "Amin Maalouf",
+        "Mohsin Hamid",
+        "Orhan Pamuk"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Samuray savaşçı sınıfı tarihsel olarak hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Moğolistan",
+        "Çin",
+        "Japonya",
+        "Kore"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Denizanaları hangi hayvan şubesine aittir?",
+      "options": [
+        "Knidliler (Cnidaria)",
+        "Yumuşakçalar (Mollusca)",
+        "Süngerler (Porifera)",
+        "Derisidikenliler (Echinodermata)"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bilbao'daki Guggenheim Müzesi'nin mimarı kimdir?",
+      "options": [
+        "Zaha Hadid",
+        "Renzo Piano",
+        "Norman Foster",
+        "Frank Gehry"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Avrasya Tüneli İstanbul'da Boğaz'ın altından ağırlıklı olarak hangi ulaşım türüne hizmet verir?",
+      "options": [
+        "Yük trenlerine",
+        "Karayolu araçlarına",
+        "Yaya geçişine",
+        "Metro trenlerine"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

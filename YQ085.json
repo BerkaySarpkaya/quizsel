@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ085",
+  "displayCode": "Y.Q085",
+  "title": "Genel Kültür 4.5 — 85",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Avustralya Açık tenis turnuvası hangi kort zemininde oynanır?",
+      "options": [
+        "Toprak kort",
+        "Halı kort",
+        "Sert kort",
+        "Çim kort"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Örümceklerin kaç bacağı vardır?",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "12"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Pirinç, nori ve çeşitli dolgularla hazırlanan sushi hangi mutfak geleneğinin ürünüdür?",
+      "options": [
+        "Çin mutfağı",
+        "Tayland mutfağı",
+        "Kore mutfağı",
+        "Japon mutfağı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Açık kaynaklı yazılımın ayırt edici özelliği hangisidir?",
+      "options": [
+        "Her zaman ücretsiz donanımla gelmesi",
+        "Kaynak kodunun incelenebilmesine izin vermesi",
+        "Yalnız tek şirketçe kullanılabilmesi",
+        "İnternetsiz çalışamaması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Terracotta Ordusu hangi Çin hükümdarının mezar kompleksiyle ilişkilidir?",
+      "options": [
+        "Wu Zetian",
+        "Qin Shi Huang",
+        "Sun Yat-sen",
+        "Kubilay Han"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Adele hangi ülkede doğmuştur?",
+      "options": [
+        "Kanada",
+        "Birleşik Krallık",
+        "Avustralya",
+        "İrlanda"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Osmangazi Köprüsü hangi körfezin iki yakasını birbirine bağlar?",
+      "options": [
+        "İzmit Körfezi",
+        "Gökova Körfezi",
+        "Edremit Körfezi",
+        "İskenderun Körfezi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Söğütlükte Rüzgâr (The Wind in the Willows) kitabının yazarı kimdir?",
+      "options": [
+        "Hugh Lofting",
+        "A. A. Milne",
+        "Kenneth Grahame",
+        "Beatrix Potter"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İnce kenarlı (dışbükey) bir mercek paralel ışınları genel olarak ne yapar?",
+      "options": [
+        "Bir odakta toplar",
+        "Birbirine paralel bırakır",
+        "Renklerine ayırır",
+        "Tamamen geri yansıtır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Yunan alfabesinin son harfi hangisidir?",
+      "options": [
+        "Delta",
+        "Omega",
+        "Psi",
+        "Sigma"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}
