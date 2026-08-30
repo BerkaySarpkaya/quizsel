@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ077",
+  "displayCode": "Y.Q077",
+  "title": "Genel Kültür 4.5 — 77",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "USB kısaltmasındaki 'U' harfi hangi İngilizce kelimeyi temsil eder?",
+      "options": [
+        "User",
+        "Utility",
+        "Universal",
+        "Unified"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Queen grubunun klasik dönemindeki solisti kimdir?",
+      "options": [
+        "David Bowie",
+        "Freddie Mercury",
+        "Robert Plant",
+        "Mick Jagger"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Mors alfabesinde SOS işareti hangi nokta-çizgi dizisiyle verilir?",
+      "options": [
+        "--- ... ---",
+        "... --- ...",
+        "... ... ---",
+        ".. -- .."
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "ABBA müzik grubu hangi ülkede kuruldu?",
+      "options": [
+        "Finlandiya",
+        "İsveç",
+        "Norveç",
+        "Danimarka"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir sözcüğün harfleri yeniden sıralanarak başka bir sözcük oluşturulmasına ne ad verilir?",
+      "options": [
+        "Anagram",
+        "Homofon",
+        "Akrostiş",
+        "Palindrom"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ceviche yemeği özellikle hangi Güney Amerika ülkesiyle özdeşleşmiştir?",
+      "options": [
+        "Arjantin",
+        "Şili",
+        "Peru",
+        "Uruguay"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Pho adlı erişteli çorba hangi ülke mutfağının bilinen yemeklerindendir?",
+      "options": [
+        "Laos",
+        "Tayland",
+        "Vietnam",
+        "Kamboçya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Formula 1'de 'pole position' neyi ifade eder?",
+      "options": [
+        "Pit yolundan başlamayı",
+        "En hızlı yarış turunu",
+        "Takımlar şampiyonluğunu",
+        "Yarışa ilk sıradan başlamayı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Moomin karakterlerini yaratan yazar ve çizer kimdir?",
+      "options": [
+        "Selma Lagerlöf",
+        "Tove Jansson",
+        "Astrid Lindgren",
+        "Sigrid Undset"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "İstanbul'da iki yakayı demiryoluyla deniz altından bağlayan Marmaray hangi yıl hizmete açıldı?",
+      "options": [
+        "2013",
+        "2019",
+        "2016",
+        "2009"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ073",
+  "displayCode": "Y.Q073",
+  "title": "Genel Kültür 4.5 — 73",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bluetooth adı, tarihî olarak hangi hükümdarın lakabından esinlenmiştir?",
+      "options": [
+        "Alfred the Great",
+        "Harald Bluetooth",
+        "Richard the Lionheart",
+        "William the Conqueror"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Anemometre hangi büyüklüğü ölçmek için kullanılır?",
+      "options": [
+        "Hava basıncını",
+        "Rüzgâr hızını",
+        "Yağış miktarını",
+        "Nem oranını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "2024'te Uluslararası Uzay İstasyonu'na giden Türkiye'nin ilk astronotu kimdir?",
+      "options": [
+        "Tuva Cihangir Atasever",
+        "Selçuk Bayraktar",
+        "Alper Gezeravcı",
+        "İsmail Demir"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir internet sitesinde görülen HTTP 404 kodu genellikle neyi ifade eder?",
+      "options": [
+        "Sunucunun kapandığını",
+        "Bağlantının şifrelendiğini",
+        "Parolanın yanlış olduğunu",
+        "Sayfanın bulunamadığını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Galápagos Adaları hangi ülkeye bağlıdır?",
+      "options": [
+        "Ekvador",
+        "Peru",
+        "Kosta Rika",
+        "Şili"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Adem'in Yaratılışı freski hangi sanatçıya aittir?",
+      "options": [
+        "Caravaggio",
+        "Raffaello",
+        "Michelangelo",
+        "Tiziano"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "'&' sembolünün İngilizcedeki yaygın adı hangisidir?",
+      "options": [
+        "At sign",
+        "Asterisk",
+        "Ampersand",
+        "Caret"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Oz Büyücüsü (The Wonderful Wizard of Oz) kitabının yazarı kimdir?",
+      "options": [
+        "Hugh Lofting",
+        "Jules Verne",
+        "Lewis Carroll",
+        "L. Frank Baum"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Flamingoların pembe renginin oluşmasında besinlerden aldıkları hangi pigment grubu önemli rol oynar?",
+      "options": [
+        "Karotenoidler",
+        "Melaninler",
+        "Klorofiller",
+        "Antosiyaninler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Gökkuşağındaki renklerin ayrışmasında su damlalarında gerçekleşen hangi optik olaylar birlikte rol oynar?",
+      "options": [
+        "Kırınım ve polarizasyon",
+        "Floresans ve saçılma",
+        "Kırılma ve iç yansıma",
+        "Soğurma ve iletim"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

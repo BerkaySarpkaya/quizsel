@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ081",
+  "displayCode": "Y.Q081",
+  "title": "Genel Kültür 4.5 — 81",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Narvalin öne doğru uzanan 'boynuzu' anatomik olarak aslında nedir?",
+      "options": [
+        "Sertleşmiş bir yüzgeç",
+        "Kıkırdak çıkıntısı",
+        "Kemikleşmiş bir boynuz",
+        "Uzamış bir diş"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Artık yılda toplam kaç gün bulunur?",
+      "options": [
+        "364",
+        "365",
+        "367",
+        "366"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Dünya'daki gelgitlerde en büyük düzenli kütleçekim etkisini hangi gök cismi oluşturur?",
+      "options": [
+        "Jüpiter",
+        "Ay",
+        "Mars",
+        "Venüs"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Winnie-the-Pooh kitaplarının yazarı kimdir?",
+      "options": [
+        "Kenneth Grahame",
+        "A. A. Milne",
+        "Rudyard Kipling",
+        "E. B. White"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "YouTube hangi yıl kuruldu?",
+      "options": [
+        "2009",
+        "2007",
+        "2005",
+        "2002"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Barometre hangi büyüklüğü ölçer?",
+      "options": [
+        "Rüzgâr yönünü",
+        "Hava basıncını",
+        "Bağıl nemi",
+        "Güneşlenme süresini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Göbekli Tepe UNESCO Dünya Miras Listesi'ne hangi yıl alındı?",
+      "options": [
+        "2015",
+        "2018",
+        "2021",
+        "2023"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Nilüferler (Water Lilies) adlı resim serisi hangi sanatçıyla özdeşleşmiştir?",
+      "options": [
+        "Paul Cézanne",
+        "Edgar Degas",
+        "Pierre-Auguste Renoir",
+        "Claude Monet"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Akçaağaç şurubu üretimiyle dünya çapında özellikle hangi ülke tanınır?",
+      "options": [
+        "Norveç",
+        "Kanada",
+        "Finlandiya",
+        "İsveç"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Sümela Manastırı hangi ilimizin sınırları içindedir?",
+      "options": [
+        "Trabzon",
+        "Rize",
+        "Giresun",
+        "Artvin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

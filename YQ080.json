@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ080",
+  "displayCode": "Y.Q080",
+  "title": "Genel Kültür 4.5 — 80",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Baker Street 221B adresiyle özdeşleşen kurgusal dedektifin yaratıcısı hangi yazardır?",
+      "options": [
+        "Arthur Conan Doyle",
+        "G. K. Chesterton",
+        "Wilkie Collins",
+        "Agatha Christie"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Rejenerasyon yeteneğiyle tanınan aksolotl hangi hayvan grubundadır?",
+      "options": [
+        "Balıklar",
+        "İki yaşamlılar",
+        "Kabuklular",
+        "Sürüngenler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Taco hangi ülke mutfağının simgesel yemeklerinden biridir?",
+      "options": [
+        "Küba",
+        "Arjantin",
+        "Meksika",
+        "Brezilya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Adına rağmen geleneksel Panama şapkalarının kökeni hangi ülkeye dayanır?",
+      "options": [
+        "Ekvador",
+        "Peru",
+        "Kolombiya",
+        "Panama"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "2023'te UNESCO Dünya Miras Listesi'ne eklenen ve Ankara'nın Polatlı ilçesi yakınlarında bulunan antik kent hangisidir?",
+      "options": [
+        "Perge",
+        "Aizanoi",
+        "Sagalassos",
+        "Gordion"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Loch Ness hangi ülkede yer alır?",
+      "options": [
+        "İrlanda",
+        "İskoçya",
+        "İzlanda",
+        "Galler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Peter Pan karakterini yaratan İskoç yazar kimdir?",
+      "options": [
+        "George MacDonald",
+        "Kenneth Grahame",
+        "Robert Louis Stevenson",
+        "J. M. Barrie"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Küçük Deniz Kızı masalının yazarı kimdir?",
+      "options": [
+        "Jacob Grimm",
+        "Charles Perrault",
+        "Hans Christian Andersen",
+        "E. T. A. Hoffmann"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Dubrovnik şehri hangi ülkededir?",
+      "options": [
+        "Karadağ",
+        "Hırvatistan",
+        "Slovenya",
+        "Arnavutluk"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Günümüzde yaşayan en büyük balık türü hangisidir?",
+      "options": [
+        "Mavi yüzgeçli orkinos",
+        "Manta vatozu",
+        "Büyük beyaz köpekbalığı",
+        "Balina köpekbalığı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

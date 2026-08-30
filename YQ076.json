@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ076",
+  "displayCode": "Y.Q076",
+  "title": "Genel Kültür 4.5 — 76",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Matcha adı verilen ince öğütülmüş yeşil çay en güçlü biçimde hangi ülke kültürüyle ilişkilidir?",
+      "options": [
+        "Güney Kore",
+        "Çin",
+        "Vietnam",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Mercan resiflerini oluşturan mercanlar biyolojik olarak hangi gruba aittir?",
+      "options": [
+        "Algler",
+        "Mantarlar",
+        "Hayvanlar",
+        "Bitkiler"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Şimşek çaktığında ışığın gök gürültüsünden önce algılanmasının temel nedeni nedir?",
+      "options": [
+        "Sesin bulutlarda tutulması",
+        "Işığın sesten çok daha hızlı yayılması",
+        "Gök gürültüsünün sonradan oluşması",
+        "Işığın havada yavaşlamaması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Türkiye'ye 2003 Eurovision Şarkı Yarışması'nda birincilik getiren sanatçı kimdir?",
+      "options": [
+        "Sertab Erener",
+        "Hadise",
+        "Athena",
+        "Şebnem Paker"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "ISBN numarası en temel olarak hangi tür ürünü tanımlamak için kullanılır?",
+      "options": [
+        "Sinema filmlerini",
+        "Müzik albümlerini",
+        "Yazılım lisanslarını",
+        "Kitap ve yayınları"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Tersten okunduğunda da aynı kalan sözcük veya ifadelere ne ad verilir?",
+      "options": [
+        "Anagram",
+        "Aliterasyon",
+        "Palindrom",
+        "Akrostiş"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Teniste skor söylenirken 'love' kelimesi hangi sayıyı ifade eder?",
+      "options": [
+        "15",
+        "0",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "İlk iPhone hangi yıl satışa çıktı?",
+      "options": [
+        "2009",
+        "2007",
+        "2005",
+        "2011"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Olimpik okçulukta hedefin merkezindeki en yüksek puanlı halka kaç puandır?",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Koala zoolojik olarak hangi gruba girer?",
+      "options": [
+        "Keseli memeli",
+        "Etçil memeli",
+        "Primat",
+        "Kemirgen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

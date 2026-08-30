@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ074",
+  "displayCode": "Y.Q074",
+  "title": "Genel Kültür 4.5 — 74",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Uyku-uyanıklık döngüsünün düzenlenmesiyle yakından ilişkili melatonin hormonu ağırlıklı olarak hangi bezden salgılanır?",
+      "options": [
+        "Böbreküstü bezi",
+        "Hipofiz bezi",
+        "Tiroid bezi",
+        "Epifiz bezi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "On lobutlu bowlingde mümkün olan kusursuz oyun skoru kaçtır?",
+      "options": [
+        "320",
+        "250",
+        "300",
+        "280"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "QR kod teknolojisi ilk olarak hangi ülkede geliştirildi?",
+      "options": [
+        "Japonya",
+        "Amerika Birleşik Devletleri",
+        "Güney Kore",
+        "Almanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Paskalya Adası (Rapa Nui) hangi ülkeye bağlıdır?",
+      "options": [
+        "Şili",
+        "Ekvador",
+        "Arjantin",
+        "Peru"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Reggae müzik türünün doğduğu ülke hangisidir?",
+      "options": [
+        "Trinidad ve Tobago",
+        "Jamaika",
+        "Barbados",
+        "Küba"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Esperanto dilinin yaratıcısı olarak bilinen kişi kimdir?",
+      "options": [
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "Umberto Eco",
+        "L. L. Zamenhof"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ornitorengi diğer birçok memeliden ayıran özelliklerden biri hangisidir?",
+      "options": [
+        "Tüylerinin olmaması",
+        "Yumurta bırakması",
+        "Soğukkanlı olması",
+        "Solungaçla soluması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bali Adası hangi ülkeye bağlıdır?",
+      "options": [
+        "Endonezya",
+        "Malezya",
+        "Filipinler",
+        "Tayland"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Olimpik ölçülerde kullanılan uzun kulvar yüzme havuzunun uzunluğu kaç metredir?",
+      "options": [
+        "40 metre",
+        "100 metre",
+        "50 metre",
+        "25 metre"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Caz müziğinin doğuşuyla en çok özdeşleşen ABD şehri hangisidir?",
+      "options": [
+        "New Orleans",
+        "Chicago",
+        "Memphis",
+        "Detroit"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

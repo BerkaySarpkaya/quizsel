@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ079",
+  "displayCode": "Y.Q079",
+  "title": "Genel Kültür 4.5 — 79",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Feta peyniri en güçlü biçimde hangi ülke mutfağıyla ilişkilidir?",
+      "options": [
+        "İtalya",
+        "Yunanistan",
+        "İspanya",
+        "Portekiz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir 'on yıl' (decade) kaç yıldan oluşur?",
+      "options": [
+        "5",
+        "20",
+        "25",
+        "10"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Fuji Dağı Japonya'nın hangi ana adasında bulunur?",
+      "options": [
+        "Shikoku",
+        "Hokkaido",
+        "Honshu",
+        "Kyushu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "PDF kısaltmasının açılımında 'P' harfi hangi kelimeyi temsil eder?",
+      "options": [
+        "Public",
+        "Printed",
+        "Personal",
+        "Portable"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Barselona'daki Sagrada Família bazilikasının tasarımı en çok hangi mimarla özdeşleşmiştir?",
+      "options": [
+        "Antoni Gaudí",
+        "Josep Lluís Sert",
+        "Lluís Domènech i Montaner",
+        "Santiago Calatrava"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "U2 rock grubu hangi ülkede kuruldu?",
+      "options": [
+        "İrlanda",
+        "Galler",
+        "İskoçya",
+        "İngiltere"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Doğu Ekspresinde Cinayet romanındaki Belçikalı dedektif Hercule Poirot'yu hangi yazar yarattı?",
+      "options": [
+        "Agatha Christie",
+        "Dorothy L. Sayers",
+        "P. D. James",
+        "Patricia Highsmith"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Uçaklardaki 'kara kutu' kayıt cihazları bulunmalarını kolaylaştırmak için genellikle hangi renktedir?",
+      "options": [
+        "Mat siyah",
+        "Parlak turuncu",
+        "Metalik gri",
+        "Koyu lacivert"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Triatlonun standart üç temel disiplini hangileridir?",
+      "options": [
+        "Yüzme, kürek ve koşu",
+        "Bisiklet, koşu ve kayak",
+        "Yüzme, bisiklet ve koşu",
+        "Yüzme, bisiklet ve kürek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kuşlar arasında geriye doğru kontrollü uçabilmesiyle özellikle bilinen grup hangisidir?",
+      "options": [
+        "Albatroslar",
+        "Sinek kuşları",
+        "Penguenler",
+        "Pelikanlar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

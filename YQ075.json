@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ075",
+  "displayCode": "Y.Q075",
+  "title": "Genel Kültür 4.5 — 75",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik bilgiden karışık 10 soruluk genel kültür seti.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "'#' işareti sosyal medyada bir kelimenin başında kullanıldığında genel olarak ne oluşturur?",
+      "options": [
+        "Username",
+        "Hashtag",
+        "Hyperlink",
+        "Caption"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Ani Arkeolojik Alanı hangi ilimizin sınırları içindedir?",
+      "options": [
+        "Kars",
+        "Erzurum",
+        "Ağrı",
+        "Ardahan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Görme engellilerin kullandığı Braille yazı sistemi adını kimden alır?",
+      "options": [
+        "Johannes Gutenberg",
+        "Alexander Bell",
+        "Louis Braille",
+        "Samuel Morse"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Zeugma Mozaik Müzesi hangi şehrimizdedir?",
+      "options": [
+        "Hatay",
+        "Mardin",
+        "Adana",
+        "Gaziantep"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Denizatlarında gelişmekte olan yavruları taşıyan kese hangi bireyde bulunur?",
+      "options": [
+        "Her iki bireyde",
+        "Erkek bireyde",
+        "Dişi bireyde",
+        "Yalnız genç bireyde"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Beyzbolda bir vurucunun standart olarak kaç strike sonrasında strikeout olması beklenir?",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Charlie'nin Çikolata Fabrikası kitabının yazarı kimdir?",
+      "options": [
+        "E. B. White",
+        "Michael Ende",
+        "Roald Dahl",
+        "A. A. Milne"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bossa nova müzik türü en güçlü biçimde hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Brezilya",
+        "Meksika",
+        "Küba",
+        "Portekiz"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Linux işletim sistemiyle özdeşleşen Tux adlı maskot hangi hayvandır?",
+      "options": [
+        "Panda",
+        "Baykuş",
+        "Penguen",
+        "Kutup ayısı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Türkiye Cumhuriyeti'nin 100. kuruluş yıl dönümü hangi yılda kutlandı?",
+      "options": [
+        "2022",
+        "2023",
+        "2020",
+        "2024"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

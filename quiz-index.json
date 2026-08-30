@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "quizzes": [
     {
       "code": "QZ001",
@@ -633,6 +633,86 @@
       "difficulty": 6.0,
       "questions": 10,
       "file": "YQ072.json"
+    },
+    {
+      "code": "Y.Q073",
+      "title": "Genel Kültür 4.5 — 73",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ073.json"
+    },
+    {
+      "code": "Y.Q074",
+      "title": "Genel Kültür 4.5 — 74",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ074.json"
+    },
+    {
+      "code": "Y.Q075",
+      "title": "Genel Kültür 4.5 — 75",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ075.json"
+    },
+    {
+      "code": "Y.Q076",
+      "title": "Genel Kültür 4.5 — 76",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ076.json"
+    },
+    {
+      "code": "Y.Q077",
+      "title": "Genel Kültür 4.5 — 77",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ077.json"
+    },
+    {
+      "code": "Y.Q078",
+      "title": "Genel Kültür 4.5 — 78",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ078.json"
+    },
+    {
+      "code": "Y.Q079",
+      "title": "Genel Kültür 4.5 — 79",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ079.json"
+    },
+    {
+      "code": "Y.Q080",
+      "title": "Genel Kültür 4.5 — 80",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ080.json"
+    },
+    {
+      "code": "Y.Q081",
+      "title": "Genel Kültür 4.5 — 81",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ081.json"
+    },
+    {
+      "code": "Y.Q082",
+      "title": "Genel Kültür 4.5 — 82",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ082.json"
     }
   ]
 }
