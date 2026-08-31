@@ -22,14 +22,33 @@ window.QUIZSEL_CONFIG = {
   revealSeconds: 5
 };
 
-// v0.9 performance/UX layer is intentionally loaded separately so the stable
-// app.js remains easy to roll back during live testing on v0.9-test.
+// v0.9 performance/UX layer + v0.9.1 race-flow fix.
+// Load order is deliberate: stable app.js -> performance layer -> flow fix.
 (() => {
+  const loadFlowFix = () => {
+    if (document.querySelector('script[data-quizsel-v091-flow]')) return;
+    const flow = document.createElement("script");
+    flow.src = "app-flow-v091.js?v=91";
+    flow.dataset.quizselV091Flow = "1";
+    flow.onerror = () => console.error("Quizsel v0.9.1 flow layer could not be loaded.");
+    document.body.appendChild(flow);
+  };
+
   const loadEnhancements = () => {
-    if (document.querySelector('script[data-quizsel-v09-performance]')) return;
+    const existing = document.querySelector('script[data-quizsel-v09-performance]');
+    if (existing) {
+      if (existing.dataset.quizselLoaded === "1") loadFlowFix();
+      else existing.addEventListener("load", loadFlowFix, { once: true });
+      return;
+    }
+
     const script = document.createElement("script");
     script.src = "app-v09-performance.js?v=92";
     script.dataset.quizselV09Performance = "1";
+    script.onload = () => {
+      script.dataset.quizselLoaded = "1";
+      loadFlowFix();
+    };
     script.onerror = () => console.error("Quizsel v0.9 performance layer could not be loaded.");
     document.body.appendChild(script);
   };
