@@ -70,11 +70,9 @@
     }
   };
 
-  // No HTML edit needed: rename the existing final button at runtime.
   const finalButton = document.querySelector('#view-final button[onclick="finishGame()"]');
   if (finalButton) finalButton.textContent = "Ana sayfaya dön";
 
-  // Preserve the normal reveal UI, adding explicit all-answered feedback.
   const baseRenderGame = renderGame;
   renderGame = function quizselFlowRenderGame(){
     const result = baseRenderGame.apply(this, arguments);
@@ -100,7 +98,6 @@
     return result;
   };
 
-  // Initial game countdown stays as-is. Between questions use exact 3 → 2 → 1.
   renderCountdown = function quizselFlowRenderCountdown(){
     go("game");
 
@@ -137,7 +134,6 @@
     phaseTimer = setInterval(tick, 200);
   };
 
-  // Replace old hard-coded 2200 ms inter-question transition with configured 3 s.
   nextPhase = async function quizselFlowNextPhase(g){
     const next = Number(g.meta.currentIndex || 0) + 1;
 
@@ -162,8 +158,6 @@
     });
   };
 
-  // Host coordinator:
-  // timer remains fallback, but last answer triggers immediate authoritative reveal.
   coordinateHost = function quizselFlowCoordinateHost(){
     if (!amHost()) return;
 
@@ -182,7 +176,6 @@
       stopHostTimer();
       hostTimerKey = earlyKey;
 
-      // Debounce very briefly, then re-read Firebase before closing the question.
       hostTimer = setTimeout(async () => {
         const room = currentRoom;
         if (!room) return;
@@ -225,7 +218,6 @@
       return;
     }
 
-    // Original phase-deadline behavior remains as fallback.
     const key = `${m.state}:${m.currentIndex}:${m.phaseEndsAt}`;
     if (key === hostTimerKey) return;
 

@@ -28,7 +28,8 @@ window.QUIZSEL_CONFIG = {
   const loadFlowFix = () => {
     if (document.querySelector('script[data-quizsel-v091-flow]')) return;
     const flow = document.createElement("script");
-    flow.src = "app-flow-v091.js?v=91";
+    // v=92 intentionally busts any cached copy of the previous flow patch.
+    flow.src = "app-flow-v091.js?v=92";
     flow.dataset.quizselV091Flow = "1";
     flow.onerror = () => console.error("Quizsel v0.9.1 flow layer could not be loaded.");
     document.body.appendChild(flow);
