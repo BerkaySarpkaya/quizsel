@@ -1,13 +1,26 @@
-QUIZSEL v0.9.1 — CACHE-SAFE FLOW FIX
+QUIZSEL SORU POLİTİKASI v2.0 — UPLOAD
 
-GitHub repo ROOT dizininde bu 3 dosyayı birlikte yükle:
-- index.html          -> mevcut dosyanın üstüne yaz
-- config.js           -> mevcut dosyanın üstüne yaz
-- app-flow-v091.js   -> mevcut dosyanın üstüne yaz
+GitHub repo ROOT dizinine bu 3 dosyayı birlikte yükle:
 
-Bu paket özellikle cache riskini kapatır:
-- index.html -> config.js?v=93
-- config.js -> app-flow-v091.js?v=92
-- final buton metni HTML içinde doğrudan "Ana sayfaya dön"
+1) QUIZSEL_SORU_URETIM_MANUELI.md
+   - mevcut dosyanın üstüne yaz
+   - yeni authoritative soru üretim standardı
 
-Başka dosyaya dokunma.
+2) QUIZSEL_SORU_QA_SPEC.json
+   - yeni dosya
+   - taksonomi + Semantic Fact Graph + Answer Leakage + Question Form
+     + Topic Diversity + Precision Burden + Cue/Guessability makine-okunabilir kuralları
+
+3) QUIZ_TEMPLATE.json
+   - mevcut dosyanın üstüne yaz
+   - eski 15 sn / difficulty 6 değerlerini 20 sn / 4.5 standardına getirir
+
+UYGULAMA KODUNA DOKUNMA:
+- app.js
+- config.js
+- styles.css
+- Firebase rules
+- mevcut quiz JSONları
+değişmeyecek.
+
+Bu paket mevcut runtime quiz şemasını değiştirmez.

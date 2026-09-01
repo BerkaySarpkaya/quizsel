@@ -1,8 +1,9 @@
 {
-  "code": "QZ008",
-  "title": "Yeni Quiz",
+  "code": "YQXXX",
+  "displayCode": "Y.QXXX",
+  "title": "Genel Kültür 4.5 — XXX",
   "category": "Genel Kültür",
-  "difficulty": 6,
+  "difficulty": 4.5,
   "version": 1,
   "questions": [
     {
@@ -15,7 +16,7 @@
         "Şık D"
       ],
       "answer": 0,
-      "time": 15,
+      "time": 20,
       "questionType": "multiple-choice",
       "image": "",
       "imageAlt": "",
@@ -25,9 +26,11 @@
     }
   ],
   "schemaVersion": 2,
-  "description": "Quiz açıklaması",
-  "estimatedMinutes": 4,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
   "tags": [
-    "Genel Kültür"
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
   ]
 }

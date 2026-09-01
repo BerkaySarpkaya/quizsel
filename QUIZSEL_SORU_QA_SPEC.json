@@ -1,0 +1,295 @@
+{
+  "name": "Quizsel Soru QA Spec",
+  "version": "2.0",
+  "authoritativeManual": "QUIZSEL_SORU_URETIM_MANUELI.md",
+  "runtimeSchemaImpact": "none",
+  "defaultQuiz": {
+    "category": "Genel Kültür",
+    "questions": 10,
+    "optionsPerQuestion": 4,
+    "questionSeconds": 20,
+    "difficulty": 4.5,
+    "questionType": "multiple-choice"
+  },
+  "taxonomy": {
+    "scopeIsNotCategory": true,
+    "scopes": [
+      "Türkiye",
+      "Dünya",
+      "Bölgesel",
+      "Yerel",
+      "Karma"
+    ],
+    "categories": {
+      "Tarih": [
+        "Antik Çağ & İlk Uygarlıklar",
+        "Orta Çağ",
+        "Yeni Çağ",
+        "Yakın Çağ",
+        "20. Yüzyıl",
+        "Savaşlar & Antlaşmalar",
+        "Devletler & İmparatorluklar",
+        "Tarihî Kişiler",
+        "Devrimler & Siyasi Dönüşümler",
+        "Keşifler & Seferler",
+        "Günlük Yaşam & Tarihsel Kültür"
+      ],
+      "Coğrafya": [
+        "Ülkeler",
+        "Şehirler",
+        "Başkentler",
+        "Fiziki Coğrafya",
+        "Dağlar & Yanardağlar",
+        "Nehirler & Göller",
+        "Denizler & Okyanuslar",
+        "Adalar",
+        "İklim & Bölgeler",
+        "Sınırlar & Komşuluklar",
+        "Beşerî Coğrafya",
+        "Ünlü Doğal Yerler"
+      ],
+      "Bilim & Doğa": [
+        "Fizik",
+        "Kimya",
+        "Biyoloji",
+        "İnsan Vücudu",
+        "Astronomi & Uzay",
+        "Jeoloji & Dünya",
+        "Hayvanlar",
+        "Bitkiler",
+        "Ekoloji",
+        "Evrim & Doğa Tarihi",
+        "Bilim İnsanları",
+        "Bilimsel Kavramlar & Keşifler"
+      ],
+      "Edebiyat & Dil": [
+        "Dünya Edebiyatı",
+        "Türk Edebiyatı",
+        "Yazarlar",
+        "Eserler",
+        "Karakterler",
+        "Şiir",
+        "Dil & Kelimeler",
+        "Deyimler & Sözcük Kökenleri",
+        "Yazı Sistemleri"
+      ],
+      "Sinema & Televizyon": [
+        "Filmler",
+        "Yönetmenler",
+        "Oyuncular",
+        "Karakterler",
+        "Diziler",
+        "Animasyon",
+        "Sinema Tarihi",
+        "Ödüller",
+        "Sinema Teknikleri"
+      ],
+      "Müzik": [
+        "Sanatçılar",
+        "Gruplar",
+        "Şarkılar & Albümler",
+        "Klasik Müzik",
+        "Enstrümanlar",
+        "Müzik Türleri",
+        "Müzik Tarihi",
+        "Opera & Sahne Müziği"
+      ],
+      "Görsel Sanatlar & Mimari": [
+        "Resim",
+        "Heykel",
+        "Ressamlar & Sanatçılar",
+        "Ünlü Eserler",
+        "Sanat Akımları",
+        "Mimari",
+        "Ünlü Yapılar",
+        "Tasarım"
+      ],
+      "Spor": [
+        "Futbol",
+        "Basketbol",
+        "Tenis",
+        "Motor Sporları",
+        "Olimpiyatlar",
+        "Atletizm",
+        "Dövüş Sporları",
+        "Takım Sporları",
+        "Bireysel Sporlar",
+        "Spor Kuralları",
+        "Spor Tarihi",
+        "Ünlü Sporcular"
+      ],
+      "Teknoloji & İcatlar": [
+        "Bilgisayar",
+        "İnternet",
+        "Dijital Teknolojiler",
+        "İcatlar",
+        "Mucitler",
+        "Elektronik",
+        "Haberleşme",
+        "Ulaşım Teknolojileri",
+        "Uzay Teknolojileri",
+        "Teknoloji Tarihi"
+      ],
+      "Toplum & Kültür": [
+        "Gelenekler",
+        "Dünya Kültürleri",
+        "Bayramlar & Festivaller",
+        "Semboller",
+        "Mitoloji",
+        "İnanç Tarihi & Dinler",
+        "Sosyal Gelenekler",
+        "Kültürel Miras",
+        "UNESCO & Dünya Mirası"
+      ],
+      "Yemek & Mutfak": [
+        "Dünya Mutfakları",
+        "Türk Mutfağı",
+        "Yemekler",
+        "İçecekler",
+        "Malzemeler",
+        "Pişirme Teknikleri",
+        "Yemeklerin Kökenleri",
+        "Yerel Ürünler"
+      ],
+      "Gündelik Yaşam": [
+        "Ev & Günlük Eşyalar",
+        "Ölçüler",
+        "Ulaşım",
+        "İletişim",
+        "Temel Finansal Kavramlar",
+        "Günlük Teknoloji Kullanımı",
+        "İşaretler & Semboller",
+        "Pratik Bilgiler"
+      ],
+      "Ekonomi & İş Dünyası": [
+        "Para Birimleri",
+        "Temel Ekonomi",
+        "Ticaret",
+        "Şirketler & Markalar",
+        "Ekonomik Kurumlar",
+        "İş Dünyası Tarihi"
+      ],
+      "Oyun & Eğlence": [
+        "Masa Oyunları",
+        "Kart Oyunları",
+        "Video Oyunları",
+        "Oyuncaklar",
+        "Bulmacalar",
+        "Eğlence Kültürü"
+      ]
+    }
+  },
+  "semanticFactGraph": {
+    "fields": [
+      "category",
+      "topicFamily",
+      "scope",
+      "subject",
+      "askedProperty",
+      "correctAnswer",
+      "factCluster",
+      "precisionRequired"
+    ],
+    "duplicateSignature": [
+      "subject",
+      "askedProperty",
+      "correctAnswer"
+    ],
+    "sameFactClusterWithinQuiz": "RED",
+    "reverseRelationshipWithinQuiz": "RED"
+  },
+  "answerLeakageGraph": {
+    "hardFail": [
+      "correct_answer_explicit_in_other_stem",
+      "correct_answer_semantically_revealed_by_other_stem",
+      "reverse_question_pair",
+      "near_property_pair_that_solves_other_question",
+      "other_options_create_strong_answer_hint"
+    ]
+  },
+  "questionForms": {
+    "allowed": [
+      "direct_identification",
+      "relationship",
+      "chronology",
+      "comparison",
+      "classification",
+      "cause_effect",
+      "light_inference",
+      "approximation_or_range",
+      "visual_recognition"
+    ],
+    "hardQuota": false,
+    "avoidMonoculture": true,
+    "trickQuestions": "RED"
+  },
+  "topicDiversity": {
+    "hard": {
+      "sameFactClusterMaxPerQuiz": 1,
+      "sameTopicFamilyMaxPerQuiz": 2,
+      "sameTopicFamilyAdjacent": false
+    },
+    "soft": {
+      "minimumDistinctCategories": null,
+      "categoryHardQuota": false,
+      "maximizeCategoryDiversity": true,
+      "recentQuizLookback": 5,
+      "overusedTopicFamily": "novelty_penalty_only"
+    }
+  },
+  "precisionBurden": {
+    "levels": {
+      "P0": {
+        "label": "low",
+        "policy": "PASS"
+      },
+      "P1": {
+        "label": "medium",
+        "policy": "PASS"
+      },
+      "P2": {
+        "label": "exact_salient",
+        "policy": "REVIEW"
+      },
+      "P3": {
+        "label": "exact_obscure",
+        "policy": "RED"
+      }
+    },
+    "nearNumericLottery": "RED",
+    "rewritePreference": [
+      "period_or_century",
+      "before_after",
+      "approximate_range",
+      "relationship_or_comparison"
+    ]
+  },
+  "cueGuessability": {
+    "optionWordCountMaxMinPreferredRatio": 3.0,
+    "uniqueLongestCorrectTargetMaxRate": 0.1,
+    "checks": [
+      "unique_length_outlier",
+      "unique_specificity_or_technicality",
+      "stem_option_lexical_echo",
+      "grammar_only_matches_correct",
+      "semantic_class_outlier",
+      "numeric_visual_pattern",
+      "correct_option_explains_more_than_distractors"
+    ]
+  },
+  "answerDistribution": {
+    "eachPositionAtLeast": 1,
+    "singlePositionMax": 5,
+    "fixedPattern": false
+  },
+  "duplicateQA": {
+    "exactNormalized": "RED",
+    "fuzzyStemReviewThreshold": 0.84,
+    "semanticFactDuplicate": "RED"
+  },
+  "sourceQA": {
+    "changingFactsRequireCurrentVerification": true,
+    "preferPrimaryOfficialSources": true,
+    "ambiguousMultipleDefensibleAnswers": "RED"
+  }
+}
