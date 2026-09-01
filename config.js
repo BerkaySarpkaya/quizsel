@@ -9,12 +9,7 @@ window.QUIZSEL_CONFIG = {
     appId: "1:913487040824:web:2c6c16b7ca2e5c36e6b1cd"
   },
 
-  // Kullanıcı hiçbir zaman e-posta görmez.
-  // Firebase Auth için kullanıcı adı arka planda teknik bir dahili kimliğe çevrilir.
   usernameDomain: "quizsel.app",
-
-  // Yönetici de ekranda yalnızca şifre girer.
-  // Bu adres sadece Firebase Auth iç kimliğidir.
   adminInternalEmail: "quizsel-admin@quizsel.app",
 
   questionSeconds: 20,
@@ -22,24 +17,51 @@ window.QUIZSEL_CONFIG = {
   revealSeconds: 5
 };
 
-// v0.9 performance/UX layer + v0.9.1 race-flow fix.
-// Load order is deliberate: stable app.js -> performance layer -> flow fix.
+// Stable load order:
+// app.js -> v0.9 performance -> v0.9.1 race-flow -> v0.9.2 quiz-set browser.
 (() => {
+  const loadQuizSets = () => {
+    if (document.querySelector('script[data-quizsel-v092-sets]')) return;
+
+    const sets = document.createElement("script");
+    sets.src = "app-quizsets-v092.js?v=92";
+    sets.dataset.quizselV092Sets = "1";
+    sets.onerror = () => console.error("Quizsel v0.9.2 quiz-set layer could not be loaded.");
+    document.body.appendChild(sets);
+  };
+
   const loadFlowFix = () => {
-    if (document.querySelector('script[data-quizsel-v091-flow]')) return;
+    const existing = document.querySelector('script[data-quizsel-v091-flow]');
+
+    if (existing) {
+      if (existing.dataset.quizselLoaded === "1") {
+        loadQuizSets();
+      } else {
+        existing.addEventListener("load", loadQuizSets, { once: true });
+      }
+      return;
+    }
+
     const flow = document.createElement("script");
-    // v=92 intentionally busts any cached copy of the previous flow patch.
     flow.src = "app-flow-v091.js?v=92";
     flow.dataset.quizselV091Flow = "1";
+    flow.onload = () => {
+      flow.dataset.quizselLoaded = "1";
+      loadQuizSets();
+    };
     flow.onerror = () => console.error("Quizsel v0.9.1 flow layer could not be loaded.");
     document.body.appendChild(flow);
   };
 
   const loadEnhancements = () => {
     const existing = document.querySelector('script[data-quizsel-v09-performance]');
+
     if (existing) {
-      if (existing.dataset.quizselLoaded === "1") loadFlowFix();
-      else existing.addEventListener("load", loadFlowFix, { once: true });
+      if (existing.dataset.quizselLoaded === "1") {
+        loadFlowFix();
+      } else {
+        existing.addEventListener("load", loadFlowFix, { once: true });
+      }
       return;
     }
 

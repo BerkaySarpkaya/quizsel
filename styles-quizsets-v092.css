@@ -1,0 +1,166 @@
+/* Quizsel v0.9.2 — quiz-set browser */
+
+.quizSetGrid{
+  display:grid;
+  gap:11px;
+}
+
+.quizSetIntro{
+  padding:2px 2px 6px;
+}
+
+.quizSetIntroText{
+  margin-top:5px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.45;
+}
+
+.quizSetCard{
+  width:100%;
+  min-height:94px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:var(--surface);
+  padding:15px 14px;
+  display:grid;
+  grid-template-columns:50px 1fr 24px;
+  gap:13px;
+  align-items:center;
+  text-align:left;
+  color:var(--ink);
+  box-shadow:0 9px 26px rgba(16,24,40,.045);
+}
+
+.quizSetCard:hover{
+  border-color:#c8d3ff;
+  box-shadow:0 12px 32px rgba(16,24,40,.065);
+}
+
+.quizSetCard:active{
+  transform:scale(.989);
+}
+
+.quizSetCard.draft{
+  background:#fafbfc;
+}
+
+.quizSetFolderIcon{
+  width:50px;
+  height:42px;
+  border-radius:12px;
+  background:var(--blueSoft);
+  border:1px solid #dbe3ff;
+  position:relative;
+}
+
+.quizSetFolderIcon:before{
+  content:"";
+  position:absolute;
+  left:7px;
+  top:-7px;
+  width:22px;
+  height:10px;
+  border-radius:7px 7px 0 0;
+  background:#dfe6ff;
+  border:1px solid #ccd8ff;
+  border-bottom:0;
+}
+
+.quizSetFolderIcon i{
+  position:absolute;
+  inset:10px 10px 9px;
+  border-radius:7px;
+  background:var(--blue);
+  opacity:.86;
+}
+
+.quizSetCard.draft .quizSetFolderIcon{
+  background:#f0f2f5;
+  border-color:#dfe3e8;
+}
+
+.quizSetCard.draft .quizSetFolderIcon:before{
+  background:#e6e9ee;
+  border-color:#d8dde4;
+}
+
+.quizSetCard.draft .quizSetFolderIcon i{
+  background:#7a8494;
+}
+
+.quizSetMeta{
+  min-width:0;
+}
+
+.quizSetMeta h3{
+  margin:3px 0 4px;
+  font-size:18px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.quizSetSub{
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.35;
+}
+
+.quizSetArrow{
+  font-size:29px;
+  color:#98a2b3;
+  font-weight:500;
+  text-align:right;
+  line-height:1;
+}
+
+.quizSetViewHead{
+  grid-column:1 / -1;
+  padding-bottom:4px;
+}
+
+.quizSetBack{
+  margin-bottom:11px;
+}
+
+.quizSetViewTitleRow{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:14px 15px;
+}
+
+.quizSetViewTitleRow h3{
+  margin:4px 0 4px;
+}
+
+.quizSetSentinel{
+  grid-column:1 / -1;
+  text-align:center;
+}
+
+.quizSetSentinel .btn{
+  margin:2px auto 0;
+}
+
+@media(max-width:460px){
+  .quizSetCard{
+    grid-template-columns:46px 1fr 20px;
+    padding:14px 12px;
+    gap:11px;
+  }
+
+  .quizSetFolderIcon{
+    width:46px;
+    height:40px;
+  }
+
+  .quizSetMeta h3{
+    font-size:17px;
+  }
+
+  .quizSetSub{
+    font-size:11px;
+  }
+}

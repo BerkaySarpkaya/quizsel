@@ -1,26 +1,49 @@
-QUIZSEL SORU POLİTİKASI v2.0 — UPLOAD
+QUIZSEL v0.9.2 — QUIZ SET / FOLDER BROWSER
 
-GitHub repo ROOT dizinine bu 3 dosyayı birlikte yükle:
+GitHub repo ROOT dizinine bu 4 dosyayı birlikte yükle:
 
-1) QUIZSEL_SORU_URETIM_MANUELI.md
+1) index.html
    - mevcut dosyanın üstüne yaz
-   - yeni authoritative soru üretim standardı
+   - config cache anahtarı v=94
+   - yeni quiz-set CSS dosyasını yükler
 
-2) QUIZSEL_SORU_QA_SPEC.json
-   - yeni dosya
-   - taksonomi + Semantic Fact Graph + Answer Leakage + Question Form
-     + Topic Diversity + Precision Burden + Cue/Guessability makine-okunabilir kuralları
-
-3) QUIZ_TEMPLATE.json
+2) config.js
    - mevcut dosyanın üstüne yaz
-   - eski 15 sn / difficulty 6 değerlerini 20 sn / 4.5 standardına getirir
+   - mevcut load order korunur:
+     app.js -> app-v09-performance.js -> app-flow-v091.js -> app-quizsets-v092.js
 
-UYGULAMA KODUNA DOKUNMA:
+3) app-quizsets-v092.js
+   - YENİ DOSYA
+   - Quiz seçme ekranını klasör/set görünümüne çevirir
+   - 12'şerli lazy rendering korunur
+
+4) styles-quizsets-v092.css
+   - YENİ DOSYA
+   - sadece quiz-set / folder UI stilleri
+
+GRUPLAMA KURALI
+- Draft Quiz Set:
+  Y.Q001–Y.Q102 + eski QZ quizleri
+- First Set:
+  Y.Q103–Y.Q132
+- Second Set:
+  Y.Q133–Y.Q162
+- Third Set:
+  Y.Q163–Y.Q192
+- Sonraki her 30 quiz otomatik sonraki sete gider.
+
+ÖNEMLİ
+Aşağıdaki dosyalara DOKUNULMADI:
 - app.js
-- config.js
+- app-v09-performance.js
+- app-flow-v091.js
 - styles.css
-- Firebase rules
+- quiz-index.json
+- database.rules.json
 - mevcut quiz JSONları
-değişmeyecek.
 
-Bu paket mevcut runtime quiz şemasını değiştirmez.
+Dolayısıyla:
+- herkes cevap verince erken reveal,
+- reveal sonrası 3 -> 2 -> 1,
+- finalde logout olmadan ana sayfaya dönüş
+akışları korunur.
