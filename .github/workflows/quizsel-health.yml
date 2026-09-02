@@ -1,0 +1,62 @@
+name: Quizsel Health
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: JavaScript syntax
+        run: |
+          node --check app.js
+          node --check app-v09-performance.js
+          node --check app-v010-runtime.js
+          node --check quiz-semantic-index-tool.mjs
+          node --check quiz-qa-tool.mjs
+
+      - name: Repository structure QA
+        run: node quiz-qa-tool.mjs repo
+
+      - name: Semantic index full source audit
+        run: node quiz-semantic-index-tool.mjs validate --source
+
+      - name: Strict QA for changed production quizzes
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            echo "No usable base commit; skipping changed-file strict QA."
+            exit 0
+          fi
+
+          CHANGED=$(git diff --name-only "$BASE" HEAD -- 'YQ*.json' | tr '\n' ' ')
+          if [ -n "$CHANGED" ]; then
+            echo "Changed quiz files: $CHANGED"
+            node quiz-qa-tool.mjs check $CHANGED
+          else
+            echo "No changed YQ quiz files."
+          fi
