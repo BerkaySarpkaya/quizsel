@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-30",
+  "updated": "2026-09-02",
   "quizzes": [
     {
       "code": "QZ001",
@@ -1113,6 +1113,726 @@
       "difficulty": 4.5,
       "questions": 10,
       "file": "YQ132.json"
+    },
+    {
+      "code": "Y.Q133",
+      "title": "Genel Kültür 4.5 — 133",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ133.json"
+    },
+    {
+      "code": "Y.Q134",
+      "title": "Genel Kültür 4.5 — 134",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ134.json"
+    },
+    {
+      "code": "Y.Q135",
+      "title": "Genel Kültür 4.5 — 135",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ135.json"
+    },
+    {
+      "code": "Y.Q136",
+      "title": "Genel Kültür 4.5 — 136",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ136.json"
+    },
+    {
+      "code": "Y.Q137",
+      "title": "Genel Kültür 4.5 — 137",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ137.json"
+    },
+    {
+      "code": "Y.Q138",
+      "title": "Genel Kültür 4.5 — 138",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ138.json"
+    },
+    {
+      "code": "Y.Q139",
+      "title": "Genel Kültür 4.5 — 139",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ139.json"
+    },
+    {
+      "code": "Y.Q140",
+      "title": "Genel Kültür 4.5 — 140",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ140.json"
+    },
+    {
+      "code": "Y.Q141",
+      "title": "Genel Kültür 4.5 — 141",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ141.json"
+    },
+    {
+      "code": "Y.Q142",
+      "title": "Genel Kültür 4.5 — 142",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ142.json"
+    },
+    {
+      "code": "Y.Q143",
+      "title": "Genel Kültür 4.5 — 143",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ143.json"
+    },
+    {
+      "code": "Y.Q144",
+      "title": "Genel Kültür 4.5 — 144",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ144.json"
+    },
+    {
+      "code": "Y.Q145",
+      "title": "Genel Kültür 4.5 — 145",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ145.json"
+    },
+    {
+      "code": "Y.Q146",
+      "title": "Genel Kültür 4.5 — 146",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ146.json"
+    },
+    {
+      "code": "Y.Q147",
+      "title": "Genel Kültür 4.5 — 147",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ147.json"
+    },
+    {
+      "code": "Y.Q148",
+      "title": "Genel Kültür 4.5 — 148",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ148.json"
+    },
+    {
+      "code": "Y.Q149",
+      "title": "Genel Kültür 4.5 — 149",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ149.json"
+    },
+    {
+      "code": "Y.Q150",
+      "title": "Genel Kültür 4.5 — 150",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ150.json"
+    },
+    {
+      "code": "Y.Q151",
+      "title": "Genel Kültür 4.5 — 151",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ151.json"
+    },
+    {
+      "code": "Y.Q152",
+      "title": "Genel Kültür 4.5 — 152",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ152.json"
+    },
+    {
+      "code": "Y.Q153",
+      "title": "Genel Kültür 4.5 — 153",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ153.json"
+    },
+    {
+      "code": "Y.Q154",
+      "title": "Genel Kültür 4.5 — 154",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ154.json"
+    },
+    {
+      "code": "Y.Q155",
+      "title": "Genel Kültür 4.5 — 155",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ155.json"
+    },
+    {
+      "code": "Y.Q156",
+      "title": "Genel Kültür 4.5 — 156",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ156.json"
+    },
+    {
+      "code": "Y.Q157",
+      "title": "Genel Kültür 4.5 — 157",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ157.json"
+    },
+    {
+      "code": "Y.Q158",
+      "title": "Genel Kültür 4.5 — 158",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ158.json"
+    },
+    {
+      "code": "Y.Q159",
+      "title": "Genel Kültür 4.5 — 159",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ159.json"
+    },
+    {
+      "code": "Y.Q160",
+      "title": "Genel Kültür 4.5 — 160",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ160.json"
+    },
+    {
+      "code": "Y.Q161",
+      "title": "Genel Kültür 4.5 — 161",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ161.json"
+    },
+    {
+      "code": "Y.Q162",
+      "title": "Genel Kültür 4.5 — 162",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ162.json"
+    },
+    {
+      "code": "Y.Q163",
+      "title": "Genel Kültür 4.5 — 163",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ163.json"
+    },
+    {
+      "code": "Y.Q164",
+      "title": "Genel Kültür 4.5 — 164",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ164.json"
+    },
+    {
+      "code": "Y.Q165",
+      "title": "Genel Kültür 4.5 — 165",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ165.json"
+    },
+    {
+      "code": "Y.Q166",
+      "title": "Genel Kültür 4.5 — 166",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ166.json"
+    },
+    {
+      "code": "Y.Q167",
+      "title": "Genel Kültür 4.5 — 167",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ167.json"
+    },
+    {
+      "code": "Y.Q168",
+      "title": "Genel Kültür 4.5 — 168",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ168.json"
+    },
+    {
+      "code": "Y.Q169",
+      "title": "Genel Kültür 4.5 — 169",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ169.json"
+    },
+    {
+      "code": "Y.Q170",
+      "title": "Genel Kültür 4.5 — 170",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ170.json"
+    },
+    {
+      "code": "Y.Q171",
+      "title": "Genel Kültür 4.5 — 171",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ171.json"
+    },
+    {
+      "code": "Y.Q172",
+      "title": "Genel Kültür 4.5 — 172",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ172.json"
+    },
+    {
+      "code": "Y.Q173",
+      "title": "Genel Kültür 4.5 — 173",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ173.json"
+    },
+    {
+      "code": "Y.Q174",
+      "title": "Genel Kültür 4.5 — 174",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ174.json"
+    },
+    {
+      "code": "Y.Q175",
+      "title": "Genel Kültür 4.5 — 175",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ175.json"
+    },
+    {
+      "code": "Y.Q176",
+      "title": "Genel Kültür 4.5 — 176",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ176.json"
+    },
+    {
+      "code": "Y.Q177",
+      "title": "Genel Kültür 4.5 — 177",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ177.json"
+    },
+    {
+      "code": "Y.Q178",
+      "title": "Genel Kültür 4.5 — 178",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ178.json"
+    },
+    {
+      "code": "Y.Q179",
+      "title": "Genel Kültür 4.5 — 179",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ179.json"
+    },
+    {
+      "code": "Y.Q180",
+      "title": "Genel Kültür 4.5 — 180",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ180.json"
+    },
+    {
+      "code": "Y.Q181",
+      "title": "Genel Kültür 4.5 — 181",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ181.json"
+    },
+    {
+      "code": "Y.Q182",
+      "title": "Genel Kültür 4.5 — 182",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ182.json"
+    },
+    {
+      "code": "Y.Q183",
+      "title": "Genel Kültür 4.5 — 183",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ183.json"
+    },
+    {
+      "code": "Y.Q184",
+      "title": "Genel Kültür 4.5 — 184",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ184.json"
+    },
+    {
+      "code": "Y.Q185",
+      "title": "Genel Kültür 4.5 — 185",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ185.json"
+    },
+    {
+      "code": "Y.Q186",
+      "title": "Genel Kültür 4.5 — 186",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ186.json"
+    },
+    {
+      "code": "Y.Q187",
+      "title": "Genel Kültür 4.5 — 187",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ187.json"
+    },
+    {
+      "code": "Y.Q188",
+      "title": "Genel Kültür 4.5 — 188",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ188.json"
+    },
+    {
+      "code": "Y.Q189",
+      "title": "Genel Kültür 4.5 — 189",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ189.json"
+    },
+    {
+      "code": "Y.Q190",
+      "title": "Genel Kültür 4.5 — 190",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ190.json"
+    },
+    {
+      "code": "Y.Q191",
+      "title": "Genel Kültür 4.5 — 191",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ191.json"
+    },
+    {
+      "code": "Y.Q192",
+      "title": "Genel Kültür 4.5 — 192",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ192.json"
+    },
+    {
+      "code": "Y.Q193",
+      "title": "Genel Kültür 4.5 — 193",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ193.json"
+    },
+    {
+      "code": "Y.Q194",
+      "title": "Genel Kültür 4.5 — 194",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ194.json"
+    },
+    {
+      "code": "Y.Q195",
+      "title": "Genel Kültür 4.5 — 195",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ195.json"
+    },
+    {
+      "code": "Y.Q196",
+      "title": "Genel Kültür 4.5 — 196",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ196.json"
+    },
+    {
+      "code": "Y.Q197",
+      "title": "Genel Kültür 4.5 — 197",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ197.json"
+    },
+    {
+      "code": "Y.Q198",
+      "title": "Genel Kültür 4.5 — 198",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ198.json"
+    },
+    {
+      "code": "Y.Q199",
+      "title": "Genel Kültür 4.5 — 199",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ199.json"
+    },
+    {
+      "code": "Y.Q200",
+      "title": "Genel Kültür 4.5 — 200",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ200.json"
+    },
+    {
+      "code": "Y.Q201",
+      "title": "Genel Kültür 4.5 — 201",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ201.json"
+    },
+    {
+      "code": "Y.Q202",
+      "title": "Genel Kültür 4.5 — 202",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ202.json"
+    },
+    {
+      "code": "Y.Q203",
+      "title": "Genel Kültür 4.5 — 203",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ203.json"
+    },
+    {
+      "code": "Y.Q204",
+      "title": "Genel Kültür 4.5 — 204",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ204.json"
+    },
+    {
+      "code": "Y.Q205",
+      "title": "Genel Kültür 4.5 — 205",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ205.json"
+    },
+    {
+      "code": "Y.Q206",
+      "title": "Genel Kültür 4.5 — 206",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ206.json"
+    },
+    {
+      "code": "Y.Q207",
+      "title": "Genel Kültür 4.5 — 207",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ207.json"
+    },
+    {
+      "code": "Y.Q208",
+      "title": "Genel Kültür 4.5 — 208",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ208.json"
+    },
+    {
+      "code": "Y.Q209",
+      "title": "Genel Kültür 4.5 — 209",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ209.json"
+    },
+    {
+      "code": "Y.Q210",
+      "title": "Genel Kültür 4.5 — 210",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ210.json"
+    },
+    {
+      "code": "Y.Q211",
+      "title": "Genel Kültür 4.5 — 211",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ211.json"
+    },
+    {
+      "code": "Y.Q212",
+      "title": "Genel Kültür 4.5 — 212",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ212.json"
+    },
+    {
+      "code": "Y.Q213",
+      "title": "Genel Kültür 4.5 — 213",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ213.json"
+    },
+    {
+      "code": "Y.Q214",
+      "title": "Genel Kültür 4.5 — 214",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ214.json"
+    },
+    {
+      "code": "Y.Q215",
+      "title": "Genel Kültür 4.5 — 215",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ215.json"
+    },
+    {
+      "code": "Y.Q216",
+      "title": "Genel Kültür 4.5 — 216",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ216.json"
+    },
+    {
+      "code": "Y.Q217",
+      "title": "Genel Kültür 4.5 — 217",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ217.json"
+    },
+    {
+      "code": "Y.Q218",
+      "title": "Genel Kültür 4.5 — 218",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ218.json"
+    },
+    {
+      "code": "Y.Q219",
+      "title": "Genel Kültür 4.5 — 219",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ219.json"
+    },
+    {
+      "code": "Y.Q220",
+      "title": "Genel Kültür 4.5 — 220",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ220.json"
+    },
+    {
+      "code": "Y.Q221",
+      "title": "Genel Kültür 4.5 — 221",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ221.json"
+    },
+    {
+      "code": "Y.Q222",
+      "title": "Genel Kültür 4.5 — 222",
+      "category": "Genel Kültür",
+      "difficulty": 4.5,
+      "questions": 10,
+      "file": "YQ222.json"
     }
   ]
 }

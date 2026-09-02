@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ198",
+  "displayCode": "Y.Q198",
+  "title": "Genel Kültür 4.5 — 198",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Potasyum elementinin kimyasal sembolü nedir?",
+      "options": [
+        "Po",
+        "P",
+        "K",
+        "Pt"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Dava romanının yazarı kimdir?",
+      "options": [
+        "Franz Kafka",
+        "Robert Musil",
+        "Hermann Hesse",
+        "Thomas Mann"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Alien filminin büyük bölümü hangi ortamda geçer?",
+      "options": [
+        "Bir uzay gemisinde",
+        "Bir denizaltıda",
+        "Bir Orta Çağ kalesinde",
+        "Bir tren istasyonunda"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Timpani hangi çalgı ailesindedir?",
+      "options": [
+        "Tahta üflemeliler",
+        "Telli çalgılar",
+        "Klavyeli çalgılar",
+        "Vurmalı çalgılar"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Rönesans döneminin ünlü David heykelini kim yaptı?",
+      "options": [
+        "Ghiberti",
+        "Michelangelo",
+        "Donatello",
+        "Bernini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Dönel kavşağın temel amacı nedir?",
+      "options": [
+        "Yayaları otoyola çıkarmak",
+        "Trenleri depolamak",
+        "Kesişen trafik akımlarını kontrollü biçimde yönlendirmek",
+        "Uçakları piste almak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Gayrisafi yurt içi hasıla (GSYH) temel olarak neyi ölçer?",
+      "options": [
+        "Ülkedeki bütün hanelerin toplam tasarrufunu",
+        "Üretilen nihai mal ve hizmetlerin toplam değerini",
+        "Temel olarak yalnız ihraç edilen malların toplam değerini",
+        "Devletin kasasındaki nakit para miktarını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Ticket to Ride oyununun temel teması nedir?",
+      "options": [
+        "Temel olarak uzay kolonisi kurmak",
+        "Mutfak işletmek",
+        "Şehirler arasında demiryolu rotaları kurmak",
+        "Dedektiflik yapmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Sasani İmparatorluğu uzun süre hangi büyük imparatorlukla rekabet etti?",
+      "options": [
+        "Temel olarak aztek",
+        "Mali",
+        "Roma ve Bizans",
+        "İnka"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Aconcagua hangi kıtanın en yüksek dağıdır?",
+      "options": [
+        "Kuzey Amerika",
+        "Afrika",
+        "Güney Amerika",
+        "Avrupa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

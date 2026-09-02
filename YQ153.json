@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ153",
+  "displayCode": "Y.Q153",
+  "title": "Genel Kültür 4.5 — 153",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Çivi yazısını en iyi tanımlayan özellik hangisidir?",
+      "options": [
+        "Taş anıtların yalnız renkli figürler ve sembollerle süslenmesi",
+        "Kil tabletler üzerine kama biçimli işaretlerle yazılması",
+        "Sadece ses kaydı için kullanılması",
+        "Kâğıda fırçayla Latin harfleri yazılması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Sürrealist sanat en çok hangi tür imgelerle ilişkilendirilir?",
+      "options": [
+        "Keskin geometrik teknik çizimlerle",
+        "Sadece antik haritalarla",
+        "Rüya ve bilinçaltı çağrışımlarıyla",
+        "Tamamen matematik tablolarıyla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Mayalı hamurun kabarmasında temel rol oynayan süreç hangisidir?",
+      "options": [
+        "Fermantasyon sırasında gaz oluşması",
+        "Hamurun soğukta tamamen dondurulması",
+        "Tuzun kristalleşmesi",
+        "Yağın buharlaşması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Oktoberfest festivali en güçlü biçimde hangi şehirle özdeşleşir?",
+      "options": [
+        "Münih",
+        "Viyana",
+        "Zürih",
+        "Prag"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Yaşlı Adam ve Deniz romanının yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "Ernest Hemingway"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Hangi kıtada kalıcı yerli insan nüfusu bulunmaz?",
+      "options": [
+        "Avrupa",
+        "Güney Amerika",
+        "Antarktika",
+        "Avustralya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Tuba hangi çalgı ailesine aittir?",
+      "options": [
+        "Tahta nefesli",
+        "Bakır nefesli",
+        "Yaylı",
+        "Vurmalı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "“Scrum” terimi en doğrudan hangi sporla ilişkilidir?",
+      "options": [
+        "Buz hokeyi",
+        "Beyzbol",
+        "Rugby",
+        "Hentbol"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "SSD'yi geleneksel sabit diskten (HDD) ayıran temel özelliklerden biri hangisidir?",
+      "options": [
+        "Veriyi yalnız kâğıtta saklaması",
+        "Hareketli disk parçaları içermemesi",
+        "Yalnız internete bağlıyken çalışması",
+        "Sadece ses dosyası depolaması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Trombositlerin (kan pulcuklarının) temel görevlerinden biri hangisidir?",
+      "options": [
+        "Oksijeni akciğerlerden dokulara taşımak",
+        "Kan pıhtılaşmasına yardımcı olmak",
+        "İnsülin üretmek",
+        "Sinir uyarılarını iletmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

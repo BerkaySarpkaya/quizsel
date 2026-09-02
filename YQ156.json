@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ156",
+  "displayCode": "Y.Q156",
+  "title": "Genel Kültür 4.5 — 156",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Karbonat hamur işlerinde en çok hangi amaçla kullanılır?",
+      "options": [
+        "Yemeği düşük sıcaklıkta hızla dondurmak",
+        "Yağı tamamen yok etmek",
+        "Unu renksizleştirmek",
+        "Kimyasal kabartıcı olarak gaz oluşturmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Feodalizmde siyasal ve askerî ilişkiler en çok hangi temele dayanıyordu?",
+      "options": [
+        "Toprak ve bağlılık ilişkilerine",
+        "Hisse senedi piyasasına",
+        "Genel oyla seçilen cumhurbaşkanına",
+        "Sanayi robotlarına"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Standart iskambil destesindeki “kupa” serisi hangi sembolle gösterilir?",
+      "options": [
+        "Elmas",
+        "Yonca",
+        "Kalp",
+        "Mızrak ucu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Dünya'da mevsimlerin oluşmasının temel nedeni hangisidir?",
+      "options": [
+        "Dünya'nın ekseninin yörünge düzlemine eğik olması",
+        "Dünya'nın Güneş'e olan uzaklığının her ay büyük ölçüde değişmesi",
+        "Ay'ın Dünya çevresinde dönmesi",
+        "Güneş'in her yıl farklı büyüklüğe ulaşması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İsviçre'nin para birimi hangisidir?",
+      "options": [
+        "Euro",
+        "İsveç kronu",
+        "İsviçre frangı",
+        "Macar forinti"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Fresk tekniğinde boya geleneksel olarak hangi yüzeye uygulanır?",
+      "options": [
+        "Cam levhaya",
+        "Islak sıvaya",
+        "Metal gravüre",
+        "Kuru kumaşa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Hazar Denizi hangi coğrafi özelliğiyle öne çıkar?",
+      "options": [
+        "Dünyanın en uzun nehri olması",
+        "Dünyanın en büyük kapalı iç su kütlesi olması",
+        "Tamamen tatlı sudan oluşan en derin göl olması",
+        "Bir okyanus ortası sırtı olması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sinemada montajın temel işlevi hangisidir?",
+      "options": [
+        "Oyuncuların kostüm ve makyajını tasarlamak",
+        "Kameranın lensini üretmek",
+        "Çekimleri seçip anlamlı bir sırada birleştirmek",
+        "Salonun akustiğini hesaplamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bir toplumun masal, destan ve atasözlerini kuşaktan kuşağa sözle aktarması hangi kavramla en iyi açıklanır?",
+      "options": [
+        "Endüstriyel tasarım",
+        "Jeolojik miras",
+        "Sözlü gelenek",
+        "Sayısal arşivleme"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Beyzbolda bir takım savunmada sahada kaç oyuncuyla yer alır?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

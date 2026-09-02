@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ139",
+  "displayCode": "Y.Q139",
+  "title": "Genel Kültür 4.5 — 139",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bizantion kentinin Konstantinopolis adıyla yeniden kuruluşu hangi Roma imparatoruyla ilişkilidir?",
+      "options": [
+        "Septimius Severus",
+        "Marcus Aurelius",
+        "Aurelianus Augustus",
+        "I. Konstantin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Baykal Gölü hangi ülkededir?",
+      "options": [
+        "Kırgızistan",
+        "Moğolistan",
+        "Rusya",
+        "Kazakistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "25 °C civarında pH değeri 7'nin altında olan bir çözelti genel olarak nasıl sınıflandırılır?",
+      "options": [
+        "Nötr",
+        "Radyoaktif",
+        "Asidik",
+        "Bazik"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Venüs'ün Doğuşu adlı tablo kimin eseridir?",
+      "options": [
+        "Raffaello Sanzio",
+        "Tiziano Vecellio",
+        "Michelangelo Buonarroti",
+        "Sandro Botticelli"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Tour de France'ta sarı mayo genel klasmanda kimi gösterir?",
+      "options": [
+        "Dağ etaplarının kazananını",
+        "En genç bisikletçiyi",
+        "Yarışın toplam süre liderini",
+        "Takım kaptanlarının en yaşlısını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Saksafon metal gövdeli olmasına rağmen neden tahta üflemeliler ailesinde sınıflandırılır?",
+      "options": [
+        "Tellerin bir yay yardımıyla doğrudan titreştirilmesi nedeniyle",
+        "Yalnızca klasik orkestra repertuvarında kullanılabilmesi nedeniyle",
+        "Gövdesinin büyük bölümünün özel ahşapla kaplanması nedeniyle",
+        "Sesi tek kamışlı ağızlıkla üretildiği için"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mikrodalga fırında yiyeceğin ısınmasına en çok hangi etkileşim katkı sağlar?",
+      "options": [
+        "Metal yüzeylerin görünmez bir alev üretip ısı yayması",
+        "Yiyeceğin içindeki havanın hızla donup yeniden çözülmesi",
+        "Mikrodalgaların polar molekülleri, özellikle suyu, hareketlendirmesi",
+        "Işık ışınlarının yiyeceğin yalnız dış yüzeyini ısıtması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Gayrisafi yurt içi hasıla (GSYH) en genel olarak neyi ölçer?",
+      "options": [
+        "Bir ülkedeki tüm banka hesaplarının dönem sonu toplam bakiyesini",
+        "Bir ekonomide üretilen nihai mal ve hizmetlerin değerini",
+        "Sadece ülkeye ithal edilen ürünlerin piyasa değerleri toplamını",
+        "Yalnız kamu çalışanlarına bir yılda ödenen maaşların toplamını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Mardi Gras (Fat Tuesday) kutlaması Hristiyan takviminde hangi dönemin hemen öncesinde yer alır?",
+      "options": [
+        "Lent (Büyük Perhiz)",
+        "Epifani kutlamaları dönemi",
+        "Pentekost kutlamaları dönemi",
+        "Advent adı verilen Noel öncesi hazırlık dönemi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Prag'da doğan Franz Kafka eserlerini ağırlıklı olarak hangi dilde yazmıştır?",
+      "options": [
+        "Almanca",
+        "Yidiş",
+        "Çekçe",
+        "Fransızca"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

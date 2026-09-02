@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ163",
+  "displayCode": "Y.Q163",
+  "title": "Genel Kültür 4.5 — 163",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Pön Savaşları esas olarak hangi iki güç arasında yaşandı?",
+      "options": [
+        "Atina ile Sparta",
+        "Persler ile Makedonlar",
+        "Mısır ile Hititler",
+        "Roma ile Kartaca"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Afrika’nın kuzeydoğusunu kat eden Nil’in ulaştığı son deniz hangisidir?",
+      "options": [
+        "Akdeniz",
+        "Kızıldeniz",
+        "Arap Denizi",
+        "Karadeniz"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Arşimet ilkesine göre sıvıya batırılan cisme etkiyen kaldırma kuvveti neye eşittir?",
+      "options": [
+        "Temel olarak cismin hacminin karesine",
+        "Cismin yüzey alanına",
+        "Yer değiştirdiği sıvının ağırlığına",
+        "Sıvının toplam kütlesine"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Suç ve Ceza romanının yazarı kimdir?",
+      "options": [
+        "İvan Turgenyev",
+        "Lev Tolstoy",
+        "Fyodor Dostoyevski",
+        "Nikolay Gogol"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Pulp Fiction filminin yönetmeni kimdir?",
+      "options": [
+        "Joel Coen",
+        "Paul Thomas Anderson",
+        "Quentin Tarantino",
+        "David Fincher"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ay Işığı Sonatı olarak bilinen piyano eserinin bestecisi kimdir?",
+      "options": [
+        "Felix Mendelssohn Bartholdy",
+        "Ludwig van Beethoven",
+        "Johannes Sebastian Bach",
+        "Frédéric Chopin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gece Devriyesi tablosunun ressamı kimdir?",
+      "options": [
+        "Johannes Vermeer",
+        "Frans Hals",
+        "Jan Steen",
+        "Rembrandt"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Futbolda ofsayt değerlendirmesinde hücum oyuncusunun konumu hangi anda esas alınır?",
+      "options": [
+        "Temel olarak oyuncu topa dokunduğu anda",
+        "Top kaleye girdiği anda",
+        "Takım arkadaşı topa oynadığı anda",
+        "Hakem düdük çaldığı anda"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bilgisayarda CPU’nun temel görevi nedir?",
+      "options": [
+        "Temel olarak dosyaları fiziksel klasöre koymak",
+        "İnternet kablosunu üretmek",
+        "Komutları işlemek ve hesaplamaları yürütmek",
+        "Görüntüyü kâğıda basmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Geleneksel çay seremonisi özellikle hangi ülkenin kültürüyle ilişkilidir?",
+      "options": [
+        "Japonya",
+        "Norveç",
+        "Meksika",
+        "Fas"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

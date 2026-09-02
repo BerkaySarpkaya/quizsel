@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ197",
+  "displayCode": "Y.Q197",
+  "title": "Genel Kültür 4.5 — 197",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Antik dünyanın ünlü İskenderiye Kütüphanesi hangi ülkedeki şehirdeydi?",
+      "options": [
+        "İtalya",
+        "Mısır",
+        "Yunanistan",
+        "Lübnan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Fuji Dağı hangi ülkededir?",
+      "options": [
+        "Nepal",
+        "Çin",
+        "Japonya",
+        "Güney Kore"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Öpücük (The Kiss) tablosuyla tanınan sanatçı kimdir?",
+      "options": [
+        "Oskar Kokoschka",
+        "Gustav Klimt",
+        "Alphonse Mucha",
+        "Egon Schiele"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Teniste “love” skoru ne anlama gelir?",
+      "options": [
+        "On beş",
+        "Kırk",
+        "Otuz",
+        "Sıfır"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Cırt cırt bant (Velcro) icadı hangi doğa gözleminden esinlenmiştir?",
+      "options": [
+        "Kar tanelerinin erimesinden",
+        "Balık yüzgeçlerinin hareketinden",
+        "Temel olarak arı peteklerinin altıgen yapısından",
+        "Pıtrakların kumaşa ve tüylere tutunmasından"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Ainu halkı tarihsel olarak en çok hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Malezya",
+        "Nepal",
+        "Moğolistan",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Klasik mücver en yaygın olarak hangi sebzeyle yapılır?",
+      "options": [
+        "Kabak",
+        "Patates",
+        "Patlıcan",
+        "Pancar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Santigrat (Celsius) ölçeği neyi ölçer?",
+      "options": [
+        "Basınç",
+        "Elektrik akımı",
+        "Mesafe",
+        "Sıcaklık"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Güney Afrika Cumhuriyeti’nin resmî para birimi hangisidir?",
+      "options": [
+        "Naira",
+        "Rand",
+        "Şilin",
+        "Pula"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Cluedo oyununda temel amaç nedir?",
+      "options": [
+        "Bir cinayetin failini, yerini ve silahını bulmak",
+        "Kelime puanı toplamak",
+        "Emlak satın almak",
+        "Dünya haritasını fethetmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ140",
+  "displayCode": "Y.Q140",
+  "title": "Genel Kültür 4.5 — 140",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Malakka Boğazı, Malay Yarımadası ile hangi büyük Endonezya adası arasında uzanır?",
+      "options": [
+        "Java",
+        "Sumatra",
+        "Borneo",
+        "Sulawesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tordesillas Antlaşması, yeni keşfedilen toprakların paylaşımı konusunda hangi iki Avrupa gücü arasında yapıldı?",
+      "options": [
+        "Fransa ve İngiltere",
+        "İspanya ve Portekiz",
+        "İtalya ve Avusturya",
+        "Hollanda ve Danimarka"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Newton'un üçüncü hareket yasası hangi ifadeyle özetlenir?",
+      "options": [
+        "Bir cismin kütlesi her sıcaklıkta hızına eşit olmak zorundadır",
+        "Her etkiye eşit büyüklükte ve zıt yönde bir tepki vardır",
+        "Bir cisme etki eden net kuvvet yoksa hızı değişmeden kalır",
+        "Enerji yalnızca cismin hızı arttığında bütünüyle ortadan kaybolur"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "12 Angry Men filminin büyük bölümü hangi ortamda geçer?",
+      "options": [
+        "Bir mahkeme koridorunda",
+        "Bir polis karakolunda",
+        "Bir tren kompartımanında",
+        "Jüri müzakere odasında"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "“A cappella” icra neyi ifade eder?",
+      "options": [
+        "Enstrümantal eşlik olmadan şarkı söylemeyi",
+        "Eseri çok hızlı tempoda söylemeyi",
+        "Yalnız vurmalı çalgılarla çalmayı",
+        "Müziği tamamen doğaçlama bestelemeyi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "İki faktörlü kimlik doğrulamanın temel güvenlik yaklaşımı hangisidir?",
+      "options": [
+        "İki farklı doğrulama türünü birlikte istemek",
+        "Her giriş denemesinde hesabı sıfırdan yeniden oluşturmak",
+        "Aynı parolayı iki farklı ekranda art arda tekrar yazmak",
+        "Kullanıcı adını her oturumda tamamen devre dışı bırakmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Paella yemeğinin kökeni İspanya'nın hangi bölgesiyle ilişkilidir?",
+      "options": [
+        "Bask Bölgesi",
+        "Galiçya",
+        "Asturias",
+        "Valensiya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Judoda bir sporcunun “ippon” alması genel olarak ne sonuç doğurur?",
+      "options": [
+        "Yalnız bir uyarı almasını",
+        "Müsabakanın baştan başlamasını",
+        "Rakibin otomatik mola almasını",
+        "Müsabakayı doğrudan kazanmasını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Tartan desenleri tarihsel olarak en çok hangi kültürle özdeşleşmiştir?",
+      "options": [
+        "Sicilya kültürü",
+        "Flaman kültürü",
+        "İskoç kültürü",
+        "Bask kültürü"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Yüzyıllık Yalnızlık romanı en çok hangi edebî anlatım geleneğiyle ilişkilendirilir?",
+      "options": [
+        "Gotik romantizm",
+        "Sosyalist gerçekçilik",
+        "Büyülü gerçekçilik",
+        "Doğalcılık"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

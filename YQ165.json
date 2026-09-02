@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ165",
+  "displayCode": "Y.Q165",
+  "title": "Genel Kültür 4.5 — 165",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Elektrik direncinin SI birimi hangisidir?",
+      "options": [
+        "Pascal",
+        "Watt",
+        "Ohm",
+        "Tesla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Gurur ve Önyargı romanını kim yazdı?",
+      "options": [
+        "George Eliot",
+        "Virginia Woolf",
+        "Mary Shelley",
+        "Jane Austen"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Pan’ın Labirenti filmini kim yönetti?",
+      "options": [
+        "Guillermo del Toro",
+        "Alejandro González Iñárritu",
+        "Pedro Almodóvar",
+        "Alfonso Cuarón"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Klarnet hangi çalgı ailesindedir?",
+      "options": [
+        "Bakır nefesli",
+        "Yaylı",
+        "Tahta nefesli",
+        "Vurmalı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Pho adlı noodle çorbası hangi ülkenin mutfağına aittir?",
+      "options": [
+        "Japonya",
+        "Tayland",
+        "Endonezya",
+        "Vietnam"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Buzdolabı iç kısmı nasıl soğutur?",
+      "options": [
+        "Havayı oksijensiz bırakarak",
+        "Temel olarak yalnız fanla sıcaklık üretmeden",
+        "Soğutucu akışkan döngüsüyle ısıyı dışarı taşıyarak",
+        "İçeride sürekli buz üreterek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Sterlin (pound sterling) hangi ülkenin para birimidir?",
+      "options": [
+        "İrlanda Cumhuriyeti",
+        "Birleşik Krallık",
+        "Yeni Zelanda",
+        "Güney Afrika"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Cluedo oyununda oyuncular neyi çözmeye çalışır?",
+      "options": [
+        "Bir ülkenin başkentini",
+        "Bir cinayetin faili, yeri ve aracını",
+        "Bir müzik notasını",
+        "Bir matematik integralini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Ahameniş Pers İmparatorluğu’nun kurucusu olarak kabul edilen hükümdar kimdir?",
+      "options": [
+        "II. Artaserhas",
+        "I. Darius",
+        "II. Kiros",
+        "Xerxes"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Orinoco Nehri’nin büyük bölümü hangi ülkededir?",
+      "options": [
+        "Peru",
+        "Şili",
+        "Arjantin",
+        "Venezuela"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

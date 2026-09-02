@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ189",
+  "displayCode": "Y.Q189",
+  "title": "Genel Kültür 4.5 — 189",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tarihsel Doğu Hindistan şirketleri en çok hangi faaliyetle ilişkilidir?",
+      "options": [
+        "Temel olarak kutup madenciliği",
+        "Dijital bankacılık",
+        "Uzay turizmi",
+        "Asya ile denizaşırı ticaret"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Cosplay neyi ifade eder?",
+      "options": [
+        "Bir kurgu karakterinin kostüm ve görünümünü canlandırmayı",
+        "Temel olarak yalnız canlı müzik kaydı yapmayı",
+        "Masa oyunu hakemliğini",
+        "Kâğıt katlama sanatını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hayat Güzeldir (La vita è bella) hangi ülke sinemasıyla ilişkilidir?",
+      "options": [
+        "Almanya",
+        "Fransa",
+        "İtalya",
+        "İspanya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "The Beatles grubu hangi İngiliz şehrinde kuruldu?",
+      "options": [
+        "Leeds",
+        "Liverpool",
+        "Bristol",
+        "Manchester"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Pop Art sanatçıları sıkça hangi görsel kaynaklardan yararlanır?",
+      "options": [
+        "Temel olarak yalnız mimari planlardan",
+        "Kitle kültürü ve reklam imgelerinden",
+        "Sadece astronomi çizimlerinden",
+        "Yalnız mağara resimlerinden"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Basketbol oyununu 1891’de geliştiren kişi kimdir?",
+      "options": [
+        "Walter Camp",
+        "James Naismith",
+        "Pierre de Coubertin",
+        "William Webb Ellis"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "ENIAC ne tür bir erken dönem teknolojiydi?",
+      "options": [
+        "Elektronik genel amaçlı bilgisayar",
+        "Mekanik televizyon",
+        "Temel olarak analog fotoğraf makinesi",
+        "Kablosuz telefon santrali"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Amazigh (Berberi) kültürü ağırlıklı olarak hangi bölgeyle ilişkilidir?",
+      "options": [
+        "Kuzey Avrupa",
+        "Güneydoğu Asya",
+        "Orta Amerika",
+        "Kuzey Afrika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Minestrone nedir?",
+      "options": [
+        "Japon ızgara balığı",
+        "İtalyan sebze çorbası",
+        "Fransız hamur tatlısı",
+        "İspanyol pirinç yemeği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kış lastikleri düşük sıcaklıklarda neden avantaj sağlar?",
+      "options": [
+        "Yakıtı ısıttıkları için",
+        "Motor gücünü artırdıkları için",
+        "Hamur yapıları soğukta daha esnek kalabildiği için",
+        "Temel olarak daha ağır metalden yapıldıkları için"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

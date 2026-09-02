@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ218",
+  "displayCode": "Y.Q218",
+  "title": "Genel Kültür 4.5 — 218",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Altın Aslan hangi film festivalinin en büyük ödülüdür?",
+      "options": [
+        "Toronto Film Festivali",
+        "Cannes Film Festivali",
+        "Locarno Film Festivali",
+        "Venedik Film Festivali"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Akordeonda ses üretiminde hangi mekanizma temel rol oynar?",
+      "options": [
+        "Deri zar ve tokmak",
+        "Su basıncı ve borular",
+        "Körük ve serbest kamışlar",
+        "Yalnız yay ve teller"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Moai heykelleri hangi adada bulunur?",
+      "options": [
+        "Malta Adası",
+        "Sicilya Adası",
+        "Rapa Nui",
+        "Bali Adası"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Golfte “par” neyi ifade eder?",
+      "options": [
+        "Sahadaki toplam oyuncu sayısını",
+        "Topun resmî turnuva ağırlığını",
+        "Bir çukur için standart vuruş sayısını",
+        "Temel olarak bir sopanın standart uzunluk ölçüsünü"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Uzay teleskoplarının önemli avantajlarından biri nedir?",
+      "options": [
+        "Atmosferin görüntüyü bozucu etkilerinin dışında gözlem yapabilmek",
+        "Yalnız gündüz çalışmak",
+        "Dünya’nın yerçekimini artırmak",
+        "Temel olarak tüm ışığı görünür renge çevirmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Mahjong oyununda temel olarak hangi tür oyun parçaları kullanılır?",
+      "options": [
+        "Üzerinde semboller bulunan taşlar",
+        "Sadece zarlar",
+        "Yalnız satranç piyonları",
+        "Oyun kartı olmayan metal paralar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Apartheid sistemi en çok hangi ülkenin yakın tarihiyle ilişkilidir?",
+      "options": [
+        "Temel olarak hindistan",
+        "Kanada",
+        "Arjantin",
+        "Güney Afrika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Marrakeş hangi ülkededir?",
+      "options": [
+        "Fas",
+        "Mısır",
+        "Ürdün",
+        "Tunus"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Fosil kayıtları bilim insanlarına en çok ne hakkında bilgi verir?",
+      "options": [
+        "Gezegenlerin yörünge hızı",
+        "Geçmiş yaşam biçimleri ve evrimsel değişimler",
+        "Temel olarak gelecekteki hava durumunun kesin tahmini",
+        "Yalnız bugünkü nüfus sayısı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Pandora’nın kutusunu açmak” deyimi genel olarak neyi anlatır?",
+      "options": [
+        "Beklenmedik ve çok sayıda soruna yol açmayı",
+        "Gizli bir başarıyı kutlamayı",
+        "Bir işi kusursuz tamamlamayı",
+        "Uzun bir yolculuğu bitirmeyi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

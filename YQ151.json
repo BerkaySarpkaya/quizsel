@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ151",
+  "displayCode": "Y.Q151",
+  "title": "Genel Kültür 4.5 — 151",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Gökkuşağında beyaz ışığın farklı renklere ayrılmasında hangi optik olay özellikle rol oynar?",
+      "options": [
+        "Radyoaktivite",
+        "Yoğuşma",
+        "Dağılma (dispersiyon)",
+        "Manyetik indüksiyon"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "“Kara Ölüm” olarak bilinen 14. yüzyıl salgını esas olarak hangi hastalıkla ilişkilendirilir?",
+      "options": [
+        "Kızamık",
+        "Veba",
+        "Sıtma",
+        "Çiçek hastalığı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Budapeşte kentini iki ana tarihsel bölüm halinde ayıran nehir hangisidir?",
+      "options": [
+        "Ren",
+        "Tuna",
+        "Elbe",
+        "Seine"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "“Palindrome” terimi hangi tür sözcük veya ifadeyi tanımlar?",
+      "options": [
+        "İleri ve geri aynı okunan ifadeyi",
+        "İki dilde benzer anlam taşıyan ifadeyi",
+        "Yalnız tek heceden oluşan sözcüğü",
+        "Yalnız ünsüz harflerden oluşan sözcüğü"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Palme d’Or hangi film festivalinin en önemli ödülüdür?",
+      "options": [
+        "Berlin Film Festivali",
+        "Sundance Film Festivali",
+        "Cannes Film Festivali",
+        "Venedik Film Festivali"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Blues müziğinin tarihsel kökleri en güçlü biçimde hangi coğrafi-kültürel ortamla ilişkilidir?",
+      "options": [
+        "Kuzey Avrupa sarayları",
+        "ABD’nin güneyindeki Afro-Amerikan topluluklar",
+        "And Dağları halk müziği",
+        "Japon imparatorluk müziği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bauhaus tasarım okulunun kurulduğu ülke hangisidir?",
+      "options": [
+        "Fransa",
+        "İsviçre",
+        "Hollanda",
+        "Almanya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Go adlı strateji oyununda oyuncular temel olarak hangi araçları kullanır?",
+      "options": [
+        "Renkli oyun kartları",
+        "Harf ve sayı taşları",
+        "Siyah ve beyaz taşlar",
+        "Kırmızı ve mavi taşlar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Beyzbolda bir vurucu kaç strike sonrasında strikeout olur?",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Banka kartı (debit card) ile yapılan alışverişte ödeme en yaygın olarak nereden düşer?",
+      "options": [
+        "İş yerinin günlük kasa bakiyesinden",
+        "Kart sahibine tanımlanan kredi kartı limitinden",
+        "Merkez bankasının zorunlu karşılık hesabından",
+        "Kart sahibinin bağlı banka hesabındaki bakiyeden"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

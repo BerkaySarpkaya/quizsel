@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ159",
+  "displayCode": "Y.Q159",
+  "title": "Genel Kültür 4.5 — 159",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir güneş hücresinin temel işlevi nedir?",
+      "options": [
+        "Işık enerjisini elektrik enerjisine dönüştürmek",
+        "Elektrik enerjisini mekanik harekete dönüştürmek",
+        "Suyu mekanik olarak pompalamak",
+        "Yakıtı dondurmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Versailles Antlaşması hangi büyük savaşın ardından imzalanmıştır?",
+      "options": [
+        "Kırım Savaşı",
+        "Yedi Yıl Savaşı",
+        "I. Dünya Savaşı",
+        "Amerikan İç Savaşı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Yunuslar biyolojik olarak hangi hayvan sınıfına girer?",
+      "options": [
+        "Memeliler",
+        "Balıklar",
+        "Sürüngenler",
+        "Amfibiler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Serif yazı tiplerini sans-serif yazı tiplerinden ayıran temel özellik nedir?",
+      "options": [
+        "Harf uçlarındaki küçük çıkıntılar",
+        "Yalnız büyük harf kullanmaları",
+        "Her harfin aynı genişlikte olması",
+        "Sadece el yazısıyla yazılmaları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Atletizmde bayrak yarışında takım arkadaşına aktarılan nesnenin adı nedir?",
+      "options": [
+        "Puck",
+        "Baton",
+        "Raket",
+        "Disk"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Renkli tozların kullanıldığı Holi festivali en güçlü biçimde hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Japonya",
+        "Fas",
+        "Meksika",
+        "Hindistan"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Nepal'in ulusal bayrağını diğer ülke bayraklarından ayıran belirgin özellik nedir?",
+      "options": [
+        "Tamamen tek renk olması",
+        "Üzerinde yazı bulunması",
+        "Yalnız daire biçiminde olması",
+        "Dikdörtgen biçiminde olmaması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Operayı tiyatrodan ayıran temel özelliklerden biri hangisidir?",
+      "options": [
+        "Sahnede yalnız konuşma ve hareketlerle ilerleyen dramatik anlatım",
+        "Dramatik anlatının büyük ölçüde müzik ve şarkıyla yürütülmesi",
+        "Yalnız açık havada oynanması",
+        "Metnin hiç kullanılmaması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kişisel bütçe hazırlamanın temel amacı nedir?",
+      "options": [
+        "Pasaport ve vize sürelerini planlamak",
+        "Gelir ve giderleri planlamak",
+        "İnternet hızını artırmak",
+        "Elektrik voltajını değiştirmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Mors alfabesinde harfler temel olarak nasıl kodlanır?",
+      "options": [
+        "Renk geçişleriyle",
+        "Kısa ve uzun sinyal dizileriyle",
+        "Kabartmalı altı noktalı hücre dizileriyle",
+        "Yalnız el hareketleriyle"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

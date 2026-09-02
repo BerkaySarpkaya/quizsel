@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ133",
+  "displayCode": "Y.Q133",
+  "title": "Genel Kültür 4.5 — 133",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Magna Carta'nın 1215'te kabul edilmesi sırasında İngiltere tahtında hangi kral vardı?",
+      "options": [
+        "II. Henry",
+        "I. Edward",
+        "I. Richard",
+        "Kral John"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kandaki atık maddelerin süzülmesi ve idrarın oluşumunda temel rol oynayan organ hangisidir?",
+      "options": [
+        "Böbrekler",
+        "Akciğerler",
+        "Pankreas",
+        "Dalak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Tuna Nehri sularını hangi denize ulaştırır?",
+      "options": [
+        "Baltık Denizi",
+        "Kuzey Denizi",
+        "Karadeniz",
+        "Adriyatik Denizi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Don Kişot'un yolculuklarında ona eşlik eden sadık yardımcısı kimdir?",
+      "options": [
+        "Dr. Watson",
+        "Mercutio",
+        "Sancho Panza",
+        "Jean Valjean"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Standart bir yaylı çalgılar dörtlüsünde hangi çalgıdan iki tane bulunur?",
+      "options": [
+        "Kontrbas",
+        "Viyolonsel",
+        "Keman",
+        "Viyola"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ramazan Bayramı, İslam takviminde hangi ayın tamamlanmasını takip eder?",
+      "options": [
+        "Recep",
+        "Ramazan",
+        "Zilhicce",
+        "Muharrem"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "QR kodundaki “QR” ifadesi hangi İngilizce sözlerin kısaltmasıdır?",
+      "options": [
+        "Quality Record",
+        "Query Route",
+        "Quantum Read",
+        "Quick Response"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Risotto'nun temel tahıl malzemesi hangisidir?",
+      "options": [
+        "Mısır",
+        "Bulgur",
+        "Pirinç",
+        "Arpa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Salon voleybolunda bir takım sahada aynı anda kaç oyuncuyla yer alır?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Guernica adlı tablo hangi sanatçının eseridir?",
+      "options": [
+        "Pablo Picasso",
+        "Joan Miró",
+        "Salvador Dalí",
+        "Henri Matisse"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

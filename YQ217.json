@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ217",
+  "displayCode": "Y.Q217",
+  "title": "Genel Kültür 4.5 — 217",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir ekosistemde üreticiler enerjiyi çoğunlukla nasıl sisteme dahil eder?",
+      "options": [
+        "Avlanarak",
+        "Fotosentez yoluyla",
+        "Çürümüş madde yiyerek",
+        "Parazit olarak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Et tu, Brute?” ifadesi hangi dildedir?",
+      "options": [
+        "İtalyanca",
+        "Latince",
+        "Eski Yunanca",
+        "Fransızca"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "İyon motoru itkiyi nasıl üretir?",
+      "options": [
+        "Temel olarak yakıtı katı buza çevirerek",
+        "Pervaneyle hava çekerek",
+        "Yüklü parçacıkları yüksek hızla dışarı atarak",
+        "Yerçekimini kapatarak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Kırkpınar geleneğinin merkezindeki spor hangisidir?",
+      "options": [
+        "At yarışı",
+        "Yağlı güreş",
+        "Cirit",
+        "Okçuluk"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Kalamata adı en çok hangi ürünle ilişkilidir?",
+      "options": [
+        "Peynir",
+        "Zeytin",
+        "Pirinç",
+        "Çay"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Yangın üçgeninin bileşenlerinden biri hangisidir?",
+      "options": [
+        "Oksijen",
+        "Azot",
+        "Cam",
+        "Kum"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Nintendo hangi ülke kökenli bir şirkettir?",
+      "options": [
+        "Finlandiya",
+        "Güney Kore",
+        "Japonya",
+        "ABD"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Dama oyununda taşlar temel olarak nasıl hareket eder?",
+      "options": [
+        "Kareler üzerinde çapraz ilerler",
+        "Zarla sayı belirlemeden uçurulur",
+        "Kart gibi desteden çekilir",
+        "Dairesel pistte döner"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "D-Day çıkarmaları 1944’te hangi bölgede gerçekleşti?",
+      "options": [
+        "Normandiya",
+        "Sicilya",
+        "Bretanya",
+        "Katalonya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Rabat hangi ülkenin başkentidir?",
+      "options": [
+        "Moritanya",
+        "Tunus",
+        "Cezayir",
+        "Fas"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

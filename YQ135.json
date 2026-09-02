@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ135",
+  "displayCode": "Y.Q135",
+  "title": "Genel Kültür 4.5 — 135",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ses neden uzay boşluğunda doğrudan yayılamaz?",
+      "options": [
+        "Sıcaklık her yerde sıfır olduğu için",
+        "Yerçekimi tamamen kaybolduğu için",
+        "Titreşimi iletecek maddi ortam olmadığı için",
+        "Işık hızı çok yüksek olduğu için"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Hammurabi Kanunları hangi antik uygarlıkla ilişkilidir?",
+      "options": [
+        "Fenike",
+        "Hitit",
+        "Miken",
+        "Babil"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ren Nehri Kuzey Denizi'ne hangi ülkenin kıyılarında dökülür?",
+      "options": [
+        "Hollanda",
+        "Belçika",
+        "Polonya",
+        "Danimarka"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Sherlock Holmes karakterini yaratan yazar kimdir?",
+      "options": [
+        "Agatha Christie",
+        "G. K. Chesterton",
+        "Arthur Conan Doyle",
+        "Wilkie Collins"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Caz müziğinde “doğaçlama” denildiğinde en çok hangi uygulama kastedilir?",
+      "options": [
+        "Parçanın yalnızca fısıltıyla ve sabit tempoda söylenmesi",
+        "Müzisyenin yazılı partisyonu aynen tekrar etmesi",
+        "Tüm enstrümanların aynı notayı birlikte tekrar etmesi",
+        "Müzisyenin anlık olarak melodik fikirler geliştirmesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "HTTPS kısaltmasındaki “S” harfi neyi ifade eder?",
+      "options": [
+        "Serial",
+        "Static",
+        "Secure",
+        "Shared"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Japonya'daki hanami geleneği en çok neyi seyretmekle ilişkilidir?",
+      "options": [
+        "Pirinç hasadını",
+        "Kiraz çiçeklerini",
+        "Kuzey ışıklarını",
+        "Ay tutulmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Empresyonizm akımının adı, Claude Monet'nin hangi eserinin başlığından türemiştir?",
+      "options": [
+        "Nilüferler Serisi",
+        "İzlenim, Gün Doğumu",
+        "Şemsiyeli Kadın Tablosu",
+        "Rouen Katedrali Serisi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Scrabble oyununda puan kazanmanın temel yolu hangisidir?",
+      "options": [
+        "Taşları renk sırasına dizmek",
+        "Zarlarla sayı toplamı yapmak",
+        "Harf taşlarıyla kelimeler oluşturmak",
+        "Kart çiftlerini ezberlemek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Tofu temel olarak hangi baklagilden üretilir?",
+      "options": [
+        "Yeşil mercimek",
+        "Sarı bezelye",
+        "Kuru nohut",
+        "Soya fasulyesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

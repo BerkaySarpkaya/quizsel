@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ143",
+  "displayCode": "Y.Q143",
+  "title": "Genel Kültür 4.5 — 143",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Roma Cumhuriyeti’nde her yıl seçilen ve en yüksek yürütme yetkisini paylaşan iki magistraya ne ad verilirdi?",
+      "options": [
+        "Senatör",
+        "Praetor",
+        "Konsül",
+        "Tribün"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bitki hücresinde fotosentezin gerçekleştiği temel organel hangisidir?",
+      "options": [
+        "Lizozom",
+        "Mitokondri",
+        "Ribozom",
+        "Kloroplast"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Büyük Rift Vadisi en güçlü biçimde hangi kıtanın doğu kesimiyle ilişkilidir?",
+      "options": [
+        "Güney Amerika",
+        "Avustralya",
+        "Afrika",
+        "Avrupa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Jules Verne’in Denizler Altında Yirmi Bin Fersah romanındaki Nautilus denizaltısının kaptanı kimdir?",
+      "options": [
+        "Long John Silver",
+        "Robinson Crusoe",
+        "Kaptan Nemo",
+        "Phileas Fogg"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Obua ve fagotun ortak çalgısal özelliklerinden biri hangisidir?",
+      "options": [
+        "Metal ağızlıkla çalınmaları",
+        "Çift kamışla ses üretmeleri",
+        "Yayla titreşim oluşturmaları",
+        "Tek kamışla ses üretmeleri"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir web adresindeki “URL” kavramı en temel olarak neyi belirtir?",
+      "options": [
+        "Bir dosyanın sıkıştırma oranını",
+        "Yerel ağın bağlantı hızını",
+        "İnternetteki bir kaynağın adresini",
+        "Ekrandaki renk profilini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Thor hangi mitoloji geleneğinin tanrılarından biridir?",
+      "options": [
+        "Mısır",
+        "Japon",
+        "İskandinav",
+        "Aztek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Benmari usulü pişirme veya ısıtmanın temel mantığı hangisidir?",
+      "options": [
+        "Kabı sıcak su banyosunda ısıtmak",
+        "Kabı buz banyosunda yavaşça soğutmak",
+        "Fırında kuru havayla kızartmak",
+        "Yiyeceği yüksek ateşte kavurmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Basketbolda top sürmeyi bıraktıktan sonra yeniden top sürmeye başlamak hangi ihlal olarak adlandırılır?",
+      "options": [
+        "Çift sürme",
+        "Üç saniye",
+        "Goaltending",
+        "Geri saha"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kübizm denildiğinde aşağıdaki görsel yaklaşımlardan hangisi en çok öne çıkar?",
+      "options": [
+        "Doğayı birebir kopyalama",
+        "Yalnız siyah-beyaz fotoğraf kullanma",
+        "Tek kaçış noktalı gerçekçi perspektif",
+        "Biçimleri geometrik parçalara ayırma"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

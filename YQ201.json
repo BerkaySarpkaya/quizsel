@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ201",
+  "displayCode": "Y.Q201",
+  "title": "Genel Kültür 4.5 — 201",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Akira Kurosawa hangi ülkenin sinemasıyla özdeşleşmiş bir yönetmendir?",
+      "options": [
+        "Çin",
+        "Güney Kore",
+        "Japonya",
+        "Hindistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Gramofon hangi kayıt ortamını çalmak için kullanılır?",
+      "options": [
+        "Dijital hafıza kartı",
+        "CD",
+        "Manyetik kaset",
+        "Plak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Claude Monet hangi sanat akımının önde gelen isimlerindendir?",
+      "options": [
+        "Empresyonizm",
+        "Fütürizm",
+        "Sürrealizm",
+        "Kübizm"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Formula 1’de DRS sistemi esas olarak neyi kolaylaştırır?",
+      "options": [
+        "Güvenlik aracını çağırmayı",
+        "Temel olarak yakıtı tamamen devre dışı bırakmayı",
+        "Aracı dört çeker yapmayı",
+        "Belirli koşullarda hava direncini azaltarak geçiş fırsatını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Gümrük tarifesi neyi ifade eder?",
+      "options": [
+        "Borsa kapanış saatini",
+        "İthal edilen mallara uygulanan vergi veya harcı",
+        "Kredi kartı şifresini",
+        "Şirket içi maaş listesini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "UNO’daki Reverse kartı ne yapar?",
+      "options": [
+        "Oyun yönünü tersine çevirir",
+        "Temel olarak oyunu anında bitirir",
+        "Desteyi ikiye böler",
+        "Herkesin elini sıfırlar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Magna Carta 1215’te hangi ülkede kabul edildi?",
+      "options": [
+        "Portekiz",
+        "Fransa",
+        "İngiltere",
+        "İspanya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Matterhorn hangi dağ sistemindedir?",
+      "options": [
+        "Alpler",
+        "Karpatlar",
+        "Andlar",
+        "Himalayalar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Mitokondri hücrede en çok hangi işlevle ilişkilidir?",
+      "options": [
+        "DNA’nın hücre dışına taşınması",
+        "Hücresel enerji üretimi",
+        "Işık kırılması",
+        "Kemik dokusu üretimi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Kuyucaklı Yusuf romanını kim yazdı?",
+      "options": [
+        "Peyami Safa",
+        "Reşat Nuri Güntekin",
+        "Yakup Kadri Karaosmanoğlu",
+        "Sabahattin Ali"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

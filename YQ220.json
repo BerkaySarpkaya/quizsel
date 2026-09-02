@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ220",
+  "displayCode": "Y.Q220",
+  "title": "Genel Kültür 4.5 — 220",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Match cut kurguda neyi ifade eder?",
+      "options": [
+        "Görsel veya anlamsal benzerlikle iki plan arasında geçişi",
+        "Sadece sesin kesilmesini",
+        "Filmin tersten oynatılmasını",
+        "Kameranın hiç kesmeden dönmesini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Borobudur tapınak kompleksi hangi ülkededir?",
+      "options": [
+        "Kamboçya",
+        "Endonezya",
+        "Tayland",
+        "Myanmar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Bouillabaisse nedir?",
+      "options": [
+        "Fransız balık çorbası",
+        "İtalyan pirinç yemeği",
+        "Alman ekmek türü",
+        "İspanyol tatlısı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "UV indeksi ne hakkında bilgi verir?",
+      "options": [
+        "Rüzgârın ortalama yönü ve hızı",
+        "Morötesi ışınım düzeyi ve riski",
+        "Deniz suyunun tuzluluk düzeyi",
+        "Çevredeki ses basıncı ve şiddeti"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Spotify hangi ülkede kurulmuş bir teknoloji şirketidir?",
+      "options": [
+        "Norveç",
+        "Hollanda",
+        "Danimarka",
+        "İsveç"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Amiral Battı (Battleship) oyununun temel teması nedir?",
+      "options": [
+        "Kelime oluşturmak",
+        "Satranç matı yapmak",
+        "Emlak ticareti yapmak",
+        "Rakibin gizli gemilerinin konumlarını tahmin etmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "1974 Karanfil Devrimi hangi ülkede gerçekleşti?",
+      "options": [
+        "Yunanistan",
+        "İspanya",
+        "İtalya",
+        "Portekiz"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Kraków hangi ülkededir?",
+      "options": [
+        "Slovakya",
+        "Macaristan",
+        "Polonya",
+        "Çekya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Dmitri Mendeleev en çok hangi bilimsel düzenlemeyle tanınır?",
+      "options": [
+        "Kıtaların kayması",
+        "Hücre teorisi",
+        "Periyodik tablo",
+        "Evrim kuramı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Hangul hangi dilin yazı sistemidir?",
+      "options": [
+        "Korece",
+        "Tayca",
+        "Vietnamca",
+        "Japonca"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ204",
+  "displayCode": "Y.Q204",
+  "title": "Genel Kültür 4.5 — 204",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bayeux Duvar Halısı hangi tarihsel olayla ilişkilidir?",
+      "options": [
+        "Temel olarak roma’nın kuruluşu",
+        "Normanların İngiltere’yi fethi",
+        "Amerikan İç Savaşı",
+        "Fransız Devrimi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Modern pentatlon adı neyi ifade eder?",
+      "options": [
+        "On atletizm yarışını",
+        "Tek bir yüzme stilini",
+        "Üç takım oyununu",
+        "Beş farklı disiplinin birleşimini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Tim Berners-Lee en çok hangi teknolojinin geliştirilmesiyle tanınır?",
+      "options": [
+        "Temel olarak gPS",
+        "Transistör",
+        "World Wide Web",
+        "Bluetooth"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Super Mario serisi hangi şirketle ilişkilidir?",
+      "options": [
+        "Atari",
+        "Valve",
+        "Nintendo",
+        "Sega"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "14. yüzyıldaki Kara Ölüm salgını hangi hastalıkla ilişkilendirilir?",
+      "options": [
+        "Veba",
+        "Kolera",
+        "Tifo",
+        "Çiçek hastalığı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Mariana Çukuru hangi okyanustadır?",
+      "options": [
+        "Hint Okyanusu",
+        "Arktik Okyanusu",
+        "Atlas Okyanusu",
+        "Pasifik Okyanusu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Kırmızı kan hücrelerinin temel görevlerinden biri nedir?",
+      "options": [
+        "Antikor üretmek",
+        "Kemik dokusu yapmak",
+        "Oksijen taşımak",
+        "Sinir sinyali iletmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Fyodor Dostoyevski aşağıdaki romanlardan hangisini yazmıştır?",
+      "options": [
+        "Oblomov",
+        "Suç ve Ceza",
+        "Savaş ve Barış",
+        "Babalar ve Oğullar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Pedro Almodóvar hangi ülkenin sinemasıyla ilişkilidir?",
+      "options": [
+        "İtalya",
+        "İspanya",
+        "Meksika",
+        "Arjantin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Bob Marley en çok hangi müzik türüyle özdeşleşmiştir?",
+      "options": [
+        "Reggae",
+        "Flamenko",
+        "Bluegrass",
+        "Tango"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

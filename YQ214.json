@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ214",
+  "displayCode": "Y.Q214",
+  "title": "Genel Kültür 4.5 — 214",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Emancipation Proclamation hangi ülkenin iç savaşı sırasında yayımlandı?",
+      "options": [
+        "Temel olarak meksika",
+        "Amerika Birleşik Devletleri",
+        "Kanada",
+        "Brezilya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Brasília hangi ülkenin başkentidir?",
+      "options": [
+        "Şili",
+        "Arjantin",
+        "Kolombiya",
+        "Brezilya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Ornitorenk memeli olmasına rağmen hangi özelliğe sahiptir?",
+      "options": [
+        "Tüy yerine pulla kaplıdır",
+        "Yumurta bırakır",
+        "Hiç süt üretmez",
+        "Solungaçla nefes alır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Su topu hangi ortamda oynanır?",
+      "options": [
+        "Kum kortta",
+        "Çim sahada",
+        "Yüzme havuzunda",
+        "Buz pistinde"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Otomobilde cruise control neyi yapar?",
+      "options": [
+        "Temel olarak direksiyon oranını virajlarda fiziksel olarak değiştirir",
+        "Seçilen araç hızını otomatik korumaya yardımcı olur",
+        "Lastik basıncını yol boyunca otomatik değiştirir",
+        "Yakıt türünü sürüş sırasında otomatik dönüştürür"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Eğilerek selamlama özellikle hangi kültürel bölgede yaygın bir görgü biçimidir?",
+      "options": [
+        "Temel olarak karayipler",
+        "İskandinavya",
+        "Doğu Asya",
+        "Andlar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Taco hangi ülkenin mutfağına aittir?",
+      "options": [
+        "Meksika",
+        "Arjantin",
+        "Brezilya",
+        "Peru"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Kargo kutusundaki kırık kadeh sembolü neyi ifade eder?",
+      "options": [
+        "İçeriğin yanıcı olduğunu",
+        "İçeriğin kırılabilir olduğunu",
+        "Kutunun ters çevrilmesini",
+        "Kutunun soğuk tutulmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Diğer koşullar sabitken talep artıp arz değişmezse fiyat üzerinde hangi yönde baskı oluşur?",
+      "options": [
+        "Hiçbir zaman etkisiz",
+        "Aşağı yönlü",
+        "Mutlaka sıfıra",
+        "Yukarı yönlü"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Trivia night etkinliğinde katılımcılar genellikle ne yapar?",
+      "options": [
+        "Yemek tariflerini jüri önünde uygulamalı hazırlar",
+        "Bilgi sorularını takım veya bireysel yanıtlar",
+        "Satranç taşlarını süreye karşı hızla dizer",
+        "Şarkı sözlerini müzik eşliğinde sırayla tamamlar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

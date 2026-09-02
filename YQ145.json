@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ145",
+  "displayCode": "Y.Q145",
+  "title": "Genel Kültür 4.5 — 145",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir kimyasal katalizör tepkime hızını artırırken en doğrudan hangi etkiyi yapar?",
+      "options": [
+        "Atomların proton sayılarını kalıcı olarak değiştirir",
+        "Tepkimeyi zorunlu olarak endotermik hâle getirir",
+        "Aktivasyon enerjisini düşüren bir yol sağlar",
+        "Ürünlerin toplam miktarını doğrudan artırır"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bizans İmparatorluğu’nun uzun yüzyıllar boyunca başkenti olan şehir hangisidir?",
+      "options": [
+        "Atina",
+        "Konstantinopolis",
+        "Roma",
+        "Selanik"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Muson iklim sistemini diğerlerinden ayıran temel atmosferik özellik hangisidir?",
+      "options": [
+        "Rüzgârların mevsime göre belirgin yön değiştirmesi",
+        "Yıl boyunca hiç rüzgâr olmaması",
+        "Her gün aynı miktarda yağış düşmesi",
+        "Sadece kutuplarda görülmesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Parçalanma (Things Fall Apart) romanının yazarı kimdir?",
+      "options": [
+        "Ben Okri",
+        "Ngũgĩ wa Thiong’o",
+        "Wole Soyinka",
+        "Chinua Achebe"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Dört Mevsim adlı keman konçertoları dizisinin bestecisi kimdir?",
+      "options": [
+        "George Frideric Handel",
+        "Joseph Haydn",
+        "Johann Sebastian Bach",
+        "Antonio Vivaldi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "CSV dosya biçimi en yaygın olarak ne tür verileri taşımak için kullanılır?",
+      "options": [
+        "Satır ve sütun biçimindeki ikili görüntü verilerini",
+        "İşletim sistemi çekirdek dosyalarını doğrudan çalıştırmak",
+        "Üç boyutlu model geometrilerini metin olarak saklamak",
+        "Satır ve sütun biçimindeki metinsel tablo verilerini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Uçan payanda (flying buttress) özellikle hangi mimari gelenekle özdeşleşmiştir?",
+      "options": [
+        "Gotik mimari",
+        "Brütalizm",
+        "Bauhaus",
+        "Art Deco"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Standart bir iskambil destesindeki iki siyah seri hangileridir?",
+      "options": [
+        "Maça ve sinek",
+        "Kupa ve karo",
+        "Kupa ve maça",
+        "Karo ve sinek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "İthal edilen bir mala devlet tarafından uygulanan vergiye ekonomi dilinde en yaygın olarak ne denir?",
+      "options": [
+        "İthalat kotası",
+        "Gümrük tarifesi",
+        "Faiz indirimi",
+        "Bütçe fazlası"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Espresso hazırlanırken kahve yatağından aromayı çıkarmak için temel olarak hangi yöntem kullanılır?",
+      "options": [
+        "Kahveyi düşük basınçla filtre kağıdından süzmek",
+        "Basınçlı sıcak suyu ince öğütülmüş kahveden geçirmek",
+        "Sıcak buharı doğrudan fincana yönlendirmek",
+        "Çekirdekleri uzun süre soğuk suda bekletmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

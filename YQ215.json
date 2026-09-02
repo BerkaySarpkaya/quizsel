@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ215",
+  "displayCode": "Y.Q215",
+  "title": "Genel Kültür 4.5 — 215",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Odunsu bitkilerde kambiyum neyle ilişkilidir?",
+      "options": [
+        "Tohumun uçmasıyla",
+        "Çiçek renginin oluşmasıyla",
+        "Meyvenin tadıyla",
+        "Gövdenin enine büyümesiyle"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Yansıma sözcük neyi taklit eder?",
+      "options": [
+        "Bir sesi",
+        "Bir zamanı",
+        "Bir sayıyı",
+        "Bir rengi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Wallace and Gromit yapımlarında hangi animasyon tekniği öne çıkar?",
+      "options": [
+        "Bilgisayar destekli 3D animasyon",
+        "Stop-motion kil animasyonu",
+        "Geleneksel hücre animasyonu",
+        "Rotoskop tabanlı animasyon"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Fındıkkıran balesinin müziğini kim bestelemiştir?",
+      "options": [
+        "Pyotr Ilyich Tchaikovsky",
+        "Temel olarak sergei Rachmaninoff",
+        "Alexander Borodin",
+        "Modest Mussorgsky"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Helvetica nedir?",
+      "options": [
+        "Temel olarak bir dans türü",
+        "Bir resim pigmenti",
+        "Bir yazı tipi ailesi",
+        "Bir heykel tekniği"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Triatlon hangi üç temel disiplini birleştirir?",
+      "options": [
+        "Kürek, tenis ve koşu",
+        "Yüzme, bisiklet ve koşu",
+        "Kayak, atıcılık ve yüzme",
+        "Güreş, bisiklet ve atlama"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Ekonomide tekel (monopoly) neyi ifade eder?",
+      "options": [
+        "Vergisiz dış ticareti",
+        "Çok sayıda eşit satıcıyı",
+        "Bir pazarda tek satıcının baskın olması durumunu",
+        "Tüm ürünlerin ücretsiz olmasını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Hearts kart oyununda oyuncular genellikle neyi azaltmaya çalışır?",
+      "options": [
+        "Temel olarak her tur 21 yapmayı",
+        "Ceza puanı getiren kartları almayı",
+        "Elindeki tüm kupaları toplamayı",
+        "Sadece as çekmeyi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Berlin Duvarı Soğuk Savaş boyunca hangi şehri fiziksel olarak böldü?",
+      "options": [
+        "Varşova",
+        "Viyana",
+        "Berlin",
+        "Prag"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Wellington hangi ülkenin başkentidir?",
+      "options": [
+        "Temel olarak samoa",
+        "Fiji",
+        "Avustralya",
+        "Yeni Zelanda"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

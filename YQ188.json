@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ188",
+  "displayCode": "Y.Q188",
+  "title": "Genel Kültür 4.5 — 188",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Jump cut tekniği genellikle nasıl bir kurgu etkisi yaratır?",
+      "options": [
+        "Zamanda veya harekette belirgin sıçrama hissi",
+        "Sesi tersine çevirme",
+        "Görüntüyü tamamen karartma",
+        "Temel olarak kesintisiz gerçek zaman hissi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Édith Piaf hangi ülkenin şanson geleneğiyle özdeşleşmiştir?",
+      "options": [
+        "Fransa",
+        "Kanada",
+        "Belçika",
+        "İsviçre"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Georgia O’Keeffe özellikle hangi tür resimleriyle tanınır?",
+      "options": [
+        "Denizcilik haritaları",
+        "Orta Çağ ikonaları",
+        "Büyük ölçekli çiçek ve doğa formları",
+        "Savaş panoramaları"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Voleybolda libero oyuncusunun temel rolü hangisidir?",
+      "options": [
+        "Temel olarak sürekli servis kullanmak",
+        "Takımın hakemi olmak",
+        "Savunma ve manşet ağırlıklı oynamak",
+        "Yalnız blok yapmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "ARPANET teknoloji tarihinde en çok neyin öncüllerinden biri sayılır?",
+      "options": [
+        "Televizyonun",
+        "İnternetin",
+        "Mekanik saatin",
+        "Buhar makinesinin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Kakuro bulmacasında hücrelere yerleştirilen sayılar neye göre belirlenir?",
+      "options": [
+        "Harflerin alfabetik sırasına göre",
+        "Satranç hamlelerine göre",
+        "Renk karışımına göre",
+        "Verilen toplam ipuçlarına göre"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Antik Roma hamamları yalnızca yıkanma yeri değil, aynı zamanda ne işlev görürdü?",
+      "options": [
+        "Sosyal buluşma alanı",
+        "Temel olarak askerî cephanelik",
+        "Tahıl deposu",
+        "Mahkeme hapishanesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kentleşme terimi en genel anlamıyla neyi ifade eder?",
+      "options": [
+        "Nüfusun ve faaliyetlerin kentlerde yoğunlaşmasını",
+        "Temel olarak tarım alanlarının yalnızca sulanmasını",
+        "Dağların doğal olarak yükselmesini",
+        "Nehirlerin yatak değiştirmesini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Marie Curie en çok hangi bilimsel konudaki çalışmalarıyla tanınır?",
+      "options": [
+        "Radyoaktivite",
+        "Genetik kod",
+        "Klasik mekanik",
+        "Levha tektoniği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Ulysses romanının yazarı kimdir?",
+      "options": [
+        "Samuel Beckett",
+        "James Joyce",
+        "W. B. Yeats",
+        "Oscar Wilde"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

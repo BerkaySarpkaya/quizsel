@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ172",
+  "displayCode": "Y.Q172",
+  "title": "Genel Kültür 4.5 — 172",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Matcha nedir?",
+      "options": [
+        "Kavrulmuş kakao çekirdeği",
+        "Temel olarak arpa bazlı gazlı içecek",
+        "Toz hâline getirilmiş yeşil çay",
+        "Fermente üzüm suyu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "E-postada BCC alanının temel özelliği nedir?",
+      "options": [
+        "Temel olarak mesajı otomatik çevirmesi",
+        "Dosyaları virüssüz yapması",
+        "Göndereni tamamen silmesi",
+        "Alıcı adreslerini diğer alıcılardan gizleyebilmesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Limited şirket yapısının tipik özelliği hangisidir?",
+      "options": [
+        "Yalnız devlet tarafından kurulabilmesi",
+        "Tüm ortakların sınırsız kamu görevlisi olması",
+        "Hiç sermaye gerektirmemesi",
+        "Ortakların sorumluluğunun belirli ölçüde sınırlı olması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Odysseia destanının merkezindeki kahraman kimdir?",
+      "options": [
+        "Odysseus",
+        "Hektor",
+        "Akhilleus",
+        "Agamemnon"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Indiana Jones’un akademik mesleği nedir?",
+      "options": [
+        "Gazeteci",
+        "Doktor",
+        "Astronom",
+        "Arkeolog"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Nina Simone en çok hangi alanla tanınır?",
+      "options": [
+        "Elektronik davul tasarımı",
+        "Opera yönetmenliği",
+        "Keman yapımcılığı",
+        "Şarkıcılık ve piyanistlik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Öpücük (The Kiss) tablosunun ressamı kimdir?",
+      "options": [
+        "Oskar Kokoschka",
+        "Egon Schiele",
+        "Gustav Klimt",
+        "Alfons Mucha"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Otomobil yarışlarında safety car hangi durumda kullanılır?",
+      "options": [
+        "Yarışçılara yakıt taşımak için",
+        "Tur sayısını artırmak için",
+        "Tehlikeli koşullarda araçların hızını kontrollü biçimde düşürmek için",
+        "Start çizgisini değiştirmek için"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hareketli harfli matbaanın yaygınlaşması Avrupa’da en doğrudan neyi kolaylaştırdı?",
+      "options": [
+        "Temel olarak uydular üzerinden küresel haberleşme ağı kurmayı",
+        "Kitapların daha hızlı ve çok sayıda çoğaltılmasını",
+        "Elektrik enerjisini büyük ölçekte depolamayı",
+        "Buharlı gemilerin okyanus aşmasını kolaylaştırmayı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Zeytin dalı yaygın bir sembol olarak neyi temsil eder?",
+      "options": [
+        "Kuraklığı",
+        "Savaşı",
+        "Ticareti",
+        "Barışı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ202",
+  "displayCode": "Y.Q202",
+  "title": "Genel Kültür 4.5 — 202",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Piet Mondrian hangi sanat hareketiyle yakından ilişkilidir?",
+      "options": [
+        "Temel olarak romantizm",
+        "De Stijl",
+        "Barok",
+        "Rokoko"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Modern Olimpiyat meşalesi geleneği sembolik olarak hangi antik ülkeyle ilişkilidir?",
+      "options": [
+        "Mısır",
+        "İran",
+        "Yunanistan",
+        "İtalya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Johannes Gutenberg en çok hangi teknolojiyle ilişkilendirilir?",
+      "options": [
+        "Hareketli harfli matbaa",
+        "Elektrikli telefon sistemi",
+        "Buharlı lokomotif sistemi",
+        "Kablosuz radyo vericisi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Asklepios’un asası sembolü modern kullanımda en çok hangi alanla ilişkilendirilir?",
+      "options": [
+        "Sağlık ve tıp",
+        "Temel olarak tarım",
+        "Mimarlık",
+        "Müzik"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Ayranın temel süt ürünü hangisidir?",
+      "options": [
+        "Krema",
+        "Peynir",
+        "Tereyağı",
+        "Yoğurt"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "E-postada BCC alanı ne işe yarar?",
+      "options": [
+        "İnternet bağlantısını geçici kapatmaya",
+        "Dosya boyutunu otomatik artırmaya",
+        "Alıcıları gizli kopyaya eklemeye",
+        "Mesajı otomatik olarak silmeye"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Toyota hangi ülkede kurulmuş bir otomotiv şirketidir?",
+      "options": [
+        "Japonya",
+        "Güney Kore",
+        "Almanya",
+        "İsveç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Ateşten Gömlek romanının yazarı kimdir?",
+      "options": [
+        "Temel olarak adalet Ağaoğlu",
+        "Fatma Aliye",
+        "Halide Edib Adıvar",
+        "Tomris Uyar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Federico Fellini hangi ülkenin yönetmenidir?",
+      "options": [
+        "İspanya",
+        "Fransa",
+        "Portekiz",
+        "İtalya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Daft Punk elektronik müzik ikilisi hangi ülkedendir?",
+      "options": [
+        "Belçika",
+        "İtalya",
+        "Almanya",
+        "Fransa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

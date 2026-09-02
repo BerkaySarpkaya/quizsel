@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ154",
+  "displayCode": "Y.Q154",
+  "title": "Genel Kültür 4.5 — 154",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bering Boğazı hangi iki kıtayı birbirine en çok yaklaştıran deniz geçididir?",
+      "options": [
+        "Afrika ve Avrupa",
+        "Avrupa ve Kuzey Amerika",
+        "Asya ve Avustralya",
+        "Asya ve Kuzey Amerika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Fizikte eylemsizlik neyi ifade eder?",
+      "options": [
+        "Bir cismin hareket durumundaki değişime direnme eğilimini",
+        "Işığın farklı ortamlarda hareket ederken hız değiştirme eğilimini",
+        "Elektriğin sıvıda donmasını",
+        "Sesin boşlukta hızlanmasını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Bossa nova müzik türü hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "Meksika",
+        "İspanya",
+        "Brezilya",
+        "Küba"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Edebiyatta aliterasyon hangi anlatım tekniğidir?",
+      "options": [
+        "Yakın sözcüklerde aynı ya da benzer seslerin tekrarı",
+        "Bir metindeki sözcükleri tersten sırayla yazma",
+        "Her cümleyi soru biçiminde kurma",
+        "Yalnız yabancı sözcük kullanma"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Düdüklü tencerenin yiyecekleri daha hızlı pişirmesinin temel nedeni nedir?",
+      "options": [
+        "Yemeğin içindeki suyu sürekli dondurması",
+        "İç basıncı artırarak kaynama sıcaklığını yükseltmesi",
+        "İçeride oksijeni tamamen yok etmesi",
+        "Suyu oda sıcaklığında kaynatması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Art Deco tasarımında aşağıdakilerden hangisi daha karakteristiktir?",
+      "options": [
+        "Tamamen süslemesiz toprak kulübeler",
+        "Geometrik ve dekoratif biçimler",
+        "Yalnız ortaçağ sivri kemerleri",
+        "Sadece organik mağara formları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Fenikeliler tarihsel olarak özellikle hangi alanlarla tanınır?",
+      "options": [
+        "Buharlı lokomotif ve demiryolu üretimi",
+        "Deniz ticareti ve alfabe geleneği",
+        "Barutlu topçuluk",
+        "Kutup keşifleri"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Arz değişmezken bir ürüne olan talep belirgin biçimde artarsa fiyat üzerinde genel olarak ne beklenir?",
+      "options": [
+        "Mutlaka sıfıra düşüş",
+        "Hiçbir koşulda değişmeme",
+        "Yukarı yönlü baskı",
+        "Para biriminin ortadan kalkması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Baba (The Godfather) filmindeki merkez ailenin soyadı nedir?",
+      "options": [
+        "Soprano",
+        "Montague",
+        "Buendía",
+        "Corleone"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Domino oyununda kullanılan temel parçalar hangileridir?",
+      "options": [
+        "Üzerinde harfler bulunan yuvarlak oyun kartları",
+        "Üzerinde nokta değerleri bulunan dikdörtgen taşlar",
+        "Renkli zar kuleleri",
+        "Satranç atları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

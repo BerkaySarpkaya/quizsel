@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ216",
+  "displayCode": "Y.Q216",
+  "title": "Genel Kültür 4.5 — 216",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Nosferatu sinema tarihinde hangi türün önemli erken örneklerindendir?",
+      "options": [
+        "Temel olarak western",
+        "Belgesel",
+        "Korku filmi",
+        "Müzikal"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Ukulele en çok hangi ada kültürüyle ilişkilidir?",
+      "options": [
+        "İzlanda",
+        "Borneo",
+        "Sicilya",
+        "Hawaii"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Altın oran kavramı sanat ve tasarımda en çok neyle ilişkilidir?",
+      "options": [
+        "Ses yüksekliğiyle",
+        "Boyanın kuruma süresiyle",
+        "Taşın sertliğiyle",
+        "Oransal kompozisyonla"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Badmintonda top yerine kullanılan nesnenin adı nedir?",
+      "options": [
+        "Tüytop (shuttlecock)",
+        "Temel olarak jack",
+        "Baton",
+        "Puck"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Uzay araçlarında ısı kalkanının temel görevi nedir?",
+      "options": [
+        "Yörüngede oksijen üretmek",
+        "Atmosfere girişte oluşan yüksek ısıdan aracı korumak",
+        "Radyo sinyalini susturmak",
+        "Güneş panellerini katlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Sema töreni hangi tasavvuf geleneğiyle ilişkilidir?",
+      "options": [
+        "Mevlevilik",
+        "Kadirilik",
+        "Bektaşilik",
+        "Nakşibendilik"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Modena adı en çok hangi mutfak ürünüyle ilişkilidir?",
+      "options": [
+        "Kuru kahve",
+        "Mavi peynir",
+        "Yeşil çay",
+        "Balsamik sirke"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Üzeri çizili sigara sembolü neyi ifade eder?",
+      "options": [
+        "Sigara içmenin yasak olduğunu",
+        "Yalnız dışarı çıkışı",
+        "Ateş yakmanın zorunlu olduğunu",
+        "İlk yardım odasını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Döviz kuru neyi gösterir?",
+      "options": [
+        "Ülkenin yüzölçümünü",
+        "Ürünün fiziksel ağırlığını",
+        "Bir para biriminin diğerine göre değerini",
+        "Şirket çalışan sayısını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Aynı kökenden gelen ve farklı dillerde benzer biçim taşıyan kelimeler için hangi kavram kullanılır?",
+      "options": [
+        "Kökteş sözcükler",
+        "Ünlemler",
+        "Zıt anlamlılar",
+        "Eş sesliler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

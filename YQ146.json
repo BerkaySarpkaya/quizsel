@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ146",
+  "displayCode": "Y.Q146",
+  "title": "Genel Kültür 4.5 — 146",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "I. Dünya Savaşı sonrasında Almanya ile imzalanan başlıca barış antlaşması hangisidir?",
+      "options": [
+        "Tordesillas Antlaşması",
+        "Versay Antlaşması",
+        "Brest-Litovsk Antlaşması",
+        "Lozan Antlaşması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Güneş’e Merkür’den daha uzak olmasına rağmen Güneş Sistemi’nin en sıcak gezegeni hangisidir?",
+      "options": [
+        "Jüpiter",
+        "Mars",
+        "Venüs",
+        "Merkür"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Lesotho’nun coğrafi konumunu özel kılan durum hangisidir?",
+      "options": [
+        "İki kıtada eşit büyüklükte toprağı bulunması",
+        "İki farklı okyanusa aynı anda kıyısı olması",
+        "Kuzey Kutup Dairesi içinde yer alması",
+        "Tamamen Güney Afrika ile çevrili olması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Haiku şiir geleneğinin kökeni hangi ülkeye dayanır?",
+      "options": [
+        "İran",
+        "İrlanda",
+        "Japonya",
+        "Çin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Amélie filminin yönetmeni kimdir?",
+      "options": [
+        "Luc Besson",
+        "Jacques Audiard",
+        "François Truffaut",
+        "Jean-Pierre Jeunet"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Flamenko müziği ve dansı İspanya’nın özellikle hangi bölgesiyle özdeşleşmiştir?",
+      "options": [
+        "Galiçya",
+        "Katalonya",
+        "Endülüs",
+        "Bask Bölgesi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Uluslararası Kızılhaç hareketinin kırmızı haç amblemi tarihsel olarak hangi ülkenin bayrağının renkleri ters çevrilerek oluşturulmuştur?",
+      "options": [
+        "Danimarka",
+        "Avusturya",
+        "İsviçre",
+        "İsveç"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Teniste skor 40-40 olduğunda bu duruma ne ad verilir?",
+      "options": [
+        "Set point",
+        "Love",
+        "Tie-break",
+        "Deuce"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "“LED” kısaltmasının İngilizce açılımı hangisidir?",
+      "options": [
+        "Light Emitting Diode",
+        "Low Electric Drive",
+        "Linear Energy Display",
+        "Light Encoding Device"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Braille yazı sisteminde karakterler temel olarak nasıl algılanır?",
+      "options": [
+        "Ekran titreşimi sayılarak",
+        "Kabartma noktalara dokunularak",
+        "Ses frekansları dinlenerek",
+        "Renk tonlarına bakılarak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ193",
+  "displayCode": "Y.Q193",
+  "title": "Genel Kültür 4.5 — 193",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Rosetta Taşı hangi eski yazı sisteminin çözülmesinde kritik rol oynadı?",
+      "options": [
+        "Linear B",
+        "Fenike alfabesi",
+        "Mısır hiyeroglifleri",
+        "Çivi yazısı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Tuna Nehri hangi denize dökülür?",
+      "options": [
+        "Karadeniz",
+        "Baltık Denizi",
+        "Kuzey Denizi",
+        "Adriyatik Denizi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Newton birimi hangi fiziksel büyüklüğü ölçer?",
+      "options": [
+        "Basınç",
+        "Elektrik yükü",
+        "Kuvvet",
+        "Enerji"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Don Kişot romanının yazarı kimdir?",
+      "options": [
+        "Benito Pérez Galdós",
+        "Federico García Lorca",
+        "Lope de Vega",
+        "Miguel de Cervantes"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Casablanca filminin büyük bölümü hangi şehirde geçer?",
+      "options": [
+        "Kazablanka",
+        "Cezayir",
+        "Kahire",
+        "Tunus"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Dört Mevsim adlı konçerto dizisinin bestecisi kimdir?",
+      "options": [
+        "Jean-Baptiste Lully",
+        "Antonio Vivaldi",
+        "Georg Philipp Telemann",
+        "Arcangelo Corelli"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Belleğin Azmi (The Persistence of Memory) tablosunu kim yaptı?",
+      "options": [
+        "Salvador Dalí",
+        "René Magritte",
+        "Joan Miró",
+        "Max Ernst"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Panenka tarzı penaltının ayırt edici özelliği nedir?",
+      "options": [
+        "Topun taç çizgisine atılması",
+        "Kalecinin topu elle oyuna sokması",
+        "Topun kalenin ortasına yumuşakça aşırtılması",
+        "Topun kornerden doğrudan auta gitmesi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Derleyicinin temel görevi nedir?",
+      "options": [
+        "Klavyeyi mekanik olarak temizlemek",
+        "Kaynak kodu çalıştırılabilir veya daha düşük seviyeli koda çevirmek",
+        "İnternet kablosunu test etmek",
+        "Ekran parlaklığını ayarlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Sauna kültürü özellikle hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "İrlanda",
+        "Finlandiya",
+        "İzlanda",
+        "Belçika"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

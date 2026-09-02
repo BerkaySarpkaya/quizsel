@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ200",
+  "displayCode": "Y.Q200",
+  "title": "Genel Kültür 4.5 — 200",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kimyasal tepkimede katalizörün temel etkisi nedir?",
+      "options": [
+        "Elementleri yeni atomlara dönüştürmek",
+        "Sıcaklığı daima sıfıra indirmek",
+        "Temel olarak ürünün kütlesini iki katına çıkarmak",
+        "Tepkime hızını değiştirirken kendisi kalıcı olarak tüketilmemek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Motor yarışlarında pit stop sırasında en yaygın işlemlerden biri nedir?",
+      "options": [
+        "Pisti yeniden asfaltlamak",
+        "Start çizgisini taşımak",
+        "Yarış yönünü ters çevirmek",
+        "Lastik değiştirmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Modern tükenmez kalemin geliştirilmesi en çok hangi isimle ilişkilidir?",
+      "options": [
+        "Rudolf Diesel",
+        "Elias Howe",
+        "John Logie Baird",
+        "László Bíró"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Día de los Muertos geleneği en çok hangi ülkeyle ilişkilidir?",
+      "options": [
+        "İspanya",
+        "Küba",
+        "Peru",
+        "Meksika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Kombucha temelde hangi içeceğin fermente edilmesiyle yapılır?",
+      "options": [
+        "Süt",
+        "Çay",
+        "Meyve suyu",
+        "Kahve"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Carpool neyi ifade eder?",
+      "options": [
+        "Birden fazla kişinin aynı araçla yolculuk paylaşmasını",
+        "Uçağın yük paylaşımını",
+        "Yalnız bisiklet kiralamayı",
+        "Temel olarak her yolcunun ayrı araç kullanmasını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Fırsat maliyeti neyi ifade eder?",
+      "options": [
+        "Ödenen vergilerin toplam tutarını",
+        "Bir ürünün yalnız etiket fiyatını",
+        "Vazgeçilen en iyi alternatifin değerini",
+        "Banknotların üretim maliyetini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Klasik solitaire genellikle kaç kişi tarafından oynanır?",
+      "options": [
+        "Bir kişi",
+        "Altı kişi",
+        "Dört kişi",
+        "İki kişi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Songhai İmparatorluğu hangi bölgede güçlü bir devlet kurdu?",
+      "options": [
+        "Güneydoğu Asya",
+        "İskandinavya",
+        "Batı Afrika",
+        "Andlar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Vezüv Yanardağı hangi İtalyan şehrinin yakınındadır?",
+      "options": [
+        "Torino",
+        "Napoli",
+        "Bologna",
+        "Milano"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

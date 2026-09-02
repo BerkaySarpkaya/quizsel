@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ137",
+  "displayCode": "Y.Q137",
+  "title": "Genel Kültür 4.5 — 137",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Rosetta Taşı'nın çözülmesi, özellikle hangi eski yazı sisteminin okunmasına büyük katkı sağladı?",
+      "options": [
+        "Çivi yazısı",
+        "Linear B",
+        "Mısır hiyeroglifleri",
+        "Runik yazı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Mitokondrinin hücredeki temel görevlerinden biri hangisidir?",
+      "options": [
+        "Sinir impulslarını kas dokusu dışında kalıcı depolamak",
+        "Bitki hücre duvarını yalnız minerallerden oluşturmak",
+        "Hücrenin bütün genetik bilgisini dışarıya taşımak",
+        "ATP yoluyla enerji üretimine katkı sağlamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ümit Burnu hangi ülkenin kıyısındadır?",
+      "options": [
+        "Namibya",
+        "Güney Afrika",
+        "Mozambik",
+        "Madagaskar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Modern standart bir piyanoda genellikle kaç tuş bulunur?",
+      "options": [
+        "76",
+        "96",
+        "88",
+        "82"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Düşünen Adam (The Thinker) heykeli hangi sanatçıyla özdeşleşmiştir?",
+      "options": [
+        "Henry Moore",
+        "Alberto Giacometti",
+        "Auguste Rodin",
+        "Constantin Brâncuși"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir yazılımın “açık kaynak” olması en temel olarak ne anlama gelir?",
+      "options": [
+        "Kaynak kodunun lisans koşulları altında incelenip değiştirilebilmesi",
+        "Programın yalnız internet bağlantısı olmadan çalışabilmesi",
+        "Yazılımın yalnız ücretsiz donanımla birlikte dağıtılması",
+        "Tüm kullanıcı verilerinin herkes tarafından serbestçe okunabilmesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Basketbolda başarılı bir serbest atış kaç sayı değerindedir?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Dante'nin İlahi Komedya'sının yolculuğu hangi bölümle başlar?",
+      "options": [
+        "Araf",
+        "Cehennem",
+        "Cennet",
+        "Olimpos"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kuskus (couscous) geleneksel olarak en çok hangi buğday ürününden yapılır?",
+      "options": [
+        "Yulaf ezmesi",
+        "İrmik",
+        "Mısır unu",
+        "Çavdar kepeği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Día de los Muertos (Ölüler Günü) kutlamaları en güçlü biçimde hangi ülkeyle ilişkilidir?",
+      "options": [
+        "Peru",
+        "Meksika",
+        "İspanya",
+        "Arjantin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

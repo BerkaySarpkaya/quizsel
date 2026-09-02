@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ144",
+  "displayCode": "Y.Q144",
+  "title": "Genel Kültür 4.5 — 144",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Cebelitarık Boğazı hangi iki büyük su kütlesini birbirine bağlar?",
+      "options": [
+        "Baltık Denizi ile Kuzey Denizi’ni",
+        "Karadeniz ile Ege Denizi’ni",
+        "Atlas Okyanusu ile Akdeniz’i",
+        "Kızıldeniz ile Hint Okyanusu’nu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Macellan’ın ölümünden sonra seferi tamamlayarak ilk dünya çevresi yolculuğunu sonuçlandıran denizci kimdi?",
+      "options": [
+        "Juan Sebastián Elcano",
+        "Henry Hudson",
+        "Bartolomeu Dias",
+        "Pedro Álvares Cabral"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Paralel ışınları bir odakta toplamaya yarayan mercek türü hangisidir?",
+      "options": [
+        "Kalın kenarlı (ıraksak) mercek",
+        "Silindirik ayna",
+        "İnce kenarlı (yakınsak) mercek",
+        "Düz ayna"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "İspanyolca, Fransızca ve İtalyanca gibi Roman dillerinin ortak tarihsel kökü hangi dildir?",
+      "options": [
+        "Sanskritçe",
+        "Eski Yunanca",
+        "Arapça",
+        "Latince"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Stop-motion animasyonun temel üretim yöntemi hangisidir?",
+      "options": [
+        "Nesneleri küçük adımlarla oynatıp kare kare çekmek",
+        "Dijital çizimleri tek karede birleştirip oynatmak",
+        "Canlı görüntüyü ses kaydıyla eş zamanlı yayınlamak",
+        "Oyuncuları kesintisiz çekip görüntüyü sonradan hızlandırmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Euro Bölgesi’nde para politikasını yürüten temel kurum hangisidir?",
+      "options": [
+        "Dünya Ticaret Örgütü",
+        "OECD Sekretaryası",
+        "Avrupa Merkez Bankası",
+        "Avrupa Yatırım Bankası"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Litre günlük kullanımda en doğrudan hangi büyüklüğü ölçmek için kullanılır?",
+      "options": [
+        "Sıcaklık",
+        "Elektrik akımı",
+        "Kütle",
+        "Hacim"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Klasik pesto genovese sosunun temel yeşil otu hangisidir?",
+      "options": [
+        "Kişniş",
+        "Dereotu",
+        "Fesleğen",
+        "Maydanoz"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Badminton oyununda raketle vurulan özel oyun aracına ne ad verilir?",
+      "options": [
+        "Tüytop",
+        "Disk",
+        "Bocce",
+        "Puck"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Petra antik kenti günümüzde hangi ülkenin sınırları içindedir?",
+      "options": [
+        "Umman",
+        "Ürdün",
+        "Lübnan",
+        "Tunus"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

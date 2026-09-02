@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ134",
+  "displayCode": "Y.Q134",
+  "title": "Genel Kültür 4.5 — 134",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Atacama Çölü'nün büyük bölümü hangi ülkede yer alır?",
+      "options": [
+        "Şili",
+        "Arjantin",
+        "Peru",
+        "Bolivya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Meiji Restorasyonu olarak bilinen 19. yüzyıl siyasi dönüşümü hangi ülkede gerçekleşti?",
+      "options": [
+        "Kore",
+        "Tayland",
+        "Çin",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Bir elementin atom numarası, atom çekirdeğindeki hangi parçacıkların sayısını gösterir?",
+      "options": [
+        "İzotopların",
+        "Nötronların",
+        "Elektron katmanlarının",
+        "Protonların"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ruhların Kaçışı (Spirited Away) filminin yönetmeni kimdir?",
+      "options": [
+        "Isao Takahata",
+        "Satoshi Kon",
+        "Hayao Miyazaki",
+        "Mamoru Hosoda"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Jenga'da oyuncunun temel amacı, kuleyi devirmeden hangi işlemi yapmaktır?",
+      "options": [
+        "Blokları renk sırasına göre yeniden dizmek",
+        "İki bloğu yan yana sabitleyip üst kata taşımak",
+        "Bir bloğu çekip en üste yerleştirmek",
+        "Bir bloğu çekip alt sıraya yerleştirmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Enflasyon en temel anlamıyla neyi ifade eder?",
+      "options": [
+        "Üretimin her yıl aynı kalmasını",
+        "İşsizliğin tamamen ortadan kalkmasını",
+        "Genel fiyat düzeyinin sürekli yükselmesini",
+        "Bir para biriminin adının değiştirilmesini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir pusula iğnesinin kuzey-güney doğrultusuna yönelmesinin temel nedeni nedir?",
+      "options": [
+        "Ay'ın çekim kuvveti",
+        "Hava basıncı farkı",
+        "Güneş ışığının yönü",
+        "Dünya'nın manyetik alanı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "George Orwell takma adıyla tanınan yazarın gerçek adı nedir?",
+      "options": [
+        "William Sydney Porter",
+        "Eric Arthur Blair",
+        "Charles Lutwidge Dodgson",
+        "Samuel Langhorne Clemens"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Guacamole'nin temel malzemesi hangisidir?",
+      "options": [
+        "Kabak",
+        "Nohut",
+        "Avokado",
+        "Patlıcan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Bir maraton koşusunun resmi mesafesi yaklaşık kaç kilometredir?",
+      "options": [
+        "42 km",
+        "30 km",
+        "21 km",
+        "60 km"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

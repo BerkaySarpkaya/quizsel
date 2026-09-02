@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ195",
+  "displayCode": "Y.Q195",
+  "title": "Genel Kültür 4.5 — 195",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Termopylae Savaşı’nda Yunan şehir devletleri hangi imparatorluğun ordusuna karşı savaştı?",
+      "options": [
+        "Pers İmparatorluğu",
+        "Kartaca",
+        "Makedonya",
+        "Roma İmparatorluğu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Mekong Nehri ağırlıklı olarak hangi bölgede akar?",
+      "options": [
+        "Orta Avrupa",
+        "Güney Amerika",
+        "Batı Afrika",
+        "Güneydoğu Asya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Pascal birimi hangi fiziksel büyüklük için kullanılır?",
+      "options": [
+        "Sıcaklık",
+        "Manyetik akı",
+        "Güç",
+        "Basınç"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Madame Bovary romanını kim yazdı?",
+      "options": [
+        "Victor Hugo",
+        "Honoré de Balzac",
+        "Gustave Flaubert",
+        "Émile Zola"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "The Godfather filminin merkezindeki suç ailesinin soyadı nedir?",
+      "options": [
+        "Barzini",
+        "Soprano",
+        "Montana",
+        "Corleone"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Kuğu Gölü balesinin müziğini kim bestelemiştir?",
+      "options": [
+        "Nikolai Rimsky-Korsakov",
+        "Pyotr Ilyich Tchaikovsky",
+        "Igor Stravinsky",
+        "Sergei Prokofiev"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Hünkar beğendi yemeğinin “beğendi” kısmının temel malzemesi nedir?",
+      "options": [
+        "Kabak",
+        "Ispanak",
+        "Patlıcan",
+        "Pırasa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Hektar hangi büyüklüğü ölçmek için kullanılır?",
+      "options": [
+        "Basınç",
+        "Hacim",
+        "Hız",
+        "Alan"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Hindistan’da kullanılan resmî para biriminin adı nedir?",
+      "options": [
+        "Hindistan rupisi",
+        "Japon yeni",
+        "Tayland bahtı",
+        "Çin yuanı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Go oyunu tarihsel olarak hangi ülkede ortaya çıkmıştır?",
+      "options": [
+        "Japonya",
+        "Çin",
+        "Hindistan",
+        "İran"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

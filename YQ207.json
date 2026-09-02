@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ207",
+  "displayCode": "Y.Q207",
+  "title": "Genel Kültür 4.5 — 207",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bobin (indüktör) elektrik devresinde enerjiyi ağırlıklı hangi alanda depolar?",
+      "options": [
+        "Manyetik alanda",
+        "Yerçekimi alanında",
+        "Kimyasal çözeltide",
+        "Ses dalgasında"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Taoizm hangi ülkede doğmuş bir düşünce ve inanç geleneğidir?",
+      "options": [
+        "İran",
+        "Hindistan",
+        "Çin",
+        "Japonya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "1588’deki İspanyol Armadası seferinin başlıca hedefi hangi ülkeydi?",
+      "options": [
+        "İngiltere",
+        "Fransa",
+        "Portekiz",
+        "Hollanda"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Sri Lanka hangi büyük ülkenin güneyinde yer alan bir ada ülkesidir?",
+      "options": [
+        "Hindistan",
+        "Endonezya",
+        "Çin",
+        "Pakistan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Satürn’ün halkaları ağırlıklı olarak hangi maddelerden oluşur?",
+      "options": [
+        "Temel olarak sadece hidrojen gazı",
+        "Buz ve kaya parçacıkları",
+        "Sıvı demir",
+        "Katı altın levhalar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "İlahi Komedya’nın yazarı kimdir?",
+      "options": [
+        "Temel olarak ariosto",
+        "Dante Alighieri",
+        "Petrarca",
+        "Boccaccio"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Toshiro Mifune en çok hangi yönetmenle yaptığı filmlerle tanınır?",
+      "options": [
+        "Takashi Miike",
+        "Akira Kurosawa",
+        "Yasujiro Ozu",
+        "Hayao Miyazaki"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Purple Rain albümü hangi sanatçıyla ilişkilidir?",
+      "options": [
+        "David Bowie",
+        "Elton John",
+        "George Michael",
+        "Prince"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Gotik mimaride uçan payandanın temel işlevi nedir?",
+      "options": [
+        "Kilise çanını mekanik olarak sallamak",
+        "Dışa doğru itme kuvvetlerini desteklemek",
+        "Pencerelerdeki ışığı tamamen engellemek",
+        "Çatıdaki yağmur suyunu yönlendirmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Yüksek atlamada sporcunun temel hedefi nedir?",
+      "options": [
+        "En uzağa disk atmak",
+        "En hızlı turu yüzmek",
+        "Topu potaya atmak",
+        "Çıtayı düşürmeden üzerinden geçmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

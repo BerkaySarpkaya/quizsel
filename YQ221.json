@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ221",
+  "displayCode": "Y.Q221",
+  "title": "Genel Kültür 4.5 — 221",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İnci Küpeli Kız tablosunun ressamı kimdir?",
+      "options": [
+        "Frans Hals",
+        "Johannes Vermeer",
+        "Rembrandt",
+        "Jan Steen"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "America’s Cup hangi sporla ilişkilidir?",
+      "options": [
+        "Yelken",
+        "Boks",
+        "Kayak",
+        "Golf"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "CD hangi tür veri depolama teknolojisidir?",
+      "options": [
+        "Mekanik kart",
+        "Manyetik bant",
+        "Kimyasal film",
+        "Optik disk"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Chichén Itzá hangi uygarlıkla ilişkilidir?",
+      "options": [
+        "Olmek",
+        "Maya",
+        "İnka",
+        "Aztek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Kadife Devrim hangi ülkede komünist yönetimin barışçıl biçimde sona ermesiyle ilişkilidir?",
+      "options": [
+        "Romanya",
+        "Arnavutluk",
+        "Bulgaristan",
+        "Çekoslovakya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Ren-Ruhr bölgesi hangi özelliğiyle bilinir?",
+      "options": [
+        "Büyük bir çöl havzası olmasıyla",
+        "Volkanik ada zinciri olmasıyla",
+        "Tropikal yağmur ormanı olmasıyla",
+        "Yoğun nüfuslu ve sanayileşmiş bir Alman bölgesi olmasıyla"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Doppler etkisi neyi açıklar?",
+      "options": [
+        "Işığın yalnız aynadan yansımasını",
+        "Suyun kaynama noktasını",
+        "Kaynakla gözlemci arasındaki hareket nedeniyle algılanan frekans değişimini",
+        "Maddenin kütlesini kaybetmesini"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "İnce Memed romanının yazarı kimdir?",
+      "options": [
+        "Yaşar Kemal",
+        "Kemal Tahir",
+        "Orhan Kemal",
+        "Tarık Buğra"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Diegetic ses neyi ifade eder?",
+      "options": [
+        "Film karakterlerinin de duyabildiği sesi",
+        "Görüntü üzerine sonradan eklenen altyazıyı",
+        "Yalnız seyircinin duyduğu dış müzik sesini",
+        "Kameranın mekanik çalışma gürültüsünü"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Koto hangi ülkenin geleneksel telli çalgısıdır?",
+      "options": [
+        "Çin",
+        "Endonezya",
+        "Japonya",
+        "Hindistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

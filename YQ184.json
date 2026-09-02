@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ184",
+  "displayCode": "Y.Q184",
+  "title": "Genel Kültür 4.5 — 184",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Darjeeling adı en çok hangi ürünle ilişkilidir?",
+      "options": [
+        "Kakao",
+        "Çay",
+        "Peynir",
+        "Zeytinyağı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Güneş kremindeki SPF değeri özellikle hangi ışınlara karşı korumayla ilişkilidir?",
+      "options": [
+        "Ses dalgalarına",
+        "Radyo dalgalarına",
+        "UVB ışınlarına",
+        "Mikrodalgalara"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Serbest ticaret anlaşmalarının temel amaçlarından biri nedir?",
+      "options": [
+        "Yalnız turizmi yasaklamak",
+        "Tüm şirketleri devletleştirmek",
+        "Temel olarak para birimlerini zorunlu eşitlemek",
+        "Taraflar arasındaki ticaret engellerini azaltmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Minecraft’ın temel oynanış özelliklerinden biri hangisidir?",
+      "options": [
+        "Bloklarla dünyayı keşfetmek ve yapılar inşa etmek",
+        "Yalnız yarış otomobili sürmek",
+        "Kart destesi toplamak",
+        "Sadece futbol maçı yapmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Varşova Paktı Soğuk Savaş’ta hangi blokla ilişkilidir?",
+      "options": [
+        "Temel olarak aBD öncülüğündeki Batı Bloku",
+        "Britanya Milletler Topluluğu",
+        "Sovyetler Birliği öncülüğündeki Doğu Bloku",
+        "Bağlantısızlar Hareketi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir nehir deltası genellikle nasıl oluşur?",
+      "options": [
+        "Temel olarak buzulun dağ zirvesini aşındırmasıyla",
+        "Nehir ağzında taşınan sedimentin birikmesiyle",
+        "Yeraltı mağarasının çökmesiyle",
+        "Rüzgârın kaya yüzeyini cilalamasıyla"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ksilem dokusu bitkide ağırlıklı olarak ne taşır?",
+      "options": [
+        "Su ve mineraller",
+        "Şeker ve aminoasitler",
+        "Polen taneleri",
+        "Oksijen kabarcıkları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Buz hokeyinde top yerine kullanılan oyun nesnesinin adı nedir?",
+      "options": [
+        "Baton",
+        "Puck",
+        "Jack",
+        "Shuttle"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Hibrit otomobil hangi iki güç kaynağını birlikte kullanabilir?",
+      "options": [
+        "Yalnız benzinli motor ve mekanik yay",
+        "İçten yanmalı motor ve elektrik motoru",
+        "Buhar kazanı ve elektrikli pervane",
+        "İnsan gücü ve basınçlı hava motoru"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Karagöz ve Hacivat geleneği hangi gösteri türüdür?",
+      "options": [
+        "Temel olarak pandomim",
+        "Gölge oyunu",
+        "Bale",
+        "Opera"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

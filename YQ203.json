@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ203",
+  "displayCode": "Y.Q203",
+  "title": "Genel Kültür 4.5 — 203",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "James Watt hangi teknolojinin geliştirilmesiyle tanınır?",
+      "options": [
+        "Buhar makinesi",
+        "Telgraf",
+        "Elektrik ampulü",
+        "Fotoğraf makinesi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Lotus çiçeği birçok Asya geleneğinde en çok hangi kavramlarla ilişkilendirilir?",
+      "options": [
+        "Saflık ve ruhsal uyanış",
+        "Sanayi üretimi",
+        "Kış sporları",
+        "Deniz ticareti ve korsanlık"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Wasabi hangi tür üründür?",
+      "options": [
+        "Kurutulmuş meyve",
+        "Keskin aromalı bir bitki kökenli çeşni",
+        "Fermente süt ürünü",
+        "Tahıl lapası"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Sesli mesaj (voicemail) sistemi ne sağlar?",
+      "options": [
+        "Mesajı kâğıda basmayı",
+        "Cevaplanmayan çağrı için ses kaydı bırakmayı",
+        "Temel olarak telefonu fiziksel olarak kilitlemeyi",
+        "Görüntülü aramayı zorunlu kılmayı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "IKEA hangi ülkede doğmuş bir markadır?",
+      "options": [
+        "İsveç",
+        "Danimarka",
+        "Finlandiya",
+        "Norveç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Tetris’te oyuncunun temel amacı nedir?",
+      "options": [
+        "Temel olarak labirentte hayalet kovalamak",
+        "Kart eşleştirmek",
+        "Futbol takımı yönetmek",
+        "Düşen parçalarla yatay çizgiler tamamlamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Bizans’taki ikonoklazm tartışmalarının merkezinde ne vardı?",
+      "options": [
+        "Deniz ticareti",
+        "Madeni para basımı",
+        "Dinî tasvirlerin kullanımı",
+        "Toprak vergisi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Cebelitarık Boğazı Akdeniz’i hangi okyanusa bağlar?",
+      "options": [
+        "Pasifik Okyanusu",
+        "Atlas Okyanusu",
+        "Hint Okyanusu",
+        "Arktik Okyanusu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Kloroplast bitki hücresinde hangi süreçle ilişkilidir?",
+      "options": [
+        "Fotosentez",
+        "Sindirim",
+        "Sinir iletimi",
+        "Kan dolaşımı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Jane Austen aşağıdaki eserlerden hangisinin yazarıdır?",
+      "options": [
+        "Kuzey ve Güney",
+        "Jane Eyre",
+        "Uğultulu Tepeler",
+        "Gurur ve Önyargı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

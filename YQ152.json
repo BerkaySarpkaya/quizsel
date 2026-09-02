@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ152",
+  "displayCode": "Y.Q152",
+  "title": "Genel Kültür 4.5 — 152",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Antik Olimpiyat Oyunları adını aldığı Olympia bölgesinde hangi uygarlık dünyasında doğmuştur?",
+      "options": [
+        "Antik Mısır",
+        "Fenike",
+        "Antik Yunan",
+        "Pers"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Elmas ve grafit hangi elementin farklı yapısal biçimleridir?",
+      "options": [
+        "Kalsiyum",
+        "Silisyum",
+        "Demir",
+        "Karbon"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ekvator Dünya’yı hangi iki yarımküreye ayırır?",
+      "options": [
+        "Kara ve Deniz",
+        "Doğu ve Batı",
+        "Yaz ve Kış",
+        "Kuzey ve Güney"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Dönüşüm (Die Verwandlung) adlı eserin yazarı kimdir?",
+      "options": [
+        "Hermann Hesse",
+        "Franz Kafka",
+        "Thomas Mann",
+        "Stefan Zweig"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Sinemada “Foley” sanatçılarının temel işi nedir?",
+      "options": [
+        "Gündelik ses efektlerini sonradan yeniden üretmek",
+        "Oyuncuların kostüm ve makyajını hazırlamak",
+        "Kamera hareketlerini sette yeniden planlamak",
+        "Filmin dağıtım ve gösterim haklarını yönetmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Carmen operasının bestecisi kimdir?",
+      "options": [
+        "Giuseppe Verdi",
+        "Richard Wagner",
+        "Giacomo Puccini",
+        "Georges Bizet"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bluetooth teknolojisi en temel olarak hangi amaçla kullanılır?",
+      "options": [
+        "Yakındaki cihazları kısa menzilde kablosuz bağlamak",
+        "Elektrik enerjisini mekanik güce dönüştürmek",
+        "Basılı belgeleri yüksek çözünürlükte dijitalleştirmek",
+        "Uzak uydularla kıtalararası veri aktarımı sağlamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Songkran adı verilen geleneksel yeni yıl ve su festivali en güçlü biçimde hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "Vietnam",
+        "Kamboçya",
+        "Laos",
+        "Tayland"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Parmigiano-Reggiano peyniri hangi ülkenin mutfak geleneğine aittir?",
+      "options": [
+        "İspanya",
+        "İsviçre",
+        "İtalya",
+        "Fransa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Golfte bir çukuru par değerinden bir vuruş daha az sayıda tamamlamaya ne ad verilir?",
+      "options": [
+        "Par",
+        "Birdie",
+        "Bogey",
+        "Eagle"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

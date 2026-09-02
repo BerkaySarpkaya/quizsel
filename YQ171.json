@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ171",
+  "displayCode": "Y.Q171",
+  "title": "Genel Kültür 4.5 — 171",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Akciğerlerdeki alveollerin temel işlevi nedir?",
+      "options": [
+        "Gaz alışverişini gerçekleştirmek",
+        "Besinleri emmek",
+        "Sinir iletmek",
+        "Kan hücresi üretmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Jorge Luis Borges hangi ülkenin edebiyatıyla özdeşleşmiştir?",
+      "options": [
+        "Şili",
+        "Meksika",
+        "İspanya",
+        "Arjantin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Erin Brockovich filminde başrolü kim oynadı?",
+      "options": [
+        "Julia Roberts",
+        "Nicole Kidman",
+        "Jodie Foster",
+        "Sandra Bullock"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "David Bowie’nin ünlü sahne personası hangisidir?",
+      "options": [
+        "Johnny Rocket",
+        "Major Tomlin",
+        "Ziggy Stardust",
+        "Blue Moon"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Las Meninas tablosunu kim yaptı?",
+      "options": [
+        "Diego Velázquez",
+        "Francisco Goya",
+        "Bartolomé Murillo",
+        "El Greco"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Motor sporlarında pole position neyi ifade eder?",
+      "options": [
+        "Takımın yedek aracını",
+        "Son turdaki en hızlı zamanı",
+        "En hızlı pit stop ödülünü",
+        "Yarışa ilk sıradan başlama hakkını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bir ülkenin ihracatı ithalatından yüksekse bu durum ne olarak adlandırılır?",
+      "options": [
+        "Ticaret fazlası",
+        "Deflasyon",
+        "Likidite krizi",
+        "Bütçe açığı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "The Legend of Zelda serisinde oyuncunun çoğunlukla kontrol ettiği kahraman kimdir?",
+      "options": [
+        "Epona",
+        "Link",
+        "Ganon",
+        "Zelda"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Yüz Yıl Savaşları ağırlıklı olarak hangi iki krallık arasında geçti?",
+      "options": [
+        "İspanya ve Portekiz",
+        "Prusya ve Avusturya",
+        "İngiltere ve Fransa",
+        "İsveç ve Danimarka"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Borneo Adası toprakları hangi üç ülke arasında paylaşılır?",
+      "options": [
+        "Malezya, Tayland ve Brunei",
+        "Vietnam, Malezya ve Endonezya",
+        "Endonezya, Filipinler ve Singapur",
+        "Endonezya, Malezya ve Brunei"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

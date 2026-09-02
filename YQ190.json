@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ190",
+  "displayCode": "Y.Q190",
+  "title": "Genel Kültür 4.5 — 190",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Safran baharatı bitkinin hangi bölümünden elde edilir?",
+      "options": [
+        "Çiçeğin tepeciklerinden",
+        "Yaprak damarından",
+        "Kök kabuğundan",
+        "Tohum kabuğundan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Bir QR kodu telefonla taramak genellikle ne sağlar?",
+      "options": [
+        "Temel olarak telefonun kamerasını fiziksel büyütmeyi",
+        "SIM kartı silmeyi",
+        "Kodlanmış bağlantı veya bilgiyi hızlı açmayı",
+        "Bataryayı kablosuz değiştirmeyi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Holding şirketinin temel işlevi genellikle nedir?",
+      "options": [
+        "Başka şirketlerde pay sahibi olup onları kontrol etmek",
+        "Sadece kamu vergisi toplamak",
+        "Yalnız perakende mağaza işletmek",
+        "Temel olarak tüm çalışanları serbest meslek sahibi yapmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Tavlada taşların hareketi neyle belirlenir?",
+      "options": [
+        "Kart çekerek",
+        "Saat süresiyle",
+        "Piyon rengiyle",
+        "Zar sonuçlarıyla"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Babür İmparatorluğu tarihsel olarak ağırlıklı hangi bölgede hüküm sürdü?",
+      "options": [
+        "Temel olarak iber Yarımadası",
+        "İskandinav Yarımadası",
+        "Hint alt kıtası",
+        "Güney Amerika"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Grand Canyon’ın oluşumunda başlıca hangi nehir rol oynamıştır?",
+      "options": [
+        "Columbia Nehri",
+        "Colorado Nehri",
+        "Rio Grande",
+        "Mississippi Nehri"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gregor Mendel’in bezelyelerle yaptığı deneyler hangi alanın temelini oluşturdu?",
+      "options": [
+        "Genetik",
+        "Jeoloji",
+        "Termodinamik",
+        "Astronomi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Aşk-ı Memnu romanının yazarı kimdir?",
+      "options": [
+        "Recaizade Mahmut Ekrem",
+        "Peyami Safa",
+        "Halit Ziya Uşaklıgil",
+        "Yakup Kadri Karaosmanoğlu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "The Grand Budapest Hotel filmini kim yönetti?",
+      "options": [
+        "Noah Baumbach",
+        "Wes Anderson",
+        "Sofia Coppola",
+        "Spike Jonze"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kilt adlı geleneksel giysi hangi kültürle özdeşleşmiştir?",
+      "options": [
+        "Meksika",
+        "Fin",
+        "Japon",
+        "İskoç"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

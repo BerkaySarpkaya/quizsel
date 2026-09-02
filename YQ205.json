@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ205",
+  "displayCode": "Y.Q205",
+  "title": "Genel Kültür 4.5 — 205",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Diyotun temel elektronik işlevlerinden biri nedir?",
+      "options": [
+        "Mekanik dönme üretmek",
+        "Sıcaklığı ölçmeden düşürmek",
+        "Akımın bir yönde geçmesini kolaylaştırmak",
+        "Ses kaydını optik filme çevirmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Ra hangi eski uygarlığın güneş tanrısıdır?",
+      "options": [
+        "Maya",
+        "Hitit",
+        "Roma",
+        "Mısır"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Kinoa mutfakta en çok hangi grupta kullanılır?",
+      "options": [
+        "Temel olarak baharat yağı",
+        "Tahıl benzeri tohum",
+        "Süt ürünü",
+        "Et ürünü"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Bileşik faiz neyi ifade eder?",
+      "options": [
+        "Borç tutarının yalnız kurla değiştirilmesini",
+        "Yalnız ana para üzerinden tek sefer faiz hesaplanmasını",
+        "Faizin her dönemde tamamen sıfırlanmasını",
+        "Ana para ve birikmiş faiz üzerinden faiz hesaplanmasını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Samsung hangi ülke kökenli bir şirkettir?",
+      "options": [
+        "Temel olarak japonya",
+        "Çin",
+        "Güney Kore",
+        "Singapur"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Sonic the Hedgehog karakteri hangi oyun şirketiyle ilişkilidir?",
+      "options": [
+        "Blizzard",
+        "Sega",
+        "Nintendo",
+        "Sony"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Charlie Chaplin’in en ünlü sessiz sinema karakterlerinden biri hangisidir?",
+      "options": [
+        "Don Vito Corleone",
+        "Şarlo (The Tramp)",
+        "Rocky Balboa",
+        "Indiana Jones"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Yo-Yo Ma hangi enstrümanın dünyaca tanınan icracısıdır?",
+      "options": [
+        "Çello",
+        "Obua",
+        "Trompet",
+        "Keman"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Pointillism tekniğinde görüntü nasıl oluşturulur?",
+      "options": [
+        "Temel olarak taşa derin oyma yaparak",
+        "Yalnız fotoğraf kolajıyla",
+        "Tek renkli büyük yüzeylerle",
+        "Küçük renk noktalarının yan yana kullanılmasıyla"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Maraton hangi atletizm kategorisine girer?",
+      "options": [
+        "Atma branşı",
+        "Atlama branşı",
+        "Kısa mesafe engelli koşu",
+        "Uzun mesafe yol koşusu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

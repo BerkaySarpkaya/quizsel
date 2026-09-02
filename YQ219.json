@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ219",
+  "displayCode": "Y.Q219",
+  "title": "Genel Kültür 4.5 — 219",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Fovizm (Fauvism) hangi özelliğiyle tanınır?",
+      "options": [
+        "Temel olarak matematiksel perspektifi reddetmeyen tekdüzelikle",
+        "Canlı ve doğal olmayan renk kullanımıyla",
+        "Yalnız siyah-beyaz fotoğrafla",
+        "Taş oyma yazıtlarla"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Tour de France hangi spor dalının en ünlü yarışlarından biridir?",
+      "options": [
+        "Atletizm",
+        "Yol bisikleti",
+        "Motor sporları",
+        "Yüzme"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Unix bilgisayar tarihinde en çok ne olarak bilinir?",
+      "options": [
+        "Bir işletim sistemi ailesinin temeli olarak",
+        "Temel olarak mekanik saat standardı olarak",
+        "Bir radyo türü olarak",
+        "İlk elektrik motoru olarak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Nazar boncuğu halk inanışında neye karşı koruyucu kabul edilir?",
+      "options": [
+        "Yağmur ve sele karşı",
+        "Yüksek ses ve gürültüye",
+        "Soğuk ve dona karşı",
+        "Nazar ve kötü bakışa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Bibimbap hangi ülkenin mutfağına aittir?",
+      "options": [
+        "Temel olarak japonya",
+        "Çin",
+        "Tayland",
+        "Güney Kore"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Bilinci kapalı fakat normal soluyan kişide kurtarma pozisyonunun amacı nedir?",
+      "options": [
+        "Kalp atımını durdurmak",
+        "Vücut sıcaklığını yükseltmek",
+        "Kişiyi ayağa kaldırmak",
+        "Hava yolunun açık kalmasına yardımcı olmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Adidas hangi ülkede kurulmuştur?",
+      "options": [
+        "İsviçre",
+        "Fransa",
+        "Almanya",
+        "İtalya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Reversi (Othello) oyununda temel mekanik nedir?",
+      "options": [
+        "Harf taşlarıyla en yüksek puanlı kelimeyi kurmak",
+        "Zarla belirlenen şehirleri sırayla satın almak",
+        "Kartları toplam değeri 21 olacak biçimde seçmek",
+        "Rakip taşları araya alıp kendi rengine çevirmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Dutch angle çekiminde kamera nasıl konumlandırılır?",
+      "options": [
+        "Sürekli ağır çekim kullanır",
+        "Tam tepeden dik tutulur",
+        "Ufuk çizgisi eğik görünecek şekilde yana yatırılır",
+        "Temel olarak yalnız siyah-beyaz kayıt yapar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Theremin hangi sıra dışı özelliğiyle bilinir?",
+      "options": [
+        "Temel olarak sadece tek nota üretmesi",
+        "Elektrik kullanmaması",
+        "Enstrümana fiziksel olarak dokunmadan çalınabilmesi",
+        "Yalnız su altında çalınması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ158",
+  "displayCode": "Y.Q158",
+  "title": "Genel Kültür 4.5 — 158",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Levha tektoniği kuramı en doğrudan hangi olguları açıklamaya yardımcı olur?",
+      "options": [
+        "Gezegenlerin Güneş çevresindeki yörüngelerini açıklamak",
+        "Işığın prizmada renklere ayrılması",
+        "Kıtaların hareketi ve birçok depremin oluşumu",
+        "Bitkilerin fotosentez yapması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "The Truman Show filminin merkezindeki temel fikir hangisidir?",
+      "options": [
+        "Bir uzay savaşının yönetilmesi",
+        "Başkarakterin hayatının haberi olmadan televizyon programına dönüştürülmesi",
+        "Tarih öncesi canlıların laboratuvarda yeniden klonlanması",
+        "Bir mahkeme jürisinin karar vermesi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İber Yarımadası'nın büyük bölümünü hangi iki ülke paylaşır?",
+      "options": [
+        "İspanya ve Portekiz",
+        "Fransa ve Belçika",
+        "İtalya ve Slovenya",
+        "Norveç ve İsveç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bir ülkenin ürettiği mal ve hizmetleri başka ülkelere satmasına ne ad verilir?",
+      "options": [
+        "İhracat",
+        "İthalat",
+        "Enflasyon",
+        "Amortisman"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Kürk Mantolu Madonna romanının yazarı kimdir?",
+      "options": [
+        "Sait Faik Abasıyanık",
+        "Peyami Safa",
+        "Ahmet Hamdi Tanpınar",
+        "Sabahattin Ali"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "İspanyol mutfağındaki gazpacho genellikle nasıl servis edilir?",
+      "options": [
+        "Tatlı hamur işi olarak",
+        "Soğuk çorba olarak",
+        "Izgara et olarak",
+        "Sıcak pilav olarak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Formula 1'de pit stopun temel amaçlarından biri hangisidir?",
+      "options": [
+        "Yarış pistinin hasarlı bölümlerini hızlıca onarmak",
+        "Lastikleri değiştirmek ve araca hızlı servis yapmak",
+        "Sürücünün lisansını yenilemek",
+        "Rakibin turunu iptal etmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Mansa Musa hangi tarihî imparatorluğun hükümdarıydı?",
+      "options": [
+        "Aztek İmparatorluğu",
+        "Mali İmparatorluğu",
+        "Bizans İmparatorluğu",
+        "Moğol İmparatorluğu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Rölyef (kabartma) tekniğini en iyi hangi ifade tanımlar?",
+      "options": [
+        "Yalnız sıvı boyayla yapılan resim",
+        "Camın tamamen eritilip üflenmesi",
+        "Taşın toz hâline getirilmesi",
+        "Figürlerin bir yüzeyden kabararak yükselmesi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Monopoly'nin temel oyun mekaniği en çok neye dayanır?",
+      "options": [
+        "Harflerden belirli puanlı kelimeler kurmak",
+        "Taşları yalnız çapraz oynatma",
+        "Mülk satın alma ve kira toplama",
+        "Düşen blokları satır yapma"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

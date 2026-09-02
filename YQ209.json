@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ209",
+  "displayCode": "Y.Q209",
+  "title": "Genel Kültür 4.5 — 209",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Andromeda hangi tür gök cismidir?",
+      "options": [
+        "Uydu",
+        "Galaksi",
+        "Kuyruklu yıldız",
+        "Gezegen"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Çapraz bulmacada cevaplar nasıl yerleştirilir?",
+      "options": [
+        "Kesişen yatay ve dikey kutulara",
+        "Satranç taşlarına",
+        "Temel olarak sadece dairesel halkalara",
+        "Zar yüzlerine"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Elizabeth Bennet hangi romanın karakteridir?",
+      "options": [
+        "Northanger Abbey",
+        "Kuzey ve Güney",
+        "Jane Eyre",
+        "Gurur ve Önyargı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Sahra Çölü hangi kıtadadır?",
+      "options": [
+        "Güney Amerika",
+        "Asya",
+        "Afrika",
+        "Avustralya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Ford’un otomotiv tarihinde yaygınlaştırdığı üretim yöntemi hangisidir?",
+      "options": [
+        "Hareketli montaj hattı",
+        "Taş baskı",
+        "El yazması üretimi",
+        "Yalnız tek parça el işçiliği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "İki faktörlü kimlik doğrulama ne sağlar?",
+      "options": [
+        "Dosyaları otomatik olarak kâğıda basmak",
+        "Ekran boyutunu yazılımla fiziksel büyütmek",
+        "İnternet hızını otomatik iki katına çıkarmak",
+        "Parolaya ikinci doğrulama katmanı eklemek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "12 ölçülük kalıp en çok hangi müzik türünün temel yapılarından biridir?",
+      "options": [
+        "Blues",
+        "Vals",
+        "Opera",
+        "Gamelan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Ellen Ripley hangi film serisinin karakteridir?",
+      "options": [
+        "Predator",
+        "Alien",
+        "Terminator",
+        "Matrix"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Magellan’ın başlattığı sefer tarihsel olarak hangi başarıyla ilişkilidir?",
+      "options": [
+        "Süveyş Kanalı’nın açılması",
+        "Temel olarak amerika’nın ilk haritasının çizilmesi",
+        "Kuzey Kutbu’na ilk ulaşım",
+        "Dünyanın ilk deniz yoluyla çevresinin dolaşılması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Braising tekniğinde yiyecek genellikle nasıl pişirilir?",
+      "options": [
+        "Az miktar sıvıyla kapalı ortamda yavaşça",
+        "Temel olarak bol yağda kısa sürede kızartılarak",
+        "Buz üzerinde çevrilerek",
+        "Yalnız mikrodalgada kurutularak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

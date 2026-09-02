@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ157",
+  "displayCode": "Y.Q157",
+  "title": "Genel Kültür 4.5 — 157",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Anka kuşu efsanelerinde en belirgin motif hangisidir?",
+      "options": [
+        "Denizin altında yaşamak",
+        "Taşa dönüşmek",
+        "Ay tutulmasını başlatmak",
+        "Küllerinden yeniden doğmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Protestan Reformu'nun başlangıcıyla en çok ilişkilendirilen tarihî kişi kimdir?",
+      "options": [
+        "Galileo Galilei",
+        "Niccolò Machiavelli",
+        "James Watt",
+        "Martin Luther"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "DNA'nın hücredeki temel rolü hangisidir?",
+      "options": [
+        "Genetik bilgiyi taşımak",
+        "Kanı pompalamak",
+        "Işığı sese çevirmek",
+        "Kemikleri sertleştirmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Çayı “demlemek” temel olarak hangi işlemi ifade eder?",
+      "options": [
+        "Yaprakları soğuk yağda uzun süre bekletmek",
+        "Çayı yağda kızartmak",
+        "Yaprakları sıcak suda bekleterek tat ve aromayı çıkarmak",
+        "Suyu vakumla katılaştırmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Akdeniz ikliminin yaz mevsimi genellikle nasıldır?",
+      "options": [
+        "Soğuk ve sürekli karlı",
+        "Serin ve yıl boyu muson yağışlı",
+        "Donmuş ve karanlık",
+        "Sıcak ve kurak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Müzikte “allegro” tempo işareti genellikle ne anlama gelir?",
+      "options": [
+        "Çok yavaş ve ağır",
+        "Hızlı ve canlı",
+        "Tam sessizlik",
+        "Yalnız tek nota"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Evde kullanılan kablosuz yönlendiricinin (router) temel görevi nedir?",
+      "options": [
+        "Ağ bağlantısını cihazlar arasında yönlendirmek ve paylaşmak",
+        "Ev tipi buzdolabını sürekli soğutmak",
+        "Basılı kâğıt belgeleri fiziksel olarak çoğaltmak",
+        "Elektrik sayaçlarından uzaktan tüketim verisi okuyup kaydetmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Geleneksel bir sone genellikle kaç dizeden oluşur?",
+      "options": [
+        "8",
+        "14",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Teniste “Grand Slam turnuvaları” denince kaç büyük turnuva kastedilir?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Santigrat derece (°C) hangi büyüklüğü ifade eder?",
+      "options": [
+        "Sıcaklık",
+        "Hacim",
+        "Kütle",
+        "Elektrik direnci"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

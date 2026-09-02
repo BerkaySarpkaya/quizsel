@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ196",
+  "displayCode": "Y.Q196",
+  "title": "Genel Kültür 4.5 — 196",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sodyum elementinin kimyasal sembolü nedir?",
+      "options": [
+        "So",
+        "S",
+        "Sd",
+        "Na"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Yaşlı Adam ve Deniz’in yazarı kimdir?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "John Steinbeck",
+        "Ernest Hemingway"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Back to the Future filminde zaman makinesine dönüştürülen otomobil modeli hangisidir?",
+      "options": [
+        "DeLorean",
+        "Corvette",
+        "Mustang",
+        "Beetle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Obua hangi çalgı ailesine aittir?",
+      "options": [
+        "Tahta üflemeliler",
+        "Vurmalılar",
+        "Bakır üflemeliler",
+        "Telli yaylılar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Venüs’ün Doğuşu tablosunu kim yaptı?",
+      "options": [
+        "Temel olarak titian",
+        "Sandro Botticelli",
+        "Raphael",
+        "Giorgione"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Basketbolda alley-oop hareketi genellikle nasıl tamamlanır?",
+      "options": [
+        "Topun yerden sektirilmeden orta sahadan atılmasıyla",
+        "Rakibin pasının saha dışına gönderilmesiyle",
+        "Havaya atılan pasın potaya yakın havada yakalanıp sayıya çevrilmesiyle",
+        "Serbest atıştan sonra mola alınmasıyla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Bulut bilişim neyi ifade eder?",
+      "options": [
+        "İşlem ve depolama kaynaklarının ağ üzerinden hizmet olarak sunulmasını",
+        "Elektrik üretiminin bulutlardan sağlanmasını",
+        "Hava tahmininin bilgisayarsız yapılmasını",
+        "Yalnız yerel diskte çevrimdışı çalışma zorunluluğunu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Inuit halkları geleneksel olarak hangi bölgede yaşar?",
+      "options": [
+        "Sahra Çölü’nde",
+        "Arktik bölgelerde",
+        "Himalaya eteklerinde",
+        "Amazon havzasında"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Mercimek köftesinde temel bakliyat hangisidir?",
+      "options": [
+        "Barbunya",
+        "Nohut",
+        "Kuru fasulye",
+        "Kırmızı mercimek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Titicaca Gölü hangi iki ülke arasında yer alır?",
+      "options": [
+        "Ekvador ve Peru",
+        "Kolombiya ve Venezuela",
+        "Şili ve Arjantin",
+        "Peru ve Bolivya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

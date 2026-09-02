@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ179",
+  "displayCode": "Y.Q179",
+  "title": "Genel Kültür 4.5 — 179",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Nemo hangi balık türüdür?",
+      "options": [
+        "Ton balığı",
+        "Kılıç balığı",
+        "Melek balığı",
+        "Palyaço balığı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Woodstock 1969 ne tür bir etkinlikti?",
+      "options": [
+        "Büyük bir müzik festivali",
+        "Temel olarak klasik bale yarışması",
+        "Opera binası açılışı",
+        "Film ödül töreni"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Soteleme tekniğinde yiyecek genellikle nasıl pişirilir?",
+      "options": [
+        "Temel olarak düşük ısıda kapalı fırında saatlerce",
+        "Az yağda yüksek ısıda kısa sürede",
+        "Buz üzerinde karıştırılarak",
+        "Bol suda çok uzun süre"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Ekran görüntüsü (screenshot) neyi kaydeder?",
+      "options": [
+        "Kameranın lens çapını",
+        "Ekranda o anda görünen görüntüyü",
+        "Temel olarak wi-Fi şifresini otomatik",
+        "Telefonun iç sıcaklığını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "17. yüzyıldaki Lale Çılgınlığı hangi ülkenin ekonomik tarihiyle ilişkilidir?",
+      "options": [
+        "İsveç",
+        "Hollanda",
+        "İspanya",
+        "İtalya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Escape room etkinliğinde temel amaç nedir?",
+      "options": [
+        "Film senaryosu yazmak",
+        "Müzik aleti akort etmek",
+        "Yalnız koşu yarışı yapmak",
+        "İpuçları ve bulmacaları çözerek belirli sürede çıkışı bulmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Kırım Savaşı adını hangi yarımadadan alır?",
+      "options": [
+        "İber Yarımadası",
+        "Balkan Yarımadası",
+        "Kırım Yarımadası",
+        "Arap Yarımadası"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Kahire hangi büyük nehir kıyısında kuruludur?",
+      "options": [
+        "Kongo",
+        "Zambezi",
+        "Nil",
+        "Nijer"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Magma ile lav arasındaki temel fark nedir?",
+      "options": [
+        "Lav, yüzeye çıkmış magmadır",
+        "Magma yalnız denizde oluşur",
+        "Lav yalnız katı kayadır",
+        "Magma her zaman sudan oluşur"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Limerick şiir biçiminin tipik dize sayısı kaçtır?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "8"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

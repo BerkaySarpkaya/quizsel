@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ176",
+  "displayCode": "Y.Q176",
+  "title": "Genel Kültür 4.5 — 176",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Friends dizisinin ana hikâyesi hangi şehirde geçer?",
+      "options": [
+        "Los Angeles",
+        "Boston",
+        "Chicago",
+        "New York"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Anubis hangi eski uygarlığın mitolojisinde yer alır?",
+      "options": [
+        "Mısır",
+        "Maya",
+        "İskandinav",
+        "Yunan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Polenta temel olarak hangi tahıldan yapılır?",
+      "options": [
+        "Yulaf",
+        "Mısır",
+        "Çavdar",
+        "Pirinç"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Kişisel finansta acil durum fonunun temel amacı nedir?",
+      "options": [
+        "Beklenmedik giderler için likit bir güvenlik yastığı oluşturmak",
+        "Tüm parayı tek hisseye yatırmak",
+        "Günlük harcamayı zorunlu artırmak",
+        "Kredi kartı limitini büyütmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Dünya Bankası Grubu en çok hangi tür faaliyetle ilişkilidir?",
+      "options": [
+        "Olimpiyat kurallarını belirlemek",
+        "Kalkınma projelerine finansman ve destek sağlamak",
+        "Hava trafiğini yönetmek",
+        "Müzik teliflerini dağıtmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Anagram nasıl oluşturulur?",
+      "options": [
+        "Sadece sesli harfleri silerek",
+        "Temel olarak her harfi iki kez yazarak",
+        "Sözcüğü yalnız tersten okuyarak",
+        "Bir sözcük veya ifadenin harflerini yeniden düzenleyerek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Hollanda Altın Çağı ağırlıklı olarak hangi yüzyılla ilişkilendirilir?",
+      "options": [
+        "19. yüzyıl",
+        "17. yüzyıl",
+        "20. yüzyıl",
+        "15. yüzyıl"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Moğolistan hangi iki ülke arasında yer alır?",
+      "options": [
+        "Rusya ve Çin",
+        "Çin ve Hindistan",
+        "Rusya ve Kazakistan",
+        "Kazakistan ve Çin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Samanyolu hangi tür gökadadır?",
+      "options": [
+        "Temel olarak halka gökada",
+        "Düzensiz gökada",
+        "Çubuklu sarmal gökada",
+        "Eliptik gökada"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Jean Valjean hangi romanın ana karakterlerinden biridir?",
+      "options": [
+        "Sefiller",
+        "Germinal",
+        "Madam Bovary",
+        "Candide"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

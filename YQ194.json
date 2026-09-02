@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ194",
+  "displayCode": "Y.Q194",
+  "title": "Genel Kültür 4.5 — 194",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İsviçre’nin resmî para birimi hangisidir?",
+      "options": [
+        "İsviçre frangı",
+        "Norveç kronu",
+        "Euro",
+        "İsveç kronu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Satrançta rok hamlesi hangi iki taşın birlikte hareket ettiği özel hamledir?",
+      "options": [
+        "Şah ve kale",
+        "At ve piyon",
+        "Vezir ve fil",
+        "Kale ve fil"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Hammurabi Kanunları hangi Mezopotamya devletiyle ilişkilidir?",
+      "options": [
+        "Sümer",
+        "Akad",
+        "Asur",
+        "Babil"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "The Planets süitinin bestecisi kimdir?",
+      "options": [
+        "Gustav Holst",
+        "Edward Elgar",
+        "Benjamin Britten",
+        "Ralph Vaughan Williams"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Gece Devriyesi (The Night Watch) tablosunun ressamı kimdir?",
+      "options": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Peter Paul Rubens",
+        "Frans Hals"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Basketbolda triple-double neyi ifade eder?",
+      "options": [
+        "Maçın üç uzatma oynamasını",
+        "Bir oyuncunun üç istatistik kategorisinde çift haneli sayıya ulaşmasını",
+        "Üç oyuncunun aynı anda faul almasını",
+        "Üçlük çizgisinden üç kez sayı bulmasını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "QR kod en genel olarak ne işe yarar?",
+      "options": [
+        "Elektrik enerjisini kablosuz üretmek",
+        "Makinece okunabilen bilgi taşımak",
+        "Fotoğrafı analog filme otomatik kaydetmek",
+        "Ses verisini hoparlöre doğrudan aktarmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Mate içeceğini paylaşma geleneği özellikle hangi bölgeyle ilişkilidir?",
+      "options": [
+        "Güney Amerika’nın güneyi",
+        "Temel olarak güneydoğu Asya",
+        "Kuzey Avrupa",
+        "Kuzey Afrika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Gulaş hangi ülkenin mutfağıyla özellikle ilişkilidir?",
+      "options": [
+        "Polonya",
+        "Avusturya",
+        "Macaristan",
+        "Romanya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Kilovat-saat (kWh) neyin birimidir?",
+      "options": [
+        "Sıcaklık",
+        "Güç",
+        "Basınç",
+        "Enerji"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

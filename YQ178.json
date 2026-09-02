@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ178",
+  "displayCode": "Y.Q178",
+  "title": "Genel Kültür 4.5 — 178",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Blanching (blanşe etme) tekniği genel olarak ne yapar?",
+      "options": [
+        "Temel olarak gıdayı uzun süre tuz içinde bekletir",
+        "Gıdayı yalnızca dondurarak uzun süre saklar",
+        "Gıdayı kuru tavada uzun süre kavurur",
+        "Gıdayı kısa süre kaynar suya sokup hızla soğutur"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Telefonda uçak modu temel olarak ne yapar?",
+      "options": [
+        "Ekranı fiziksel olarak büyütür",
+        "Kablosuz bağlantıların çoğunu kapatır",
+        "Telefonu fabrika ayarına döndürür",
+        "Bataryayı çıkarır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ford Model T’nin sanayi tarihindeki önemi en çok hangi üretim yaklaşımıyla ilişkilidir?",
+      "options": [
+        "Temel olarak el yapımı tekil üretimle",
+        "Dijital üç boyutlu baskıyla",
+        "Hareketli montaj hattıyla seri üretim",
+        "Yalnız ithal parça kullanımıyla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Karaoke’de katılımcılar genellikle ne yapar?",
+      "options": [
+        "Altyapı müziği eşliğinde şarkı söyler",
+        "Sessiz film izler",
+        "Temel olarak yalnız dans figürü çizer",
+        "Satranç problemi çözer"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Haiti Devrimi’nin tarihsel sonucu aşağıdakilerden hangisidir?",
+      "options": [
+        "Bağımsız bir Haiti devletinin kurulması",
+        "Brezilya’nın cumhuriyet ilan etmesi",
+        "Kanada’nın konfederasyon olması",
+        "Meksika’nın İspanya’ya bağlanması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Rumours albümü hangi gruba aittir?",
+      "options": [
+        "Dire Straits",
+        "Fleetwood Mac",
+        "Supertramp",
+        "Eagles"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Gotik katedrallerde sık görülen mimari öğe hangisidir?",
+      "options": [
+        "Düz beton plak",
+        "Soğan kubbe",
+        "Kerpiç tonoz",
+        "Sivri kemer"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sırıkla atlamada sporcu çıtayı aşmak için temel olarak ne kullanır?",
+      "options": [
+        "Ağır bir disk",
+        "Esnek bir sırık",
+        "Metal bir çekiç",
+        "Kısa bir baton"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kapasitörün temel elektriksel işlevi nedir?",
+      "options": [
+        "Mekanik enerjiyi yakıta çevirmek",
+        "Kabloyu fiziksel olarak uzatmak",
+        "Ses dalgasını üretmeden yok etmek",
+        "Elektrik yükünü geçici olarak depolamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Sihizm tarihsel olarak hangi bölgede ortaya çıkmıştır?",
+      "options": [
+        "Balkanlar",
+        "Tibet",
+        "Anadolu",
+        "Pencap"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

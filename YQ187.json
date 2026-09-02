@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ187",
+  "displayCode": "Y.Q187",
+  "title": "Genel Kültür 4.5 — 187",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Keşkek geleneksel olarak ağırlıklı hangi bileşenle hazırlanır?",
+      "options": [
+        "Mercimek",
+        "Pirinç",
+        "Mısır unu",
+        "Buğday"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Desibel günlük kullanımda en sık hangi büyüklüğün düzeyini ifade eder?",
+      "options": [
+        "Uzunluk ölçüsünü",
+        "Kütle miktarını",
+        "Sıcaklık değerini",
+        "Ses düzeyini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Hindistan’ın para birimi hangisidir?",
+      "options": [
+        "Krona",
+        "Peso",
+        "Rupi",
+        "Dinar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Yo-yo temel olarak nasıl çalışır?",
+      "options": [
+        "Hava üfleyerek",
+        "Suda yüzerek",
+        "İpe bağlı diskin aşağı-yukarı hareketiyle",
+        "Manyetik rayda kayarak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "James Cook’un seferleri en çok hangi okyanus bölgesinin haritalanmasıyla ilişkilidir?",
+      "options": [
+        "Baltık Denizi",
+        "Pasifik Okyanusu",
+        "Karadeniz",
+        "Arktik Okyanusu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Gambiya karada büyük ölçüde hangi ülke tarafından çevrelenmiştir?",
+      "options": [
+        "Senegal",
+        "Moritanya",
+        "Gine",
+        "Mali"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Doğal seçilimde hangi bireylerin özellikleri sonraki nesillerde daha sık görülebilir?",
+      "options": [
+        "Çevre koşullarında daha başarılı üreyenlerin",
+        "En uzun yaşayan tek bireyin",
+        "Tesadüfen ilk doğanların",
+        "Her zaman en büyük olanların"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Devanagari yazı sistemi aşağıdaki dillerden hangisinin yazımında yaygın kullanılır?",
+      "options": [
+        "Korece",
+        "Tayca",
+        "Hintçe",
+        "Japonca"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Jeostasyoner uydu Dünya’dan bakıldığında nasıl görünür?",
+      "options": [
+        "Her saat kutuplar arasında gidip geliyor gibi",
+        "Sürekli batıdan doğuya hızla kayıyor gibi",
+        "Ay’ın çevresinde dönüyor gibi",
+        "Gökyüzünde yaklaşık aynı noktanın üzerinde duruyor gibi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Angkor arkeolojik alanı hangi ülkededir?",
+      "options": [
+        "Kamboçya",
+        "Myanmar",
+        "Laos",
+        "Tayland"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

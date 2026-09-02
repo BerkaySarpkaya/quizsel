@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ175",
+  "displayCode": "Y.Q175",
+  "title": "Genel Kültür 4.5 — 175",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tahin hangi tohumdan yapılır?",
+      "options": [
+        "Haşhaş",
+        "Keten",
+        "Ayçiçeği",
+        "Susam"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Gelir aynı kalırken fiyatlar genel olarak yükselirse satın alma gücü genellikle ne olur?",
+      "options": [
+        "Azalır",
+        "Değişmez",
+        "Artar",
+        "Sıfırlanmak zorundadır"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "IMF’nin temel rollerinden biri hangisidir?",
+      "options": [
+        "Uluslararası posta dağıtmak",
+        "Üye ülkelere makroekonomik ve finansal destek sağlamak",
+        "Patent tescili yapmak",
+        "Dünya Kupası’nı düzenlemek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Klasik tangram kaç geometrik parçadan oluşur?",
+      "options": [
+        "7",
+        "10",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Breaking Bad dizisinin başında Walter White’ın mesleği nedir?",
+      "options": [
+        "Acil servis doktoru",
+        "Tarih öğretmeni",
+        "Kimya öğretmeni",
+        "Ceza hukuku avukatı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "U2 grubu hangi ülkenin müzik sahnesinden çıkmıştır?",
+      "options": [
+        "İskoçya",
+        "Kanada",
+        "Galler",
+        "İrlanda"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Ekspresyonizmde sanatçı genellikle neyi öne çıkarır?",
+      "options": [
+        "Temel olarak matematiksel harita doğruluğunu",
+        "Fotografik nesnelliği",
+        "Duygusal ve öznel ifadeyi",
+        "Yalnız dekoratif simetriyi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "İlk modern Olimpiyat Oyunları 1896’da hangi şehirde düzenlendi?",
+      "options": [
+        "Roma",
+        "Paris",
+        "Londra",
+        "Atina"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Nikola Tesla’nın çalışmaları özellikle hangi elektrik sistemiyle ilişkilidir?",
+      "options": [
+        "Mekanik daktilolarla",
+        "Yalnız doğru akım pilleriyle",
+        "Buharlı lokomotif frenleriyle",
+        "Alternatif akım sistemleriyle"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Athena hangi mitolojinin tanrıçasıdır?",
+      "options": [
+        "Aztek mitolojisi",
+        "Yunan mitolojisi",
+        "İskandinav mitolojisi",
+        "Mısır mitolojisi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

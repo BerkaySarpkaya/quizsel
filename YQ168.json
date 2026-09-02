@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ168",
+  "displayCode": "Y.Q168",
+  "title": "Genel Kültür 4.5 — 168",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Modern kimyada oksidasyon neyi ifade eder?",
+      "options": [
+        "Nötron kaybını",
+        "Elektron kaybını",
+        "Proton kazanımını",
+        "Elektron kazanımını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yaşar Kemal’in İnce Memed serisinin başkahramanının adı nedir?",
+      "options": [
+        "Zebercet",
+        "Memed",
+        "Ali Rıza Bey",
+        "Raif Efendi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Jaws filmindeki ana tehdit nedir?",
+      "options": [
+        "Büyük beyaz köpekbalığı",
+        "Büyük bir katil balina",
+        "Dev bir ahtapot",
+        "Çekiç başlı köpekbalığı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Fado'nun doğduğu müzik kültürü hangi ülkeye aittir?",
+      "options": [
+        "Portekiz",
+        "İtalya",
+        "Yunanistan",
+        "İspanya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Frida Kahlo hangi ülkenin sanatçısıdır?",
+      "options": [
+        "Şili",
+        "İspanya",
+        "Meksika",
+        "Arjantin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Pascal hangi fiziksel büyüklüğün SI birimidir?",
+      "options": [
+        "Basınç",
+        "Güç",
+        "Sıcaklık",
+        "Elektrik akımı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Resesyon terimi genel olarak neyi ifade eder?",
+      "options": [
+        "Ekonomik faaliyette belirgin daralmayı",
+        "Nüfusun aniden artmasını",
+        "Tüm vergilerin kaldırılmasını",
+        "Fiyatların her zaman sıfırlanmasını"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Blackjack oyununda oyuncu hangi sayıya mümkün olduğunca yaklaşmaya çalışır?",
+      "options": [
+        "18",
+        "30",
+        "21",
+        "24"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Orta Çağ’daki Hansa Birliği esas olarak hangi alanda etkiliydi?",
+      "options": [
+        "İpek üretiminde",
+        "Papalık seçimlerinde",
+        "Haçlı seferlerinin yönetiminde",
+        "Kuzey Avrupa ticaretinde"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Babülmendep Boğazı Kızıldeniz’i hangi su kütlesine bağlar?",
+      "options": [
+        "Umman Körfezi",
+        "Aden Körfezi",
+        "Bengal Körfezi",
+        "Basra Körfezi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

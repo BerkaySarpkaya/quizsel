@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ147",
+  "displayCode": "Y.Q147",
+  "title": "Genel Kültür 4.5 — 147",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Grönland coğrafi olarak hangi kıtanın parçası kabul edilir?",
+      "options": [
+        "Kuzey Amerika",
+        "Güney Amerika",
+        "Antarktika",
+        "Avrupa"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Florence Nightingale’in hemşirelik tarihindeki ünü özellikle hangi savaş sırasındaki çalışmalarıyla güçlenmiştir?",
+      "options": [
+        "Kırım Savaşı",
+        "Amerikan İç Savaşı",
+        "Boer Savaşı",
+        "Napolyon Savaşları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "İnsülin hormonu insan vücudunda esas olarak hangi organda üretilir?",
+      "options": [
+        "Dalak",
+        "Safra kesesi",
+        "Pankreas",
+        "Böbrek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Atticus Finch hangi romanda yer alan bir karakterdir?",
+      "options": [
+        "Gazap Üzümleri",
+        "Muhteşem Gatsby",
+        "Bülbülü Öldürmek",
+        "Fareler ve İnsanlar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "American Gothic tablosunun ressamı kimdir?",
+      "options": [
+        "Grant Wood",
+        "Edward Hopper",
+        "Thomas Hart Benton",
+        "Norman Rockwell"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ratatouille adlı sebze yemeği hangi ülkenin mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "İtalya",
+        "Fransa",
+        "İspanya",
+        "Yunanistan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Tavlada bir oyuncunun temel hedefi hangisidir?",
+      "options": [
+        "Rakibin tüm taşlarını tahtanın dışında bırakmak",
+        "Her turda aynı zar kombinasyonunu elde etmek",
+        "Tahtada dört ayrı savunma bölgesi oluşturmak",
+        "Taşlarını kendi iç tahtasına getirip oyundan çıkarmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Olimpik dekatlon kaç farklı atletizm yarışından oluşur?",
+      "options": [
+        "10",
+        "14",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kamu bütçesinde “bütçe açığı” hangi durumda ortaya çıkar?",
+      "options": [
+        "İhracat ithalattan fazla olduğunda",
+        "Borsa endeksi yükseldiğinde",
+        "Kamu harcamaları kamu gelirlerini aştığında",
+        "Faiz oranı düştüğünde"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Avrupa’da hareketli metal harflerle matbaayı yaygınlaştırmasıyla tanınan kişi kimdir?",
+      "options": [
+        "Johannes Gutenberg",
+        "Alexander Graham Bell",
+        "Samuel Morse",
+        "James Watt"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

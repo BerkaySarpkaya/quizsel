@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ208",
+  "displayCode": "Y.Q208",
+  "title": "Genel Kültür 4.5 — 208",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sous vide pişirme tekniğinin temel özelliği nedir?",
+      "options": [
+        "Vakumlu pakette kontrollü düşük sıcaklıkta pişirme",
+        "Güneşte kurutma",
+        "Yalnız kuru buzla dondurma",
+        "Açık ateşte çok yüksek ısıda yakma"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Yatırımda çeşitlendirmenin temel amacı nedir?",
+      "options": [
+        "Riski farklı varlıklara yaymak",
+        "Vergiyi tamamen kaldırmak",
+        "Tüm parayı tek varlığa koymak",
+        "Getiriyi sabitlemek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Dünya Ticaret Örgütü hangi alanla ilgilenir?",
+      "options": [
+        "Sinema telifleriyle",
+        "Küresel spor ligleriyle",
+        "Astronomi araştırmalarıyla",
+        "Uluslararası ticaret kurallarıyla"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Kaleydoskop desenleri temel olarak ne sayesinde oluşur?",
+      "options": [
+        "Radyo dalgalarıyla",
+        "Mekanik saat dişlileriyle",
+        "Aynalarda çoklu yansımalarla",
+        "Sıvı basıncıyla"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Vasco da Gama deniz yoluyla Avrupa’dan hangi ülkeye ulaşmasıyla tanınır?",
+      "options": [
+        "Hindistan",
+        "Meksika",
+        "Çin",
+        "Japonya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Didgeridoo hangi yerli kültürle ilişkilidir?",
+      "options": [
+        "Avustralya Aborjin kültürleri",
+        "Temel olarak maori kültürü",
+        "Sami kültürü",
+        "Ainu kültürü"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Dor düzeni hangi klasik mimari geleneğin sütun düzenlerinden biridir?",
+      "options": [
+        "Japon",
+        "Antik Yunan",
+        "Maya",
+        "Gotik Avrupa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Judo hangi ülkede geliştirilmiştir?",
+      "options": [
+        "Tayland",
+        "Çin",
+        "Japonya",
+        "Brezilya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "AM radyo iletiminde taşıyıcı dalganın hangi özelliği bilgiye göre değiştirilir?",
+      "options": [
+        "Genliği",
+        "Rengi",
+        "Kütlesi",
+        "Sıcaklığı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Zerdüştlük hangi tarihsel figürle ilişkilidir?",
+      "options": [
+        "Konfüçyüs",
+        "Laozi",
+        "Zerdüşt (Zarathustra)",
+        "Guru Nanak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

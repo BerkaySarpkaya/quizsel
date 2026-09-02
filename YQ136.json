@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ136",
+  "displayCode": "Y.Q136",
+  "title": "Genel Kültür 4.5 — 136",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mekong Nehri hangi kıtada yer alır?",
+      "options": [
+        "Asya",
+        "Afrika",
+        "Avrupa",
+        "Güney Amerika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Erken Rönesans'ın gelişimiyle en güçlü biçimde ilişkilendirilen İtalyan şehri hangisidir?",
+      "options": [
+        "Floransa",
+        "Palermo",
+        "Cenova",
+        "Napoli"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Beyaz ışığın prizmadan geçerken renklere ayrılmasının temel nedeni nedir?",
+      "options": [
+        "Tüm renklerin aynı açıyla kırılması ve birleşmesi",
+        "Prizmanın kendi içinden yeni beyaz ışık üretmesi",
+        "Işığın prizmada bütünüyle soğurulup ısıya dönüşmesi",
+        "Farklı dalga boylarının farklı miktarda kırılması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "1927 yapımı Metropolis filminin yönetmeni kimdir?",
+      "options": [
+        "Ernst Lubitsch",
+        "Robert Wiene",
+        "F. W. Murnau",
+        "Fritz Lang"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Esperanto dili hangi amaçla tasarlanmıştır?",
+      "options": [
+        "Yalnız matematiksel işlemleri yazmak",
+        "Eski Latinceyi birebir canlandırmak",
+        "Müzik notalarını sözlü dile çevirmek",
+        "Uluslararası yardımcı iletişim dili olmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir işletmenin gelirleri giderlerinden yüksekse aradaki pozitif fark en genel olarak ne adlandırılır?",
+      "options": [
+        "Vergi",
+        "Enflasyon",
+        "Kâr",
+        "Borç"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Triatlonun üç temel disiplini hangi seçenekte doğru verilmiştir?",
+      "options": [
+        "Yüzme, tenis ve atıcılık",
+        "Bisiklet, kayak ve jimnastik",
+        "Koşu, kürek ve güreş",
+        "Yüzme, bisiklet ve koşu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Sushi'yi tanımlayan temel bileşen, çiğ balıktan ziyade hangisidir?",
+      "options": [
+        "Mayalı hamur",
+        "Sirkeli pirinç",
+        "Haşlanmış patates",
+        "Kavrulmuş mısır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "USB kısaltmasının açılımı hangisidir?",
+      "options": [
+        "Unified System Bridge",
+        "Universal Serial Bus",
+        "Universal Storage Block",
+        "User Signal Base"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kırılmış seramikleri görünür biçimde onarma sanatı olan kintsugi hangi ülke kültürüne aittir?",
+      "options": [
+        "Yunanistan",
+        "Fas",
+        "Meksika",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

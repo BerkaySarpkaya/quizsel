@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ182",
+  "displayCode": "Y.Q182",
+  "title": "Genel Kültür 4.5 — 182",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sessiz sinema döneminde diyalog ve açıklamalar sıkça nasıl aktarılırdı?",
+      "options": [
+        "Radyo yayınıyla",
+        "Ara yazılarla",
+        "Canlı altyazı uygulamasıyla",
+        "Telefon bağlantısıyla"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "La Traviata operasının bestecisi kimdir?",
+      "options": [
+        "Gioachino Rossini",
+        "Giacomo Puccini",
+        "Gaetano Donizetti",
+        "Giuseppe Verdi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "CMYK renk modeli en yaygın olarak hangi alanda kullanılır?",
+      "options": [
+        "Baskı tasarımında",
+        "Uydu yörüngesinde",
+        "Ses kaydında",
+        "Heykel dökümünde"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Şimşek biçimli uyarı işareti genellikle neyi belirtir?",
+      "options": [
+        "Elektrik tehlikesini",
+        "Biyolojik riski",
+        "Yangın çıkışını",
+        "Kaygan zemini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Ekonomide verimlilik en genel olarak neyi karşılaştırır?",
+      "options": [
+        "İhracat ile yalnız döviz kurunu",
+        "Yağış ile sıcaklığı",
+        "Üretilen çıktı ile kullanılan girdileri",
+        "Nüfus ile yüzölçümünü"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Uno’da oyuncu genellikle elindeki kartı neye göre oynar?",
+      "options": [
+        "Renk veya sayı/sembol eşleşmesine göre",
+        "Temel olarak rastgele zar sonucuna göre",
+        "Kartın ağırlığına göre",
+        "Yalnız alfabetik sıraya göre"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Marshall Planı II. Dünya Savaşı sonrasında esas olarak neyi amaçladı?",
+      "options": [
+        "Afrika’da sınırları yeniden çizmeyi",
+        "Batı Avrupa’nın ekonomik toparlanmasını desteklemeyi",
+        "Latin Amerika’da ortak para kurmayı",
+        "Asya’da sömürge yönetimlerini genişletmeyi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Fiyortlar en temel olarak hangi süreçle oluşur?",
+      "options": [
+        "Temel olarak volkan lavlarının göl oluşturması",
+        "Rüzgârın kumulları yığması",
+        "Nehirlerin delta biriktirmesi",
+        "Buzulların aşındırdığı vadilerin denizle dolması"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Penguenler için aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "Uçamazlar ancak iyi yüzücüdürler",
+        "Solungaçla nefes alırlar",
+        "Yalnız tatlı suda yaşarlar",
+        "Uçarlar ama yüzemezler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Yansıma sözcükler hangi özelliğe dayanır?",
+      "options": [
+        "Cümleleri uyaksız kurmaya",
+        "Sözcükleri ters yazmaya",
+        "Yalnız sayı adları kullanmaya",
+        "Sesleri taklit etmeye"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

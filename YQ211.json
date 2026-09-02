@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ211",
+  "displayCode": "Y.Q211",
+  "title": "Genel Kültür 4.5 — 211",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Doğu Hindistan şirketleri tarihsel olarak en çok hangi faaliyetle ilişkilidir?",
+      "options": [
+        "Temel olarak modern yazılım geliştirme",
+        "Sinema üretimi",
+        "Uzay araştırmaları",
+        "Uzun mesafeli ticaret ve sömürgecilik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Yapbozda temel amaç nedir?",
+      "options": [
+        "Topu hedefe atmak",
+        "Parçaları birleştirerek bütün resmi oluşturmak",
+        "Kelime hecelemek",
+        "Temel olarak zar toplamını tahmin etmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Meiji Restorasyonu hangi ülkenin modernleşme süreciyle ilişkilidir?",
+      "options": [
+        "Çin",
+        "Japonya",
+        "Tayland",
+        "Kore"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Muson ikliminin belirgin özelliği hangisidir?",
+      "options": [
+        "Sürekli kutup gecesi",
+        "Her mevsim aynı rüzgâr yönü",
+        "Mevsimlere göre yön değiştiren rüzgârlar ve belirgin yağış dönemi",
+        "Yıl boyu hiç yağış olmaması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Burj Khalifa hangi şehirde bulunur?",
+      "options": [
+        "Abu Dabi",
+        "Riyad",
+        "Dubai",
+        "Doha"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Ragbide “try” neyi ifade eder?",
+      "options": [
+        "Üç sayılık basket atışını",
+        "Topu rakibin sayı alanına kontrollü biçimde bırakmayı",
+        "Kaleye penaltı vuruşunu",
+        "Topu file üzerinden atmayı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Maglev trenlerinde aracın rayla temasını azaltmak için hangi fiziksel ilke kullanılır?",
+      "options": [
+        "Manyetik kaldırma",
+        "Kimyasal köpürme",
+        "Yerçekimi iptali",
+        "Buhar basıncı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Namaste selamında en yaygın jest hangisidir?",
+      "options": [
+        "Omuzları çaprazlamak",
+        "Avuçları göğüs önünde birleştirmek",
+        "Temel olarak i̇ki kez alkışlamak",
+        "Şapkayı yere bırakmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Kruvasan günümüzde en çok hangi ülkenin mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "İsviçre",
+        "İspanya",
+        "Belçika",
+        "Fransa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Gizli/özel tarama modu temel olarak neyi azaltır?",
+      "options": [
+        "İnternet sağlayıcısını değiştirmeyi",
+        "Temel olarak virüsleri otomatik yok etmeyi",
+        "İnternette tamamen görünmez olmayı",
+        "Cihazda yerel tarama geçmişinin saklanmasını"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

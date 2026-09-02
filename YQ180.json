@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ180",
+  "displayCode": "Y.Q180",
+  "title": "Genel Kültür 4.5 — 180",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ahtapotların kaç kalbi vardır?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Eş anlamlı sözcükler neyi ifade eder?",
+      "options": [
+        "Yazılışları aynı ama anlamları farklı olan sözcükleri",
+        "Yalnızca yabancı kökenli olan bütün sözcükleri",
+        "Anlamları aynı veya çok yakın olan sözcükleri",
+        "Sadece fiil görevinde kullanılan bütün sözcükleri"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Lumière kardeşler sinema tarihinde neyle tanınır?",
+      "options": [
+        "Erken dönem film gösterimleri ve sinematografla",
+        "Temel olarak ilk renkli televizyon dizisiyle",
+        "Sesli radyonun icadıyla",
+        "Dijital animasyon yazılımıyla"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Motown plak şirketinin yükselişi hangi ABD şehriyle özdeşleşmiştir?",
+      "options": [
+        "Detroit",
+        "Miami",
+        "Boston",
+        "Seattle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Barselona’daki Sagrada Família en çok hangi mimarla özdeşleşmiştir?",
+      "options": [
+        "Ricardo Bofill",
+        "Antoni Gaudí",
+        "Rafael Moneo",
+        "Santiago Calatrava"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Karate hangi ülkenin dövüş sanatı olarak gelişmiştir?",
+      "options": [
+        "Japonya",
+        "Brezilya",
+        "Tayland",
+        "Çin"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Mors kodunda bilgi nasıl temsil edilir?",
+      "options": [
+        "Temel olarak üç boyutlu şekillerle",
+        "Kısa ve uzun sinyal dizileriyle",
+        "Sürekli analog resimle",
+        "Yalnız renkli karelerle"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Tokalaşma birçok kültürde en sık hangi sosyal işlevi görür?",
+      "options": [
+        "Temel olarak yolculuk bileti alma",
+        "Müzik notası yazma",
+        "Selamlaşma veya anlaşmayı ifade etme",
+        "Yemek pişirme"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Tempura günümüzde hangi ülkenin mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "Çin",
+        "Hindistan",
+        "Japonya",
+        "Kore"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Canberra hangi ülkenin başkentidir?",
+      "options": [
+        "Yeni Zelanda",
+        "Kanada",
+        "Güney Afrika",
+        "Avustralya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ222",
+  "displayCode": "Y.Q222",
+  "title": "Genel Kültür 4.5 — 222",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bilgisayarların temelinde yaygın kullanılan ikili sayı sistemi hangi iki rakamı kullanır?",
+      "options": [
+        "1 ve 2",
+        "0 ve 9",
+        "2 ve 8",
+        "0 ve 1"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Göreme Milli Parkı ve Kapadokya kaya alanları hangi ülkededir?",
+      "options": [
+        "Yunanistan",
+        "Ermenistan",
+        "Türkiye",
+        "Gürcistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Ramen hangi ülkenin mutfağıyla özdeşleşmiştir?",
+      "options": [
+        "Güney Kore",
+        "Tayland",
+        "Çin",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Termosun temel amacı nedir?",
+      "options": [
+        "Işığın rengini farklı dalga boyuna çevirmek",
+        "İçeceğin sıcaklığını daha uzun süre korumak",
+        "Suyun içindeki mineralleri tamamen ayırmak",
+        "Ses dalgalarını daha yüksek seviyeye çıkarmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "OECD en çok hangi alanda ülkeler arası politika analizi ve işbirliğiyle ilişkilidir?",
+      "options": [
+        "Film sansürü",
+        "Temel olarak profesyonel futbol yönetimi",
+        "Ekonomi ve kamu politikaları",
+        "Uzay aracı tasarımı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Dörtleme (Connect Four) oyununda temel amaç nedir?",
+      "options": [
+        "21 sayısına ulaşmak",
+        "Aynı renkten dört taşı bir çizgide birleştirmek",
+        "Rakibin şahını mat etmek",
+        "Kelime puanı toplamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Waterloo Savaşı’nda yenilgiye uğrayan Fransız lider kimdi?",
+      "options": [
+        "Charles de Gaulle",
+        "Robespierre",
+        "Napolyon Bonapart",
+        "XIV. Louis"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Gayda en çok hangi kültürle özdeşleşmiştir?",
+      "options": [
+        "İskoç kültürü",
+        "Brezilya kültürü",
+        "Japon kültürü",
+        "Meksika kültürü"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Atina Okulu freskinin sanatçısı kimdir?",
+      "options": [
+        "Titian",
+        "Michelangelo",
+        "Raphael",
+        "Leonardo da Vinci"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Simone Biles hangi spor dalının yıldızlarından biridir?",
+      "options": [
+        "Temel olarak yüzme",
+        "Eskrim",
+        "Artistik jimnastik",
+        "Tenis"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

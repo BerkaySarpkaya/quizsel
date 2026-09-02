@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ177",
+  "displayCode": "Y.Q177",
+  "title": "Genel Kültür 4.5 — 177",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mohs ölçeği minerallerin hangi özelliğini karşılaştırır?",
+      "options": [
+        "Erime noktasını",
+        "Sertliğini",
+        "Yoğunluğunu",
+        "Radyoaktivitesini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Serbest nazmın belirgin özelliği hangisidir?",
+      "options": [
+        "Sadece destanlarda kullanılması",
+        "Sabit ölçü ve uyak düzenine bağlı olmaması",
+        "Yalnız iki dizeden oluşması",
+        "Temel olarak her dizede aynı sözcüğü kullanması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Toy Story serisindeki kovboy oyuncağın adı nedir?",
+      "options": [
+        "Buzz",
+        "Woody",
+        "Slinky",
+        "Rex"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Thriller albümü hangi sanatçıya aittir?",
+      "options": [
+        "Lionel Richie",
+        "Prince",
+        "Michael Jackson",
+        "Stevie Wonder"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Klasik Yunan mimarisindeki Dor düzeni genel olarak nasıl tanınır?",
+      "options": [
+        "Sade başlıklı güçlü sütunlarla",
+        "Soğan kubbelerle",
+        "Uçan payandalarla",
+        "Temel olarak cam perde duvarlarla"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Dekatlon kaç farklı atletizm disiplininden oluşur?",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "9"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Transistör elektronik devrelerde temel olarak ne yapabilir?",
+      "options": [
+        "Suyu kaynatma",
+        "Anahtarlama ve yükseltme",
+        "Optik mercek büyütme",
+        "Mekanik dişli çevirme"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Budizm hangi tarihsel figürün öğretileriyle ilişkilidir?",
+      "options": [
+        "Mahavira Vardhamana",
+        "Siddhartha Gautama",
+        "Guru Nanak",
+        "Lao Tzu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Napolyon Savaşları sonrasındaki Viyana Kongresi’nin temel amacı neydi?",
+      "options": [
+        "Amerikan kolonilerini bağımsızlaştırmak",
+        "Atlantik köle ticaretini başlatmak",
+        "Avrupa’daki siyasi dengeyi yeniden düzenlemek",
+        "Sanayi üretimini ortak para birimine bağlamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Prag kentinden hangi nehir geçer?",
+      "options": [
+        "Sava",
+        "Oder",
+        "Elbe",
+        "Vltava"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

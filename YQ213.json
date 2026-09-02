@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ213",
+  "displayCode": "Y.Q213",
+  "title": "Genel Kültür 4.5 — 213",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aksolotl hangi hayvan grubuna aittir?",
+      "options": [
+        "Kertenkeleler",
+        "Semenderler",
+        "Kabuklular",
+        "Balıklar"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Palindrom nedir?",
+      "options": [
+        "Sadece fiillerden oluşan cümle",
+        "Birden fazla anlamı olmayan kelime",
+        "Yalnız yabancı dilden alınmış kelime",
+        "Tersten okunduğunda da aynı kalan sözcük veya ifade"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "The Crown dizisinin merkezinde hangi kurum ve aile vardır?",
+      "options": [
+        "Fransız Devrimi",
+        "Britanya monarşisi",
+        "ABD Kongresi",
+        "Vatikan yönetimi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Peer Gynt süitlerinin bestecisi kimdir?",
+      "options": [
+        "Antonín Dvořák",
+        "Bedřich Smetana",
+        "Edvard Grieg",
+        "Jean Sibelius"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Elhamra Sarayı hangi İspanyol şehrindedir?",
+      "options": [
+        "Sevilla",
+        "Toledo",
+        "Granada",
+        "Valensiya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Beyzbolda home run genellikle vurucuya ne sağlar?",
+      "options": [
+        "Temel olarak ekstra kaleci kullanma hakkı",
+        "Rakibin servis hakkını",
+        "Maçı anında bitirme zorunluluğu",
+        "Tüm kaleleri dolaşarak sayı yapma fırsatı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Uçaklardaki uçuş kayıt cihazının temel amacı nedir?",
+      "options": [
+        "Yakıt üretmek",
+        "Yolcu biletlerini basmak",
+        "Kanatları otomatik büyütmek",
+        "Uçuş verileri ve kokpit seslerini kaydetmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Lei adlı çiçek kolyesi geleneği en çok hangi yerle ilişkilidir?",
+      "options": [
+        "Sicilya",
+        "Hawaii",
+        "İzlanda",
+        "Alaska"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Pesto sosu hangi İtalyan bölgesiyle ilişkilidir?",
+      "options": [
+        "Ligurya",
+        "Sardinya",
+        "Toskana",
+        "Sicilya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Birçok üründeki CE işareti en genel olarak neyi gösterir?",
+      "options": [
+        "Ürünün ücretsiz olduğunu",
+        "Ürünün ilgili Avrupa Birliği uygunluk gereklerini karşıladığını",
+        "Yalnız Türkiye’de üretildiğini",
+        "Hiç elektrik kullanmadığını"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

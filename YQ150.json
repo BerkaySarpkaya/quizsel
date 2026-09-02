@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ150",
+  "displayCode": "Y.Q150",
+  "title": "Genel Kültür 4.5 — 150",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Berlin Duvarı’nın açılması ve yıkılış sürecinin başlaması hangi yılda gerçekleşti?",
+      "options": [
+        "1968",
+        "1989",
+        "1975",
+        "1993"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Likenler klasik olarak hangi iki farklı canlı grubunun ortak yaşam örneği olarak anlatılır?",
+      "options": [
+        "Mantar ile alg veya siyanobakteri",
+        "Bakteri ile hayvan hücresi",
+        "Alg ile böcek larvası",
+        "Mantar ile yeşil bitki kökü"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Serengeti ekosisteminin büyük bölümü hangi ülkenin sınırları içindedir?",
+      "options": [
+        "Tanzanya",
+        "Etiyopya",
+        "Botsvana",
+        "Kenya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Saatleri Ayarlama Enstitüsü romanının yazarı kimdir?",
+      "options": [
+        "Yusuf Atılgan",
+        "Halide Edib Adıvar",
+        "Ahmet Hamdi Tanpınar",
+        "Reşat Nuri Güntekin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Sydney Opera Binası’nın tasarımını yapan mimar kimdir?",
+      "options": [
+        "I. M. Pei",
+        "Eero Saarinen",
+        "Oscar Niemeyer",
+        "Jørn Utzon"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Ramayana destanı en güçlü biçimde hangi dinî-kültürel gelenekle ilişkilidir?",
+      "options": [
+        "Zerdüştlük",
+        "Hindu geleneği",
+        "Şinto",
+        "Antik Roma dini"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Motor sporlarında damalı bayrak genellikle neyi bildirir?",
+      "options": [
+        "Güvenlik aracının piste çıktığını",
+        "Yarışın yeniden başlatılacağını",
+        "Yarışın veya seansın bittiğini",
+        "Pit yolunun yarışa kapatıldığını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bulut depolama hizmetlerinin temel çalışma mantığı hangisidir?",
+      "options": [
+        "Veriyi yalnız yerel diskte tutup ağı kapatmak",
+        "Veriyi uzak sunucularda tutup ağdan eriştirmek",
+        "Dosyaları geçici bellekte tutup diski devre dışı bırakmak",
+        "Veriyi yalnız yazıcı belleğinde saklayıp paylaşmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Bileşik faiz basit faizden hangi yönüyle ayrılır?",
+      "options": [
+        "Biriken faizin sonraki faiz hesabına da katılmasıyla",
+        "Faiz oranının her dönemde zorunlu olarak sıfırlanmasıyla",
+        "Faizin yalnız ilk anaparaya her dönem uygulanmasıyla",
+        "Faizin yalnız bir günlük işlemlerde hesaplanmasıyla"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Sake geleneksel olarak hangi temel hammaddenin fermantasyonuyla üretilir?",
+      "options": [
+        "Pirinç",
+        "Arpa",
+        "Üzüm",
+        "Elma"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ155",
+  "displayCode": "Y.Q155",
+  "title": "Genel Kültür 4.5 — 155",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "George Orwell'ın Hayvan Çiftliği eseri en çok hangi anlatım özelliğiyle bilinir?",
+      "options": [
+        "Bilimsel ders kitabı",
+        "Seyahat rehberi",
+        "Şiir antolojisi",
+        "Alegorik siyasi anlatı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Yin-yang sembolü en çok hangi düşünceyi anlatır?",
+      "options": [
+        "Yalnız ekonomik büyüme",
+        "Tek yönlü ve değişmez zaman anlayışı",
+        "Mutlak coğrafi kuzey",
+        "Karşıt ama birbirini tamamlayan güçler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Klasik müzikte konçerto genellikle hangi yapıyı öne çıkarır?",
+      "options": [
+        "Yalnız insan sesi için tek ezgiyi",
+        "Solo çalgı ile orkestranın karşılıklı etkileşimini",
+        "Sadece vurmalı çalgılardan oluşan doğaçlamayı",
+        "Konuşmasız tiyatro oyununu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Helyum ve neon gibi soy gazlar periyodik tabloda aynı hangi grupta yer alır?",
+      "options": [
+        "18. grup",
+        "1. grup",
+        "2. grup",
+        "17. grup"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Ural Dağları geleneksel coğrafi sınıflandırmada hangi iki kıta arasında sınır kabul edilir?",
+      "options": [
+        "Afrika ile Asya",
+        "Kuzey Amerika ile Güney Amerika",
+        "Avrupa ile Afrika",
+        "Avrupa ile Asya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "DNS sisteminin temel görevi nedir?",
+      "options": [
+        "Ekran çözünürlüğünü otomatik olarak ayarlamak",
+        "Dosyaları fiziksel olarak sıkıştırmak",
+        "Bataryayı şarj etmek",
+        "Alan adlarını IP adresleriyle eşleştirmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Bastille Hapishanesi'nin basılması hangi devrimin simgesel olaylarından biridir?",
+      "options": [
+        "Sanayi Devrimi",
+        "Meiji Restorasyonu",
+        "Fransız Devrimi",
+        "Rus İç Savaşı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Okçulukta hedefin tam merkezine verilen yaygın ad hangisidir?",
+      "options": [
+        "Scrum",
+        "Puck",
+        "Bullseye",
+        "Ace"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Ekşi maya kültürünün temelinde hangi mikroorganizmalar birlikte bulunur?",
+      "options": [
+        "Yalnız küf mantarları ve algler",
+        "Maya ve laktik asit bakterileri",
+        "Sadece virüsler",
+        "Yalnız algler"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Üç kıvrımlı parçadan oluşan “biohazard” sembolü neyi belirtir?",
+      "options": [
+        "Geri dönüşüm kutusu",
+        "Biyolojik tehlike veya bulaş riski",
+        "Yüksek ses seviyesi için uyarı",
+        "Yaya geçidi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

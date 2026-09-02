@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ173",
+  "displayCode": "Y.Q173",
+  "title": "Genel Kültür 4.5 — 173",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Geliştirilmiş buhar makineleri Sanayi Devrimi’nde hangi alana güç sağladı?",
+      "options": [
+        "Nükleer reaktörlere",
+        "Yalnız el yazması çoğaltmaya",
+        "Fabrika ve ulaşım sistemlerine",
+        "Dijital iletişim ağlarına"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Terazi sembolü en yaygın olarak hangi kavramla ilişkilendirilir?",
+      "options": [
+        "Denizcilik",
+        "Tarım",
+        "Adalet",
+        "Müzik"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Lassi içeceğinin temel süt ürünü hangisidir?",
+      "options": [
+        "Yoğurt",
+        "Peynir altı suyu",
+        "Krema",
+        "Tereyağı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Emojiler dijital iletişimde en çok ne için kullanılır?",
+      "options": [
+        "Kablosuz ağ kurmak",
+        "Duygu, nesne veya kavramları küçük görsellerle ifade etmek",
+        "Dosya sistemini biçimlendirmek",
+        "İşlemci sıcaklığını ölçmek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Franchise modeli neyi içerir?",
+      "options": [
+        "Yalnız kamu kurumlarına satış yapmayı",
+        "Vergi ödemeden faaliyet göstermeyi",
+        "Bir markanın iş modelini lisansla başka işletmecinin kullanmasını",
+        "Şirketin tüm ürünleri ücretsiz dağıtmasını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Rubik Küpü bulmacasının temel amacı nedir?",
+      "options": [
+        "Küpü en uzun süre döndürmek",
+        "Yalnız köşeleri numaralandırmak",
+        "Her yüzü tek renge getirmek",
+        "Tüm parçaları sökmek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Jeanne d’Arc hangi ülkenin tarihindeki Yüz Yıl Savaşları ile özdeşleşmiştir?",
+      "options": [
+        "İngiltere",
+        "Fransa",
+        "İtalya",
+        "İspanya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Tazmanya adası hangi ülkenin bir eyaletidir?",
+      "options": [
+        "Avustralya",
+        "Yeni Zelanda",
+        "Kanada",
+        "Güney Afrika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Pankreasın kan şekeri düzenlenmesinde salgıladığı temel hormonlardan biri hangisidir?",
+      "options": [
+        "Melatonin",
+        "Adrenalin",
+        "Tiroksin",
+        "İnsülin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Kafka’nın Dönüşüm adlı eserinde Gregor Samsa neye dönüşür?",
+      "options": [
+        "Temel olarak taştan büyük bir heykele",
+        "Dev boyutlu bir balığa",
+        "Kanatlı büyük bir kuşa",
+        "Dev bir böceğe benzer yaratığa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

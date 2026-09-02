@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ212",
+  "displayCode": "Y.Q212",
+  "title": "Genel Kültür 4.5 — 212",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "1884-85 Berlin Konferansı en çok hangi konuyla ilişkilidir?",
+      "options": [
+        "Temel olarak japonya’nın birleşmesi",
+        "ABD iç savaşı",
+        "Afrika’nın Avrupalı güçlerce paylaşımı",
+        "Latin Amerika bağımsızlığı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Vatikan Şehir Devleti hangi şehrin içinde yer alır?",
+      "options": [
+        "Roma",
+        "Venedik",
+        "Floransa",
+        "Milano"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Koalaların beslenmesinde hangi bitkinin yaprakları temel yer tutar?",
+      "options": [
+        "Meşe",
+        "Bambu",
+        "Kaktüs",
+        "Okaliptüs"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Klasik sone genellikle kaç dizeden oluşur?",
+      "options": [
+        "14",
+        "10",
+        "12",
+        "16"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "The Office dizisinin ABD uyarlamasında çalışanların şirketi hangisidir?",
+      "options": [
+        "Pied Piper",
+        "Los Pollos Hermanos",
+        "Dunder Mifflin",
+        "Sterling Cooper"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Clair de Lune eserinin bestecisi kimdir?",
+      "options": [
+        "Francis Poulenc",
+        "Camille Saint-Saëns",
+        "Claude Debussy",
+        "Gabriel Fauré"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Neuschwanstein Şatosu hangi ülkededir?",
+      "options": [
+        "İsviçre",
+        "Çekya",
+        "Avusturya",
+        "Almanya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Düzenli yedeklemenin temel amacı nedir?",
+      "options": [
+        "Ekran çözünürlüğünü düşürmek",
+        "Dosya adlarını uzatmak",
+        "Şifreleri herkese açmak",
+        "Veri kaybı durumunda dosyaları geri yükleyebilmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "İpek Yolu tarihsel olarak neyi kolaylaştırdı?",
+      "options": [
+        "Asya ile Avrupa arasında mal ve fikir akışını",
+        "Modern havayolu üzerinden kıtalararası taşımayı",
+        "Temel olarak kuzey Amerika içinde bölgesel mal ticaretini",
+        "Dijital bankacılık üzerinden para transferini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Kaçış odası etkinliğinde temel amaç nedir?",
+      "options": [
+        "Temel olarak kart koleksiyonunu puana göre sıralamak",
+        "İpuçlarını çözerek sürede çıkış yolunu bulmak",
+        "Takım hâlinde şarkı sözlerini tamamlamak",
+        "Kısa filmleri sırayla izleyip oylamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

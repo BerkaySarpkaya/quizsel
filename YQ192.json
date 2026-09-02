@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ192",
+  "displayCode": "Y.Q192",
+  "title": "Genel Kültür 4.5 — 192",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tekel piyasasında temel özellik hangisidir?",
+      "options": [
+        "Piyasada tek baskın satıcının bulunması",
+        "Fiyatların yasal olarak sıfır olması",
+        "Hiç alıcı bulunmaması",
+        "Çok sayıda eşit küçük satıcı olması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kontrat briç genellikle kaç kişilik iki ortaklıkla oynanır?",
+      "options": [
+        "2 kişi",
+        "4 kişi",
+        "6 kişi",
+        "3 kişi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Simón Bolívar hangi bölgenin bağımsızlık hareketleriyle özdeşleşmiştir?",
+      "options": [
+        "Kuzey Afrika",
+        "İskandinavya",
+        "Güneydoğu Asya",
+        "Güney Amerika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Carmina Burana adlı sahne kantatını kim besteledi?",
+      "options": [
+        "Richard Strauss",
+        "Anton Bruckner",
+        "Carl Orff",
+        "Gustav Mahler"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Nighthawks tablosunu kim yaptı?",
+      "options": [
+        "Grant Wood",
+        "Jackson Pollock",
+        "Edward Hopper",
+        "Georgia O’Keeffe"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Serena Williams hangi sporun önde gelen isimlerindendir?",
+      "options": [
+        "Tenis",
+        "Golf",
+        "Yüzme",
+        "Jimnastik"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Dijital şifrelemenin temel amacı nedir?",
+      "options": [
+        "Temel olarak dosyanın fiziksel ağırlığını azaltmak",
+        "Veriyi yetkisiz kişilerce okunamaz hâle getirmek",
+        "Ekranın çözünürlüğünü artırmak",
+        "İnternet kablosunu uzatmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Ay Yeni Yılı kutlamalarının tarihi esas olarak neye göre değişir?",
+      "options": [
+        "Ay-güneş takvimine",
+        "Yalnız Gregoryen 1 Ocak’a",
+        "Sabit yaz gündönümüne",
+        "Her zaman mart ekinoksuna"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Konfi (confit) tekniğinin klasik özelliği nedir?",
+      "options": [
+        "Gıdayı düşük sıcaklıkta yağ içinde uzun süre pişirmek",
+        "Temel olarak gıdayı yalnız buharda çok kısa süre tutmak",
+        "Gıdayı şeker şurubunda dondurarak sertleştirmek",
+        "Gıdayı doğrudan yüksek ateşte çok hızlı pişirmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Otomatik yedeklemenin temel faydası nedir?",
+      "options": [
+        "Temel olarak internet hızını fiziksel olarak ikiye katlamak",
+        "Ekran çözünürlüğünü artırmak",
+        "Veri kaybında dosyaları geri getirme olanağı sağlamak",
+        "Dosyaları otomatik olarak herkese yayınlamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

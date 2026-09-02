@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ185",
+  "displayCode": "Y.Q185",
+  "title": "Genel Kültür 4.5 — 185",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Altın Aslan ödülü hangi festivalin büyük ödülüdür?",
+      "options": [
+        "Berlin Film Festivali",
+        "Venedik Film Festivali",
+        "Locarno Film Festivali",
+        "San Sebastián Film Festivali"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Mandolin en çok hangi çalgı grubuna yakındır?",
+      "options": [
+        "Bakır nefesliler",
+        "Temel olarak deri yüzeyli vurmalılar",
+        "Telli ve mızraplı çalgılar",
+        "Çift kamışlı nefesliler"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Çığlık (The Scream) eseri hangi sanatçıya aittir?",
+      "options": [
+        "Gustav Klimt",
+        "Paul Klee",
+        "Edvard Munch",
+        "Egon Schiele"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Snooker hangi ekipmanla oynanan bir spordur?",
+      "options": [
+        "Istaka ve bilardo toplarıyla",
+        "Temel olarak yay ve okla",
+        "Disk ve sopayla",
+        "Raket ve tüytopla"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Bir şirketin halka arzı neyi ifade eder?",
+      "options": [
+        "Hisselerinin yatırımcılara açık biçimde satışa sunulmasını",
+        "Marka adının değiştirilmesini",
+        "Temel olarak yalnız çalışanlara ürün dağıtmasını",
+        "Şirketin tüm borçlarının silinmesini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "SimCity serisi hangi oyun türüyle ilişkilidir?",
+      "options": [
+        "Dövüş oyunu",
+        "Ritim oyunu",
+        "Şehir kurma ve yönetim simülasyonu",
+        "Temel olarak birinci şahıs nişancı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "1688 Şanlı Devrim hangi ülkede gerçekleşti?",
+      "options": [
+        "Fransa",
+        "İspanya",
+        "İngiltere",
+        "Hollanda"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Tundra ikliminde hangi bitki örtüsü daha tipiktir?",
+      "options": [
+        "Yağmur ormanı ağaçları",
+        "Temel olarak uzun boylu savan otları",
+        "Akdeniz makileri",
+        "Yosun, liken ve bodur bitkiler"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Biyom kavramı neyi ifade eder?",
+      "options": [
+        "Tek bir canlı türünün genini",
+        "Bir nehrin yalnızca kaynak noktasını",
+        "Benzer iklim ve canlı topluluklarına sahip geniş ekolojik bölgeyi",
+        "Bir mineralin kristal yapısını"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Fransızca, İspanyolca ve İtalyanca hangi ortak dil ailesi geleneğinden gelişmiştir?",
+      "options": [
+        "Temel olarak cermen dilleri",
+        "Ural dilleri",
+        "Slav dilleri",
+        "Latince kökenli Roman dilleri"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

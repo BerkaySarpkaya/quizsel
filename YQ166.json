@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ166",
+  "displayCode": "Y.Q166",
+  "title": "Genel Kültür 4.5 — 166",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Türk mutfağındaki mantı genel olarak nasıl bir yemektir?",
+      "options": [
+        "İç harçlı küçük hamur parçaları",
+        "Temel olarak yalnız közlenmiş sebze",
+        "Soğuk meyve çorbası",
+        "Mayasız tatlı ekmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kilimanjaro Dağı hangi ülkededir?",
+      "options": [
+        "Tanzanya",
+        "Uganda",
+        "Kenya",
+        "Etiyopya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "NaCl formülü hangi yaygın bileşiği gösterir?",
+      "options": [
+        "Kalsiyum karbonat",
+        "Potasyum nitrat",
+        "Magnezyum sülfat",
+        "Sodyum klorür"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Tutunamayanlar romanının yazarı kimdir?",
+      "options": [
+        "Adalet Ağaoğlu",
+        "Orhan Pamuk",
+        "Yusuf Atılgan",
+        "Oğuz Atay"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "The Matrix filminde Matrix nedir?",
+      "options": [
+        "Temel olarak bir uzay gemisi",
+        "Bir şehir devleti",
+        "Bir biyolojik virüs",
+        "İnsanların algıladığı simüle edilmiş gerçeklik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Viyolonsel genellikle nasıl çalınır?",
+      "options": [
+        "Yalnız üfleyerek",
+        "Tokmakla vurularak",
+        "Otururken dizler arasında, yayla",
+        "Omuz üzerinde tek elle"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Floransa’daki ünlü David heykelini kim yaptı?",
+      "options": [
+        "Bernini",
+        "Cellini",
+        "Donatello",
+        "Michelangelo"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Basketbolda üç sayı çizgisinin gerisinden isabetli atış kaç sayı kazandırır?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "HTTP protokolü temel olarak ne için kullanılır?",
+      "options": [
+        "Uyduyu yörüngeye yerleştirmek için",
+        "Web istemcisi ile sunucu arasında veri aktarımı için",
+        "Analog radyo frekansını üretmek için",
+        "Pil hücrelerini şarj etmek için"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Maori halkı hangi ülkenin yerli kültürüyle ilişkilidir?",
+      "options": [
+        "Solomon Adaları",
+        "Güney Afrika",
+        "Papua Yeni Gine",
+        "Yeni Zelanda"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

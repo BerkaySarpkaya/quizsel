@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ210",
+  "displayCode": "Y.Q210",
+  "title": "Genel Kültür 4.5 — 210",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Tektonik levhaların hareketi Dünya’nın hangi katmanındaki süreçlerle yakından ilişkilidir?",
+      "options": [
+        "Atmosfer",
+        "İç çekirdeğin merkezi",
+        "Okyanus yüzeyi",
+        "Manto"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Şinto hangi ülkenin yerli dinî geleneğidir?",
+      "options": [
+        "Çin",
+        "Tayland",
+        "Kore",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Rhapsody in Blue eserinin bestecisi kimdir?",
+      "options": [
+        "Samuel Barber",
+        "Aaron Copland",
+        "George Gershwin",
+        "Leonard Bernstein"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Uydu haberleşmesinde sinyalin geniş alanlara aktarılmasında ne kullanılır?",
+      "options": [
+        "Yalnız deniz fenerleri",
+        "Mekanik dişliler",
+        "Karayolu tabelaları",
+        "Yörüngedeki haberleşme uyduları"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Mukarnas süslemesi en çok hangi mimari gelenekle ilişkilidir?",
+      "options": [
+        "Bauhaus",
+        "İslam mimarisi",
+        "Viking mimarisi",
+        "Brutalizm"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Kaptan Ahab hangi romanın merkez karakterlerinden biridir?",
+      "options": [
+        "Denizler Altında Yirmi Bin Fersah",
+        "Moby-Dick",
+        "Robinson Crusoe",
+        "Define Adası"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Gobi Çölü ağırlıklı olarak hangi iki ülkede uzanır?",
+      "options": [
+        "Moğolistan ve Çin",
+        "Kazakistan ve Özbekistan",
+        "Hindistan ve Pakistan",
+        "İran ve Irak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Karamelizasyon hangi bileşenin ısıyla dönüşmesiyle ilişkilidir?",
+      "options": [
+        "Su",
+        "Tuz",
+        "Şeker",
+        "Protein"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Aşağıdakilerden hangisi olimpik eskrimde kullanılan silahlardan biridir?",
+      "options": [
+        "Bumerang",
+        "Epe",
+        "Mızrak",
+        "Baton"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Marty McFly hangi film serisinin ana karakterlerindendir?",
+      "options": [
+        "Jurassic Park",
+        "Pirates of the Caribbean",
+        "Mission: Impossible",
+        "Back to the Future"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

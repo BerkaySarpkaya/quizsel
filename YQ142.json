@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ142",
+  "displayCode": "Y.Q142",
+  "title": "Genel Kültür 4.5 — 142",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İpek Yolu'nu en doğru biçimde nasıl tanımlamak gerekir?",
+      "options": [
+        "Yalnız deniz taşımacılığıyla işleyen kapalı bir baharat ticareti hattı",
+        "Sadece dinî hac yolculukları için kullanılan tek yönlü güzergâh",
+        "Doğu Asya'yı Orta Asya ve Akdeniz dünyasına bağlayan ticaret yolları ağı",
+        "Tek bir hükümdarın yaptırdığı kesintisiz ve taş döşeli imparatorluk otoyolu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Victoria Şelaleleri hangi iki ülkenin sınırında yer alır?",
+      "options": [
+        "Kenya ve Tanzanya",
+        "Namibya ve Botsvana",
+        "Angola ve Zambiya",
+        "Zambiya ve Zimbabve"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Klorofilin fotosentezdeki temel işlevi hangisidir?",
+      "options": [
+        "Karbon dioksiti oksijene doğrudan çevirmek",
+        "Topraktan azot üretmek",
+        "Kökleri mekanik olarak uzatmak",
+        "Işık enerjisini soğurmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Haka adı verilen törensel performans en güçlü biçimde hangi halkla ilişkilidir?",
+      "options": [
+        "Maoriler",
+        "İnuitler",
+        "Samiler",
+        "Berberiler"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Art Nouveau için aşağıdaki görsel özelliklerden hangisi en tipiktir?",
+      "options": [
+        "Perspektifsiz teknik şema çizimleri",
+        "Yalnız siyah karelerden oluşan yüzeyler",
+        "Sadece katı dik açılı beton bloklar",
+        "Akıcı, bitkisel ve organik kıvrımlar"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bir merkez bankasının politika faizini düşürmesi, diğer koşullar sabitken genellikle hangi etkiyi amaçlar?",
+      "options": [
+        "İthalatı otomatik olarak sıfırlamayı",
+        "Tüm kredileri yasal olarak yasaklamayı",
+        "Para kullanımını tamamen kaldırmayı",
+        "Borçlanmayı ucuzlatıp ekonomik faaliyeti desteklemeyi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Tetris'teki dört kareden oluşan parçaların genel adı nedir?",
+      "options": [
+        "Polyhedron",
+        "Domino",
+        "Tetromino",
+        "Hexagram"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Bluetooth teknolojisinin adı tarihsel olarak hangi hükümdarın lakabından esinlenmiştir?",
+      "options": [
+        "William the Conqueror",
+        "Richard the Lionheart",
+        "Harald Bluetooth",
+        "Alfred the Great"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Kimchi hangi ülkenin mutfak kültürüyle özdeşleşmiştir?",
+      "options": [
+        "Filipinler",
+        "Kore",
+        "Vietnam",
+        "Moğolistan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Curling'de oyuncuların taşın önündeki buzu süpürmesinin temel amacı nedir?",
+      "options": [
+        "Taşı buz yüzeyinden kaldırıp havada daha uzağa taşımak",
+        "Pistin yüzeyine yeni puan çizgileri ekleyip alanı işaretlemek",
+        "Rakip takımın taşlarını elle durdurup oyun dışına çıkarmak",
+        "Taşın hızını ve izlediği yolu etkilemek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

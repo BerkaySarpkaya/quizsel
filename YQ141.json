@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ141",
+  "displayCode": "Y.Q141",
+  "title": "Genel Kültür 4.5 — 141",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Süveyş Kanalı hangi iki denizi birbirine bağlar?",
+      "options": [
+        "Akdeniz ile Kızıldeniz'i",
+        "Baltık Denizi ile Kuzey Denizi'ni",
+        "Adriyatik Denizi ile İyon Denizi'ni",
+        "Karadeniz ile Ege Denizi'ni"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "And Dağları hangi kıtanın batı kenarı boyunca uzanır?",
+      "options": [
+        "Afrika",
+        "Asya",
+        "Kuzey Amerika",
+        "Güney Amerika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Ay tutulması sırasında üç gök cisminin temel dizilişi nasıldır?",
+      "options": [
+        "Güneş — Dünya — Ay",
+        "Güneş — Ay — Dünya",
+        "Ay — Güneş — Dünya",
+        "Dünya — Güneş — Ay"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Fallingwater (Şelale Evi) hangi mimarın tasarımıdır?",
+      "options": [
+        "Eero Saarinen",
+        "Ludwig Mies van der Rohe",
+        "Frank Lloyd Wright",
+        "I. M. Pei"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Yedi Samuray (Seven Samurai) filminin yönetmeni kimdir?",
+      "options": [
+        "Akira Kurosawa",
+        "Kenji Mizoguchi",
+        "Masaki Kobayashi",
+        "Yasujirō Ozu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Bilgisayardaki RAM'in temel görevi hangisidir?",
+      "options": [
+        "Monitör çözünürlüğünü işlemciden bağımsız olarak kalıcı biçimde belirlemek",
+        "İnternet kablosunun fiziksel veri taşıma hızını tek başına artırmak",
+        "Dosyaları elektrik kesilse bile yıllarca kalıcı biçimde saklamak",
+        "Çalışan programların geçici verilerini hızlı erişim için tutmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Humusun temel baklagil malzemesi hangisidir?",
+      "options": [
+        "Nohut",
+        "Fasulye",
+        "Bezelye",
+        "Mercimek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Flöre, epe ve kılıç (sabre) hangi sporun üç temel silah türüdür?",
+      "options": [
+        "Tekvando",
+        "Eskrim",
+        "Okçuluk",
+        "Pentatlon"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Reggae müzik türü hangi ülkede doğmuştur?",
+      "options": [
+        "Küba",
+        "Brezilya",
+        "Jamaika",
+        "Trinidad ve Tobago"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Moby-Dick romanının anlatıcısının adı nedir?",
+      "options": [
+        "Queequeg",
+        "Starbuck",
+        "Ahab",
+        "Ishmael"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ170",
+  "displayCode": "Y.Q170",
+  "title": "Genel Kültür 4.5 — 170",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "PDF biçiminin temel avantajlarından biri nedir?",
+      "options": [
+        "İşlemciyi hız aşırtmak",
+        "Belge düzenini farklı cihazlarda büyük ölçüde korumak",
+        "Kablosuz ağ frekansını değiştirmek",
+        "Sadece müzik dosyası saklamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Ünlü maskeli karnaval hangi İtalyan şehriyle özdeşleşmiştir?",
+      "options": [
+        "Floransa",
+        "Venedik",
+        "Torino",
+        "Napoli"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Klasik gnocchi hamurunda yaygın temel malzeme hangisidir?",
+      "options": [
+        "Pirinç",
+        "Patates",
+        "Nohut",
+        "Mısır"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Bisiklette daha düşük vitese geçmek genellikle neyi kolaylaştırır?",
+      "options": [
+        "Temel olarak fren balatasını soğutmayı",
+        "Gidonu sabitlemeyi",
+        "Lastiği şişirmeyi",
+        "Yokuş çıkarken pedalı çevirmeyi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "İthalat neyi ifade eder?",
+      "options": [
+        "Yurt dışından mal veya hizmet satın almayı",
+        "Yalnız iç pazarda mal ve hizmet üretmeyi",
+        "Yurt dışına mal veya hizmet satmayı",
+        "Devlet adına vergi ve harç toplamayı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Pac-Man’in temel oyun mekaniği nedir?",
+      "options": [
+        "Labirentte noktaları toplarken düşmanlardan kaçmak",
+        "Uzay gemisi tasarlamak",
+        "Futbol takımı yönetmek",
+        "Temel olarak şehir kurup vergi toplamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Charlemagne, 800 yılında Roma’da hangi unvanla taçlandırıldı?",
+      "options": [
+        "Halife",
+        "Konsül",
+        "Çar",
+        "İmparator"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Hürmüz Boğazı Basra Körfezi’ni hangi denize açar?",
+      "options": [
+        "Arap Denizi",
+        "Kızıldeniz Körfezi",
+        "Bengal Körfezi",
+        "Umman Denizi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Enzimlerin temel biyolojik rolü nedir?",
+      "options": [
+        "Oksijeni kana taşımak",
+        "Genetik bilgiyi saklamak",
+        "Kimyasal tepkimeleri hızlandırmak",
+        "Hücre zarını kalınlaştırmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Wimbledon turnuvasının geleneksel kort zemini nedir?",
+      "options": [
+        "Sert zemin",
+        "Halı",
+        "Çim",
+        "Toprak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

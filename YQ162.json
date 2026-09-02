@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ162",
+  "displayCode": "Y.Q162",
+  "title": "Genel Kültür 4.5 — 162",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Brütalist mimaride en karakteristik malzeme görünümlerinden biri hangisidir?",
+      "options": [
+        "Ham beton",
+        "İnce porselen mozaik",
+        "Sadece ahşap oyma",
+        "Yalnız renkli vitray"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Tango müziği ve dansının tarihsel kökeni en çok hangi bölgeyle ilişkilidir?",
+      "options": [
+        "Río de la Plata çevresi",
+        "Kuzey Avrupa'nın İskandinavya bölgesi",
+        "Hindistan'ın kuzeyi",
+        "Sahra Altı Afrika"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Usain Bolt hangi spor dalındaki başarılarıyla tanınır?",
+      "options": [
+        "Sprint koşuları",
+        "Uzun mesafe yüzme",
+        "Tenis müsabakaları",
+        "Bisiklet"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Sanayi Devrimi'nin ilk büyük atılımı hangi ülkede başladı?",
+      "options": [
+        "İspanya",
+        "Rusya",
+        "Britanya",
+        "Yunanistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Aşının temel amacı hangisidir?",
+      "options": [
+        "Bağışıklık sistemini belirli bir etkene karşı hazırlamak",
+        "Kanın tamamını değiştirmek",
+        "Vücut sıcaklığını uzun süre belirli düzeyde tutmak",
+        "Kemik yoğunluğunu anında ikiye katlamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Termosun içeceği uzun süre sıcak veya soğuk tutmasının temel prensibi nedir?",
+      "options": [
+        "Sürekli elektrik üretmek",
+        "Isı transferini mümkün olduğunca azaltmak",
+        "Sıvının kimyasal yapısını değiştirmek",
+        "İç basıncı atmosferin yüz katına çıkarmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Fareler ve İnsanlar (Of Mice and Men) eserinin yazarı kimdir?",
+      "options": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner",
+        "Sinclair Lewis"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Temettü en temel olarak neyi ifade eder?",
+      "options": [
+        "Bir ülkenin dış ticaret gümrük gelirlerini",
+        "Tüketici fiyat endeksini",
+        "Bir bankanın kasa sayısını",
+        "Şirket kazancından hissedarlara dağıtılan payı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Nüfus yoğunluğu neyi ifade eder?",
+      "options": [
+        "Birim alana düşen insan sayısını",
+        "Bir ülkenin toplam yüzölçümü ve sınırlarını",
+        "Yıllık yağış miktarını",
+        "Ortalama rakımı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Satrançta fil nasıl hareket eder?",
+      "options": [
+        "Yalnız yatay",
+        "L biçiminde",
+        "Her hamlede tam iki kare dikey",
+        "Diyagonal doğrultuda"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

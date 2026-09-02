@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ199",
+  "displayCode": "Y.Q199",
+  "title": "Genel Kültür 4.5 — 199",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Rocky filmlerinin merkezindeki spor hangisidir?",
+      "options": [
+        "Tenis",
+        "Güreş",
+        "Basketbol",
+        "Boks"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Çello genellikle nasıl çalınır?",
+      "options": [
+        "Üflenerek",
+        "Sadece ayakta omuzda",
+        "Yayla ve oturarak",
+        "Tokmakla vurularak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Küçük Deniz Kızı heykeli hangi şehrin simgelerindendir?",
+      "options": [
+        "Stockholm",
+        "Oslo",
+        "Kopenhag",
+        "Helsinki"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdakilerden hangisi tenis Grand Slam turnuvalarından biridir?",
+      "options": [
+        "Davis Cup",
+        "Laver Cup",
+        "ATP Finals",
+        "Roland Garros"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Güvenlik frenli modern asansörün gelişimi en çok hangi mucitle ilişkilidir?",
+      "options": [
+        "Elisha Otis",
+        "Samuel Morse",
+        "Guglielmo Marconi",
+        "Thomas Newcomen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Quechua dili ve kültürü en çok hangi bölgeyle ilişkilidir?",
+      "options": [
+        "Temel olarak balkanlar",
+        "And Dağları",
+        "İskandinavya",
+        "Kafkasya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Yunan usulü musakkada öne çıkan sebze hangisidir?",
+      "options": [
+        "Pırasa",
+        "Kereviz",
+        "Patlıcan",
+        "Havuç"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Park and ride sistemi neyi teşvik eder?",
+      "options": [
+        "Temel olarak şehir merkezinde daha uzun araç kullanmayı",
+        "Bisikleti trene yasaklamayı",
+        "Yalnız taksi kullanmayı",
+        "Aracı park edip toplu taşımayla devam etmeyi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Saf suyun yaklaşık pH değeri 7 olduğunda bu neyi ifade eder?",
+      "options": [
+        "Nötr olduğunu",
+        "Radyoaktif olduğunu",
+        "Kuvvetli asit olduğunu",
+        "Kuvvetli baz olduğunu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Mai ve Siyah romanının yazarı kimdir?",
+      "options": [
+        "Halit Ziya Uşaklıgil",
+        "Hüseyin Rahmi Gürpınar",
+        "Mehmet Rauf",
+        "Recaizade Mahmut Ekrem"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

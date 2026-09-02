@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ186",
+  "displayCode": "Y.Q186",
+  "title": "Genel Kültür 4.5 — 186",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir merkez bankasının temel görevlerinden biri hangisidir?",
+      "options": [
+        "Pasaport basmak",
+        "Futbol ligini yönetmek",
+        "Belediye imar planı hazırlamak",
+        "Para politikasını yürütmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 2,
+      "text": "Kiril alfabesi aşağıdaki dillerden hangisinin standart yazısında kullanılır?",
+      "options": [
+        "Endonezce",
+        "Felemenkçe",
+        "İspanyolca",
+        "Bulgarca"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 3,
+      "text": "Sinemada close-up çekim en çok neyi vurgular?",
+      "options": [
+        "Temel olarak şehrin kuşbakışı planını",
+        "Yüz veya küçük bir ayrıntıyı",
+        "Geniş bir manzarayı",
+        "Tüm stadyumu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 4,
+      "text": "Samba müzik ve dans geleneği hangi ülkeyle özdeşleşmiştir?",
+      "options": [
+        "Kolombiya",
+        "Portekiz",
+        "Küba",
+        "Brezilya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 5,
+      "text": "Venus de Milo heykeli bugün hangi müzede sergilenir?",
+      "options": [
+        "Prado Müzesi",
+        "Uffizi Galerisi",
+        "Louvre Müzesi",
+        "Rijksmuseum"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 6,
+      "text": "Sörf sporcusu esas olarak ne üzerinde hareket eder?",
+      "options": [
+        "Dalga yüzeyinde tahta üzerinde",
+        "Temel olarak kar üzerinde kayakla",
+        "Buz pistinde kızakla",
+        "Kum pistinde motosikletle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 7,
+      "text": "Roketler boşlukta nasıl itki üretebilir?",
+      "options": [
+        "Egzoz gazını ters yönde yüksek hızla atarak",
+        "Dünya’nın manyetik kuzey kutbuna sürekli yönelerek",
+        "Çevredeki havayı büyük bir pervaneyle geriye çekerek",
+        "Yerçekimi kuvvetini geçici olarak tamamen ortadan kaldırarak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 8,
+      "text": "Machu Picchu hangi uygarlıkla ilişkilidir?",
+      "options": [
+        "Maya",
+        "Olmek",
+        "Aztek",
+        "İnka"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 9,
+      "text": "Ceviche’de balık veya deniz ürünü genellikle neyle marine edilir?",
+      "options": [
+        "Kahveyle",
+        "Narenciye suyuyla",
+        "Sütle",
+        "Şeker şurubuyla"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": 10,
+      "text": "Mikrofiber bezlerin temizlikte etkili olmasının temel nedenlerinden biri nedir?",
+      "options": [
+        "Yalnız suyu itmesi",
+        "Çok ince liflerin kir ve parçacıkları iyi tutması",
+        "Metal telden yapılması",
+        "Isıtıldığında mıknatıs olması"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice"
+    }
+  ]
+}

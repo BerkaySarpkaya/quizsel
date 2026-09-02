@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ206",
+  "displayCode": "Y.Q206",
+  "title": "Genel Kültür 4.5 — 206",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Jelatinin mutfaktaki temel işlevlerinden biri nedir?",
+      "options": [
+        "Yiyeceği kızartmak",
+        "Tuzu şekere dönüştürmek",
+        "Asitliği tamamen yok etmek",
+        "Sıvıları jelleştirmek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Acil durum fonunun temel amacı nedir?",
+      "options": [
+        "Temel olarak vergiyi iki kat ödemek",
+        "Yalnız tatil bütçesi oluşturmak",
+        "Beklenmedik giderler için likit birikim bulundurmak",
+        "Kredi kartı limitini artırmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Avrupa Merkez Bankası hangi para biriminin para politikasında merkezi rol oynar?",
+      "options": [
+        "Sterlin",
+        "Norveç kronu",
+        "İsviçre frangı",
+        "Euro"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Civilization serisi hangi oyun türüne en yakındır?",
+      "options": [
+        "Temel olarak futbol simülasyonu",
+        "Dövüş oyunu",
+        "Ritim oyunu",
+        "Sıra tabanlı strateji"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Tordesillas Antlaşması yeni keşfedilen toprakların paylaşımını hangi iki güç arasında düzenlemeyi amaçladı?",
+      "options": [
+        "İngiltere ve Fransa",
+        "İspanya ve Portekiz",
+        "Hollanda ve Danimarka",
+        "Rusya ve İsveç"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Grönland hangi krallığın özerk bölgesidir?",
+      "options": [
+        "Danimarka",
+        "Norveç",
+        "İsveç",
+        "Kanada"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Jüpiter’deki Büyük Kırmızı Leke nedir?",
+      "options": [
+        "Volkanik krater",
+        "Dev bir atmosferik fırtına",
+        "Temel olarak katı bir kıta",
+        "Buzul gölü"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "İlyada destanının merkezindeki savaş hangisidir?",
+      "options": [
+        "Peloponez Savaşı",
+        "Pön Savaşları",
+        "Pers Savaşları",
+        "Truva Savaşı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Audrey Hepburn aşağıdaki filmlerden hangisinin başrol oyuncusudur?",
+      "options": [
+        "Temel olarak the Graduate",
+        "Sunset Boulevard",
+        "Breakfast at Tiffany’s",
+        "Annie Hall"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Amaterasu hangi mitolojide güneş tanrıçasıdır?",
+      "options": [
+        "Japon Şinto geleneği",
+        "Temel olarak mısır mitolojisi",
+        "Yunan mitolojisi",
+        "İskandinav mitolojisi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}
