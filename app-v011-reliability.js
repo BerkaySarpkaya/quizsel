@@ -1,4 +1,4 @@
-// Quizsel v0.11.0 — reliability overlay
+// Quizsel v0.11.1 — reliability overlay
 // Scope:
 // 1) Final screen can always return home even if Firebase result persistence fails.
 // 2) Pending final results retry idempotently after reconnect / next authenticated load.
@@ -6,7 +6,7 @@
 (() => {
   "use strict";
 
-  const RELIABILITY_VERSION = "0.11.0";
+  const RELIABILITY_VERSION = "0.11.1";
   const PENDING_KEY = "quizsel_pending_finals_v1";
   const MAX_PENDING = 20;
   const RECOVERY_THROTTLE_MS = 3000;
@@ -21,6 +21,7 @@
   let hiddenAt = 0;
   let pendingRetryPromise = null;
   let lastStaleRecoveryKey = "";
+  const volatilePending = {};
 
   function safeParse(value, fallback) {
     try {
@@ -31,8 +32,48 @@
     }
   }
 
+  function safeLocalStorageGet(key) {
+    try {
+      return localStorage.getItem(key);
+    } catch (err) {
+      console.warn("[Quizsel] localStorage read unavailable:", err);
+      return null;
+    }
+  }
+
+  function safeLocalStorageSet(key, value) {
+    try {
+      localStorage.setItem(key, value);
+      return true;
+    } catch (err) {
+      console.warn("[Quizsel] localStorage write unavailable:", err);
+      return false;
+    }
+  }
+
+  function safeLocalStorageRemove(key) {
+    try {
+      localStorage.removeItem(key);
+      return true;
+    } catch (err) {
+      console.warn("[Quizsel] localStorage remove unavailable:", err);
+      return false;
+    }
+  }
+
+  function safeSessionStorageSet(key, value) {
+    try {
+      sessionStorage.setItem(key, value);
+      return true;
+    } catch (err) {
+      console.warn("[Quizsel] sessionStorage write unavailable:", err);
+      return false;
+    }
+  }
+
   function readPending() {
-    return safeParse(localStorage.getItem(PENDING_KEY) || "{}", {});
+    const persisted = safeParse(safeLocalStorageGet(PENDING_KEY) || "{}", {});
+    return { ...persisted, ...volatilePending };
   }
 
   function writePending(map) {
@@ -41,11 +82,16 @@
       .sort((a, b) => Number(a[1].capturedAt || 0) - Number(b[1].capturedAt || 0));
 
     const kept = entries.slice(Math.max(0, entries.length - MAX_PENDING));
+    const normalized = Object.fromEntries(kept);
+
+    Object.keys(volatilePending).forEach(key => delete volatilePending[key]);
+    Object.assign(volatilePending, normalized);
+
     if (!kept.length) {
-      localStorage.removeItem(PENDING_KEY);
-      return;
+      safeLocalStorageRemove(PENDING_KEY);
+      return true;
     }
-    localStorage.setItem(PENDING_KEY, JSON.stringify(Object.fromEntries(kept)));
+    return safeLocalStorageSet(PENDING_KEY, JSON.stringify(normalized));
   }
 
   function upsertPending(payload) {
@@ -106,14 +152,17 @@
     const receiptId = finalReceiptId(payload.key);
     const now = serverNow();
     const profileRef = db.ref(`profiles/${user.uid}`);
+    let wroteReceipt = false;
 
     const tx = await profileRef.transaction(profileValue => {
+      wroteReceipt = false;
       const p = profileValue || {};
       p.stats = p.stats || { games: 0, wins: 0, points: 0 };
       p.quizHistory = p.quizHistory || {};
       p.finalReceipts = p.finalReceipts || {};
 
       if (p.finalReceipts[receiptId]) return p;
+      wroteReceipt = true;
 
       p.stats.games = Number(p.stats.games || 0) + 1;
       p.stats.wins = Number(p.stats.wins || 0) + (payload.won ? 1 : 0);
@@ -148,16 +197,18 @@
 
     profile = tx.snapshot.val() || profile;
     finalRecordedKey = payload.key;
-    sessionStorage.setItem("quizsel_final_" + payload.key, "1");
+    safeSessionStorageSet("quizsel_final_" + payload.key, "1");
 
-    db.ref(`activityLogs/${user.uid}`).push({
-      type: "game_finished",
-      at: TS,
-      room: payload.room,
-      quizCode: payload.quizCode,
-      score: Number(payload.score || 0),
-      won: !!payload.won
-    }).catch(err => console.warn("[Quizsel] pending final activity log failed:", err));
+    if (wroteReceipt) {
+      db.ref(`activityLogs/${user.uid}`).push({
+        type: "game_finished",
+        at: TS,
+        room: payload.room,
+        quizCode: payload.quizCode,
+        score: Number(payload.score || 0),
+        won: !!payload.won
+      }).catch(err => console.warn("[Quizsel] pending final activity log failed:", err));
+    }
 
     return true;
   }
@@ -255,9 +306,9 @@
       }
 
       // Navigation is intentionally independent from Firebase persistence.
-      // recordOwnFinal already started the primary save and v0.11 keeps an
+      // recordOwnFinal already started the primary save and v0.11.1 keeps an
       // idempotent local pending receipt if that save cannot finish now.
-      localStorage.removeItem("quizsel_room");
+      safeLocalStorageRemove("quizsel_room");
       intentionalRoomExit = true;
       stopRoomWatch();
       intentionalRoomExit = false;
