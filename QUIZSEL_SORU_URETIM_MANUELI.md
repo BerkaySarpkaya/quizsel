@@ -1,97 +1,54 @@
 # Quizsel Soru Üretim Manueli
-## Sürüm 2.2 — Semantic QA, Topic Diversity & Incremental Index Standardı
+## Sürüm 2.3 — Semantic QA, Incremental Index & Automated Health Standardı
 
-Bu belge Quizsel için yeni soru üretirken uygulanacak kalıcı üretim ve QA sözleşmesidir.
-Kullanıcı “aynı sistem”, “beğendiğim yeni soru sistemi” veya benzeri bir ifade kullandığında bu manuel varsayılan standart kabul edilir.
+Bu belge Quizsel için yeni soru üretiminde authoritative kalite sözleşmesidir.
+`QUIZSEL_SORU_QA_SPEC.json` makine-okunabilir eşlikçidir.
+`QUIZSEL_SEMANTIC_INDEX_SPEC.json` YQ133+ semantic-index sözleşmesidir.
 
-Bu sürüm önceki kuralları korur ve şu kalite katmanlarını ekler:
-- Semantic Fact Graph
-- Answer-Leakage Graph
-- Soru biçimi çeşitliliği
-- Topic Diversity & Saturation Control
-- Cue / Guessability Detection
-- Precision Burden (hassas ezber yükü)
-- Incremental Semantic Index (ölçeklenebilir geçmiş-havuz erişimi)
-
-`QUIZSEL_SORU_QA_SPEC.json` bu manuelin makine-okunabilir eşlikçisidir.
-Bu authoring metadata’sı üretim/QA içindir; mevcut quiz JSON çalışma şemasını değiştirmez.
+Authoring metadata runtime quiz JSON şemasını değiştirmez.
 
 ## 1. Varsayılan quiz profili
+
 - Kategori: Genel Kültür
-- Set başına soru: 10
+- Soru sayısı: 10
 - Seçenek: 4
-- Soru süresi: 20 saniye
-- Varsayılan zorluk: 4.5 / 10; kullanıcı farklı bir zorluk belirtirse o değer kullanılır.
-- questionType: multiple-choice
-- Görsel veya tablo zorunlu değildir; yalnız soruya gerçek değer katıyorsa eklenir.
-- Her soru tek başına anlaşılır ve başka soruya ihtiyaç duymaz.
-- Amaç “çok soru” değil; bağımsız, dengeli, tekrarsız ve test tekniğine dirençli soru üretmektir.
+- Süre: 20 saniye
+- Varsayılan zorluk: 4.5/10; kullanıcı farklı değer isterse o değer kullanılır.
+- `questionType`: `multiple-choice`
+- Sorular birbirinden bağımsızdır.
+- Görsel/tablo ancak gerçek değer katıyorsa kullanılır.
+- Oyuncu soruyu “hileli ifade” yüzünden değil, bilgiyi bilmediği için kaybetmelidir.
 
-## 2. Zorluk kalibrasyonu ve Precision Burden
+## 2. Zorluk ve Precision Burden
 
-### 2.1 4.5 / 10 ne demektir?
-4.5, “çok kolay çocuk sorusu” değildir.
-- Genel kültürle ilgilenen ortalama yetişkin cevabı bilebilir veya güçlü biçimde hatırlayabilir.
-- Dar uzmanlık, meslek bilgisi veya aşırı spesifik ezber gerekmez.
-- Soru çoğunlukla tek aşamalı bilgi çağırır veya hafif bir karşılaştırma/çıkarım ister.
-- Çeldiriciler soruyu yapay olarak 2/10 seviyesine düşürmez.
-- Cevap bilinmiyorsa yalnız test tekniğiyle doğru şıkkı bulmak belirgin biçimde zor olmalıdır.
+4.5/10:
+- ortalama yetişkin genel kültür düzeyinde erişilebilir,
+- çocukça/basic değil,
+- uzmanlık/obscure ezber gerektirmez,
+- hafif ilişki/karşılaştırma/çıkarım kabul edilir.
 
-### 2.2 Precision Burden
-Soru zorluğu yalnız “konu zor mu?” diye değerlendirilmez. Şunlar birlikte değerlendirilir:
-1. bilginin genel tanınırlığı,
-2. istenen hassasiyet,
-3. bilginin ne kadar obscure olduğu,
-4. seçeneklerin birbirine yakınlığı.
+Precision:
+- P0: normal kavram/kişi/yer/ilişki → PASS
+- P1: dönem/yüzyıl/sıralama/yaklaşık aralık → PASS
+- P2: kültürel olarak belirgin kesin yıl/sayı → REVIEW
+- P3: obscure kesin yıl/sayı/ölçüm/yakın-sayı lotosu → RED
 
-Hassasiyet sınıfları:
-- **P0 / low:** kişi, eser, yer, kavram, ilişki gibi normal bilgi çağırma.
-- **P1 / medium:** yüzyıl, dönem, önce/sonra, yaklaşık aralık, makul karşılaştırma.
-- **P2 / exact-salient:** yalnız toplumda sembolik/iyi bilinen kesin yıl veya sayı. Kontrollü kullanılabilir.
-- **P3 / exact-obscure:** az bilinen kesin yıl, nüfus, uzunluk, adet, derece veya birbirine çok yakın sayısal seçenekler. Varsayılan Genel Kültür 4.5 için **RED**.
+P3 bilgi mümkünse dönem, yaklaşık aralık, önce-sonra veya ilişki sorusuna dönüştürülür.
 
-Özellikle “bir sayı fazla / bir sayı az” şeklindeki yakın seçenek lotosu varsayılan olarak kullanılmaz.
-Bir bilgi yalnız exact recall ile çözülebiliyor ve exact değer geniş kitlece bilinen sembolik bir bilgi değilse soru yeniden yazılır:
-- tam yıl yerine dönem/yüzyıl,
-- kesin sayı yerine yaklaşık aralık,
-- sayı yerine ilişki/karşılaştırma,
-- “hangi yıl?” yerine “hangisi önce?” gibi.
+## 3. Taksonomi
 
-Precision Burden soruyu zorlaştırmak için kullanılmaz. Zorluk bilgi ve düşünme kalitesinden gelmelidir; keyfî hassas ezberden değil.
+Scope kategori değildir:
+- Türkiye
+- Dünya
+- Bölgesel
+- Yerel
+- Karma
 
-## 3. İçerik taksonomisi
-
-### 3.1 Ana kategoriler
-Genel Kültür için kabul edilen ana kategoriler:
-1. Tarih
-2. Coğrafya
-3. Bilim & Doğa
-4. Edebiyat & Dil
-5. Sinema & Televizyon
-6. Müzik
-7. Görsel Sanatlar & Mimari
-8. Spor
-9. Teknoloji & İcatlar
-10. Toplum & Kültür
-11. Yemek & Mutfak
-12. Gündelik Yaşam
-13. Ekonomi & İş Dünyası
-14. Oyun & Eğlence
-
-### 3.2 Scope kategori değildir
-“Türkiye” ve “Dünya” ana kategori olarak kullanılmaz; coğrafi/bağlamsal scope etiketidir.
-Örnek:
-- Tarih → 20. Yüzyıl | scope: Türkiye
-- Coğrafya → Şehirler | scope: Türkiye
-- Müzik → Müzik Türleri | scope: Dünya
-
-### 3.3 Topic Family
-Her aday soru üretim sırasında bir Topic Family ile sınıflandırılır.
-Kanonik kırılım `QUIZSEL_SORU_QA_SPEC.json` içinde tutulur.
-Kategori “ne kadar geniş alandayız?” sorusunu; Topic Family ise “gerçekte ne hakkında soruyoruz?” sorusunu cevaplar.
+Kanonik kategori ve Topic Family listesi `QUIZSEL_SORU_QA_SPEC.json` içindedir.
 
 ## 4. Semantic Fact Graph
-Her aday soru için üretim/QA sırasında şu semantik imza çıkarılır:
+
+Her aday için:
 - category
 - topicFamily
 - scope
@@ -101,293 +58,286 @@ Her aday soru için üretim/QA sırasında şu semantik imza çıkarılır:
 - factCluster
 - precisionRequired
 
-Aynı `subject + askedProperty + correctAnswer` bilgisi yeniden sorulmaz.
-Sadece cümleyi değiştirmek yeni soru yaratmaz.
+Duplicate signature:
+`subject + askedProperty + correctAnswer`
 
-Aynı bilgi kümesinin ters veya yakın türevleri `factCluster` altında birleştirilir.
-Örneğin “The Seventh Seal filminin yönetmeni kimdir?” ile “Ingmar Bergman hangi filmi yönetti?”
-aynı bilgi kümesini sömürüyorsa aynı fact cluster kabul edilir.
+Aynı fact yalnız cümle değiştirilerek tekrar sorulamaz.
+Ters yönlü soru aynı bilgiyi sömürüyorsa aynı factCluster kabul edilir.
 
-- Aynı quiz içinde aynı fact cluster = RED.
-- Mevcut havuzla güçlü fact-cluster çakışması = yeniden yaz / RED.
+Hard:
+- aynı quizde aynı factCluster = RED
+- mevcut havuzla aynı semantic signature = RED
+- mevcut havuzla aynı live factCluster = RED
 
 ## 5. Answer-Leakage Graph
-Bir quiz içindeki her soru diğer sorulara karşı kontrol edilir.
-Grafikte düğüm = soru, kenar = bir sorunun diğerine bilgi sızdırmasıdır.
 
-Hard-fail durumları:
-- Bir sorunun doğru cevabı başka soru kökünde açıkça veriliyorsa.
-- Başka bir soru kökü doğru cevabı tanımlayıp fiilen ele veriyorsa.
-- A→B ve B→A ters soru ilişkisi varsa.
-- Aynı kişi/eser/olay üzerinden yakın özellikler birbirini çözdürüyorsa.
-- Bir sorunun seçenekleri başka bir soruya güçlü cevap ipucu oluşturuyorsa.
+Hard-fail:
+- başka stem doğru cevabı açıkça söylüyor,
+- başka stem cevabı semantik olarak çözdürüyor,
+- A→B / B→A ters soru,
+- yakın özellik soruları birbirini çözdürüyor,
+- seçenekler başka soruya güçlü cevap ipucu oluşturuyor.
 
-Leakage yalnız birebir kelime eşleşmesi değildir; anlamsal sızıntı da kontrol edilir.
-Yeni quiz PASS olmadan önce leakage graph üzerinde kritik kenar kalmamalıdır.
+Otomatik tool yalnız mekanik leakage adaylarını işaretleyebilir; nihai semantik leakage review zorunludur.
 
-## 6. Soru biçimi çeşitliliği
-Quiz yalnız “X nedir / kimdir / nerededir?” tipi doğrudan trivia dizisine dönüşmemelidir.
-Uygun olduğunda şu biçimler karıştırılır:
-- doğrudan tanıma / identification
-- ilişki kurma
-- kronoloji / önce-sonra
-- karşılaştırma
-- sınıflandırma
-- neden-sonuç
-- hafif çıkarım
-- yaklaşık değer/aralık
-- görsel tanıma
+## 6. Question Form Diversity
 
-Negatif kök (“hangisi değildir?”) kullanılabilir fakat seyrek ve açık olmalıdır.
-Trick question, kelime oyunu veya yanıltıcı formülasyonla yapay zorluk yaratılmaz.
+Kullanılabilir formlar:
+- direct_identification
+- relationship
+- chronology
+- comparison
+- classification
+- cause_effect
+- light_inference
+- approximation_or_range
+- visual_recognition
 
-Hard kota yoktur. Ama 10 soruluk bir sette tek bir soru biçiminin baskın ve monoton hale gelmesi QA uyarısıdır.
-- Topic Diversity = ne hakkında soruyoruz?
-- Question Form Diversity = nasıl soruyoruz?
+Hard kota yoktur.
+Tek formun bariz monoculture oluşturması kalite uyarısıdır.
+Trick question = RED.
 
-## 7. Topic Diversity & Saturation Control
+## 7. Topic Diversity & Saturation
 
-### 7.1 Hard kurallar
-- Aynı fact cluster aynı quizde yalnız 1 kez bulunabilir.
-- Aynı Topic Family art arda gelemez.
-- Aynı Topic Family bir 10 soruluk quizde en fazla 2 kez bulunabilir.
+Hard:
+- aynı factCluster: max 1/quiz
+- aynı Topic Family: max 2/quiz
+- aynı Topic Family art arda gelemez
 
-### 7.2 Soft hedefler
-- Kategori çeşitliliği mümkün olduğunca artırılır.
-- Her quizde zorunlu “8 farklı kategori” gibi sert minimum kota **YOKTUR**.
-- Bir ana kategori 3 soruya çıkabilir; ancak bu yalnız toplam kaliteyi artırıyorsa ve Topic Family çeşitliliği korunuyorsa kabul edilir.
-- Aynı kategori sırası farklı quizlerde görünür şablona dönüştürülmez.
+Soft:
+- kategori çeşitliliğini artır
+- sabit kategori sırası kullanma
+- son 5 Genel Kültür quizinde aşırı kullanılan Topic Family'lere novelty penalty uygula
 
-### 7.3 Yakın geçmiş doygunluğu
-Son 5 Genel Kültür quizinde aşırı kullanılan Topic Family’ler yeni üretimde soft novelty penalty alır.
-Bu yasak değildir; yalnız daha az kullanılmış topic family’lere öncelik verir.
-Amaç havuzu zaman içinde başkentler, gezegenler, savaşlar gibi birkaç güvenli alana sıkıştırmamaktır.
+## 8. Çeldirici ve Cue / Guessability
 
-## 8. Çeldirici tasarımı ve Cue / Guessability Detection
+- seçenekler aynı semantik sınıfta olmalı,
+- gramer paralel olmalı,
+- saçma çeldirici kullanılmamalı,
+- `Hepsi/Hiçbiri` varsayılan değildir,
+- doğru cevap benzersiz teknik/uzun/açıklayıcı görünmemeli,
+- stem-option lexical echo kontrol edilir,
+- sayısal görsel desen kontrol edilir.
 
-### 8.1 Çeldirici standardı
-- Dört seçenek aynı semantik sınıftan seçilir: kişi-kişi, şehir-şehir, dönem-dönem vb.
-- Dilbilgisel yapı mümkün olduğunca paraleldir.
-- Saçma veya komik çeldirici kullanılmaz.
-- “Hepsi”, “Hiçbiri”, “Yukarıdakilerin tümü” varsayılan olarak kullanılmaz.
-- Özel isim çeldiricileri mümkünse aynı dönem, ülke, sanat dalı veya meslek çevresinden gelir.
-- Sayısal seçenekler kullanılıyorsa Precision Burden ayrıca kontrol edilir.
+Tercih:
+- max/min seçenek kelime oranı <= 3
+- batch genelinde benzersiz-en-uzun doğru cevap oranı hedef <= %10
 
-### 8.2 Cue kontrolü
-Doğru cevabı bilmeyen bir oyuncunun yalnız seçenek biçiminden cevap tahmin etmesini kolaylaştıran işaretler aranır:
-- doğru seçeneğin benzersiz biçimde çok uzun/kısa olması,
-- doğru seçeneğin diğerlerinden daha teknik veya daha spesifik olması,
-- yalnız doğru seçenekte soru köküyle belirgin kelime eşleşmesi,
-- gramer uyumunun yalnız doğru seçenekte düzgün olması,
-- üç seçeneğin aynı sınıfta, bir seçeneğin başka sınıfta olması,
-- sayı/yıl seçeneklerinde doğru değerin görsel olarak “ortada” veya aşırı aykırı görünmesi,
-- doğru cevabın diğerlerinden daha açıklayıcı bir cümle olması.
+Soft ihlal otomatik RED değildir; editoryal review gerektirir.
 
-En uzun / en kısa seçenek kelime oranı tercihen 3’ü geçmez.
-Parti genelinde doğru cevabın benzersiz en uzun seçenek olma oranı düşük tutulur; hedef **<= %10**’dur.
-Cue tespit edilirse önce çeldiriciler yeniden yazılır.
+## 9. Doğru Şık Dağılımı
 
-## 9. Doğru şık dağılımı
-3A-3B-2C-2D gibi sabit bir kota YOKTUR.
-- Her quiz için cevap konumları ayrı RNG ile üretilir.
-- Dağılımlar quizden quize doğal olarak değişir.
-- 10 soruda dört harfin her biri en az 1 kez görünür.
-- Tek bir harf 5’ten fazla doğru cevap olamaz.
-- Ardışık aynı harfler doğal biçimde oluşabilir; sırf desen kırmak için cevap değiştirilmez.
+10 soruda:
+- A/B/C/D her biri en az 1 kez,
+- tek pozisyon en fazla 5 kez,
+- sabit 3/3/2/2 şablonu yok,
+- RNG quiz bazında bağımsız.
 
-## 10. Tekrar ve çakışma kontrolü
-Üretimden önce `quiz-index.json` ve mevcut Quizsel soru JSON havuzu okunur.
+## 10. Duplicate Retrieval — Güncel Kural
 
-### 10.1 Exact duplicate
-Küçük/büyük harf, noktalama ve fazla boşluk normalize edilir.
-Tam aynı soru = RED.
+YQ133+ için bütün geçmiş JSON havuzunu baştan okumak varsayılan yöntem değildir.
 
-### 10.2 Fuzzy duplicate
-Soru kökleri benzerlik metriğiyle karşılaştırılır.
-Varsayılan eşik >= 0.84: manuel/semantik inceleme gerektirir.
-Aynı bilginin yalnız cümlesi değiştirilmiş hâli kabul edilmez.
+Sıra:
+1. semantic manifest/Bloom route,
+2. exact normalized stem,
+3. semantic signature,
+4. factCluster,
+5. subject + askedProperty,
+6. subject/answer/retrievalKeys,
+7. topic fallback,
+8. legacy corpus için hedefli repository search,
+9. dönen adaylarda fuzzy + semantic review.
 
-### 10.3 Semantic duplicate
-Semantic Fact Graph, string benzerliği düşük olsa bile aynı bilgi/fact cluster tekrarını yakalamak için kullanılır.
-Yeni üretim partisi kendi içinde ve mevcut havuza karşı aynı kontrollerden geçer.
+Legacy corpus:
+- QZ001–QZ007
+- YQ001–YQ132
 
-## 11. Gerçeklik, belirsizlik ve kaynak kontrolü
-- Zamandan bağımsız bilgiler güvenilir referans bilgisine dayanır.
-- Güncel/değişebilir bilgi web üzerinden yeniden doğrulanır.
-- Türkiye’nin yakın dönem gelişmelerinde resmî kurum, organizasyon veya birincil kaynak tercih edilir.
-- Birden fazla makul cevabı olan veya kapsamı belirsiz “ilk / en büyük / en eski” soruları kullanılmaz.
-- Tartışmalı sınıflandırmalar 4.5 seviyesinde soru yapılmaz.
-- Doğru cevabın “bir kaynakta öyle yazıyor” olması yetmez; diğer seçeneklerin makul biçimde doğru savunulamadığı da kontrol edilir.
-- Kesin yıl/sayı içeren sorular ayrıca Precision Burden kontrolünden geçer.
+Legacy için tam semantic backfill zorunlu değildir; fakat hedefli exact/fuzzy/semantic kontrol zorunludur.
 
-## 12. Quiz oluşturma sırası
-1. `quiz-index.json` okunur ve yeni kod aralığı belirlenir.
-2. Mevcut soru JSON’larından eski stem/answer/fact havuzu çıkarılır.
-3. Son 5 Genel Kültür quizinin Topic Family doygunluğu değerlendirilir.
-4. Geniş aday soru bankası oluşturulur.
-5. Her aday için Semantic Fact Graph metadata’sı çıkarılır.
-6. Precision Burden değerlendirilir; P3 adaylar elenir veya yeniden yazılır.
-7. Exact, fuzzy ve semantic fact/fact-cluster tekrarları elenir.
-8. Adaylar Category + Topic Family + Question Form çeşitliliği gözetilerek quizlere dağıtılır.
-9. Answer-Leakage Graph kurulup kritik kenarlar temizlenir.
-10. Çeldiriciler Cue / Guessability kontrolünden geçirilir.
-11. Doğru cevap pozisyonları ayrı RNG ile atanır.
-12. Şıklar ve kategori/soru sırası son kez kontrol edilir.
-13. Güncel/değişebilir bilgiler kaynakla doğrulanır.
-14. Teknik JSON/schema ve `quiz-index.json` bütünlüğü kontrol edilir.
-15. Paket ancak tüm hard QA kapıları PASS ise teslim edilir.
+Fuzzy stem review threshold: >= 0.84.
+Fuzzy eşleşme otomatik duplicate hükmü değil, zorunlu review sinyalidir.
 
-## 13. Teknik JSON kabul kriterleri
-- schemaVersion = 2
-- code ve displayCode benzersiz
-- difficulty talep edilen değere eşit
-- questions = tam 10
-- her soruda 4 benzersiz options
-- answer = 0..3
-- time = 20
-- questionType = multiple-choice
-- JSON parse = PASS
-- `quiz-index.json` her yeni dosyayı tam bir kez içermeli
-- quiz üretimi Firebase Rules, app.js, config.js veya uygulama çalışma şemasını değiştirmez
-- Semantic Fact Graph / Topic Family / Question Form gibi authoring metadata’sı QA sırasında tutulabilir; public quiz JSON’una eklenmesi zorunlu değildir.
+## 11. Gerçeklik ve Kaynak
 
-## 14. Son QA kapısı
+- Zamana bağlı/değişebilir bilgi güncel kaynaktan doğrulanır.
+- Mümkünse birincil/resmî kaynak tercih edilir.
+- Birden fazla savunulabilir doğru cevap = RED.
+- “ilk/en büyük/en eski” gibi scope belirsiz sorulardan kaçınılır.
+- Kaynak doğrulaması runtime JSON içine kaynak alanı eklemeyi zorunlu kılmaz.
+- Değişebilir bilgi için kalıcı kaynak notu gerekiyorsa `QUIZSEL_SOURCE_NOTE_TEMPLATE.md` ile soru-bazlı izlenebilirlik kullanılır.
 
-### Hard PASS
+## 12. Üretim Sırası
+
+1. `quiz-index.json` oku, yeni kodları belirle.
+2. Son 5 production quiz topic doygunluğunu çıkar.
+3. Geniş aday bankası üret.
+4. Semantic Fact Graph metadata üret.
+5. Precision Burden uygula; P3'ü ele/rewrite et.
+6. Semantic index query ile geçmiş adaylarını daralt.
+7. Legacy targeted search yap.
+8. Exact/fuzzy/semantic duplicate review yap.
+9. Category + Topic Family + Question Form çeşitliliğiyle quizleri kur.
+10. Answer-Leakage Graph kontrolü yap.
+11. Cue / Guessability QA yap.
+12. Cevap pozisyonlarını RNG ile ata.
+13. Değişebilir gerçekleri kaynakla doğrula.
+14. Quiz JSON + index + semantic batch oluştur.
+15. Semantic index `apply`.
+16. `quiz-qa-tool.mjs check ...`.
+17. `quiz-semantic-index-tool.mjs validate-target ... --source`.
+18. Tüm hard kapılar PASS olmadan teslim etme.
+
+## 13. Teknik JSON Kabul Kriterleri
+
+YQ133+:
+- `schemaVersion = 2`
+- canonical code `YQxxx`
+- display code `Y.Qxxx`
+- tam 10 soru
+- her soruda 4 benzersiz seçenek
+- `answer = 0..3`
+- `time = 20`
+- `questionType = multiple-choice`
+- question id benzersiz
+- `quiz-index.json` kaydı tam 1 kez
+- JSON parse PASS
+
+Image yoksa canonical alanlar:
+- `image: null`
+- `imageAlt: null`
+- `imageCredit: null`
+- `imagePosition: "top"`
+- `imageFit: "cover"`
+
+## 14. QA Kapıları
+
+Hard:
 - JSON/schema
+- index integrity
 - exact duplicate
-- fuzzy >= 0.84 review
-- semantic fact/fact-cluster duplicate
-- answer leakage graph
-- Precision Burden: P3 yok
-- tek savunulabilir doğru cevap
-- seçenek semantik sınıf / gramer paralelliği
-- doğru şık dağılımı kuralları
-- aynı Topic Family art arda yok
-- aynı Topic Family quiz içinde <= 2
-- güncel bilgi kaynak doğrulaması
-- `quiz-index.json` bütünlüğü
+- semantic signature/fact duplicate
+- fuzzy >=0.84 adaylarının review edilmesi
+- leakage review
+- P3 yok
+- tek savunulabilir doğru
+- doğru şık dağılımı
+- Topic Family adjacency/max2
+- current-info source review
+- semantic source-sync
 
-### Soft kalite raporu
+Soft:
 - kategori çeşitliliği
-- Topic Family çeşitliliği
-- soru biçimi çeşitliliği
-- son 5 quiz topic doygunluğu
-- benzersiz-en-uzun doğru cevap oranı
-- diğer cue/guessability anomalileri
-- Precision dağılımı P0/P1/P2
+- form çeşitliliği
+- son-5 saturation
+- unique-longest-correct
+- option length ratio
+- cue anomalileri
+- P0/P1/P2 dağılımı
 
-Soft hedef ihlali tek başına otomatik RED değildir; editoryal kalite değerlendirmesi gerektirir.
+## 15. Otomasyon ve Değişiklik Politikası
 
-## 15. Değişiklik politikası
-Yeni bir kalite kuralı eklendiğinde mevcut hard kurallar zayıflatılmaz.
-Yeni kurallar önce bu manuelde tanımlanır; makine-okunabilir karşılığı varsa
-`QUIZSEL_SORU_QA_SPEC.json` ile senkron tutulur.
+Yeni kural mevcut hard kapıları sessizce zayıflatamaz.
+Manuel ve `QUIZSEL_SORU_QA_SPEC.json` senkron tutulur.
 
-## 16. Incremental Semantic Index — Sharded ölçeklenebilir geçmiş havuz
+Repository health otomasyonu:
+- `quiz-qa-tool.mjs`
+- `quiz-semantic-index-tool.mjs`
+- `.github/workflows/quizsel-health.yml`
 
-### 16.1 Amaç
-Quiz sayısı büyürken her yeni üretimde bütün eski quiz JSON'larını ve bütün semantik index kayıtlarını baştan okumak varsayılan yöntem değildir.
-Semantic index yalnız içerik üretimi/QA içindir; uygulamanın runtime verisi değildir.
+Otomatik tool'un PASS vermesi semantik/editoryal değerlendirmeyi ortadan kaldırmaz.
 
-Bu sürümde tek dev index dosyası **kullanılmaz**. Yapı:
-- `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`: küçük global yönlendirme/coverage manifesti,
-- `semantic-index/shards/`: her 30 quizlik blok için semantic entry shard'ları,
-- Bloom-filter shard yönlendirmesi: aday soru için yalnız olası shard'lar açılır.
+## 16. Incremental Semantic Index
 
-### 16.2 Başlangıç sınırı ve legacy politika
-- QZ001–QZ007 + Y.Q001–Y.Q132 mevcut havuz **legacy corpus** kabul edilir.
-- Legacy corpus'un tamamını bir defada semantik backfill etmek zorunlu değildir.
-- Legacy sorular için exact/fuzzy kontrol ve hedefli repository araması korunur.
-- Yeni adayın stem, subject, askedProperty, correctAnswer, factCluster ve retrievalKeys alanlarıyla dar legacy aday kümesi bulunur.
-- Yalnız çakışma ihtimali taşıyan eski quiz dosyaları ayrıntılı okunur.
-- Legacy corpus'a karşı şüphe giderilemiyorsa soru PASS sayılmaz.
+### 16.1 Source of truth
 
-### 16.3 Tam semantik indeksleme sınırı
-Y.Q133 ve sonrasında üretilen **her yeni soru** semantik index kaydı almak zorundadır.
-Canonical quiz kodu runtime kodudur (`YQ133`); görünen `Y.Q133` etiketi index anahtarı değildir.
+Quiz JSON authoritative'dir.
+Semantic index:
+- authoring/QA lookup hızlandırıcısı,
+- runtime kaynağı değildir,
+- public product backend yerine geçmez.
 
-Her kayıt en az:
-- id (`YQ133-Q01`)
-- quizCode / questionId
-- stem / correctAnswer
-- category / topicFamily / scope
-- subject / askedProperty / factCluster
-- questionForm / precisionRequired
-- semanticSignature (tool tarafından türetilir)
-- retrievalKeys / status
-alanlarını taşır.
+### 16.2 Coverage
 
-### 16.4 Shard kuralı
-Shard sınırları quiz-set sınırlarıyla hizalıdır:
+Full semantic indexing `YQ133` ile başlar.
+Her YQ133+ soru semantic entry alır.
+
+### 16.3 Sharding
+
+30 quiz / shard:
 - YQ133–YQ162
 - YQ163–YQ192
 - YQ193–YQ222
 - ...
 
-Her shard en fazla 30 quiz / normal durumda 300 soru taşır. Yeni quiz sayısı 10.000'e çıksa dahi tek JSON dosyasının 100.000 entry büyüklüğüne ulaşmasına izin verilmez.
+Manifest:
+`QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
 
-### 16.5 Shard yönlendirme
-Manifest her shard için sabit boyutlu Bloom filter ve küçük topic özeti taşır.
-Yeni aday için aşağıdaki typed retrieval token'ları üretilir:
-- normalized stem
-- semantic signature
-- fact cluster
-- subject + askedProperty
+Shard:
+`semantic-index/shards/YQ{start}-YQ{end}.json`
+
+### 16.4 Entry alanları
+
+En az:
+- id
+- quizCode
+- questionId
+- stem
+- correctAnswer
+- category
+- topicFamily
+- scope
 - subject
-- correct answer
-- retrieval keys
+- askedProperty
+- factCluster
+- questionForm
+- precisionRequired
+- retrievalKeys
+- status
 
-Bloom filter **false negative üretmemesi gereken** bir yönlendirme katmanıdır; false positive kabul edilebilir ve yalnız fazladan shard incelemesine yol açar.
-Exact semantic kontrol Bloom sonucuna göre seçilen shard entries üzerinde yapılır.
-Topic Family yalnız daha geniş fallback/review aşamasında kullanılır.
+`semanticSignature` tool tarafından türetilir.
 
-### 16.6 Duplicate retrieval sırası
-1. Exact normalized stem.
-2. Semantic signature exact.
-3. Fact cluster exact/near review.
-4. Subject + askedProperty.
-5. Subject / answer / retrieval key kesişimleri.
-6. Yakın Topic Family shard'ları.
-7. Legacy corpus için hedefli repository araması.
-8. Dönen şüpheli entry/dosyalarda fuzzy + semantik review.
+### 16.5 Bloom routing
 
-Semantic index eşleşme bulmaması tek başına PASS değildir; legacy fallback ve batch-içi QA hâlâ uygulanır.
+Typed tokenlar:
+- stem
+- signature
+- fact
+- subject+property
+- subject
+- answer
+- retrieval key
 
-### 16.7 Atomik güncelleme
-- `apply` geçersiz batch'i **dosyaya yazmadan önce** tamamen doğrular.
-- P3, duplicate stem/signature/factCluster, taxonomy hatası veya source mismatch varsa işlem FAIL olur ve mevcut manifest/shard değişmez.
-- Yeni quiz paketiyle index update aynı teslimde bulunur.
-- Quiz düzenlemesinde `replace`; quiz silinmesinde `remove-quiz` kullanılır.
-- Git geçmişi audit trail'dir; index içinde eski revision entry'si biriktirilmez.
+False positive kabul edilir.
+False negative kabul edilmez.
 
-### 16.8 Quiz JSON ile source-of-truth kontrolü
-Quiz JSON authoritative kaynaktır.
-`validate-source` / `apply` sırasında:
-- `quizCode` ilgili `YQxxx.json` ile,
-- `questionId` gerçek soru id'siyle,
-- `stem` gerçek `text` alanıyla,
-- `correctAnswer` gerçek `options[answer]` değeriyle
-çapraz doğrulanır.
+### 16.6 Atomiklik
 
-Index ile quiz JSON çelişirse index PASS alamaz.
+`apply` / `replace`:
+- tüm input/source/duplicate doğrulaması önce,
+- disk mutation sonra,
+- hata varsa mevcut index değiştirilmez.
 
-### 16.9 Coverage bütünlüğü
-Manifest yalnız gerçekten indekslenmiş tam quizleri coverage'a dahil eder.
-Bir quiz kısmi indekslenmişse tamamlanmış coverage sayılmaz.
-`contiguousThroughQuiz`, YQ133'ten itibaren aralıksız ve source ile uyumlu biçimde indekslenmiş son quizdir.
+`remove-quiz`:
+- entry'leri kaldırır,
+- shard boşaldıysa manifest kaydını ve fiziksel shard dosyasını birlikte kaldırır.
 
-### 16.10 Zorunlu kontroller
-Yeni semantic batch tesliminde en az:
-- `node quiz-semantic-index-tool.mjs validate`
-- değişen/yeni quizler için source sync
-- duplicate hard-fail kontrolü
-- batch içi leakage/topic/cue/precision QA
-PASS olmalıdır.
+### 16.7 Coverage completeness
 
-### 16.11 Kullanıcı işi
-Kullanıcı semantic index'i elle düzenlemez. Yeni quiz batch'i hazırlanırken ChatGPT/üretim süreci index manifest + ilgili shard'ları birlikte günceller.
+Bir quiz “complete” sayılmak için index entry sayısının source `YQxxx.json` içindeki gerçek `questions.length` değeriyle eşleşmesi gerekir.
+Soru sayısı tool içinde sabit `10` varsayımına bağlanmaz.
 
-### 16.12 Maliyet hedefi
-Kalite kapıları gevşetilmez. Varsayılan strateji:
-**manifest/Bloom lookup → küçük shard kümesi → semantik inceleme → gerektiğinde legacy escalation**.
+### 16.8 Validation modları
+
+Tam audit:
+`node quiz-semantic-index-tool.mjs validate --source`
+
+Hedef shard:
+`node quiz-semantic-index-tool.mjs validate-target YQ223 --source`
+
+Query:
+`node quiz-semantic-index-tool.mjs query QUERY.json`
+
+### 16.9 Kullanıcı işi
+
+Kullanıcı semantic index'i elle güncellemez.
+Yeni quiz teslimi quiz JSON + `quiz-index.json` + semantic index güncellemesini birlikte taşır.

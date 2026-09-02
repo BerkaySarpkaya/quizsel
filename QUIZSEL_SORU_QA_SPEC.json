@@ -1,8 +1,16 @@
 {
   "name": "Quizsel Soru QA Spec",
-  "version": "2.0",
+  "version": "2.1",
+  "manualVersion": "2.3",
   "authoritativeManual": "QUIZSEL_SORU_URETIM_MANUELI.md",
+  "semanticIndexSpec": "QUIZSEL_SEMANTIC_INDEX_SPEC.json",
   "runtimeSchemaImpact": "none",
+  "automation": {
+    "quizQaTool": "quiz-qa-tool.mjs",
+    "semanticTool": "quiz-semantic-index-tool.mjs",
+    "githubWorkflow": ".github/workflows/quizsel-health.yml",
+    "nodeRecommended": "20 LTS"
+  },
   "defaultQuiz": {
     "category": "Genel Kültür",
     "questions": 10,
@@ -205,7 +213,8 @@
       "reverse_question_pair",
       "near_property_pair_that_solves_other_question",
       "other_options_create_strong_answer_hint"
-    ]
+    ],
+    "automationPolicy": "mechanical_candidates_are_review_signals; semantic_verdict_required"
   },
   "questionForms": {
     "allowed": [
@@ -291,5 +300,16 @@
     "changingFactsRequireCurrentVerification": true,
     "preferPrimaryOfficialSources": true,
     "ambiguousMultipleDefensibleAnswers": "RED"
+  },
+  "technicalQA": {
+    "yq133Plus": {
+      "schemaVersion": 2,
+      "questionCount": 10,
+      "optionsPerQuestion": 4,
+      "questionSeconds": 20,
+      "questionType": "multiple-choice",
+      "uniqueQuestionIds": true,
+      "uniqueOptionsWithinQuestion": true
+    }
   }
 }

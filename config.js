@@ -12,55 +12,33 @@ window.QUIZSEL_CONFIG = {
   usernameDomain: "quizsel.app",
   adminInternalEmail: "quizsel-admin@quizsel.app",
 
+  clientVersion: "0.10.0",
   questionSeconds: 20,
   countdownSeconds: 3,
   revealSeconds: 5
 };
 
 // Stable load order:
-// app.js -> v0.9 performance -> v0.9.1 race-flow -> v0.9.2 quiz-set browser.
+// app.js -> performance layer -> v0.10 runtime/reliability + quiz-set browser.
 (() => {
-  const loadQuizSets = () => {
-    if (document.querySelector('script[data-quizsel-v092-sets]')) return;
+  const loadRuntime = () => {
+    if (document.querySelector('script[data-quizsel-v010-runtime]')) return;
 
-    const sets = document.createElement("script");
-    sets.src = "app-quizsets-v092.js?v=92";
-    sets.dataset.quizselV092Sets = "1";
-    sets.onerror = () => console.error("Quizsel v0.9.2 quiz-set layer could not be loaded.");
-    document.body.appendChild(sets);
+    const runtime = document.createElement("script");
+    runtime.src = "app-v010-runtime.js?v=100";
+    runtime.dataset.quizselV010Runtime = "1";
+    runtime.onerror = () => console.error("Quizsel v0.10 runtime layer could not be loaded.");
+    document.body.appendChild(runtime);
   };
 
-  const loadFlowFix = () => {
-    const existing = document.querySelector('script[data-quizsel-v091-flow]');
-
-    if (existing) {
-      if (existing.dataset.quizselLoaded === "1") {
-        loadQuizSets();
-      } else {
-        existing.addEventListener("load", loadQuizSets, { once: true });
-      }
-      return;
-    }
-
-    const flow = document.createElement("script");
-    flow.src = "app-flow-v091.js?v=92";
-    flow.dataset.quizselV091Flow = "1";
-    flow.onload = () => {
-      flow.dataset.quizselLoaded = "1";
-      loadQuizSets();
-    };
-    flow.onerror = () => console.error("Quizsel v0.9.1 flow layer could not be loaded.");
-    document.body.appendChild(flow);
-  };
-
-  const loadEnhancements = () => {
+  const loadPerformance = () => {
     const existing = document.querySelector('script[data-quizsel-v09-performance]');
 
     if (existing) {
       if (existing.dataset.quizselLoaded === "1") {
-        loadFlowFix();
+        loadRuntime();
       } else {
-        existing.addEventListener("load", loadFlowFix, { once: true });
+        existing.addEventListener("load", loadRuntime, { once: true });
       }
       return;
     }
@@ -70,15 +48,15 @@ window.QUIZSEL_CONFIG = {
     script.dataset.quizselV09Performance = "1";
     script.onload = () => {
       script.dataset.quizselLoaded = "1";
-      loadFlowFix();
+      loadRuntime();
     };
-    script.onerror = () => console.error("Quizsel v0.9 performance layer could not be loaded.");
+    script.onerror = () => console.error("Quizsel performance layer could not be loaded.");
     document.body.appendChild(script);
   };
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", loadEnhancements, { once: true });
+    document.addEventListener("DOMContentLoaded", loadPerformance, { once: true });
   } else {
-    loadEnhancements();
+    loadPerformance();
   }
 })();

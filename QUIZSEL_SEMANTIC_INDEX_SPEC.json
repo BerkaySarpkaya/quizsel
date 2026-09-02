@@ -1,12 +1,17 @@
 {
   "name": "Quizsel Sharded Incremental Semantic Index Spec",
   "version": "2.0",
-  "manualVersion": "2.2",
+  "toolPolicyVersion": "2.1",
+  "manualVersion": "2.3",
   "baseQaSpec": "QUIZSEL_SORU_QA_SPEC.json",
   "runtimeSchemaImpact": "none",
   "authoritativeQuestionSource": "quiz JSON files",
   "manifestFile": "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json",
   "shardDirectory": "semantic-index/shards",
+  "runtimeRequirements": {
+    "nodeMinimumMajor": 18,
+    "nodeRecommended": "20 LTS"
+  },
   "coveragePolicy": {
     "legacyCorpus": {
       "throughQuiz": "YQ132",
@@ -17,7 +22,8 @@
       "retrievalMode": "targeted_repository_search_then_source_review"
     },
     "fullSemanticIndexFromQuizNumber": 133,
-    "completeQuizRequiredForCoverage": true
+    "completeQuizRequiredForCoverage": true,
+    "completeQuizQuestionCountSource": "source_quiz_questions_length"
   },
   "sharding": {
     "quizBlockSize": 30,
@@ -101,6 +107,7 @@
     "source_correct_answer_mismatch",
     "bloom_metadata_mismatch",
     "shard_hash_mismatch",
+    "orphan_shard_file",
     "claimed_coverage_beyond_complete_quizzes"
   ],
   "maintenance": {
@@ -108,8 +115,10 @@
     "replaceCommand": "node quiz-semantic-index-tool.mjs replace BATCH.json",
     "removeQuizCommand": "node quiz-semantic-index-tool.mjs remove-quiz YQxxx",
     "validateCommand": "node quiz-semantic-index-tool.mjs validate",
+    "validateTargetCommand": "node quiz-semantic-index-tool.mjs validate-target YQxxx --source",
     "queryCommand": "node quiz-semantic-index-tool.mjs query QUERY.json",
     "atomicBeforeCommitValidation": true,
+    "deleteEmptyShardFile": true,
     "userManualIndexWork": false
   }
 }

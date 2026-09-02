@@ -1,10 +1,18 @@
 {
+  "schemaVersion": 2,
   "code": "YQXXX",
   "displayCode": "Y.QXXX",
   "title": "Genel Kültür 4.5 — XXX",
   "category": "Genel Kültür",
   "difficulty": 4.5,
   "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
   "questions": [
     {
       "id": 1,
@@ -18,19 +26,11 @@
       "answer": 0,
       "time": 20,
       "questionType": "multiple-choice",
-      "image": "",
-      "imageAlt": "",
-      "imageCredit": "",
-      "imagePosition": "center",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
       "imageFit": "cover"
     }
-  ],
-  "schemaVersion": 2,
-  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
-  "estimatedMinutes": 5,
-  "tags": [
-    "Genel Kültür",
-    "Karışık",
-    "4.5/10"
   ]
 }
