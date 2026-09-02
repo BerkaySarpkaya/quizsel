@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "entries": [
+    {
+      "id": "YQ133-Q01",
+      "quizCode": "YQ133",
+      "questionId": 1,
+      "stem": "Soru metni",
+      "correctAnswer": "Doğru cevap",
+      "category": "Tarih",
+      "topicFamily": "20. Yüzyıl",
+      "scope": "Dünya",
+      "subject": "örnek özne",
+      "askedProperty": "örnek özellik",
+      "factCluster": "örnek özne|örnek ilişki",
+      "questionForm": "direct_identification",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "örnek özne",
+        "doğru cevap"
+      ],
+      "status": "live"
+    }
+  ]
+}

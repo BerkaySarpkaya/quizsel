@@ -1,5 +1,5 @@
 # Quizsel Soru Üretim Manueli
-## Sürüm 2.0 — Semantic QA & Topic Diversity Standardı
+## Sürüm 2.2 — Semantic QA, Topic Diversity & Incremental Index Standardı
 
 Bu belge Quizsel için yeni soru üretirken uygulanacak kalıcı üretim ve QA sözleşmesidir.
 Kullanıcı “aynı sistem”, “beğendiğim yeni soru sistemi” veya benzeri bir ifade kullandığında bu manuel varsayılan standart kabul edilir.
@@ -11,6 +11,7 @@ Bu sürüm önceki kuralları korur ve şu kalite katmanlarını ekler:
 - Topic Diversity & Saturation Control
 - Cue / Guessability Detection
 - Precision Burden (hassas ezber yükü)
+- Incremental Semantic Index (ölçeklenebilir geçmiş-havuz erişimi)
 
 `QUIZSEL_SORU_QA_SPEC.json` bu manuelin makine-okunabilir eşlikçisidir.
 Bu authoring metadata’sı üretim/QA içindir; mevcut quiz JSON çalışma şemasını değiştirmez.
@@ -282,3 +283,111 @@ Soft hedef ihlali tek başına otomatik RED değildir; editoryal kalite değerle
 Yeni bir kalite kuralı eklendiğinde mevcut hard kurallar zayıflatılmaz.
 Yeni kurallar önce bu manuelde tanımlanır; makine-okunabilir karşılığı varsa
 `QUIZSEL_SORU_QA_SPEC.json` ile senkron tutulur.
+
+## 16. Incremental Semantic Index — Sharded ölçeklenebilir geçmiş havuz
+
+### 16.1 Amaç
+Quiz sayısı büyürken her yeni üretimde bütün eski quiz JSON'larını ve bütün semantik index kayıtlarını baştan okumak varsayılan yöntem değildir.
+Semantic index yalnız içerik üretimi/QA içindir; uygulamanın runtime verisi değildir.
+
+Bu sürümde tek dev index dosyası **kullanılmaz**. Yapı:
+- `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`: küçük global yönlendirme/coverage manifesti,
+- `semantic-index/shards/`: her 30 quizlik blok için semantic entry shard'ları,
+- Bloom-filter shard yönlendirmesi: aday soru için yalnız olası shard'lar açılır.
+
+### 16.2 Başlangıç sınırı ve legacy politika
+- QZ001–QZ007 + Y.Q001–Y.Q132 mevcut havuz **legacy corpus** kabul edilir.
+- Legacy corpus'un tamamını bir defada semantik backfill etmek zorunlu değildir.
+- Legacy sorular için exact/fuzzy kontrol ve hedefli repository araması korunur.
+- Yeni adayın stem, subject, askedProperty, correctAnswer, factCluster ve retrievalKeys alanlarıyla dar legacy aday kümesi bulunur.
+- Yalnız çakışma ihtimali taşıyan eski quiz dosyaları ayrıntılı okunur.
+- Legacy corpus'a karşı şüphe giderilemiyorsa soru PASS sayılmaz.
+
+### 16.3 Tam semantik indeksleme sınırı
+Y.Q133 ve sonrasında üretilen **her yeni soru** semantik index kaydı almak zorundadır.
+Canonical quiz kodu runtime kodudur (`YQ133`); görünen `Y.Q133` etiketi index anahtarı değildir.
+
+Her kayıt en az:
+- id (`YQ133-Q01`)
+- quizCode / questionId
+- stem / correctAnswer
+- category / topicFamily / scope
+- subject / askedProperty / factCluster
+- questionForm / precisionRequired
+- semanticSignature (tool tarafından türetilir)
+- retrievalKeys / status
+alanlarını taşır.
+
+### 16.4 Shard kuralı
+Shard sınırları quiz-set sınırlarıyla hizalıdır:
+- YQ133–YQ162
+- YQ163–YQ192
+- YQ193–YQ222
+- ...
+
+Her shard en fazla 30 quiz / normal durumda 300 soru taşır. Yeni quiz sayısı 10.000'e çıksa dahi tek JSON dosyasının 100.000 entry büyüklüğüne ulaşmasına izin verilmez.
+
+### 16.5 Shard yönlendirme
+Manifest her shard için sabit boyutlu Bloom filter ve küçük topic özeti taşır.
+Yeni aday için aşağıdaki typed retrieval token'ları üretilir:
+- normalized stem
+- semantic signature
+- fact cluster
+- subject + askedProperty
+- subject
+- correct answer
+- retrieval keys
+
+Bloom filter **false negative üretmemesi gereken** bir yönlendirme katmanıdır; false positive kabul edilebilir ve yalnız fazladan shard incelemesine yol açar.
+Exact semantic kontrol Bloom sonucuna göre seçilen shard entries üzerinde yapılır.
+Topic Family yalnız daha geniş fallback/review aşamasında kullanılır.
+
+### 16.6 Duplicate retrieval sırası
+1. Exact normalized stem.
+2. Semantic signature exact.
+3. Fact cluster exact/near review.
+4. Subject + askedProperty.
+5. Subject / answer / retrieval key kesişimleri.
+6. Yakın Topic Family shard'ları.
+7. Legacy corpus için hedefli repository araması.
+8. Dönen şüpheli entry/dosyalarda fuzzy + semantik review.
+
+Semantic index eşleşme bulmaması tek başına PASS değildir; legacy fallback ve batch-içi QA hâlâ uygulanır.
+
+### 16.7 Atomik güncelleme
+- `apply` geçersiz batch'i **dosyaya yazmadan önce** tamamen doğrular.
+- P3, duplicate stem/signature/factCluster, taxonomy hatası veya source mismatch varsa işlem FAIL olur ve mevcut manifest/shard değişmez.
+- Yeni quiz paketiyle index update aynı teslimde bulunur.
+- Quiz düzenlemesinde `replace`; quiz silinmesinde `remove-quiz` kullanılır.
+- Git geçmişi audit trail'dir; index içinde eski revision entry'si biriktirilmez.
+
+### 16.8 Quiz JSON ile source-of-truth kontrolü
+Quiz JSON authoritative kaynaktır.
+`validate-source` / `apply` sırasında:
+- `quizCode` ilgili `YQxxx.json` ile,
+- `questionId` gerçek soru id'siyle,
+- `stem` gerçek `text` alanıyla,
+- `correctAnswer` gerçek `options[answer]` değeriyle
+çapraz doğrulanır.
+
+Index ile quiz JSON çelişirse index PASS alamaz.
+
+### 16.9 Coverage bütünlüğü
+Manifest yalnız gerçekten indekslenmiş tam quizleri coverage'a dahil eder.
+Bir quiz kısmi indekslenmişse tamamlanmış coverage sayılmaz.
+`contiguousThroughQuiz`, YQ133'ten itibaren aralıksız ve source ile uyumlu biçimde indekslenmiş son quizdir.
+
+### 16.10 Zorunlu kontroller
+Yeni semantic batch tesliminde en az:
+- `node quiz-semantic-index-tool.mjs validate`
+- değişen/yeni quizler için source sync
+- duplicate hard-fail kontrolü
+- batch içi leakage/topic/cue/precision QA
+PASS olmalıdır.
+
+### 16.11 Kullanıcı işi
+Kullanıcı semantic index'i elle düzenlemez. Yeni quiz batch'i hazırlanırken ChatGPT/üretim süreci index manifest + ilgili shard'ları birlikte günceller.
+
+### 16.12 Maliyet hedefi
+Kalite kapıları gevşetilmez. Varsayılan strateji:
+**manifest/Bloom lookup → küçük shard kümesi → semantik inceleme → gerektiğinde legacy escalation**.

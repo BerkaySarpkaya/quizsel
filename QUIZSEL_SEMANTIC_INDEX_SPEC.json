@@ -1,0 +1,115 @@
+{
+  "name": "Quizsel Sharded Incremental Semantic Index Spec",
+  "version": "2.0",
+  "manualVersion": "2.2",
+  "baseQaSpec": "QUIZSEL_SORU_QA_SPEC.json",
+  "runtimeSchemaImpact": "none",
+  "authoritativeQuestionSource": "quiz JSON files",
+  "manifestFile": "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json",
+  "shardDirectory": "semantic-index/shards",
+  "coveragePolicy": {
+    "legacyCorpus": {
+      "throughQuiz": "YQ132",
+      "legacyQZIncluded": true,
+      "declaredLegacyQuizCount": 139,
+      "declaredLegacyQuestionCount": 1390,
+      "fullSemanticBackfillRequired": false,
+      "retrievalMode": "targeted_repository_search_then_source_review"
+    },
+    "fullSemanticIndexFromQuizNumber": 133,
+    "completeQuizRequiredForCoverage": true
+  },
+  "sharding": {
+    "quizBlockSize": 30,
+    "firstShardStart": 133,
+    "firstShardEnd": 162,
+    "pathPattern": "semantic-index/shards/YQ{start}-YQ{end}.json",
+    "maxNormalQuestionsPerShard": 300
+  },
+  "bloom": {
+    "algorithm": "sha256-double-hash",
+    "bits": 32768,
+    "hashFunctions": 7,
+    "tokenPrefixes": [
+      "stem",
+      "sig",
+      "fact",
+      "sp",
+      "subject",
+      "answer",
+      "rk"
+    ],
+    "falsePositiveAllowed": true,
+    "falseNegativeAllowed": false
+  },
+  "entrySchema": {
+    "required": [
+      "id",
+      "quizCode",
+      "questionId",
+      "stem",
+      "correctAnswer",
+      "category",
+      "topicFamily",
+      "scope",
+      "subject",
+      "askedProperty",
+      "factCluster",
+      "questionForm",
+      "precisionRequired",
+      "retrievalKeys",
+      "status"
+    ],
+    "derived": [
+      "semanticSignature"
+    ],
+    "precisionAllowed": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "questionFormsAllowed": [
+      "direct_identification",
+      "relationship",
+      "chronology",
+      "comparison",
+      "classification",
+      "cause_effect",
+      "light_inference",
+      "approximation_or_range",
+      "visual_recognition"
+    ],
+    "statusAllowed": [
+      "live",
+      "retired"
+    ],
+    "idPattern": "^YQ(\\d+)-Q(\\d{2})$",
+    "quizCodePattern": "^YQ(\\d+)$",
+    "semanticSignatureRule": "normalized(subject)|normalized(askedProperty)|normalized(correctAnswer)"
+  },
+  "hardFails": [
+    "duplicate_entry_id",
+    "duplicate_normalized_stem",
+    "duplicate_semantic_signature",
+    "duplicate_live_fact_cluster",
+    "P3_precision",
+    "missing_required_field",
+    "invalid_taxonomy",
+    "invalid_scope",
+    "source_quiz_mismatch",
+    "source_question_mismatch",
+    "source_correct_answer_mismatch",
+    "bloom_metadata_mismatch",
+    "shard_hash_mismatch",
+    "claimed_coverage_beyond_complete_quizzes"
+  ],
+  "maintenance": {
+    "appendCommand": "node quiz-semantic-index-tool.mjs apply BATCH.json",
+    "replaceCommand": "node quiz-semantic-index-tool.mjs replace BATCH.json",
+    "removeQuizCommand": "node quiz-semantic-index-tool.mjs remove-quiz YQxxx",
+    "validateCommand": "node quiz-semantic-index-tool.mjs validate",
+    "queryCommand": "node quiz-semantic-index-tool.mjs query QUERY.json",
+    "atomicBeforeCommitValidation": true,
+    "userManualIndexWork": false
+  }
+}

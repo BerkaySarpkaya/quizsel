@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "specVersion": "2.0",
+  "manualVersion": "2.2",
+  "generatedAt": "2026-09-01T00:00:00.000Z",
+  "runtimeSchemaImpact": "none",
+  "authoritativeQuestionSource": "quiz JSON files",
+  "legacy": {
+    "throughQuiz": "YQ132",
+    "legacyQZRange": "QZ001-QZ007",
+    "declaredLegacyQuizCount": 139,
+    "declaredLegacyQuestionCount": 1390,
+    "semanticBackfillComplete": false,
+    "mode": "targeted_repository_search_then_source_review"
+  },
+  "semantic": {
+    "startsAtQuiz": "YQ133",
+    "indexedQuizCount": 0,
+    "indexedQuestionCount": 0,
+    "lastIndexedQuiz": null,
+    "contiguousThroughQuiz": null
+  },
+  "bloom": {
+    "algorithm": "sha256-double-hash",
+    "bits": 32768,
+    "hashFunctions": 7
+  },
+  "shards": []
+}

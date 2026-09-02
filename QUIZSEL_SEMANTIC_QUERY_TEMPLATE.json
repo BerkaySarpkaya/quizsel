@@ -1,0 +1,13 @@
+{
+  "stem": "Aday soru kökü",
+  "correctAnswer": "Aday doğru cevap",
+  "category": "Tarih",
+  "topicFamily": "20. Yüzyıl",
+  "subject": "aday özne",
+  "askedProperty": "aday özellik",
+  "factCluster": "aday fact cluster",
+  "retrievalKeys": [
+    "alias 1",
+    "alias 2"
+  ]
+}
