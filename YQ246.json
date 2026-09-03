@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ246",
+  "displayCode": "Y.Q246",
+  "title": "Genel Kültür 4.5 — 246",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki yazarlardan hangisi “Günden Kalanlar” eserini kaleme almıştır?",
+      "options": [
+        "Kazuo Ishiguro",
+        "Sabahattin Ali",
+        "Dante Alighieri",
+        "Albert Camus"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Iguazú Şelaleleri hangi iki ülkenin sınır bölgesindedir?",
+      "options": [
+        "Karadeniz ve Marmara Denizi",
+        "İsviçre ve İtalya",
+        "Arjantin ve Brezilya",
+        "Zambiya ve Zimbabve"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Lei aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Balmumu kullanılarak kumaşta rezerv boyama yapma tekniği",
+        "Japonya'nın geleneksel sahne tiyatrosu türlerinden biri",
+        "Japon kültüründe çayın hazırlanması ve sunumunu ritüelleştiren uygulama",
+        "Hawaii kültüründe çiçek veya yapraklardan yapılan boyun çelengi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdaki mimarlardan hangisi Milwaukee Sanat Müzesi Quadracci Pavyonu yapısıyla ilişkilidir?",
+      "options": [
+        "I. M. Pei",
+        "Zaha Hadid",
+        "Santiago Calatrava",
+        "Jørn Utzon"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Uzun Yürüyüş, hangi siyasi hareketin tarihinde önemli bir olaydır?",
+      "options": [
+        "İtalyan birleşme hareketi",
+        "Çin Komünist hareketi",
+        "Rus Narodnik hareketi",
+        "Hindistan bağımsızlık hareketi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Titan hangi gezegenin en büyük uydusudur?",
+      "options": [
+        "Satürn",
+        "Merkür",
+        "Uranüs",
+        "Jüpiter"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“Water Music” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Johann Strauss II",
+        "Samuel Barber",
+        "George Frideric Handel",
+        "Nikolay Rimski-Korsakov"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Hangisi Bingo kavramını en doğru açıklar?",
+      "options": [
+        "Satır, sütun ve bölümlerde rakam tekrarını engelleyen sayı bulmacası",
+        "Taşların zar sonucuna göre 24 üçgensel hane üzerinde ilerlediği oyun",
+        "Çekilen numaraları kart üzerindeki numaralarla eşleştirmeye dayalı oyun",
+        "Satrançta şahın tehditten kaçabileceği yasal hamlenin kalmaması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Aşağıdakilerden hangisi Checksum teknolojisini doğru açıklar?",
+      "options": [
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak",
+        "Birbiriyle ilişkili açık ve özel anahtar çifti kullanmak",
+        "Verinin aktarım veya saklama sırasında değişip değişmediğini kontrol etmeye yardımcı olmak",
+        "Sık kullanılan veriye daha hızlı erişim için geçici kopya tutmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Aşağıdakilerden hangisi “penalty corner” teriminin kullanıldığı spordur?",
+      "options": [
+        "Artistik jimnastik",
+        "Çim hokeyi",
+        "Yol bisikleti",
+        "Buz hokeyi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ241",
+  "displayCode": "Y.Q241",
+  "title": "Genel Kültür 4.5 — 241",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“Valkürlerin Uçuşu” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Richard Wagner",
+        "Maurice Ravel",
+        "Gustav Holst",
+        "Antonio Vivaldi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Azor Adaları hangi ülkeye bağlı özerk bir takımadadır?",
+      "options": [
+        "Venezuela",
+        "Fransa",
+        "Portekiz",
+        "Rusya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“gutter ball” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Ragbi",
+        "Judo",
+        "Halter",
+        "Bowling"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Dairesel harekette merkezcil ivmenin yönü nereye doğrudur?",
+      "options": [
+        "Merkezden dışarı",
+        "Dairenin merkezine",
+        "Hareket yönünün tersine",
+        "Teğet doğrultuda"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Sydney Opera Binası yapısının tasarımı hangi mimarla ilişkilidir?",
+      "options": [
+        "Antoni Gaudí",
+        "I. M. Pei",
+        "Jørn Utzon",
+        "Frank Lloyd Wright"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Faust” adlı eserin yazarı kimdir?",
+      "options": [
+        "Johann Wolfgang von Goethe",
+        "Herman Melville",
+        "Antoine de Saint-Exupéry",
+        "Gabriel García Márquez"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "CSS'ın temel işlevi nedir?",
+      "options": [
+        "İşlem sırasında geçici çalışma verilerini tutmak",
+        "İnternette bir kaynağın adresini belirtmek",
+        "Web sayfasının görünüm ve yerleşimini biçimlendirmek",
+        "Kısa mesafede kablosuz veri iletişimi sağlamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Mariachi nedir?",
+      "options": [
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı",
+        "Japonya'nın geleneksel giysilerinden biri",
+        "Māori kültüründeki törensel toplu performans",
+        "Meksika kökenli topluluk müziği geleneği"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Viyana Kongresi, Avrupa düzenini büyük ölçüde hangi liderin savaşlarından sonra yeniden şekillendirdi?",
+      "options": [
+        "Winston Churchill",
+        "Napolyon Bonapart",
+        "Giuseppe Garibaldi",
+        "Klemens von Metternich"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Likidite nedir?",
+      "options": [
+        "Bir varlığın değerini çok kaybetmeden nakde çevrilebilme kolaylığı",
+        "Yatırım riskini farklı varlıklara yayma yaklaşımı",
+        "Giderlerin gelirleri aşması durumu",
+        "Faizin anaparanın yanı sıra birikmiş faiz üzerinden de hesaplanması"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

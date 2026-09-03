@@ -78,6 +78,59 @@
         }
       }
     },
+    "matchArchive": {
+      ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
+      ".indexOn": [
+        "createdAt",
+        "terminalStatus",
+        "quiz/code"
+      ],
+      "$matchId": {
+        ".read": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || (data.exists() && root.child('games').child(data.child('room').val()).child('meta').child('hostUid').val() == auth.uid))",
+        ".write": "auth != null && !data.exists() && newData.exists() && (auth.token.email == 'quizsel-admin@quizsel.app' || (root.child('games').child(newData.child('room').val()).child('meta').child('hostUid').val() == auth.uid && root.child('games').child(newData.child('room').val()).child('meta').child('createdAt').val() == newData.child('createdAt').val()))",
+        ".validate": "newData.hasChildren(['schemaVersion','matchId','room','createdAt','archivedAt','terminalStatus','terminalReason','quiz','host','summary','participants','questionStats']) && newData.child('schemaVersion').val() == 1 && newData.child('matchId').isString() && newData.child('matchId').val() == $matchId && newData.child('room').isString() && newData.child('room').val().length >= 1 && newData.child('room').val().length <= 12 && newData.child('createdAt').isNumber() && newData.child('archivedAt').isNumber() && newData.child('terminalStatus').isString() && (newData.child('terminalStatus').val() == 'completed' || newData.child('terminalStatus').val() == 'terminated') && newData.child('terminalReason').isString() && newData.child('terminalReason').val().length <= 40 && newData.child('quiz').child('code').isString() && newData.child('quiz').child('code').val() == root.child('games').child(newData.child('room').val()).child('meta').child('quizCode').val() && newData.child('host').child('uid').isString() && newData.child('host').child('uid').val() == root.child('games').child(newData.child('room').val()).child('meta').child('hostUid').val()"
+      }
+    },
+    "analyticsDepartures": {
+      ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
+      "$room": {
+        "$createdAt": {
+          ".read": "auth != null && (auth.token.email == 'quizsel-admin@quizsel.app' || root.child('games').child($room).child('meta').child('hostUid').val() == auth.uid)",
+          "$eventId": {
+            ".write": "auth != null && !data.exists() && newData.exists() && root.child('games').child($room).child('meta').child('createdAt').val() == newData.child('createdAt').val() && newData.child('room').val() == $room && (auth.token.email == 'quizsel-admin@quizsel.app' || ((newData.child('uid').val() == auth.uid || root.child('games').child($room).child('meta').child('hostUid').val() == auth.uid) && root.child('games').child($room).child('players').child(newData.child('uid').val()).exists()))",
+            ".validate": "newData.hasChildren(['schemaVersion','eventId','matchId','room','createdAt','uid','capturedAt','reason','captureType','phase','player']) && newData.child('schemaVersion').val() == 1 && newData.child('eventId').isString() && newData.child('eventId').val() == $eventId && newData.child('matchId').isString() && newData.child('room').isString() && newData.child('room').val() == $room && newData.child('createdAt').isNumber() && newData.child('createdAt').val() == root.child('games').child($room).child('meta').child('createdAt').val() && newData.child('uid').isString() && newData.child('capturedAt').isNumber() && newData.child('capturedAt').val() >= newData.child('createdAt').val() && newData.child('capturedAt').val() <= now + 5000 && newData.child('reason').isString() && newData.child('reason').val().length <= 40 && newData.child('captureType').val() == 'pre_removal'",
+            "phase": {
+              ".validate": "newData.hasChildren(['state','currentIndex','currentKey','phaseStartedAt','phaseEndsAt']) && newData.child('state').val() == root.child('games').child($room).child('meta').child('state').val() && newData.child('currentIndex').val() == root.child('games').child($room).child('meta').child('currentIndex').val() && newData.child('currentKey').val() == root.child('games').child($room).child('meta').child('currentKey').val() && newData.child('phaseStartedAt').val() == root.child('games').child($room).child('meta').child('phaseStartedAt').val() && newData.child('phaseEndsAt').val() == root.child('games').child($room).child('meta').child('phaseEndsAt').val()",
+              "$other": {
+                ".validate": false
+              }
+            },
+            "player": {
+              ".validate": "newData.hasChildren(['name','ready','score','totalMs','joinedAt','seenQuizBefore','quizSeenCount','clientVersion']) && newData.child('name').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('name').val() && newData.child('ready').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('ready').val() && newData.child('score').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('score').val() && newData.child('totalMs').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('totalMs').val() && newData.child('joinedAt').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('joinedAt').val() && newData.child('seenQuizBefore').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('seenQuizBefore').val() && newData.child('quizSeenCount').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('quizSeenCount').val() && newData.child('clientVersion').val() == root.child('games').child($room).child('players').child(newData.parent().child('uid').val()).child('clientVersion').val()",
+              "$other": {
+                ".validate": false
+              }
+            },
+            "answers": {
+              "$q": {
+                ".validate": "newData.hasChildren(['choice','answeredAt']) && newData.child('choice').val() == root.child('games').child($room).child('answers').child($q).child(newData.parent().parent().child('uid').val()).child('choice').val() && newData.child('answeredAt').val() == root.child('games').child($room).child('answers').child($q).child(newData.parent().parent().child('uid').val()).child('answeredAt').val() && newData.child('correct').val() == root.child('games').child($room).child('answers').child($q).child(newData.parent().parent().child('uid').val()).child('correct').val() && newData.child('points').val() == root.child('games').child($room).child('answers').child($q).child(newData.parent().parent().child('uid').val()).child('points').val() && newData.child('elapsedMs').val() == root.child('games').child($room).child('answers').child($q).child(newData.parent().parent().child('uid').val()).child('elapsedMs').val()",
+                "choice": {},
+                "answeredAt": {},
+                "correct": {},
+                "points": {},
+                "elapsedMs": {},
+                "$other": {
+                  ".validate": false
+                }
+              }
+            },
+            "$other": {
+              ".validate": false
+            }
+          }
+        }
+      }
+    },
     "games": {
       ".read": "auth != null && auth.token.email == 'quizsel-admin@quizsel.app'",
       "$pin": {

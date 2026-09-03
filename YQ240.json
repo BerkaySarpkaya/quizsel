@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ240",
+  "displayCode": "Y.Q240",
+  "title": "Genel Kültür 4.5 — 240",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdakilerden hangisi “touchdown” teriminin kullanıldığı spordur?",
+      "options": [
+        "Judo",
+        "Yol bisikleti",
+        "Amerikan futbolu",
+        "Buz hokeyi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdaki yazarlardan hangisi “Canterbury Hikâyeleri” eserini kaleme almıştır?",
+      "options": [
+        "Geoffrey Chaucer",
+        "Yusuf Atılgan",
+        "Herman Melville",
+        "Margaret Atwood"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Aşağıdakilerden hangisi HTML teknolojisini doğru açıklar?",
+      "options": [
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "Web sayfasının yapısal içeriğini tanımlamak",
+        "Ağ trafiğini kurallara göre filtrelemek",
+        "İşlem sırasında geçici çalışma verilerini tutmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Hangisi Çeşitlendirme kavramını en doğru açıklar?",
+      "options": [
+        "Genel fiyat düzeyinin zaman içinde yükselmesi",
+        "Yatırım riskini farklı varlıklara yayma yaklaşımı",
+        "Faizin anaparanın yanı sıra birikmiş faiz üzerinden de hesaplanması",
+        "Bir varlığın değerini çok kaybetmeden nakde çevrilebilme kolaylığı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Fiber optik kablolarda ışığın içeride yönlendirilmesinde hangi olay temel rol oynar?",
+      "options": [
+        "Kırınım",
+        "Girişim",
+        "Tam yansıma",
+        "Polarizasyon"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Galápagos Adaları hangi ülkeye bağlıdır?",
+      "options": [
+        "Şili",
+        "Ekvador",
+        "Bolivya",
+        "Tanzanya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“Şehrazat” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Edward Elgar",
+        "Nikolay Rimski-Korsakov",
+        "Johann Sebastian Bach",
+        "George Frideric Handel"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdaki mimarlardan hangisi Sagrada Família yapısıyla ilişkilidir?",
+      "options": [
+        "Jørn Utzon",
+        "Robert Venturi",
+        "Santiago Calatrava",
+        "Antoni Gaudí"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Tordesillas Antlaşması, İspanya ile hangi krallık arasında imzalandı?",
+      "options": [
+        "İngiltere",
+        "Fransa",
+        "Portekiz",
+        "Çin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Piñata aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı",
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı",
+        "Finlandiya kültürüyle güçlü biçimde özdeşleşen sıcak buhar geleneği",
+        "Kutlamalarda içi ikramlarla doldurulup kırılan süslü kap"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

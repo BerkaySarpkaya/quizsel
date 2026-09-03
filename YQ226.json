@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ226",
+  "displayCode": "Y.Q226",
+  "title": "Genel Kültür 4.5 — 226",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“Gülün Adı” adlı eserin yazarı kimdir?",
+      "options": [
+        "Herman Melville",
+        "Mihail Bulgakov",
+        "Sabahattin Ali",
+        "Umberto Eco"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“alley-oop” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Halter",
+        "Basketbol",
+        "Yüzme",
+        "Judo"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Ohri Gölü hangi iki ülke arasında yer alır?",
+      "options": [
+        "Karadeniz ve Marmara Denizi",
+        "İsviçre ve İtalya",
+        "Arnavutluk ve Kuzey Makedonya",
+        "Atlas Okyanusu ve Akdeniz"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“Peer Gynt” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Edvard Grieg",
+        "Sergey Prokofyev",
+        "Claude Debussy",
+        "Aaron Copland"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Dreyfus Davası hangi ülkenin siyasi tarihinde yaşandı?",
+      "options": [
+        "Fransa",
+        "Çin",
+        "İngiltere",
+        "Amerika Birleşik Devletleri"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Humus nedir?",
+      "options": [
+        "Nohut ve tahin temelli ezme",
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "Avokado temelli sos veya ezme",
+        "Nohut veya bakla temelli kızartılmış köfte"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“İnsanoğlu (The Son of Man)” adlı eserin sanatçısı kimdir?",
+      "options": [
+        "Anish Kapoor",
+        "Piet Mondrian",
+        "René Magritte",
+        "Grant Wood"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Flamenko nedir?",
+      "options": [
+        "Portekiz'le özdeşleşmiş melankolik müzik geleneği",
+        "İç içe geçen Rus bebekleri",
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Basıncın SI birimi nedir?",
+      "options": [
+        "Pascal",
+        "Volt",
+        "Hertz",
+        "Newton"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "ROM'ın temel işlevi nedir?",
+      "options": [
+        "Web sitesine ilişkin küçük verileri tarayıcıda saklamak",
+        "Kalıcı veya yalnızca okunur nitelikte veri saklamak",
+        "Ağ trafiği için şifreli bir tünel oluşturmak",
+        "İnsan kullanıcılarla otomatik botları ayırt etmeye yardımcı olmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

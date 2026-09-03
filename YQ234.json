@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ234",
+  "displayCode": "Y.Q234",
+  "title": "Genel Kültür 4.5 — 234",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kalay elementinin kimyasal sembolü nedir?",
+      "options": [
+        "Ag",
+        "Sn",
+        "Cu",
+        "K"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdakilerden hangisi “wicket” teriminin kullanıldığı spordur?",
+      "options": [
+        "Kriket",
+        "Voleybol",
+        "Eskrim",
+        "Yüzme"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Carmen” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Carl Orff",
+        "Antonín Dvořák",
+        "Edward Elgar",
+        "Georges Bizet"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Diwali aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Māori kültüründeki törensel toplu performans",
+        "Tayland yeni yılıyla ilişkili su kutlamaları",
+        "Güney Asya kökenli Işıklar Bayramı",
+        "Endülüs kökenli müzik ve dans geleneği"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Hangisi Feta kavramını en doğru açıklar?",
+      "options": [
+        "Valensiya kökenli pirinç yemeği",
+        "Nohut veya bakla temelli kızartılmış köfte",
+        "Fermente sebzelerden yapılan Kore yemeği",
+        "Salamurada olgunlaştırılan Yunan peyniri"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdaki yazarlardan hangisi “Körlük” eserini kaleme almıştır?",
+      "options": [
+        "Geoffrey Chaucer",
+        "Franz Kafka",
+        "José Saramago",
+        "Nâzım Hikmet"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Aşağıdakilerden hangisi Önbellek (cache) teknolojisini doğru açıklar?",
+      "options": [
+        "Veriyi hareketli parça olmadan flaş bellek üzerinde saklamak",
+        "Sık kullanılan veriye daha hızlı erişim için geçici kopya tutmak",
+        "Birbiriyle ilişkili açık ve özel anahtar çifti kullanmak",
+        "Verinin aktarım veya saklama sırasında değişip değişmediğini kontrol etmeye yardımcı olmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdaki sanatçılardan hangisi “Broadway Boogie Woogie” eserini yaratmıştır?",
+      "options": [
+        "Diego Velázquez",
+        "Gustav Klimt",
+        "Edward Hopper",
+        "Piet Mondrian"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Yeniçeri Ocağı hangi imparatorluğun askerî teşkilatının parçasıydı?",
+      "options": [
+        "Pers İmparatorluğu",
+        "Osmanlı İmparatorluğu",
+        "Roma İmparatorluğu",
+        "Çing İmparatorluğu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Balaton Gölü hangi ülkededir?",
+      "options": [
+        "Fransa",
+        "Venezuela",
+        "Macaristan",
+        "Şili"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

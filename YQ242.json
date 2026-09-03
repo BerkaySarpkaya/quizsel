@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ242",
+  "displayCode": "Y.Q242",
+  "title": "Genel Kültür 4.5 — 242",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Şanlı Devrim olarak bilinen siyasi değişim hangi ülkede gerçekleşti?",
+      "options": [
+        "Hindistan",
+        "İngiltere",
+        "Çin",
+        "Fransa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Moby Dick” hangi yazarın eseridir?",
+      "options": [
+        "Herman Melville",
+        "Nâzım Hikmet",
+        "Dante Alighieri",
+        "Ernest Hemingway"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Fado en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği",
+        "Portekiz'le özdeşleşmiş melankolik müzik geleneği"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“snatch” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Golf",
+        "Boks",
+        "Yüzme",
+        "Halter"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“Canon in D” eserinin bestecisi kimdir?",
+      "options": [
+        "Maurice Ravel",
+        "Jean Sibelius",
+        "Erik Satie",
+        "Johann Pachelbel"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Louvre Piramidi hangi mimarın tasarımıdır?",
+      "options": [
+        "Le Corbusier",
+        "I. M. Pei",
+        "Robert Venturi",
+        "Frank Lloyd Wright"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "JavaScript en çok hangi amaçla kullanılır?",
+      "options": [
+        "Web sayfalarına programlanabilir etkileşim kazandırmak",
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "Web sayfasının görünüm ve yerleşimini biçimlendirmek",
+        "İnternette bir kaynağın adresini belirtmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Astronomide kırmızıya kayma, ışığın dalga boyunda genel olarak nasıl bir değişime işaret eder?",
+      "options": [
+        "Işık hızının sıfıra düşmesi",
+        "Daha kısa dalga boylarına kayma",
+        "Daha uzun dalga boylarına kayma",
+        "Işığın tamamen soğurulması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Kanarya Adaları hangi ülkeye bağlıdır?",
+      "options": [
+        "İspanya",
+        "Portekiz",
+        "Venezuela",
+        "Botsvana"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Bütçe açığı için en uygun tanım hangisidir?",
+      "options": [
+        "Genel fiyat düzeyinin zaman içinde yükselmesi",
+        "Bir varlığın değerini çok kaybetmeden nakde çevrilebilme kolaylığı",
+        "Faizin anaparanın yanı sıra birikmiş faiz üzerinden de hesaplanması",
+        "Giderlerin gelirleri aşması durumu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

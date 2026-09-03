@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ245",
+  "displayCode": "Y.Q245",
+  "title": "Genel Kültür 4.5 — 245",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Açık anahtarlı şifreleme en çok hangi amaçla kullanılır?",
+      "options": [
+        "Birbiriyle ilişkili açık ve özel anahtar çifti kullanmak",
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak",
+        "Veriyi hareketli parça olmadan flaş bellek üzerinde saklamak",
+        "İki boyutlu görsel bir kod içinde veri taşımak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Angel Şelalesi hangi ülkededir?",
+      "options": [
+        "Fransa",
+        "Rusya",
+        "İspanya",
+        "Venezuela"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“domestique” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Yol bisikleti",
+        "Yüzme",
+        "Amerikan futbolu",
+        "Atletizm"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Europa hangi gezegenin uydusudur?",
+      "options": [
+        "Neptün",
+        "Jüpiter",
+        "Uranüs",
+        "Venüs"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Dördüncü Haçlı Seferi sırasında yağmalanan Bizans başkenti hangi şehirdi?",
+      "options": [
+        "Hattuşa",
+        "Floransa",
+        "İskenderiye",
+        "Konstantinopolis"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Didgeridoo en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği",
+        "Japon Budist geleneğinde ataları anmaya odaklanan dönem",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Casa Batlló hangi mimarın tasarımıdır?",
+      "options": [
+        "Zaha Hadid",
+        "Le Corbusier",
+        "Frank Gehry",
+        "Antoni Gaudí"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Enigma Variations” eserinin bestecisi kimdir?",
+      "options": [
+        "Georges Bizet",
+        "Edward Elgar",
+        "Edvard Grieg",
+        "Maurice Ravel"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "“Damızlık Kızın Öyküsü” hangi yazarın eseridir?",
+      "options": [
+        "Oscar Wilde",
+        "Ray Bradbury",
+        "Margaret Atwood",
+        "Kazuo Ishiguro"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Domino için en uygun tanım hangisidir?",
+      "options": [
+        "Satır, sütun ve bölümlerde rakam tekrarını engelleyen sayı bulmacası",
+        "Satrançta şahın tehditten kaçabileceği yasal hamlenin kalmaması",
+        "Taşların zar sonucuna göre 24 üçgensel hane üzerinde ilerlediği oyun",
+        "İki ucunda işaretler bulunan taşlarla oynanan oyun"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

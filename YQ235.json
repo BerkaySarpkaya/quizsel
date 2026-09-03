@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ235",
+  "displayCode": "Y.Q235",
+  "title": "Genel Kültür 4.5 — 235",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kruvasan nedir?",
+      "options": [
+        "Narenciye suyuyla marine edilen deniz ürünü yemeği",
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "Kat kat tereyağlı hamurdan yapılan fırın ürünü",
+        "Fermente sebzelerden yapılan Kore yemeği"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Pax Romana olarak bilinen görece barış ve istikrar dönemi hangi imparatorlukta yaşandı?",
+      "options": [
+        "Pers İmparatorluğu",
+        "Roma İmparatorluğu",
+        "Moğol İmparatorluğu",
+        "Çing İmparatorluğu"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Sevil Berberi” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Gioachino Rossini",
+        "Gustav Holst",
+        "Erik Satie",
+        "Georges Bizet"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“Düşünen Adam” adlı eserin sanatçısı kimdir?",
+      "options": [
+        "Auguste Rodin",
+        "Piet Mondrian",
+        "Andy Warhol",
+        "Claude Monet"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Tarayıcı çerezi (cookie)'ın temel işlevi nedir?",
+      "options": [
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "Ağ trafiği için şifreli bir tünel oluşturmak",
+        "Web sitesine ilişkin küçük verileri tarayıcıda saklamak",
+        "Çok yakın mesafede temassız veri alışverişi sağlamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“icing” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Buz hokeyi",
+        "Atletizm",
+        "Çim hokeyi",
+        "Halter"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Nevruz nedir?",
+      "options": [
+        "Hawaii kültüründe çiçek veya yapraklardan yapılan boyun çelengi",
+        "Kâğıdı kesmeden veya az kesmeyle katlayarak şekil oluşturma sanatı",
+        "Meksika'da ölen yakınları anmaya odaklanan gelenek",
+        "Baharın gelişini ve yeni yılı simgeleyen geniş bölgesel kutlama"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Veba” adlı eserin yazarı kimdir?",
+      "options": [
+        "Chinua Achebe",
+        "Dante Alighieri",
+        "Albert Camus",
+        "Orhan Pamuk"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Patagonya bölgesi ağırlıklı olarak hangi iki ülkeye yayılır?",
+      "options": [
+        "Moğolistan ve Çin",
+        "Arjantin ve Brezilya",
+        "İspanya ve Portekiz",
+        "Arjantin ve Şili"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Tungsten elementinin kimyasal sembolü nedir?",
+      "options": [
+        "Na",
+        "Sn",
+        "W",
+        "Cu"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

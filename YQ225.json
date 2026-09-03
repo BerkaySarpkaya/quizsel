@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ225",
+  "displayCode": "Y.Q225",
+  "title": "Genel Kültür 4.5 — 225",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki yazarlardan hangisi “Yüzyıllık Yalnızlık” eserini kaleme almıştır?",
+      "options": [
+        "Gabriel García Márquez",
+        "Ahmet Hamdi Tanpınar",
+        "Oscar Wilde",
+        "Henrik Ibsen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Hangisi Ceviche kavramını en doğru açıklar?",
+      "options": [
+        "Fermente sebzelerden yapılan Kore yemeği",
+        "Kahve ve mascarpone ile hazırlanan İtalyan tatlısı",
+        "Narenciye suyuyla marine edilen deniz ürünü yemeği",
+        "Kat kat tereyağlı hamurdan yapılan fırın ürünü"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Aşağıdaki sanatçılardan hangisi “Nighthawks” eserini yaratmıştır?",
+      "options": [
+        "Piet Mondrian",
+        "Edward Hopper",
+        "Diego Velázquez",
+        "Gustav Klimt"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Boston Çay Partisi hangi ülkenin bağımsızlık süreciyle ilişkilidir?",
+      "options": [
+        "Çin",
+        "Japonya",
+        "Portekiz",
+        "Amerika Birleşik Devletleri"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Haka aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Māori kültüründeki törensel toplu performans",
+        "Japonya'nın geleneksel giysilerinden biri",
+        "İç içe geçen Rus bebekleri",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdakilerden hangisi “libero” teriminin kullanıldığı spordur?",
+      "options": [
+        "Voleybol",
+        "Badminton",
+        "Beyzbol",
+        "Ragbi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Atacama Çölü'nün büyük bölümü hangi ülkededir?",
+      "options": [
+        "Portekiz",
+        "Şili",
+        "Ekvador",
+        "Fransa"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdakilerden hangisi RAM teknolojisini doğru açıklar?",
+      "options": [
+        "Lazer darbeleriyle mesafe ölçüp çevreyi haritalamak",
+        "Kısa mesafede kablosuz veri iletişimi sağlamak",
+        "Kaynak kodunun incelenip geliştirilebilmesine olanak vermek",
+        "İşlem sırasında geçici çalışma verilerini tutmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Gücün SI birimi nedir?",
+      "options": [
+        "Ohm",
+        "Watt",
+        "Pascal",
+        "Amper"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Carmina Burana” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Edvard Grieg",
+        "Giacomo Puccini",
+        "Igor Stravinsky",
+        "Carl Orff"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

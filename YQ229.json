@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ229",
+  "displayCode": "Y.Q229",
+  "title": "Genel Kültür 4.5 — 229",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kimchi nedir?",
+      "options": [
+        "İrmikten üretilen küçük taneli temel gıda",
+        "Avokado temelli sos veya ezme",
+        "Nohut ve tahin temelli ezme",
+        "Fermente sebzelerden yapılan Kore yemeği"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“ippon” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Judo",
+        "Halter",
+        "Eskrim",
+        "Ragbi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "NFC'ın temel işlevi nedir?",
+      "options": [
+        "İnsan kullanıcılarla otomatik botları ayırt etmeye yardımcı olmak",
+        "Farklı yazılım bileşenlerinin tanımlı biçimde iletişim kurmasını sağlamak",
+        "Çok yakın mesafede temassız veri alışverişi sağlamak",
+        "Ağ trafiği için şifreli bir tünel oluşturmak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Berlin Hava Köprüsü, abluka sırasında hangi şehrin batı kesimini ikmal etmek için düzenlendi?",
+      "options": [
+        "Konstantinopolis",
+        "Hattuşa",
+        "Edo",
+        "Berlin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“Mavi Tuna” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Johann Strauss II",
+        "Johann Sebastian Bach",
+        "Jean Sibelius",
+        "Nikolay Rimski-Korsakov"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Dönüşüm” adlı eserin yazarı kimdir?",
+      "options": [
+        "Mihail Bulgakov",
+        "Franz Kafka",
+        "Herman Melville",
+        "Oscar Wilde"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Aconcagua Dağı hangi ülkededir?",
+      "options": [
+        "Portekiz",
+        "Botsvana",
+        "Arjantin",
+        "İtalya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Matruşka nedir?",
+      "options": [
+        "İç içe geçen Rus bebekleri",
+        "Güney Asya kökenli Işıklar Bayramı",
+        "Portekiz'le özdeşleşmiş melankolik müzik geleneği",
+        "Tayland yeni yılıyla ilişkili su kutlamaları"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Lizozomların hücredeki temel görevlerinden biri nedir?",
+      "options": [
+        "DNA'nın depolanması",
+        "Hücre içi sindirim",
+        "Hücresel solunum",
+        "Hücre içindeki maddeleri parçalamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Dünyevi Zevkler Bahçesi” adlı eserin sanatçısı kimdir?",
+      "options": [
+        "Claude Monet",
+        "Sandro Botticelli",
+        "Jeff Koons",
+        "Hieronymus Bosch"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

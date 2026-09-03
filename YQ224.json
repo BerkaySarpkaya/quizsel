@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ224",
+  "displayCode": "Y.Q224",
+  "title": "Genel Kültür 4.5 — 224",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“American Gothic” eseri hangi sanatçıya aittir?",
+      "options": [
+        "Edward Hopper",
+        "Gustav Klimt",
+        "Katsushika Hokusai",
+        "Grant Wood"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Okavango Deltası hangi ülkede yer alır?",
+      "options": [
+        "Tanzanya",
+        "Portekiz",
+        "Bolivya",
+        "Botsvana"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Yabancı” hangi yazarın eseridir?",
+      "options": [
+        "Walt Whitman",
+        "Yusuf Atılgan",
+        "Albert Camus",
+        "Margaret Atwood"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Paella için en uygun tanım hangisidir?",
+      "options": [
+        "Valensiya kökenli pirinç yemeği",
+        "Nohut ve tahin temelli ezme",
+        "Fesleğen temelli İtalyan sosu",
+        "Yoğurt ve salatalık temelli soğuk meze"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Sakoku politikası hangi ülkenin tarihinde dış dünyayla ilişkilerin sınırlandırılmasıyla ilişkilidir?",
+      "options": [
+        "Portekiz",
+        "Japonya",
+        "Amerika Birleşik Devletleri",
+        "İngiltere"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Batik en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Günün sıcak saatlerinde verilen öğle dinlenmesi geleneği",
+        "Japon kültüründe çayın hazırlanması ve sunumunu ritüelleştiren uygulama",
+        "Balmumu kullanılarak kumaşta rezerv boyama yapma tekniği",
+        "Kutlamalarda içi ikramlarla doldurulup kırılan süslü kap"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "URL en çok hangi amaçla kullanılır?",
+      "options": [
+        "İnternette bir kaynağın adresini belirtmek",
+        "Ağ trafiğini kurallara göre filtrelemek",
+        "Dosya veya veri boyutunu azaltmak",
+        "İşlem sırasında geçici çalışma verilerini tutmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“love” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Tenis",
+        "Atletizm",
+        "Basketbol",
+        "Yüzme"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "“Boléro” eserinin bestecisi kimdir?",
+      "options": [
+        "Maurice Ravel",
+        "Gioachino Rossini",
+        "Franz Liszt",
+        "Edward Elgar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Elektrik akımının SI birimi nedir?",
+      "options": [
+        "Newton",
+        "Hertz",
+        "Amper",
+        "Volt"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

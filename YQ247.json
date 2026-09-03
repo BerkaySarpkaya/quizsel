@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ247",
+  "displayCode": "Y.Q247",
+  "title": "Genel Kültür 4.5 — 247",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Milletler Cemiyeti hangi büyük savaşın ardından kuruldu?",
+      "options": [
+        "Otuz Yıl Savaşları",
+        "Yedi Yıl Savaşı",
+        "I. Dünya Savaşı",
+        "Kırım Savaşı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Backgammon (tavla) nedir?",
+      "options": [
+        "İki ucunda işaretler bulunan taşlarla oynanan oyun",
+        "Taşların zar sonucuna göre 24 üçgensel hane üzerinde ilerlediği oyun",
+        "Satrançta şahın tehditten kaçabileceği yasal hamlenin kalmaması",
+        "Çekilen numaraları kart üzerindeki numaralarla eşleştirmeye dayalı oyun"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Victoria Şelaleleri hangi iki ülke arasındaki sınırda yer alır?",
+      "options": [
+        "Arjantin ve Brezilya",
+        "Peru ve Bolivya",
+        "Zambiya ve Zimbabve",
+        "İspanya ve Portekiz"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“Karlar Ülkesi” adlı eserin yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "Walt Whitman",
+        "Umberto Eco",
+        "Yasunari Kawabata"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Hula nedir?",
+      "options": [
+        "Japonya'nın geleneksel sahne tiyatrosu türlerinden biri",
+        "İskoç kültürüyle özdeşleşmiş pileli giysi",
+        "Portekiz'le özdeşleşmiş melankolik müzik geleneği",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Güneş Sistemi'nin en sıcak gezegeni hangisidir?",
+      "options": [
+        "Uranüs",
+        "Satürn",
+        "Merkür",
+        "Venüs"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“Messiah” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Johann Strauss II",
+        "George Frideric Handel",
+        "Pyotr İlyiç Çaykovski",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Heydar Aliyev Merkezi yapısının tasarımı hangi mimarla ilişkilidir?",
+      "options": [
+        "Louis Kahn",
+        "Robert Venturi",
+        "Zaha Hadid",
+        "Antoni Gaudí"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "GPS'ın temel işlevi nedir?",
+      "options": [
+        "Uydu sinyalleriyle konum belirlemek",
+        "Web sayfalarına programlanabilir etkileşim kazandırmak",
+        "Alan adlarını IP adresleriyle eşleştirmek",
+        "Parolaya ek bir doğrulama unsuru istemek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“try” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Kriket",
+        "Ragbi",
+        "Beyzbol",
+        "Halter"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

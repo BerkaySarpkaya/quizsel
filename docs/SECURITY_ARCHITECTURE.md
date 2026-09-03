@@ -1,21 +1,33 @@
-# Quizsel Question Privacy / Backend Migration Boundary
+# Quizsel Security Architecture / Backend Migration Boundary
 
-## Mevcut durum
+## Current question-privacy boundary
 
-Mevcut GitHub Pages runtime'ı quiz dosyasını tarayıcıdan:
+Current GitHub Pages runtime loads quiz files in the browser with `fetch("YQxxx.json")`. Therefore a user can inspect browser-delivered quiz content through DevTools/Network. A private authoring repository alone does not make deployed Pages assets secret.
 
-```text
-fetch("YQxxx.json")
-```
+Semantic shards are authoring artifacts and contain `correctAnswer`; in a future paid/private question architecture they should not be part of the public production artifact.
 
-ile yükler.
+## Current durable-analytics boundary — v0.12
 
-Bu nedenle kullanıcı DevTools/Network üzerinden o quizin tarayıcıya gönderilen içeriğini görebilir.
-Repo'nun private olması, Pages üzerinde yayınlanan asset'leri otomatik olarak gizli yapmaz.
+v0.12 adds two Realtime Database roots:
 
-Semantic shard'lar da authoring içindir ve `correctAnswer` içerir. Public production artifact'ında uzun vadede yer almamalıdır.
+- `matchArchive/{matchId}` — terminal full-match snapshot,
+- `analyticsDepartures/{room}/{createdAt}/{eventId}` — immutable pre-removal player snapshot.
 
-## Hedef güvenli mimari
+Security properties in `database.rules.json`:
+
+- archive records are create-only; clients cannot update/delete an existing match archive,
+- the admin account can read analytics history,
+- ordinary users cannot enumerate/read the global archive,
+- a current host may read only the existing archive associated with its own still-live room for idempotency,
+- departure events are create-only,
+- self/host departure writes require that the referenced player still exists in the live game,
+- departure player/answer values are validated against the current `games/` data before the live record can be removed.
+
+This significantly improves accidental-loss and casual-tamper resistance, but it does not turn the browser into a trusted server. The current host is already trusted to advance phases and calculate scores in the client runtime. A malicious host with a modified client can therefore still influence live game state before it is archived.
+
+For authoritative anti-tamper analytics, scoring must eventually move server-side.
+
+## Target secure architecture
 
 ```text
 Private question store
@@ -27,54 +39,37 @@ Current-question payload only
 Browser
 ```
 
-Browser'a soru aşamasında:
-- soru metni
-- seçenekler
-- görsel metadata
-- question id
+Server-side responsibilities should eventually include:
 
-gönderilir.
+- answer truth,
+- scoring,
+- phase authority,
+- match finalization,
+- durable analytics write,
+- entitlement/premium mapping.
 
-Browser'a reveal öncesi:
-- doğru cevap index'i
-- gelecek sorular
-- bütün quiz JSON'u
+Browser receives only the current question payload before reveal.
 
-gönderilmez.
-
-Scoring ve answer truth server-side olmalıdır.
-
-## Deployment separation
-
-Uzun vadede üç artifact ayrılmalıdır:
+## Deployment separation target
 
 ### 1. Authoring repository
-- quiz source
-- semantic shards
-- QA metadata
-- source notes
+- quiz source,
+- semantic shards,
+- QA metadata,
+- source notes.
 
 ### 2. Public frontend artifact
-- HTML
-- CSS
-- client JS
-- public quiz metadata
+- HTML,
+- CSS,
+- client JS,
+- public quiz metadata.
 
 ### 3. Private backend data
-- soru metinleri
-- seçenekler
-- doğru cevaplar
-- entitlement/premium mapping
+- question text/options/answers,
+- match/scoring authority,
+- durable analytics warehouse/export source,
+- entitlement mapping.
 
-## Bu health paketinde ne yapıldı?
+## Firebase Rules are operational infrastructure
 
-- Bu sınır authoritative dokümana işlendi.
-- Public statik yapının “gizli” olmadığı açıklandı.
-- Runtime reliability ve QA geliştirildi.
-
-## Bu health paketinde ne yapılmadı?
-
-Backend migration **aktif edilmedi**.
-Bunun nedeni migration'ın yalnız GitHub'a dosya yükleyerek tamamlanamamasıdır; Firebase Functions/private store deploy ve veri taşıma gerekir.
-
-`database.rules.json` da bu paket kapsamında değiştirilmemiştir.
+`database.rules.json` in Git is source control for the intended ruleset; GitHub Pages does not publish those rules to Firebase. Any change to analytics permissions requires an explicit Realtime Database Rules publish/deploy.

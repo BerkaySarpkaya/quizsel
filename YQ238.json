@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ238",
+  "displayCode": "Y.Q238",
+  "title": "Genel Kültür 4.5 — 238",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“Çimen Yaprakları” adlı eserin yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "Kazuo Ishiguro",
+        "Herman Melville",
+        "Walt Whitman"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“eagle” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Tenis",
+        "Golf",
+        "Badminton",
+        "Kriket"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Gobi Çölü hangi iki ülkeye yayılır?",
+      "options": [
+        "Karadeniz ve Marmara Denizi",
+        "Avrupa ve Asya",
+        "Atlas Okyanusu ve Akdeniz",
+        "Moğolistan ve Çin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Bonsai nedir?",
+      "options": [
+        "Kutlamalarda içi ikramlarla doldurulup kırılan süslü kap",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı",
+        "Meksika kökenli topluluk müziği geleneği",
+        "Tayland yeni yılıyla ilişkili su kutlamaları"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Minos uygarlığının merkezi hangi Akdeniz adasıydı?",
+      "options": [
+        "Kıbrıs",
+        "Girit",
+        "Sardinya",
+        "Rodos"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Nötr bir sulu çözeltinin pH değeri oda koşullarında yaklaşık kaçtır?",
+      "options": [
+        "7",
+        "Üç",
+        "14",
+        "İki"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Enflasyon nedir?",
+      "options": [
+        "Yatırım riskini farklı varlıklara yayma yaklaşımı",
+        "Faizin anaparanın yanı sıra birikmiş faiz üzerinden de hesaplanması",
+        "Genel fiyat düzeyinin zaman içinde yükselmesi",
+        "Bir varlığın değerini çok kaybetmeden nakde çevrilebilme kolaylığı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Kayıpsız sıkıştırma'ın temel işlevi nedir?",
+      "options": [
+        "Orijinal verinin eksiksiz geri oluşturulabilmesini sağlamak",
+        "İşlem sırasında geçici çalışma verilerini tutmak",
+        "Alan adlarını IP adresleriyle eşleştirmek",
+        "Dosya veya veri boyutunu azaltmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "“Clair de Lune” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Franz Liszt",
+        "Claude Debussy",
+        "Igor Stravinsky",
+        "George Gershwin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Guggenheim Bilbao Müzesi yapısının tasarımı hangi mimarla ilişkilidir?",
+      "options": [
+        "Robert Venturi",
+        "Frank Gehry",
+        "Zaha Hadid",
+        "Louis Kahn"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

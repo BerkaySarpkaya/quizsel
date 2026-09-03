@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ223",
+  "displayCode": "Y.Q223",
+  "title": "Genel Kültür 4.5 — 223",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“birdie” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Judo",
+        "Tenis",
+        "Bowling",
+        "Golf"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Dava” adlı eserin yazarı kimdir?",
+      "options": [
+        "Henrik Ibsen",
+        "Mihail Bulgakov",
+        "John Steinbeck",
+        "Franz Kafka"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Magna Carta ilk olarak hangi ülkede yayımlandı?",
+      "options": [
+        "İngiltere",
+        "Hindistan",
+        "Amerika Birleşik Devletleri",
+        "Japonya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Salar de Uyuni adlı büyük tuz düzlüğü hangi ülkededir?",
+      "options": [
+        "Bolivya",
+        "Portekiz",
+        "Şili",
+        "Ekvador"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Pesto nedir?",
+      "options": [
+        "Nohut ve tahin temelli ezme",
+        "Yoğurt ve salatalık temelli soğuk meze",
+        "Fesleğen temelli İtalyan sosu",
+        "İrmikten üretilen küçük taneli temel gıda"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Öpücük (The Kiss)” adlı eserin sanatçısı kimdir?",
+      "options": [
+        "Auguste Rodin",
+        "René Magritte",
+        "Jeff Koons",
+        "Gustav Klimt"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Hanami nedir?",
+      "options": [
+        "Kiraz çiçeklerini seyretme geleneği",
+        "Güney Asya kökenli Işıklar Bayramı",
+        "İç içe geçen Rus bebekleri",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Dört Mevsim” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Antonio Vivaldi",
+        "Sergey Prokofyev",
+        "Johann Pachelbel",
+        "Maurice Ravel"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Elektrik direncinin SI birimi nedir?",
+      "options": [
+        "Ohm",
+        "Hertz",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Markdown'ın temel işlevi nedir?",
+      "options": [
+        "Parolaya ek bir doğrulama unsuru istemek",
+        "Basit işaretlerle düz metni biçimlendirmek",
+        "Alan adlarını IP adresleriyle eşleştirmek",
+        "Ağ trafiğini kurallara göre filtrelemek"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

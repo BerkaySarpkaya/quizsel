@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ237",
+  "displayCode": "Y.Q237",
+  "title": "Genel Kültür 4.5 — 237",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ural Dağları geleneksel coğrafi sınıflamada hangi iki kıta arasında sınır kabul edilir?",
+      "options": [
+        "Karadeniz ve Marmara Denizi",
+        "Avrupa ve Asya",
+        "Arjantin ve Şili",
+        "Moğolistan ve Çin"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Gymnopédies” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Erik Satie",
+        "Samuel Barber",
+        "Franz Liszt",
+        "Giacomo Puccini"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Aşağıdakilerden hangisi Veri sıkıştırma teknolojisini doğru açıklar?",
+      "options": [
+        "Dosya veya veri boyutunu azaltmak",
+        "Uydu sinyalleriyle konum belirlemek",
+        "İnternette bir kaynağın adresini belirtmek",
+        "Orijinal verinin eksiksiz geri oluşturulabilmesini sağlamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Reconquista olarak bilinen tarihsel süreç hangi yarımadada gerçekleşti?",
+      "options": [
+        "Batı Avrupa",
+        "Orta Avrupa",
+        "İber Yarımadası",
+        "Balkanlar"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Aşağıdakilerden hangisi “ace” teriminin kullanıldığı spordur?",
+      "options": [
+        "Halter",
+        "Golf",
+        "Judo",
+        "Tenis"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdaki yazarlardan hangisi “Godot'yu Beklerken” eserini kaleme almıştır?",
+      "options": [
+        "Dante Alighieri",
+        "Albert Camus",
+        "Ray Bradbury",
+        "Samuel Beckett"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Ozon molekülü kaç oksijen atomundan oluşur?",
+      "options": [
+        "Dört",
+        "Üç",
+        "İki",
+        "7"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdaki sanatçılardan hangisi “Balon Köpek (Balloon Dog)” eserini yaratmıştır?",
+      "options": [
+        "Jeff Koons",
+        "Katsushika Hokusai",
+        "Gustav Klimt",
+        "Diego Velázquez"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Hangisi Falafel kavramını en doğru açıklar?",
+      "options": [
+        "Nohut veya bakla temelli kızartılmış köfte",
+        "Salamurada olgunlaştırılan Yunan peyniri",
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "Fermente sebzelerden yapılan Kore yemeği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Origami aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "İskoç kültürüyle özdeşleşmiş pileli giysi",
+        "Kâğıdı katlayarak şekil oluşturma sanatı",
+        "Japonya'nın geleneksel giysilerinden biri",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

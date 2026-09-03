@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ250",
+  "displayCode": "Y.Q250",
+  "title": "Genel Kültür 4.5 — 250",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Vanna Venturi House yapısının tasarımı hangi mimarla ilişkilidir?",
+      "options": [
+        "Antoni Gaudí",
+        "Frank Gehry",
+        "Robert Venturi",
+        "I. M. Pei"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Kürk Mantolu Madonna” adlı eserin yazarı kimdir?",
+      "options": [
+        "Dante Alighieri",
+        "Sabahattin Ali",
+        "Yusuf Atılgan",
+        "Margaret Atwood"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Nil Nehri'nin deltası hangi denize açılır?",
+      "options": [
+        "Hazar Denizi",
+        "Akdeniz",
+        "Bengal Körfezi",
+        "Karadeniz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Ahamenişlerin Kraliyet Yolu hangi imparatorluğun yönetim ve haberleşme ağına hizmet etti?",
+      "options": [
+        "Moğol İmparatorluğu",
+        "Çing İmparatorluğu",
+        "Osmanlı İmparatorluğu",
+        "Pers İmparatorluğu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Mohs sertlik ölçeğinde en sert referans mineral hangisidir?",
+      "options": [
+        "Elmas",
+        "Kalsit",
+        "Kuvars",
+        "Korindon"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Obon nedir?",
+      "options": [
+        "Japon Budist geleneğinde ataları anmaya odaklanan dönem",
+        "Kutlamalarda içi ikramlarla doldurulup kırılan süslü kap",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği",
+        "Balmumu kullanılarak kumaşta rezerv boyama yapma tekniği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“steeplechase” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Halter",
+        "Atletizm",
+        "Kriket",
+        "Boks"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "E-ink'ın temel işlevi nedir?",
+      "options": [
+        "Sık kullanılan veriye daha hızlı erişim için geçici kopya tutmak",
+        "Dijital görüntü ve sesi tek bağlantı üzerinden aktarmak",
+        "İki boyutlu görsel bir kod içinde veri taşımak",
+        "Yansıtıcı ve düşük enerji tüketimli elektronik kâğıt görüntüsü oluşturmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Kilometre sayacı (odometre) nedir?",
+      "options": [
+        "Rüzgâr hızını ölçen araç",
+        "Bir sistemin sıcaklığını belirli aralıkta tutmaya yardımcı olan kontrol aygıtı",
+        "Havadaki nemi ölçen araç",
+        "Bir aracın katettiği toplam mesafeyi gösteren araç"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“1812 Uvertürü” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Antonín Dvořák",
+        "Pyotr İlyiç Çaykovski",
+        "Nikolay Rimski-Korsakov",
+        "Samuel Barber"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

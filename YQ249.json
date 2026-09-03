@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ249",
+  "displayCode": "Y.Q249",
+  "title": "Genel Kültür 4.5 — 249",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Fuji Dağı Japonya'nın hangi ana adasındadır?",
+      "options": [
+        "Sicilya",
+        "Hispaniola",
+        "Sumatra",
+        "Honshu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Dünya'nın dış çekirdeği hangi fiziksel hâldedir?",
+      "options": [
+        "Katı",
+        "Sıvı",
+        "Plazma",
+        "Gaz"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Otuz Yıl Savaşları'nın ana çatışma alanı ağırlıklı olarak hangi Avrupa bölgesindeydi?",
+      "options": [
+        "Batı Avrupa",
+        "Balkanlar",
+        "Orta Avrupa",
+        "İber Yarımadası"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Holi aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Güney Asya'da yaygın geleneksel drapeli giysi",
+        "Endonezya'da özellikle gölge kuklasıyla tanınan tiyatro geleneği",
+        "Kutlamalarda içi ikramlarla doldurulup kırılan süslü kap",
+        "Renklerle yapılan kutlamalarıyla tanınan Güney Asya festivali"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Hangisi Barometre kavramını en doğru açıklar?",
+      "options": [
+        "Atmosfer basıncını ölçen araç",
+        "Havadaki nemi ölçen araç",
+        "Bir sistemin sıcaklığını belirli aralıkta tutmaya yardımcı olan kontrol aygıtı",
+        "Rüzgâr hızını ölçen araç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdaki yazarlardan hangisi “Saatleri Ayarlama Enstitüsü” eserini kaleme almıştır?",
+      "options": [
+        "Gabriel García Márquez",
+        "Ahmet Hamdi Tanpınar",
+        "Chinua Achebe",
+        "Sabahattin Ali"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Aşağıdakilerden hangisi “butterfly stroke” teriminin kullanıldığı spordur?",
+      "options": [
+        "Bowling",
+        "Yüzme",
+        "Badminton",
+        "Kriket"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdaki mimarlardan hangisi Glass House yapısıyla ilişkilidir?",
+      "options": [
+        "Louis Kahn",
+        "Frank Gehry",
+        "Philip Johnson",
+        "Robert Venturi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Aşağıdakilerden hangisi OLED teknolojisini doğru açıklar?",
+      "options": [
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak",
+        "Kalıcı veya yalnızca okunur nitelikte veri saklamak",
+        "İnsan kullanıcılarla otomatik botları ayırt etmeye yardımcı olmak",
+        "Veriyi hareketli parça olmadan flaş bellek üzerinde saklamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Peter ve Kurt” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Igor Stravinsky",
+        "Sergey Prokofyev",
+        "Claude Debussy",
+        "Franz Liszt"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

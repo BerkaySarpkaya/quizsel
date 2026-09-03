@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ227",
+  "displayCode": "Y.Q227",
+  "title": "Genel Kültür 4.5 — 227",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Taiping Ayaklanması hangi ülkede gerçekleşti?",
+      "options": [
+        "İngiltere",
+        "Portekiz",
+        "Çin",
+        "Fransa"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında uzanır?",
+      "options": [
+        "Hispaniola",
+        "Borneo",
+        "Honshu",
+        "Sumatra"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“scrum” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Ragbi",
+        "Voleybol",
+        "Boks",
+        "Badminton"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Tango en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Arjantin ve Uruguay çevresinde gelişen dans ve müzik geleneği",
+        "Japon Budist geleneğinde ataları anmaya odaklanan dönem",
+        "Kâğıdı kesmeden veya az kesmeyle katlayarak şekil oluşturma sanatı",
+        "Hindu ve Budist geleneklerde kullanılan sembolik geometrik düzenleme"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“Las Meninas” eseri hangi sanatçıya aittir?",
+      "options": [
+        "Diego Velázquez",
+        "Edward Hopper",
+        "René Magritte",
+        "Jeff Koons"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Guacamole için en uygun tanım hangisidir?",
+      "options": [
+        "İrmikten üretilen küçük taneli temel gıda",
+        "Fesleğen temelli İtalyan sosu",
+        "Avokado temelli sos veya ezme",
+        "Narenciye suyuyla marine edilen deniz ürünü yemeği"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
+      "options": [
+        "Ernest Hemingway",
+        "José Saramago",
+        "John Steinbeck",
+        "Albert Camus"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Gezegenler (The Planets)” eserinin bestecisi kimdir?",
+      "options": [
+        "Jean Sibelius",
+        "Sergey Prokofyev",
+        "George Gershwin",
+        "Gustav Holst"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "SSD en çok hangi amaçla kullanılır?",
+      "options": [
+        "Farklı yazılım bileşenlerinin tanımlı biçimde iletişim kurmasını sağlamak",
+        "Veriyi hareketli parça olmadan flaş bellek üzerinde saklamak",
+        "İki boyutlu görsel bir kod içinde veri taşımak",
+        "Dijital görüntü ve sesi tek bağlantı üzerinden aktarmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Frekansın SI birimi nedir?",
+      "options": [
+        "Joule",
+        "Pascal",
+        "Amper",
+        "Hertz"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

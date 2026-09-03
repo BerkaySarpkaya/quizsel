@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ233",
+  "displayCode": "Y.Q233",
+  "title": "Genel Kültür 4.5 — 233",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“Campbell's Soup Cans” eseri hangi sanatçıya aittir?",
+      "options": [
+        "René Magritte",
+        "Edward Hopper",
+        "Hieronymus Bosch",
+        "Andy Warhol"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Behistun Yazıtı hangi antik imparatorlukla ilişkilidir?",
+      "options": [
+        "Moğol İmparatorluğu",
+        "Osmanlı İmparatorluğu",
+        "Roma İmparatorluğu",
+        "Ahameniş İmparatorluğu"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Things Fall Apart” hangi yazarın eseridir?",
+      "options": [
+        "Ernest Hemingway",
+        "Yasunari Kawabata",
+        "Chinua Achebe",
+        "Geoffrey Chaucer"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“shuttlecock” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Ragbi",
+        "Kriket",
+        "Beyzbol",
+        "Badminton"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Día de los Muertos en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Renklerle yapılan kutlamalarıyla tanınan Güney Asya festivali",
+        "Balmumu kullanılarak kumaşta rezerv boyama yapma tekniği",
+        "Japonya'nın geleneksel sahne tiyatrosu türlerinden biri",
+        "Meksika'da ölen yakınları anmaya odaklanan gelenek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Ganj Nehri hangi körfeze ulaşır?",
+      "options": [
+        "Kuzey Denizi",
+        "Bengal Körfezi",
+        "Karadeniz",
+        "Hazar Denizi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Periyodik tabloda halojenler hangi grupta bulunur?",
+      "options": [
+        "17. grup",
+        "18. grup",
+        "1. grup",
+        "2. grup"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Güvenlik duvarı (firewall) en çok hangi amaçla kullanılır?",
+      "options": [
+        "Ağ trafiğini kurallara göre filtrelemek",
+        "Web sayfalarına programlanabilir etkileşim kazandırmak",
+        "Parolaya ek bir doğrulama unsuru istemek",
+        "İşlem sırasında geçici çalışma verilerini tutmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Miso için en uygun tanım hangisidir?",
+      "options": [
+        "Nohut veya bakla temelli kızartılmış köfte",
+        "Fermente sebzelerden yapılan Kore yemeği",
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "Kahve ve mascarpone ile hazırlanan İtalyan tatlısı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Finlandia” eserinin bestecisi kimdir?",
+      "options": [
+        "Edvard Grieg",
+        "Jean Sibelius",
+        "Carl Orff",
+        "Sergey Prokofyev"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

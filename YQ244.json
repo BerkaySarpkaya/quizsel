@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ244",
+  "displayCode": "Y.Q244",
+  "title": "Genel Kültür 4.5 — 244",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sardinya Adası hangi ülkeye bağlıdır?",
+      "options": [
+        "İtalya",
+        "Tanzanya",
+        "Ekvador",
+        "Botsvana"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Ana asteroit kuşağı hangi iki gezegenin yörüngeleri arasında bulunur?",
+      "options": [
+        "Mars ve Jüpiter",
+        "Satürn ve Uranüs",
+        "Venüs ve Dünya",
+        "Dünya ve Mars"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Wayang nedir?",
+      "options": [
+        "Kâğıdı kesmeden veya az kesmeyle katlayarak şekil oluşturma sanatı",
+        "Hindu ve Budist geleneklerde kullanılan sembolik geometrik düzenleme",
+        "Hawaii kültüründe çiçek veya yapraklardan yapılan boyun çelengi",
+        "Endonezya'da özellikle gölge kuklasıyla tanınan tiyatro geleneği"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "“Fahrenheit 451” adlı eserin yazarı kimdir?",
+      "options": [
+        "Orhan Pamuk",
+        "Franz Kafka",
+        "Ray Bradbury",
+        "José Saramago"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“foil” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Eskrim",
+        "Ragbi",
+        "Voleybol",
+        "Judo"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Appalachian Spring” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Antonio Vivaldi",
+        "Aaron Copland",
+        "Franz Liszt",
+        "Gustav Holst"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "İki faktörlü kimlik doğrulama'ın temel işlevi nedir?",
+      "options": [
+        "Dosya veya veri boyutunu azaltmak",
+        "Kısa mesafede kablosuz veri iletişimi sağlamak",
+        "Orijinal verinin eksiksiz geri oluşturulabilmesini sağlamak",
+        "Parolaya ek bir doğrulama unsuru istemek"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Marshall Planı'nın temel hedef bölgesi neresiydi?",
+      "options": [
+        "Batı Avrupa",
+        "Kafkasya",
+        "Mezopotamya",
+        "İber Yarımadası"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Villa Savoye yapısının tasarımı hangi mimarla ilişkilidir?",
+      "options": [
+        "Louis Kahn",
+        "Jørn Utzon",
+        "Le Corbusier",
+        "Frank Gehry"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Sudoku nedir?",
+      "options": [
+        "Satır, sütun ve bölümlerde rakam tekrarını engelleyen sayı bulmacası",
+        "İki ucunda işaretler bulunan taşlarla oynanan oyun",
+        "Taşların zar sonucuna göre 24 üçgensel hane üzerinde ilerlediği oyun",
+        "Çekilen numaraları kart üzerindeki numaralarla eşleştirmeye dayalı oyun"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

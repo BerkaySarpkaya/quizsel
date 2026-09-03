@@ -10,22 +10,78 @@ Tarayıcı çalışma sırası:
 2. `config.js`
 3. `app.js` — temel uygulama
 4. `app-v09-performance.js` — performans / split-listener katmanı
-5. `app-v010-runtime.js` — güncel yarış akışı, reliability guard'ları ve quiz-set tarayıcısı
+5. `app-v010-runtime.js` — güncel yarış akışı, quiz doğrulama ve quiz-set browser
+6. `app-v011-reliability.js` — reconnect + pending final reliability
+7. `app-v012-analytics.js` — kalıcı maç/cevap analytics arşivi
 
-`app-v010-runtime.js` v0.9.1 yarış-akışı patch'ini ve v0.9.2 quiz-set browser davranışını tek güncel runtime katmanında birleştirir.
-
-> `database.rules.json` bu health paketinde değiştirilmemiştir.
+`CFG.clientVersion` v0.12 rollout ile `0.12.1`'dır.
 
 ## Güncel yarış akışı
 
 - Soru süresi: 20 saniye.
 - Tüm aktif oyuncular cevapladıysa host Firebase üzerinden tekrar doğrular ve reveal erken yapılır.
-- Erken-doğrulama isteği hata verirse normal soru deadline fallback'i korunur; oyun askıda kalmaz.
+- Erken-doğrulama isteği hata verirse normal soru deadline fallback'i korunur.
 - Reveal süresi: 5 saniye.
-- Son soru değilse reveal sonrası `Diğer soruya geçiliyor` ekranında 3 → 2 → 1 gösterilir.
-- Son soruda doğrudan finale gidilir.
-- Final kaydı başarılı olmadan oda state'i temizlenmez.
-- Finalden `Ana sayfaya dön` Firebase oturumunu kapatmaz.
+- Son soru değilse reveal sonrası 3 → 2 → 1 geçişi vardır.
+- Finalden ana sayfaya dönüş Firebase oturumunu kapatmaz.
+- Per-user final sonucu bağlantı sorunu yaşarsa v0.11 retry mekanizması devreye girer.
+
+## Final ekranı navigation hotfix — v0.12.1
+
+iOS/Safari dahil bazı istemcilerde finalde `Ana sayfaya dön` akışı, listener cleanup veya home render sırasında oluşan senkron bir exception yüzünden `Ana sayfaya dönülüyor…` durumunda kilitlenebiliyordu.
+
+v0.12.1 analytics overlay mevcut v0.11 final persistence davranışını korur ve final çıkışına dört katmanlı guard ekler:
+
+- base `finishGame()` normal yolu,
+- exception halinde zorunlu home recovery,
+- microtask + kısa watchdog doğrulaması,
+- son çare doğrudan DOM view geçişi.
+
+Cleanup hatası artık kullanıcıyı final ekranında mahsur bırakamaz; en kötü durumda buton tekrar etkinleştirilir.
+
+## Kalıcı analytics / oyun geçmişi — v0.12
+
+Canlı `games/` state'i artık uzun dönem analitik kaynağı olarak kabul edilmez.
+
+Kalıcı data:
+
+```text
+matchArchive/{matchId}
+analyticsDepartures/{room}/{createdAt}/{eventId}
+```
+
+`matchArchive` her terminal maç için şunları korur:
+
+- maç zamanı/durumu/terminal reason,
+- quiz sürümü + fingerprint,
+- oyuncular ve sıralama,
+- her oyuncunun her cevabı,
+- doğru/yanlış, puan ve cevap süresi,
+- soru bazında option distribution / accuracy / response-time aggregate,
+- oyuncu bazında accuracy / response-time aggregate,
+- winner ve match summary,
+- runtime/client version metadata.
+
+Oyuncu ayrılır veya kicklenirse, live state silinmeden önce `analyticsDepartures` içine immutable snapshot alınır. Böylece daha sonra biten maçta ayrılmış oyuncunun önceki cevapları kaybolmaz.
+
+Normal final archive yazılamazsa retry edilir. Oda/player verisini fiziksel olarak silecek kullanıcı/admin işlemleri analytics snapshot başarıyla yazılmadan devam etmez.
+
+Detay: `docs/ANALYTICS_ARCHITECTURE.md`.
+
+### Kritik deploy notu
+
+`database.rules.json` dosyasını GitHub'a yüklemek Firebase Realtime Database Rules'u otomatik deploy etmez. v0.12 runtime açılmadan önce/aynı rollout sırasında yeni ruleset Firebase Console → Realtime Database → Rules üzerinden ayrıca publish edilmelidir.
+
+## Profil özetleri ile analytics farkı
+
+Aşağıdakiler kullanıcı deneyimi için hızlı özetlerdir ve korunmaya devam eder:
+
+- `profiles/{uid}/stats`
+- `profiles/{uid}/quizHistory`
+- `finalReceipts`
+- `activityLogs`
+
+Bunlar ham analitik dataset'in yerine geçmez. `finalReceipts` son 200 idempotency receipt ile sınırlı olabilir; gerçek `matchArchive` için retention/trimming yoktur.
 
 ## Quiz kodları ve setler
 
@@ -74,12 +130,16 @@ Node.js 20 LTS önerilir.
 node --check app.js
 node --check app-v09-performance.js
 node --check app-v010-runtime.js
+node --check app-v011-reliability.js
+node --check app-v012-analytics.js
 node --check quiz-semantic-index-tool.mjs
 node --check quiz-qa-tool.mjs
 
 node quiz-qa-tool.mjs repo
 node quiz-semantic-index-tool.mjs validate --source
 ```
+
+`quiz-qa-tool.mjs repo` v0.12 itibarıyla analytics runtime wiring'ini, analytics JS parse kontrolünü ve archive Firebase Rules guard'larını da denetler. Bu nedenle mevcut GitHub Health workflow'unun `Repository structure QA` adımı yeni analytics katmanını da kapsar.
 
 Yeni/değişen quizler için:
 
@@ -88,11 +148,9 @@ node quiz-qa-tool.mjs check YQ223.json YQ224.json
 node quiz-semantic-index-tool.mjs validate-target YQ223 --source
 ```
 
-GitHub Actions içindeki `Quizsel Health` workflow'u push/PR sırasında aynı temel kapıları otomatik çalıştırır.
-
 ## Runtime quiz doğrulaması
 
-Güncel runtime, quiz JSON'unu yalnız `code + questions var mı` seviyesinde kabul etmez. YQ133+ için ayrıca:
+YQ133+ için runtime ayrıca:
 
 - canonical code eşleşmesi,
 - schemaVersion 2,
@@ -103,11 +161,11 @@ Güncel runtime, quiz JSON'unu yalnız `code + questions var mı` seviyesinde ka
 - `time = 20`,
 - `questionType = multiple-choice`
 
-kontrol edilir. Bozuk production quiz oyun açılmadan reddedilir.
+kontrol eder.
 
 ## Semantic index
 
-Semantic index sharded'dır. Her shard 30 quizlik blok taşır:
+Semantic index 30 quizlik shard'lara ayrılır:
 
 ```text
 semantic-index/shards/YQ133-YQ162.json
@@ -116,32 +174,25 @@ semantic-index/shards/YQ193-YQ222.json
 ...
 ```
 
-Manifest:
+Manifest: `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
 
-`QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
+Tool: `quiz-semantic-index-tool.mjs`
 
-Tool:
+## Soru gizliliği ve trust boundary
 
-`quiz-semantic-index-tool.mjs`
+Mevcut production runtime statik quiz JSON'larını tarayıcıya yükler. Dolayısıyla Pages üzerinde yayınlanan soru/cevap verisi istemci tarafından görülebilir. Aynı şekilde scoring hâlen browser/host trust boundary'sindedir.
 
-Tool artık boşalan shard'ı fiziksel olarak da kaldırır, quiz completeness hesabını source JSON'daki gerçek soru sayısından üretir ve hedef-shard doğrulaması destekler.
+v0.12 analytics arşivi append-only/create-only korunur ve normal kullanıcılar tarafından global olarak okunamaz; fakat mutlak anti-tamper doğruluk için scoring/finalization'ın gelecekte server-side'a taşınması gerekir.
 
-## Soru gizliliği hakkında kritik not
-
-Mevcut production runtime statik quiz JSON'larını tarayıcıya yükler. Bu nedenle GitHub repo private yapılsa bile GitHub Pages üzerinde deploy edilen quiz dosyaları kullanıcı tarafından görülebilir.
-
-Aynı şekilde semantic shard'lar authoring verisidir ve `correctAnswer` taşır; gerçek ücretli/gizli soru mimarisinde public web artifact'ına dahil edilmemelidir.
-
-Hedef backend mimarisi `docs/SECURITY_ARCHITECTURE.md` içinde tanımlıdır. Bu repo-health paketi backend migration'ını **aktif etmez**.
+Detay: `docs/SECURITY_ARCHITECTURE.md`.
 
 ## Firebase
 
 - Authentication: Email/Password
-- Realtime Database: canlı oda/state
+- Realtime Database: canlı oda/state + durable analytics archive
 - Firebase browser config'in frontend'de görünmesi normaldir.
-- Yetkilendirme güvenliği `database.rules.json` ve ileride server-side backend sınırına bağlıdır.
-
-Bu health sürümünde Firebase Rules bilinçli olarak değiştirilmemiştir.
+- Yetkilendirme `database.rules.json` ile korunur.
+- GitHub Pages deploy'u Firebase Rules deploy etmez.
 
 ## Authoritative dosya prensibi
 
@@ -151,5 +202,8 @@ Bu health sürümünde Firebase Rules bilinçli olarak değiştirilmemiştir.
 - Makine-okunabilir QA standardı: `QUIZSEL_SORU_QA_SPEC.json`
 - Semantic index sözleşmesi: `QUIZSEL_SEMANTIC_INDEX_SPEC.json`
 - Semantic coverage/yönlendirme: `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
+- Runtime layering: `docs/RUNTIME_ARCHITECTURE.md`
+- Durable analytics data model: `docs/ANALYTICS_ARCHITECTURE.md`
+- Security/backend boundary: `docs/SECURITY_ARCHITECTURE.md`
 
 Eski upload notları ve batch'e özel QA/source raporları authoritative kabul edilmez.

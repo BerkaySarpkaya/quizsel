@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ232",
+  "displayCode": "Y.Q232",
+  "title": "Genel Kültür 4.5 — 232",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Pön Savaşları Roma ile hangi devlet arasında yapıldı?",
+      "options": [
+        "Kartaca",
+        "Sparta",
+        "Babil",
+        "Makedonya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Gece Devriyesi” adlı eserin sanatçısı kimdir?",
+      "options": [
+        "Rembrandt",
+        "Anish Kapoor",
+        "Andy Warhol",
+        "Piet Mondrian"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "VPN'ın temel işlevi nedir?",
+      "options": [
+        "Parolaya ek bir doğrulama unsuru istemek",
+        "İnsan kullanıcılarla otomatik botları ayırt etmeye yardımcı olmak",
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak",
+        "Ağ trafiği için şifreli bir tünel oluşturmak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "İnsülin hormonunun temel etkilerinden biri nedir?",
+      "options": [
+        "Kan glikozunu düşürmeye yardımcı olmak",
+        "Kimyasal tepkimeleri hızlandırmak",
+        "Kan pıhtılaşmasına katkı sağlamak",
+        "Antikor üretmek"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Plitvice Gölleri hangi ülkededir?",
+      "options": [
+        "Botsvana",
+        "İspanya",
+        "Hırvatistan",
+        "Tanzanya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Yeni Dünya Senfonisi” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "options": [
+        "Gioachino Rossini",
+        "Claude Debussy",
+        "Antonín Dvořák",
+        "Erik Satie"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Kilt nedir?",
+      "options": [
+        "İskoç kültürüyle özdeşleşmiş pileli giysi",
+        "Tayland yeni yılıyla ilişkili su kutlamaları",
+        "Ağaçları minyatür ölçekte biçimlendirerek yetiştirme sanatı",
+        "İç içe geçen Rus bebekleri"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“peloton” terimi hangi spor dalında kullanılır?",
+      "options": [
+        "Yol bisikleti",
+        "Badminton",
+        "Çim hokeyi",
+        "Amerikan futbolu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Kuskus nedir?",
+      "options": [
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "İrmikten üretilen küçük taneli temel gıda",
+        "Avokado temelli sos veya ezme",
+        "Kahve ve mascarpone ile hazırlanan İtalyan tatlısı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Küçük Prens” adlı eserin yazarı kimdir?",
+      "options": [
+        "Orhan Pamuk",
+        "Antoine de Saint-Exupéry",
+        "Johann Wolfgang von Goethe",
+        "Mihail Bulgakov"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

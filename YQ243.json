@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ243",
+  "displayCode": "Y.Q243",
+  "title": "Genel Kültür 4.5 — 243",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki mimarlardan hangisi Seagram Building yapısıyla ilişkilidir?",
+      "options": [
+        "Jørn Utzon",
+        "Frank Lloyd Wright",
+        "I. M. Pei",
+        "Ludwig Mies van der Rohe"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“Adagio for Strings” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Carl Orff",
+        "Sergey Prokofyev",
+        "Samuel Barber",
+        "Igor Stravinsky"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Afyon Savaşları esas olarak Britanya ile hangi imparatorluk arasında yaşandı?",
+      "options": [
+        "Çing İmparatorluğu",
+        "Osmanlı İmparatorluğu",
+        "Moğol İmparatorluğu",
+        "Roma İmparatorluğu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdakilerden hangisi “pommel horse” teriminin kullanıldığı spordur?",
+      "options": [
+        "Buz hokeyi",
+        "Tenis",
+        "Amerikan futbolu",
+        "Artistik jimnastik"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Aşağıdakilerden hangisi API teknolojisini doğru açıklar?",
+      "options": [
+        "Çevre birimleri arasında veri ve güç bağlantısı sağlamak",
+        "Farklı yazılım bileşenlerinin tanımlı biçimde iletişim kurmasını sağlamak",
+        "Yansıtıcı ve düşük enerji tüketimli elektronik kâğıt görüntüsü oluşturmak",
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Hangisi Şah mat kavramını en doğru açıklar?",
+      "options": [
+        "Taşların zar sonucuna göre 24 üçgensel hane üzerinde ilerlediği oyun",
+        "Satrançta şahın tehditten kaçabileceği yasal hamlenin kalmaması",
+        "Satır, sütun ve bölümlerde rakam tekrarını engelleyen sayı bulmacası",
+        "İki ucunda işaretler bulunan taşlarla oynanan oyun"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Korsika Adası hangi ülkeye bağlıdır?",
+      "options": [
+        "Ekvador",
+        "Botsvana",
+        "Şili",
+        "Fransa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Işık yılı hangi fiziksel büyüklüğün birimidir?",
+      "options": [
+        "Uzaklık",
+        "Sıcaklık",
+        "Enerji",
+        "Kütle"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Aşağıdaki yazarlardan hangisi “Gazap Üzümleri” eserini kaleme almıştır?",
+      "options": [
+        "Mihail Bulgakov",
+        "Yasunari Kawabata",
+        "John Steinbeck",
+        "Nâzım Hikmet"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Kabuki aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Japonya'nın geleneksel sahne tiyatrosu türlerinden biri",
+        "Balmumu kullanılarak kumaşta rezerv boyama yapma tekniği",
+        "Renklerle yapılan kutlamalarıyla tanınan Güney Asya festivali"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

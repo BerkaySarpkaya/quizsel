@@ -7,6 +7,8 @@ import path from "node:path";
 const INDEX_FILE = "quiz-index.json";
 const MANIFEST_FILE = "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json";
 const QA_SPEC_FILE = "QUIZSEL_SORU_QA_SPEC.json";
+const ANALYTICS_FILE = "app-v012-analytics.js";
+const DB_RULES_FILE = "database.rules.json";
 
 const hard = [];
 const review = [];
@@ -203,6 +205,99 @@ function buildHistoricalStems(index, excludedFiles=new Set()){
   }
   return stems;
 }
+
+function validateAnalyticsRuntime(){
+  const required = [
+    "app-v09-performance.js",
+    "app-v010-runtime.js",
+    "app-v011-reliability.js",
+    ANALYTICS_FILE,
+    "config.js",
+    "index.html",
+    DB_RULES_FILE,
+    "docs/ANALYTICS_ARCHITECTURE.md"
+  ];
+  required.forEach(file => {
+    if (!fs.existsSync(file)) fail(`${file} missing`);
+  });
+  if (required.some(file => !fs.existsSync(file))) return;
+
+  try {
+    // Parse as a classic script without executing browser globals.
+    new Function(fs.readFileSync(ANALYTICS_FILE, "utf8"));
+  } catch (e) {
+    fail(`${ANALYTICS_FILE}: JavaScript syntax failed: ${e.message}`);
+  }
+
+  const indexHtml = fs.readFileSync("index.html", "utf8");
+  const configJs = fs.readFileSync("config.js", "utf8");
+
+  if (!indexHtml.includes('config.js?v=121')) {
+    fail("index.html: config cache key must be v=121 for analytics rollout");
+  }
+  if (!indexHtml.includes('app-v011-reliability.js?v=112')) {
+    fail("index.html: v0.11 reliability direct tag missing");
+  }
+  if (!configJs.includes('clientVersion: "0.12.1"')) {
+    fail("config.js: clientVersion must be 0.12.1");
+  }
+  if (!configJs.includes('app-v012-analytics.js?v=121')) {
+    fail("config.js: v0.12 analytics loader missing");
+  }
+
+  try {
+    const rules = readJson(DB_RULES_FILE)?.rules || {};
+    const match = rules.matchArchive?.["$matchId"] || {};
+    const departures = rules.analyticsDepartures?.["$room"]?.["$createdAt"]?.["$eventId"] || {};
+
+    if (!rules.matchArchive) fail(`${DB_RULES_FILE}: matchArchive rules missing`);
+    if (!rules.analyticsDepartures) fail(`${DB_RULES_FILE}: analyticsDepartures rules missing`);
+    if (!String(match[".write"] || "").includes("!data.exists()")) {
+      fail(`${DB_RULES_FILE}: matchArchive must be create-only/immutable`);
+    }
+    if (!String(departures[".write"] || "").includes("!data.exists()")) {
+      fail(`${DB_RULES_FILE}: analyticsDepartures events must be create-only`);
+    }
+    if (!String(rules.matchArchive?.[".read"] || "").includes("quizsel-admin@quizsel.app")) {
+      fail(`${DB_RULES_FILE}: matchArchive admin read boundary missing`);
+    }
+  } catch (e) {
+    fail(`${DB_RULES_FILE}: JSON/schema check failed: ${e.message}`);
+  }
+
+  const analyticsSource = fs.readFileSync(ANALYTICS_FILE, "utf8");
+  const lifecycleHooks = [
+    "hostQuiz = async function quizselV012HostQuiz",
+    "startGame = async function quizselV012StartGame",
+    "renderFinal = function quizselV012RenderFinal",
+    "leaveCompetition = async function quizselV012LeaveCompetition",
+    "kickPlayer = async function quizselV012KickPlayer",
+    "terminateCompetition = async function quizselV012TerminateCompetition",
+    "renderAdmin = async function quizselV012RenderAdmin"
+  ];
+  lifecycleHooks.forEach(marker => {
+    if (!analyticsSource.includes(marker)) fail(`${ANALYTICS_FILE}: lifecycle hook missing: ${marker}`);
+  });
+
+  if (!analyticsSource.includes("matchArchive/")) fail(`${ANALYTICS_FILE}: matchArchive write path missing`);
+  if (!analyticsSource.includes("analyticsDepartures/")) fail(`${ANALYTICS_FILE}: analyticsDepartures write path missing`);
+  if (!analyticsSource.includes("requireArchiveBeforeDestructiveAction")) {
+    fail(`${ANALYTICS_FILE}: destructive archive gate missing`);
+  }
+  [
+    "installFinalNavigationGuard",
+    "forceHomeAfterFinal",
+    "microtask-watchdog",
+    "directHomeDomFallback"
+  ].forEach(marker => {
+    if (!analyticsSource.includes(marker)) {
+      fail(`${ANALYTICS_FILE}: final navigation guard missing: ${marker}`);
+    }
+  });
+
+  note("analytics runtime: v0.12.1 wiring/schema/navigation guards present");
+}
+
 function repoCheck(){
   const index = loadIndex();
   const codes = new Set();
@@ -243,10 +338,7 @@ function repoCheck(){
     fail(`${MANIFEST_FILE} missing`);
   }
 
-  // Current runtime dependency sanity.
-  if (!fs.existsSync("app-v010-runtime.js")) fail("app-v010-runtime.js missing");
-  if (!fs.existsSync("app-v09-performance.js")) fail("app-v09-performance.js missing");
-  if (!fs.existsSync("config.js")) fail("config.js missing");
+  validateAnalyticsRuntime();
 
   note(`repo index entries: ${index.quizzes.length}`);
 }

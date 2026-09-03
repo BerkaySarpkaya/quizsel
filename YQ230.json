@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ230",
+  "displayCode": "Y.Q230",
+  "title": "Genel Kültür 4.5 — 230",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "“Madame Bovary” hangi yazarın eseridir?",
+      "options": [
+        "John Steinbeck",
+        "Gustave Flaubert",
+        "Geoffrey Chaucer",
+        "Ernest Hemingway"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Volga Nehri hangi denize dökülür?",
+      "options": [
+        "Hazar Denizi",
+        "Kızıldeniz",
+        "Akdeniz",
+        "Kuzey Denizi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Kanagawa Oki Nami Ura (Büyük Dalga)” eseri hangi sanatçıya aittir?",
+      "options": [
+        "Andy Warhol",
+        "Auguste Rodin",
+        "Katsushika Hokusai",
+        "Jeff Koons"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "QR kod en çok hangi amaçla kullanılır?",
+      "options": [
+        "Birbiriyle ilişkili açık ve özel anahtar çifti kullanmak",
+        "Farklı yazılım bileşenlerinin tanımlı biçimde iletişim kurmasını sağlamak",
+        "Veriyi hareketli parça olmadan flaş bellek üzerinde saklamak",
+        "İki boyutlu görsel bir kod içinde veri taşımak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Kimono en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "İskoç kültürüyle özdeşleşmiş pileli giysi",
+        "İç içe geçen Rus bebekleri",
+        "Japonya'nın geleneksel giysilerinden biri",
+        "Güney Asya kökenli Işıklar Bayramı"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
+      "options": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Pyotr İlyiç Çaykovski",
+        "Aaron Copland"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Mitokondriler en çok hangi hücresel süreçle ilişkilidir?",
+      "options": [
+        "Hücresel solunum",
+        "Lipit sentezi",
+        "DNA'nın depolanması",
+        "Protein sentezi"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“knockout” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Yüzme",
+        "Judo",
+        "Boks",
+        "Kriket"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Medici ailesi özellikle hangi İtalyan şehrinin tarihiyle özdeşleşmiştir?",
+      "options": [
+        "Viyana",
+        "İskenderiye",
+        "Konstantinopolis",
+        "Floransa"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Tempura için en uygun tanım hangisidir?",
+      "options": [
+        "Narenciye suyuyla marine edilen deniz ürünü yemeği",
+        "İrmikten üretilen küçük taneli temel gıda",
+        "Hafif bir hamura bulanıp kızartılan Japon pişirme tarzı",
+        "Nişastası salınacak biçimde yavaşça sıvı eklenerek pişirilen pirinç yemeği"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

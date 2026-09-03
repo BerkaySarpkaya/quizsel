@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ231",
+  "displayCode": "Y.Q231",
+  "title": "Genel Kültür 4.5 — 231",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdakilerden hangisi CAPTCHA teknolojisini doğru açıklar?",
+      "options": [
+        "Dijital görüntü ve sesi tek bağlantı üzerinden aktarmak",
+        "İnsan kullanıcılarla otomatik botları ayırt etmeye yardımcı olmak",
+        "Birbiriyle ilişkili açık ve özel anahtar çifti kullanmak",
+        "Çevre birimleri arasında veri ve güç bağlantısı sağlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdaki yazarlardan hangisi “Usta ile Margarita” eserini kaleme almıştır?",
+      "options": [
+        "Gustave Flaubert",
+        "Mihail Bulgakov",
+        "Samuel Beckett",
+        "Umberto Eco"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Ren Nehri hangi denize dökülür?",
+      "options": [
+        "Kuzey Denizi",
+        "Bengal Körfezi",
+        "Hazar Denizi",
+        "Karadeniz"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Trombositlerin temel işlevlerinden biri nedir?",
+      "options": [
+        "Kan pıhtılaşmasına katkı sağlamak",
+        "Oksijen taşımak",
+        "Kan glikozunu düşürmeye yardımcı olmak",
+        "Kimyasal tepkimeleri hızlandırmak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“Eine kleine Nachtmusik” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Igor Stravinsky",
+        "Samuel Barber",
+        "Wolfgang Amadeus Mozart",
+        "Nikolay Rimski-Korsakov"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Hangisi Risotto kavramını en doğru açıklar?",
+      "options": [
+        "Nohut veya bakla temelli, baharatlı ve kızartılmış küçük köfte",
+        "Nişastası salınacak biçimde yavaşça sıvı eklenerek pişirilen pirinç yemeği",
+        "Hafif bir hamura bulanıp kızartılan Japon pişirme tarzı",
+        "Narenciye suyuyla marine edilen deniz ürünü yemeği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Sari aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Japon Budist geleneğinde ataları anmaya odaklanan dönem",
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Güney Asya'da yaygın geleneksel drapeli giysi",
+        "Japonya'nın geleneksel sahne tiyatrosu türlerinden biri"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Aşağıdaki sanatçılardan hangisi “İzlenim, Gün Doğumu” eserini yaratmıştır?",
+      "options": [
+        "Katsushika Hokusai",
+        "Gustav Klimt",
+        "Claude Monet",
+        "Jeff Koons"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Aşağıdakilerden hangisi “pole position” teriminin kullanıldığı spordur?",
+      "options": [
+        "Amerikan futbolu",
+        "Çim hokeyi",
+        "Buz hokeyi",
+        "Motor sporları"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Hansa Birliği'nin ticaret ağı en çok hangi Avrupa bölgesiyle ilişkilidir?",
+      "options": [
+        "Batı ve Orta Avrupa çevresi",
+        "Doğu Akdeniz ve Ege çevresi",
+        "Karadeniz ve Kafkasya çevresi",
+        "Kuzey ve Baltık Denizi çevresi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

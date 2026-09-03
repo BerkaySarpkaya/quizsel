@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ228",
+  "displayCode": "Y.Q228",
+  "title": "Genel Kültür 4.5 — 228",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki sanatçılardan hangisi “Venüs'ün Doğuşu” eserini yaratmıştır?",
+      "options": [
+        "Piet Mondrian",
+        "Anish Kapoor",
+        "Sandro Botticelli",
+        "Katsushika Hokusai"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdakilerden hangisi Bluetooth teknolojisini doğru açıklar?",
+      "options": [
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "İşlem sırasında geçici çalışma verilerini tutmak",
+        "Kısa mesafede kablosuz veri iletişimi sağlamak",
+        "Ağ trafiğini kurallara göre filtrelemek"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "“Bir Sergiden Tablolar” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Modest Mussorgsky",
+        "Franz Liszt",
+        "George Gershwin",
+        "Claude Debussy"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Midsommar aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı",
+        "İç içe geçen Rus bebekleri",
+        "İskandinavya'daki yaz ortası kutlamaları",
+        "İskoç kültürüyle özdeşleşmiş pileli giysi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Hangisi Tzatziki kavramını en doğru açıklar?",
+      "options": [
+        "Nohut veya bakla temelli kızartılmış köfte",
+        "İrmikten üretilen küçük taneli temel gıda",
+        "Yoğurt ve salatalık temelli soğuk meze",
+        "Salamurada olgunlaştırılan Yunan peyniri"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdakilerden hangisi “home run” teriminin kullanıldığı spordur?",
+      "options": [
+        "Beyzbol",
+        "Ragbi",
+        "Bowling",
+        "Kriket"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Aşağıdaki yazarlardan hangisi “Dorian Gray'in Portresi” eserini kaleme almıştır?",
+      "options": [
+        "Ray Bradbury",
+        "Oscar Wilde",
+        "Geoffrey Chaucer",
+        "Sabahattin Ali"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Ümit Burnu hangi ülkededir?",
+      "options": [
+        "İspanya",
+        "Şili",
+        "Güney Afrika",
+        "Rusya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Gandhi'nin Tuz Yürüyüşü hangi ülkenin bağımsızlık hareketiyle ilişkilidir?",
+      "options": [
+        "Çin",
+        "İngiltere",
+        "Portekiz",
+        "Hindistan"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Enzimlerin temel biyolojik görevi nedir?",
+      "options": [
+        "Kan glikozunu düşürmeye yardımcı olmak",
+        "Kimyasal tepkimeleri hızlandırmak",
+        "Antikor üretmek",
+        "Kan pıhtılaşmasına katkı sağlamak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

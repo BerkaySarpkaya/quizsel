@@ -1,25 +1,20 @@
-# Quizsel Runtime Architecture — v0.10 Stable Wiring
+# Quizsel Runtime Architecture — v0.12.1 Durable Analytics + Final Navigation Guard
 
 ## Authoritative load order
 
-Effective browser order is:
+Effective browser order:
 
-`index.html`
-→ `config.js`
-→ `app.js`
-→ `app-v09-performance.js`
-→ `app-v010-runtime.js`
+```text
+index.html
+→ config.js
+→ app.js
+→ app-v09-performance.js
+→ app-v010-runtime.js
+→ app-v011-reliability.js (direct tag; waits for v0.10 runtime)
+→ app-v012-analytics.js (config loader; waits for v0.11 reliability)
+```
 
-The last two files are **not** required as direct `<script>` tags in `index.html`.
-`config.js` intentionally waits for `DOMContentLoaded`, injects `app-v09-performance.js`, and only after that script loads injects `app-v010-runtime.js`.
-This keeps the historical `app.js` base available before the overlay layers execute.
-
-Current direct script wiring in `index.html` is therefore intentionally limited to Firebase libraries plus:
-
-- `config.js?v=100`
-- `app.js?v=90`
-
-`v=100` is a cache-busting key for the v0.10 config/loader transition. Reusing the old `v=94` key can leave previously cached clients on the pre-v0.10 loader behavior.
+`config.js?v=121` dynamically loads performance, v0.10 runtime and then v0.12 analytics. `app-v011-reliability.js?v=112` remains a direct script tag but self-gates until `window.QUIZSEL_RUNTIME_VERSION` exists. v0.12 in turn self-gates until both runtime and reliability versions exist.
 
 ## Ownership
 
@@ -30,33 +25,63 @@ Historical base application and DOM/auth/room/game primitives.
 - split Firebase room listeners,
 - optimistic ready/answer behavior,
 - next-question preload,
-- performance instrumentation.
+- performance instrumentation,
+- final-state full-answer hydration.
 
 ### `app-v010-runtime.js`
 - defensive production-quiz validation,
-- current runtime-version stamping,
-- idempotent/retryable final persistence,
+- runtime-version stamping from `CFG.clientVersion`,
+- idempotent/retryable per-user final stats persistence,
 - authoritative all-answered recheck with deadline fallback,
-- 3 → 2 → 1 between-question transition,
-- final return-home behavior without forced sign-out,
-- current quiz-set/folder browser behavior.
+- between-question flow,
+- final return-home behavior,
+- quiz-set browser.
+
+### `app-v011-reliability.js`
+- local pending final-result recovery,
+- retry after reconnect / auth restore,
+- final navigation independent from profile persistence,
+- active-game reconnect/foreground/stale-phase recovery.
+
+### `app-v012-analytics.js`
+- durable immutable `matchArchive`,
+- pre-removal `analyticsDepartures`,
+- final archive retry markers,
+- fail-closed archive gates before destructive room/player operations,
+- quiz fingerprint and answer-level analytics snapshot,
+- admin close archive gate,
+- legacy `ended` game backfill.
+
+## Data ownership boundary
+
+`games/` remains **operational state**, not analytics history.
+
+Long-term analytics truth:
+
+```text
+matchArchive/{room_createdAt}
+analyticsDepartures/{room}/{createdAt}/{eventId}
+```
+
+User-facing profile counters and `activityLogs` are secondary summaries/observability, not the canonical raw analytics dataset.
+
+See `docs/ANALYTICS_ARCHITECTURE.md`.
 
 ## Compatibility boundary
 
-`app-flow-v091.js` and `app-quizsets-v092.js` are superseded by `app-v010-runtime.js` in the verified v0.10 chain.
-They are **cleanup candidates**, but must not be deleted until a post-upload verification confirms the v0.10 loader is live on `main` and the health workflow + Pages deployment remain green.
+`app-flow-v091.js` and `app-quizsets-v092.js` remain superseded cleanup candidates. They must not be deleted merely as part of the analytics rollout. `styles-quizsets-v092.css` remains active.
 
-`styles-quizsets-v092.css` remains an active stylesheet and must **not** be treated as obsolete merely because its filename contains `v092`.
+## Function-critical production files
 
-## Files that are function-critical in the current production chain
-
-Do not move, rename, or delete during the stabilization upload:
+Do not move/rename during this rollout:
 
 - `index.html`
 - `config.js`
 - `app.js`
 - `app-v09-performance.js`
 - `app-v010-runtime.js`
+- `app-v011-reliability.js`
+- `app-v012-analytics.js`
 - `styles.css`
 - `styles-quizsets-v092.css`
 - `database.rules.json`
@@ -67,15 +92,27 @@ Do not move, rename, or delete during the stabilization upload:
 - `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
 - `semantic-index/shards/*.json`
 
-## Change discipline
+## QA
 
-Repository cleanup is a separate operation from runtime migration.
-The safe order is:
+`node quiz-qa-tool.mjs repo` now also verifies:
 
-1. stabilize wiring/documentation,
-2. verify GitHub Health,
-3. verify Pages deployment,
-4. perform a browser smoke test,
-5. only then delete confirmed superseded/temporary files.
+- v0.12 analytics script existence and JavaScript parseability,
+- `config.js?v=121` wiring,
+- `CFG.clientVersion = 0.12.1`,
+- analytics loader presence,
+- `matchArchive` / `analyticsDepartures` Firebase rule roots,
+- create-only archive guards,
+- destructive lifecycle hook markers.
 
-No quiz-source relocation and no runtime-layer consolidation is authorized by this stabilization patch.
+This makes the existing GitHub Health `Repository structure QA` gate cover the new analytics layer without changing `.github` in the browser-upload package.
+
+## Deployment boundary
+
+GitHub Pages deploy does **not** deploy Firebase Realtime Database Rules. `database.rules.json` must be published separately in Firebase before/with v0.12 runtime rollout. See `docs/ANALYTICS_ARCHITECTURE.md`.
+
+
+## Final navigation guard — v0.12.1
+
+`app-v011-reliability.js` final persistence'i navigation'dan ayırır, ancak base `finishGame()` içinde cleanup ve `renderHome()` aynı senkron zincirdedir. Bir exception final butonunu disabled halde bırakabilir.
+
+`app-v012-analytics.js` v0.12.1 bu base fonksiyonu wrap eder. Önce v0.11 davranışını çalıştırır; final view aktif kalırsa exception recovery, microtask watchdog, 150 ms / 1200 ms watchdog ve direct DOM fallback ile home view zorlanır. Bu guard analytics write başarısından bağımsızdır.

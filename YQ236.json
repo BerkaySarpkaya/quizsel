@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ236",
+  "displayCode": "Y.Q236",
+  "title": "Genel Kültür 4.5 — 236",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kobalt elementinin kimyasal sembolü nedir?",
+      "options": [
+        "Co",
+        "Na",
+        "Pb",
+        "W"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Tiramisu için en uygun tanım hangisidir?",
+      "options": [
+        "Yoğurt ve salatalık temelli soğuk meze",
+        "Hafif bir hamura bulanıp kızartılan Japon pişirme tarzı",
+        "Fermente soya fasulyesi temelli Japon ezmesi",
+        "Kahve ve mascarpone ile hazırlanan İtalyan tatlısı"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Tokugawa şogunluğu hangi ülkeyi yönetti?",
+      "options": [
+        "Fransa",
+        "Hindistan",
+        "Portekiz",
+        "Japonya"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Büyük Rift Vadisi en belirgin biçimde hangi kıta bölgesiyle ilişkilidir?",
+      "options": [
+        "Güneydoğu Asya",
+        "Kuzey Afrika",
+        "Güney Amerika",
+        "Doğu Afrika"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“Bir Bebek Evi” hangi yazarın eseridir?",
+      "options": [
+        "Yusuf Atılgan",
+        "Sabahattin Ali",
+        "Henrik Ibsen",
+        "José Saramago"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
+      "options": [
+        "Franz Liszt",
+        "Aaron Copland",
+        "Claude Debussy",
+        "George Gershwin"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Açık kaynak yazılımın temel özelliği aşağıdakilerden hangisidir?",
+      "options": [
+        "İnternette bir kaynağın adresini belirtmek",
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "Kaynak kodunun incelenip geliştirilebilmesine olanak vermek",
+        "Orijinal verinin eksiksiz geri oluşturulabilmesini sağlamak"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Torii en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Şinto kutsal alanlarının girişini belirleyen kapı",
+        "Avustralya Aborjin kültürleriyle ilişkilendirilen nefesli çalgı",
+        "Hawaii kültürüyle ilişkili anlatımsal dans geleneği"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "“Cloud Gate” eseri hangi sanatçıya aittir?",
+      "options": [
+        "Claude Monet",
+        "Diego Velázquez",
+        "Anish Kapoor",
+        "Edward Hopper"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“slam dunk” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Judo",
+        "Basketbol",
+        "Eskrim",
+        "Ragbi"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ239",
+  "displayCode": "Y.Q239",
+  "title": "Genel Kültür 4.5 — 239",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
+      "options": [
+        "Rusya",
+        "Bolivya",
+        "Tanzanya",
+        "İtalya"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "“İlahi Komedya” hangi yazarın eseridir?",
+      "options": [
+        "Nâzım Hikmet",
+        "Margaret Atwood",
+        "Dante Alighieri",
+        "Geoffrey Chaucer"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Fallingwater hangi mimarın tasarımıdır?",
+      "options": [
+        "Le Corbusier",
+        "Frank Lloyd Wright",
+        "Philip Johnson",
+        "I. M. Pei"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Işığın bir ortamdan başka bir ortama geçerken yön değiştirmesine ne ad verilir?",
+      "options": [
+        "Kırılma",
+        "Polarizasyon",
+        "Kırınım",
+        "Girişim"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Çay seremonisi (chanoyu) en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Arjantin ve Uruguay çevresinde gelişen dans ve müzik geleneği",
+        "Finlandiya kültürüyle güçlü biçimde özdeşleşen sıcak buhar geleneği",
+        "Hindu ve Budist geleneklerde kullanılan sembolik geometrik düzenleme",
+        "Japon kültüründe çayın hazırlanması ve sunumunu ritüelleştiren uygulama"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Git en çok hangi amaçla kullanılır?",
+      "options": [
+        "Dosyalardaki sürüm ve değişiklik geçmişini yönetmek",
+        "Parolaya ek bir doğrulama unsuru istemek",
+        "Kaynak kodunun incelenip geliştirilebilmesine olanak vermek",
+        "Orijinal verinin eksiksiz geri oluşturulabilmesini sağlamak"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Hitit İmparatorluğu'nun başkenti hangi antik kentti?",
+      "options": [
+        "Viyana",
+        "Konstantinopolis",
+        "Hattuşa",
+        "Edo"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Macar Rapsodileri” eserinin bestecisi kimdir?",
+      "options": [
+        "Sergey Prokofyev",
+        "Richard Wagner",
+        "Franz Liszt",
+        "George Gershwin"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Bileşik faiz için en uygun tanım hangisidir?",
+      "options": [
+        "Yatırım riskini farklı varlıklara yayma yaklaşımı",
+        "Faizin anaparanın yanı sıra birikmiş faiz üzerinden de hesaplanması",
+        "Genel fiyat düzeyinin zaman içinde yükselmesi",
+        "Bir varlığın değerini çok kaybetmeden nakde çevrilebilme kolaylığı"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“dig” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Halter",
+        "Yüzme",
+        "Kriket",
+        "Voleybol"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}
