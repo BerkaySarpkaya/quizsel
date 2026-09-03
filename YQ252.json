@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ252",
+  "displayCode": "Y.Q252",
+  "title": "Genel Kültür 4.5 — 252",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Aşağıdaki yazarlardan hangisi “Aylak Adam” eserini kaleme almıştır?",
+      "options": [
+        "Ernest Hemingway",
+        "Yusuf Atılgan",
+        "Yasunari Kawabata",
+        "Kazuo Ishiguro"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Fotosentez sırasında bitkiler atmosferden başlıca hangi gazı alır?",
+      "options": [
+        "Karbondioksit",
+        "Azot",
+        "Helyum",
+        "Oksijen"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Zigguratlar en çok hangi antik coğrafyayla ilişkilidir?",
+      "options": [
+        "Mezopotamya",
+        "Balkanlar",
+        "İber Yarımadası",
+        "Orta Avrupa"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Aşağıdakilerden hangisi “albatross” teriminin kullanıldığı spordur?",
+      "options": [
+        "Atletizm",
+        "Beyzbol",
+        "Tenis",
+        "Golf"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "Torres Boğazı hangi iki kara kütlesi arasında yer alır?",
+      "options": [
+        "Avrupa ve Asya",
+        "Atlas Okyanusu ve Akdeniz",
+        "İspanya ve Portekiz",
+        "Avustralya ve Yeni Gine"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "Aşağıdaki mimarlardan hangisi Unité d'Habitation yapısıyla ilişkilidir?",
+      "options": [
+        "Zaha Hadid",
+        "Frank Gehry",
+        "Le Corbusier",
+        "Frank Lloyd Wright"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Mandala aşağıdakilerden hangisini ifade eder?",
+      "options": [
+        "Günün sıcak saatlerinde verilen öğle dinlenmesi geleneği",
+        "Finlandiya kültürüyle güçlü biçimde özdeşleşen sıcak buhar geleneği",
+        "Hindu ve Budist geleneklerde kullanılan sembolik geometrik düzenleme",
+        "Güney Asya'da yaygın geleneksel drapeli giysi"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "“Turandot” aşağıdaki bestecilerden hangisinin eseridir?",
+      "options": [
+        "Jean Sibelius",
+        "Carl Orff",
+        "Richard Wagner",
+        "Giacomo Puccini"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "Hangisi Termostat kavramını en doğru açıklar?",
+      "options": [
+        "Bir sistemin sıcaklığını belirli aralıkta tutmaya yardımcı olan kontrol aygıtı",
+        "Bir aracın katettiği toplam mesafeyi gösteren araç",
+        "Rüzgâr hızını ölçen araç",
+        "Havadaki nemi ölçen araç"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "Aşağıdakilerden hangisi HDMI teknolojisini doğru açıklar?",
+      "options": [
+        "Çevre birimleri arasında veri ve güç bağlantısı sağlamak",
+        "Dijital görüntü ve sesi tek bağlantı üzerinden aktarmak",
+        "İki boyutlu görsel bir kod içinde veri taşımak",
+        "Yansıtıcı ve düşük enerji tüketimli elektronik kâğıt görüntüsü oluşturmak"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ251",
+  "displayCode": "Y.Q251",
+  "title": "Genel Kültür 4.5 — 251",
+  "category": "Genel Kültür",
+  "difficulty": 4.5,
+  "version": 1,
+  "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Genel Kültür",
+    "Karışık",
+    "4.5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
+      "options": [
+        "Atlas Okyanusu ve Akdeniz",
+        "Arjantin ve Şili",
+        "Arjantin ve Brezilya",
+        "Karadeniz ve Marmara Denizi"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 2,
+      "text": "Edo dönemi adını bugün Tokyo olarak bilinen hangi eski şehir adından alır?",
+      "options": [
+        "Viyana",
+        "Berlin",
+        "Roma",
+        "Edo"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 3,
+      "text": "Songkran en doğru hangi ifadeyle açıklanır?",
+      "options": [
+        "Tayland yeni yılıyla ilişkili su kutlamaları",
+        "Meksika'da ölen yakınları anmaya odaklanan gelenek",
+        "Endülüs kökenli müzik ve dans geleneği",
+        "Portekiz'le özdeşleşmiş melankolik müzik geleneği"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 4,
+      "text": "Anemometre için en uygun tanım hangisidir?",
+      "options": [
+        "Bir aracın katettiği toplam mesafeyi gösteren araç",
+        "Bir sistemin sıcaklığını belirli aralıkta tutmaya yardımcı olan kontrol aygıtı",
+        "Rüzgâr hızını ölçen araç",
+        "Atmosfer basıncını ölçen araç"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 5,
+      "text": "“safety car” ifadesi en çok hangi sporla ilişkilidir?",
+      "options": [
+        "Motor sporları",
+        "Buz hokeyi",
+        "Çim hokeyi",
+        "Amerikan futbolu"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 6,
+      "text": "USB en çok hangi amaçla kullanılır?",
+      "options": [
+        "Dijital görüntü ve sesi tek bağlantı üzerinden aktarmak",
+        "Çok yakın mesafede temassız veri alışverişi sağlamak",
+        "Her pikselin kendi ışığını üretebildiği ekran yapısı sunmak",
+        "Çevre birimleri arasında veri ve güç bağlantısı sağlamak"
+      ],
+      "answer": 3,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 7,
+      "text": "Metamorfik kayaçlar temel olarak hangi süreçle oluşur?",
+      "options": [
+        "Organik maddenin çürümesi",
+        "Tuzların suda çözünmesi",
+        "Isı ve basınçla değişime uğrama",
+        "Tortuların birikip çimentolanması"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 8,
+      "text": "Walt Disney Concert Hall hangi mimarın tasarımıdır?",
+      "options": [
+        "Santiago Calatrava",
+        "Frank Gehry",
+        "Zaha Hadid",
+        "Philip Johnson"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 9,
+      "text": "“Viyolonsel Süitleri” eserinin bestecisi kimdir?",
+      "options": [
+        "Pyotr İlyiç Çaykovski",
+        "Johann Sebastian Bach",
+        "George Gershwin",
+        "Maurice Ravel"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    },
+    {
+      "id": 10,
+      "text": "“Memleketimden İnsan Manzaraları” hangi yazarın eseridir?",
+      "options": [
+        "Ray Bradbury",
+        "Yusuf Atılgan",
+        "Nâzım Hikmet",
+        "Henrik Ibsen"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": null,
+      "imageAlt": null,
+      "imageCredit": null,
+      "imagePosition": "top",
+      "imageFit": "cover"
+    }
+  ]
+}
