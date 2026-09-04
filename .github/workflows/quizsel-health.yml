@@ -27,20 +27,31 @@ jobs:
 
       - name: JavaScript syntax
         run: |
+          node --check config.js
           node --check app.js
           node --check app-v09-performance.js
           node --check app-v010-runtime.js
           node --check app-v011-reliability.js
+          node --check app-v012-analytics.js
+          node --check app-v0122-lobby-exit-fix.js
           node --check app-v0125-final-completion.js
           node --check app-v013-knowledge.js
           node --check quiz-semantic-index-tool.mjs
           node --check quiz-qa-tool.mjs
+          node --check quiz-health-tool.mjs
 
       - name: Repository structure QA
         run: node quiz-qa-tool.mjs repo
 
       - name: Semantic index full source audit
         run: node quiz-semantic-index-tool.mjs validate --source
+
+      # Corpus-wide health gate. quiz-qa-tool only compares CHANGED files
+      # against history, so debt that predates a rule stays invisible. This
+      # sweeps the whole pool on every push and fails on any violation that is
+      # not in QUIZSEL_QA_BASELINE.json.
+      - name: Corpus health gate
+        run: node quiz-health-tool.mjs gate
 
       - name: Strict QA for changed production quizzes
         shell: bash
