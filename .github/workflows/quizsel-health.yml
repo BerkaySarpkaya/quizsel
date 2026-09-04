@@ -31,6 +31,7 @@ jobs:
           node --check app-v09-performance.js
           node --check app-v010-runtime.js
           node --check app-v011-reliability.js
+          node --check app-v013-knowledge.js
           node --check quiz-semantic-index-tool.mjs
           node --check quiz-qa-tool.mjs
 
