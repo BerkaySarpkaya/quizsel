@@ -58,7 +58,7 @@ jobs:
           CHANGED=$(git diff --name-only "$BASE" HEAD -- 'YQ*.json' | tr '\n' ' ')
           if [ -n "$CHANGED" ]; then
             echo "Changed quiz files: $CHANGED"
-            node quiz-qa-tool.mjs check $CHANGED
+            node quiz-qa-tool.mjs check-changed "$BASE" $CHANGED
           else
             echo "No changed YQ quiz files."
           fi
