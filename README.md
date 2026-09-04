@@ -13,7 +13,7 @@ Production katmanları:
 5. `app-v011-reliability.js` — reconnect + pending final reliability
 6. `app-v012-analytics.js` — kalıcı maç/cevap analytics arşivi
 7. `app-v0122-lobby-exit-fix.js` — lobby/yarış çıkışı patch
-8. `app-v0125-final-completion.js` — final home / logout ayrımı
+8. `app-v0125-final-completion.js` (runtime 0.12.6 hard-return guard) — final home / logout ayrımı
 9. `app-v013-knowledge.js` + `styles-v013-knowledge.css` — Bilgi Canavarı final-review katmanı
 
 Kesin browser yükleme sırası `docs/RUNTIME_ARCHITECTURE.md` içindedir. `CFG.clientVersion` v0.12 runtime/analytics için `0.12.1` olarak kalır; Bilgi Canavarı kendi `0.13.0` katman sürümünü taşır.
@@ -26,6 +26,7 @@ Kesin browser yükleme sırası `docs/RUNTIME_ARCHITECTURE.md` içindedir. `CFG.
 - Reveal süresi: 5 saniye.
 - Son soru değilse reveal sonrası 3 → 2 → 1 geçişi vardır.
 - Final ekranında üç seçenek vardır: `Bilgi Canavarı`, `Tamamla ve ana ekrana dön`, `Tamamla ve çıkış yap`.
+- Ana ekrana dönüş gerçek `#finalHomeBtn` üzerinde document-capture ile sahiplenilir; stale Final repaint engellenir ve local dönüş başarısızsa session koruyan hard fallback vardır.
 - Bilgi Canavarı soru + doğru cevap + kısa açıklama/fun-fact listesini açar; terminal aksiyon değildir.
 - Finalden ana sayfaya dönüş Firebase oturumunu kapatmaz.
 - Per-user final sonucu bağlantı sorunu yaşarsa v0.11 retry mekanizması devreye girer.

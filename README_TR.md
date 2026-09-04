@@ -26,6 +26,10 @@ v0.12 ile `database.rules.json` değişmiştir. GitHub Pages bu dosyayı Firebas
 Bazı iOS/Safari oturumlarında final ekranındaki `Ana sayfaya dön` akışı cleanup/render exception'ı sonrası `Ana sayfaya dönülüyor…` halinde kilitlenebiliyordu. v0.12.1 analytics overlay normal v0.11 davranışını korur; exception recovery, watchdog ve direct DOM fallback ile kullanıcıyı final ekranında mahsur bırakmaz.
 
 
+## v0.12.6 final dönüş koruması
+
+`Tamamla ve ana ekrana dön` aksiyonu gerçek `#finalHomeBtn` üzerinde document-capture seviyesinde sahiplenilir. Çıkılan maç için geç gelen Final render'ları bastırılır; local geçiş başarısızsa kullanıcı oturumunu kapatmadan cache-busted hard fallback uygulanır.
+
 ## v0.13 Bilgi Canavarı
 
 Final ekranında üçüncü seçenek olarak `Bilgi Canavarı` bulunur. Bu ekran soru metnini, varsa görseli, doğru cevabı ve 1–3 cümlelik açıklama/fun-fact bilgisini gösterir. Eski YQ001–YQ252 quizleri backward-compatible çalışır; `answerInfo` olmayan sorular açık fallback metniyle gösterilir.

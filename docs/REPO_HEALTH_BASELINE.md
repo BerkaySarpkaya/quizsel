@@ -147,3 +147,21 @@ Kalıcı çözüm:
 - Semantic manifest/shard değiştirilmez; `validate --source` yine zorunlu gate'tir.
 
 Amaç QA'yı gevşetmek değil, **semantik olarak değişmeyen legacy içeriği açıklama zenginleştirmesi ile güvenli biçimde güncelleyebilmek** ve eski duplicate borçlarını bu işlemden ayırmaktır.
+
+
+---
+
+## 2026-09-04 — Final → Home navigation regression / v0.12.6 hardening
+
+Canlı sonuç ekranında `Tamamla ve ana ekrana dön` yolunun güvenilir olmadığı tekrar gözlendi. İncelemede analytics içindeki eski final-navigation guard'ın hâlâ `button[onclick="finishGame()"]` yüzeyini hedeflediği, güncel DOM'daki `#finalHomeBtn` üzerinde inline `finishGame()` bulunmadığı için bu guard'ın fiilen gerçek butonu korumadığı görüldü.
+
+Düzeltme:
+
+- `app-v0125-final-completion.js` runtime damgası `0.12.6` olarak sertleştirildi.
+- `#finalHomeBtn` document-capture seviyesinde sahiplenildi; eski/stale target listener'lar bu yolu gölgeleyemez.
+- Çıkılan maçın `room + createdAt` anahtarına bağlı `finalExitLock` eklendi; gecikmiş ended callbacks aynı Final ekranını tekrar boyayamaz.
+- Local DOM/home geçişi birincil yol olarak korunur. Başarısızsa auth session'ını kapatmadan cache-busted same-page hard fallback uygulanır.
+- GitHub Health artık final-completion JS syntax'ını da kontrol eder.
+- Repo QA, yalnız kaynakta eski guard marker'ı bulunmasını değil gerçek `#finalHomeBtn` capture + stale-render lock + hard fallback invariantlarını da doğrular.
+
+Bu patch scoring, Firebase Rules, quiz JSON, semantic index veya analytics archive şemasını değiştirmez.

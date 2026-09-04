@@ -1,4 +1,4 @@
-# Quizsel Runtime Architecture — v0.13.0 Bilgi Canavarı
+# Quizsel Runtime Architecture — v0.13.1 Final Navigation Hardening
 
 ## Authoritative production wiring
 
@@ -9,7 +9,7 @@ config.js?v=121
 app.js?v=90
 app-v011-reliability.js?v=112
 app-v0122-lobby-exit-fix.js?v=122
-app-v0125-final-completion.js?v=125
+app-v0125-final-completion.js?v=126
 app-v013-knowledge.js?v=130
 ```
 
@@ -55,11 +55,11 @@ Historical base application; DOM/auth/room/game primitives ve `renderFinal()` te
 Lobby/competition exit UX patch surface.
 
 ### `app-v0125-final-completion.js`
-Final ekranındaki iki terminal aksiyonun sahibi:
+Final ekranındaki iki terminal aksiyonun sahibi (runtime damgası `0.12.6`):
 - `Tamamla ve ana ekrana dön`
 - `Tamamla ve çıkış yap`
 
-Bu katman room cleanup ile auth sign-out davranışını açık biçimde ayırır.
+Home dönüşü document-capture seviyesinde gerçek `#finalHomeBtn` üzerinden sahiplenilir. Çıkılan maç için geç gelen `renderFinal()` çağrıları kilitlenir; local home geçişi başarısız kalırsa auth session'ını koruyan cache-busted same-page hard fallback devreye girer. Room cleanup ile auth sign-out davranışı ayrı kalır.
 
 ### `app-v012-analytics.js`
 - durable immutable `matchArchive`,
@@ -141,13 +141,14 @@ See `docs/ANALYTICS_ARCHITECTURE.md`.
 
 `node quiz-qa-tool.mjs repo` doğrular:
 - mevcut analytics runtime wiring/schema/navigation guard'ları,
+- gerçek `#finalHomeBtn` üzerinde v0.12.6 document-capture / stale-render lock / hard-fallback invariantlarını,
 - Bilgi Canavarı JS/CSS/DOM wiring'i,
 - `QUIZ_TEMPLATE.json` içinde `answerInfo` alanını,
 - YQ253+ her soruda `answerInfo` varlığını,
 - `answerInfo` için 1–3 cümle, min 24 / max 500 karakter teknik sınırını,
 - semantic coverage ve index integrity'yi.
 
-GitHub Health ayrıca `node --check app-v013-knowledge.js` çalıştırır.
+GitHub Health ayrıca `node --check app-v0125-final-completion.js` ve `node --check app-v013-knowledge.js` çalıştırır.
 
 Changed production quiz strict QA ve semantic full-source audit mevcut şekilde devam eder.
 

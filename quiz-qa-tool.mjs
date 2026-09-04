@@ -9,6 +9,7 @@ const INDEX_FILE = "quiz-index.json";
 const MANIFEST_FILE = "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json";
 const QA_SPEC_FILE = "QUIZSEL_SORU_QA_SPEC.json";
 const ANALYTICS_FILE = "app-v012-analytics.js";
+const FINAL_COMPLETION_FILE = "app-v0125-final-completion.js";
 const KNOWLEDGE_FILE = "app-v013-knowledge.js";
 const KNOWLEDGE_STYLE = "styles-v013-knowledge.css";
 const QUIZ_TEMPLATE_FILE = "QUIZ_TEMPLATE.json";
@@ -321,6 +322,9 @@ function validateAnalyticsRuntime(){
   if (!indexHtml.includes('app-v011-reliability.js?v=112')) {
     fail("index.html: v0.11 reliability direct tag missing");
   }
+  if (!indexHtml.includes('app-v0125-final-completion.js?v=126')) {
+    fail("index.html: hardened final completion v0.12.6 tag missing");
+  }
   if (!configJs.includes('clientVersion: "0.12.1"')) {
     fail("config.js: clientVersion must be 0.12.1");
   }
@@ -396,7 +400,22 @@ function validateAnalyticsRuntime(){
     }
   });
 
+  const finalCompletionSource = fs.readFileSync(FINAL_COMPLETION_FILE, "utf8");
+  [
+    'const VERSION = "0.12.6"',
+    'document.addEventListener("click", captureFinalHomeClick, true)',
+    'renderFinal = function quizselV0126RenderFinalGuard()',
+    'hardNavigateHome',
+    'finalExitLock',
+    '#finalHomeBtn'
+  ].forEach(marker => {
+    if (!finalCompletionSource.includes(marker)) {
+      fail(`${FINAL_COMPLETION_FILE}: hardened final navigation invariant missing: ${marker}`);
+    }
+  });
+
   note("analytics runtime: v0.12.1 wiring/schema/navigation guards present");
+  note("final completion: v0.12.6 actual-button capture + stale-render lock + hard fallback present");
   note("Bilgi Canavarı runtime: v0.13.0 wiring/template present");
 }
 
