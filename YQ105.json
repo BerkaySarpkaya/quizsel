@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 105",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -29,16 +29,17 @@
     },
     {
       "id": 2,
-      "text": "Kürk Mantolu Madonna romanının yazarı kimdir?",
+      "text": "Divan edebiyatında beyitler hâlinde yazılan ve genellikle uzun bir hikâyeyi anlatan nazım biçimi hangisidir?",
       "options": [
-        "Sait Faik Abasıyanık",
-        "Peyami Safa",
-        "Sabahattin Ali",
-        "Reşat Nuri Güntekin"
+        "Gazel",
+        "Kaside",
+        "Mesnevi",
+        "Murabba"
       ],
       "answer": 2,
       "time": 20,
-      "questionType": "multiple-choice"
+      "questionType": "multiple-choice",
+      "answerInfo": "Mesnevide her beyit kendi içinde uyaklıdır; bu esneklik biçimi binlerce beyitlik anlatılar için elverişli kılmıştır. Fuzûlî'nin Leylâ vü Mecnûn'u bu biçimde yazılmıştır."
     },
     {
       "id": 3,

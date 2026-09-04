@@ -181,6 +181,38 @@ node quiz-qa-tool.mjs check YQ223.json YQ224.json
 node quiz-semantic-index-tool.mjs validate-target YQ223 --source
 ```
 
+## Corpus health gate
+
+`quiz-qa-tool.mjs` dosya bazlı sözleşmeyi denetler ve `check` / `check-changed` modunda **yalnız o push'ta değişen** quizi geçmiş stem havuzuyla karşılaştırır. Her push'ta koşan `repo` modu corpus geneli bir karşılaştırma yapmaz. Sonuç: bir kural yürürlüğe girmeden önce havuza girmiş borç hiçbir zaman yüzeye çıkmaz.
+
+`quiz-health-tool.mjs` bu boşluğu kapatır ve tüm havuzu her push'ta tarar:
+
+```bash
+node quiz-health-tool.mjs audit      # tam rapor -> docs/QUIZSEL_HEALTH_REPORT.md + quizsel-health-findings.json
+node quiz-health-tool.mjs gate       # CI kapısı (baseline farkı)
+node quiz-health-tool.mjs baseline   # kabul edilmiş borcu yeniden yaz
+```
+
+Kapsanan hard kapılar: corpus geneli birebir ve fuzzy (>=0.84) stem duplicate, **anchor duplicate**, `answerInfo` bilgi içeriği, `answerInfo` teknik sınırları, doğru şık pozisyon dağılımı, şık uzunluk oranı, semantic coverage, Topic Family max-2 / adjacency, semantic signature ve factCluster çakışması.
+
+### Anchor duplicate kapısı
+
+`semanticSignature = subject|askedProperty|correctAnswer` ve `askedProperty` serbest metindir. "besteci" ile "bestecisi" aynı özelliğin iki yazımı; "ressam" ile "sanatçısı" ise eşanlamlı. Her iki durumda da aynı olgu iki farklı signature üretir ve duplicate kapısı o fact için kör kalır.
+
+`anchorKey = subject|correctAnswer` alanı `askedProperty`'yi tamamen devre dışı bırakır: iki soru aynı özneyi aynı cevapla soruyorsa, yazar hangi kelimeyi seçmiş olursa olsun aynı şeyi soruyordur. Mevcut havuzda bu, ne signature'ın ne de lexical katmanın gördüğü **26 duplicate** buldu.
+
+Çakışma otomatik hata değil — bir özne meşru olarak aynı cevaplı iki soru taşıyabilir — bu yüzden 0.84 fuzzy eşiği gibi davranır: baseline üzerinden geçen zorunlu review sinyali.
+
+Review seviyesinde raporlananlar: aynı cevaplı semantik duplicate şüphelileri, stem-option echo, benzersiz-en-uzun doğru cevap, aşırı kullanılan cevaplar, çıplak sayı/yıl cevapları (precision burden adayı), zamana bağlı ifadeler (kaynak doğrulaması adayı) ve `askedProperty` yazım varyantları.
+
+### Baseline ratchet
+
+`QUIZSEL_QA_BASELINE.json` mevcut borcu bir kez kaydeder; böylece CI eski borç yüzünden kırmızıya dönüp geliştirmeyi bloke etmez. **Yeni** ihlal build'i kırar. Borç düzeldikçe `baseline` komutuyla liste daraltılır — liste yalnızca küçülmelidir.
+
+### Bilinen sınır
+
+`answerInfo` bilgi-içeriği metriği, metnin sorunun ve cevabın **tekrarı** olup olmadığını ölçer. Gözlenen bozulma tam olarak buydu. Ama soruyla ilgisiz ama yeni kelimeler içeren içi boş dolgu cümlelerini yakalamaz. Manuel §15 gereği tool PASS'i editoryal değerlendirmenin yerine geçmez.
+
 ## Runtime quiz doğrulaması
 
 YQ133+ için runtime ayrıca:

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 116",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -29,16 +29,17 @@
     },
     {
       "id": 2,
-      "text": "Fresk tekniğinde boya geleneksel olarak hangi yüzeye uygulanır?",
+      "text": "Rönesans'ta geliştirilen ve uzaktaki nesneleri küçülterek düz yüzeyde derinlik yanılsaması yaratan çizim yöntemi hangisidir?",
       "options": [
-        "Metal levha",
-        "Islak sıva",
-        "Ahşap oyma",
-        "Kuru cam"
+        "Kolaj",
+        "Perspektif",
+        "Kompozisyon",
+        "Gravür"
       ],
       "answer": 1,
       "time": 20,
-      "questionType": "multiple-choice"
+      "questionType": "multiple-choice",
+      "answerInfo": "Doğrusal perspektifin kuralları 15. yüzyıl başında Floransa'da Filippo Brunelleschi'nin deneyleriyle ortaya kondu; Leon Battista Alberti bunları 1435 tarihli “Resim Üzerine” incelemesinde yazıya döktü."
     },
     {
       "id": 3,

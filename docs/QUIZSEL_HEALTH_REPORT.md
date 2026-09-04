@@ -1,0 +1,978 @@
+# Quizsel Corpus Health Report
+
+Üretim: `node quiz-health-tool.mjs audit` · 2026-09-04
+
+Bu rapor otomatik üretilir. Mekanik olarak ölçülebilen kuralları kapsar;
+leakage, precision burden, tek savunulabilir doğru ve olgu doğruluğu
+editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
+
+## Özet
+
+- Quiz: **260** · Soru: **2600**
+- Semantic index kapsamı: **1210** entry
+- answerInfo taşıyan soru: **314**
+- Hard bulgu: **190** · Review bulgusu: **715**
+
+| Kapı | Seviye | Adet |
+|---|---|---|
+| `SOURCE_REVIEW_NEEDED` | review | 192 |
+| `DUP_SEMANTIC_SUSPECT` | review | 176 |
+| `PRECISION_NUMERIC` | review | 127 |
+| `ANSWERINFO_DEGENERATE` | hard | 82 |
+| `STEM_OPTION_ECHO` | review | 77 |
+| `UNIQUE_LONGEST_CORRECT` | review | 69 |
+| `ANSWERINFO_WEAK` | review | 59 |
+| `DUP_FUZZY` | hard | 37 |
+| `DUP_EXACT` | hard | 33 |
+| `SEMANTIC_ANCHOR_DUP` | hard | 26 |
+| `ANSWER_OVERUSED` | review | 11 |
+| `OPTION_LENGTH_RATIO` | hard | 7 |
+| `ANSWER_POSITION_UNUSED` | hard | 3 |
+| `SEMANTIC_PROPERTY_VARIANTS` | review | 3 |
+| `ANSWER_POSITION_SKEW` | hard | 2 |
+| `SEMANTIC_UNINDEXED` | review | 1 |
+
+## ANSWERINFO_DEGENERATE — 82 bulgu (hard)
+
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#2
+  - mevcut: `“Dava”, Franz Kafka tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ223#4
+  - mevcut: `Salar de Uyuni adlı büyük tuz düzlüğü, Bolivya sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#8
+  - mevcut: `“Dört Mevsim”, Antonio Vivaldi tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ224#2
+  - mevcut: `Okavango Deltası, Botsvana sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#3
+  - mevcut: `“Yabancı”, Albert Camus tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#9
+  - mevcut: `“Boléro”, Maurice Ravel tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#1
+  - mevcut: `“Yüzyıllık Yalnızlık”, Gabriel García Márquez tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ225#7
+  - mevcut: `Atacama Çölü'nün büyük bölümü, Şili sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#10
+  - mevcut: `“Carmina Burana”, Carl Orff tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#1
+  - mevcut: `“Gülün Adı”, Umberto Eco tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 1 yeni bilgi kelimesi: YQ226#3
+  - mevcut: `Ohri Gölü, Arnavutluk ile Kuzey Makedonya arasında paylaşılır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#4
+  - mevcut: `“Peer Gynt”, Edvard Grieg tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#7
+  - mevcut: `“Yaşlı Adam ve Deniz”, Ernest Hemingway tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#8
+  - mevcut: `“Gezegenler (The Planets)”, Gustav Holst tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#3
+  - mevcut: `“Bir Sergiden Tablolar”, Modest Mussorgsky tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#7
+  - mevcut: `“Dorian Gray'in Portresi”, Oscar Wilde tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ228#8
+  - mevcut: `Ümit Burnu, Güney Afrika sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ229#5
+  - mevcut: `“Mavi Tuna”, Johann Strauss II tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ229#6
+  - mevcut: `“Dönüşüm”, Franz Kafka tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ229#7
+  - mevcut: `Aconcagua Dağı, Arjantin sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ230#1
+  - mevcut: `“Madame Bovary”, Gustave Flaubert tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ230#2
+  - mevcut: `Volga Nehri, kapalı bir iç deniz olan Hazar Denizi’ne dökülür.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ230#6
+  - mevcut: `“Ay Işığı Sonatı”, Ludwig van Beethoven tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ231#2
+  - mevcut: `“Usta ile Margarita”, Mihail Bulgakov tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ231#5
+  - mevcut: `“Eine kleine Nachtmusik”, Wolfgang Amadeus Mozart tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ232#5
+  - mevcut: `Plitvice Gölleri, Hırvatistan sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ232#6
+  - mevcut: `“Yeni Dünya Senfonisi”, Antonín Dvořák tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ232#10
+  - mevcut: `“Küçük Prens”, Antoine de Saint-Exupéry tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ233#3
+  - mevcut: `“Things Fall Apart”, Chinua Achebe tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ233#10
+  - mevcut: `“Finlandia”, Jean Sibelius tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ234#3
+  - mevcut: `“Carmen”, Georges Bizet tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ234#6
+  - mevcut: `“Körlük”, José Saramago tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ234#10
+  - mevcut: `Balaton Gölü, Macaristan sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ235#3
+  - mevcut: `“Sevil Berberi”, Gioachino Rossini tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ235#8
+  - mevcut: `“Veba”, Albert Camus tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ236#5
+  - mevcut: `“Bir Bebek Evi”, Henrik Ibsen tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ236#6
+  - mevcut: `“Rhapsody in Blue”, George Gershwin tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ237#2
+  - mevcut: `“Gymnopédies”, Erik Satie tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ237#6
+  - mevcut: `“Godot'yu Beklerken”, Samuel Beckett tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ237#7
+  - mevcut: `Ozon, üç oksijen atomundan oluşan O₃ molekülüdür.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ238#1
+  - mevcut: `“Çimen Yaprakları”, Walt Whitman tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ238#9
+  - mevcut: `“Clair de Lune”, Claude Debussy tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ239#1
+  - mevcut: `Serengeti ekosisteminin büyük bölümü, Tanzanya sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ239#2
+  - mevcut: `“İlahi Komedya”, Dante Alighieri tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ239#8
+  - mevcut: `“Macar Rapsodileri”, Franz Liszt tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ240#2
+  - mevcut: `“Canterbury Hikâyeleri”, Geoffrey Chaucer tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ240#6
+  - mevcut: `Galápagos Adaları, Ekvador sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ240#7
+  - mevcut: `“Şehrazat”, Nikolay Rimski-Korsakov tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ241#1
+  - mevcut: `“Valkürlerin Uçuşu”, Richard Wagner tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ241#2
+  - mevcut: `Azor Adaları, Portekiz sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ241#4
+  - mevcut: `Merkezcil ivme her an dairesel yörüngenin merkezine doğrudur.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ241#6
+  - mevcut: `“Faust”, Johann Wolfgang von Goethe tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ242#2
+  - mevcut: `“Moby Dick”, Herman Melville tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ242#5
+  - mevcut: `“Canon in D”, Johann Pachelbel tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ242#9
+  - mevcut: `Kanarya Adaları, İspanya sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ243#2
+  - mevcut: `“Adagio for Strings”, Samuel Barber tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ243#7
+  - mevcut: `Korsika Adası, Fransa sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ243#9
+  - mevcut: `“Gazap Üzümleri”, John Steinbeck tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ244#1
+  - mevcut: `Sardinya Adası, İtalya sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#2
+  - mevcut: `Ana asteroit kuşağı, Mars ile Jüpiter’in yörüngeleri arasında yer alır.`
+- … ve 22 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## DUP_FUZZY — 37 bulgu (hard)
+
+- Fuzzy stem 0.91 (>=0.84): YQ155#5 ↔ YQ237#1
+  - A: Ural Dağları geleneksel coğrafi sınıflandırmada hangi iki kıta arasında sınır kabul edilir?
+  - B: Ural Dağları geleneksel coğrafi sınıflamada hangi iki kıta arasında sınır kabul edilir?
+- Fuzzy stem 0.90 (>=0.84): YQ003#8 ↔ YQ144#10
+  - A: Petra antik kenti günümüzde hangi ülke sınırları içindedir?
+  - B: Petra antik kenti günümüzde hangi ülkenin sınırları içindedir?
+- Fuzzy stem 0.89 (>=0.84): YQ122#6 ↔ YQ226#3
+  - A: Ohri (Ohrid) Gölü hangi iki ülke arasında yer alır?
+  - B: Ohri Gölü hangi iki ülke arasında yer alır?
+- Fuzzy stem 0.87 (>=0.84): YQ006#10 ↔ YQ011#3
+  - A: Kimyasal sembolü Sn olan element hangisidir?
+  - B: Kimyasal sembolü Sb olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ006#10 ↔ YQ014#10
+  - A: Kimyasal sembolü Sn olan element hangisidir?
+  - B: Kimyasal sembolü Mn olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ009#7 ↔ YQ021#3
+  - A: Kimyasal sembolü Ag olan element hangisidir?
+  - B: Kimyasal sembolü Mg olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ013#7 ↔ YQ015#9
+  - A: Kimyasal sembolü Na olan element hangisidir?
+  - B: Kimyasal sembolü Ne olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ014#10 ↔ YQ021#3
+  - A: Kimyasal sembolü Mn olan element hangisidir?
+  - B: Kimyasal sembolü Mg olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ015#9 ↔ YQ019#7
+  - A: Kimyasal sembolü Ne olan element hangisidir?
+  - B: Kimyasal sembolü Xe olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): QZ001#1 ↔ YQ010#7
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü K olan element hangisidir?
+- Fuzzy stem 0.87 (>=0.84): YQ124#5 ↔ YQ220#7
+  - A: 1974'teki Karanfil Devrimi hangi ülkede gerçekleşti?
+  - B: 1974 Karanfil Devrimi hangi ülkede gerçekleşti?
+- Fuzzy stem 0.86 (>=0.84): YQ189#1 ↔ YQ211#1
+  - A: Tarihsel Doğu Hindistan şirketleri en çok hangi faaliyetle ilişkilidir?
+  - B: Doğu Hindistan şirketleri tarihsel olarak en çok hangi faaliyetle ilişkilidir?
+- Fuzzy stem 0.86 (>=0.84): YQ002#7 ↔ YQ175#8
+  - A: İlk modern Olimpiyat Oyunları 1896'da hangi şehirde düzenlenmiştir?
+  - B: İlk modern Olimpiyat Oyunları 1896’da hangi şehirde düzenlendi?
+- Fuzzy stem 0.85 (>=0.84): QZ005#8 ↔ YQ144#1
+  - A: Cebelitarık Boğazı hangi iki büyük su kütlesini bağlar?
+  - B: Cebelitarık Boğazı hangi iki büyük su kütlesini birbirine bağlar?
+- Fuzzy stem 0.85 (>=0.84): YQ078#2 ↔ YQ181#1
+  - A: Tiramisu tatlısı hangi ülke mutfağına aittir?
+  - B: Tiramisu tatlısı hangi ülkenin mutfağına aittir?
+- Fuzzy stem 0.85 (>=0.84): YQ096#8 ↔ YQ164#10
+  - A: Futbolda penaltı noktası kale çizgisinden kaç metre uzaktadır?
+  - B: Futbolda penaltı noktası kale çizgisinden yaklaşık kaç metre uzaktadır?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ006#10
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Sn olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ009#7
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Ag olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ011#3
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Sb olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ013#7
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Na olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ014#10
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Mn olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ015#9
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Ne olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ017#7
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Cl olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ019#7
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Xe olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): QZ001#1 ↔ YQ021#3
+  - A: Kimyasal sembolü W olan element hangisidir?
+  - B: Kimyasal sembolü Mg olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ006#10 ↔ YQ010#7
+  - A: Kimyasal sembolü Sn olan element hangisidir?
+  - B: Kimyasal sembolü K olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ009#7 ↔ YQ010#7
+  - A: Kimyasal sembolü Ag olan element hangisidir?
+  - B: Kimyasal sembolü K olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ011#3
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Sb olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ013#7
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Na olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ014#10
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Mn olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ015#9
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Ne olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ017#7
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Cl olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ019#7
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Xe olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ010#7 ↔ YQ021#3
+  - A: Kimyasal sembolü K olan element hangisidir?
+  - B: Kimyasal sembolü Mg olan element hangisidir?
+- Fuzzy stem 0.85 (>=0.84): YQ243#5 ↔ YQ252#10
+  - A: Aşağıdakilerden hangisi API teknolojisini doğru açıklar?
+  - B: Aşağıdakilerden hangisi HDMI teknolojisini doğru açıklar?
+- Fuzzy stem 0.84 (>=0.84): YQ231#7 ↔ YQ246#3
+  - A: Sari aşağıdakilerden hangisini ifade eder?
+  - B: Lei aşağıdakilerden hangisini ifade eder?
+- Fuzzy stem 0.84 (>=0.84): YQ246#3 ↔ YQ249#4
+  - A: Lei aşağıdakilerden hangisini ifade eder?
+  - B: Holi aşağıdakilerden hangisini ifade eder?
+
+## DUP_EXACT — 33 bulgu (hard)
+
+- Birebir aynı stem: QZ001#3 ↔ YQ198#2
+  - stem: Dava romanının yazarı kimdir?
+- Birebir aynı stem: QZ001#8 ↔ YQ165#1
+  - stem: Elektrik direncinin SI birimi hangisidir?
+- Birebir aynı stem: QZ002#7 ↔ YQ148#3
+  - stem: Titicaca Gölü hangi iki ülkenin sınırında yer alır?
+- Birebir aynı stem: QZ005#4 ↔ YQ251#1
+  - stem: İstanbul Boğazı hangi iki denizi birbirine bağlar?
+- Birebir aynı stem: QZ005#9 ↔ YQ193#2
+  - stem: Tuna Nehri hangi denize dökülür?
+- Birebir aynı stem: QZ006#8 ↔ YQ149#4
+  - stem: Yabancı (L'Étranger) romanının yazarı kimdir?
+- Birebir aynı stem: QZ006#10 ↔ YQ150#4
+  - stem: Saatleri Ayarlama Enstitüsü romanının yazarı kimdir?
+- Birebir aynı stem: YQ001#3 ↔ YQ194#5
+  - stem: Gece Devriyesi (The Night Watch) tablosunun ressamı kimdir?
+- Birebir aynı stem: YQ004#4 ↔ YQ164#8
+  - stem: Boléro adlı orkestral eserin bestecisi kimdir?
+- Birebir aynı stem: YQ004#7 ↔ YQ141#1
+  - stem: Süveyş Kanalı hangi iki denizi birbirine bağlar?
+- Birebir aynı stem: YQ005#6 ↔ YQ139#2
+  - stem: Baykal Gölü hangi ülkededir?
+- Birebir aynı stem: YQ006#7 ↔ YQ163#4
+  - stem: Suç ve Ceza romanının yazarı kimdir?
+- Birebir aynı stem: YQ009#4 ↔ YQ147#5
+  - stem: American Gothic tablosunun ressamı kimdir?
+- Birebir aynı stem: YQ010#9 ↔ YQ245#2
+  - stem: Angel Şelalesi hangi ülkededir?
+- Birebir aynı stem: YQ013#6 ↔ YQ152#4
+  - stem: Dönüşüm (Die Verwandlung) adlı eserin yazarı kimdir?
+- Birebir aynı stem: YQ015#6 ↔ YQ231#3
+  - stem: Ren Nehri hangi denize dökülür?
+- Birebir aynı stem: YQ019#6 ↔ YQ166#2
+  - stem: Kilimanjaro Dağı hangi ülkededir?
+- Birebir aynı stem: YQ019#10 ↔ YQ196#4
+  - stem: Obua hangi çalgı ailesine aittir?
+- Birebir aynı stem: YQ020#10 ↔ YQ210#3
+  - stem: Rhapsody in Blue eserinin bestecisi kimdir?
+- Birebir aynı stem: YQ026#10 ↔ YQ138#4
+  - stem: Cinema Paradiso filminin yönetmeni kimdir?
+- Birebir aynı stem: YQ028#10 ↔ YQ146#5
+  - stem: Amélie filminin yönetmeni kimdir?
+- Birebir aynı stem: YQ030#7 ↔ YQ242#5
+  - stem: Canon in D eserinin bestecisi kimdir?
+- Birebir aynı stem: YQ030#10 ↔ YQ141#5
+  - stem: Yedi Samuray (Seven Samurai) filminin yönetmeni kimdir?
+- Birebir aynı stem: YQ036#1 ↔ YQ200#7
+  - stem: Fırsat maliyeti neyi ifade eder?
+- Birebir aynı stem: YQ036#4 ↔ YQ198#7
+  - stem: Gayrisafi yurt içi hasıla (GSYH) temel olarak neyi ölçer?
+- Birebir aynı stem: YQ051#5 ↔ YQ145#4
+  - stem: Parçalanma (Things Fall Apart) romanının yazarı kimdir?
+- Birebir aynı stem: YQ056#7 ↔ YQ152#6
+  - stem: Carmen operasının bestecisi kimdir?
+- Birebir aynı stem: YQ057#8 ↔ YQ243#8
+  - stem: Işık yılı hangi fiziksel büyüklüğün birimidir?
+- Birebir aynı stem: YQ058#7 ↔ YQ245#8
+  - stem: Enigma Variations eserinin bestecisi kimdir?
+- Birebir aynı stem: YQ073#5 ↔ YQ240#6
+  - stem: Galápagos Adaları hangi ülkeye bağlıdır?
+- Birebir aynı stem: YQ092#2 ↔ YQ133#9
+  - stem: Salon voleybolunda bir takım sahada aynı anda kaç oyuncuyla yer alır?
+- Birebir aynı stem: YQ092#5 ↔ YQ189#4
+  - stem: The Beatles grubu hangi İngiliz şehrinde kuruldu?
+- Birebir aynı stem: YQ095#2 ↔ YQ228#8
+  - stem: Ümit Burnu hangi ülkededir?
+
+## SEMANTIC_ANCHOR_DUP — 26 bulgu (hard)
+
+- Aynı subject+answer: YQ141-Q04 ↔ YQ239-Q03 — "Fallingwater" → "Frank Lloyd Wright" (askedProperty: YQ141-Q04="architect", YQ239-Q03="tasarımıyla ilişkili mimar")
+- Aynı subject+answer: YQ145-Q04 ↔ YQ233-Q03 — "Things Fall Apart" → "Chinua Achebe" (askedProperty: YQ145-Q04="author", YQ233-Q03="yazarı")
+- Aynı subject+answer: YQ147-Q05 ↔ YQ224-Q01 — "American Gothic" → "Grant Wood" (askedProperty: YQ147-Q05="artist", YQ224-Q01="sanatçısı")
+- Aynı subject+answer: YQ148-Q05 ↔ YQ189-Q04 — "The Beatles" → "Liverpool" (askedProperty: YQ148-Q05="origin city", YQ189-Q04="şehir")
+- Aynı subject+answer: YQ148-Q08 ↔ YQ175-Q01 — "Tahini" → "Susam" (askedProperty: YQ148-Q08="base ingredient", YQ175-Q01="temel malzeme")
+- Aynı subject+answer: YQ150-Q03 ↔ YQ239-Q01 — "Serengeti" → "Tanzanya" (askedProperty: YQ150-Q03="main country", YQ239-Q01="başlıca bulunduğu ülke")
+- Aynı subject+answer: YQ150-Q04 ↔ YQ249-Q06 — "Saatleri Ayarlama Enstitüsü" → "Ahmet Hamdi Tanpınar" (askedProperty: YQ150-Q04="author", YQ249-Q06="yazarı")
+- Aynı subject+answer: YQ152-Q06 ↔ YQ234-Q03 — "Carmen" → "Georges Bizet" (askedProperty: YQ152-Q06="composer", YQ234-Q03="bestecisi")
+- Aynı subject+answer: YQ153-Q05 ↔ YQ227-Q07 — "Yaşlı Adam ve Deniz" → "Ernest Hemingway" (askedProperty: YQ153-Q05="yazar", YQ227-Q07="yazarı")
+- Aynı subject+answer: YQ158-Q05 ↔ YQ250-Q02 — "Kürk Mantolu Madonna" → "Sabahattin Ali" (askedProperty: YQ158-Q05="yazar", YQ250-Q02="yazarı")
+- Aynı subject+answer: YQ163-Q06 ↔ YQ230-Q06 — "Ay Işığı Sonatı" → "Ludwig van Beethoven" (askedProperty: YQ163-Q06="besteci", YQ230-Q06="bestecisi")
+- Aynı subject+answer: YQ163-Q07 ↔ YQ232-Q02 — "Gece Devriyesi" → "Rembrandt" (askedProperty: YQ163-Q07="ressam", YQ232-Q02="sanatçısı")
+- Aynı subject+answer: YQ164-Q08 ↔ YQ224-Q09 — "Boléro" → "Maurice Ravel" (askedProperty: YQ164-Q08="besteci", YQ224-Q09="bestecisi")
+- Aynı subject+answer: YQ165-Q01 ↔ YQ223-Q09 — "Elektrik direnci" → "Ohm" (askedProperty: YQ165-Q01="birim", YQ223-Q09="SI birimi")
+- Aynı subject+answer: YQ171-Q05 ↔ YQ227-Q05 — "Las Meninas" → "Diego Velázquez" (askedProperty: YQ171-Q05="ressam", YQ227-Q05="sanatçısı")
+- Aynı subject+answer: YQ172-Q07 ↔ YQ223-Q06 — "Öpücük (The Kiss)" → "Gustav Klimt" (askedProperty: YQ172-Q07="ressam", YQ223-Q06="sanatçısı")
+- Aynı subject+answer: YQ180-Q05 ↔ YQ240-Q08 — "Sagrada Família" → "Antoni Gaudí" (askedProperty: YQ180-Q05="mimar", YQ240-Q08="tasarımıyla ilişkili mimar")
+- Aynı subject+answer: YQ191-Q08 ↔ YQ246-Q02 — "Iguazú Şelaleleri" → "Arjantin ve Brezilya" (askedProperty: YQ191-Q08="ülkeler", YQ246-Q02="sınırındaki ülkeler")
+- Aynı subject+answer: YQ192-Q04 ↔ YQ225-Q10 — "Carmina Burana" → "Carl Orff" (askedProperty: YQ192-Q04="besteci", YQ225-Q10="bestecisi")
+- Aynı subject+answer: YQ192-Q05 ↔ YQ225-Q03 — "Nighthawks" → "Edward Hopper" (askedProperty: YQ192-Q05="ressam", YQ225-Q03="sanatçısı")
+- Aynı subject+answer: YQ195-Q04 ↔ YQ230-Q01 — "Madame Bovary" → "Gustave Flaubert" (askedProperty: YQ195-Q04="yazar", YQ230-Q01="yazarı")
+- Aynı subject+answer: YQ201-Q07 ↔ YQ223-Q03 — "Magna Carta" → "İngiltere" (askedProperty: YQ201-Q07="ülke", YQ223-Q03="ilk yayımlandığı ülke")
+- Aynı subject+answer: YQ210-Q03 ↔ YQ236-Q06 — "Rhapsody in Blue" → "George Gershwin" (askedProperty: YQ210-Q03="besteci", YQ236-Q06="bestecisi")
+- Aynı subject+answer: YQ210-Q07 ↔ YQ238-Q03 — "Gobi Çölü" → "Moğolistan ve Çin" (askedProperty: YQ210-Q07="ülkeler", YQ238-Q03="yayıldığı ülkeler")
+- Aynı subject+answer: YQ212-Q06 ↔ YQ238-Q09 — "Clair de Lune" → "Claude Debussy" (askedProperty: YQ212-Q06="besteci", YQ238-Q09="bestecisi")
+- Aynı subject+answer: YQ213-Q04 ↔ YQ226-Q04 — "Peer Gynt" → "Edvard Grieg" (askedProperty: YQ213-Q04="besteci", YQ226-Q04="bestecisi")
+
+## OPTION_LENGTH_RATIO — 7 bulgu (hard)
+
+- Şık uzunluk oranı 4.0 > 3: YQ012#6
+- Şık uzunluk oranı 4.0 > 3: YQ023#2
+- Şık uzunluk oranı 4.5 > 3: YQ032#4
+- Şık uzunluk oranı 4.0 > 3: YQ034#7
+- Şık uzunluk oranı 4.0 > 3: YQ035#10
+- Şık uzunluk oranı 3.3 > 3: YQ036#4
+- Şık uzunluk oranı 4.0 > 3: YQ045#9
+
+## ANSWER_POSITION_UNUSED — 3 bulgu (hard)
+
+- YQ002: A şıkkı hiç doğru cevap değil (dağılım 0/2/3/5)
+- YQ014: D şıkkı hiç doğru cevap değil (dağılım 1/3/6/0)
+- YQ032: C şıkkı hiç doğru cevap değil (dağılım 3/5/0/2)
+
+## ANSWER_POSITION_SKEW — 2 bulgu (hard)
+
+- YQ014: C şıkkı 6 kez doğru, üst sınır 5 (dağılım 1/3/6/0)
+- YQ031: D şıkkı 6 kez doğru, üst sınır 5 (dağılım 1/1/2/6)
+
+## SOURCE_REVIEW_NEEDED — 192 bulgu (review)
+
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ001#4
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ002#1
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ003#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ005#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ005#5
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ005#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ001#2
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ001#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ002#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ003#5
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ003#7
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ003#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ005#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ007#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ008#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ009#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ009#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ010#1
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ011#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ012#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ013#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ013#4
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ016#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ017#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ019#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ019#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ020#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ020#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ022#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ024#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ030#1
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ036#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ045#1
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ052#2
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ054#4
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ054#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ055#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ056#2
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ060#2
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ060#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ062#5
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ065#4
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ065#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ066#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ066#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ066#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ067#7
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ068#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ071#7
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ071#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ074#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ076#9
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ078#6
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ079#5
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ080#10
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ081#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ082#8
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ088#1
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ090#3
+- Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ092#6
+- … ve 132 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## DUP_SEMANTIC_SUSPECT — 176 bulgu (review)
+
+- Aynı doğru cevap + stem örtüşmesi 0.83: YQ140#1 ↔ YQ227#2 (cevap: Sumatra)
+  - A: Malakka Boğazı, Malay Yarımadası ile hangi büyük Endonezya adası arasında uzanır?
+  - B: Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında uzanır?
+- Aynı doğru cevap + stem örtüşmesi 0.82: YQ156#5 ↔ YQ194#1 (cevap: İsviçre frangı)
+  - A: İsviçre'nin para birimi hangisidir?
+  - B: İsviçre’nin resmî para birimi hangisidir?
+- Aynı doğru cevap + stem örtüşmesi 0.82: YQ089#9 ↔ YQ181#7 (cevap: Frank Gehry)
+  - A: Bilbao'daki Guggenheim Müzesi'nin mimarı kimdir?
+  - B: Guggenheim Bilbao Müzesi’nin mimarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.81: YQ086#4 ↔ YQ150#5 (cevap: Jørn Utzon)
+  - A: Sydney Opera Binası'nın tasarımını yapan Danimarkalı mimar kimdir?
+  - B: Sydney Opera Binası’nın tasarımını yapan mimar kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.80: YQ014#7 ↔ YQ227#2 (cevap: Sumatra)
+  - A: Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında yer alır?
+  - B: Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında uzanır?
+- Aynı doğru cevap + stem örtüşmesi 0.78: YQ098#5 ↔ YQ202#10 (cevap: Fransa)
+  - A: Daft Punk elektronik müzik ikilisi hangi ülkeden çıkmıştır?
+  - B: Daft Punk elektronik müzik ikilisi hangi ülkedendir?
+- Aynı doğru cevap + stem örtüşmesi 0.78: YQ054#9 ↔ YQ193#10 (cevap: Finlandiya)
+  - A: Sauna kültürü özellikle hangi ülkeyle güçlü biçimde özdeşleşmiştir?
+  - B: Sauna kültürü özellikle hangi ülkeyle özdeşleşmiştir?
+- Aynı doğru cevap + stem örtüşmesi 0.78: YQ111#9 ↔ YQ165#10 (cevap: Venezuela)
+  - A: Orinoco Nehri'nin büyük bölümü hangi ülkeden geçer?
+  - B: Orinoco Nehri’nin büyük bölümü hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.77: YQ145#5 ↔ YQ193#6 (cevap: Antonio Vivaldi)
+  - A: Dört Mevsim adlı keman konçertoları dizisinin bestecisi kimdir?
+  - B: Dört Mevsim adlı konçerto dizisinin bestecisi kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.77: YQ134#1 ↔ YQ225#7 (cevap: Şili)
+  - A: Atacama Çölü'nün büyük bölümü hangi ülkede yer alır?
+  - B: Atacama Çölü'nün büyük bölümü hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.77: YQ223#1 ↔ YQ238#2 (cevap: Golf)
+  - A: “birdie” terimi hangi spor dalında kullanılır?
+  - B: “eagle” terimi hangi spor dalında kullanılır?
+- Aynı doğru cevap + stem örtüşmesi 0.77: YQ153#5 ↔ YQ196#2 (cevap: Ernest Hemingway)
+  - A: Yaşlı Adam ve Deniz romanının yazarı kimdir?
+  - B: Yaşlı Adam ve Deniz’in yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.77: YQ056#2 ↔ YQ239#1 (cevap: Tanzanya)
+  - A: Serengeti ekosisteminin en büyük bölümü hangi ülkede yer alır?
+  - B: Serengeti ekosisteminin büyük bölümü hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.76: YQ053#2 ↔ YQ134#1 (cevap: Şili)
+  - A: Atacama Çölü'nün büyük bölümü hangi ülkenin kuzeyinde yer alır?
+  - B: Atacama Çölü'nün büyük bölümü hangi ülkede yer alır?
+- Aynı doğru cevap + stem örtüşmesi 0.75: YQ089#2 ↔ YQ173#8 (cevap: Avustralya)
+  - A: Tasmania adası hangi ülkenin bir eyaletidir?
+  - B: Tazmanya adası hangi ülkenin bir eyaletidir?
+- Aynı doğru cevap + stem örtüşmesi 0.75: YQ185#1 ↔ YQ218#1 (cevap: Venedik Film Festivali)
+  - A: Altın Aslan ödülü hangi festivalin büyük ödülüdür?
+  - B: Altın Aslan hangi film festivalinin en büyük ödülüdür?
+- Aynı doğru cevap + stem örtüşmesi 0.75: YQ079#3 ↔ YQ249#1 (cevap: Honshu)
+  - A: Fuji Dağı Japonya'nın hangi ana adasında bulunur?
+  - B: Fuji Dağı Japonya'nın hangi ana adasındadır?
+- Aynı doğru cevap + stem örtüşmesi 0.74: YQ079#5 ↔ YQ180#5 (cevap: Antoni Gaudí)
+  - A: Barselona'daki Sagrada Família bazilikasının tasarımı en çok hangi mimarla özdeşleşmiştir?
+  - B: Barselona’daki Sagrada Família en çok hangi mimarla özdeşleşmiştir?
+- Aynı doğru cevap + stem örtüşmesi 0.74: YQ073#1 ↔ YQ142#8 (cevap: Harald Bluetooth)
+  - A: Bluetooth adı, tarihî olarak hangi hükümdarın lakabından esinlenmiştir?
+  - B: Bluetooth teknolojisinin adı tarihsel olarak hangi hükümdarın lakabından esinlenmiştir?
+- Aynı doğru cevap + stem örtüşmesi 0.73: YQ141#4 ↔ YQ239#3 (cevap: Frank Lloyd Wright)
+  - A: Fallingwater (Şelale Evi) hangi mimarın tasarımıdır?
+  - B: Fallingwater hangi mimarın tasarımıdır?
+- Aynı doğru cevap + stem örtüşmesi 0.73: YQ142#2 ↔ YQ247#3 (cevap: Zambiya ve Zimbabve)
+  - A: Victoria Şelaleleri hangi iki ülkenin sınırında yer alır?
+  - B: Victoria Şelaleleri hangi iki ülke arasındaki sınırda yer alır?
+- Aynı doğru cevap + stem örtüşmesi 0.73: YQ088#5 ↔ YQ232#5 (cevap: Hırvatistan)
+  - A: Plitvice Gölleri Millî Parkı hangi ülkededir?
+  - B: Plitvice Gölleri hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.73: YQ015#10 ↔ YQ212#6 (cevap: Claude Debussy)
+  - A: Clair de Lune adlı piyano eserinin bestecisi kimdir?
+  - B: Clair de Lune eserinin bestecisi kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.72: YQ150#3 ↔ YQ239#1 (cevap: Tanzanya)
+  - A: Serengeti ekosisteminin büyük bölümü hangi ülkenin sınırları içindedir?
+  - B: Serengeti ekosisteminin büyük bölümü hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.72: YQ022#10 ↔ YQ134#4 (cevap: Hayao Miyazaki)
+  - A: Spirited Away filminin yönetmeni kimdir?
+  - B: Ruhların Kaçışı (Spirited Away) filminin yönetmeni kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.72: YQ002#4 ↔ YQ193#6 (cevap: Antonio Vivaldi)
+  - A: Dört Mevsim (The Four Seasons) adlı konçerto dizisinin bestecisi kimdir?
+  - B: Dört Mevsim adlı konçerto dizisinin bestecisi kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ001#3 ↔ YQ163#7 (cevap: Rembrandt)
+  - A: Gece Devriyesi (The Night Watch) tablosunun ressamı kimdir?
+  - B: Gece Devriyesi tablosunun ressamı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ163#7 ↔ YQ194#5 (cevap: Rembrandt)
+  - A: Gece Devriyesi tablosunun ressamı kimdir?
+  - B: Gece Devriyesi (The Night Watch) tablosunun ressamı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ113#10 ↔ YQ249#2 (cevap: Sıvı)
+  - A: Dünya'nın dış çekirdeği fiziksel olarak ağırlıklı hangi hâldedir?
+  - B: Dünya'nın dış çekirdeği hangi fiziksel hâldedir?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ109#8 ↔ YQ190#9 (cevap: Wes Anderson)
+  - A: The Grand Budapest Hotel filminin yönetmeni kimdir?
+  - B: The Grand Budapest Hotel filmini kim yönetti?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ001#7 ↔ YQ170#10 (cevap: Çim)
+  - A: Wimbledon tenis turnuvasının geleneksel kort zemini hangisidir?
+  - B: Wimbledon turnuvasının geleneksel kort zemini nedir?
+- Aynı doğru cevap + stem örtüşmesi 0.71: YQ025#6 ↔ YQ118#2 (cevap: 11)
+  - A: Krikette bir takım sahada aynı anda kaç oyuncuyla yer alır?
+  - B: Çim hokeyinde bir takım sahada aynı anda kaç oyuncuyla yer alır?
+- Aynı doğru cevap + stem örtüşmesi 0.70: YQ057#7 ↔ YQ248#6 (cevap: Igor Stravinsky)
+  - A: Bahar Ayini (The Rite of Spring) adlı bale müziğinin bestecisi kimdir?
+  - B: “Bahar Ayini (The Rite of Spring)” eserinin bestecisi kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.70: QZ001#8 ↔ YQ223#9 (cevap: Ohm)
+  - A: Elektrik direncinin SI birimi hangisidir?
+  - B: Elektrik direncinin SI birimi nedir?
+- Aynı doğru cevap + stem örtüşmesi 0.70: YQ165#1 ↔ YQ223#9 (cevap: Ohm)
+  - A: Elektrik direncinin SI birimi hangisidir?
+  - B: Elektrik direncinin SI birimi nedir?
+- Aynı doğru cevap + stem örtüşmesi 0.69: YQ002#6 ↔ YQ232#10 (cevap: Antoine de Saint-Exupéry)
+  - A: Küçük Prens (Le Petit Prince) adlı eserin yazarı kimdir?
+  - B: “Küçük Prens” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.69: YQ082#6 ↔ YQ167#8 (cevap: Sicilya)
+  - A: Etna Yanardağı hangi Akdeniz adasında bulunur?
+  - B: Etna Yanardağı hangi adada bulunur?
+- Aynı doğru cevap + stem örtüşmesi 0.69: YQ170#9 ↔ YQ228#10 (cevap: Kimyasal tepkimeleri hızlandırmak)
+  - A: Enzimlerin temel biyolojik rolü nedir?
+  - B: Enzimlerin temel biyolojik görevi nedir?
+- Aynı doğru cevap + stem örtüşmesi 0.68: QZ006#2 ↔ YQ193#7 (cevap: Salvador Dalí)
+  - A: Belleğin Azmi (The Persistence of Memory) tablosunun ressamı kimdir?
+  - B: Belleğin Azmi (The Persistence of Memory) tablosunu kim yaptı?
+- Aynı doğru cevap + stem örtüşmesi 0.68: YQ059#2 ↔ YQ229#7 (cevap: Arjantin)
+  - A: Aconcagua Dağı hangi ülkede yer alır?
+  - B: Aconcagua Dağı hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.68: YQ154#9 ↔ YQ195#5 (cevap: Corleone)
+  - A: Baba (The Godfather) filmindeki merkez ailenin soyadı nedir?
+  - B: The Godfather filminin merkezindeki suç ailesinin soyadı nedir?
+- Aynı doğru cevap + stem örtüşmesi 0.68: YQ086#9 ↔ YQ144#2 (cevap: Juan Sebastián Elcano)
+  - A: Macellan'ın seferini tamamlayarak ilk dünya çevresi yolculuğunu bitiren denizci kimdir?
+  - B: Macellan’ın ölümünden sonra seferi tamamlayarak ilk dünya çevresi yolculuğunu sonuçlandıran denizci kimdi?
+- Aynı doğru cevap + stem örtüşmesi 0.68: YQ014#7 ↔ YQ140#1 (cevap: Sumatra)
+  - A: Malakka Boğazı, Malay Yarımadası ile hangi büyük ada arasında yer alır?
+  - B: Malakka Boğazı, Malay Yarımadası ile hangi büyük Endonezya adası arasında uzanır?
+- Aynı doğru cevap + stem örtüşmesi 0.67: YQ051#7 ↔ YQ192#4 (cevap: Carl Orff)
+  - A: Carmina Burana adlı sahne kantatının bestecisi kimdir?
+  - B: Carmina Burana adlı sahne kantatını kim besteledi?
+- Aynı doğru cevap + stem örtüşmesi 0.67: YQ138#5 ↔ YQ232#10 (cevap: Antoine de Saint-Exupéry)
+  - A: Küçük Prens'in yazarı kimdir?
+  - B: “Küçük Prens” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.66: QZ004#5 ↔ YQ194#3 (cevap: Babil)
+  - A: Hammurabi Kanunları hangi Mezopotamya uygarlığıyla ilişkilidir?
+  - B: Hammurabi Kanunları hangi Mezopotamya devletiyle ilişkilidir?
+- Aynı doğru cevap + stem örtüşmesi 0.66: YQ223#2 ↔ YQ229#6 (cevap: Franz Kafka)
+  - A: “Dava” adlı eserin yazarı kimdir?
+  - B: “Dönüşüm” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.66: YQ001#6 ↔ YQ218#8 (cevap: Fas)
+  - A: Marakeş şehri hangi ülkededir?
+  - B: Marrakeş hangi ülkededir?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ151#2 ↔ YQ204#5 (cevap: Veba)
+  - A: “Kara Ölüm” olarak bilinen 14. yüzyıl salgını esas olarak hangi hastalıkla ilişkilendirilir?
+  - B: 14. yüzyıldaki Kara Ölüm salgını hangi hastalıkla ilişkilendirilir?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ158#5 ↔ YQ250#2 (cevap: Sabahattin Ali)
+  - A: Kürk Mantolu Madonna romanının yazarı kimdir?
+  - B: “Kürk Mantolu Madonna” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ033#4 ↔ YQ038#4 (cevap: Müdafi)
+  - A: Ceza yargılamasında şüpheli veya sanığın savunmasını üstlenen avukata hangi ad verilir?
+  - B: Ceza yargılamasında şüpheli veya sanığın savunmasını üstlenen avukat için kullanılan terim hangisidir?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ101#9 ↔ YQ242#9 (cevap: İspanya)
+  - A: Kanarya Adaları hangi ülkeye bağlı özerk bir bölgedir?
+  - B: Kanarya Adaları hangi ülkeye bağlıdır?
+- Aynı doğru cevap + stem örtüşmesi 0.65: QZ006#4 ↔ YQ193#4 (cevap: Miguel de Cervantes)
+  - A: Don Kişot'un yazarı kimdir?
+  - B: Don Kişot romanının yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ082#5 ↔ YQ180#1 (cevap: 3)
+  - A: Bir ahtapotun kaç kalbi vardır?
+  - B: Ahtapotların kaç kalbi vardır?
+- Aynı doğru cevap + stem örtüşmesi 0.65: YQ109#1 ↔ YQ241#2 (cevap: Portekiz)
+  - A: Madeira takımadaları hangi ülkeye bağlı özerk bir bölgedir?
+  - B: Azor Adaları hangi ülkeye bağlı özerk bir takımadadır?
+- Aynı doğru cevap + stem örtüşmesi 0.64: YQ085#5 ↔ YQ149#2 (cevap: Qin Shi Huang)
+  - A: Terracotta Ordusu hangi Çin hükümdarının mezar kompleksiyle ilişkilidir?
+  - B: Çin’deki Terracotta Ordusu hangi imparatorun mezar kompleksiyle ilişkilidir?
+- Aynı doğru cevap + stem örtüşmesi 0.64: YQ013#6 ↔ YQ229#6 (cevap: Franz Kafka)
+  - A: Dönüşüm (Die Verwandlung) adlı eserin yazarı kimdir?
+  - B: “Dönüşüm” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.64: YQ152#4 ↔ YQ229#6 (cevap: Franz Kafka)
+  - A: Dönüşüm (Die Verwandlung) adlı eserin yazarı kimdir?
+  - B: “Dönüşüm” adlı eserin yazarı kimdir?
+- Aynı doğru cevap + stem örtüşmesi 0.63: YQ006#5 ↔ YQ177#10 (cevap: Vltava)
+  - A: Prag kentinden geçen nehir hangisidir?
+  - B: Prag kentinden hangi nehir geçer?
+- Aynı doğru cevap + stem örtüşmesi 0.63: YQ101#5 ↔ YQ123#1 (cevap: İzmir)
+  - A: Efes Antik Kenti günümüzde hangi ilimizin sınırları içindedir?
+  - B: Bergama Antik Kenti hangi ilimizin sınırları içindedir?
+- … ve 116 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## PRECISION_NUMERIC — 127 bulgu (review)
+
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ001#10 → 206
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ002#3 → 1453
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ004#1 → 1215
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ004#2 → 1066
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ004#4 → 1839
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ004#8 → 1789
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#2 → 42
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#4 → 36
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#6 → 15
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#7 → 58
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#8 → 70
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#9 → 6
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: QZ007#10 → 45
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ004#1 → 1815
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ004#8 → 32
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ005#10 → 1977
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ006#6 → 5
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ008#3 → 7
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ011#8 → 15
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ012#1 → 1945
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ012#8 → 147
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ013#1 → 1571
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ014#3 → 4
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ014#8 → 9
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ015#1 → 313
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ015#8 → 25
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ016#1 → 476
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ017#8 → 21
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ018#1 → 1878
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ018#8 → 7
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ019#1 → 1517
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ019#8 → 3
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ020#1 → 1865
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ021#9 → 4
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ023#6 → 5
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ023#9 → 90
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ024#1 → 1805
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ025#6 → 11
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ026#8 → 4
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ027#1 → 1099
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ027#6 → 11
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ028#8 → 1990
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ030#6 → 11
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ031#4 → 1876
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ033#1 → 1136
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ035#1 → 6
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ035#2 → 7
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ052#1 → 1804
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ052#6 → 10
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ059#6 → 7
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ061#7 → 2012
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ067#3 → 1958
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ067#6 → 7
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ067#7 → 14
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ068#8 → 2014
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ072#7 → 1988
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ074#2 → 300
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ075#6 → 3
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ075#10 → 2023
+- Doğru cevap çıplak sayı/yıl, precision burden P2/P3 riski: YQ076#7 → 0
+- … ve 67 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## STEM_OPTION_ECHO — 77 bulgu (review)
+
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (sri): YQ007#2
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kan): YQ017#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (1878): YQ018#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (danimarka): YQ022#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (sistem): YQ030#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (turkiye): YQ033#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (turkiye): YQ033#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (isil,genlesme): YQ034#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (talep): YQ036#2
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (genel): YQ036#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (karsilastirmayi): YQ040#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (coklu,dogrusal): YQ042#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kirisin,orta): YQ045#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (penetrasyon): YQ046#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (drenajsiz): YQ046#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (temel): YQ046#8
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (devre): YQ048#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kacak): YQ050#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (whistler): YQ055#4
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (musabaka): YQ056#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (frida): YQ057#4
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (tuz): YQ060#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (halit,ergenc): YQ061#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (firat): YQ069#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (bluetooth): YQ073#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (braille): YQ075#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (boston): YQ084#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (dogrulama): YQ087#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (eiffel): YQ090#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (sivi): YQ100#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (sakarya): YQ109#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (ses): YQ119#5
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (berlin): YQ120#5
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (uretim): YQ129#4
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kral): YQ133#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (ramazan): YQ133#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (dili): YQ136#5
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (bluetooth): YQ142#8
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (tasin): YQ142#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (mimari): YQ145#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kamu,kamu): YQ147#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kan): YQ153#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (maya): YQ155#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (isvicre): YQ156#5
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (cin): YQ164#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (hucum): YQ167#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (memed): YQ168#2
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (uretim): YQ178#3
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (kirim): YQ179#7
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (geri,geri,donusum): YQ181#2
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (nehir): YQ184#6
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (duzeyini): YQ187#2
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (gatsby): YQ191#10
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (isvicre): YQ194#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (hindistan): YQ195#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (mercimek): YQ196#9
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (park): YQ199#8
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (alanda): YQ207#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (pisirme): YQ208#1
+- Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (ticaret): YQ208#3
+- … ve 17 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## UNIQUE_LONGEST_CORRECT — 69 bulgu (review)
+
+- YQ006: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ010: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ018: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ028: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ033: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ036: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ037: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ038: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ040: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ041: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ042: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ043: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ044: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ045: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ046: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ047: 7/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ048: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ049: 7/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ050: 8/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ055: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ056: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ060: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ061: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ063: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ070: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ080: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ085: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ086: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ087: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ089: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ099: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ111: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ113: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ118: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ121: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ125: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ129: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ135: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ137: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ145: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ154: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ155: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ158: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ160: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ164: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ166: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ170: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ171: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ178: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ182: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ183: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ184: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ185: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ187: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ191: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ193: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ195: 5/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ201: 4/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ208: 7/10 soruda doğru şık benzersiz en uzun seçenek
+- YQ211: 6/10 soruda doğru şık benzersiz en uzun seçenek
+- … ve 9 bulgu daha (tam liste: `quizsel-health-findings.json`)
+
+## ANSWERINFO_WEAK — 59 bulgu (review)
+
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#6
+  - mevcut: `“Öpücük (The Kiss)” adlı görsel sanat eseri Gustav Klimt tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#9
+  - mevcut: `Ohm (Ω), SI sisteminde elektrik direncinin türetilmiş birimidir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ224#1
+  - mevcut: `“American Gothic” adlı görsel sanat eseri Grant Wood tarafından yaratılmıştır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ224#7
+  - mevcut: `URL, internetteki bir kaynağın konumunu/adresini belirtmek için kullanılan standart gösterimdir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ225#3
+  - mevcut: `“Nighthawks” adlı görsel sanat eseri Edward Hopper tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ226#7
+  - mevcut: `“İnsanoğlu (The Son of Man)” adlı görsel sanat eseri René Magritte tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#2
+  - mevcut: `Malakka Boğazı, Malay Yarımadası ile Endonezya’nın Sumatra Adası arasında uzanır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#5
+  - mevcut: `“Las Meninas” adlı görsel sanat eseri Diego Velázquez tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ228#1
+  - mevcut: `“Venüs'ün Doğuşu” adlı görsel sanat eseri Sandro Botticelli tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ229#10
+  - mevcut: `“Dünyevi Zevkler Bahçesi” adlı görsel sanat eseri Hieronymus Bosch tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ230#3
+  - mevcut: `“Kanagawa Oki Nami Ura (Büyük Dalga)” adlı görsel sanat eseri Katsushika Hokusai tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ230#10
+  - mevcut: `Tempura, malzemelerin hafif bir hamura bulanıp kızartıldığı Japon pişirme tekniğidir.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ231#3
+  - mevcut: `Ren Nehri, Hollanda’daki deltası üzerinden Kuzey Denizi’ne ulaşır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ231#8
+  - mevcut: `“İzlenim, Gün Doğumu” adlı görsel sanat eseri Claude Monet tarafından yaratılmıştır.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ232#1
+  - mevcut: `Pön Savaşları, MÖ 3. ve 2. yüzyıllarda Roma ile Kartaca arasında Akdeniz hâkimiyeti için yapılan üç büyük savaştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ232#2
+  - mevcut: `“Gece Devriyesi” adlı görsel sanat eseri Rembrandt tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ233#1
+  - mevcut: `“Campbell's Soup Cans” adlı görsel sanat eseri Andy Warhol tarafından yaratılmıştır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#1
+  - mevcut: `Kalayın kimyasal sembolü Sn’dir; sembol Latince “stannum” adından gelir.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#5
+  - mevcut: `Feta, geleneksel olarak salamurada olgunlaştırılan ve Yunan mutfağıyla özdeşleşen beyaz peynirdir.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#7
+  - mevcut: `Önbellek, sık kullanılan verilerin daha hızlı erişim için geçici olarak daha yakın veya daha hızlı bir depolama katmanında tutulmasıdır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ234#8
+  - mevcut: `“Broadway Boogie Woogie” adlı görsel sanat eseri Piet Mondrian tarafından yaratılmıştır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#9
+  - mevcut: `Yeniçeri Ocağı, Osmanlı İmparatorluğu’nun merkezî kapıkulu askerî teşkilatının önemli unsurlarından biriydi.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ235#4
+  - mevcut: `“Düşünen Adam” adlı görsel sanat eseri Auguste Rodin tarafından yaratılmıştır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ235#7
+  - mevcut: `Nevruz, geniş bir coğrafyada baharın gelişini ve yeni yılı simgeleyen geleneksel kutlamaların ortak adıdır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ235#10
+  - mevcut: `Tungstenin kimyasal sembolü W’dir; bu harf elementin “wolfram” adından gelir.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ236#1
+  - mevcut: `Kobaltın kimyasal sembolü Co’dur ve atom numarası 27’dir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ236#9
+  - mevcut: `“Cloud Gate” adlı görsel sanat eseri Anish Kapoor tarafından yaratılmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ237#1
+  - mevcut: `Ural Dağları, geleneksel coğrafi sınıflamada Avrupa ile Asya arasındaki sınırın bir bölümünü oluşturur.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ237#8
+  - mevcut: `“Balon Köpek (Balloon Dog)” adlı görsel sanat eseri Jeff Koons tarafından yaratılmıştır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ238#6
+  - mevcut: `Oda sıcaklığına yakın koşullarda nötr saf suyun pH değeri yaklaşık 7’dir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ238#10
+  - mevcut: `Guggenheim Bilbao Müzesi, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ239#3
+  - mevcut: `Fallingwater, Frank Lloyd Wright ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ240#5
+  - mevcut: `Fiber optiklerde ışığın çekirdek içinde tutulmasında tam iç yansıma temel rol oynar.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ241#5
+  - mevcut: `Sydney Opera Binası, Jørn Utzon ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ242#6
+  - mevcut: `Louvre Piramidi, I. M. Pei ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ242#7
+  - mevcut: `JavaScript, web sayfalarına programlanabilir davranış ve kullanıcı etkileşimi kazandırmak için yaygın biçimde kullanılır.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ242#8
+  - mevcut: `Kırmızıya kayma, gözlenen ışığın dalga boylarının daha uzun değerlere kaymasıdır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ242#10
+  - mevcut: `Bütçe açığı, belirli bir dönemde bütçe giderlerinin bütçe gelirlerini aşması durumudur.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ243#3
+  - mevcut: `19. yüzyıldaki Afyon Savaşları esas olarak Britanya ile Çin’deki Çing İmparatorluğu arasında yaşandı.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ244#9
+  - mevcut: `Villa Savoye, Le Corbusier ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ245#4
+  - mevcut: `Europa, Jüpiter’in büyük Galilei uydularından biridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ245#7
+  - mevcut: `Casa Batlló, Antoni Gaudí ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ246#2
+  - mevcut: `Iguazú Şelaleleri, Arjantin ile Brezilya sınırındaki Iguazú/Iguaçu Nehri üzerinde yer alır.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ246#4
+  - mevcut: `Milwaukee Sanat Müzesi’nin Quadracci Pavyonu, İspanyol mimar Santiago Calatrava tarafından tasarlanmıştır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ246#6
+  - mevcut: `Titan, Satürn’ün en büyük uydusudur ve yoğun bir atmosfere sahiptir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ247#3
+  - mevcut: `Victoria Şelaleleri, Zambezi Nehri üzerinde Zambiya ile Zimbabve sınırında yer alır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ247#8
+  - mevcut: `Heydar Aliyev Merkezi, Zaha Hadid ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ248#2
+  - mevcut: `Kimbell Sanat Müzesi, Louis Kahn ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ248#10
+  - mevcut: `Higrometre, havadaki nemi ölçmek için kullanılan ölçüm aracıdır.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ249#1
+  - mevcut: `Fuji Dağı, Japonya’nın Honshu Adası’nda yer alan aktif bir stratovolkandır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#1
+  - mevcut: `Vanna Venturi House, Robert Venturi ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#3
+  - mevcut: `Nil Deltası, Mısır’ın kuzeyinde Akdeniz kıyısına açılır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#9
+  - mevcut: `Odometre, bir aracın katettiği toplam mesafeyi kaydeden veya gösteren ölçüm düzeneğidir.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ251#1
+  - mevcut: `İstanbul Boğazı, Karadeniz’i Marmara Denizi’ne bağlayan doğal su yoludur.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ251#4
+  - mevcut: `Anemometre, rüzgâr hızını ölçmek için kullanılan meteorolojik araçtır.`
+- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ251#8
+  - mevcut: `Walt Disney Concert Hall, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir.`
+- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ252#3
+  - mevcut: `Zigguratlar, özellikle antik Mezopotamya kentlerinde inşa edilen basamaklı tapınak platformlarıdır.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ252#5
+  - mevcut: `Torres Boğazı, Avustralya’nın Cape York Yarımadası ile Yeni Gine arasında yer alır.`
+- answerInfo zayıf, 4 yeni bilgi kelimesi: YQ252#10
+  - mevcut: `HDMI, dijital görüntü ve sesi tek kablo/bağlantı üzerinden taşıyabilen bir arayüz standardıdır.`
+
+## ANSWER_OVERUSED — 11 bulgu (review)
+
+- "japonya" 33 kez doğru cevap
+- "fransa" 13 kez doğru cevap
+- "italya" 11 kez doğru cevap
+- "guney afrika" 10 kez doğru cevap
+- "7" 10 kez doğru cevap
+- "ispanya" 10 kez doğru cevap
+- "brezilya" 9 kez doğru cevap
+- "portekiz" 9 kez doğru cevap
+- "endonezya" 8 kez doğru cevap
+- "meksika" 8 kez doğru cevap
+- "hindistan" 8 kez doğru cevap
+
+## SEMANTIC_PROPERTY_VARIANTS — 3 bulgu (review)
+
+- askedProperty tek bir özellik için 2 farklı yazımda: "yazarı" x30, "yazar" x17 — signature bölünüyor, duplicate kapısı bu fact için kör
+  - stem: yazar
+- askedProperty tek bir özellik için 2 farklı yazımda: "temel görev" x2, "temel görevi" x1 — signature bölünüyor, duplicate kapısı bu fact için kör
+  - stem: temel gorev
+- askedProperty tek bir özellik için 2 farklı yazımda: "tanım" x33, "tanımı" x30 — signature bölünüyor, duplicate kapısı bu fact için kör
+  - stem: tanim
+
+## SEMANTIC_UNINDEXED — 1 bulgu (review)
+
+- 139 quiz semantic index dışında (1390 soru) — duplicate koruması bu bölgede yok

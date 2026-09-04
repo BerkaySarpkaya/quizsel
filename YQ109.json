@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 109",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -81,16 +81,17 @@
     },
     {
       "id": 6,
-      "text": "Tutunamayanlar romanının yazarı kimdir?",
+      "text": "Tiyatroda tek bir oyuncunun sahnede yaptığı uzun konuşmaya ne ad verilir?",
       "options": [
-        "Bilge Karasu",
-        "Adalet Ağaoğlu",
-        "Yusuf Atılgan",
-        "Oğuz Atay"
+        "Diyalog",
+        "Replik",
+        "Suflör",
+        "Monolog"
       ],
       "answer": 3,
       "time": 20,
-      "questionType": "multiple-choice"
+      "questionType": "multiple-choice",
+      "answerInfo": "Monolog, karakterin iç dünyasını başka bir oyuncuya ihtiyaç duymadan seyirciye açar. Hamlet'in “Olmak ya da olmamak” konuşması bu anlatım biçiminin en çok bilinen örneğidir."
     },
     {
       "id": 7,

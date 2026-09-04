@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 130",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -55,16 +55,17 @@
     },
     {
       "id": 4,
-      "text": "İnce Memed romanının yazarı kimdir?",
+      "text": "Halk edebiyatında saz eşliğinde şiirlerini söyleyen gezgin şaire ne ad verilir?",
       "options": [
-        "Yaşar Kemal",
-        "Orhan Kemal",
-        "Fakir Baykurt",
-        "Kemal Tahir"
+        "Âşık",
+        "Hattat",
+        "Münşi",
+        "Nakkaş"
       ],
       "answer": 0,
       "time": 20,
-      "questionType": "multiple-choice"
+      "questionType": "multiple-choice",
+      "answerInfo": "Âşıklar şiirlerini çoğunlukla bağlama eşliğinde doğaçlama söyler ve “atışma” denen karşılıklı yarışmalarda buluşur. Karacaoğlan ile Âşık Veysel bu geleneğin en tanınan adlarındandır."
     },
     {
       "id": 5,
