@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 240",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Touchdown, Amerikan futbolunda topun rakibin end zone bölgesine taşınması veya orada kurallara uygun yakalanmasıyla elde edilen ana skordur."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Canterbury Hikâyeleri”, Geoffrey Chaucer tarafından yazılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "HTML, bir web sayfasının başlık, paragraf, bağlantı ve benzeri yapısal içeriğini tanımlayan işaretleme dilidir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Çeşitlendirme, yatırım riskini tek bir varlığa yoğunlaştırmak yerine farklı varlık ve risk kaynaklarına yayma yaklaşımıdır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Fiber optiklerde ışığın çekirdek içinde tutulmasında tam iç yansıma temel rol oynar."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Galápagos Adaları, Ekvador sınırları içinde yer alır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Şehrazat”, Nikolay Rimski-Korsakov tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Sagrada Família, Antoni Gaudí’nin en ünlü mimarlık projelerindendir; Gaudí yapının tasarımını uzun yıllar boyunca geliştirmiştir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "1494 Tordesillas Antlaşması, İspanya ile Portekiz arasında yeni keşfedilen denizaşırı bölgeler üzerindeki nüfuz alanlarını paylaşmaya yönelikti."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Piñata, kutlamalarda içi şekerleme veya küçük ikramlarla doldurulan ve çoğunlukla gözleri bağlı katılımcılarca kırılmaya çalışılan süslü kaptır."
     }
   ]
 }

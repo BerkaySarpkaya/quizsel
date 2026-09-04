@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 250",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Vanna Venturi House, Robert Venturi ile ilişkilendirilen önemli bir mimarlık eseridir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Kürk Mantolu Madonna”, Sabahattin Ali tarafından yazılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Nil Deltası, Mısır’ın kuzeyinde Akdeniz kıyısına açılır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kraliyet Yolu, Ahameniş Pers İmparatorluğu’nda yönetim, haberleşme ve ulaşımı hızlandıran ana güzergâhlardan biriydi."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Elmas, Mohs sertlik ölçeğinde 10 değeriyle en sert referans mineraldir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Obon, Japon Budist geleneklerinde ataların ruhlarını anmaya odaklanan yıllık dönem ve etkinlikler bütünüdür."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Steeplechase, atletizmde engeller ve su engeli içeren uzun mesafeli pist yarışıdır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "E-ink, ortam ışığını yansıtan elektronik kâğıt yaklaşımıdır ve görüntü sabitken çok düşük enerji tüketimiyle çalışabilir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Odometre, bir aracın katettiği toplam mesafeyi kaydeden veya gösteren ölçüm düzeneğidir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“1812 Uvertürü”, Pyotr İlyiç Çaykovski tarafından bestelenmiş bir eserdir."
     }
   ]
 }

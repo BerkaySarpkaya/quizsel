@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 233",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Campbell's Soup Cans” adlı görsel sanat eseri Andy Warhol tarafından yaratılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Behistun Yazıtı, Ahameniş hükümdarı I. Darius dönemine aittir ve çivi yazısının çözülmesinde anahtar rol oynayan çok dilli metinlerden biridir."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Things Fall Apart”, Chinua Achebe tarafından yazılmıştır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Shuttlecock, badminton oyununda raketlerle ağın üzerinden vurulan tüylü veya sentetik topçuktur."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Día de los Muertos, Meksika’da ölen yakınları anmaya ve onların hatırasını yaşatmaya odaklanan geleneksel anma dönemidir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ganj Nehri sistemi, Brahmaputra ile oluşturduğu geniş delta üzerinden Bengal Körfezi’ne ulaşır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Halojenler periyodik tablonun 17. grubunda yer alır; flor, klor, brom ve iyot bu grubun iyi bilinen üyeleridir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Güvenlik duvarı, ağ trafiğini tanımlı güvenlik kurallarına göre izin verme veya engelleme amacıyla filtreler."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Miso, soya fasulyesinin tuz ve çoğunlukla kōji kültürüyle fermente edilmesiyle hazırlanan Japon ezmesidir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Finlandia”, Jean Sibelius tarafından bestelenmiş bir eserdir."
     }
   ]
 }

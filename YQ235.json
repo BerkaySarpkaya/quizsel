@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 235",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kruvasan, katmanlı ve tereyağlı mayalı hamurun katlanıp açılmasıyla hazırlanan hilal biçimli fırın ürünüdür."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pax Romana, Roma İmparatorluğu’nda Augustus döneminden başlayarak yaklaşık iki yüzyıl süren görece istikrar dönemi için kullanılan addır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Sevil Berberi”, Gioachino Rossini tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Düşünen Adam” adlı görsel sanat eseri Auguste Rodin tarafından yaratılmıştır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tarayıcı çerezi, bir web sitesinin tarayıcıda küçük veri parçaları saklamasına imkân verir; oturum ve tercih bilgileri bunun yaygın kullanım alanlarındandır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Icing, buz hokeyinde belirli koşullarda pakın orta çizgiyi ve rakip kale çizgisini geçecek şekilde gönderilmesine ilişkin bir kural ihlalidir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Nevruz, geniş bir coğrafyada baharın gelişini ve yeni yılı simgeleyen geleneksel kutlamaların ortak adıdır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Veba”, Albert Camus tarafından yazılmıştır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Patagonya, Güney Amerika’nın güneyinde ağırlıklı olarak Arjantin ve Şili topraklarına yayılan geniş bir bölgedir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tungstenin kimyasal sembolü W’dir; bu harf elementin “wolfram” adından gelir."
     }
   ]
 }

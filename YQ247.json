@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 247",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Milletler Cemiyeti, I. Dünya Savaşı sonrasında uluslararası iş birliğini ve kolektif güvenliği geliştirmek amacıyla kuruldu."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tavla, iki oyuncunun 15’er taşı zar sonuçlarına göre 24 üçgensel hane üzerinde hareket ettirdiği strateji ve şans oyunudur."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Victoria Şelaleleri, Zambezi Nehri üzerinde Zambiya ile Zimbabve sınırında yer alır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Karlar Ülkesi”, Yasunari Kawabata tarafından yazılmıştır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Hula, Hawaii kültüründe hareket, jest ve müzik aracılığıyla öykü, şiir veya gelenek aktaran dans biçimidir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Venüs, yoğun karbondioksit atmosferinin güçlü sera etkisi nedeniyle Güneş Sistemi’nin en sıcak gezegenidir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Messiah”, George Frideric Handel tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Heydar Aliyev Merkezi, Zaha Hadid ile ilişkilendirilen önemli bir mimarlık eseridir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "GPS, uydulardan alınan zamanlama sinyallerini kullanarak konum belirlemeye yarayan küresel uydu navigasyon sistemidir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Try, ragbide topun rakibin sayı alanına kontrollü biçimde yere bastırılmasıyla elde edilen temel skorlardan biridir."
     }
   ]
 }

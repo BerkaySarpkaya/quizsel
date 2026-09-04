@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 226",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Gülün Adı”, Umberto Eco tarafından yazılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Alley-oop, basketbolda bir oyuncunun havaya verilen pası çoğunlukla sıçrayarak doğrudan sayı ile tamamladığı oyundur."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ohri Gölü, Arnavutluk ile Kuzey Makedonya arasında paylaşılır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Peer Gynt”, Edvard Grieg tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Dreyfus Davası, 19. yüzyılın sonlarında Fransa’yı derinden bölen askerî ve siyasi bir adalet skandalıydı."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Humus, temel olarak nohut ve tahinin ezilmesiyle hazırlanan, Doğu Akdeniz ve Orta Doğu mutfaklarında yaygın bir mezedir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“İnsanoğlu (The Son of Man)” adlı görsel sanat eseri René Magritte tarafından yaratılmıştır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Flamenko, Endülüs’te gelişen; şarkı, gitar ve dansı bir araya getiren İspanyol müzik ve sahne geleneğidir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pascal (Pa), SI sisteminde basıncın birimidir ve bir metrekareye etkiyen bir newtona eşittir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "ROM, kalıcı veya normal çalışma sırasında yalnızca okunması amaçlanan verileri saklamak için kullanılan bellek türlerini ifade eder."
     }
   ]
 }

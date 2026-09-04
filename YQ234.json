@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 234",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kalayın kimyasal sembolü Sn’dir; sembol Latince “stannum” adından gelir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Wicket, krikette hem üç dikmeden oluşan hedef yapıyı hem de bağlama göre vurucunun oyun dışı kalmasını ifade edebilen temel bir terimdir."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Carmen”, Georges Bizet tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Diwali, Hinduizm başta olmak üzere Güney Asya’daki çeşitli geleneklerde kutlanan ve ışıklarla özdeşleşen önemli bir bayramdır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Feta, geleneksel olarak salamurada olgunlaştırılan ve Yunan mutfağıyla özdeşleşen beyaz peynirdir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Körlük”, José Saramago tarafından yazılmıştır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Önbellek, sık kullanılan verilerin daha hızlı erişim için geçici olarak daha yakın veya daha hızlı bir depolama katmanında tutulmasıdır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Broadway Boogie Woogie” adlı görsel sanat eseri Piet Mondrian tarafından yaratılmıştır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Yeniçeri Ocağı, Osmanlı İmparatorluğu’nun merkezî kapıkulu askerî teşkilatının önemli unsurlarından biriydi."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Balaton Gölü, Macaristan sınırları içinde yer alır."
     }
   ]
 }

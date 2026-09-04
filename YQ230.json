@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 230",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Madame Bovary”, Gustave Flaubert tarafından yazılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Volga Nehri, kapalı bir iç deniz olan Hazar Denizi’ne dökülür."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Kanagawa Oki Nami Ura (Büyük Dalga)” adlı görsel sanat eseri Katsushika Hokusai tarafından yaratılmıştır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "QR kod, iki boyutlu bir desen içinde metin, bağlantı veya başka verileri makine tarafından okunabilir biçimde taşıyan koddur."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kimono, Japonya’nın geleneksel giysilerinden biridir ve önden kapanan, düz kesimli yapısıyla tanınır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Ay Işığı Sonatı”, Ludwig van Beethoven tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Mitokondriler hücresel solunumun önemli basamaklarının gerçekleştiği organellerdir ve ATP üretiminde temel rol oynar."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Knockout, boksta bir sporcunun sayım süresi içinde mücadeleye devam edememesiyle maçın sona ermesidir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Medici ailesi, Rönesans döneminde Floransa’nın siyaset, bankacılık ve sanat hamiliği tarihinde çok etkili oldu."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tempura, malzemelerin hafif bir hamura bulanıp kızartıldığı Japon pişirme tekniğidir."
     }
   ]
 }

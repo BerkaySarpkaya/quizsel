@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 243",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Seagram Building, Ludwig Mies van der Rohe’nin başlıca tasarımlarındandır; proje Philip Johnson ile birlikte geliştirilmiştir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Adagio for Strings”, Samuel Barber tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "19. yüzyıldaki Afyon Savaşları esas olarak Britanya ile Çin’deki Çing İmparatorluğu arasında yaşandı."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pommel horse, artistik jimnastikte erkekler programındaki kulplu beygir aletidir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "API, farklı yazılım bileşenlerinin hangi istek ve veri biçimleriyle iletişim kuracağını tanımlayan arayüzdür."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Şah mat, satrançta şahın tehdit altında olduğu ve bu tehdidi ortadan kaldıracak hiçbir yasal hamlenin bulunmadığı konumdur."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Korsika Adası, Fransa sınırları içinde yer alır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Işık yılı bir zaman değil uzaklık birimidir; ışığın boşlukta bir yılda aldığı mesafeyi ifade eder."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Gazap Üzümleri”, John Steinbeck tarafından yazılmıştır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kabuki, stilize oyunculuk, kostüm ve sahneleme teknikleriyle tanınan geleneksel Japon tiyatrosu türüdür."
     }
   ]
 }

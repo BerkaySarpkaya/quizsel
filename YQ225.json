@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 225",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Yüzyıllık Yalnızlık”, Gabriel García Márquez tarafından yazılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ceviche, çiğ balık veya deniz ürünlerinin genellikle narenciye suyu ve çeşitli aromatiklerle marine edilmesiyle hazırlanan yemektir."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Nighthawks” adlı görsel sanat eseri Edward Hopper tarafından yaratılmıştır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Boston Çay Partisi, Britanya’nın vergi politikalarına karşı 1773’te gerçekleşen protestoydu ve Amerikan Devrimi’ne giden süreçte önemli bir olay oldu."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Haka, Māori kültüründe söz, ritim, beden hareketleri ve toplu performansı birleştiren geleneksel bir ifade biçimidir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Libero, voleybolda ağırlıklı olarak savunma ve servis karşılama görevleri üstlenen özel pozisyondur."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Atacama Çölü'nün büyük bölümü, Şili sınırları içinde yer alır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "RAM, işlemcinin aktif çalışma sırasında hızlıca eriştiği geçici verileri tutan bellektir; güç kesildiğinde içeriği genellikle korunmaz."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Watt (W), SI sisteminde gücün birimidir; bir watt saniyede bir joule enerji aktarımına karşılık gelir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Carmina Burana”, Carl Orff tarafından bestelenmiş bir eserdir."
     }
   ]
 }

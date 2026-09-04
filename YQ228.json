@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 228",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Venüs'ün Doğuşu” adlı görsel sanat eseri Sandro Botticelli tarafından yaratılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Bluetooth, cihazların kısa mesafede radyo dalgalarıyla kablosuz veri alışverişi yapmasını sağlayan standart ailesidir."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Bir Sergiden Tablolar”, Modest Mussorgsky tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Midsommar, özellikle İskandinav ülkelerinde yaz gündönümü çevresinde düzenlenen geleneksel yaz ortası kutlamalarını ifade eder."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tzatziki, yoğurt ve salatalık temelinde hazırlanan, sarımsak ve otlarla tatlandırılabilen soğuk bir mezedir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Home run, beyzbolda vurucunun oyun sonunda üsleri dolaşıp sayı yapmasına imkân veren vuruştur."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Dorian Gray'in Portresi”, Oscar Wilde tarafından yazılmıştır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ümit Burnu, Güney Afrika sınırları içinde yer alır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "1930’daki Tuz Yürüyüşü, Gandhi’nin Britanya tuz tekeline karşı başlattığı sivil itaatsizlik eylemiydi ve Hindistan bağımsızlık hareketinin simgelerinden oldu."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Enzimler biyolojik katalizörlerdir; kimyasal tepkimelerin aktivasyon enerjisini düşürerek hızlanmasını sağlarlar."
     }
   ]
 }

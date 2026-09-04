@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 227",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Taiping Ayaklanması, 19. yüzyıl ortalarında Çin’de Çing Hanedanı’na karşı gerçekleşen çok büyük bir iç savaştı."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Malakka Boğazı, Malay Yarımadası ile Endonezya’nın Sumatra Adası arasında uzanır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Scrum, ragbide oyunu yeniden başlatmak için oyuncuların birbirine kenetlenerek top için mücadele ettiği düzenlerden biridir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tango, 19. yüzyılın sonlarında Río de la Plata çevresinde, özellikle Arjantin ve Uruguay’da gelişen dans ve müzik geleneğidir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Las Meninas” adlı görsel sanat eseri Diego Velázquez tarafından yaratılmıştır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Guacamole, temel malzemesi ezilmiş avokado olan Meksika kökenli sos veya ezmedir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Yaşlı Adam ve Deniz”, Ernest Hemingway tarafından yazılmıştır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Gezegenler (The Planets)”, Gustav Holst tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "SSD, veriyi hareketli mekanik parçalar yerine yarı iletken flaş bellek üzerinde saklayan depolama aygıtıdır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Hertz (Hz), saniye başına bir çevrimi ifade eden SI frekans birimidir."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 231",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "CAPTCHA, bir işlemi yapanın insan mı yoksa otomatik bir yazılım mı olduğunu ayırt etmeye yardımcı olan doğrulama yöntemidir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Usta ile Margarita”, Mihail Bulgakov tarafından yazılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ren Nehri, Hollanda’daki deltası üzerinden Kuzey Denizi’ne ulaşır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Trombositler damar hasarında pıhtı tıkacı oluşumuna ve kanın pıhtılaşma sürecine katkı sağlar."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Eine kleine Nachtmusik”, Wolfgang Amadeus Mozart tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Risotto, pirincin nişastasını salması için sıcak sıvının aşamalı biçimde eklenmesiyle hazırlanan İtalyan pirinç yemeğidir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Sari, Güney Asya’da yaygın olarak giyilen, uzun bir kumaş parçasının beden çevresine drape edilmesiyle kullanılan geleneksel giysidir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“İzlenim, Gün Doğumu” adlı görsel sanat eseri Claude Monet tarafından yaratılmıştır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pole position, motor sporlarında yarışa en öndeki başlangıç konumundan başlama hakkıdır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Hansa Birliği, Orta Çağ’ın sonlarında Kuzey Denizi ve Baltık Denizi çevresindeki şehirleri bağlayan güçlü bir ticaret ağıydı."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 236",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kobaltın kimyasal sembolü Co’dur ve atom numarası 27’dir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tiramisu, kahveyle ıslatılmış katmanlar ve mascarpone temelli krema ile hazırlanan İtalyan tatlısıdır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Tokugawa şogunluğu, 1603–1868 arasında Japonya’nın siyasetine hâkim olan askerî yönetimdi."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Büyük Rift sistemi özellikle Doğu Afrika boyunca uzanan tektonik çöküntüler ve fay zonlarıyla belirginleşir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Bir Bebek Evi”, Henrik Ibsen tarafından yazılmıştır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Rhapsody in Blue”, George Gershwin tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Açık kaynak yazılımda kaynak kodu uygun lisans koşulları altında incelenebilir, değiştirilebilir ve yeniden dağıtılabilir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Torii, Şinto kutsal alanlarının girişini işaretleyen ve gündelik alanla kutsal alan arasındaki geçişi simgeleyen geleneksel Japon kapısıdır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Cloud Gate” adlı görsel sanat eseri Anish Kapoor tarafından yaratılmıştır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Slam dunk, basketbolda topun oyuncu tarafından yukarıdan doğrudan çemberin içine bırakıldığı veya vurulduğu sayıdır."
     }
   ]
 }

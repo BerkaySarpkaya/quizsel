@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 239",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Serengeti ekosisteminin büyük bölümü, Tanzanya sınırları içinde yer alır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“İlahi Komedya”, Dante Alighieri tarafından yazılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Fallingwater, Frank Lloyd Wright ile ilişkilendirilen önemli bir mimarlık eseridir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kırılma, ışığın farklı optik ortamlara geçerken hızının değişmesine bağlı olarak yön değiştirmesidir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Chanoyu, Japon çay kültüründe çayın hazırlanması, sunulması ve içilmesini belirli ritüel ve estetik kurallarla düzenleyen uygulamadır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Git, dosyalardaki değişiklik geçmişini sürümler hâlinde izlemek ve farklı geliştirme kollarını yönetmek için kullanılan dağıtık sürüm kontrol sistemidir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Hitit İmparatorluğu’nun başkenti Hattuşa, günümüzde Çorum ilindeki Boğazkale yakınında yer alan büyük bir antik kenttir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Macar Rapsodileri”, Franz Liszt tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Bileşik faizde faiz yalnızca başlangıç anaparasına değil, önceki dönemlerde birikmiş faize de uygulanır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Dig, voleybolda özellikle sert bir hücum vuruşunu savunmada oyunda tutmaya yönelik karşılamadır."
     }
   ]
 }

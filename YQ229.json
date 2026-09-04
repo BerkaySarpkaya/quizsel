@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 229",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kimchi, sebzelerin tuzlanıp baharatlarla fermente edilmesiyle hazırlanan Kore mutfağının temel yiyeceklerinden biridir."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ippon, judoda karşılaşmayı doğrudan bitirebilen tam puan değerindeki skordur."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "NFC, uyumlu cihazların birkaç santimetre gibi çok kısa mesafelerde temassız veri alışverişi yapmasını sağlayan teknolojidir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Berlin Hava Köprüsü, 1948–1949 Sovyet ablukası sırasında Batı Berlin’e havadan gıda, yakıt ve diğer temel malzemeleri ulaştırdı."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Mavi Tuna”, Johann Strauss II tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Dönüşüm”, Franz Kafka tarafından yazılmıştır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Aconcagua Dağı, Arjantin sınırları içinde yer alır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Matruşka, boyutları küçülerek birbirinin içine yerleştirilen geleneksel Rus ahşap bebekleridir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Lizozomlar, hücre içinde makromoleküllerin ve bazı hücresel artıkların parçalanmasına yardımcı olan sindirim enzimleri içeren organellerdir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Dünyevi Zevkler Bahçesi” adlı görsel sanat eseri Hieronymus Bosch tarafından yaratılmıştır."
     }
   ]
 }

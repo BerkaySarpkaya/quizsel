@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 246",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Günden Kalanlar”, Kazuo Ishiguro tarafından yazılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Iguazú Şelaleleri, Arjantin ile Brezilya sınırındaki Iguazú/Iguaçu Nehri üzerinde yer alır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Lei, Hawaii kültüründe çiçek, yaprak, kabuk veya başka malzemelerden hazırlanabilen ve boyna takılan geleneksel çelenktir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Milwaukee Sanat Müzesi’nin Quadracci Pavyonu, İspanyol mimar Santiago Calatrava tarafından tasarlanmıştır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Uzun Yürüyüş, 1934–1935’te Çin Komünist kuvvetlerinin geri çekilmesi sırasında gerçekleşti ve Çin Komünist hareketinin tarihindeki kurucu olaylardan biri oldu."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Titan, Satürn’ün en büyük uydusudur ve yoğun bir atmosfere sahiptir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Water Music”, George Frideric Handel tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Bingo, çekilen numaraların oyuncuların kartlarındaki numaralarla eşleştirilmesine dayanan şans oyunudur."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Checksum, bir veri bloğundan hesaplanan özet değerdir; aktarım veya saklama sırasında verinin değişip değişmediğini fark etmeye yardımcı olabilir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Penalty corner, çim hokeyinde belirli savunma ihlallerinin ardından verilen duran top uygulamasıdır."
     }
   ]
 }

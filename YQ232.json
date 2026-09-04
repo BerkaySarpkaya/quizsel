@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 232",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pön Savaşları, MÖ 3. ve 2. yüzyıllarda Roma ile Kartaca arasında Akdeniz hâkimiyeti için yapılan üç büyük savaştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Gece Devriyesi” adlı görsel sanat eseri Rembrandt tarafından yaratılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "VPN, cihaz ile uzak ağ veya hizmet arasında şifreli bir tünel oluşturarak ağ trafiğinin güvenli taşınmasına yardımcı olur."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "İnsülin, hücrelerin glikoz kullanımını ve depolanmasını destekleyerek kan glikozunun düşmesine yardımcı olur."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Plitvice Gölleri, Hırvatistan sınırları içinde yer alır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Yeni Dünya Senfonisi”, Antonín Dvořák tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kilt, özellikle İskoç kültürüyle özdeşleşen pileli, etek benzeri geleneksel bir giysidir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Peloton, yol bisikletinde yarışın ana bisikletçi grubuna verilen addır."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kuskus, irmiğin küçük granüller hâline getirilmesiyle üretilen ve Kuzey Afrika mutfaklarında yaygın olan temel bir gıdadır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Küçük Prens”, Antoine de Saint-Exupéry tarafından yazılmıştır."
     }
   ]
 }

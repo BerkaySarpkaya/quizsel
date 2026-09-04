@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 249",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Fuji Dağı, Japonya’nın Honshu Adası’nda yer alan aktif bir stratovolkandır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Dünya’nın dış çekirdeği sıvıdır; iç çekirdek ise çok yüksek basınç nedeniyle katıdır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "1618–1648 Otuz Yıl Savaşları’nın en yoğun çatışmaları Kutsal Roma İmparatorluğu toprakları başta olmak üzere Orta Avrupa’da yaşandı."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Holi, Güney Asya’da bahar döneminde kutlanan ve renkli tozlar ile suyun kullanıldığı etkinlikleriyle tanınan festivaldir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Barometre, atmosfer basıncını ölçen araçtır ve meteorolojide hava değişimlerini izlemek için de kullanılır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Saatleri Ayarlama Enstitüsü”, Ahmet Hamdi Tanpınar tarafından yazılmıştır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Butterfly, yüzmede iki kolun birlikte öne taşındığı ve yunus vuruşuyla yüzülen resmî stillerden biridir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Glass House, mimar Philip Johnson’ın 1949’da Connecticut’ta tamamlanan, cam cepheli modernist evidir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "OLED ekranlarda her piksel kendi ışığını üretebilir; bu nedenle ayrı bir arka aydınlatma katmanı gerekmez."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Peter ve Kurt”, Sergey Prokofyev tarafından bestelenmiş bir eserdir."
     }
   ]
 }

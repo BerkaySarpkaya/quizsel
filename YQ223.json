@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 223",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Birdie, golfte bir deliği par değerinden bir vuruş daha az oynayarak tamamlamaktır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Dava”, Franz Kafka tarafından yazılmıştır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Magna Carta’nın ilk sürümü 1215’te İngiltere’de Kral John döneminde ortaya çıktı ve kraliyet yetkisinin hukukla sınırlandırılması açısından simgesel önem kazandı."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Salar de Uyuni adlı büyük tuz düzlüğü, Bolivya sınırları içinde yer alır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Pesto, özellikle Cenova geleneğiyle özdeşleşen; fesleğenin zeytinyağı ve diğer malzemelerle ezilmesiyle hazırlanan İtalyan sosudur."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Öpücük (The Kiss)” adlı görsel sanat eseri Gustav Klimt tarafından yaratılmıştır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Hanami, Japonya’da özellikle sakura yani kiraz çiçeklerinin açmasını seyretme ve bu kısa çiçeklenme dönemini kutlama geleneğidir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Dört Mevsim”, Antonio Vivaldi tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Ohm (Ω), SI sisteminde elektrik direncinin türetilmiş birimidir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Markdown, düz metin içinde başlık, liste, bağlantı ve vurgu gibi biçimleri basit işaretlerle tanımlamaya yarayan hafif işaretleme dilidir."
     }
   ]
 }

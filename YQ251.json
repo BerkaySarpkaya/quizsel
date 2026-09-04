@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 251",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "İstanbul Boğazı, Karadeniz’i Marmara Denizi’ne bağlayan doğal su yoludur."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Edo dönemi adını, Tokugawa şogunluğunun merkezi olan ve 1868’de Tokyo adını alan Edo kentinden alır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Songkran, Tayland’ın geleneksel yeni yıl kutlamasıdır ve günümüzde suyla yapılan kutlamalarıyla çok tanınır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Anemometre, rüzgâr hızını ölçmek için kullanılan meteorolojik araçtır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Safety car, motor sporlarında tehlikeli koşullarda yarış hızını kontrol etmek ve alanı güvenli hâle getirmek için piste çıkan güvenlik aracıdır."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "USB, çevre birimleri arasında dijital veri aktarımı ve birçok durumda elektrik gücü sağlamak için kullanılan bağlantı standardıdır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Metamorfik kayaçlar, mevcut kayaçların erimeden yüksek ısı, basınç ve akışkan etkileriyle mineral ve dokusal değişime uğramasıyla oluşur."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Walt Disney Concert Hall, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Viyolonsel Süitleri”, Johann Sebastian Bach tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Memleketimden İnsan Manzaraları”, Nâzım Hikmet tarafından yazılmıştır."
     }
   ]
 }

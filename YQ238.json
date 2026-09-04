@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 238",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Çimen Yaprakları”, Walt Whitman tarafından yazılmıştır."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Eagle, golfte bir deliği par değerinden iki vuruş daha az oynayarak tamamlamaktır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Gobi Çölü, Moğolistan’ın güneyi ile Çin’in kuzeyine yayılan geniş bir çöl bölgesidir."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Bonsai, ağaç ve çalıların budama, telleme ve saksıda yetiştirme gibi tekniklerle minyatür ölçekte biçimlendirildiği Japon yetiştirme sanatıdır."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Minos uygarlığı Tunç Çağı’nda Girit Adası’nda gelişti; Knossos en önemli merkezlerinden biriydi."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Oda sıcaklığına yakın koşullarda nötr saf suyun pH değeri yaklaşık 7’dir."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Enflasyon, ekonomide mal ve hizmetlerin genel fiyat düzeyinin zaman içinde sürekli yükselmesi ve paranın satın alma gücünün azalmasıdır."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Kayıpsız sıkıştırma, sıkıştırılmış veriden özgün verinin bit düzeyinde eksiksiz geri oluşturulabilmesini sağlar."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Clair de Lune”, Claude Debussy tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Guggenheim Bilbao Müzesi, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir."
     }
   ]
 }

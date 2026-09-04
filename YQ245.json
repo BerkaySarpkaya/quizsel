@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 245",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 1,
+  "version": 2,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -30,7 +30,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Açık anahtarlı şifreleme, matematiksel olarak ilişkili bir açık anahtar ile özel anahtar çiftini kullanır; açık anahtar paylaşılabilirken özel anahtar gizli tutulur."
     },
     {
       "id": 2,
@@ -48,7 +49,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Angel Şelalesi, Venezuela sınırları içinde yer alır."
     },
     {
       "id": 3,
@@ -66,7 +68,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Domestique, yol bisikletinde takım liderine destek olmak için çalışan yardımcı rolündeki bisikletçiye verilen addır."
     },
     {
       "id": 4,
@@ -84,7 +87,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Europa, Jüpiter’in büyük Galilei uydularından biridir."
     },
     {
       "id": 5,
@@ -102,7 +106,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Dördüncü Haçlı Seferi 1204’te Konstantinopolis’in Haçlılar tarafından ele geçirilip yağmalanmasıyla sonuçlandı."
     },
     {
       "id": 6,
@@ -120,7 +125,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Didgeridoo, Avustralya’nın bazı Aborjin halklarının müzik gelenekleriyle ilişkili uzun, doğal trompet benzeri nefesli çalgıdır."
     },
     {
       "id": 7,
@@ -138,7 +144,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Casa Batlló, Antoni Gaudí ile ilişkilendirilen önemli bir mimarlık eseridir."
     },
     {
       "id": 8,
@@ -156,7 +163,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Enigma Variations”, Edward Elgar tarafından bestelenmiş bir eserdir."
     },
     {
       "id": 9,
@@ -174,7 +182,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "“Damızlık Kızın Öyküsü”, Margaret Atwood tarafından yazılmıştır."
     },
     {
       "id": 10,
@@ -192,7 +201,8 @@
       "imageAlt": null,
       "imageCredit": null,
       "imagePosition": "top",
-      "imageFit": "cover"
+      "imageFit": "cover",
+      "answerInfo": "Domino, her biri iki bölmeye ayrılmış işaretli taşlarla oynanan ve eşleşen değerleri yan yana getirmeye dayanan oyun ailesidir."
     }
   ]
 }
