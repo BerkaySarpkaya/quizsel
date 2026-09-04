@@ -13,7 +13,7 @@ Production katmanları:
 5. `app-v011-reliability.js` — reconnect + pending final reliability
 6. `app-v012-analytics.js` — kalıcı maç/cevap analytics arşivi
 7. `app-v0122-lobby-exit-fix.js` — lobby/yarış çıkışı patch
-8. `app-v0125-final-completion.js` (runtime 0.12.6 hard-return guard) — final home / logout ayrımı
+8. `app-v0125-final-completion.js` (runtime 0.12.7 hard-return + terminal-button reset guard) — final home / logout ayrımı
 9. `app-v013-knowledge.js` + `styles-v013-knowledge.css` — Bilgi Canavarı final-review katmanı
 
 Kesin browser yükleme sırası `docs/RUNTIME_ARCHITECTURE.md` içindedir. `CFG.clientVersion` v0.12 runtime/analytics için `0.12.1` olarak kalır; Bilgi Canavarı kendi `0.13.0` katman sürümünü taşır.
@@ -43,6 +43,24 @@ v0.12.1 analytics overlay mevcut v0.11 final persistence davranışını korur v
 - son çare doğrudan DOM view geçişi.
 
 Cleanup hatası artık kullanıcıyı final ekranında mahsur bırakamaz; en kötü durumda buton tekrar etkinleştirilir.
+
+
+## Final butonu kilitlenmesi hotfix — v0.12.7
+
+`#view-final` her maçta yeniden kullanılan kalıcı bir DOM düğümüdür; buton elementi yeniden üretilmez.
+
+v0.12.6'da `setButtonsBusy("home")` butonu `disabled` yapıyor, başarılı dönüş yolunda ise `restoreButtons()` hiç çağrılmıyordu. Sonuç: aynı sayfa oturumunda ilk maçın çıkışı çalışıyor, sonraki her maçta `Tamamla ve ana ekrana dön` butonu `disabled` ve "Ana sayfaya dönülüyor…" metniyle geliyordu. Disabled bir buton hiç `click` eventi üretmediği için document-capture listener'ı da devreye giremiyor, kullanıcı final ekranında kilitleniyordu.
+
+Eski katmanlardaki `btn.disabled = false` kurtarma yolları bu senaryoyu yakalayamıyordu: v0.10 / v0.11 / v0.12 butonu `#view-final button[onclick="finishGame()"]` selector'ü ile arıyor, `#finalHomeBtn` üzerinde `onclick` attribute'u bulunmadığı (ve v0.12.6 kurulumda `removeAttribute("onclick")` çağırdığı) için selector daima `null` dönüyordu.
+
+v0.12.7 terminal butonları dört ayrı noktada geri açar:
+
+- çıkış akışının `finally` bloğunda,
+- her watchdog adımında (`settleHomeReturn`),
+- her `renderFinal()` boyamasında,
+- `#view-final` yeniden `active` olduğunda (`observeFinalViewActivation` — Bilgi Canavarı `Sonuçlara dön` yolu dahil).
+
+Ek olarak: `completeAndReturnHome` / `completeAndSignOut` artık try/finally ile sarılıdır, `toast()` çağrıları izole edilmiştir (fırlatan bir toast artık `actionInProgress` bayrağını kalıcı olarak kilitleyemez) ve biten maça ait geç watchdog'lar yeni başlamış bir maçı final ekranından çekip alamaz.
 
 
 ## Bilgi Canavarı — v0.13

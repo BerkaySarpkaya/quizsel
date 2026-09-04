@@ -1,4 +1,4 @@
-# Quizsel Runtime Architecture — v0.13.1 Final Navigation Hardening
+# Quizsel Runtime Architecture — v0.13.2 Final Navigation Hardening
 
 ## Authoritative production wiring
 
@@ -9,7 +9,7 @@ config.js?v=121
 app.js?v=90
 app-v011-reliability.js?v=112
 app-v0122-lobby-exit-fix.js?v=122
-app-v0125-final-completion.js?v=126
+app-v0125-final-completion.js?v=127
 app-v013-knowledge.js?v=130
 ```
 
@@ -55,11 +55,13 @@ Historical base application; DOM/auth/room/game primitives ve `renderFinal()` te
 Lobby/competition exit UX patch surface.
 
 ### `app-v0125-final-completion.js`
-Final ekranındaki iki terminal aksiyonun sahibi (runtime damgası `0.12.6`):
+Final ekranındaki iki terminal aksiyonun sahibi (runtime damgası `0.12.7`):
 - `Tamamla ve ana ekrana dön`
 - `Tamamla ve çıkış yap`
 
 Home dönüşü document-capture seviyesinde gerçek `#finalHomeBtn` üzerinden sahiplenilir. Çıkılan maç için geç gelen `renderFinal()` çağrıları kilitlenir; local home geçişi başarısız kalırsa auth session'ını koruyan cache-busted same-page hard fallback devreye girer. Room cleanup ile auth sign-out davranışı ayrı kalır.
+
+`#view-final` kalıcı bir DOM düğümü olduğu için terminal butonların `disabled` durumu maçlar arasında sızabilir. v0.12.7 bunu invariant haline getirir: butonlar çıkış akışının `finally` bloğunda, her watchdog adımında, her `renderFinal()` boyamasında ve `#view-final` yeniden `active` olduğunda geri açılır. Biten maça ait geç watchdog'lar yeni bir maçı final ekranından çekip alamaz.
 
 ### `app-v012-analytics.js`
 - durable immutable `matchArchive`,
@@ -141,7 +143,7 @@ See `docs/ANALYTICS_ARCHITECTURE.md`.
 
 `node quiz-qa-tool.mjs repo` doğrular:
 - mevcut analytics runtime wiring/schema/navigation guard'ları,
-- gerçek `#finalHomeBtn` üzerinde v0.12.6 document-capture / stale-render lock / hard-fallback invariantlarını,
+- gerçek `#finalHomeBtn` üzerinde v0.12.7 document-capture / stale-render lock / hard-fallback / terminal-button reset invariantlarını,
 - Bilgi Canavarı JS/CSS/DOM wiring'i,
 - `QUIZ_TEMPLATE.json` içinde `answerInfo` alanını,
 - YQ253+ her soruda `answerInfo` varlığını,

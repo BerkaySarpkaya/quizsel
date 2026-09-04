@@ -322,8 +322,8 @@ function validateAnalyticsRuntime(){
   if (!indexHtml.includes('app-v011-reliability.js?v=112')) {
     fail("index.html: v0.11 reliability direct tag missing");
   }
-  if (!indexHtml.includes('app-v0125-final-completion.js?v=126')) {
-    fail("index.html: hardened final completion v0.12.6 tag missing");
+  if (!indexHtml.includes('app-v0125-final-completion.js?v=127')) {
+    fail("index.html: hardened final completion v0.12.7 tag missing");
   }
   if (!configJs.includes('clientVersion: "0.12.1"')) {
     fail("config.js: clientVersion must be 0.12.1");
@@ -402,12 +402,17 @@ function validateAnalyticsRuntime(){
 
   const finalCompletionSource = fs.readFileSync(FINAL_COMPLETION_FILE, "utf8");
   [
-    'const VERSION = "0.12.6"',
+    'const VERSION = "0.12.7"',
     'document.addEventListener("click", captureFinalHomeClick, true)',
-    'renderFinal = function quizselV0126RenderFinalGuard()',
+    'renderFinal = function quizselV0127RenderFinalGuard()',
     'hardNavigateHome',
     'finalExitLock',
-    '#finalHomeBtn'
+    '#finalHomeBtn',
+    // v0.12.7 regression guards: a disabled terminal button must never survive
+    // into the next match of the same page session.
+    'function settleHomeReturn',
+    'function observeFinalViewActivation',
+    'restoreButtons();\n    return result;'
   ].forEach(marker => {
     if (!finalCompletionSource.includes(marker)) {
       fail(`${FINAL_COMPLETION_FILE}: hardened final navigation invariant missing: ${marker}`);
@@ -415,7 +420,7 @@ function validateAnalyticsRuntime(){
   });
 
   note("analytics runtime: v0.12.1 wiring/schema/navigation guards present");
-  note("final completion: v0.12.6 actual-button capture + stale-render lock + hard fallback present");
+  note("final completion: v0.12.7 actual-button capture + stale-render lock + hard fallback + terminal-button reset present");
   note("Bilgi Canavarı runtime: v0.13.0 wiring/template present");
 }
 
