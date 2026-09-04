@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "code": "YQ253",
+  "displayCode": "Y.Q253",
+  "title": "Görsel Genel Kültür — Dünya Bayrakları",
+  "category": "Görsel Genel Kültür",
+  "difficulty": 5.0,
+  "version": 1,
+  "description": "Dünyanın farklı bölgelerinden 10 ülke bayrağını görselden tanımaya dayalı özel quiz.",
+  "estimatedMinutes": 5,
+  "tags": [
+    "Görsel Genel Kültür",
+    "Bayraklar",
+    "Coğrafya",
+    "5/10"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Bhutan",
+        "Nepal",
+        "Sri Lanka",
+        "Moğolistan"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/np.png",
+      "imageAlt": "Soru 1 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 2,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Bhutan",
+        "Kırgızistan",
+        "Brunei",
+        "Myanmar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/bt.png",
+      "imageAlt": "Soru 2 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 3,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Mauritius",
+        "Seyşeller",
+        "Namibya",
+        "Gabon"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/sc.png",
+      "imageAlt": "Soru 3 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 4,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Angola",
+        "Mozambik",
+        "Zimbabve",
+        "Zambiya"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/mz.png",
+      "imageAlt": "Soru 4 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 5,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Palau",
+        "Kiribati",
+        "Tuvalu",
+        "Fiji"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/ki.png",
+      "imageAlt": "Soru 5 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 6,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Karadağ",
+        "Arnavutluk",
+        "Kuzey Makedonya",
+        "Sırbistan"
+      ],
+      "answer": 2,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/mk.png",
+      "imageAlt": "Soru 6 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 7,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Kazakistan",
+        "Özbekistan",
+        "Türkmenistan",
+        "Tacikistan"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/kz.png",
+      "imageAlt": "Soru 7 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 8,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Sri Lanka",
+        "Bhutan",
+        "Bangladeş",
+        "Myanmar"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/lk.png",
+      "imageAlt": "Soru 8 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 9,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Arjantin",
+        "Uruguay",
+        "Paraguay",
+        "Honduras"
+      ],
+      "answer": 1,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/uy.png",
+      "imageAlt": "Soru 9 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    },
+    {
+      "id": 10,
+      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "options": [
+        "Güney Afrika",
+        "Kenya",
+        "Gana",
+        "Etiyopya"
+      ],
+      "answer": 0,
+      "time": 20,
+      "questionType": "multiple-choice",
+      "image": "https://flagcdn.com/w640/za.png",
+      "imageAlt": "Soru 10 için ülke bayrağı görseli",
+      "imageCredit": "Flagpedia / FlagCDN — public domain",
+      "imagePosition": "top",
+      "imageFit": "contain"
+    }
+  ]
+}

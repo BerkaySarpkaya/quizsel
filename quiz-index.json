@@ -2073,6 +2073,14 @@
       "difficulty": 4.5,
       "questions": 10,
       "file": "YQ252.json"
+    },
+    {
+      "code": "Y.Q253",
+      "title": "Görsel Genel Kültür — Dünya Bayrakları",
+      "category": "Görsel Genel Kültür",
+      "difficulty": 5.0,
+      "questions": 10,
+      "file": "YQ253.json"
     }
   ]
 }
