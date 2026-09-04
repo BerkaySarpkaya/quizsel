@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 223",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -50,16 +50,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Dava”, Franz Kafka tarafından yazılmıştır."
+      "answerInfo": "Kafka romanı bitiremeden öldü ve yazdıklarının yakılmasını vasiyet etti; dostu Max Brod vasiyeti çiğneyerek metni 1925'te yayımladı. Kitap, suçunun ne olduğunu hiç öğrenemeyen bir adamın yargılanışını anlatır."
     },
     {
       "id": 3,
-      "text": "Magna Carta ilk olarak hangi ülkede yayımlandı?",
+      "text": "Lale Devri olarak anılan dönem hangi Osmanlı padişahının saltanatında yaşanmıştır?",
       "options": [
-        "İngiltere",
-        "Hindistan",
-        "Amerika Birleşik Devletleri",
-        "Japonya"
+        "III. Ahmed",
+        "IV. Murad",
+        "II. Mahmud",
+        "Abdülmecid"
       ],
       "answer": 0,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Magna Carta’nın ilk sürümü 1215’te İngiltere’de Kral John döneminde ortaya çıktı ve kraliyet yetkisinin hukukla sınırlandırılması açısından simgesel önem kazandı."
+      "answerInfo": "Lale Devri, 1718 Pasarofça Antlaşması'ndan 1730 Patrona Halil İsyanı'na kadar süren dönemi anlatır. Bu yıllarda İbrahim Müteferrika'nın matbaası kuruldu ve Yirmisekiz Çelebi Mehmed Paris'e elçi olarak gönderildi."
     },
     {
       "id": 4,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Salar de Uyuni adlı büyük tuz düzlüğü, Bolivya sınırları içinde yer alır."
+      "answerInfo": "Yaklaşık 10.000 km²'lik yüzeyiyle dünyanın en büyük tuz düzlüğüdür. Yağmur sonrası üzerini kaplayan ince su tabakası onu dev bir aynaya çevirdiği için uydu yükseklik ölçerlerinin ayarlanmasında kullanılır."
     },
     {
       "id": 5,
@@ -111,12 +111,12 @@
     },
     {
       "id": 6,
-      "text": "“Öpücük (The Kiss)” adlı eserin sanatçısı kimdir?",
+      "text": "Ortaçağ katedrallerinde pencereleri kaplayan, kurşun çubuklarla birleştirilmiş renkli cam panolara ne ad verilir?",
       "options": [
-        "Auguste Rodin",
-        "René Magritte",
-        "Jeff Koons",
-        "Gustav Klimt"
+        "Mozaik",
+        "Fresk",
+        "Rölyef",
+        "Vitray"
       ],
       "answer": 3,
       "time": 20,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Öpücük (The Kiss)” adlı görsel sanat eseri Gustav Klimt tarafından yaratılmıştır."
+      "answerInfo": "Vitray, cama boya sürmek yerine camın kendisini metal oksitlerle renklendirmeye dayanır. Gotik katedrallerin duvar yükünü payandalara aktaran taşıyıcı sistemi, pencerelerin bu ölçüde büyümesini mümkün kılmıştır."
     },
     {
       "id": 7,
@@ -164,16 +164,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Dört Mevsim”, Antonio Vivaldi tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Vivaldi her konçertonun başına, müziğin izlediği olayları anlatan birer sone yerleştirdi. Bu yönüyle eser, program müziğinin bilinen en erken örneklerinden sayılır."
     },
     {
       "id": 9,
-      "text": "Elektrik direncinin SI birimi nedir?",
+      "text": "Deniz seviyesinden yükseldikçe suyun kaynama sıcaklığı nasıl değişir?",
       "options": [
-        "Ohm",
-        "Hertz",
-        "Watt",
-        "Pascal"
+        "Düşer, çünkü hava basıncı azalır",
+        "Yükselir, çünkü hava basıncı azalır",
+        "Değişmez, yalnızca kaptaki su miktarına bağlıdır",
+        "Düşer, çünkü havadaki nem oranı artar"
       ],
       "answer": 0,
       "time": 20,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ohm (Ω), SI sisteminde elektrik direncinin türetilmiş birimidir."
+      "answerInfo": "Deniz seviyesinde 100 °C olan kaynama sıcaklığı, kabaca her 300 metre yükselmede 1 °C düşer. Bu yüzden yüksek rakımda pişirme süreleri uzar; düdüklü tencere ise basıncı artırarak etkiyi tersine çevirir."
     },
     {
       "id": 10,

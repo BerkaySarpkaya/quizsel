@@ -11,20 +11,20 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - Quiz: **260** · Soru: **2600**
 - Semantic index kapsamı: **1210** entry
 - answerInfo taşıyan soru: **314**
-- Hard bulgu: **190** · Review bulgusu: **715**
+- Hard bulgu: **166** · Review bulgusu: **701**
 
 | Kapı | Seviye | Adet |
 |---|---|---|
-| `SOURCE_REVIEW_NEEDED` | review | 192 |
-| `DUP_SEMANTIC_SUSPECT` | review | 176 |
+| `SOURCE_REVIEW_NEEDED` | review | 193 |
+| `DUP_SEMANTIC_SUSPECT` | review | 169 |
 | `PRECISION_NUMERIC` | review | 127 |
-| `ANSWERINFO_DEGENERATE` | hard | 82 |
 | `STEM_OPTION_ECHO` | review | 77 |
 | `UNIQUE_LONGEST_CORRECT` | review | 69 |
-| `ANSWERINFO_WEAK` | review | 59 |
+| `ANSWERINFO_DEGENERATE` | hard | 68 |
+| `ANSWERINFO_WEAK` | review | 51 |
 | `DUP_FUZZY` | hard | 37 |
 | `DUP_EXACT` | hard | 33 |
-| `SEMANTIC_ANCHOR_DUP` | hard | 26 |
+| `SEMANTIC_ANCHOR_DUP` | hard | 16 |
 | `ANSWER_OVERUSED` | review | 11 |
 | `OPTION_LENGTH_RATIO` | hard | 7 |
 | `ANSWER_POSITION_UNUSED` | hard | 3 |
@@ -32,36 +32,8 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 | `ANSWER_POSITION_SKEW` | hard | 2 |
 | `SEMANTIC_UNINDEXED` | review | 1 |
 
-## ANSWERINFO_DEGENERATE — 82 bulgu (hard)
+## ANSWERINFO_DEGENERATE — 68 bulgu (hard)
 
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#2
-  - mevcut: `“Dava”, Franz Kafka tarafından yazılmıştır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ223#4
-  - mevcut: `Salar de Uyuni adlı büyük tuz düzlüğü, Bolivya sınırları içinde yer alır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#8
-  - mevcut: `“Dört Mevsim”, Antonio Vivaldi tarafından bestelenmiş bir eserdir.`
-- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ224#2
-  - mevcut: `Okavango Deltası, Botsvana sınırları içinde yer alır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#3
-  - mevcut: `“Yabancı”, Albert Camus tarafından yazılmıştır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#9
-  - mevcut: `“Boléro”, Maurice Ravel tarafından bestelenmiş bir eserdir.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#1
-  - mevcut: `“Yüzyıllık Yalnızlık”, Gabriel García Márquez tarafından yazılmıştır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ225#7
-  - mevcut: `Atacama Çölü'nün büyük bölümü, Şili sınırları içinde yer alır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#10
-  - mevcut: `“Carmina Burana”, Carl Orff tarafından bestelenmiş bir eserdir.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#1
-  - mevcut: `“Gülün Adı”, Umberto Eco tarafından yazılmıştır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 1 yeni bilgi kelimesi: YQ226#3
-  - mevcut: `Ohri Gölü, Arnavutluk ile Kuzey Makedonya arasında paylaşılır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#4
-  - mevcut: `“Peer Gynt”, Edvard Grieg tarafından bestelenmiş bir eserdir.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#7
-  - mevcut: `“Yaşlı Adam ve Deniz”, Ernest Hemingway tarafından yazılmıştır.`
-- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#8
-  - mevcut: `“Gezegenler (The Planets)”, Gustav Holst tarafından bestelenmiş bir eserdir.`
 - answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#3
   - mevcut: `“Bir Sergiden Tablolar”, Modest Mussorgsky tarafından bestelenmiş bir eserdir.`
 - answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#7
@@ -154,7 +126,35 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
   - mevcut: `Sardinya Adası, İtalya sınırları içinde yer alır.`
 - answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#2
   - mevcut: `Ana asteroit kuşağı, Mars ile Jüpiter’in yörüngeleri arasında yer alır.`
-- … ve 22 bulgu daha (tam liste: `quizsel-health-findings.json`)
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#4
+  - mevcut: `“Fahrenheit 451”, Ray Bradbury tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#6
+  - mevcut: `“Appalachian Spring”, Aaron Copland tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ245#2
+  - mevcut: `Angel Şelalesi, Venezuela sınırları içinde yer alır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ245#8
+  - mevcut: `“Enigma Variations”, Edward Elgar tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ245#9
+  - mevcut: `“Damızlık Kızın Öyküsü”, Margaret Atwood tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ246#1
+  - mevcut: `“Günden Kalanlar”, Kazuo Ishiguro tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ246#7
+  - mevcut: `“Water Music”, George Frideric Handel tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ247#4
+  - mevcut: `“Karlar Ülkesi”, Yasunari Kawabata tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ247#7
+  - mevcut: `“Messiah”, George Frideric Handel tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ248#1
+  - mevcut: `“Benim Adım Kırmızı”, Orhan Pamuk tarafından yazılmıştır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ248#5
+  - mevcut: `Olympus Mons, Mars’ta bulunan dev bir kalkan yanardağıdır.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ248#6
+  - mevcut: `“Bahar Ayini (The Rite of Spring)”, Igor Stravinsky tarafından bestelenmiş bir eserdir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ248#8
+  - mevcut: `Matterhorn, İsviçre ile İtalya sınırındaki Alpler’de yükselir.`
+- answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ249#6
+  - mevcut: `“Saatleri Ayarlama Enstitüsü”, Ahmet Hamdi Tanpınar tarafından yazılmıştır.`
+- … ve 8 bulgu daha (tam liste: `quizsel-health-findings.json`)
 
 ## DUP_FUZZY — 37 bulgu (hard)
 
@@ -339,34 +339,24 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - Birebir aynı stem: YQ095#2 ↔ YQ228#8
   - stem: Ümit Burnu hangi ülkededir?
 
-## SEMANTIC_ANCHOR_DUP — 26 bulgu (hard)
+## SEMANTIC_ANCHOR_DUP — 16 bulgu (hard)
 
 - Aynı subject+answer: YQ141-Q04 ↔ YQ239-Q03 — "Fallingwater" → "Frank Lloyd Wright" (askedProperty: YQ141-Q04="architect", YQ239-Q03="tasarımıyla ilişkili mimar")
 - Aynı subject+answer: YQ145-Q04 ↔ YQ233-Q03 — "Things Fall Apart" → "Chinua Achebe" (askedProperty: YQ145-Q04="author", YQ233-Q03="yazarı")
-- Aynı subject+answer: YQ147-Q05 ↔ YQ224-Q01 — "American Gothic" → "Grant Wood" (askedProperty: YQ147-Q05="artist", YQ224-Q01="sanatçısı")
 - Aynı subject+answer: YQ148-Q05 ↔ YQ189-Q04 — "The Beatles" → "Liverpool" (askedProperty: YQ148-Q05="origin city", YQ189-Q04="şehir")
 - Aynı subject+answer: YQ148-Q08 ↔ YQ175-Q01 — "Tahini" → "Susam" (askedProperty: YQ148-Q08="base ingredient", YQ175-Q01="temel malzeme")
 - Aynı subject+answer: YQ150-Q03 ↔ YQ239-Q01 — "Serengeti" → "Tanzanya" (askedProperty: YQ150-Q03="main country", YQ239-Q01="başlıca bulunduğu ülke")
 - Aynı subject+answer: YQ150-Q04 ↔ YQ249-Q06 — "Saatleri Ayarlama Enstitüsü" → "Ahmet Hamdi Tanpınar" (askedProperty: YQ150-Q04="author", YQ249-Q06="yazarı")
 - Aynı subject+answer: YQ152-Q06 ↔ YQ234-Q03 — "Carmen" → "Georges Bizet" (askedProperty: YQ152-Q06="composer", YQ234-Q03="bestecisi")
-- Aynı subject+answer: YQ153-Q05 ↔ YQ227-Q07 — "Yaşlı Adam ve Deniz" → "Ernest Hemingway" (askedProperty: YQ153-Q05="yazar", YQ227-Q07="yazarı")
 - Aynı subject+answer: YQ158-Q05 ↔ YQ250-Q02 — "Kürk Mantolu Madonna" → "Sabahattin Ali" (askedProperty: YQ158-Q05="yazar", YQ250-Q02="yazarı")
 - Aynı subject+answer: YQ163-Q06 ↔ YQ230-Q06 — "Ay Işığı Sonatı" → "Ludwig van Beethoven" (askedProperty: YQ163-Q06="besteci", YQ230-Q06="bestecisi")
 - Aynı subject+answer: YQ163-Q07 ↔ YQ232-Q02 — "Gece Devriyesi" → "Rembrandt" (askedProperty: YQ163-Q07="ressam", YQ232-Q02="sanatçısı")
-- Aynı subject+answer: YQ164-Q08 ↔ YQ224-Q09 — "Boléro" → "Maurice Ravel" (askedProperty: YQ164-Q08="besteci", YQ224-Q09="bestecisi")
-- Aynı subject+answer: YQ165-Q01 ↔ YQ223-Q09 — "Elektrik direnci" → "Ohm" (askedProperty: YQ165-Q01="birim", YQ223-Q09="SI birimi")
-- Aynı subject+answer: YQ171-Q05 ↔ YQ227-Q05 — "Las Meninas" → "Diego Velázquez" (askedProperty: YQ171-Q05="ressam", YQ227-Q05="sanatçısı")
-- Aynı subject+answer: YQ172-Q07 ↔ YQ223-Q06 — "Öpücük (The Kiss)" → "Gustav Klimt" (askedProperty: YQ172-Q07="ressam", YQ223-Q06="sanatçısı")
 - Aynı subject+answer: YQ180-Q05 ↔ YQ240-Q08 — "Sagrada Família" → "Antoni Gaudí" (askedProperty: YQ180-Q05="mimar", YQ240-Q08="tasarımıyla ilişkili mimar")
 - Aynı subject+answer: YQ191-Q08 ↔ YQ246-Q02 — "Iguazú Şelaleleri" → "Arjantin ve Brezilya" (askedProperty: YQ191-Q08="ülkeler", YQ246-Q02="sınırındaki ülkeler")
-- Aynı subject+answer: YQ192-Q04 ↔ YQ225-Q10 — "Carmina Burana" → "Carl Orff" (askedProperty: YQ192-Q04="besteci", YQ225-Q10="bestecisi")
-- Aynı subject+answer: YQ192-Q05 ↔ YQ225-Q03 — "Nighthawks" → "Edward Hopper" (askedProperty: YQ192-Q05="ressam", YQ225-Q03="sanatçısı")
 - Aynı subject+answer: YQ195-Q04 ↔ YQ230-Q01 — "Madame Bovary" → "Gustave Flaubert" (askedProperty: YQ195-Q04="yazar", YQ230-Q01="yazarı")
-- Aynı subject+answer: YQ201-Q07 ↔ YQ223-Q03 — "Magna Carta" → "İngiltere" (askedProperty: YQ201-Q07="ülke", YQ223-Q03="ilk yayımlandığı ülke")
 - Aynı subject+answer: YQ210-Q03 ↔ YQ236-Q06 — "Rhapsody in Blue" → "George Gershwin" (askedProperty: YQ210-Q03="besteci", YQ236-Q06="bestecisi")
 - Aynı subject+answer: YQ210-Q07 ↔ YQ238-Q03 — "Gobi Çölü" → "Moğolistan ve Çin" (askedProperty: YQ210-Q07="ülkeler", YQ238-Q03="yayıldığı ülkeler")
 - Aynı subject+answer: YQ212-Q06 ↔ YQ238-Q09 — "Clair de Lune" → "Claude Debussy" (askedProperty: YQ212-Q06="besteci", YQ238-Q09="bestecisi")
-- Aynı subject+answer: YQ213-Q04 ↔ YQ226-Q04 — "Peer Gynt" → "Edvard Grieg" (askedProperty: YQ213-Q04="besteci", YQ226-Q04="bestecisi")
 
 ## OPTION_LENGTH_RATIO — 7 bulgu (hard)
 
@@ -389,7 +379,7 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - YQ014: C şıkkı 6 kez doğru, üst sınır 5 (dağılım 1/3/6/0)
 - YQ031: D şıkkı 6 kez doğru, üst sınır 5 (dağılım 1/1/2/6)
 
-## SOURCE_REVIEW_NEEDED — 192 bulgu (review)
+## SOURCE_REVIEW_NEEDED — 193 bulgu (review)
 
 - Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ001#4
 - Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: QZ002#1
@@ -451,9 +441,9 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ088#1
 - Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ090#3
 - Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ092#6
-- … ve 132 bulgu daha (tam liste: `quizsel-health-findings.json`)
+- … ve 133 bulgu daha (tam liste: `quizsel-health-findings.json`)
 
-## DUP_SEMANTIC_SUSPECT — 176 bulgu (review)
+## DUP_SEMANTIC_SUSPECT — 169 bulgu (review)
 
 - Aynı doğru cevap + stem örtüşmesi 0.83: YQ140#1 ↔ YQ227#2 (cevap: Sumatra)
   - A: Malakka Boğazı, Malay Yarımadası ile hangi büyük Endonezya adası arasında uzanır?
@@ -554,12 +544,6 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - Aynı doğru cevap + stem örtüşmesi 0.70: YQ057#7 ↔ YQ248#6 (cevap: Igor Stravinsky)
   - A: Bahar Ayini (The Rite of Spring) adlı bale müziğinin bestecisi kimdir?
   - B: “Bahar Ayini (The Rite of Spring)” eserinin bestecisi kimdir?
-- Aynı doğru cevap + stem örtüşmesi 0.70: QZ001#8 ↔ YQ223#9 (cevap: Ohm)
-  - A: Elektrik direncinin SI birimi hangisidir?
-  - B: Elektrik direncinin SI birimi nedir?
-- Aynı doğru cevap + stem örtüşmesi 0.70: YQ165#1 ↔ YQ223#9 (cevap: Ohm)
-  - A: Elektrik direncinin SI birimi hangisidir?
-  - B: Elektrik direncinin SI birimi nedir?
 - Aynı doğru cevap + stem örtüşmesi 0.69: YQ002#6 ↔ YQ232#10 (cevap: Antoine de Saint-Exupéry)
   - A: Küçük Prens (Le Petit Prince) adlı eserin yazarı kimdir?
   - B: “Küçük Prens” adlı eserin yazarı kimdir?
@@ -635,7 +619,13 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - Aynı doğru cevap + stem örtüşmesi 0.63: YQ101#5 ↔ YQ123#1 (cevap: İzmir)
   - A: Efes Antik Kenti günümüzde hangi ilimizin sınırları içindedir?
   - B: Bergama Antik Kenti hangi ilimizin sınırları içindedir?
-- … ve 116 bulgu daha (tam liste: `quizsel-health-findings.json`)
+- Aynı doğru cevap + stem örtüşmesi 0.63: YQ157#8 ↔ YQ212#4 (cevap: 14)
+  - A: Geleneksel bir sone genellikle kaç dizeden oluşur?
+  - B: Klasik sone genellikle kaç dizeden oluşur?
+- Aynı doğru cevap + stem örtüşmesi 0.63: YQ180#9 ↔ YQ222#3 (cevap: Japonya)
+  - A: Tempura günümüzde hangi ülkenin mutfağıyla özdeşleşmiştir?
+  - B: Ramen hangi ülkenin mutfağıyla özdeşleşmiştir?
+- … ve 109 bulgu daha (tam liste: `quizsel-health-findings.json`)
 
 ## PRECISION_NUMERIC — 127 bulgu (review)
 
@@ -829,24 +819,8 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 - YQ211: 6/10 soruda doğru şık benzersiz en uzun seçenek
 - … ve 9 bulgu daha (tam liste: `quizsel-health-findings.json`)
 
-## ANSWERINFO_WEAK — 59 bulgu (review)
+## ANSWERINFO_WEAK — 51 bulgu (review)
 
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#6
-  - mevcut: `“Öpücük (The Kiss)” adlı görsel sanat eseri Gustav Klimt tarafından yaratılmıştır.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#9
-  - mevcut: `Ohm (Ω), SI sisteminde elektrik direncinin türetilmiş birimidir.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ224#1
-  - mevcut: `“American Gothic” adlı görsel sanat eseri Grant Wood tarafından yaratılmıştır.`
-- answerInfo zayıf, 5 yeni bilgi kelimesi: YQ224#7
-  - mevcut: `URL, internetteki bir kaynağın konumunu/adresini belirtmek için kullanılan standart gösterimdir.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ225#3
-  - mevcut: `“Nighthawks” adlı görsel sanat eseri Edward Hopper tarafından yaratılmıştır.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ226#7
-  - mevcut: `“İnsanoğlu (The Son of Man)” adlı görsel sanat eseri René Magritte tarafından yaratılmıştır.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#2
-  - mevcut: `Malakka Boğazı, Malay Yarımadası ile Endonezya’nın Sumatra Adası arasında uzanır.`
-- answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#5
-  - mevcut: `“Las Meninas” adlı görsel sanat eseri Diego Velázquez tarafından yaratılmıştır.`
 - answerInfo zayıf, 3 yeni bilgi kelimesi: YQ228#1
   - mevcut: `“Venüs'ün Doğuşu” adlı görsel sanat eseri Sandro Botticelli tarafından yaratılmıştır.`
 - answerInfo zayıf, 3 yeni bilgi kelimesi: YQ229#10
@@ -966,11 +940,11 @@ editoryal review gerektirir ve burada yalnızca aday olarak işaretlenir.
 
 ## SEMANTIC_PROPERTY_VARIANTS — 3 bulgu (review)
 
-- askedProperty tek bir özellik için 2 farklı yazımda: "yazarı" x30, "yazar" x17 — signature bölünüyor, duplicate kapısı bu fact için kör
+- askedProperty tek bir özellik için 2 farklı yazımda: "yazarı" x29, "yazar" x17 — signature bölünüyor, duplicate kapısı bu fact için kör
   - stem: yazar
 - askedProperty tek bir özellik için 2 farklı yazımda: "temel görev" x2, "temel görevi" x1 — signature bölünüyor, duplicate kapısı bu fact için kör
   - stem: temel gorev
-- askedProperty tek bir özellik için 2 farklı yazımda: "tanım" x33, "tanımı" x30 — signature bölünüyor, duplicate kapısı bu fact için kör
+- askedProperty tek bir özellik için 2 farklı yazımda: "tanımı" x35, "tanım" x33 — signature bölünüyor, duplicate kapısı bu fact için kör
   - stem: tanim
 
 ## SEMANTIC_UNINDEXED — 1 bulgu (review)

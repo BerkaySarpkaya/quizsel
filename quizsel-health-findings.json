@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-04T21:32:25.053Z",
+  "generated": "2026-09-04T22:10:45.080Z",
   "totals": {
     "quizzes": 260,
     "questions": 2600,
-    "hard": 190,
-    "review": 715
+    "hard": 166,
+    "review": 701
   },
   "findings": [
     {
@@ -1036,26 +1036,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|QZ001#8|YQ223#9",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.70: QZ001#8 ↔ YQ223#9 (cevap: Ohm)",
-      "sim": 0.698,
-      "a": "Elektrik direncinin SI birimi hangisidir?",
-      "b": "Elektrik direncinin SI birimi nedir?",
-      "answer": "Ohm"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ165#1|YQ223#9",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.70: YQ165#1 ↔ YQ223#9 (cevap: Ohm)",
-      "sim": 0.698,
-      "a": "Elektrik direncinin SI birimi hangisidir?",
-      "b": "Elektrik direncinin SI birimi nedir?",
-      "answer": "Ohm"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ002#6|YQ232#10",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.69: YQ002#6 ↔ YQ232#10 (cevap: Antoine de Saint-Exupéry)",
       "sim": 0.692,
@@ -1362,26 +1342,6 @@
       "a": "Frekansın SI birimi hangisidir?",
       "b": "Frekansın SI birimi nedir?",
       "answer": "Hertz"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ004#4|YQ224#9",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ004#4 ↔ YQ224#9 (cevap: Maurice Ravel)",
-      "sim": 0.617,
-      "a": "Boléro adlı orkestral eserin bestecisi kimdir?",
-      "b": "“Boléro” eserinin bestecisi kimdir?",
-      "answer": "Maurice Ravel"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ164#8|YQ224#9",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ164#8 ↔ YQ224#9 (cevap: Maurice Ravel)",
-      "sim": 0.617,
-      "a": "Boléro adlı orkestral eserin bestecisi kimdir?",
-      "b": "“Boléro” eserinin bestecisi kimdir?",
-      "answer": "Maurice Ravel"
     },
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
@@ -1866,16 +1826,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ196#2|YQ227#7",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.52: YQ196#2 ↔ YQ227#7 (cevap: Ernest Hemingway)",
-      "sim": 0.52,
-      "a": "Yaşlı Adam ve Deniz’in yazarı kimdir?",
-      "b": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
-      "answer": "Ernest Hemingway"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ027#7|YQ233#10",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.52: YQ027#7 ↔ YQ233#10 (cevap: Jean Sibelius)",
       "sim": 0.519,
@@ -2346,16 +2296,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ153#5|YQ227#7",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.46: YQ153#5 ↔ YQ227#7 (cevap: Ernest Hemingway)",
-      "sim": 0.464,
-      "a": "Yaşlı Adam ve Deniz romanının yazarı kimdir?",
-      "b": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
-      "answer": "Ernest Hemingway"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ027#9|YQ146#6",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.46: YQ027#9 ↔ YQ146#6 (cevap: Endülüs)",
       "sim": 0.463,
@@ -2452,220 +2392,6 @@
       "a": "1989'daki Kadife Devrim hangi ülkede komünist yönetimin sona ermesine giden süreci hızlandırdı?",
       "b": "Kadife Devrim hangi ülkede komünist yönetimin barışçıl biçimde sona ermesiyle ilişkilidir?",
       "answer": "Çekoslovakya"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ197#3|YQ223#6",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.45: YQ197#3 ↔ YQ223#6 (cevap: Gustav Klimt)",
-      "sim": 0.452,
-      "a": "Öpücük (The Kiss) tablosuyla tanınan sanatçı kimdir?",
-      "b": "“Öpücük (The Kiss)” adlı eserin sanatçısı kimdir?",
-      "answer": "Gustav Klimt"
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ223#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#2",
-      "answerInfo": "“Dava”, Franz Kafka tarafından yazılmıştır.",
-      "question": "“Dava” adlı eserin yazarı kimdir?",
-      "answer": "Franz Kafka",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ223#4",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ223#4",
-      "answerInfo": "Salar de Uyuni adlı büyük tuz düzlüğü, Bolivya sınırları içinde yer alır.",
-      "question": "Salar de Uyuni adlı büyük tuz düzlüğü hangi ülkededir?",
-      "answer": "Bolivya",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ223#6",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#6",
-      "answerInfo": "“Öpücük (The Kiss)” adlı görsel sanat eseri Gustav Klimt tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ223#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ223#8",
-      "answerInfo": "“Dört Mevsim”, Antonio Vivaldi tarafından bestelenmiş bir eserdir.",
-      "question": "“Dört Mevsim” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Antonio Vivaldi",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ223#9",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ223#9",
-      "answerInfo": "Ohm (Ω), SI sisteminde elektrik direncinin türetilmiş birimidir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ224#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ224#1",
-      "answerInfo": "“American Gothic” adlı görsel sanat eseri Grant Wood tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ224#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ224#2",
-      "answerInfo": "Okavango Deltası, Botsvana sınırları içinde yer alır.",
-      "question": "Okavango Deltası hangi ülkede yer alır?",
-      "answer": "Botsvana",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ224#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#3",
-      "answerInfo": "“Yabancı”, Albert Camus tarafından yazılmıştır.",
-      "question": "“Yabancı” hangi yazarın eseridir?",
-      "answer": "Albert Camus",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ224#7",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ224#7",
-      "answerInfo": "URL, internetteki bir kaynağın konumunu/adresini belirtmek için kullanılan standart gösterimdir.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ224#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ224#9",
-      "answerInfo": "“Boléro”, Maurice Ravel tarafından bestelenmiş bir eserdir.",
-      "question": "“Boléro” eserinin bestecisi kimdir?",
-      "answer": "Maurice Ravel",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ225#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#1",
-      "answerInfo": "“Yüzyıllık Yalnızlık”, Gabriel García Márquez tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Yüzyıllık Yalnızlık” eserini kaleme almıştır?",
-      "answer": "Gabriel García Márquez",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ225#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ225#3",
-      "answerInfo": "“Nighthawks” adlı görsel sanat eseri Edward Hopper tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ225#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ225#7",
-      "answerInfo": "Atacama Çölü'nün büyük bölümü, Şili sınırları içinde yer alır.",
-      "question": "Atacama Çölü'nün büyük bölümü hangi ülkededir?",
-      "answer": "Şili",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ225#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ225#10",
-      "answerInfo": "“Carmina Burana”, Carl Orff tarafından bestelenmiş bir eserdir.",
-      "question": "“Carmina Burana” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Carl Orff",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ226#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#1",
-      "answerInfo": "“Gülün Adı”, Umberto Eco tarafından yazılmıştır.",
-      "question": "“Gülün Adı” adlı eserin yazarı kimdir?",
-      "answer": "Umberto Eco",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ226#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 1 yeni bilgi kelimesi: YQ226#3",
-      "answerInfo": "Ohri Gölü, Arnavutluk ile Kuzey Makedonya arasında paylaşılır.",
-      "question": "Ohri Gölü hangi iki ülke arasında yer alır?",
-      "answer": "Arnavutluk ve Kuzey Makedonya",
-      "novelTokens": 1
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ226#4",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ226#4",
-      "answerInfo": "“Peer Gynt”, Edvard Grieg tarafından bestelenmiş bir eserdir.",
-      "question": "“Peer Gynt” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Edvard Grieg",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ226#7",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ226#7",
-      "answerInfo": "“İnsanoğlu (The Son of Man)” adlı görsel sanat eseri René Magritte tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ227#2",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#2",
-      "answerInfo": "Malakka Boğazı, Malay Yarımadası ile Endonezya’nın Sumatra Adası arasında uzanır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ227#5",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ227#5",
-      "answerInfo": "“Las Meninas” adlı görsel sanat eseri Diego Velázquez tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ227#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#7",
-      "answerInfo": "“Yaşlı Adam ve Deniz”, Ernest Hemingway tarafından yazılmıştır.",
-      "question": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
-      "answer": "Ernest Hemingway",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ227#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ227#8",
-      "answerInfo": "“Gezegenler (The Planets)”, Gustav Holst tarafından bestelenmiş bir eserdir.",
-      "question": "“Gezegenler (The Planets)” eserinin bestecisi kimdir?",
-      "answer": "Gustav Holst",
-      "novelTokens": 0
     },
     {
       "gate": "ANSWERINFO_WEAK",
@@ -5124,11 +4850,11 @@
       "gate": "SEMANTIC_PROPERTY_VARIANTS",
       "severity": "review",
       "fingerprint": "PROP_VAR|yazar",
-      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"yazarı\" x30, \"yazar\" x17 — signature bölünüyor, duplicate kapısı bu fact için kör",
+      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"yazarı\" x29, \"yazar\" x17 — signature bölünüyor, duplicate kapısı bu fact için kör",
       "stem": "yazar",
       "variants": {
         "yazar": 17,
-        "yazarı": 30
+        "yazarı": 29
       }
     },
     {
@@ -5146,11 +4872,11 @@
       "gate": "SEMANTIC_PROPERTY_VARIANTS",
       "severity": "review",
       "fingerprint": "PROP_VAR|tanim",
-      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"tanım\" x33, \"tanımı\" x30 — signature bölünüyor, duplicate kapısı bu fact için kör",
+      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"tanımı\" x35, \"tanım\" x33 — signature bölünüyor, duplicate kapısı bu fact için kör",
       "stem": "tanim",
       "variants": {
         "tanım": 33,
-        "tanımı": 30
+        "tanımı": 35
       }
     },
     {
@@ -5175,18 +4901,6 @@
       "ids": [
         "YQ145-Q04",
         "YQ233-Q03"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ147-Q05,YQ224-Q01",
-      "message": "Aynı subject+answer: YQ147-Q05 ↔ YQ224-Q01 — \"American Gothic\" → \"Grant Wood\" (askedProperty: YQ147-Q05=\"artist\", YQ224-Q01=\"sanatçısı\")",
-      "subject": "American Gothic",
-      "answer": "Grant Wood",
-      "ids": [
-        "YQ147-Q05",
-        "YQ224-Q01"
       ]
     },
     {
@@ -5252,18 +4966,6 @@
     {
       "gate": "SEMANTIC_ANCHOR_DUP",
       "severity": "hard",
-      "fingerprint": "ANCHOR|YQ153-Q05,YQ227-Q07",
-      "message": "Aynı subject+answer: YQ153-Q05 ↔ YQ227-Q07 — \"Yaşlı Adam ve Deniz\" → \"Ernest Hemingway\" (askedProperty: YQ153-Q05=\"yazar\", YQ227-Q07=\"yazarı\")",
-      "subject": "Yaşlı Adam ve Deniz",
-      "answer": "Ernest Hemingway",
-      "ids": [
-        "YQ153-Q05",
-        "YQ227-Q07"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
       "fingerprint": "ANCHOR|YQ158-Q05,YQ250-Q02",
       "message": "Aynı subject+answer: YQ158-Q05 ↔ YQ250-Q02 — \"Kürk Mantolu Madonna\" → \"Sabahattin Ali\" (askedProperty: YQ158-Q05=\"yazar\", YQ250-Q02=\"yazarı\")",
       "subject": "Kürk Mantolu Madonna",
@@ -5300,54 +5002,6 @@
     {
       "gate": "SEMANTIC_ANCHOR_DUP",
       "severity": "hard",
-      "fingerprint": "ANCHOR|YQ164-Q08,YQ224-Q09",
-      "message": "Aynı subject+answer: YQ164-Q08 ↔ YQ224-Q09 — \"Boléro\" → \"Maurice Ravel\" (askedProperty: YQ164-Q08=\"besteci\", YQ224-Q09=\"bestecisi\")",
-      "subject": "Boléro",
-      "answer": "Maurice Ravel",
-      "ids": [
-        "YQ164-Q08",
-        "YQ224-Q09"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ165-Q01,YQ223-Q09",
-      "message": "Aynı subject+answer: YQ165-Q01 ↔ YQ223-Q09 — \"Elektrik direnci\" → \"Ohm\" (askedProperty: YQ165-Q01=\"birim\", YQ223-Q09=\"SI birimi\")",
-      "subject": "Elektrik direnci",
-      "answer": "Ohm",
-      "ids": [
-        "YQ165-Q01",
-        "YQ223-Q09"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ171-Q05,YQ227-Q05",
-      "message": "Aynı subject+answer: YQ171-Q05 ↔ YQ227-Q05 — \"Las Meninas\" → \"Diego Velázquez\" (askedProperty: YQ171-Q05=\"ressam\", YQ227-Q05=\"sanatçısı\")",
-      "subject": "Las Meninas",
-      "answer": "Diego Velázquez",
-      "ids": [
-        "YQ171-Q05",
-        "YQ227-Q05"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ172-Q07,YQ223-Q06",
-      "message": "Aynı subject+answer: YQ172-Q07 ↔ YQ223-Q06 — \"Öpücük (The Kiss)\" → \"Gustav Klimt\" (askedProperty: YQ172-Q07=\"ressam\", YQ223-Q06=\"sanatçısı\")",
-      "subject": "Öpücük (The Kiss)",
-      "answer": "Gustav Klimt",
-      "ids": [
-        "YQ172-Q07",
-        "YQ223-Q06"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
       "fingerprint": "ANCHOR|YQ180-Q05,YQ240-Q08",
       "message": "Aynı subject+answer: YQ180-Q05 ↔ YQ240-Q08 — \"Sagrada Família\" → \"Antoni Gaudí\" (askedProperty: YQ180-Q05=\"mimar\", YQ240-Q08=\"tasarımıyla ilişkili mimar\")",
       "subject": "Sagrada Família",
@@ -5372,30 +5026,6 @@
     {
       "gate": "SEMANTIC_ANCHOR_DUP",
       "severity": "hard",
-      "fingerprint": "ANCHOR|YQ192-Q04,YQ225-Q10",
-      "message": "Aynı subject+answer: YQ192-Q04 ↔ YQ225-Q10 — \"Carmina Burana\" → \"Carl Orff\" (askedProperty: YQ192-Q04=\"besteci\", YQ225-Q10=\"bestecisi\")",
-      "subject": "Carmina Burana",
-      "answer": "Carl Orff",
-      "ids": [
-        "YQ192-Q04",
-        "YQ225-Q10"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ192-Q05,YQ225-Q03",
-      "message": "Aynı subject+answer: YQ192-Q05 ↔ YQ225-Q03 — \"Nighthawks\" → \"Edward Hopper\" (askedProperty: YQ192-Q05=\"ressam\", YQ225-Q03=\"sanatçısı\")",
-      "subject": "Nighthawks",
-      "answer": "Edward Hopper",
-      "ids": [
-        "YQ192-Q05",
-        "YQ225-Q03"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
       "fingerprint": "ANCHOR|YQ195-Q04,YQ230-Q01",
       "message": "Aynı subject+answer: YQ195-Q04 ↔ YQ230-Q01 — \"Madame Bovary\" → \"Gustave Flaubert\" (askedProperty: YQ195-Q04=\"yazar\", YQ230-Q01=\"yazarı\")",
       "subject": "Madame Bovary",
@@ -5403,18 +5033,6 @@
       "ids": [
         "YQ195-Q04",
         "YQ230-Q01"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ201-Q07,YQ223-Q03",
-      "message": "Aynı subject+answer: YQ201-Q07 ↔ YQ223-Q03 — \"Magna Carta\" → \"İngiltere\" (askedProperty: YQ201-Q07=\"ülke\", YQ223-Q03=\"ilk yayımlandığı ülke\")",
-      "subject": "Magna Carta",
-      "answer": "İngiltere",
-      "ids": [
-        "YQ201-Q07",
-        "YQ223-Q03"
       ]
     },
     {
@@ -5451,18 +5069,6 @@
       "ids": [
         "YQ212-Q06",
         "YQ238-Q09"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ213-Q04,YQ226-Q04",
-      "message": "Aynı subject+answer: YQ213-Q04 ↔ YQ226-Q04 — \"Peer Gynt\" → \"Edvard Grieg\" (askedProperty: YQ213-Q04=\"besteci\", YQ226-Q04=\"bestecisi\")",
-      "subject": "Peer Gynt",
-      "answer": "Edvard Grieg",
-      "ids": [
-        "YQ213-Q04",
-        "YQ226-Q04"
       ]
     },
     {
@@ -8312,6 +7918,13 @@
       "fingerprint": "SRC|YQ224#8",
       "message": "Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ224#8",
       "question": "“love” ifadesi en çok hangi sporla ilişkilidir?"
+    },
+    {
+      "gate": "SOURCE_REVIEW_NEEDED",
+      "severity": "review",
+      "fingerprint": "SRC|YQ225#10",
+      "message": "Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ225#10",
+      "question": "Bir senfoni orkestrasında müzisyen sayısı bakımından en kalabalık çalgı grubu hangisidir?"
     },
     {
       "gate": "SOURCE_REVIEW_NEEDED",

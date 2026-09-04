@@ -53,23 +53,23 @@
       "id": "YQ223-Q03",
       "quizCode": "YQ223",
       "questionId": 3,
-      "stem": "Magna Carta ilk olarak hangi ülkede yayımlandı?",
-      "correctAnswer": "İngiltere",
+      "stem": "Lale Devri olarak anılan dönem hangi Osmanlı padişahının saltanatında yaşanmıştır?",
+      "correctAnswer": "III. Ahmed",
       "category": "Tarih",
-      "topicFamily": "Orta Çağ",
-      "scope": "Dünya",
-      "subject": "Magna Carta",
-      "askedProperty": "ilk yayımlandığı ülke",
-      "factCluster": "Magna Carta|ilk yayımlandığı ülke|İngiltere",
-      "questionForm": "direct_identification",
-      "precisionRequired": "P0",
+      "topicFamily": "Yeni Çağ",
+      "scope": "Türkiye",
+      "subject": "Lale Devri",
+      "askedProperty": "dönemin padişahı",
+      "factCluster": "Lale Devri|padişah|III. Ahmed",
+      "questionForm": "relationship",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Magna Carta",
-        "İngiltere",
-        "ilk yayımlandığı ülke"
+        "Lale Devri",
+        "III. Ahmed",
+        "Osmanlı 18. yüzyıl"
       ],
       "status": "live",
-      "semanticSignature": "magna carta|ilk yayımlandıgı ulke|ingiltere"
+      "semanticSignature": "lale devri|donemin padisahı|ııı ahmed"
     },
     "YQ223-Q04": {
       "id": "YQ223-Q04",
@@ -119,23 +119,23 @@
       "id": "YQ223-Q06",
       "quizCode": "YQ223",
       "questionId": 6,
-      "stem": "“Öpücük (The Kiss)” adlı eserin sanatçısı kimdir?",
-      "correctAnswer": "Gustav Klimt",
+      "stem": "Ortaçağ katedrallerinde pencereleri kaplayan, kurşun çubuklarla birleştirilmiş renkli cam panolara ne ad verilir?",
+      "correctAnswer": "Vitray",
       "category": "Görsel Sanatlar & Mimari",
-      "topicFamily": "Resim",
+      "topicFamily": "Mimari",
       "scope": "Dünya",
-      "subject": "Öpücük (The Kiss)",
-      "askedProperty": "sanatçısı",
-      "factCluster": "Öpücük (The Kiss)|sanatçısı|Gustav Klimt",
-      "questionForm": "relationship",
+      "subject": "Vitray",
+      "askedProperty": "tanımı",
+      "factCluster": "Vitray|tanım|renkli cam pano",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Öpücük (The Kiss)",
-        "Gustav Klimt",
-        "sanatçısı"
+        "vitray",
+        "renkli cam",
+        "gotik katedral"
       ],
       "status": "live",
-      "semanticSignature": "opucuk the kiss|sanatcısı|gustav klimt"
+      "semanticSignature": "vitray|tanımı|vitray"
     },
     "YQ223-Q07": {
       "id": "YQ223-Q07",
@@ -185,23 +185,23 @@
       "id": "YQ223-Q09",
       "quizCode": "YQ223",
       "questionId": 9,
-      "stem": "Elektrik direncinin SI birimi nedir?",
-      "correctAnswer": "Ohm",
+      "stem": "Deniz seviyesinden yükseldikçe suyun kaynama sıcaklığı nasıl değişir?",
+      "correctAnswer": "Düşer, çünkü hava basıncı azalır",
       "category": "Bilim & Doğa",
       "topicFamily": "Fizik",
       "scope": "Dünya",
-      "subject": "Elektrik direnci",
-      "askedProperty": "SI birimi",
-      "factCluster": "Elektrik direnci|SI birimi|Ohm",
-      "questionForm": "direct_identification",
+      "subject": "Suyun kaynama sıcaklığı",
+      "askedProperty": "yükseklikle değişimi",
+      "factCluster": "kaynama sıcaklığı|yükseklik|düşer",
+      "questionForm": "cause_effect",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Elektrik direnci",
-        "Ohm",
-        "SI birimi"
+        "kaynama sıcaklığı",
+        "hava basıncı",
+        "rakım"
       ],
       "status": "live",
-      "semanticSignature": "elektrik direnci|sı birimi|ohm"
+      "semanticSignature": "suyun kaynama sıcaklıgı|yukseklikle degisimi|duser cunku hava basıncı azalır"
     },
     "YQ223-Q10": {
       "id": "YQ223-Q10",
@@ -229,23 +229,23 @@
       "id": "YQ224-Q01",
       "quizCode": "YQ224",
       "questionId": 1,
-      "stem": "“American Gothic” eseri hangi sanatçıya aittir?",
-      "correctAnswer": "Grant Wood",
+      "stem": "Sanat tarihinde “natürmort” terimi hangi tür konuyu betimleyen resimler için kullanılır?",
+      "correctAnswer": "Meyve, çiçek gibi cansız nesne düzenlemeleri",
       "category": "Görsel Sanatlar & Mimari",
       "topicFamily": "Resim",
       "scope": "Dünya",
-      "subject": "American Gothic",
-      "askedProperty": "sanatçısı",
-      "factCluster": "American Gothic|sanatçısı|Grant Wood",
-      "questionForm": "relationship",
+      "subject": "Natürmort",
+      "askedProperty": "tanımı",
+      "factCluster": "Natürmort|tanım|cansız nesne resmi",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "American Gothic",
-        "Grant Wood",
-        "sanatçısı"
+        "natürmort",
+        "cansız nesne",
+        "vanitas"
       ],
       "status": "live",
-      "semanticSignature": "american gothic|sanatcısı|grant wood"
+      "semanticSignature": "naturmort|tanımı|meyve cicek gibi cansız nesne duzenlemeleri"
     },
     "YQ224-Q02": {
       "id": "YQ224-Q02",
@@ -405,23 +405,23 @@
       "id": "YQ224-Q09",
       "quizCode": "YQ224",
       "questionId": 9,
-      "stem": "“Boléro” eserinin bestecisi kimdir?",
-      "correctAnswer": "Maurice Ravel",
+      "stem": "Piyanoda bir tuşa basıldığında sesi üreten mekanizma nedir?",
+      "correctAnswer": "Tellere vuran çekiçler",
       "category": "Müzik",
-      "topicFamily": "Klasik Müzik",
+      "topicFamily": "Enstrümanlar",
       "scope": "Dünya",
-      "subject": "Boléro",
-      "askedProperty": "bestecisi",
-      "factCluster": "Boléro|bestecisi|Maurice Ravel",
-      "questionForm": "relationship",
+      "subject": "Piyano",
+      "askedProperty": "ses üretim mekanizması",
+      "factCluster": "Piyano|ses üretimi|çekiç",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Boléro",
-        "Maurice Ravel",
-        "bestecisi"
+        "piyano",
+        "çekiç",
+        "Cristofori"
       ],
       "status": "live",
-      "semanticSignature": "bolero|bestecisi|maurice ravel"
+      "semanticSignature": "piyano|ses uretim mekanizması|tellere vuran cekicler"
     },
     "YQ224-Q10": {
       "id": "YQ224-Q10",
@@ -493,23 +493,23 @@
       "id": "YQ225-Q03",
       "quizCode": "YQ225",
       "questionId": 3,
-      "stem": "Aşağıdaki sanatçılardan hangisi “Nighthawks” eserini yaratmıştır?",
-      "correctAnswer": "Edward Hopper",
+      "stem": "Yağlı boya tekniğinde pigmentleri bağlayan geleneksel malzeme hangisidir?",
+      "correctAnswer": "Bezir yağı",
       "category": "Görsel Sanatlar & Mimari",
       "topicFamily": "Resim",
       "scope": "Dünya",
-      "subject": "Nighthawks",
-      "askedProperty": "sanatçısı",
-      "factCluster": "Nighthawks|sanatçısı|Edward Hopper",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Yağlı boya",
+      "askedProperty": "bağlayıcı malzemesi",
+      "factCluster": "Yağlı boya|bağlayıcı|bezir yağı",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Nighthawks",
-        "Edward Hopper",
-        "sanatçısı"
+        "yağlı boya",
+        "bezir yağı",
+        "bağlayıcı"
       ],
       "status": "live",
-      "semanticSignature": "nighthawks|sanatcısı|edward hopper"
+      "semanticSignature": "yaglı boya|baglayıcı malzemesi|bezir yagı"
     },
     "YQ225-Q04": {
       "id": "YQ225-Q04",
@@ -647,23 +647,23 @@
       "id": "YQ225-Q10",
       "quizCode": "YQ225",
       "questionId": 10,
-      "stem": "“Carmina Burana” aşağıdaki bestecilerden hangisinin eseridir?",
-      "correctAnswer": "Carl Orff",
+      "stem": "Bir senfoni orkestrasında müzisyen sayısı bakımından en kalabalık çalgı grubu hangisidir?",
+      "correctAnswer": "Yaylı çalgılar",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Carmina Burana",
-      "askedProperty": "bestecisi",
-      "factCluster": "Carmina Burana|bestecisi|Carl Orff",
-      "questionForm": "relationship",
+      "subject": "Senfoni orkestrası",
+      "askedProperty": "en kalabalık çalgı grubu",
+      "factCluster": "senfoni orkestrası|çalgı grubu büyüklüğü|yaylılar",
+      "questionForm": "comparison",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Carmina Burana",
-        "Carl Orff",
-        "bestecisi"
+        "senfoni orkestrası",
+        "yaylı çalgılar",
+        "orkestra bölümleri"
       ],
       "status": "live",
-      "semanticSignature": "carmina burana|bestecisi|carl orff"
+      "semanticSignature": "senfoni orkestrası|en kalabalık calgı grubu|yaylı calgılar"
     },
     "YQ226-Q01": {
       "id": "YQ226-Q01",
@@ -735,23 +735,23 @@
       "id": "YQ226-Q04",
       "quizCode": "YQ226",
       "questionId": 4,
-      "stem": "“Peer Gynt” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "correctAnswer": "Edvard Grieg",
+      "stem": "Klasik müzikte eser adlarının yanında kullanılan “Op.” kısaltması neyi belirtir?",
+      "correctAnswer": "Bestecinin yapıt sıra numarasını",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Peer Gynt",
-      "askedProperty": "bestecisi",
-      "factCluster": "Peer Gynt|bestecisi|Edvard Grieg",
-      "questionForm": "relationship",
+      "subject": "Opus numarası",
+      "askedProperty": "tanımı",
+      "factCluster": "opus|tanım|yapıt sıra numarası",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Peer Gynt",
-        "Edvard Grieg",
-        "bestecisi"
+        "opus",
+        "Op.",
+        "yapıt numarası"
       ],
       "status": "live",
-      "semanticSignature": "peer gynt|bestecisi|edvard grieg"
+      "semanticSignature": "opus numarası|tanımı|bestecinin yapıt sıra numarasını"
     },
     "YQ226-Q05": {
       "id": "YQ226-Q05",
@@ -977,23 +977,23 @@
       "id": "YQ227-Q05",
       "quizCode": "YQ227",
       "questionId": 5,
-      "stem": "“Las Meninas” eseri hangi sanatçıya aittir?",
-      "correctAnswer": "Diego Velázquez",
+      "stem": "Bir ressamın kendi yüzünü konu aldığı resme ne ad verilir?",
+      "correctAnswer": "Otoportre",
       "category": "Görsel Sanatlar & Mimari",
       "topicFamily": "Resim",
       "scope": "Dünya",
-      "subject": "Las Meninas",
-      "askedProperty": "sanatçısı",
-      "factCluster": "Las Meninas|sanatçısı|Diego Velázquez",
-      "questionForm": "relationship",
+      "subject": "Otoportre",
+      "askedProperty": "tanımı",
+      "factCluster": "Otoportre|tanım|ressamın kendi yüzü",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Las Meninas",
-        "Diego Velázquez",
-        "sanatçısı"
+        "otoportre",
+        "ressam",
+        "Rembrandt"
       ],
       "status": "live",
-      "semanticSignature": "las meninas|sanatcısı|diego velazquez"
+      "semanticSignature": "otoportre|tanımı|otoportre"
     },
     "YQ227-Q06": {
       "id": "YQ227-Q06",
@@ -1021,23 +1021,23 @@
       "id": "YQ227-Q07",
       "quizCode": "YQ227",
       "questionId": 7,
-      "stem": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
-      "correctAnswer": "Ernest Hemingway",
+      "stem": "Edebiyatta “distopya” terimi ne tür bir kurguyu anlatır?",
+      "correctAnswer": "Baskıcı ve kötüleşmiş bir gelecek toplumu",
       "category": "Edebiyat & Dil",
       "topicFamily": "Dünya Edebiyatı",
       "scope": "Dünya",
-      "subject": "Yaşlı Adam ve Deniz",
-      "askedProperty": "yazarı",
-      "factCluster": "Yaşlı Adam ve Deniz|yazarı|Ernest Hemingway",
-      "questionForm": "relationship",
+      "subject": "Distopya",
+      "askedProperty": "tanımı",
+      "factCluster": "Distopya|tanım|baskıcı gelecek kurgusu",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Yaşlı Adam ve Deniz",
-        "Ernest Hemingway",
-        "yazarı"
+        "distopya",
+        "ütopya",
+        "1984"
       ],
       "status": "live",
-      "semanticSignature": "yaslı adam ve deniz|yazarı|ernest hemingway"
+      "semanticSignature": "distopya|tanımı|baskıcı ve kotulesmis bir gelecek toplumu"
     },
     "YQ227-Q08": {
       "id": "YQ227-Q08",

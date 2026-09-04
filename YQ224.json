@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 224",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -16,12 +16,12 @@
   "questions": [
     {
       "id": 1,
-      "text": "“American Gothic” eseri hangi sanatçıya aittir?",
+      "text": "Sanat tarihinde “natürmort” terimi hangi tür konuyu betimleyen resimler için kullanılır?",
       "options": [
-        "Edward Hopper",
-        "Gustav Klimt",
-        "Katsushika Hokusai",
-        "Grant Wood"
+        "Açık hava manzaraları",
+        "Tarihî savaş sahneleri",
+        "Kişilerin yüz ve gövde hatlarını betimleyen çalışmalar",
+        "Meyve, çiçek gibi cansız nesne düzenlemeleri"
       ],
       "answer": 3,
       "time": 20,
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“American Gothic” adlı görsel sanat eseri Grant Wood tarafından yaratılmıştır."
+      "answerInfo": "Natürmort, bağımsız bir tür olarak 17. yüzyıl Hollanda resminde olgunlaştı. Bu tablolardaki solmuş çiçek veya sönmüş mum gibi ayrıntılar “vanitas” adıyla geçiciliğe yapılan göndermelerdir."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Okavango Deltası, Botsvana sınırları içinde yer alır."
+      "answerInfo": "Okavango, denize hiç ulaşmadan Kalahari'de yayılıp buharlaşan ender iç deltalardan biridir. Suyu besleyen Angola yağışları ile suyun deltaya varışı arasında aylar geçer, bu yüzden taşkın kurak mevsime denk gelir."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Yabancı”, Albert Camus tarafından yazılmıştır."
+      "answerInfo": "Roman, “Bugün annem öldü” cümlesiyle açılır ve Camus'nün absürt felsefesinin edebî karşılığı sayılır. Camus 1957'de Nobel Edebiyat Ödülü'nü kazandı."
     },
     {
       "id": 4,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "URL, internetteki bir kaynağın konumunu/adresini belirtmek için kullanılan standart gösterimdir."
+      "answerInfo": "URL üç parçadan oluşur: protokol, alan adı ve kaynak yolu. Tarayıcı önce alan adını DNS üzerinden bir IP adresine çevirir, sonra o adresten yoldaki kaynağı ister."
     },
     {
       "id": 8,
@@ -168,12 +168,12 @@
     },
     {
       "id": 9,
-      "text": "“Boléro” eserinin bestecisi kimdir?",
+      "text": "Piyanoda bir tuşa basıldığında sesi üreten mekanizma nedir?",
       "options": [
-        "Maurice Ravel",
-        "Gioachino Rossini",
-        "Franz Liszt",
-        "Edward Elgar"
+        "Tellere vuran çekiçler",
+        "Yaya sürtünen at kılları",
+        "Kamışın hava ile titreşmesi",
+        "Derinin tokmakla vurulması"
       ],
       "answer": 0,
       "time": 20,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Boléro”, Maurice Ravel tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Piyano bu yönüyle hem telli hem vurmalı sayılır; çekiç tele vurduktan sonra hemen geri çekildiği için tel serbestçe titreşmeye devam eder. Bartolomeo Cristofori'nin 1700 dolayındaki tasarımı bu mekanizmanın atasıdır."
     },
     {
       "id": 10,

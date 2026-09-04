@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 226",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Gülün Adı”, Umberto Eco tarafından yazılmıştır."
+      "answerInfo": "Eco, ortaçağ uzmanı bir göstergebilim profesörüydü. Roman 1327'de bir manastırda işlenen cinayetleri, Aristoteles'in kayıp Poetika ikinci kitabı çevresinde kurar."
     },
     {
       "id": 2,
@@ -69,16 +69,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ohri Gölü, Arnavutluk ile Kuzey Makedonya arasında paylaşılır."
+      "answerInfo": "Ohri, yaklaşık iki-üç milyon yaşıyla Avrupa'nın en eski göllerinden biridir. Başka hiçbir yerde bulunmayan çok sayıda tür barındırdığı için UNESCO Dünya Mirası listesindedir."
     },
     {
       "id": 4,
-      "text": "“Peer Gynt” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "text": "Klasik müzikte eser adlarının yanında kullanılan “Op.” kısaltması neyi belirtir?",
       "options": [
-        "Edvard Grieg",
-        "Sergey Prokofyev",
-        "Claude Debussy",
-        "Aaron Copland"
+        "Bestecinin yapıt sıra numarasını",
+        "Eserin hangi hızda çalınacağını gösteren işareti",
+        "Eserin yazıldığı tonaliteyi",
+        "Orkestradaki çalgı sayısını"
       ],
       "answer": 0,
       "time": 20,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Peer Gynt”, Edvard Grieg tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Opus numaraları çoğunlukla eserin yayımlanma sırasını gösterir, bestelenme sırasını değil. Bach ve Mozart gibi bazı bestecilerin yapıtları ise opus yerine BWV ve KV gibi ayrı katalog numaralarıyla anılır."
     },
     {
       "id": 5,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“İnsanoğlu (The Son of Man)” adlı görsel sanat eseri René Magritte tarafından yaratılmıştır."
+      "answerInfo": "Magritte tabloyu bir otoportre olarak tanımlamıştır. Yüzü kapatan elmayı ise görünen her şeyin ardında hep bir başka şeyin gizli olması fikriyle açıklamıştır."
     },
     {
       "id": 8,

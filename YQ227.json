@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 227",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Malakka Boğazı, Malay Yarımadası ile Endonezya’nın Sumatra Adası arasında uzanır."
+      "answerInfo": "Dünya deniz ticaretinin dörtte birinden fazlası bu boğazdan geçer. En dar yerinde genişlik yaklaşık üç kilometreye indiği için boğaz, deniz güvenliği açısından kritik bir darboğaz sayılır."
     },
     {
       "id": 3,
@@ -92,12 +92,12 @@
     },
     {
       "id": 5,
-      "text": "“Las Meninas” eseri hangi sanatçıya aittir?",
+      "text": "Bir ressamın kendi yüzünü konu aldığı resme ne ad verilir?",
       "options": [
-        "Diego Velázquez",
-        "Edward Hopper",
-        "René Magritte",
-        "Jeff Koons"
+        "Otoportre",
+        "Natürmort",
+        "Minyatür",
+        "Gravür"
       ],
       "answer": 0,
       "time": 20,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Las Meninas” adlı görsel sanat eseri Diego Velázquez tarafından yaratılmıştır."
+      "answerInfo": "Otoportre geleneği, ucuz ve düz aynaların yaygınlaşmasıyla Rönesans'ta güçlendi. Rembrandt kırk yılı aşkın bir sürede yüzünü onlarca kez resmederek kendi yaşlanmasını da kayda geçirmiştir."
     },
     {
       "id": 6,
@@ -130,12 +130,12 @@
     },
     {
       "id": 7,
-      "text": "“Yaşlı Adam ve Deniz” hangi yazarın eseridir?",
+      "text": "Edebiyatta “distopya” terimi ne tür bir kurguyu anlatır?",
       "options": [
-        "Ernest Hemingway",
-        "José Saramago",
-        "John Steinbeck",
-        "Albert Camus"
+        "Baskıcı ve kötüleşmiş bir gelecek toplumu",
+        "İdeal ve kusursuz düzene sahip bir toplum",
+        "Geçmişte geçen tarihsel bir anlatı",
+        "Doğaüstü varlıkların yer aldığı masal dünyası"
       ],
       "answer": 0,
       "time": 20,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Yaşlı Adam ve Deniz”, Ernest Hemingway tarafından yazılmıştır."
+      "answerInfo": "Terim, Thomas More'un 1516'da ortaya attığı “ütopya” kavramının karşıtı olarak türetilmiştir. Orwell'in 1984'ü ile Huxley'nin Cesur Yeni Dünya'sı türün en çok bilinen örnekleridir."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Gezegenler (The Planets)”, Gustav Holst tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Holst yedi bölümü gezegenlerin astronomik özelliklerine göre değil, astrolojideki karakterlerine göre yazdı. Dünya'nın astrolojik bir karakteri olmadığı için süitin dışında bırakılmıştır."
     },
     {
       "id": 9,

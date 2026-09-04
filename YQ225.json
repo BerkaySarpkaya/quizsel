@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 225",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Yüzyıllık Yalnızlık”, Gabriel García Márquez tarafından yazılmıştır."
+      "answerInfo": "Roman, Buendía ailesinin yedi kuşağını Macondo adlı kurgusal kasabada anlatır ve büyülü gerçekçiliğin en çok okunan örneği sayılır. Márquez 1982'de Nobel Edebiyat Ödülü'nü kazandı."
     },
     {
       "id": 2,
@@ -54,12 +54,12 @@
     },
     {
       "id": 3,
-      "text": "Aşağıdaki sanatçılardan hangisi “Nighthawks” eserini yaratmıştır?",
+      "text": "Yağlı boya tekniğinde pigmentleri bağlayan geleneksel malzeme hangisidir?",
       "options": [
-        "Piet Mondrian",
-        "Edward Hopper",
-        "Diego Velázquez",
-        "Gustav Klimt"
+        "Yumurta sarısı",
+        "Bezir yağı",
+        "Arap zamkı",
+        "Balmumu"
       ],
       "answer": 1,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Nighthawks” adlı görsel sanat eseri Edward Hopper tarafından yaratılmıştır."
+      "answerInfo": "Yumurta sarısı temperanın, arap zamkı ise sulu boyanın bağlayıcısıdır. Bezir yağı 15. yüzyılda Flaman ressamlarla yaygınlaştı ve yavaş kuruması sayesinde ince geçişli tonlamayı mümkün kıldı."
     },
     {
       "id": 4,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Atacama Çölü'nün büyük bölümü, Şili sınırları içinde yer alır."
+      "answerInfo": "Bazı ölçüm istasyonlarında yıllar boyunca kayda değer yağış görülmemiştir. Bu aşırı kuraklık, yüksek rakım ve durgun atmosferle birleşince ALMA gibi büyük gökbilim gözlemevlerinin buraya kurulmasını sağlamıştır."
     },
     {
       "id": 8,
@@ -187,12 +187,12 @@
     },
     {
       "id": 10,
-      "text": "“Carmina Burana” aşağıdaki bestecilerden hangisinin eseridir?",
+      "text": "Bir senfoni orkestrasında müzisyen sayısı bakımından en kalabalık çalgı grubu hangisidir?",
       "options": [
-        "Edvard Grieg",
-        "Giacomo Puccini",
-        "Igor Stravinsky",
-        "Carl Orff"
+        "Nefesli tahta çalgılar",
+        "Vurmalı çalgılar",
+        "Nefesli bakır çalgılar",
+        "Yaylı çalgılar"
       ],
       "answer": 3,
       "time": 20,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Carmina Burana”, Carl Orff tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Tipik bir senfoni orkestrasında yaylılar müzisyenlerin yarıdan fazlasını oluşturur. Birinci keman, ikinci keman, viyola, viyolonsel ve kontrbas olmak üzere beş ayrı bölüme ayrılırlar."
     }
   ]
 }
