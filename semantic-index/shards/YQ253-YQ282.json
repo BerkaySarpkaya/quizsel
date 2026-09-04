@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 2,
+  "range": {
+    "startQuiz": 253,
+    "endQuiz": 282
+  },
+  "entries": {
+    "YQ253-Q01": {
+      "id": "YQ253-Q01",
+      "quizCode": "YQ253",
+      "questionId": 1,
+      "stem": "Bu görselde yer alan ulusal bayrak hangi ülkeyi temsil eder?",
+      "correctAnswer": "Nepal",
+      "category": "Coğrafya",
+      "topicFamily": "Ülkeler",
+      "scope": "Dünya",
+      "subject": "Nepal bayrağı",
+      "askedProperty": "temsil ettiği ülke",
+      "factCluster": "Nepal|ulusal bayrak tanıma",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Nepal bayrağı",
+        "Nepal",
+        "bayrak tanıma"
+      ],
+      "status": "live",
+      "semanticSignature": "nepal bayragı|temsil ettigi ulke|nepal"
+    },
+    "YQ253-Q02": {
+      "id": "YQ253-Q02",
+      "quizCode": "YQ253",
+      "questionId": 2,
+      "stem": "Ekrandaki bayrak aşağıdaki ülkelerden hangisine aittir?",
+      "correctAnswer": "Bhutan",
+      "category": "Toplum & Kültür",
+      "topicFamily": "Semboller",
+      "scope": "Dünya",
+      "subject": "Bhutan bayrağı",
+      "askedProperty": "ait olduğu ülke",
+      "factCluster": "Bhutan|ulusal sembol bayrak",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Bhutan bayrağı",
+        "Bhutan",
+        "ulusal sembol"
+      ],
+      "status": "live",
+      "semanticSignature": "bhutan bayragı|ait oldugu ulke|bhutan"
+    },
+    "YQ253-Q03": {
+      "id": "YQ253-Q03",
+      "quizCode": "YQ253",
+      "questionId": 3,
+      "stem": "Gösterilen bayrağın ait olduğu ülkeyi seçin.",
+      "correctAnswer": "Seyşeller",
+      "category": "Coğrafya",
+      "topicFamily": "Adalar",
+      "scope": "Dünya",
+      "subject": "Seyşeller bayrağı",
+      "askedProperty": "ait olduğu ada ülkesi",
+      "factCluster": "Seyşeller|ada ülkesi bayrağı",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Seyşeller bayrağı",
+        "Seyşeller",
+        "ada ülkesi"
+      ],
+      "status": "live",
+      "semanticSignature": "seyseller bayragı|ait oldugu ada ulkesi|seyseller"
+    },
+    "YQ253-Q04": {
+      "id": "YQ253-Q04",
+      "quizCode": "YQ253",
+      "questionId": 4,
+      "stem": "Bu ülke bayrağı hangi devleti simgeler?",
+      "correctAnswer": "Mozambik",
+      "category": "Toplum & Kültür",
+      "topicFamily": "Dünya Kültürleri",
+      "scope": "Dünya",
+      "subject": "Mozambik bayrağı",
+      "askedProperty": "simgelediği devlet",
+      "factCluster": "Mozambik|bayrak devlet sembolü",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Mozambik bayrağı",
+        "Mozambik",
+        "devlet sembolü"
+      ],
+      "status": "live",
+      "semanticSignature": "mozambik bayragı|simgeledigi devlet|mozambik"
+    },
+    "YQ253-Q05": {
+      "id": "YQ253-Q05",
+      "quizCode": "YQ253",
+      "questionId": 5,
+      "stem": "Görseldeki ulusal sembol hangi ülkenin bayrağıdır?",
+      "correctAnswer": "Kiribati",
+      "category": "Coğrafya",
+      "topicFamily": "Adalar",
+      "scope": "Dünya",
+      "subject": "Kiribati bayrağı",
+      "askedProperty": "ait olduğu ada ülkesi",
+      "factCluster": "Kiribati|ada devleti bayrağı",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Kiribati bayrağı",
+        "Kiribati",
+        "Pasifik ada ülkesi"
+      ],
+      "status": "live",
+      "semanticSignature": "kiribati bayragı|ait oldugu ada ulkesi|kiribati"
+    },
+    "YQ253-Q06": {
+      "id": "YQ253-Q06",
+      "quizCode": "YQ253",
+      "questionId": 6,
+      "stem": "Bu görsel hangi ülkenin resmî bayrağını gösteriyor?",
+      "correctAnswer": "Kuzey Makedonya",
+      "category": "Görsel Sanatlar & Mimari",
+      "topicFamily": "Tasarım",
+      "scope": "Dünya",
+      "subject": "Kuzey Makedonya bayrağı",
+      "askedProperty": "görsel kimliği",
+      "factCluster": "Kuzey Makedonya|bayrak görsel tasarımı",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Kuzey Makedonya bayrağı",
+        "Kuzey Makedonya",
+        "bayrak tasarımı"
+      ],
+      "status": "live",
+      "semanticSignature": "kuzey makedonya bayragı|gorsel kimligi|kuzey makedonya"
+    },
+    "YQ253-Q07": {
+      "id": "YQ253-Q07",
+      "quizCode": "YQ253",
+      "questionId": 7,
+      "stem": "Fotoğraftaki bayrağın temsil ettiği ülke hangisidir?",
+      "correctAnswer": "Kazakistan",
+      "category": "Coğrafya",
+      "topicFamily": "Ülkeler",
+      "scope": "Dünya",
+      "subject": "Kazakistan bayrağı",
+      "askedProperty": "temsil ettiği ülke",
+      "factCluster": "Kazakistan|ulusal bayrak tanıma",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Kazakistan bayrağı",
+        "Kazakistan",
+        "Orta Asya bayrağı"
+      ],
+      "status": "live",
+      "semanticSignature": "kazakistan bayragı|temsil ettigi ulke|kazakistan"
+    },
+    "YQ253-Q08": {
+      "id": "YQ253-Q08",
+      "quizCode": "YQ253",
+      "questionId": 8,
+      "stem": "Bu bayrağı kullanan ülke aşağıdakilerden hangisidir?",
+      "correctAnswer": "Sri Lanka",
+      "category": "Toplum & Kültür",
+      "topicFamily": "Semboller",
+      "scope": "Dünya",
+      "subject": "Sri Lanka bayrağı",
+      "askedProperty": "kullanan ülke",
+      "factCluster": "Sri Lanka|ulusal sembol bayrak",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Sri Lanka bayrağı",
+        "Sri Lanka",
+        "ulusal sembol"
+      ],
+      "status": "live",
+      "semanticSignature": "sri lanka bayragı|kullanan ulke|sri lanka"
+    },
+    "YQ253-Q09": {
+      "id": "YQ253-Q09",
+      "quizCode": "YQ253",
+      "questionId": 9,
+      "stem": "Görselde gösterilen bayrak hangi Güney Amerika ülkesine aittir?",
+      "correctAnswer": "Uruguay",
+      "category": "Toplum & Kültür",
+      "topicFamily": "Dünya Kültürleri",
+      "scope": "Dünya",
+      "subject": "Uruguay bayrağı",
+      "askedProperty": "ait olduğu Güney Amerika ülkesi",
+      "factCluster": "Uruguay|Güney Amerika bayrağı",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Uruguay bayrağı",
+        "Uruguay",
+        "Güney Amerika"
+      ],
+      "status": "live",
+      "semanticSignature": "uruguay bayragı|ait oldugu guney amerika ulkesi|uruguay"
+    },
+    "YQ253-Q10": {
+      "id": "YQ253-Q10",
+      "quizCode": "YQ253",
+      "questionId": 10,
+      "stem": "Son görseldeki çok renkli ulusal bayrak hangi ülkenindir?",
+      "correctAnswer": "Güney Afrika",
+      "category": "Görsel Sanatlar & Mimari",
+      "topicFamily": "Tasarım",
+      "scope": "Dünya",
+      "subject": "Güney Afrika bayrağı",
+      "askedProperty": "görsel kimliği",
+      "factCluster": "Güney Afrika|bayrak görsel tasarımı",
+      "questionForm": "visual_recognition",
+      "precisionRequired": "P0",
+      "retrievalKeys": [
+        "Güney Afrika bayrağı",
+        "Güney Afrika",
+        "bayrak tasarımı"
+      ],
+      "status": "live",
+      "semanticSignature": "guney afrika bayragı|gorsel kimligi|guney afrika"
+    }
+  }
+}

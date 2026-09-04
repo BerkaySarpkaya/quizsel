@@ -5,7 +5,7 @@
   "title": "Görsel Genel Kültür — Dünya Bayrakları",
   "category": "Görsel Genel Kültür",
   "difficulty": 5.0,
-  "version": 1,
+  "version": 2,
   "description": "Dünyanın farklı bölgelerinden 10 ülke bayrağını görselden tanımaya dayalı özel quiz.",
   "estimatedMinutes": 5,
   "tags": [
@@ -17,7 +17,7 @@
   "questions": [
     {
       "id": 1,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Bu görselde yer alan ulusal bayrak hangi ülkeyi temsil eder?",
       "options": [
         "Bhutan",
         "Nepal",
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Ekrandaki bayrak aşağıdaki ülkelerden hangisine aittir?",
       "options": [
         "Bhutan",
         "Kırgızistan",
@@ -53,14 +53,14 @@
     },
     {
       "id": 3,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Gösterilen bayrağın ait olduğu ülkeyi seçin.",
       "options": [
         "Mauritius",
-        "Seyşeller",
         "Namibya",
-        "Gabon"
+        "Gabon",
+        "Seyşeller"
       ],
-      "answer": 1,
+      "answer": 3,
       "time": 20,
       "questionType": "multiple-choice",
       "image": "https://flagcdn.com/w640/sc.png",
@@ -71,7 +71,7 @@
     },
     {
       "id": 4,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Bu ülke bayrağı hangi devleti simgeler?",
       "options": [
         "Angola",
         "Mozambik",
@@ -89,14 +89,14 @@
     },
     {
       "id": 5,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Görseldeki ulusal sembol hangi ülkenin bayrağıdır?",
       "options": [
         "Palau",
-        "Kiribati",
         "Tuvalu",
+        "Kiribati",
         "Fiji"
       ],
-      "answer": 1,
+      "answer": 2,
       "time": 20,
       "questionType": "multiple-choice",
       "image": "https://flagcdn.com/w640/ki.png",
@@ -107,14 +107,14 @@
     },
     {
       "id": 6,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Bu görsel hangi ülkenin resmî bayrağını gösteriyor?",
       "options": [
-        "Karadağ",
-        "Arnavutluk",
-        "Kuzey Makedonya",
-        "Sırbistan"
+        "Bosna Hersek",
+        "Güney Kıbrıs",
+        "Kuzey Kıbrıs",
+        "Kuzey Makedonya"
       ],
-      "answer": 2,
+      "answer": 3,
       "time": 20,
       "questionType": "multiple-choice",
       "image": "https://flagcdn.com/w640/mk.png",
@@ -125,7 +125,7 @@
     },
     {
       "id": 7,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Fotoğraftaki bayrağın temsil ettiği ülke hangisidir?",
       "options": [
         "Kazakistan",
         "Özbekistan",
@@ -143,14 +143,14 @@
     },
     {
       "id": 8,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Bu bayrağı kullanan ülke aşağıdakilerden hangisidir?",
       "options": [
+        "Doğu Timor",
+        "Suudi Arabistan",
         "Sri Lanka",
-        "Bhutan",
-        "Bangladeş",
-        "Myanmar"
+        "Kuzey Kore"
       ],
-      "answer": 0,
+      "answer": 2,
       "time": 20,
       "questionType": "multiple-choice",
       "image": "https://flagcdn.com/w640/lk.png",
@@ -161,12 +161,12 @@
     },
     {
       "id": 9,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Görselde gösterilen bayrak hangi Güney Amerika ülkesine aittir?",
       "options": [
         "Arjantin",
         "Uruguay",
         "Paraguay",
-        "Honduras"
+        "Ekvador"
       ],
       "answer": 1,
       "time": 20,
@@ -179,14 +179,14 @@
     },
     {
       "id": 10,
-      "text": "Görseldeki bayrak hangi ülkeye aittir?",
+      "text": "Son görseldeki çok renkli ulusal bayrak hangi ülkenindir?",
       "options": [
-        "Güney Afrika",
-        "Kenya",
-        "Gana",
-        "Etiyopya"
+        "Burkina Faso",
+        "Sierra Leone",
+        "Güney Sudan",
+        "Güney Afrika"
       ],
-      "answer": 0,
+      "answer": 3,
       "time": 20,
       "questionType": "multiple-choice",
       "image": "https://flagcdn.com/w640/za.png",
