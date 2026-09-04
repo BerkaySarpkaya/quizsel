@@ -24,6 +24,7 @@
         "Şık D"
       ],
       "answer": 0,
+      "answerInfo": "Doğru cevabı açıklayan veya soruyla ilgili keyifli bir fun-fact veren 1-3 cümle.",
       "time": 20,
       "questionType": "multiple-choice",
       "image": null,

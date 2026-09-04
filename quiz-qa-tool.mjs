@@ -8,6 +8,9 @@ const INDEX_FILE = "quiz-index.json";
 const MANIFEST_FILE = "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json";
 const QA_SPEC_FILE = "QUIZSEL_SORU_QA_SPEC.json";
 const ANALYTICS_FILE = "app-v012-analytics.js";
+const KNOWLEDGE_FILE = "app-v013-knowledge.js";
+const KNOWLEDGE_STYLE = "styles-v013-knowledge.css";
+const QUIZ_TEMPLATE_FILE = "QUIZ_TEMPLATE.json";
 const DB_RULES_FILE = "database.rules.json";
 
 const hard = [];
@@ -25,6 +28,11 @@ function norm(v){
     .replace(/\s+/g, " ");
 }
 function words(v){ return norm(v).split(" ").filter(Boolean); }
+function sentenceCount(v){
+  const s = String(v ?? "").trim();
+  if (!s) return 0;
+  return s.split(/(?<=[.!?])\s+/u).map(x => x.trim()).filter(Boolean).length;
+}
 function fail(msg){ hard.push(msg); }
 function warn(msg){ review.push(msg); }
 function note(msg){ info.push(msg); }
@@ -92,6 +100,7 @@ function validateBasicQuiz(file, meta=null){
   }
 
   const ids = new Set();
+  const productionNumber = yqNumber(code);
   quiz.questions.forEach((q, i) => {
     if (!Number.isInteger(Number(q.id))) fail(`${file}: q${i+1} invalid id`);
     if (ids.has(Number(q.id))) fail(`${file}: duplicate id ${q.id}`);
@@ -100,6 +109,20 @@ function validateBasicQuiz(file, meta=null){
     if (!Array.isArray(q.options) || q.options.length < 2) fail(`${file}: q${q.id} options invalid`);
     if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= (q.options?.length||0)) {
       fail(`${file}: q${q.id} answer invalid`);
+    }
+
+    if (Number.isInteger(productionNumber) && productionNumber >= 253) {
+      const info = String(q.answerInfo || "").trim();
+      if (!info) {
+        fail(`${file}: q${q.id} YQ253+ answerInfo required`);
+      } else {
+        const sentences = sentenceCount(info);
+        if (sentences < 1 || sentences > 3) {
+          fail(`${file}: q${q.id} answerInfo must be 1-3 sentences (found ${sentences})`);
+        }
+        if (info.length < 24) fail(`${file}: q${q.id} answerInfo too short (<24 chars)`);
+        if (info.length > 500) fail(`${file}: q${q.id} answerInfo too long (>500 chars)`);
+      }
     }
   });
 
@@ -212,10 +235,14 @@ function validateAnalyticsRuntime(){
     "app-v010-runtime.js",
     "app-v011-reliability.js",
     ANALYTICS_FILE,
+    KNOWLEDGE_FILE,
+    KNOWLEDGE_STYLE,
+    QUIZ_TEMPLATE_FILE,
     "config.js",
     "index.html",
     DB_RULES_FILE,
-    "docs/ANALYTICS_ARCHITECTURE.md"
+    "docs/ANALYTICS_ARCHITECTURE.md",
+    "docs/RUNTIME_ARCHITECTURE.md"
   ];
   required.forEach(file => {
     if (!fs.existsSync(file)) fail(`${file} missing`);
@@ -223,10 +250,15 @@ function validateAnalyticsRuntime(){
   if (required.some(file => !fs.existsSync(file))) return;
 
   try {
-    // Parse as a classic script without executing browser globals.
+    // Parse as classic scripts without executing browser globals.
     new Function(fs.readFileSync(ANALYTICS_FILE, "utf8"));
   } catch (e) {
     fail(`${ANALYTICS_FILE}: JavaScript syntax failed: ${e.message}`);
+  }
+  try {
+    new Function(fs.readFileSync(KNOWLEDGE_FILE, "utf8"));
+  } catch (e) {
+    fail(`${KNOWLEDGE_FILE}: JavaScript syntax failed: ${e.message}`);
   }
 
   const indexHtml = fs.readFileSync("index.html", "utf8");
@@ -243,6 +275,24 @@ function validateAnalyticsRuntime(){
   }
   if (!configJs.includes('app-v012-analytics.js?v=121')) {
     fail("config.js: v0.12 analytics loader missing");
+  }
+  [
+    'styles-v013-knowledge.css?v=130',
+    'id="finalKnowledgeBtn"',
+    'id="view-knowledge"',
+    'id="knowledgeList"',
+    'app-v013-knowledge.js?v=130'
+  ].forEach(marker => {
+    if (!indexHtml.includes(marker)) fail(`index.html: Bilgi Canavarı wiring missing: ${marker}`);
+  });
+  try {
+    const template = readJson(QUIZ_TEMPLATE_FILE);
+    const sample = template?.questions?.[0];
+    if (!String(sample?.answerInfo || "").trim()) {
+      fail(`${QUIZ_TEMPLATE_FILE}: answerInfo template field missing`);
+    }
+  } catch (e) {
+    fail(`${QUIZ_TEMPLATE_FILE}: JSON/schema check failed: ${e.message}`);
   }
 
   try {
@@ -296,6 +346,7 @@ function validateAnalyticsRuntime(){
   });
 
   note("analytics runtime: v0.12.1 wiring/schema/navigation guards present");
+  note("Bilgi Canavarı runtime: v0.13.0 wiring/template present");
 }
 
 function repoCheck(){

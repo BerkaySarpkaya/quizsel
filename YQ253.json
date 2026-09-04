@@ -5,7 +5,7 @@
   "title": "Görsel Genel Kültür — Dünya Bayrakları",
   "category": "Görsel Genel Kültür",
   "difficulty": 5.0,
-  "version": 2,
+  "version": 3,
   "description": "Dünyanın farklı bölgelerinden 10 ülke bayrağını görselden tanımaya dayalı özel quiz.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,8 @@
       "imageAlt": "Soru 1 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Nepal, dünyada dikdörtgen biçiminde olmayan tek ulusal bayrağa sahiptir. Üst üste iki üçgensel bölümdeki ay ve güneş, ülkenin kalıcılığını simgeler."
     },
     {
       "id": 2,
@@ -49,7 +50,8 @@
       "imageAlt": "Soru 2 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Bhutan bayrağındaki beyaz ejderha Druk, yani “Gök Gürültüsü Ejderhası”dır. Pençelerindeki mücevherler ülkenin refahını ve güvenliğini temsil eder."
     },
     {
       "id": 3,
@@ -67,7 +69,8 @@
       "imageAlt": "Soru 3 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Seyşeller bayrağındaki beş renkli şerit, alt köşeden açılarak ilerleyen dinamik bir görünüm oluşturur. Tasarım genellikle genç ülkenin geleceğe doğru hareketini simgeleyen bir kompozisyon olarak açıklanır."
     },
     {
       "id": 4,
@@ -85,7 +88,8 @@
       "imageAlt": "Soru 4 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Mozambik, ulusal bayrağında modern bir ateşli silah bulunan tek ülkedir. AK-47’nin yanında kitap ve çapa; savunma, eğitim ve tarımsal üretim gibi temaları birlikte taşır."
     },
     {
       "id": 5,
@@ -103,7 +107,8 @@
       "imageAlt": "Soru 5 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Kiribati bayrağında yükselen güneşin üzerinde bir firkateyn kuşu yer alır. Güneşin 17 ışını, 16 Gilbert Adası ile Banaba’yı temsil eder; dalgalar ise Pasifik Okyanusu’nu simgeler."
     },
     {
       "id": 6,
@@ -121,7 +126,8 @@
       "imageAlt": "Soru 6 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Kuzey Makedonya bugünkü sekiz ışınlı güneş bayrağını 1995’te kabul etti. Önceki Vergina Güneşi tasarımı Yunanistan ile yaşanan sembol tartışmasının ardından değiştirilmişti."
     },
     {
       "id": 7,
@@ -139,7 +145,8 @@
       "imageAlt": "Soru 7 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Kazakistan bayrağında turkuaz zemin üzerinde altın bir güneş ve bozkır kartalı bulunur. Sol kenardaki dikey desen ise geleneksel Kazak süsleme motiflerinden esinlenir."
     },
     {
       "id": 8,
@@ -157,7 +164,8 @@
       "imageAlt": "Soru 8 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Sri Lanka bayrağındaki kılıçlı aslan, Sinhalese geleneğinin tarihî bir simgesidir. Yeşil ve turuncu dikey şeritler de ülkenin farklı topluluklarını temsil eden unsurlar arasında yer alır."
     },
     {
       "id": 9,
@@ -175,7 +183,8 @@
       "imageAlt": "Soru 9 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Uruguay bayrağındaki “Mayıs Güneşi”, bölgedeki bağımsızlık hareketleriyle ilişkilendirilen tarihî bir simgedir. Dokuz yatay şerit ise ülkenin kuruluş dönemindeki dokuz idarî bölümü temsil eder."
     },
     {
       "id": 10,
@@ -193,7 +202,8 @@
       "imageAlt": "Soru 10 için ülke bayrağı görseli",
       "imageCredit": "Flagpedia / FlagCDN — public domain",
       "imagePosition": "top",
-      "imageFit": "contain"
+      "imageFit": "contain",
+      "answerInfo": "Güney Afrika’nın bugünkü bayrağı 1994’te, apartheid sonrası demokratik dönemin başlangıcında kabul edildi. Y biçimli tasarım farklı yolların birleşmesini çağrıştırsa da renklere resmî olarak tek ve sabit anlamlar atanmamıştır."
     }
   ]
 }

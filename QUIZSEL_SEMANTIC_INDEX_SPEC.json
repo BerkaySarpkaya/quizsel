@@ -2,7 +2,7 @@
   "name": "Quizsel Sharded Incremental Semantic Index Spec",
   "version": "2.0",
   "toolPolicyVersion": "2.1",
-  "manualVersion": "2.3",
+  "manualVersion": "2.4",
   "baseQaSpec": "QUIZSEL_SORU_QA_SPEC.json",
   "runtimeSchemaImpact": "none",
   "authoritativeQuestionSource": "quiz JSON files",

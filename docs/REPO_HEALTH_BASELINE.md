@@ -93,3 +93,40 @@ Aşağıdakiler bu patch'te değiştirilmez:
 Bu ZIP yüklendikten sonra **henüz hiçbir eski dosya silinmemelidir**.
 Önce yeni `main` HEAD tekrar taranmalı, GitHub Health ve Pages sonucu doğrulanmalı ve aktif runtime zincirinin production'da yüklendiği kontrol edilmelidir.
 Silme listesi ancak bu gate sonrasında kesinleştirilir.
+
+---
+
+## 2026-09-04 — Bilgi Canavarı geliştirme başlangıç baseline'ı
+
+Feature geliştirmesi başlamadan önce production `main` HEAD:
+
+- `5636fac76b769e30907dc9cba5d4981085f7e339`
+- `Quizsel Health` run #23: PASS
+- GitHub Pages deployment run #53: PASS
+- semantic coverage: YQ253 dahil production ile senkron
+
+v0.13 Bilgi Canavarı değişiklik yüzeyi:
+
+- yeni `app-v013-knowledge.js`
+- yeni `styles-v013-knowledge.css`
+- `index.html` final üçüncü aksiyon + review view + cache-busted wiring
+- YQ253+ `answerInfo` içerik sözleşmesi
+- `QUIZ_TEMPLATE.json`, QA spec/manual ve `quiz-qa-tool.mjs` senkronizasyonu
+- `.github/workflows/quizsel-health.yml` yeni JS syntax gate'i
+- `YQ253.json` ilk tam `answerInfo` örneği / version bump
+
+Değişmeyen sınırlar:
+
+- Firebase Rules
+- scoring
+- room state machine
+- durable analytics root'ları
+- semantic index entry schema / shard formatı
+
+Post-feature kabul kapıları:
+
+1. JavaScript syntax PASS.
+2. `node quiz-qa-tool.mjs repo` → hard=0.
+3. `node quiz-qa-tool.mjs check YQ253.json` → hard=0, review=0.
+4. `node quiz-semantic-index-tool.mjs validate --source` → PASS.
+5. Headless Bilgi Canavarı smoke: final → review → final, 10/10 doğru cevap ve 10/10 `answerInfo` render.

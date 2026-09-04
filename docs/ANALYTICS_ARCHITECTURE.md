@@ -48,6 +48,8 @@ Oda PIN'i daha sonra tekrar kullanılsa bile `createdAt` çakışmayı önler. F
 
 Tam soru metni ve seçenekler her maçta tekrar kopyalanmaz. Quiz source Git geçmişinde/versioned source'ta tutulur; snapshot `quiz.version` + fingerprint ile hangi içerikle oynandığını sabitler. Quiz içeriğinde anlamlı değişiklik yapılırken `version` artırılmalıdır.
 
+v0.13 `answerInfo` Bilgi Canavarı sunum içeriğidir ve match archive içine ayrıca kopyalanmaz. `quiz.version` fingerprint payload’ının parçası olduğundan `answerInfo` değişikliğinde version artırılması zorunludur; böylece aynı soru/cevap yapısı korunurken post-quiz içerik değişikliği de farklı quiz sürümü olarak izlenir.
+
 ## Ayrılan / kicklenen oyuncular
 
 Mevcut runtime ayrılma yollarında canlı cevaplar silinebildiği için v0.12, silme işleminden **önce** `analyticsDepartures` event'i oluşturur.

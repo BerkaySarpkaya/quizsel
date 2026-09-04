@@ -1,25 +1,34 @@
-# Quizsel Runtime Architecture — v0.12.1 Durable Analytics + Final Navigation Guard
+# Quizsel Runtime Architecture — v0.13.0 Bilgi Canavarı
 
-## Authoritative load order
+## Authoritative production wiring
 
-Effective browser order:
+`index.html` doğrudan şu browser katmanlarını yükler:
 
 ```text
-index.html
-→ config.js
-→ app.js
-→ app-v09-performance.js
-→ app-v010-runtime.js
-→ app-v011-reliability.js (direct tag; waits for v0.10 runtime)
-→ app-v012-analytics.js (config loader; waits for v0.11 reliability)
+config.js?v=121
+app.js?v=90
+app-v011-reliability.js?v=112
+app-v0122-lobby-exit-fix.js?v=122
+app-v0125-final-completion.js?v=125
+app-v013-knowledge.js?v=130
 ```
 
-`config.js?v=121` dynamically loads performance, v0.10 runtime and then v0.12 analytics. `app-v011-reliability.js?v=112` remains a direct script tag but self-gates until `window.QUIZSEL_RUNTIME_VERSION` exists. v0.12 in turn self-gates until both runtime and reliability versions exist.
+Ayrıca `config.js` kontrollü olarak şu zinciri dinamik yükler:
+
+```text
+app-v09-performance.js?v=92
+→ app-v010-runtime.js?v=100
+→ app-v012-analytics.js?v=121
+```
+
+`app-v011-reliability.js` v0.10 runtime hazır olana kadar self-gate eder. `app-v012-analytics.js` hem runtime hem reliability katmanlarının hazır olmasını bekler. `app-v013-knowledge.js` yalnız final-review UI sahipliğindedir; analytics veya Firebase yazı yolunu değiştirmez.
+
+`CFG.clientVersion` analytics/runtime rollout için `0.12.1` olarak kalır. Bilgi Canavarı katmanı ayrıca `window.QUIZSEL_KNOWLEDGE_VERSION = "0.13.0"` damgasını yayınlar.
 
 ## Ownership
 
 ### `app.js`
-Historical base application and DOM/auth/room/game primitives.
+Historical base application; DOM/auth/room/game primitives ve `renderFinal()` temel davranışı.
 
 ### `app-v09-performance.js`
 - split Firebase room listeners,
@@ -30,31 +39,66 @@ Historical base application and DOM/auth/room/game primitives.
 
 ### `app-v010-runtime.js`
 - defensive production-quiz validation,
-- runtime-version stamping from `CFG.clientVersion`,
+- runtime-version stamping,
 - idempotent/retryable per-user final stats persistence,
-- authoritative all-answered recheck with deadline fallback,
+- authoritative all-answered recheck,
 - between-question flow,
-- final return-home behavior,
 - quiz-set browser.
 
 ### `app-v011-reliability.js`
 - local pending final-result recovery,
-- retry after reconnect / auth restore,
-- final navigation independent from profile persistence,
+- reconnect/auth retry,
+- final navigation/persistence ayrımı,
 - active-game reconnect/foreground/stale-phase recovery.
+
+### `app-v0122-lobby-exit-fix.js`
+Lobby/competition exit UX patch surface.
+
+### `app-v0125-final-completion.js`
+Final ekranındaki iki terminal aksiyonun sahibi:
+- `Tamamla ve ana ekrana dön`
+- `Tamamla ve çıkış yap`
+
+Bu katman room cleanup ile auth sign-out davranışını açık biçimde ayırır.
 
 ### `app-v012-analytics.js`
 - durable immutable `matchArchive`,
 - pre-removal `analyticsDepartures`,
-- final archive retry markers,
-- fail-closed archive gates before destructive room/player operations,
-- quiz fingerprint and answer-level analytics snapshot,
+- archive retry markers,
+- destructive işlemler öncesi fail-closed archive gate,
+- quiz fingerprint ve answer-level analytics snapshot,
 - admin close archive gate,
-- legacy `ended` game backfill.
+- legacy ended-game backfill.
+
+### `app-v013-knowledge.js`
+Bilgi Canavarı final-review katmanı:
+- final ekranına üçüncü, non-terminal `Bilgi Canavarı` aksiyonunu bağlar,
+- aktif quizin read-only snapshot'ını alır,
+- her soru için soru metni, varsa görsel, doğru cevap ve `answerInfo` gösterir,
+- YQ001–YQ252 gibi eski quizlerde `answerInfo` yoksa açık fallback metni gösterir,
+- review ekranı açıkken ended-room listener veya foreground recovery'nin tekrar `renderFinal()` çağırmasıyla ekranın kapanmasını engeller,
+- Firebase state, scoring, archive ve profil istatistiklerini değiştirmez.
+
+### `styles-v013-knowledge.css`
+Bilgi Canavarı butonu ve review kartlarının mobil-first sunum katmanı.
+
+## Quiz content boundary
+
+Quiz JSON authoritative runtime kaynağıdır.
+
+YQ253+ için her soru ayrıca:
+
+```json
+"answerInfo": "Doğru cevabı açıklayan veya ilgili bir fun-fact veren 1-3 cümle."
+```
+
+taşır. `answerInfo` scoring'e katılmaz ve semantic index'e kopyalanmaz. User-visible `answerInfo` değişikliği quiz content version değişikliğidir; ilgili quiz `version` değeri artırılmalıdır.
+
+YQ001–YQ252 için backward compatibility korunur; alan zorunlu değildir.
 
 ## Data ownership boundary
 
-`games/` remains **operational state**, not analytics history.
+`games/` operasyonel state'tir, analytics history değildir.
 
 Long-term analytics truth:
 
@@ -63,17 +107,11 @@ matchArchive/{room_createdAt}
 analyticsDepartures/{room}/{createdAt}/{eventId}
 ```
 
-User-facing profile counters and `activityLogs` are secondary summaries/observability, not the canonical raw analytics dataset.
+Bilgi Canavarı yeni Firebase root'u veya kalıcı kullanıcı verisi oluşturmaz.
 
 See `docs/ANALYTICS_ARCHITECTURE.md`.
 
-## Compatibility boundary
-
-`app-flow-v091.js` and `app-quizsets-v092.js` remain superseded cleanup candidates. They must not be deleted merely as part of the analytics rollout. `styles-quizsets-v092.css` remains active.
-
 ## Function-critical production files
-
-Do not move/rename during this rollout:
 
 - `index.html`
 - `config.js`
@@ -82,11 +120,18 @@ Do not move/rename during this rollout:
 - `app-v010-runtime.js`
 - `app-v011-reliability.js`
 - `app-v012-analytics.js`
+- `app-v0122-lobby-exit-fix.js`
+- `app-v0125-final-completion.js`
+- `app-v013-knowledge.js`
 - `styles.css`
 - `styles-quizsets-v092.css`
+- `styles-v013-knowledge.css`
 - `database.rules.json`
 - `quiz-index.json`
 - `QZxxx.json` / `YQxxx.json`
+- `QUIZ_TEMPLATE.json`
+- `QUIZSEL_SORU_URETIM_MANUELI.md`
+- `QUIZSEL_SORU_QA_SPEC.json`
 - `quiz-qa-tool.mjs`
 - `quiz-semantic-index-tool.mjs`
 - `QUIZSEL_SEMANTIC_INDEX_MANIFEST.json`
@@ -94,25 +139,28 @@ Do not move/rename during this rollout:
 
 ## QA
 
-`node quiz-qa-tool.mjs repo` now also verifies:
+`node quiz-qa-tool.mjs repo` doğrular:
+- mevcut analytics runtime wiring/schema/navigation guard'ları,
+- Bilgi Canavarı JS/CSS/DOM wiring'i,
+- `QUIZ_TEMPLATE.json` içinde `answerInfo` alanını,
+- YQ253+ her soruda `answerInfo` varlığını,
+- `answerInfo` için 1–3 cümle, min 24 / max 500 karakter teknik sınırını,
+- semantic coverage ve index integrity'yi.
 
-- v0.12 analytics script existence and JavaScript parseability,
-- `config.js?v=121` wiring,
-- `CFG.clientVersion = 0.12.1`,
-- analytics loader presence,
-- `matchArchive` / `analyticsDepartures` Firebase rule roots,
-- create-only archive guards,
-- destructive lifecycle hook markers.
+GitHub Health ayrıca `node --check app-v013-knowledge.js` çalıştırır.
 
-This makes the existing GitHub Health `Repository structure QA` gate cover the new analytics layer without changing `.github` in the browser-upload package.
+Changed production quiz strict QA ve semantic full-source audit mevcut şekilde devam eder.
+
+## Final navigation invariant
+
+Bilgi Canavarı **terminal aksiyon değildir**. Review ekranına girmek:
+- room listener'ını sökmez,
+- auth session'ını kapatmaz,
+- analytics archive gate'i tetiklemez,
+- final stats persistence davranışını değiştirmez.
+
+Kullanıcı `Sonuçlara dön` ile final ekranına gelir ve ancak mevcut `Tamamla ve ana ekrana dön` / `Tamamla ve çıkış yap` aksiyonlarından biriyle final session'ı tamamlar.
 
 ## Deployment boundary
 
-GitHub Pages deploy does **not** deploy Firebase Realtime Database Rules. `database.rules.json` must be published separately in Firebase before/with v0.12 runtime rollout. See `docs/ANALYTICS_ARCHITECTURE.md`.
-
-
-## Final navigation guard — v0.12.1
-
-`app-v011-reliability.js` final persistence'i navigation'dan ayırır, ancak base `finishGame()` içinde cleanup ve `renderHome()` aynı senkron zincirdedir. Bir exception final butonunu disabled halde bırakabilir.
-
-`app-v012-analytics.js` v0.12.1 bu base fonksiyonu wrap eder. Önce v0.11 davranışını çalıştırır; final view aktif kalırsa exception recovery, microtask watchdog, 150 ms / 1200 ms watchdog ve direct DOM fallback ile home view zorlanır. Bu guard analytics write başarısından bağımsızdır.
+Bu v0.13 feature Firebase Rules değişikliği gerektirmez. GitHub Pages'e repo dosyalarının yüklenmesi yeterlidir. Mevcut v0.12 analytics rules gereksinimleri aynen devam eder.

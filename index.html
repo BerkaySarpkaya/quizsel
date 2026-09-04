@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://quizfamily-e06a4-default-rtdb.europe-west1.firebasedatabase.app">
   <link rel="stylesheet" href="styles.css?v=90">
   <link rel="stylesheet" href="styles-quizsets-v092.css?v=92">
+  <link rel="stylesheet" href="styles-v013-knowledge.css?v=130">
 </head>
 <body>
 <div class="app">
@@ -211,8 +212,29 @@
       <ol id="finalBoard" class="leader finalLeader"></ol>
     </div>
     <div class="section stack">
+      <button id="finalKnowledgeBtn" type="button" class="btn knowledge">Bilgi Canavarı</button>
       <button id="finalHomeBtn" type="button" class="btn primary">Tamamla ve ana ekrana dön</button>
       <button id="finalLogoutBtn" type="button" class="btn ghost">Tamamla ve çıkış yap</button>
+    </div>
+  </section>
+
+  <section id="view-knowledge" class="view">
+    <div class="top">
+      <button id="knowledgeBackTop" type="button" class="back">Sonuçlara dön</button>
+      <span class="badge blue">Bilgi Canavarı</span>
+    </div>
+
+    <div class="card knowledgeHero">
+      <div class="eyebrow">Oyun sonrası inceleme</div>
+      <h1>Bilgi Canavarı</h1>
+      <p id="knowledgeQuizTitle" class="muted small"></p>
+      <p id="knowledgeSummary" class="knowledgeSummary muted small"></p>
+    </div>
+
+    <div id="knowledgeList" class="knowledgeList section"></div>
+
+    <div class="section knowledgeFooter">
+      <button id="knowledgeBackBottom" type="button" class="btn soft">Sonuçlara dön</button>
     </div>
   </section>
 
@@ -272,5 +294,6 @@
 <script src="app-v011-reliability.js?v=112"></script>
 <script src="app-v0122-lobby-exit-fix.js?v=122"></script>
 <script src="app-v0125-final-completion.js?v=125"></script>
+<script src="app-v013-knowledge.js?v=130"></script>
 </body>
 </html>

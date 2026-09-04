@@ -4,17 +4,19 @@ Quizsel, aynı odadaki oyuncuların aynı soruları eşzamanlı cevapladığı, 
 
 ## Güncel production mimarisi
 
-Tarayıcı çalışma sırası:
+Production katmanları:
 
-1. `index.html`
-2. `config.js`
-3. `app.js` — temel uygulama
-4. `app-v09-performance.js` — performans / split-listener katmanı
-5. `app-v010-runtime.js` — güncel yarış akışı, quiz doğrulama ve quiz-set browser
-6. `app-v011-reliability.js` — reconnect + pending final reliability
-7. `app-v012-analytics.js` — kalıcı maç/cevap analytics arşivi
+1. `index.html` / `config.js` — wiring ve loader
+2. `app.js` — temel uygulama
+3. `app-v09-performance.js` — performans / split-listener
+4. `app-v010-runtime.js` — yarış akışı, quiz doğrulama, quiz-set browser
+5. `app-v011-reliability.js` — reconnect + pending final reliability
+6. `app-v012-analytics.js` — kalıcı maç/cevap analytics arşivi
+7. `app-v0122-lobby-exit-fix.js` — lobby/yarış çıkışı patch
+8. `app-v0125-final-completion.js` — final home / logout ayrımı
+9. `app-v013-knowledge.js` + `styles-v013-knowledge.css` — Bilgi Canavarı final-review katmanı
 
-`CFG.clientVersion` v0.12 rollout ile `0.12.1`'dır.
+Kesin browser yükleme sırası `docs/RUNTIME_ARCHITECTURE.md` içindedir. `CFG.clientVersion` v0.12 runtime/analytics için `0.12.1` olarak kalır; Bilgi Canavarı kendi `0.13.0` katman sürümünü taşır.
 
 ## Güncel yarış akışı
 
@@ -23,6 +25,8 @@ Tarayıcı çalışma sırası:
 - Erken-doğrulama isteği hata verirse normal soru deadline fallback'i korunur.
 - Reveal süresi: 5 saniye.
 - Son soru değilse reveal sonrası 3 → 2 → 1 geçişi vardır.
+- Final ekranında üç seçenek vardır: `Bilgi Canavarı`, `Tamamla ve ana ekrana dön`, `Tamamla ve çıkış yap`.
+- Bilgi Canavarı soru + doğru cevap + kısa açıklama/fun-fact listesini açar; terminal aksiyon değildir.
 - Finalden ana sayfaya dönüş Firebase oturumunu kapatmaz.
 - Per-user final sonucu bağlantı sorunu yaşarsa v0.11 retry mekanizması devreye girer.
 
@@ -38,6 +42,15 @@ v0.12.1 analytics overlay mevcut v0.11 final persistence davranışını korur v
 - son çare doğrudan DOM view geçişi.
 
 Cleanup hatası artık kullanıcıyı final ekranında mahsur bırakamaz; en kötü durumda buton tekrar etkinleştirilir.
+
+
+## Bilgi Canavarı — v0.13
+
+Final ekranındaki `Bilgi Canavarı` butonu tamamlanan quizin sorularını read-only olarak açar. Her kartta soru metni, varsa soru görseli, doğru cevap ve `answerInfo` bulunur.
+
+YQ253+ için `answerInfo` her soruda zorunludur ve 1–3 cümlelik kısa açıklama veya soruyla ilgili doğrulanabilir bir fun-fact olmalıdır. YQ001–YQ252 backward-compatible kalır; ek bilgi alanı olmayan eski sorularda review ekranı açık bir fallback mesajı gösterir.
+
+`answerInfo` aynı `YQxxx.json` dosyasında yaşar; ayrı Firebase tablosu veya semantic-index kopyası yoktur.
 
 ## Kalıcı analytics / oyun geçmişi — v0.12
 
@@ -106,7 +119,7 @@ Authoritative kalite sözleşmeleri:
 - `QUIZSEL_SEMANTIC_INDEX_SPEC.json`
 - `QUIZSEL_SEMANTIC_INDEX_PROTOCOL.md`
 
-YQ133 ve sonrasında her soru semantic index kaydına sahip olmalıdır. Quiz JSON dosyası soru metni ve doğru cevap için authoritative kaynaktır; semantic index authoring/QA hızlandırıcısıdır.
+YQ133 ve sonrasında her soru semantic index kaydına sahip olmalıdır. YQ253+ sorular ayrıca `answerInfo` taşır. Quiz JSON dosyası soru metni, doğru cevap ve Bilgi Canavarı içeriği için authoritative kaynaktır; semantic index authoring/QA hızlandırıcısıdır ve `answerInfo` kopyalamaz.
 
 Önerilen akış:
 
@@ -132,6 +145,7 @@ node --check app-v09-performance.js
 node --check app-v010-runtime.js
 node --check app-v011-reliability.js
 node --check app-v012-analytics.js
+node --check app-v013-knowledge.js
 node --check quiz-semantic-index-tool.mjs
 node --check quiz-qa-tool.mjs
 
@@ -139,7 +153,7 @@ node quiz-qa-tool.mjs repo
 node quiz-semantic-index-tool.mjs validate --source
 ```
 
-`quiz-qa-tool.mjs repo` v0.12 itibarıyla analytics runtime wiring'ini, analytics JS parse kontrolünü ve archive Firebase Rules guard'larını da denetler. Bu nedenle mevcut GitHub Health workflow'unun `Repository structure QA` adımı yeni analytics katmanını da kapsar.
+`quiz-qa-tool.mjs repo` analytics runtime wiring'ini ve archive Firebase Rules guard'larını; v0.13 ile ayrıca Bilgi Canavarı JS/CSS/DOM wiring'ini, template alanını ve YQ253+ `answerInfo` kurallarını denetler. Bu nedenle mevcut GitHub Health workflow'unun `Repository structure QA` adımı yeni analytics katmanını da kapsar.
 
 Yeni/değişen quizler için:
 
@@ -162,6 +176,8 @@ YQ133+ için runtime ayrıca:
 - `questionType = multiple-choice`
 
 kontrol eder.
+
+YQ253+ `answerInfo` zorunluluğu build/repository QA katmanında denetlenir; eski quizler runtime uyumluluğu için değişmeden kalır.
 
 ## Semantic index
 
@@ -196,7 +212,7 @@ Detay: `docs/SECURITY_ARCHITECTURE.md`.
 
 ## Authoritative dosya prensibi
 
-- Runtime soru kaynağı: `YQxxx.json` / `QZxxx.json`
+- Runtime soru + doğru cevap + Bilgi Canavarı kaynağı: `YQxxx.json` / `QZxxx.json`
 - Quiz listesi: `quiz-index.json`
 - Soru üretim standardı: `QUIZSEL_SORU_URETIM_MANUELI.md`
 - Makine-okunabilir QA standardı: `QUIZSEL_SORU_QA_SPEC.json`

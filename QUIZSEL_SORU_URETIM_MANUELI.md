@@ -1,11 +1,11 @@
 # Quizsel Soru Üretim Manueli
-## Sürüm 2.3 — Semantic QA, Incremental Index & Automated Health Standardı
+## Sürüm 2.4 — Semantic QA, Bilgi Canavarı & Automated Health Standardı
 
 Bu belge Quizsel için yeni soru üretiminde authoritative kalite sözleşmesidir.
 `QUIZSEL_SORU_QA_SPEC.json` makine-okunabilir eşlikçidir.
 `QUIZSEL_SEMANTIC_INDEX_SPEC.json` YQ133+ semantic-index sözleşmesidir.
 
-Authoring metadata runtime quiz JSON şemasını değiştirmez.
+Semantic authoring metadata runtime quiz JSON şemasını değiştirmez. v2.4 ile `answerInfo` soru JSON’una backward-compatible bir runtime alanı olarak eklenmiştir.
 
 ## 1. Varsayılan quiz profili
 
@@ -15,6 +15,7 @@ Authoring metadata runtime quiz JSON şemasını değiştirmez.
 - Süre: 20 saniye
 - Varsayılan zorluk: 4.5/10; kullanıcı farklı değer isterse o değer kullanılır.
 - `questionType`: `multiple-choice`
+- YQ253+ her soruda `answerInfo`: doğru cevabı açıklayan veya soruyla ilgili keyifli bir fun-fact veren 1–3 cümle.
 - Sorular birbirinden bağımsızdır.
 - Görsel/tablo ancak gerçek değer katıyorsa kullanılır.
 - Oyuncu soruyu “hileli ifade” yüzünden değil, bilgiyi bilmediği için kaybetmelidir.
@@ -163,6 +164,8 @@ Fuzzy eşleşme otomatik duplicate hükmü değil, zorunlu review sinyalidir.
 - Mümkünse birincil/resmî kaynak tercih edilir.
 - Birden fazla savunulabilir doğru cevap = RED.
 - “ilk/en büyük/en eski” gibi scope belirsiz sorulardan kaçınılır.
+- `answerInfo` içindeki olgular da soru kadar doğrulanabilir olmalıdır; değişebilir bilgi içeriyorsa güncel kaynak kontrolü zorunludur.
+- `answerInfo` cevap anahtarını tekrar etmekle yetinmemeli; kısa açıklama, bağlam veya ilgili fun-fact sağlamalıdır.
 - Kaynak doğrulaması runtime JSON içine kaynak alanı eklemeyi zorunlu kılmaz.
 - Değişebilir bilgi için kalıcı kaynak notu gerekiyorsa `QUIZSEL_SOURCE_NOTE_TEMPLATE.md` ile soru-bazlı izlenebilirlik kullanılır.
 
@@ -180,12 +183,13 @@ Fuzzy eşleşme otomatik duplicate hükmü değil, zorunlu review sinyalidir.
 10. Answer-Leakage Graph kontrolü yap.
 11. Cue / Guessability QA yap.
 12. Cevap pozisyonlarını RNG ile ata.
-13. Değişebilir gerçekleri kaynakla doğrula.
-14. Quiz JSON + index + semantic batch oluştur.
-15. Semantic index `apply`.
-16. `quiz-qa-tool.mjs check ...`.
-17. `quiz-semantic-index-tool.mjs validate-target ... --source`.
-18. Tüm hard kapılar PASS olmadan teslim etme.
+13. Her soru için 1–3 cümlelik `answerInfo` yaz; doğru cevabı açıkla veya ilgili, doğrulanabilir bir fun-fact ekle.
+14. Soru ve `answerInfo` içindeki değişebilir gerçekleri kaynakla doğrula.
+15. Quiz JSON + index + semantic batch oluştur.
+16. Semantic index `apply`.
+17. `quiz-qa-tool.mjs check ...`.
+18. `quiz-semantic-index-tool.mjs validate-target ... --source`.
+19. Tüm hard kapılar PASS olmadan teslim etme.
 
 ## 13. Teknik JSON Kabul Kriterleri
 
@@ -201,6 +205,14 @@ YQ133+:
 - question id benzersiz
 - `quiz-index.json` kaydı tam 1 kez
 - JSON parse PASS
+
+YQ253+:
+- her soruda `answerInfo` zorunlu,
+- `answerInfo` 1–3 cümle, en fazla 500 karakter,
+- bilgi doğru cevabı açıklamalı veya soruyla doğrudan ilişkili bir fun-fact vermeli,
+- user-visible `answerInfo` değişirse quiz `version` artırılmalı.
+
+YQ001–YQ252 backward compatibility için `answerInfo` olmadan çalışmaya devam eder; Bilgi Canavarı ekranı bu sorularda açıkça fallback mesajı gösterir.
 
 Image yoksa canonical alanlar:
 - `image: null`
@@ -223,6 +235,7 @@ Hard:
 - doğru şık dağılımı
 - Topic Family adjacency/max2
 - current-info source review
+- YQ253+ `answerInfo` varlığı / 1–3 cümle teknik kontrolü / editoryal gerçeklik kontrolü
 - semantic source-sync
 
 Soft:
@@ -250,11 +263,12 @@ Otomatik tool'un PASS vermesi semantik/editoryal değerlendirmeyi ortadan kaldı
 
 ### 16.1 Source of truth
 
-Quiz JSON authoritative'dir.
+Quiz JSON authoritative'dir. Soru metni, seçenekler, doğru cevap ve `answerInfo` aynı authoritative quiz dosyasında yaşar.
 Semantic index:
 - authoring/QA lookup hızlandırıcısı,
 - runtime kaynağı değildir,
-- public product backend yerine geçmez.
+- public product backend yerine geçmez,
+- `answerInfo` metnini indekslemez; bu alan runtime sunum içeriğidir ve duplicate/fact graph kaynağı değildir.
 
 ### 16.2 Coverage
 

@@ -1,6 +1,6 @@
 # Quizsel Semantic Index Protocol — v2.1 Tool Policy
 
-Authoritative soru kaynağı quiz JSON dosyalarıdır. Semantic index yalnız authoring/QA retrieval katmanıdır.
+Authoritative soru kaynağı quiz JSON dosyalarıdır. Semantic index yalnız authoring/QA retrieval katmanıdır. YQ253+ `answerInfo` alanı runtime sunum içeriğidir; semantic entry veya Bloom token üretimine dahil edilmez.
 
 ## Kapsam
 

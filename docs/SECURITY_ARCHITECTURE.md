@@ -6,6 +6,8 @@ Current GitHub Pages runtime loads quiz files in the browser with `fetch("YQxxx.
 
 Semantic shards are authoring artifacts and contain `correctAnswer`; in a future paid/private question architecture they should not be part of the public production artifact.
 
+v0.13 Bilgi Canavarı doğru cevabı yalnız yarış tamamlandıktan sonra UI’da açar; ancak bu bir security boundary değildir. `answerInfo` ve doğru cevap aynı public `YQxxx.json` içinde tarayıcıya teslim edildiği için mevcut statik Pages trust modelini değiştirmez.
+
 ## Current durable-analytics boundary — v0.12
 
 v0.12 adds two Realtime Database roots:
