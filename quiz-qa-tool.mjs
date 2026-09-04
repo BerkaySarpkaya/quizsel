@@ -3,6 +3,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 
 const INDEX_FILE = "quiz-index.json";
 const MANIFEST_FILE = "QUIZSEL_SEMANTIC_INDEX_MANIFEST.json";
@@ -37,6 +38,56 @@ function fail(msg){ hard.push(msg); }
 function warn(msg){ review.push(msg); }
 function note(msg){ info.push(msg); }
 function readJson(file){ return JSON.parse(fs.readFileSync(file, "utf8")); }
+function stableValue(value){
+  if (Array.isArray(value)) return value.map(stableValue);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.keys(value).sort().map(key => [key, stableValue(value[key])])
+    );
+  }
+  return value;
+}
+function stableJson(value){ return JSON.stringify(stableValue(value)); }
+function readJsonFromGit(ref, file){
+  try {
+    const raw = execFileSync("git", ["show", `${ref}:${file}`], { encoding:"utf8", stdio:["ignore","pipe","pipe"] });
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+function validateAnswerInfo(file, q){
+  const text = String(q?.answerInfo || "").trim();
+  if (!text) { fail(`${file}: q${q?.id ?? "?"} answerInfo required for knowledge backfill`); return; }
+  const sentences = sentenceCount(text);
+  if (sentences < 1 || sentences > 3) fail(`${file}: q${q.id} answerInfo must be 1-3 sentences (found ${sentences})`);
+  if (text.length < 24) fail(`${file}: q${q.id} answerInfo too short (<24 chars)`);
+  if (text.length > 500) fail(`${file}: q${q.id} answerInfo too long (>500 chars)`);
+}
+function strippedKnowledgeComparable(quiz){
+  const out = JSON.parse(JSON.stringify(quiz));
+  delete out.version;
+  for (const q of (out.questions || [])) delete q.answerInfo;
+  return out;
+}
+function knowledgeBackfillDelta(baseQuiz, currentQuiz){
+  if (!baseQuiz || !currentQuiz) return { candidate:false, eligible:false, reason:"baseline/current quiz unavailable" };
+  if (stableJson(strippedKnowledgeComparable(baseQuiz)) !== stableJson(strippedKnowledgeComparable(currentQuiz))) {
+    return { candidate:false, eligible:false, reason:"changes extend beyond version + answerInfo" };
+  }
+  if (!Array.isArray(currentQuiz.questions) || !currentQuiz.questions.length) {
+    return { candidate:false, eligible:false, reason:"questions missing" };
+  }
+  const changed = currentQuiz.questions.some((q,i) => String(q?.answerInfo || "") !== String(baseQuiz.questions?.[i]?.answerInfo || ""));
+  if (!changed) return { candidate:false, eligible:false, reason:"answerInfo did not change" };
+  const baseVersion = Number(baseQuiz.version || 1);
+  const currentVersion = Number(currentQuiz.version || 1);
+  if (!Number.isInteger(baseVersion) || !Number.isInteger(currentVersion) || currentVersion !== baseVersion + 1) {
+    return { candidate:true, eligible:false, reason:`version must increment exactly once (${baseVersion} -> ${baseVersion+1})` };
+  }
+  return { candidate:true, eligible:true, reason:"answerInfo-only backfill" };
+}
+
 function canonicalCode(v){ return String(v || "").toUpperCase().replace(/[^A-Z0-9_-]/g, ""); }
 function yqNumber(code){
   const m = canonicalCode(code).match(/^YQ0*(\d+)$/);
@@ -408,6 +459,38 @@ function checkFiles(targets){
     if (quiz) validateStrictProduction(file, quiz, historical);
   }
 }
+function checkChangedFiles(baseRef, targets){
+  const index = loadIndex();
+  const byFile = new Map(index.quizzes.map(x => [String(x.file), x]));
+  const excluded = new Set(targets.map(x => path.basename(x)));
+  const historical = buildHistoricalStems(index, excluded);
+  let backfillCount = 0;
+  let strictCount = 0;
+
+  for (const input of targets) {
+    const file = path.basename(input);
+    if (!fs.existsSync(file)) { fail(`${file}: target missing`); continue; }
+    const meta = byFile.get(file);
+    if (!meta) fail(`${file}: target not present in quiz-index`);
+    const current = validateBasicQuiz(file, meta || null);
+    if (!current) continue;
+
+    const baseline = readJsonFromGit(baseRef, file);
+    const delta = knowledgeBackfillDelta(baseline, current);
+    if (delta.candidate) {
+      backfillCount++;
+      if (!delta.eligible) fail(`${file}: invalid knowledge backfill: ${delta.reason}`);
+      for (const q of current.questions) validateAnswerInfo(file, q);
+      if (delta.eligible) note(`${file}: knowledge backfill invariant PASS (only version + answerInfo changed)`);
+    } else {
+      strictCount++;
+      validateStrictProduction(file, current, historical);
+      note(`${file}: strict production QA (${delta.reason})`);
+    }
+  }
+  note(`changed-file routing: knowledge-backfill=${backfillCount} · strict=${strictCount}`);
+}
+
 function printAndExit(){
   if (hard.length) {
     console.error("\nHARD FAILS");
@@ -436,8 +519,14 @@ try {
     if (!targets.length) throw new Error("usage: check YQxxx.json [YQyyy.json ...]");
     repoCheck();
     checkFiles(targets);
+  } else if (cmd === "check-changed") {
+    const baseRef = process.argv[3];
+    const targets = process.argv.slice(4);
+    if (!baseRef || !targets.length) throw new Error("usage: check-changed BASE_REF YQxxx.json [YQyyy.json ...]");
+    repoCheck();
+    checkChangedFiles(baseRef, targets);
   } else {
-    throw new Error("commands: repo | check YQxxx.json [YQyyy.json ...]");
+    throw new Error("commands: repo | check YQxxx.json [YQyyy.json ...] | check-changed BASE_REF YQxxx.json [...]");
   }
 
   printAndExit();

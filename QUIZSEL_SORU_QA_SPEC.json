@@ -1,7 +1,7 @@
 {
   "name": "Quizsel Soru QA Spec",
-  "version": "2.2",
-  "manualVersion": "2.4",
+  "version": "2.3",
+  "manualVersion": "2.5",
   "authoritativeManual": "QUIZSEL_SORU_URETIM_MANUELI.md",
   "semanticIndexSpec": "QUIZSEL_SEMANTIC_INDEX_SPEC.json",
   "runtimeSchemaImpact": "backward-compatible answerInfo extension; required for YQ253+",
@@ -322,5 +322,30 @@
       "answerInfoMaxChars": 500,
       "legacyFallbackAllowedThroughQuiz": "YQ252"
     }
+  },
+  "knowledgeBackfill": {
+    "purpose": "Legacy YQ quizlerine answerInfo eklerken eski semantic/stem borçlarını yeniden açmadan içerik bütünlüğünü korumak",
+    "allowedChanges": [
+      "quiz.version exactly +1",
+      "questions[].answerInfo"
+    ],
+    "forbiddenChanges": [
+      "question text",
+      "options",
+      "answer",
+      "time",
+      "questionType",
+      "image fields",
+      "quiz metadata other than version",
+      "question ordering/count"
+    ],
+    "answerInfoRequiredForEveryQuestionInBackfill": true,
+    "answerInfoMinSentences": 1,
+    "answerInfoMaxSentences": 3,
+    "answerInfoMinChars": 24,
+    "answerInfoMaxChars": 500,
+    "ciCommand": "node quiz-qa-tool.mjs check-changed BASE_REF YQxxx.json [...]",
+    "routing": "answerInfo-only delta -> knowledge backfill invariant; all other quiz deltas -> existing strict production QA",
+    "semanticIndexMutation": "none when stem/options/answer/semantic facts are unchanged"
   }
 }

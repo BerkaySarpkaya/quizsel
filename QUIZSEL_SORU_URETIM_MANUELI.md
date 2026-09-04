@@ -1,11 +1,11 @@
 # Quizsel Soru Üretim Manueli
-## Sürüm 2.4 — Semantic QA, Bilgi Canavarı & Automated Health Standardı
+## Sürüm 2.5 — Semantic QA, Bilgi Canavarı Backfill & Automated Health Standardı
 
 Bu belge Quizsel için yeni soru üretiminde authoritative kalite sözleşmesidir.
 `QUIZSEL_SORU_QA_SPEC.json` makine-okunabilir eşlikçidir.
 `QUIZSEL_SEMANTIC_INDEX_SPEC.json` YQ133+ semantic-index sözleşmesidir.
 
-Semantic authoring metadata runtime quiz JSON şemasını değiştirmez. v2.4 ile `answerInfo` soru JSON’una backward-compatible bir runtime alanı olarak eklenmiştir.
+Semantic authoring metadata runtime quiz JSON şemasını değiştirmez. v2.4 ile `answerInfo` soru JSON’una backward-compatible bir runtime alanı olarak eklenmiştir. v2.5, legacy quizlere güvenli `answerInfo` backfill akışını tanımlar.
 
 ## 1. Varsayılan quiz profili
 
@@ -355,3 +355,34 @@ Query:
 
 Kullanıcı semantic index'i elle güncellemez.
 Yeni quiz teslimi quiz JSON + `quiz-index.json` + semantic index güncellemesini birlikte taşır.
+
+
+## 17. Retroactive Bilgi Canavarı Backfill
+
+YQ252 ve öncesindeki mevcut quizlere `answerInfo` eklenebilir. Bu işlem soru üretimi veya semantic rewrite değildir; yalnız runtime açıklama zenginleştirmesidir.
+
+Backfill için izin verilen değişiklikler yalnızca:
+- quiz `version`: önceki sürümden tam `+1`,
+- her soruda `answerInfo`: 1–3 cümle, 24–500 karakter.
+
+Aşağıdakiler backfill modunda **değişemez**:
+- soru metni,
+- seçenekler ve sıraları,
+- doğru cevap indeksi,
+- süre / questionType,
+- görsel alanları,
+- soru sırası ve sayısı,
+- version dışındaki quiz metadata alanları.
+
+CI, `node quiz-qa-tool.mjs check-changed BASE_REF ...` ile git baseline'ını okuyarak dosya bazında route eder:
+- yalnız `version + answerInfo` değiştiyse **knowledge-backfill invariant** çalışır,
+- başka herhangi bir alan değiştiyse mevcut **strict production QA** aynen çalışır.
+
+Bu ayrım legacy quizlerde daha önce var olan duplicate-stem / fuzzy-stem borçlarının sırf açıklama eklendi diye yeniden blocker olmasını önler; yeni veya semantik olarak değişen soruların hard kapılarını gevşetmez.
+
+`answerInfo` semantic signature, factCluster veya Bloom token kaynağı değildir. Stem, seçenek, doğru cevap ve semantic metadata değişmediği sürece semantic manifest/shard güncellemesi yapılmaz; tam `validate --source` gate'i yine zorunludur.
+
+Doğruluk politikası:
+- `answerInfo` yeni bir gerçek iddiası içeriyorsa o iddia da soru cevabı kadar doğrulanabilir olmalıdır,
+- değişebilir gerçeklerden kaçınılır; gerekiyorsa güncel kaynakla doğrulanır,
+- eğlenceli detay doğrulanamıyorsa eklenmez; kısa ama kesin açıklama tercih edilir.

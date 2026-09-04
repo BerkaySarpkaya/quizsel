@@ -1,4 +1,4 @@
-# Quizsel Semantic Index Protocol — v2.1 Tool Policy
+# Quizsel Semantic Index Protocol — v2.2 Tool Policy
 
 Authoritative soru kaynağı quiz JSON dosyalarıdır. Semantic index yalnız authoring/QA retrieval katmanıdır. YQ253+ `answerInfo` alanı runtime sunum içeriğidir; semantic entry veya Bloom token üretimine dahil edilmez.
 
@@ -81,3 +81,10 @@ Minimum Node 18; önerilen Node 20 LTS.
 ## Kullanıcı işi
 
 Semantic index elle düzenlenmez.
+
+
+## Bilgi Canavarı backfill
+
+Legacy bir quizde yalnız `version + questions[].answerInfo` değişiyorsa semantic source fact değişmiş sayılmaz. Bu nedenle manifest/shard mutation yapılmaz.
+
+CI yine `quiz-semantic-index-tool.mjs validate --source` çalıştırır. Soru metni, seçenek, doğru cevap veya semantic fact yüzeyi değişirse bu istisna geçersizdir ve normal `replace` / strict QA yolu kullanılır.

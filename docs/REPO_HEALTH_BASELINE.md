@@ -130,3 +130,20 @@ Post-feature kabul kapıları:
 3. `node quiz-qa-tool.mjs check YQ253.json` → hard=0, review=0.
 4. `node quiz-semantic-index-tool.mjs validate --source` → PASS.
 5. Headless Bilgi Canavarı smoke: final → review → final, 10/10 doğru cevap ve 10/10 `answerInfo` render.
+
+---
+
+## 2026-09-04 — Legacy Bilgi Canavarı backfill gate
+
+YQ223–YQ252 için retroactive `answerInfo` zenginleştirmesi sırasında mevcut changed-file strict QA'nın, soru metinleri değişmemiş olsa bile legacy exact/fuzzy duplicate borçlarını yeniden blocker yaptığı görüldü.
+
+Kalıcı çözüm:
+
+- `quiz-qa-tool.mjs check-changed BASE_REF ...` eklendi.
+- Git baseline'ı ile mevcut quiz JSON'u karşılaştırılır.
+- Yalnız `version + questions[].answerInfo` değişmişse dosya `knowledge-backfill` olarak route edilir.
+- Soru metni, seçenek, doğru cevap, süre, questionType, görsel, soru sırası/sayısı veya başka metadata değişirse backfill route reddedilir ve mevcut strict production QA çalışır.
+- Backfill'de version tam `+1`; her soruda `answerInfo` 1–3 cümle ve 24–500 karakter zorunludur.
+- Semantic manifest/shard değiştirilmez; `validate --source` yine zorunlu gate'tir.
+
+Amaç QA'yı gevşetmek değil, **semantik olarak değişmeyen legacy içeriği açıklama zenginleştirmesi ile güvenli biçimde güncelleyebilmek** ve eski duplicate borçlarını bu işlemden ayırmaktır.
