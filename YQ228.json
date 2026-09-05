@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 228",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Venüs'ün Doğuşu” adlı görsel sanat eseri Sandro Botticelli tarafından yaratılmıştır."
+      "answerInfo": "Tablo, o dönemde alışılmış ahşap panel yerine tuval üzerine tempera ile yapılmıştır ve Floransa'daki Uffizi Galerisi'ndedir. Venüs'ün bir deniz kabuğu üstünde kıyıya varışını betimler."
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Bir Sergiden Tablolar”, Modest Mussorgsky tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser aslında piyano için yazıldı; bugün en çok çalınan hâli Maurice Ravel'in 1922'de yaptığı orkestra düzenlemesidir. Bölümler, ressam Viktor Hartmann'ın sergilenen yapıtlarını betimler."
     },
     {
       "id": 4,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Dorian Gray'in Portresi”, Oscar Wilde tarafından yazılmıştır."
+      "answerInfo": "Wilde'ın tek romanıdır ve portresi yaşlanırken kendisinin genç kalması fikri üzerine kurulur. İlk dergi baskısı ahlaki tepkiler yüzünden kısaltılmış, yazar sonraki basıma savunma niteliğinde bir önsöz eklemiştir."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ümit Burnu, Güney Afrika sınırları içinde yer alır."
+      "answerInfo": "Adını 15. yüzyılda Portekizlilerin Hindistan'a deniz yolu bulma umudundan alır. Yaygın kanının aksine Afrika'nın en güney noktası değildir; o nokta yaklaşık 150 kilometre güneydoğudaki Agulhas Burnu'dur."
     },
     {
       "id": 9,

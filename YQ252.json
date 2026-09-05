@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 252",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Aylak Adam”, Yusuf Atılgan tarafından yazılmıştır."
+      "answerInfo": "Roman 1959'da yayımlandı ve Türk edebiyatında iç monoloğu ustalıkla kullanan ilk örneklerden sayılır. Kahramanı C., kalabalık İstanbul'da hiçbir işe bağlanmadan dolaşan bir yabancıdır."
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Zigguratlar, özellikle antik Mezopotamya kentlerinde inşa edilen basamaklı tapınak platformlarıdır."
+      "answerInfo": "Basamaklı platformun tepesinde bir tapınak bulunur ve yapıya yalnızca rahipler çıkabilirdi. Piramitlerden farkı, mezar değil ibadet ve yönetim merkezi olmalarıdır."
     },
     {
       "id": 4,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Torres Boğazı, Avustralya’nın Cape York Yarımadası ile Yeni Gine arasında yer alır."
+      "answerInfo": "Boğaz yalnızca yaklaşık 150 kilometre genişliğindedir. Son buzul çağında deniz seviyesi düşükken burası karayla bağlıydı ve iki kara kütlesi tek bir parça hâlindeydi."
     },
     {
       "id": 6,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Turandot”, Giacomo Puccini tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Puccini eseri tamamlayamadan öldü; finali öğrencisi Franco Alfano notlarından yazdı. İlk temsilde şef Toscanini, bestecinin bıraktığı yerde orkestrayı durdurup temsili bitirdi."
     },
     {
       "id": 9,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "HDMI, dijital görüntü ve sesi tek kablo/bağlantı üzerinden taşıyabilen bir arayüz standardıdır."
+      "answerInfo": "Ses ve görüntüyü aynı kabloda taşıması, önceki kurulumlarda gereken ayrı ses kablosunu ortadan kaldırdı. Standart, çözünürlük ve tazeleme hızı arttıkça sürüm sürüm genişletilmiştir."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 245",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -35,12 +35,12 @@
     },
     {
       "id": 2,
-      "text": "Angel Şelalesi hangi ülkededir?",
+      "text": "Volkanik bir dağın patlamadan sonra çöken tepesinde oluşan geniş çukura ne ad verilir?",
       "options": [
-        "Fransa",
-        "Rusya",
-        "İspanya",
-        "Venezuela"
+        "Menderes",
+        "Moren",
+        "Peribacası",
+        "Kaldera"
       ],
       "answer": 3,
       "time": 20,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Angel Şelalesi, Venezuela sınırları içinde yer alır."
+      "answerInfo": "Kaldera, magma odası boşalınca tavanın kendi ağırlığıyla çökmesiyle oluşur; bu yüzden krater ağzından çok daha geniştir. Bitlis'teki Nemrut Gölü böyle bir çukurun suyla dolmasıyla oluşmuştur."
     },
     {
       "id": 3,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Europa, Jüpiter’in büyük Galilei uydularından biridir."
+      "answerInfo": "Buzdan kabuğunun altında, Dünya'daki tüm okyanuslardan daha fazla su barındıran bir sıvı okyanus bulunduğu düşünülür. Bu yüzden Güneş Sistemi'nde yaşam aranacak en umut verici yerlerden sayılır."
     },
     {
       "id": 5,
@@ -145,16 +145,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Casa Batlló, Antoni Gaudí ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Barselona'daki yapı, pullu çatısı ve kemik biçimli balkonlarıyla halk arasında “kemikler evi” diye anılır. Mimar, mevcut bir apartmanı baştan aşağı yeniden biçimlendirerek bu sonuca ulaşmıştır."
     },
     {
       "id": 8,
-      "text": "“Enigma Variations” eserinin bestecisi kimdir?",
+      "text": "Koro topluluklarında en pes erkek ses türü hangisidir?",
       "options": [
-        "Georges Bizet",
-        "Edward Elgar",
-        "Edvard Grieg",
-        "Maurice Ravel"
+        "Tenor",
+        "Bas",
+        "Alto",
+        "Soprano"
       ],
       "answer": 1,
       "time": 20,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Enigma Variations”, Edward Elgar tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Klasik koro dört ana ses üzerine kuruludur: tizden pese doğru soprano, alto, tenor ve bas. Alto ile soprano genellikle kadın, tenor ile bas erkek seslerine karşılık gelir."
     },
     {
       "id": 9,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Damızlık Kızın Öyküsü”, Margaret Atwood tarafından yazılmıştır."
+      "answerInfo": "Atwood, romana yalnızca tarihte bir yerde gerçekten yaşanmış uygulamaları koyduğunu söyler. Kitap 1985'te yayımlandı ve yıllar sonra bir dizi uyarlamasıyla yeniden gündeme geldi."
     },
     {
       "id": 10,

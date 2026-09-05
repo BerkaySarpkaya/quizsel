@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 231",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Usta ile Margarita”, Mihail Bulgakov tarafından yazılmıştır."
+      "answerInfo": "Bulgakov romanı yıllarca gizlice yazdı ve bir taslağını kendi eliyle yaktı. Eser ancak ölümünden yirmi altı yıl sonra, 1966-67'de sansürlü biçimde yayımlanabildi."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ren Nehri, Hollanda’daki deltası üzerinden Kuzey Denizi’ne ulaşır."
+      "answerInfo": "Alpler'de doğup İsviçre, Almanya ve Hollanda'yı geçen Ren, Avrupa'nın en yoğun kullanılan iç suyollarından biridir. Rotterdam Limanı da büyük ölçüde bu ağzın taşıdığı yük trafiği üzerine kurulmuştur."
     },
     {
       "id": 4,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Eine kleine Nachtmusik”, Wolfgang Amadeus Mozart tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Adı “küçük bir gece müziği” anlamına gelir. Mozart eseri 1787'de yazdı ama sağlığında yayımlanmadı; özgün elyazmasında geçen beş bölümden biri bugün kayıptır."
     },
     {
       "id": 6,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“İzlenim, Gün Doğumu” adlı görsel sanat eseri Claude Monet tarafından yaratılmıştır."
+      "answerInfo": "Empresyonizm akımının adı, bir eleştirmenin tam da bu tablonun başlığını alaya alarak kullanmasından doğdu. Tablo, Le Havre limanının sabah sisini betimler."
     },
     {
       "id": 9,

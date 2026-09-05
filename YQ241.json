@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 241",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Valkürlerin Uçuşu”, Richard Wagner tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Parça, dört operadan oluşan Nibelungen Yüzüğü dizisinin ikincisi olan “Valkür”ün üçüncü perdesinde geçer. Wagner bu dizi için Bayreuth'ta kendi tasarımına göre bir opera binası yaptırmıştır."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Azor Adaları, Portekiz sınırları içinde yer alır."
+      "answerInfo": "Takımada Atlantik'in ortasındaki sırt üzerinde volkanik kökenlidir ve anakaradan yaklaşık 1.400 kilometre uzaktadır. Kendi parlamentosu ve hükümeti olan özerk bir bölgedir."
     },
     {
       "id": 3,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Merkezcil ivme her an dairesel yörüngenin merkezine doğrudur."
+      "answerInfo": "Merkezcil ivme hızın büyüklüğünü değil yönünü değiştirir; bu yüzden sabit süratle dönen bir cisim bile ivmelenmiş sayılır. Virajda dışarı savrulma hissi ayrı bir kuvvet değil, eylemsizliğin sonucudur."
     },
     {
       "id": 5,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Sydney Opera Binası, Jørn Utzon ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Utzon kabuk biçimli çatıyı, tek bir kürenin yüzeyinden kesilmiş parçalar olarak çözünce yapım mümkün hâle geldi. Bina 1973'te açıldı; Utzon ise anlaşmazlıklar yüzünden 1966'da projeden ayrılmıştı."
     },
     {
       "id": 6,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Faust”, Johann Wolfgang von Goethe tarafından yazılmıştır."
+      "answerInfo": "Goethe eser üzerinde yaklaşık altmış yıl çalıştı ve ikinci bölüm ancak ölümünden sonra yayımlandı. Bilgi uğruna ruhunu şeytana satan bilgin motifi Avrupa edebiyatının en çok işlenen konularındandır."
     },
     {
       "id": 7,

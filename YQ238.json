@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 238",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Çimen Yaprakları”, Walt Whitman tarafından yazılmıştır."
+      "answerInfo": "Whitman kitabı 1855'te yalnızca on iki şiirle ve kendi parasıyla bastırdı; ömrü boyunca genişleterek yeniden yayımladı ve son baskısında dört yüzden fazla şiir yer aldı."
     },
     {
       "id": 2,
@@ -54,12 +54,12 @@
     },
     {
       "id": 3,
-      "text": "Gobi Çölü hangi iki ülkeye yayılır?",
+      "text": "Bir bölgenin çöl sayılması için temel ölçüt nedir?",
       "options": [
-        "Karadeniz ve Marmara Denizi",
-        "Avrupa ve Asya",
-        "Atlas Okyanusu ve Akdeniz",
-        "Moğolistan ve Çin"
+        "Yıl boyunca sıcaklığın yüksek olması",
+        "Yüzeyinin kumla kaplı olması",
+        "Bitki örtüsünün hiç bulunmaması",
+        "Yıllık yağışın çok düşük olması"
       ],
       "answer": 3,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Gobi Çölü, Moğolistan’ın güneyi ile Çin’in kuzeyine yayılan geniş bir çöl bölgesidir."
+      "answerInfo": "Ölçüt sıcaklık değil yağıştır; bu yüzden Antarktika yeryüzünün en büyük çölü sayılır. Kumullar da çöllerin yalnızca bir bölümünü kaplar, çoğu çöl taşlık ya da çakıllıdır."
     },
     {
       "id": 4,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Oda sıcaklığına yakın koşullarda nötr saf suyun pH değeri yaklaşık 7’dir."
+      "answerInfo": "pH ölçeği logaritmiktir; bir birim düşmek asitliğin on kat artması demektir. Suyun nötr değeri sıcaklıkla da değişir, kaynama noktasına yakın sıcaklıkta 6 dolayına iner."
     },
     {
       "id": 7,
@@ -168,12 +168,12 @@
     },
     {
       "id": 9,
-      "text": "“Clair de Lune” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
+      "text": "Bir müzik eserindeki “piyano (p)” ve “forte (f)” işaretleri neyi belirtir?",
       "options": [
-        "Franz Liszt",
-        "Claude Debussy",
-        "Igor Stravinsky",
-        "George Gershwin"
+        "Çalınma hızını",
+        "Ses şiddetini",
+        "Kullanılacak çalgıyı",
+        "Eserin tonalitesini"
       ],
       "answer": 1,
       "time": 20,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Clair de Lune”, Claude Debussy tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Bu işaretlere dinamik denir ve yumuşaktan güçlüye doğru pp, p, mf, f, ff diye sıralanır. Piyanonun adı da hem yumuşak hem güçlü çalınabilmesinden, “pianoforte” sözcüğünden gelir."
     },
     {
       "id": 10,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Guggenheim Bilbao Müzesi, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Titanyum levhalarla kaplı eğrisel kütlesiyle 1997'de açılan yapı, kenti kısa sürede bir turizm merkezine çevirdi. Bu etki şehir planlaması literatürüne “Bilbao etkisi” adıyla girdi."
     }
   ]
 }

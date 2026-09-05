@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 235",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Sevil Berberi”, Gioachino Rossini tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Rossini operayı birkaç hafta gibi çok kısa bir sürede yazdı. İlk temsili muhalif bir seyirci grubunun gürültüsü yüzünden fiyaskoyla sonuçlandı, ama eser bugün komik operanın en çok sahnelenen örneklerindendir."
     },
     {
       "id": 4,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Düşünen Adam” adlı görsel sanat eseri Auguste Rodin tarafından yaratılmıştır."
+      "answerInfo": "Heykel önce Rodin'in “Cehennem Kapıları” adlı büyük kapı düzenlemesinin tepesinde, şairi temsil eden küçük bir figür olarak tasarlanmıştı. Sonradan bağımsız ve büyük ölçekte dökülünce dünyaca tanındı."
     },
     {
       "id": 5,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Nevruz, geniş bir coğrafyada baharın gelişini ve yeni yılı simgeleyen geleneksel kutlamaların ortak adıdır."
+      "answerInfo": "21 Mart dolayındaki ilkbahar gündönümüne denk gelir ve İran, Orta Asya, Kafkasya ile Anadolu'da farklı adlarla kutlanır. UNESCO 2009'da Nevruz'u somut olmayan kültürel miras listesine aldı."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Veba”, Albert Camus tarafından yazılmıştır."
+      "answerInfo": "Roman, Cezayir'deki Oran kentinde patlak veren salgını anlatır ve çoğu okur tarafından işgal altındaki Fransa'nın alegorisi olarak okunur. Camus'nün absürt döneminden başkaldırı dönemine geçişini işaret eder."
     },
     {
       "id": 9,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Tungstenin kimyasal sembolü W’dir; bu harf elementin “wolfram” adından gelir."
+      "answerInfo": "Bilinen metaller arasında en yüksek erime sıcaklığına sahiptir, yaklaşık 3.422 °C. Bu özelliği onu uzun yıllar akkor ampul flamanlarının temel malzemesi yapmıştır."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 247",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Victoria Şelaleleri, Zambezi Nehri üzerinde Zambiya ile Zimbabve sınırında yer alır."
+      "answerInfo": "Yerel adı “gürleyen duman” anlamına gelen Mosi-oa-Tunya'dır. Yaklaşık 1.700 metre genişliğiyle dünyanın en geniş tek perde şelalesi sayılır ve sisi kilometrelerce öteden görülebilir."
     },
     {
       "id": 4,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Karlar Ülkesi”, Yasunari Kawabata tarafından yazılmıştır."
+      "answerInfo": "Kawabata, Nobel Edebiyat Ödülü'nü kazanan ilk Japon yazardır. Bu romanı yıllara yayılan bölümler hâlinde yazdı ve kitap olarak yayımladıktan sonra da kısaltıp yeniden düzenledi."
     },
     {
       "id": 5,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Messiah”, George Frideric Handel tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Handel eseri yaklaşık üç haftada yazdı ve ilk kez 1742'de Dublin'de seslendirildi. “Halleluyah” bölümünde ayağa kalkma geleneğinin, o gün kralın ayağa kalkmasıyla başladığı anlatılır."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Heydar Aliyev Merkezi, Zaha Hadid ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Bakü'deki yapı, hiçbir keskin köşe içermeyecek biçimde tasarlanmış akışkan bir kabuktan oluşur. Hadid, mimarlığın en saygın ödülü sayılan Pritzker'i kazanan ilk kadındır."
     },
     {
       "id": 9,

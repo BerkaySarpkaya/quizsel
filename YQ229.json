@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 229",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Mavi Tuna”, Johann Strauss II tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Viyana valslerinin en tanınmışıdır ve Avusturya'nın gayriresmî ikinci marşı sayılır. İlk seslendirilişi 1867'de koro eşliğindeydi; asıl ününü sonradan yapılan orkestra düzenlemesiyle kazandı."
     },
     {
       "id": 6,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Dönüşüm”, Franz Kafka tarafından yazılmıştır."
+      "answerInfo": "Kafka, kitabın kapağında böceğin resmedilmemesini yayıncısından özellikle istedi. Öykü, Gregor Samsa'nın bir sabah dev bir böcek olarak uyanmasıyla başlar ve ailesinin ona bakışındaki değişimi izler."
     },
     {
       "id": 7,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Aconcagua Dağı, Arjantin sınırları içinde yer alır."
+      "answerInfo": "Yaklaşık 6.961 metreyle Asya dışındaki en yüksek dağdır. Kuzey rotası teknik tırmanış gerektirmediği için dünyanın en yüksek yürünebilir zirvelerinden sayılır."
     },
     {
       "id": 8,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Dünyevi Zevkler Bahçesi” adlı görsel sanat eseri Hieronymus Bosch tarafından yaratılmıştır."
+      "answerInfo": "Üç panelli bir katlanır sunak resmidir: sol panel cenneti, orta panel dünyevi hazları, sağ panel cehennemi betimler. Kanatlar kapatıldığında dışta dünyanın yaratılışı görünür."
     }
   ]
 }

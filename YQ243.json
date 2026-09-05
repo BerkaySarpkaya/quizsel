@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 243",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Adagio for Strings”, Samuel Barber tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Parça aslında bir yaylı dörtlünün yavaş bölümüydü; Barber onu yaylı orkestra için düzenleyince ünlendi. Roosevelt ve Kennedy'nin cenaze törenlerinde çalınarak yas müziğiyle özdeşleşti."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "19. yüzyıldaki Afyon Savaşları esas olarak Britanya ile Çin’deki Çing İmparatorluğu arasında yaşandı."
+      "answerInfo": "Britanya, Hindistan'da ürettiği afyonu Çin'e satmakta ısrar edince savaş çıktı. Sonuçta Çin limanlarını dış ticarete açmak zorunda kaldı ve Hong Kong Britanya'ya bırakıldı."
     },
     {
       "id": 4,
@@ -145,16 +145,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Korsika Adası, Fransa sınırları içinde yer alır."
+      "answerInfo": "Napolyon 1769'da bu adada doğdu; ada Cenova'dan devredileli henüz bir yıl olmuştu. Bugün ülkenin özel statüye sahip tek bölgesidir."
     },
     {
       "id": 8,
-      "text": "Işık yılı hangi fiziksel büyüklüğün birimidir?",
+      "text": "Bir gezegenin yörüngesinde Güneş'e en yakın olduğu noktaya ne ad verilir?",
       "options": [
-        "Uzaklık",
-        "Sıcaklık",
-        "Enerji",
-        "Kütle"
+        "Günberi",
+        "Günöte",
+        "Tutulma",
+        "Salınım"
       ],
       "answer": 0,
       "time": 20,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Işık yılı bir zaman değil uzaklık birimidir; ışığın boşlukta bir yılda aldığı mesafeyi ifade eder."
+      "answerInfo": "Karşıt noktaya günöte denir. Dünya günberiden ocak başında geçer; yani kuzey yarımkürede kış, Güneş'e en yakın olduğumuz dönemdir — mevsimleri uzaklık değil eksen eğikliği belirler."
     },
     {
       "id": 9,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Gazap Üzümleri”, John Steinbeck tarafından yazılmıştır."
+      "answerInfo": "Roman, 1930'ların Toz Kâsesi kuraklığında Oklahoma'dan Kaliforniya'ya göç eden bir aileyi anlatır. Kitap Pulitzer kazandı ama bazı bölgelerde yasaklandı ve yakıldı."
     },
     {
       "id": 10,

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 234",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Kalayın kimyasal sembolü Sn’dir; sembol Latince “stannum” adından gelir."
+      "answerInfo": "Kalay bakırla alaşımlandığında tunç elde edilir; bu alaşım bir çağa adını verecek kadar belirleyici olmuştur. Kalayın soğukta kırılgan bir biçime dönüşmesine ise kalay vebası denir."
     },
     {
       "id": 2,
@@ -54,12 +54,12 @@
     },
     {
       "id": 3,
-      "text": "“Carmen” aşağıdaki bestecilerden hangisinin eseridir?",
+      "text": "Aynı ezginin farklı seslerde belirli aralıklarla art arda girmesine dayanan müzik biçimi hangisidir?",
       "options": [
-        "Carl Orff",
-        "Antonín Dvořák",
-        "Edward Elgar",
-        "Georges Bizet"
+        "Sonat",
+        "Süit",
+        "Uvertür",
+        "Kanon"
       ],
       "answer": 3,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Carmen”, Georges Bizet tarafından bestelenmiş bir eserdir."
+      "answerInfo": "En bilinen örneği, çocuk şarkısı olarak da söylenen “Frère Jacques”tır. Kanonda her ses aynı ezgiyi gecikmeli söylediği için parça kendi kendisiyle uyum oluşturur."
     },
     {
       "id": 4,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Feta, geleneksel olarak salamurada olgunlaştırılan ve Yunan mutfağıyla özdeşleşen beyaz peynirdir."
+      "answerInfo": "Feta adı 2002'den beri Avrupa Birliği'nde coğrafi işaretle korunur. Yalnızca Yunanistan'ın belirli bölgelerinde ve ağırlıklı olarak koyun sütüyle üretilen peynir bu adı taşıyabilir."
     },
     {
       "id": 6,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Körlük”, José Saramago tarafından yazılmıştır."
+      "answerInfo": "Saramago noktalama ve paragraf düzenini bilinçli olarak kırar; romanda hiçbir karakterin adı yoktur, kişiler yalnızca özellikleriyle anılır. Yazar 1998'de Nobel Edebiyat Ödülü'nü kazandı."
     },
     {
       "id": 7,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Önbellek, sık kullanılan verilerin daha hızlı erişim için geçici olarak daha yakın veya daha hızlı bir depolama katmanında tutulmasıdır."
+      "answerInfo": "Önbelleğin işe yaraması için isabet oranının yüksek olması gerekir. Aranan veri önbellekte bulunamazsa sistem yavaş katmana gitmek zorunda kalır; buna ıskalama denir."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Broadway Boogie Woogie” adlı görsel sanat eseri Piet Mondrian tarafından yaratılmıştır."
+      "answerInfo": "Mondrian'ın tamamladığı son tablodur. New York'un ızgara sokak düzeninden ve boogie-woogie caz ritminden esinlenerek alışılmış siyah çizgilerini renkli kare dizilerine dönüştürmüştür."
     },
     {
       "id": 9,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Yeniçeri Ocağı, Osmanlı İmparatorluğu’nun merkezî kapıkulu askerî teşkilatının önemli unsurlarından biriydi."
+      "answerInfo": "Ocak, devşirme yoluyla toplanan çocukların yetiştirilmesiyle beslenirdi ve maaşlı, sürekli bir piyade sınıfı olarak Avrupa'daki ilk örneklerdendi. II. Mahmud ocağı 1826'da kaldırdı."
     },
     {
       "id": 10,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Balaton Gölü, Macaristan sınırları içinde yer alır."
+      "answerInfo": "Orta Avrupa'nın en büyük gölüdür ve ortalama derinliği yalnızca üç metre dolayında olduğu için yazın hızla ısınır. Bu sığlık, gölü ülkenin en yoğun tatil bölgesi hâline getirmiştir."
     }
   ]
 }

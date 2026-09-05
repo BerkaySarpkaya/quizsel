@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 244",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Sardinya Adası, İtalya sınırları içinde yer alır."
+      "answerInfo": "Akdeniz'in Sicilya'dan sonraki en büyük ikinci adasıdır. Adada Tunç Çağı'ndan kalma, nuraghe adı verilen binlerce taş kule bulunur."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ana asteroit kuşağı, Mars ile Jüpiter’in yörüngeleri arasında yer alır."
+      "answerInfo": "Kuşaktaki tüm cisimlerin toplam kütlesi Ay'ınkinden bile azdır; bu yüzden filmlerdeki sık asteroit alanı görüntüsü gerçeği yansıtmaz. Cisimler arası ortalama uzaklık yüz binlerce kilometredir."
     },
     {
       "id": 3,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Fahrenheit 451”, Ray Bradbury tarafından yazılmıştır."
+      "answerInfo": "Başlık, kâğıdın kendiliğinden tutuştuğu sıcaklık olarak seçildi. Bradbury romanı bir kütüphanenin bodrumundaki kiralık daktiloda, yarım saat için on sent atarak yazdı."
     },
     {
       "id": 5,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Appalachian Spring”, Aaron Copland tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser bir bale için yazıldı ve bestecisine 1945 Pulitzer Müzik Ödülü'nü kazandırdı. Finalinde bir Shaker ilahisi olan “Simple Gifts” ezgisi çeşitlemelerle işlenir."
     },
     {
       "id": 7,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Villa Savoye, Le Corbusier ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Yapı, mimarın “yeni mimarlığın beş noktası” dediği ilkelerin en saf uygulaması sayılır: kolonlar üzerinde yükselme, serbest plan, serbest cephe, yatay şerit pencere ve çatı bahçesi."
     },
     {
       "id": 10,

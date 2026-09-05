@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-04T22:10:45.080Z",
+  "generated": "2026-09-05T10:41:14.920Z",
   "totals": {
     "quizzes": 260,
     "questions": 2600,
-    "hard": 166,
-    "review": 701
+    "hard": 79,
+    "review": 640
   },
   "findings": [
     {
@@ -38,17 +38,6 @@
       "refs": [
         "QZ002#7",
         "YQ148#3"
-      ]
-    },
-    {
-      "gate": "DUP_EXACT",
-      "severity": "hard",
-      "fingerprint": "DUP_EXACT|QZ005#4,YQ251#1",
-      "message": "Birebir aynı stem: QZ005#4 ↔ YQ251#1",
-      "stem": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
-      "refs": [
-        "QZ005#4",
-        "YQ251#1"
       ]
     },
     {
@@ -148,17 +137,6 @@
       "refs": [
         "YQ009#4",
         "YQ147#5"
-      ]
-    },
-    {
-      "gate": "DUP_EXACT",
-      "severity": "hard",
-      "fingerprint": "DUP_EXACT|YQ010#9,YQ245#2",
-      "message": "Birebir aynı stem: YQ010#9 ↔ YQ245#2",
-      "stem": "Angel Şelalesi hangi ülkededir?",
-      "refs": [
-        "YQ010#9",
-        "YQ245#2"
       ]
     },
     {
@@ -302,39 +280,6 @@
       "refs": [
         "YQ056#7",
         "YQ152#6"
-      ]
-    },
-    {
-      "gate": "DUP_EXACT",
-      "severity": "hard",
-      "fingerprint": "DUP_EXACT|YQ057#8,YQ243#8",
-      "message": "Birebir aynı stem: YQ057#8 ↔ YQ243#8",
-      "stem": "Işık yılı hangi fiziksel büyüklüğün birimidir?",
-      "refs": [
-        "YQ057#8",
-        "YQ243#8"
-      ]
-    },
-    {
-      "gate": "DUP_EXACT",
-      "severity": "hard",
-      "fingerprint": "DUP_EXACT|YQ058#7,YQ245#8",
-      "message": "Birebir aynı stem: YQ058#7 ↔ YQ245#8",
-      "stem": "Enigma Variations eserinin bestecisi kimdir?",
-      "refs": [
-        "YQ058#7",
-        "YQ245#8"
-      ]
-    },
-    {
-      "gate": "DUP_EXACT",
-      "severity": "hard",
-      "fingerprint": "DUP_EXACT|YQ073#5,YQ240#6",
-      "message": "Birebir aynı stem: YQ073#5 ↔ YQ240#6",
-      "stem": "Galápagos Adaları hangi ülkeye bağlıdır?",
-      "refs": [
-        "YQ073#5",
-        "YQ240#6"
       ]
     },
     {
@@ -826,16 +771,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ056#2|YQ239#1",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.77: YQ056#2 ↔ YQ239#1 (cevap: Tanzanya)",
-      "sim": 0.766,
-      "a": "Serengeti ekosisteminin en büyük bölümü hangi ülkede yer alır?",
-      "b": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
-      "answer": "Tanzanya"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ053#2|YQ134#1",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.76: YQ053#2 ↔ YQ134#1 (cevap: Şili)",
       "sim": 0.762,
@@ -896,16 +831,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ141#4|YQ239#3",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.73: YQ141#4 ↔ YQ239#3 (cevap: Frank Lloyd Wright)",
-      "sim": 0.735,
-      "a": "Fallingwater (Şelale Evi) hangi mimarın tasarımıdır?",
-      "b": "Fallingwater hangi mimarın tasarımıdır?",
-      "answer": "Frank Lloyd Wright"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ142#2|YQ247#3",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.73: YQ142#2 ↔ YQ247#3 (cevap: Zambiya ve Zimbabve)",
       "sim": 0.731,
@@ -932,16 +857,6 @@
       "a": "Clair de Lune adlı piyano eserinin bestecisi kimdir?",
       "b": "Clair de Lune eserinin bestecisi kimdir?",
       "answer": "Claude Debussy"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ150#3|YQ239#1",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.72: YQ150#3 ↔ YQ239#1 (cevap: Tanzanya)",
-      "sim": 0.725,
-      "a": "Serengeti ekosisteminin büyük bölümü hangi ülkenin sınırları içindedir?",
-      "b": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
-      "answer": "Tanzanya"
     },
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
@@ -1176,16 +1091,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ158#5|YQ250#2",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.65: YQ158#5 ↔ YQ250#2 (cevap: Sabahattin Ali)",
-      "sim": 0.654,
-      "a": "Kürk Mantolu Madonna romanının yazarı kimdir?",
-      "b": "“Kürk Mantolu Madonna” adlı eserin yazarı kimdir?",
-      "answer": "Sabahattin Ali"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ033#4|YQ038#4",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.65: YQ033#4 ↔ YQ038#4 (cevap: Müdafi)",
       "sim": 0.65,
@@ -1326,42 +1231,12 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ163#6|YQ230#6",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ163#6 ↔ YQ230#6 (cevap: Ludwig van Beethoven)",
-      "sim": 0.619,
-      "a": "Ay Işığı Sonatı olarak bilinen piyano eserinin bestecisi kimdir?",
-      "b": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
-      "answer": "Ludwig van Beethoven"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ008#10|YQ227#10",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ008#10 ↔ YQ227#10 (cevap: Hertz)",
       "sim": 0.618,
       "a": "Frekansın SI birimi hangisidir?",
       "b": "Frekansın SI birimi nedir?",
       "answer": "Hertz"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ020#10|YQ236#6",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ020#10 ↔ YQ236#6 (cevap: George Gershwin)",
-      "sim": 0.615,
-      "a": "Rhapsody in Blue eserinin bestecisi kimdir?",
-      "b": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
-      "answer": "George Gershwin"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ210#3|YQ236#6",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.62: YQ210#3 ↔ YQ236#6 (cevap: George Gershwin)",
-      "sim": 0.615,
-      "a": "Rhapsody in Blue eserinin bestecisi kimdir?",
-      "b": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
-      "answer": "George Gershwin"
     },
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
@@ -1412,16 +1287,6 @@
       "a": "Lassi içeceğinin temel süt ürünü hangisidir?",
       "b": "Ayranın temel süt ürünü hangisidir?",
       "answer": "Yoğurt"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ191#8|YQ246#2",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.60: YQ191#8 ↔ YQ246#2 (cevap: Arjantin ve Brezilya)",
-      "sim": 0.603,
-      "a": "Iguazú Şelaleleri hangi iki Güney Amerika ülkesinin sınır kesimindedir?",
-      "b": "Iguazú Şelaleleri hangi iki ülkenin sınır bölgesindedir?",
-      "answer": "Arjantin ve Brezilya"
     },
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
@@ -1702,16 +1567,6 @@
       "a": "Ümit Burnu hangi ülkenin kıyısındadır?",
       "b": "Ümit Burnu hangi ülkededir?",
       "answer": "Güney Afrika"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
-      "fingerprint": "DUP_SEM|YQ022#7|YQ230#6",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.54: YQ022#7 ↔ YQ230#6 (cevap: Ludwig van Beethoven)",
-      "sim": 0.536,
-      "a": "Ay Işığı Sonatı (Moonlight Sonata) adıyla bilinen eserin bestecisi kimdir?",
-      "b": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
-      "answer": "Ludwig van Beethoven"
     },
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
@@ -2066,16 +1921,6 @@
     {
       "gate": "DUP_SEMANTIC_SUSPECT",
       "severity": "review",
-      "fingerprint": "DUP_SEM|YQ100#3|YQ246#2",
-      "message": "Aynı doğru cevap + stem örtüşmesi 0.48: YQ100#3 ↔ YQ246#2 (cevap: Arjantin ve Brezilya)",
-      "sim": 0.482,
-      "a": "Iguazú Şelaleleri ağırlıklı olarak hangi iki ülkenin sınırında bulunur?",
-      "b": "Iguazú Şelaleleri hangi iki ülkenin sınır bölgesindedir?",
-      "answer": "Arjantin ve Brezilya"
-    },
-    {
-      "gate": "DUP_SEMANTIC_SUSPECT",
-      "severity": "review",
       "fingerprint": "DUP_SEM|YQ078#7|YQ137#5",
       "message": "Aynı doğru cevap + stem örtüşmesi 0.48: YQ078#7 ↔ YQ137#5 (cevap: Auguste Rodin)",
       "sim": 0.481,
@@ -2392,1094 +2237,6 @@
       "a": "1989'daki Kadife Devrim hangi ülkede komünist yönetimin sona ermesine giden süreci hızlandırdı?",
       "b": "Kadife Devrim hangi ülkede komünist yönetimin barışçıl biçimde sona ermesiyle ilişkilidir?",
       "answer": "Çekoslovakya"
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ228#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ228#1",
-      "answerInfo": "“Venüs'ün Doğuşu” adlı görsel sanat eseri Sandro Botticelli tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ228#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#3",
-      "answerInfo": "“Bir Sergiden Tablolar”, Modest Mussorgsky tarafından bestelenmiş bir eserdir.",
-      "question": "“Bir Sergiden Tablolar” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Modest Mussorgsky",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ228#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ228#7",
-      "answerInfo": "“Dorian Gray'in Portresi”, Oscar Wilde tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Dorian Gray'in Portresi” eserini kaleme almıştır?",
-      "answer": "Oscar Wilde",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ228#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ228#8",
-      "answerInfo": "Ümit Burnu, Güney Afrika sınırları içinde yer alır.",
-      "question": "Ümit Burnu hangi ülkededir?",
-      "answer": "Güney Afrika",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ229#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ229#5",
-      "answerInfo": "“Mavi Tuna”, Johann Strauss II tarafından bestelenmiş bir eserdir.",
-      "question": "“Mavi Tuna” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Johann Strauss II",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ229#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ229#6",
-      "answerInfo": "“Dönüşüm”, Franz Kafka tarafından yazılmıştır.",
-      "question": "“Dönüşüm” adlı eserin yazarı kimdir?",
-      "answer": "Franz Kafka",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ229#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ229#7",
-      "answerInfo": "Aconcagua Dağı, Arjantin sınırları içinde yer alır.",
-      "question": "Aconcagua Dağı hangi ülkededir?",
-      "answer": "Arjantin",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ229#10",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ229#10",
-      "answerInfo": "“Dünyevi Zevkler Bahçesi” adlı görsel sanat eseri Hieronymus Bosch tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ230#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ230#1",
-      "answerInfo": "“Madame Bovary”, Gustave Flaubert tarafından yazılmıştır.",
-      "question": "“Madame Bovary” hangi yazarın eseridir?",
-      "answer": "Gustave Flaubert",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ230#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ230#2",
-      "answerInfo": "Volga Nehri, kapalı bir iç deniz olan Hazar Denizi’ne dökülür.",
-      "question": "Volga Nehri hangi denize dökülür?",
-      "answer": "Hazar Denizi",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ230#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ230#3",
-      "answerInfo": "“Kanagawa Oki Nami Ura (Büyük Dalga)” adlı görsel sanat eseri Katsushika Hokusai tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ230#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ230#6",
-      "answerInfo": "“Ay Işığı Sonatı”, Ludwig van Beethoven tarafından bestelenmiş bir eserdir.",
-      "question": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
-      "answer": "Ludwig van Beethoven",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ230#10",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ230#10",
-      "answerInfo": "Tempura, malzemelerin hafif bir hamura bulanıp kızartıldığı Japon pişirme tekniğidir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ231#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ231#2",
-      "answerInfo": "“Usta ile Margarita”, Mihail Bulgakov tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Usta ile Margarita” eserini kaleme almıştır?",
-      "answer": "Mihail Bulgakov",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ231#3",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ231#3",
-      "answerInfo": "Ren Nehri, Hollanda’daki deltası üzerinden Kuzey Denizi’ne ulaşır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ231#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ231#5",
-      "answerInfo": "“Eine kleine Nachtmusik”, Wolfgang Amadeus Mozart tarafından bestelenmiş bir eserdir.",
-      "question": "“Eine kleine Nachtmusik” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Wolfgang Amadeus Mozart",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ231#8",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ231#8",
-      "answerInfo": "“İzlenim, Gün Doğumu” adlı görsel sanat eseri Claude Monet tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ232#1",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ232#1",
-      "answerInfo": "Pön Savaşları, MÖ 3. ve 2. yüzyıllarda Roma ile Kartaca arasında Akdeniz hâkimiyeti için yapılan üç büyük savaştır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ232#2",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ232#2",
-      "answerInfo": "“Gece Devriyesi” adlı görsel sanat eseri Rembrandt tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ232#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ232#5",
-      "answerInfo": "Plitvice Gölleri, Hırvatistan sınırları içinde yer alır.",
-      "question": "Plitvice Gölleri hangi ülkededir?",
-      "answer": "Hırvatistan",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ232#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ232#6",
-      "answerInfo": "“Yeni Dünya Senfonisi”, Antonín Dvořák tarafından bestelenmiş bir eserdir.",
-      "question": "“Yeni Dünya Senfonisi” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Antonín Dvořák",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ232#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ232#10",
-      "answerInfo": "“Küçük Prens”, Antoine de Saint-Exupéry tarafından yazılmıştır.",
-      "question": "“Küçük Prens” adlı eserin yazarı kimdir?",
-      "answer": "Antoine de Saint-Exupéry",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ233#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ233#1",
-      "answerInfo": "“Campbell's Soup Cans” adlı görsel sanat eseri Andy Warhol tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ233#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ233#3",
-      "answerInfo": "“Things Fall Apart”, Chinua Achebe tarafından yazılmıştır.",
-      "question": "“Things Fall Apart” hangi yazarın eseridir?",
-      "answer": "Chinua Achebe",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ233#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ233#10",
-      "answerInfo": "“Finlandia”, Jean Sibelius tarafından bestelenmiş bir eserdir.",
-      "question": "“Finlandia” eserinin bestecisi kimdir?",
-      "answer": "Jean Sibelius",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ234#1",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#1",
-      "answerInfo": "Kalayın kimyasal sembolü Sn’dir; sembol Latince “stannum” adından gelir.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ234#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ234#3",
-      "answerInfo": "“Carmen”, Georges Bizet tarafından bestelenmiş bir eserdir.",
-      "question": "“Carmen” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Georges Bizet",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ234#5",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#5",
-      "answerInfo": "Feta, geleneksel olarak salamurada olgunlaştırılan ve Yunan mutfağıyla özdeşleşen beyaz peynirdir.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ234#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ234#6",
-      "answerInfo": "“Körlük”, José Saramago tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Körlük” eserini kaleme almıştır?",
-      "answer": "José Saramago",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ234#7",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#7",
-      "answerInfo": "Önbellek, sık kullanılan verilerin daha hızlı erişim için geçici olarak daha yakın veya daha hızlı bir depolama katmanında tutulmasıdır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ234#8",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ234#8",
-      "answerInfo": "“Broadway Boogie Woogie” adlı görsel sanat eseri Piet Mondrian tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ234#9",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ234#9",
-      "answerInfo": "Yeniçeri Ocağı, Osmanlı İmparatorluğu’nun merkezî kapıkulu askerî teşkilatının önemli unsurlarından biriydi.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ234#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ234#10",
-      "answerInfo": "Balaton Gölü, Macaristan sınırları içinde yer alır.",
-      "question": "Balaton Gölü hangi ülkededir?",
-      "answer": "Macaristan",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ235#3",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ235#3",
-      "answerInfo": "“Sevil Berberi”, Gioachino Rossini tarafından bestelenmiş bir eserdir.",
-      "question": "“Sevil Berberi” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Gioachino Rossini",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ235#4",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ235#4",
-      "answerInfo": "“Düşünen Adam” adlı görsel sanat eseri Auguste Rodin tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ235#7",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ235#7",
-      "answerInfo": "Nevruz, geniş bir coğrafyada baharın gelişini ve yeni yılı simgeleyen geleneksel kutlamaların ortak adıdır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ235#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ235#8",
-      "answerInfo": "“Veba”, Albert Camus tarafından yazılmıştır.",
-      "question": "“Veba” adlı eserin yazarı kimdir?",
-      "answer": "Albert Camus",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ235#10",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ235#10",
-      "answerInfo": "Tungstenin kimyasal sembolü W’dir; bu harf elementin “wolfram” adından gelir.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ236#1",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ236#1",
-      "answerInfo": "Kobaltın kimyasal sembolü Co’dur ve atom numarası 27’dir.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ236#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ236#5",
-      "answerInfo": "“Bir Bebek Evi”, Henrik Ibsen tarafından yazılmıştır.",
-      "question": "“Bir Bebek Evi” hangi yazarın eseridir?",
-      "answer": "Henrik Ibsen",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ236#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ236#6",
-      "answerInfo": "“Rhapsody in Blue”, George Gershwin tarafından bestelenmiş bir eserdir.",
-      "question": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
-      "answer": "George Gershwin",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ236#9",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ236#9",
-      "answerInfo": "“Cloud Gate” adlı görsel sanat eseri Anish Kapoor tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ237#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ237#1",
-      "answerInfo": "Ural Dağları, geleneksel coğrafi sınıflamada Avrupa ile Asya arasındaki sınırın bir bölümünü oluşturur.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ237#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ237#2",
-      "answerInfo": "“Gymnopédies”, Erik Satie tarafından bestelenmiş bir eserdir.",
-      "question": "“Gymnopédies” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Erik Satie",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ237#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ237#6",
-      "answerInfo": "“Godot'yu Beklerken”, Samuel Beckett tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Godot'yu Beklerken” eserini kaleme almıştır?",
-      "answer": "Samuel Beckett",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ237#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ237#7",
-      "answerInfo": "Ozon, üç oksijen atomundan oluşan O₃ molekülüdür.",
-      "question": "Ozon molekülü kaç oksijen atomundan oluşur?",
-      "answer": "Üç",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ237#8",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ237#8",
-      "answerInfo": "“Balon Köpek (Balloon Dog)” adlı görsel sanat eseri Jeff Koons tarafından yaratılmıştır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ238#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ238#1",
-      "answerInfo": "“Çimen Yaprakları”, Walt Whitman tarafından yazılmıştır.",
-      "question": "“Çimen Yaprakları” adlı eserin yazarı kimdir?",
-      "answer": "Walt Whitman",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ238#6",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ238#6",
-      "answerInfo": "Oda sıcaklığına yakın koşullarda nötr saf suyun pH değeri yaklaşık 7’dir.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ238#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ238#9",
-      "answerInfo": "“Clair de Lune”, Claude Debussy tarafından bestelenmiş bir eserdir.",
-      "question": "“Clair de Lune” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Claude Debussy",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ238#10",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ238#10",
-      "answerInfo": "Guggenheim Bilbao Müzesi, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ239#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ239#1",
-      "answerInfo": "Serengeti ekosisteminin büyük bölümü, Tanzanya sınırları içinde yer alır.",
-      "question": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
-      "answer": "Tanzanya",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ239#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ239#2",
-      "answerInfo": "“İlahi Komedya”, Dante Alighieri tarafından yazılmıştır.",
-      "question": "“İlahi Komedya” hangi yazarın eseridir?",
-      "answer": "Dante Alighieri",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ239#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ239#3",
-      "answerInfo": "Fallingwater, Frank Lloyd Wright ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ239#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ239#8",
-      "answerInfo": "“Macar Rapsodileri”, Franz Liszt tarafından bestelenmiş bir eserdir.",
-      "question": "“Macar Rapsodileri” eserinin bestecisi kimdir?",
-      "answer": "Franz Liszt",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ240#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ240#2",
-      "answerInfo": "“Canterbury Hikâyeleri”, Geoffrey Chaucer tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Canterbury Hikâyeleri” eserini kaleme almıştır?",
-      "answer": "Geoffrey Chaucer",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ240#5",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ240#5",
-      "answerInfo": "Fiber optiklerde ışığın çekirdek içinde tutulmasında tam iç yansıma temel rol oynar.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ240#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ240#6",
-      "answerInfo": "Galápagos Adaları, Ekvador sınırları içinde yer alır.",
-      "question": "Galápagos Adaları hangi ülkeye bağlıdır?",
-      "answer": "Ekvador",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ240#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ240#7",
-      "answerInfo": "“Şehrazat”, Nikolay Rimski-Korsakov tarafından bestelenmiş bir eserdir.",
-      "question": "“Şehrazat” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Nikolay Rimski-Korsakov",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ241#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ241#1",
-      "answerInfo": "“Valkürlerin Uçuşu”, Richard Wagner tarafından bestelenmiş bir eserdir.",
-      "question": "“Valkürlerin Uçuşu” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Richard Wagner",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ241#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ241#2",
-      "answerInfo": "Azor Adaları, Portekiz sınırları içinde yer alır.",
-      "question": "Azor Adaları hangi ülkeye bağlı özerk bir takımadadır?",
-      "answer": "Portekiz",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ241#4",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ241#4",
-      "answerInfo": "Merkezcil ivme her an dairesel yörüngenin merkezine doğrudur.",
-      "question": "Dairesel harekette merkezcil ivmenin yönü nereye doğrudur?",
-      "answer": "Dairenin merkezine",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ241#5",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ241#5",
-      "answerInfo": "Sydney Opera Binası, Jørn Utzon ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ241#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ241#6",
-      "answerInfo": "“Faust”, Johann Wolfgang von Goethe tarafından yazılmıştır.",
-      "question": "“Faust” adlı eserin yazarı kimdir?",
-      "answer": "Johann Wolfgang von Goethe",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ242#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ242#2",
-      "answerInfo": "“Moby Dick”, Herman Melville tarafından yazılmıştır.",
-      "question": "“Moby Dick” hangi yazarın eseridir?",
-      "answer": "Herman Melville",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ242#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ242#5",
-      "answerInfo": "“Canon in D”, Johann Pachelbel tarafından bestelenmiş bir eserdir.",
-      "question": "“Canon in D” eserinin bestecisi kimdir?",
-      "answer": "Johann Pachelbel",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ242#6",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ242#6",
-      "answerInfo": "Louvre Piramidi, I. M. Pei ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ242#7",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ242#7",
-      "answerInfo": "JavaScript, web sayfalarına programlanabilir davranış ve kullanıcı etkileşimi kazandırmak için yaygın biçimde kullanılır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ242#8",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ242#8",
-      "answerInfo": "Kırmızıya kayma, gözlenen ışığın dalga boylarının daha uzun değerlere kaymasıdır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ242#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ242#9",
-      "answerInfo": "Kanarya Adaları, İspanya sınırları içinde yer alır.",
-      "question": "Kanarya Adaları hangi ülkeye bağlıdır?",
-      "answer": "İspanya",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ242#10",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ242#10",
-      "answerInfo": "Bütçe açığı, belirli bir dönemde bütçe giderlerinin bütçe gelirlerini aşması durumudur.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ243#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ243#2",
-      "answerInfo": "“Adagio for Strings”, Samuel Barber tarafından bestelenmiş bir eserdir.",
-      "question": "“Adagio for Strings” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Samuel Barber",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ243#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ243#3",
-      "answerInfo": "19. yüzyıldaki Afyon Savaşları esas olarak Britanya ile Çin’deki Çing İmparatorluğu arasında yaşandı.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ243#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ243#7",
-      "answerInfo": "Korsika Adası, Fransa sınırları içinde yer alır.",
-      "question": "Korsika Adası hangi ülkeye bağlıdır?",
-      "answer": "Fransa",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ243#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ243#9",
-      "answerInfo": "“Gazap Üzümleri”, John Steinbeck tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Gazap Üzümleri” eserini kaleme almıştır?",
-      "answer": "John Steinbeck",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ244#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ244#1",
-      "answerInfo": "Sardinya Adası, İtalya sınırları içinde yer alır.",
-      "question": "Sardinya Adası hangi ülkeye bağlıdır?",
-      "answer": "İtalya",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ244#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#2",
-      "answerInfo": "Ana asteroit kuşağı, Mars ile Jüpiter’in yörüngeleri arasında yer alır.",
-      "question": "Ana asteroit kuşağı hangi iki gezegenin yörüngeleri arasında bulunur?",
-      "answer": "Mars ve Jüpiter",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ244#4",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#4",
-      "answerInfo": "“Fahrenheit 451”, Ray Bradbury tarafından yazılmıştır.",
-      "question": "“Fahrenheit 451” adlı eserin yazarı kimdir?",
-      "answer": "Ray Bradbury",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ244#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ244#6",
-      "answerInfo": "“Appalachian Spring”, Aaron Copland tarafından bestelenmiş bir eserdir.",
-      "question": "“Appalachian Spring” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Aaron Copland",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ244#9",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ244#9",
-      "answerInfo": "Villa Savoye, Le Corbusier ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ245#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ245#2",
-      "answerInfo": "Angel Şelalesi, Venezuela sınırları içinde yer alır.",
-      "question": "Angel Şelalesi hangi ülkededir?",
-      "answer": "Venezuela",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ245#4",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ245#4",
-      "answerInfo": "Europa, Jüpiter’in büyük Galilei uydularından biridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ245#7",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ245#7",
-      "answerInfo": "Casa Batlló, Antoni Gaudí ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ245#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ245#8",
-      "answerInfo": "“Enigma Variations”, Edward Elgar tarafından bestelenmiş bir eserdir.",
-      "question": "“Enigma Variations” eserinin bestecisi kimdir?",
-      "answer": "Edward Elgar",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ245#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ245#9",
-      "answerInfo": "“Damızlık Kızın Öyküsü”, Margaret Atwood tarafından yazılmıştır.",
-      "question": "“Damızlık Kızın Öyküsü” hangi yazarın eseridir?",
-      "answer": "Margaret Atwood",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ246#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ246#1",
-      "answerInfo": "“Günden Kalanlar”, Kazuo Ishiguro tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Günden Kalanlar” eserini kaleme almıştır?",
-      "answer": "Kazuo Ishiguro",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ246#2",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ246#2",
-      "answerInfo": "Iguazú Şelaleleri, Arjantin ile Brezilya sınırındaki Iguazú/Iguaçu Nehri üzerinde yer alır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ246#4",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ246#4",
-      "answerInfo": "Milwaukee Sanat Müzesi’nin Quadracci Pavyonu, İspanyol mimar Santiago Calatrava tarafından tasarlanmıştır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ246#6",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ246#6",
-      "answerInfo": "Titan, Satürn’ün en büyük uydusudur ve yoğun bir atmosfere sahiptir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ246#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ246#7",
-      "answerInfo": "“Water Music”, George Frideric Handel tarafından bestelenmiş bir eserdir.",
-      "question": "“Water Music” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "George Frideric Handel",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ247#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ247#3",
-      "answerInfo": "Victoria Şelaleleri, Zambezi Nehri üzerinde Zambiya ile Zimbabve sınırında yer alır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ247#4",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ247#4",
-      "answerInfo": "“Karlar Ülkesi”, Yasunari Kawabata tarafından yazılmıştır.",
-      "question": "“Karlar Ülkesi” adlı eserin yazarı kimdir?",
-      "answer": "Yasunari Kawabata",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ247#7",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ247#7",
-      "answerInfo": "“Messiah”, George Frideric Handel tarafından bestelenmiş bir eserdir.",
-      "question": "“Messiah” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "George Frideric Handel",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ247#8",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ247#8",
-      "answerInfo": "Heydar Aliyev Merkezi, Zaha Hadid ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ248#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ248#1",
-      "answerInfo": "“Benim Adım Kırmızı”, Orhan Pamuk tarafından yazılmıştır.",
-      "question": "“Benim Adım Kırmızı” hangi yazarın eseridir?",
-      "answer": "Orhan Pamuk",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ248#2",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ248#2",
-      "answerInfo": "Kimbell Sanat Müzesi, Louis Kahn ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ248#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ248#5",
-      "answerInfo": "Olympus Mons, Mars’ta bulunan dev bir kalkan yanardağıdır.",
-      "question": "Olympus Mons adlı dev yanardağ hangi gezegendedir?",
-      "answer": "Mars",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ248#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ248#6",
-      "answerInfo": "“Bahar Ayini (The Rite of Spring)”, Igor Stravinsky tarafından bestelenmiş bir eserdir.",
-      "question": "“Bahar Ayini (The Rite of Spring)” eserinin bestecisi kimdir?",
-      "answer": "Igor Stravinsky",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ248#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ248#8",
-      "answerInfo": "Matterhorn, İsviçre ile İtalya sınırındaki Alpler’de yükselir.",
-      "question": "Matterhorn Dağı hangi iki ülkenin sınırında yükselir?",
-      "answer": "İsviçre ve İtalya",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ248#10",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ248#10",
-      "answerInfo": "Higrometre, havadaki nemi ölçmek için kullanılan ölçüm aracıdır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ249#1",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ249#1",
-      "answerInfo": "Fuji Dağı, Japonya’nın Honshu Adası’nda yer alan aktif bir stratovolkandır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ249#6",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ249#6",
-      "answerInfo": "“Saatleri Ayarlama Enstitüsü”, Ahmet Hamdi Tanpınar tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Saatleri Ayarlama Enstitüsü” eserini kaleme almıştır?",
-      "answer": "Ahmet Hamdi Tanpınar",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ249#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ249#10",
-      "answerInfo": "“Peter ve Kurt”, Sergey Prokofyev tarafından bestelenmiş bir eserdir.",
-      "question": "“Peter ve Kurt” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Sergey Prokofyev",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ250#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#1",
-      "answerInfo": "Vanna Venturi House, Robert Venturi ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ250#2",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ250#2",
-      "answerInfo": "“Kürk Mantolu Madonna”, Sabahattin Ali tarafından yazılmıştır.",
-      "question": "“Kürk Mantolu Madonna” adlı eserin yazarı kimdir?",
-      "answer": "Sabahattin Ali",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ250#3",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#3",
-      "answerInfo": "Nil Deltası, Mısır’ın kuzeyinde Akdeniz kıyısına açılır.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ250#5",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 2 yeni bilgi kelimesi: YQ250#5",
-      "answerInfo": "Elmas, Mohs sertlik ölçeğinde 10 değeriyle en sert referans mineraldir.",
-      "question": "Mohs sertlik ölçeğinde en sert referans mineral hangisidir?",
-      "answer": "Elmas",
-      "novelTokens": 2
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ250#9",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ250#9",
-      "answerInfo": "Odometre, bir aracın katettiği toplam mesafeyi kaydeden veya gösteren ölçüm düzeneğidir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ250#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ250#10",
-      "answerInfo": "“1812 Uvertürü”, Pyotr İlyiç Çaykovski tarafından bestelenmiş bir eserdir.",
-      "question": "“1812 Uvertürü” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "answer": "Pyotr İlyiç Çaykovski",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ251#1",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ251#1",
-      "answerInfo": "İstanbul Boğazı, Karadeniz’i Marmara Denizi’ne bağlayan doğal su yoludur.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ251#4",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ251#4",
-      "answerInfo": "Anemometre, rüzgâr hızını ölçmek için kullanılan meteorolojik araçtır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ251#8",
-      "message": "answerInfo zayıf, 3 yeni bilgi kelimesi: YQ251#8",
-      "answerInfo": "Walt Disney Concert Hall, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir.",
-      "novelTokens": 3
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ251#9",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ251#9",
-      "answerInfo": "“Viyolonsel Süitleri”, Johann Sebastian Bach tarafından bestelenmiş bir eserdir.",
-      "question": "“Viyolonsel Süitleri” eserinin bestecisi kimdir?",
-      "answer": "Johann Sebastian Bach",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ251#10",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ251#10",
-      "answerInfo": "“Memleketimden İnsan Manzaraları”, Nâzım Hikmet tarafından yazılmıştır.",
-      "question": "“Memleketimden İnsan Manzaraları” hangi yazarın eseridir?",
-      "answer": "Nâzım Hikmet",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ252#1",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ252#1",
-      "answerInfo": "“Aylak Adam”, Yusuf Atılgan tarafından yazılmıştır.",
-      "question": "Aşağıdaki yazarlardan hangisi “Aylak Adam” eserini kaleme almıştır?",
-      "answer": "Yusuf Atılgan",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ252#3",
-      "message": "answerInfo zayıf, 5 yeni bilgi kelimesi: YQ252#3",
-      "answerInfo": "Zigguratlar, özellikle antik Mezopotamya kentlerinde inşa edilen basamaklı tapınak platformlarıdır.",
-      "novelTokens": 5
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ252#5",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ252#5",
-      "answerInfo": "Torres Boğazı, Avustralya’nın Cape York Yarımadası ile Yeni Gine arasında yer alır.",
-      "novelTokens": 4
-    },
-    {
-      "gate": "ANSWERINFO_DEGENERATE",
-      "severity": "hard",
-      "fingerprint": "AI_DEGEN|YQ252#8",
-      "message": "answerInfo soruyu/cevabı tekrar ediyor, 0 yeni bilgi kelimesi: YQ252#8",
-      "answerInfo": "“Turandot”, Giacomo Puccini tarafından bestelenmiş bir eserdir.",
-      "question": "“Turandot” aşağıdaki bestecilerden hangisinin eseridir?",
-      "answer": "Giacomo Puccini",
-      "novelTokens": 0
-    },
-    {
-      "gate": "ANSWERINFO_WEAK",
-      "severity": "review",
-      "fingerprint": "AI_WEAK|YQ252#10",
-      "message": "answerInfo zayıf, 4 yeni bilgi kelimesi: YQ252#10",
-      "answerInfo": "HDMI, dijital görüntü ve sesi tek kablo/bağlantı üzerinden taşıyabilen bir arayüz standardıdır.",
-      "novelTokens": 4
     },
     {
       "gate": "ANSWER_POSITION_UNUSED",
@@ -4048,8 +2805,8 @@
     {
       "gate": "STEM_OPTION_ECHO",
       "severity": "review",
-      "fingerprint": "ECHO|YQ251#1",
-      "message": "Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (denizi): YQ251#1"
+      "fingerprint": "ECHO|YQ250#2",
+      "message": "Doğru şık stem ile kelime paylaşıyor, çeldiriciler paylaşmıyor (hece): YQ250#2"
     },
     {
       "gate": "STEM_OPTION_ECHO",
@@ -4456,14 +3213,8 @@
     {
       "gate": "UNIQUE_LONGEST_CORRECT",
       "severity": "review",
-      "fingerprint": "LONGEST|YQ239",
-      "message": "YQ239: 5/10 soruda doğru şık benzersiz en uzun seçenek"
-    },
-    {
-      "gate": "UNIQUE_LONGEST_CORRECT",
-      "severity": "review",
       "fingerprint": "LONGEST|YQ245",
-      "message": "YQ245: 5/10 soruda doğru şık benzersiz en uzun seçenek"
+      "message": "YQ245: 4/10 soruda doğru şık benzersiz en uzun seçenek"
     },
     {
       "gate": "UNIQUE_LONGEST_CORRECT",
@@ -4850,11 +3601,11 @@
       "gate": "SEMANTIC_PROPERTY_VARIANTS",
       "severity": "review",
       "fingerprint": "PROP_VAR|yazar",
-      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"yazarı\" x29, \"yazar\" x17 — signature bölünüyor, duplicate kapısı bu fact için kör",
+      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"yazarı\" x25, \"yazar\" x17 — signature bölünüyor, duplicate kapısı bu fact için kör",
       "stem": "yazar",
       "variants": {
         "yazar": 17,
-        "yazarı": 29
+        "yazarı": 25
       }
     },
     {
@@ -4872,36 +3623,12 @@
       "gate": "SEMANTIC_PROPERTY_VARIANTS",
       "severity": "review",
       "fingerprint": "PROP_VAR|tanim",
-      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"tanımı\" x35, \"tanım\" x33 — signature bölünüyor, duplicate kapısı bu fact için kör",
+      "message": "askedProperty tek bir özellik için 2 farklı yazımda: \"tanımı\" x46, \"tanım\" x33 — signature bölünüyor, duplicate kapısı bu fact için kör",
       "stem": "tanim",
       "variants": {
         "tanım": 33,
-        "tanımı": 35
+        "tanımı": 46
       }
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ141-Q04,YQ239-Q03",
-      "message": "Aynı subject+answer: YQ141-Q04 ↔ YQ239-Q03 — \"Fallingwater\" → \"Frank Lloyd Wright\" (askedProperty: YQ141-Q04=\"architect\", YQ239-Q03=\"tasarımıyla ilişkili mimar\")",
-      "subject": "Fallingwater",
-      "answer": "Frank Lloyd Wright",
-      "ids": [
-        "YQ141-Q04",
-        "YQ239-Q03"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ145-Q04,YQ233-Q03",
-      "message": "Aynı subject+answer: YQ145-Q04 ↔ YQ233-Q03 — \"Things Fall Apart\" → \"Chinua Achebe\" (askedProperty: YQ145-Q04=\"author\", YQ233-Q03=\"yazarı\")",
-      "subject": "Things Fall Apart",
-      "answer": "Chinua Achebe",
-      "ids": [
-        "YQ145-Q04",
-        "YQ233-Q03"
-      ]
     },
     {
       "gate": "SEMANTIC_ANCHOR_DUP",
@@ -4925,150 +3652,6 @@
       "ids": [
         "YQ148-Q08",
         "YQ175-Q01"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ150-Q03,YQ239-Q01",
-      "message": "Aynı subject+answer: YQ150-Q03 ↔ YQ239-Q01 — \"Serengeti\" → \"Tanzanya\" (askedProperty: YQ150-Q03=\"main country\", YQ239-Q01=\"başlıca bulunduğu ülke\")",
-      "subject": "Serengeti",
-      "answer": "Tanzanya",
-      "ids": [
-        "YQ150-Q03",
-        "YQ239-Q01"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ150-Q04,YQ249-Q06",
-      "message": "Aynı subject+answer: YQ150-Q04 ↔ YQ249-Q06 — \"Saatleri Ayarlama Enstitüsü\" → \"Ahmet Hamdi Tanpınar\" (askedProperty: YQ150-Q04=\"author\", YQ249-Q06=\"yazarı\")",
-      "subject": "Saatleri Ayarlama Enstitüsü",
-      "answer": "Ahmet Hamdi Tanpınar",
-      "ids": [
-        "YQ150-Q04",
-        "YQ249-Q06"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ152-Q06,YQ234-Q03",
-      "message": "Aynı subject+answer: YQ152-Q06 ↔ YQ234-Q03 — \"Carmen\" → \"Georges Bizet\" (askedProperty: YQ152-Q06=\"composer\", YQ234-Q03=\"bestecisi\")",
-      "subject": "Carmen",
-      "answer": "Georges Bizet",
-      "ids": [
-        "YQ152-Q06",
-        "YQ234-Q03"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ158-Q05,YQ250-Q02",
-      "message": "Aynı subject+answer: YQ158-Q05 ↔ YQ250-Q02 — \"Kürk Mantolu Madonna\" → \"Sabahattin Ali\" (askedProperty: YQ158-Q05=\"yazar\", YQ250-Q02=\"yazarı\")",
-      "subject": "Kürk Mantolu Madonna",
-      "answer": "Sabahattin Ali",
-      "ids": [
-        "YQ158-Q05",
-        "YQ250-Q02"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ163-Q06,YQ230-Q06",
-      "message": "Aynı subject+answer: YQ163-Q06 ↔ YQ230-Q06 — \"Ay Işığı Sonatı\" → \"Ludwig van Beethoven\" (askedProperty: YQ163-Q06=\"besteci\", YQ230-Q06=\"bestecisi\")",
-      "subject": "Ay Işığı Sonatı",
-      "answer": "Ludwig van Beethoven",
-      "ids": [
-        "YQ163-Q06",
-        "YQ230-Q06"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ163-Q07,YQ232-Q02",
-      "message": "Aynı subject+answer: YQ163-Q07 ↔ YQ232-Q02 — \"Gece Devriyesi\" → \"Rembrandt\" (askedProperty: YQ163-Q07=\"ressam\", YQ232-Q02=\"sanatçısı\")",
-      "subject": "Gece Devriyesi",
-      "answer": "Rembrandt",
-      "ids": [
-        "YQ163-Q07",
-        "YQ232-Q02"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ180-Q05,YQ240-Q08",
-      "message": "Aynı subject+answer: YQ180-Q05 ↔ YQ240-Q08 — \"Sagrada Família\" → \"Antoni Gaudí\" (askedProperty: YQ180-Q05=\"mimar\", YQ240-Q08=\"tasarımıyla ilişkili mimar\")",
-      "subject": "Sagrada Família",
-      "answer": "Antoni Gaudí",
-      "ids": [
-        "YQ180-Q05",
-        "YQ240-Q08"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ191-Q08,YQ246-Q02",
-      "message": "Aynı subject+answer: YQ191-Q08 ↔ YQ246-Q02 — \"Iguazú Şelaleleri\" → \"Arjantin ve Brezilya\" (askedProperty: YQ191-Q08=\"ülkeler\", YQ246-Q02=\"sınırındaki ülkeler\")",
-      "subject": "Iguazú Şelaleleri",
-      "answer": "Arjantin ve Brezilya",
-      "ids": [
-        "YQ191-Q08",
-        "YQ246-Q02"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ195-Q04,YQ230-Q01",
-      "message": "Aynı subject+answer: YQ195-Q04 ↔ YQ230-Q01 — \"Madame Bovary\" → \"Gustave Flaubert\" (askedProperty: YQ195-Q04=\"yazar\", YQ230-Q01=\"yazarı\")",
-      "subject": "Madame Bovary",
-      "answer": "Gustave Flaubert",
-      "ids": [
-        "YQ195-Q04",
-        "YQ230-Q01"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ210-Q03,YQ236-Q06",
-      "message": "Aynı subject+answer: YQ210-Q03 ↔ YQ236-Q06 — \"Rhapsody in Blue\" → \"George Gershwin\" (askedProperty: YQ210-Q03=\"besteci\", YQ236-Q06=\"bestecisi\")",
-      "subject": "Rhapsody in Blue",
-      "answer": "George Gershwin",
-      "ids": [
-        "YQ210-Q03",
-        "YQ236-Q06"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ210-Q07,YQ238-Q03",
-      "message": "Aynı subject+answer: YQ210-Q07 ↔ YQ238-Q03 — \"Gobi Çölü\" → \"Moğolistan ve Çin\" (askedProperty: YQ210-Q07=\"ülkeler\", YQ238-Q03=\"yayıldığı ülkeler\")",
-      "subject": "Gobi Çölü",
-      "answer": "Moğolistan ve Çin",
-      "ids": [
-        "YQ210-Q07",
-        "YQ238-Q03"
-      ]
-    },
-    {
-      "gate": "SEMANTIC_ANCHOR_DUP",
-      "severity": "hard",
-      "fingerprint": "ANCHOR|YQ212-Q06,YQ238-Q09",
-      "message": "Aynı subject+answer: YQ212-Q06 ↔ YQ238-Q09 — \"Clair de Lune\" → \"Claude Debussy\" (askedProperty: YQ212-Q06=\"besteci\", YQ238-Q09=\"bestecisi\")",
-      "subject": "Clair de Lune",
-      "answer": "Claude Debussy",
-      "ids": [
-        "YQ212-Q06",
-        "YQ238-Q09"
       ]
     },
     {
@@ -7946,6 +6529,13 @@
       "fingerprint": "SRC|YQ230#4",
       "message": "Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ230#4",
       "question": "QR kod en çok hangi amaçla kullanılır?"
+    },
+    {
+      "gate": "SOURCE_REVIEW_NEEDED",
+      "severity": "review",
+      "fingerprint": "SRC|YQ230#6",
+      "message": "Zamana bağlı / superlatif ifade, kaynak doğrulaması gerekli: YQ230#6",
+      "question": "Operada, şarkı söylemekten çok konuşur gibi ezgilendirilen bölümlere ne ad verilir?"
     },
     {
       "gate": "SOURCE_REVIEW_NEEDED",

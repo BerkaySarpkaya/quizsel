@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 237",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ural Dağları, geleneksel coğrafi sınıflamada Avrupa ile Asya arasındaki sınırın bir bölümünü oluşturur."
+      "answerInfo": "Sınır yalnızca dağ sırasından ibaret değildir; genel kabul gören çizgi Urallar'dan sonra Ural Nehri ve Kafkaslar üzerinden Karadeniz'e ulaşır. Bu ayrım fiziki değil, tarihsel ve kültürel bir uzlaşıdır."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Gymnopédies”, Erik Satie tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Satie üç parçayı 1888'de yazdı; yavaş tempoları ve süslemesiz dokularıyla dönemin gösterişli piyano müziğine karşı duruyorlardı. Debussy ikisini orkestra için düzenleyerek tanınmalarını sağladı."
     },
     {
       "id": 3,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Godot'yu Beklerken”, Samuel Beckett tarafından yazılmıştır."
+      "answerInfo": "Oyunda beklenen kişi hiç gelmez ve neredeyse hiçbir şey olmaz; bu yapı absürt tiyatronun tanımlayıcı örneği sayılır. Beckett oyunu önce Fransızca yazdı, sonra kendisi İngilizceye çevirdi."
     },
     {
       "id": 7,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Ozon, üç oksijen atomundan oluşan O₃ molekülüdür."
+      "answerInfo": "Yer yüzeyine yakın ozon solunum yollarını tahriş eden bir kirleticidir; stratosferdeki ozon ise moru ötesi ışınları süzen koruyucu bir katmandır. Aynı molekül, bulunduğu yüksekliğe göre zararlı ya da yararlı olur."
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Balon Köpek (Balloon Dog)” adlı görsel sanat eseri Jeff Koons tarafından yaratılmıştır."
+      "answerInfo": "Yapıt, şişme oyuncak görünümüne rağmen tonlarca ağırlığındaki paslanmaz çelikten üretilir ve ayna gibi cilalanır. Beş ayrı renkte, her renkten tek örnek olacak biçimde yapılmıştır."
     },
     {
       "id": 9,

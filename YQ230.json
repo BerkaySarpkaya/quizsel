@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 230",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -16,12 +16,12 @@
   "questions": [
     {
       "id": 1,
-      "text": "“Madame Bovary” hangi yazarın eseridir?",
+      "text": "Fabl türünün en belirgin özelliği nedir?",
       "options": [
-        "John Steinbeck",
-        "Gustave Flaubert",
-        "Geoffrey Chaucer",
-        "Ernest Hemingway"
+        "Gerçek kişilerin yaşamını belgelere dayanarak anlatması",
+        "Kahramanlarının çoğunlukla hayvan olması",
+        "Yalnızca düzyazıyla yazılması",
+        "Olayların gelecekte geçmesi"
       ],
       "answer": 1,
       "time": 20,
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Madame Bovary”, Gustave Flaubert tarafından yazılmıştır."
+      "answerInfo": "Fablda hayvanlar insan gibi konuşur ve öykü sonunda bir ders verilir. Ezop'un antik anlatıları ile La Fontaine'in 17. yüzyıl şiirleri türün en bilinen örnekleridir."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Volga Nehri, kapalı bir iç deniz olan Hazar Denizi’ne dökülür."
+      "answerInfo": "Avrupa'nın en uzun nehridir ve kapalı bir havza olan Hazar'a döküldüğü için suyu hiçbir okyanusa ulaşmaz. Rusya nüfusunun önemli bir bölümü bu nehrin havzasında yaşar."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Kanagawa Oki Nami Ura (Büyük Dalga)” adlı görsel sanat eseri Katsushika Hokusai tarafından yaratılmıştır."
+      "answerInfo": "Ahşap kalıp baskı olduğu için tek bir özgün kopyası yoktur, binlerce baskı üretilmiştir. Arka planda küçük görünen dağ Fuji'dir; baskı, Hokusai'nin Fuji'yi konu alan otuz altı görünüm dizisinin en bilinenidir."
     },
     {
       "id": 4,
@@ -111,12 +111,12 @@
     },
     {
       "id": 6,
-      "text": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
+      "text": "Operada, şarkı söylemekten çok konuşur gibi ezgilendirilen bölümlere ne ad verilir?",
       "options": [
-        "Ludwig van Beethoven",
-        "Wolfgang Amadeus Mozart",
-        "Pyotr İlyiç Çaykovski",
-        "Aaron Copland"
+        "Resitatif",
+        "Uvertür",
+        "Kontrpuan",
+        "Koda"
       ],
       "answer": 0,
       "time": 20,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Ay Işığı Sonatı”, Ludwig van Beethoven tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Resitatif olay örgüsünü ilerletir, arya ise karakterin duygusunu genişletir. Bu ikili yapı 17. yüzyıl İtalyan operasında yerleşmiştir."
     },
     {
       "id": 7,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Tempura, malzemelerin hafif bir hamura bulanıp kızartıldığı Japon pişirme tekniğidir."
+      "answerInfo": "Tekniği Japonya'ya 16. yüzyılda Portekizli misyonerler taşıdı. Adının da Latince perhiz günlerini anlatan “quatuor tempora” ifadesinden geldiği düşünülür."
     }
   ]
 }

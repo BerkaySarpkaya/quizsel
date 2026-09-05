@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 251",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -16,12 +16,12 @@
   "questions": [
     {
       "id": 1,
-      "text": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
+      "text": "Coğrafyada boğaz ile kanal arasındaki temel fark nedir?",
       "options": [
-        "Atlas Okyanusu ve Akdeniz",
-        "Arjantin ve Şili",
-        "Arjantin ve Brezilya",
-        "Karadeniz ve Marmara Denizi"
+        "Boğaz tuzlu, kanal tatlı su taşır",
+        "Boğaz kısa, kanal uzun olur",
+        "Boğaz yalnızca okyanuslar arasında bulunabilir",
+        "Boğaz doğal oluşumdur, kanal insan yapımıdır"
       ],
       "answer": 3,
       "time": 20,
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "İstanbul Boğazı, Karadeniz’i Marmara Denizi’ne bağlayan doğal su yoludur."
+      "answerInfo": "Süveyş ve Panama insan eliyle açılmış kanallardır; Cebelitarık ve İstanbul ise doğal boğazlardır. Süveyş deniz seviyesinde açılmışken Panama'da gemiler havuzlarla yükseltilip indirilir."
     },
     {
       "id": 2,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Anemometre, rüzgâr hızını ölçmek için kullanılan meteorolojik araçtır."
+      "answerInfo": "En yaygın biçimi, rüzgârla dönen üç kaseli tiptir; kaselerin dönüş hızı rüzgâr hızıyla orantılıdır. Adı Yunancada rüzgâr anlamına gelen “anemos” sözcüğünden gelir."
     },
     {
       "id": 5,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Walt Disney Concert Hall, Frank Gehry ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Salonun paslanmaz çelik kabuğu ilk yıllarda güneşi öyle yoğun yansıttı ki çevredeki binaların sıcaklığını yükseltti; sonradan bazı yüzeyler matlaştırıldı. İç akustiği Yasuhisa Toyota ile birlikte tasarlandı."
     },
     {
       "id": 9,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Viyolonsel Süitleri”, Johann Sebastian Bach tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Süitler yaklaşık iki yüzyıl boyunca yalnızca teknik alıştırma sayıldı. Pablo Casals on üç yaşındayken bir nota dükkânında bulup on iki yıl çalıştıktan sonra sahnede seslendirdi ve eseri yeniden keşfettirdi."
     },
     {
       "id": 10,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Memleketimden İnsan Manzaraları”, Nâzım Hikmet tarafından yazılmıştır."
+      "answerInfo": "Şair yapıtı hapishanede yazmaya başladı ve on binlerce dizeye ulaşan bir destan olarak tasarladı. Eser bütünüyle ancak ölümünden sonra yayımlanabildi."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 250",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,16 +31,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Vanna Venturi House, Robert Venturi ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Venturi, modernizmin “az çoktur” ilkesine karşı “az sıkıcıdır” diyerek çıkmıştı. Annesi için tasarladığı bu küçük ev, postmodern mimarlığın başlangıç yapıtı sayılır."
     },
     {
       "id": 2,
-      "text": "“Kürk Mantolu Madonna” adlı eserin yazarı kimdir?",
+      "text": "Türk şiirinde “hece ölçüsü” neye göre belirlenir?",
       "options": [
-        "Dante Alighieri",
-        "Sabahattin Ali",
-        "Yusuf Atılgan",
-        "Margaret Atwood"
+        "Dizedeki sözcük sayısına",
+        "Dizedeki hece sayısına",
+        "Uyak düzenine",
+        "Dize sonundaki vurguya"
       ],
       "answer": 1,
       "time": 20,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Kürk Mantolu Madonna”, Sabahattin Ali tarafından yazılmıştır."
+      "answerInfo": "Halk şiirinin geleneksel ölçüsüdür ve yedili, sekizli, on birli kalıplarıyla bilinir. Divan şiirinde kullanılan aruz ise heceleri sayarken uzunluk ve kısalıklarına bakar."
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Nil Deltası, Mısır’ın kuzeyinde Akdeniz kıyısına açılır."
+      "answerInfo": "Nil, alışılmışın tersine güneyden kuzeye akar. Asvan Barajı yapılmadan önce her yıl taşıp bıraktığı mil, Mısır tarımının binlerce yıllık temeliydi."
     },
     {
       "id": 4,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Elmas, Mohs sertlik ölçeğinde 10 değeriyle en sert referans mineraldir."
+      "answerInfo": "Ölçek göreli bir sıralamadır, mutlak sertlik değil: elmas 10, korindon 9 sayılır ama elmas korindondan kat kat serttir. Sıralama, bir mineralin diğerini çizip çizemediğine bakılarak kurulur."
     },
     {
       "id": 6,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Odometre, bir aracın katettiği toplam mesafeyi kaydeden veya gösteren ölçüm düzeneğidir."
+      "answerInfo": "İlk biçimleri tekerleğin dönüş sayısını dişli düzeneğiyle sayardı; bugünkü araçlarda tekerlek hız sensörünün darbeleri sayılıyor. Sayacı geri almak birçok ülkede suç sayılır."
     },
     {
       "id": 10,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“1812 Uvertürü”, Pyotr İlyiç Çaykovski tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser Napolyon'un Rusya'dan çekilişini anlatır ve finalinde gerçek top atışları için nota yazılmıştır. Bestecisi ise parçayı gürültülü ve içtenlikten uzak bulduğunu yazmıştı."
     }
   ]
 }

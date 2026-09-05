@@ -1549,23 +1549,23 @@
       "id": "YQ230-Q01",
       "quizCode": "YQ230",
       "questionId": 1,
-      "stem": "“Madame Bovary” hangi yazarın eseridir?",
-      "correctAnswer": "Gustave Flaubert",
+      "stem": "Fabl türünün en belirgin özelliği nedir?",
+      "correctAnswer": "Kahramanlarının çoğunlukla hayvan olması",
       "category": "Edebiyat & Dil",
       "topicFamily": "Dünya Edebiyatı",
       "scope": "Dünya",
-      "subject": "Madame Bovary",
-      "askedProperty": "yazarı",
-      "factCluster": "Madame Bovary|yazarı|Gustave Flaubert",
-      "questionForm": "relationship",
+      "subject": "Fabl",
+      "askedProperty": "tanımı",
+      "factCluster": "Fabl|tanım|hayvan kahramanlar",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Madame Bovary",
-        "Gustave Flaubert",
-        "yazarı"
+        "fabl",
+        "Ezop",
+        "La Fontaine"
       ],
       "status": "live",
-      "semanticSignature": "madame bovary|yazarı|gustave flaubert"
+      "semanticSignature": "fabl|tanımı|kahramanlarının cogunlukla hayvan olması"
     },
     "YQ230-Q02": {
       "id": "YQ230-Q02",
@@ -1659,23 +1659,23 @@
       "id": "YQ230-Q06",
       "quizCode": "YQ230",
       "questionId": 6,
-      "stem": "“Ay Işığı Sonatı” eserinin bestecisi kimdir?",
-      "correctAnswer": "Ludwig van Beethoven",
+      "stem": "Operada, şarkı söylemekten çok konuşur gibi ezgilendirilen bölümlere ne ad verilir?",
+      "correctAnswer": "Resitatif",
       "category": "Müzik",
-      "topicFamily": "Klasik Müzik",
+      "topicFamily": "Opera & Sahne Müziği",
       "scope": "Dünya",
-      "subject": "Ay Işığı Sonatı",
-      "askedProperty": "bestecisi",
-      "factCluster": "Ay Işığı Sonatı|bestecisi|Ludwig van Beethoven",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Resitatif",
+      "askedProperty": "tanımı",
+      "factCluster": "Resitatif|tanım|konuşur gibi ezgilendirme",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Ay Işığı Sonatı",
-        "Ludwig van Beethoven",
-        "bestecisi"
+        "resitatif",
+        "opera",
+        "arya"
       ],
       "status": "live",
-      "semanticSignature": "ay ısıgı sonatı|bestecisi|ludwig van beethoven"
+      "semanticSignature": "resitatif|tanımı|resitatif"
     },
     "YQ230-Q07": {
       "id": "YQ230-Q07",
@@ -2011,23 +2011,23 @@
       "id": "YQ232-Q02",
       "quizCode": "YQ232",
       "questionId": 2,
-      "stem": "“Gece Devriyesi” adlı eserin sanatçısı kimdir?",
-      "correctAnswer": "Rembrandt",
+      "stem": "Heykelde figürün ağırlığını tek bacağa verip gövdesini hafifçe kırdığı duruşa ne ad verilir?",
+      "correctAnswer": "Kontrapost",
       "category": "Görsel Sanatlar & Mimari",
-      "topicFamily": "Resim",
+      "topicFamily": "Heykel",
       "scope": "Dünya",
-      "subject": "Gece Devriyesi",
-      "askedProperty": "sanatçısı",
-      "factCluster": "Gece Devriyesi|sanatçısı|Rembrandt",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Kontrapost",
+      "askedProperty": "tanımı",
+      "factCluster": "Kontrapost|tanım|ağırlık tek bacakta duruş",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Gece Devriyesi",
-        "Rembrandt",
-        "sanatçısı"
+        "kontrapost",
+        "heykel",
+        "duruş"
       ],
       "status": "live",
-      "semanticSignature": "gece devriyesi|sanatcısı|rembrandt"
+      "semanticSignature": "kontrapost|tanımı|kontrapost"
     },
     "YQ232-Q03": {
       "id": "YQ232-Q03",
@@ -2253,23 +2253,23 @@
       "id": "YQ233-Q03",
       "quizCode": "YQ233",
       "questionId": 3,
-      "stem": "“Things Fall Apart” hangi yazarın eseridir?",
-      "correctAnswer": "Chinua Achebe",
+      "stem": "Anı ile günlük türü arasındaki temel fark nedir?",
+      "correctAnswer": "Anı olaylardan sonra, günlük ise yaşandığı gün yazılır",
       "category": "Edebiyat & Dil",
       "topicFamily": "Dünya Edebiyatı",
       "scope": "Dünya",
-      "subject": "Things Fall Apart",
-      "askedProperty": "yazarı",
-      "factCluster": "Things Fall Apart|yazarı|Chinua Achebe",
-      "questionForm": "relationship",
+      "subject": "Anı ve günlük",
+      "askedProperty": "aralarındaki fark",
+      "factCluster": "anı-günlük|fark|yazılma zamanı",
+      "questionForm": "comparison",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Things Fall Apart",
-        "Chinua Achebe",
-        "yazarı"
+        "anı",
+        "günlük",
+        "edebî tür"
       ],
       "status": "live",
-      "semanticSignature": "things fall apart|yazarı|chinua achebe"
+      "semanticSignature": "anı ve gunluk|aralarındaki fark|anı olaylardan sonra gunluk ise yasandıgı gun yazılır"
     },
     "YQ233-Q04": {
       "id": "YQ233-Q04",
@@ -2473,23 +2473,23 @@
       "id": "YQ234-Q03",
       "quizCode": "YQ234",
       "questionId": 3,
-      "stem": "“Carmen” aşağıdaki bestecilerden hangisinin eseridir?",
-      "correctAnswer": "Georges Bizet",
+      "stem": "Aynı ezginin farklı seslerde belirli aralıklarla art arda girmesine dayanan müzik biçimi hangisidir?",
+      "correctAnswer": "Kanon",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Carmen",
-      "askedProperty": "bestecisi",
-      "factCluster": "Carmen|bestecisi|Georges Bizet",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Kanon",
+      "askedProperty": "tanımı",
+      "factCluster": "Kanon|tanım|ezginin gecikmeli girişi",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Carmen",
-        "Georges Bizet",
-        "bestecisi"
+        "kanon",
+        "Frère Jacques",
+        "çokseslilik"
       ],
       "status": "live",
-      "semanticSignature": "carmen|bestecisi|georges bizet"
+      "semanticSignature": "kanon|tanımı|kanon"
     },
     "YQ234-Q04": {
       "id": "YQ234-Q04",
@@ -2979,23 +2979,23 @@
       "id": "YQ236-Q06",
       "quizCode": "YQ236",
       "questionId": 6,
-      "stem": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
-      "correctAnswer": "George Gershwin",
+      "stem": "Klasik müzikte “oda müziği” terimi neyi anlatır?",
+      "correctAnswer": "Her partisi tek çalgıya düşen küçük topluluk müziğini",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Rhapsody in Blue",
-      "askedProperty": "bestecisi",
-      "factCluster": "Rhapsody in Blue|bestecisi|George Gershwin",
-      "questionForm": "relationship",
+      "subject": "Oda müziği",
+      "askedProperty": "tanımı",
+      "factCluster": "Oda müziği|tanım|küçük topluluk",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Rhapsody in Blue",
-        "George Gershwin",
-        "bestecisi"
+        "oda müziği",
+        "yaylı dörtlü",
+        "topluluk"
       ],
       "status": "live",
-      "semanticSignature": "rhapsody in blue|bestecisi|george gershwin"
+      "semanticSignature": "oda muzigi|tanımı|her partisi tek calgıya dusen kucuk topluluk muzigini"
     },
     "YQ236-Q07": {
       "id": "YQ236-Q07",
@@ -3353,23 +3353,23 @@
       "id": "YQ238-Q03",
       "quizCode": "YQ238",
       "questionId": 3,
-      "stem": "Gobi Çölü hangi iki ülkeye yayılır?",
-      "correctAnswer": "Moğolistan ve Çin",
+      "stem": "Bir bölgenin çöl sayılması için temel ölçüt nedir?",
+      "correctAnswer": "Yıllık yağışın çok düşük olması",
       "category": "Coğrafya",
       "topicFamily": "İklim & Bölgeler",
       "scope": "Dünya",
-      "subject": "Gobi Çölü",
-      "askedProperty": "yayıldığı ülkeler",
-      "factCluster": "Gobi Çölü|yayıldığı ülkeler|Moğolistan ve Çin",
-      "questionForm": "direct_identification",
+      "subject": "Çöl",
+      "askedProperty": "tanım ölçütü",
+      "factCluster": "Çöl|tanım ölçütü|düşük yağış",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Gobi Çölü",
-        "Moğolistan ve Çin",
-        "yayıldığı ülkeler"
+        "çöl",
+        "yağış",
+        "Antarktika"
       ],
       "status": "live",
-      "semanticSignature": "gobi colu|yayıldıgı ulkeler|mogolistan ve cin"
+      "semanticSignature": "col|tanım olcutu|yıllık yagısın cok dusuk olması"
     },
     "YQ238-Q04": {
       "id": "YQ238-Q04",
@@ -3485,23 +3485,23 @@
       "id": "YQ238-Q09",
       "quizCode": "YQ238",
       "questionId": 9,
-      "stem": "“Clair de Lune” adlı klasik müzik eseri hangi besteciyle ilişkilidir?",
-      "correctAnswer": "Claude Debussy",
+      "stem": "Bir müzik eserindeki “piyano (p)” ve “forte (f)” işaretleri neyi belirtir?",
+      "correctAnswer": "Ses şiddetini",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Clair de Lune",
-      "askedProperty": "bestecisi",
-      "factCluster": "Clair de Lune|bestecisi|Claude Debussy",
-      "questionForm": "relationship",
+      "subject": "Dinamik işaretleri",
+      "askedProperty": "neyi belirttiği",
+      "factCluster": "dinamik işaretleri|belirttiği|ses şiddeti",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Clair de Lune",
-        "Claude Debussy",
-        "bestecisi"
+        "forte",
+        "dinamik",
+        "pianoforte"
       ],
       "status": "live",
-      "semanticSignature": "clair de lune|bestecisi|claude debussy"
+      "semanticSignature": "dinamik isaretleri|neyi belirttigi|ses siddetini"
     },
     "YQ238-Q10": {
       "id": "YQ238-Q10",
@@ -3529,23 +3529,23 @@
       "id": "YQ239-Q01",
       "quizCode": "YQ239",
       "questionId": 1,
-      "stem": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
-      "correctAnswer": "Tanzanya",
+      "stem": "Bir nehrin denize döküldüğü yerde taşıdığı malzemeyi biriktirerek oluşturduğu üçgen biçimli araziye ne ad verilir?",
+      "correctAnswer": "Delta",
       "category": "Coğrafya",
-      "topicFamily": "Ünlü Doğal Yerler",
+      "topicFamily": "Fiziki Coğrafya",
       "scope": "Dünya",
-      "subject": "Serengeti",
-      "askedProperty": "başlıca bulunduğu ülke",
-      "factCluster": "Serengeti|başlıca bulunduğu ülke|Tanzanya",
-      "questionForm": "direct_identification",
+      "subject": "Delta",
+      "askedProperty": "tanımı",
+      "factCluster": "Delta|tanım|nehir ağzı birikimi",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Serengeti",
-        "Tanzanya",
-        "başlıca bulunduğu ülke"
+        "delta",
+        "nehir ağzı",
+        "Nil"
       ],
       "status": "live",
-      "semanticSignature": "serengeti|baslıca bulundugu ulke|tanzanya"
+      "semanticSignature": "delta|tanımı|delta"
     },
     "YQ239-Q02": {
       "id": "YQ239-Q02",
@@ -3573,23 +3573,23 @@
       "id": "YQ239-Q03",
       "quizCode": "YQ239",
       "questionId": 3,
-      "stem": "Fallingwater hangi mimarın tasarımıdır?",
-      "correctAnswer": "Frank Lloyd Wright",
+      "stem": "Mimar Sinan'ın kendi deyişiyle “ustalık eserim” dediği yapı hangisidir?",
+      "correctAnswer": "Selimiye Camii",
       "category": "Görsel Sanatlar & Mimari",
-      "topicFamily": "Mimari",
-      "scope": "Dünya",
-      "subject": "Fallingwater",
-      "askedProperty": "tasarımıyla ilişkili mimar",
-      "factCluster": "Fallingwater|tasarımıyla ilişkili mimar|Frank Lloyd Wright",
+      "topicFamily": "Ünlü Yapılar",
+      "scope": "Türkiye",
+      "subject": "Mimar Sinan ustalık eseri",
+      "askedProperty": "hangi yapı",
+      "factCluster": "Mimar Sinan|ustalık eseri|Selimiye Camii",
       "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Fallingwater",
-        "Frank Lloyd Wright",
-        "tasarımıyla ilişkili mimar"
+        "Mimar Sinan",
+        "Selimiye",
+        "ustalık eseri"
       ],
       "status": "live",
-      "semanticSignature": "fallingwater|tasarımıyla iliskili mimar|frank lloyd wright"
+      "semanticSignature": "mimar sinan ustalık eseri|hangi yapı|selimiye camii"
     },
     "YQ239-Q04": {
       "id": "YQ239-Q04",
@@ -3859,23 +3859,23 @@
       "id": "YQ240-Q06",
       "quizCode": "YQ240",
       "questionId": 6,
-      "stem": "Galápagos Adaları hangi ülkeye bağlıdır?",
-      "correctAnswer": "Ekvador",
+      "stem": "Mercan resiflerinin oluşturduğu, ortasında sığ bir lagün bulunan halka biçimli adaya ne ad verilir?",
+      "correctAnswer": "Atol",
       "category": "Coğrafya",
       "topicFamily": "Adalar",
       "scope": "Dünya",
-      "subject": "Galápagos Adaları",
-      "askedProperty": "bağlı olduğu ülke",
-      "factCluster": "Galápagos Adaları|bağlı olduğu ülke|Ekvador",
-      "questionForm": "direct_identification",
-      "precisionRequired": "P0",
+      "subject": "Atol",
+      "askedProperty": "tanımı",
+      "factCluster": "Atol|tanım|halka biçimli mercan adası",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Galápagos Adaları",
-        "Ekvador",
-        "bağlı olduğu ülke"
+        "atol",
+        "mercan resifi",
+        "lagün"
       ],
       "status": "live",
-      "semanticSignature": "galapagos adaları|baglı oldugu ulke|ekvador"
+      "semanticSignature": "atol|tanımı|atol"
     },
     "YQ240-Q07": {
       "id": "YQ240-Q07",
@@ -3903,23 +3903,23 @@
       "id": "YQ240-Q08",
       "quizCode": "YQ240",
       "questionId": 8,
-      "stem": "Aşağıdaki mimarlardan hangisi Sagrada Família yapısıyla ilişkilidir?",
-      "correctAnswer": "Antoni Gaudí",
+      "stem": "Mimarlıkta, üstü örtülü olup bir yanı sütun dizisiyle dışa açılan geçit alanına ne ad verilir?",
+      "correctAnswer": "Revak",
       "category": "Görsel Sanatlar & Mimari",
       "topicFamily": "Mimari",
       "scope": "Dünya",
-      "subject": "Sagrada Família",
-      "askedProperty": "tasarımıyla ilişkili mimar",
-      "factCluster": "Sagrada Família|tasarımıyla ilişkili mimar|Antoni Gaudí",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Revak",
+      "askedProperty": "tanımı",
+      "factCluster": "Revak|tanım|sütunlu örtülü geçit",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Sagrada Família",
-        "Antoni Gaudí",
-        "tasarımıyla ilişkili mimar"
+        "revak",
+        "sütun dizisi",
+        "avlu"
       ],
       "status": "live",
-      "semanticSignature": "sagrada familia|tasarımıyla iliskili mimar|antoni gaudi"
+      "semanticSignature": "revak|tanımı|revak"
     },
     "YQ240-Q09": {
       "id": "YQ240-Q09",
@@ -4563,23 +4563,23 @@
       "id": "YQ243-Q08",
       "quizCode": "YQ243",
       "questionId": 8,
-      "stem": "Işık yılı hangi fiziksel büyüklüğün birimidir?",
-      "correctAnswer": "Uzaklık",
+      "stem": "Bir gezegenin yörüngesinde Güneş'e en yakın olduğu noktaya ne ad verilir?",
+      "correctAnswer": "Günberi",
       "category": "Bilim & Doğa",
       "topicFamily": "Astronomi & Uzay",
       "scope": "Dünya",
-      "subject": "Işık yılı",
-      "askedProperty": "ölçtüğü büyüklük",
-      "factCluster": "Işık yılı|ölçtüğü büyüklük|Uzaklık",
-      "questionForm": "direct_identification",
-      "precisionRequired": "P0",
+      "subject": "Günberi",
+      "askedProperty": "tanımı",
+      "factCluster": "Günberi|tanım|Güneş'e en yakın nokta",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Işık yılı",
-        "Uzaklık",
-        "ölçtüğü büyüklük"
+        "günberi",
+        "günöte",
+        "yörünge"
       ],
       "status": "live",
-      "semanticSignature": "ısık yılı|olctugu buyukluk|uzaklık"
+      "semanticSignature": "gunberi|tanımı|gunberi"
     },
     "YQ243-Q09": {
       "id": "YQ243-Q09",
@@ -4871,23 +4871,23 @@
       "id": "YQ245-Q02",
       "quizCode": "YQ245",
       "questionId": 2,
-      "stem": "Angel Şelalesi hangi ülkededir?",
-      "correctAnswer": "Venezuela",
+      "stem": "Volkanik bir dağın patlamadan sonra çöken tepesinde oluşan geniş çukura ne ad verilir?",
+      "correctAnswer": "Kaldera",
       "category": "Coğrafya",
-      "topicFamily": "Ünlü Doğal Yerler",
+      "topicFamily": "Dağlar & Yanardağlar",
       "scope": "Dünya",
-      "subject": "Angel Şelalesi",
-      "askedProperty": "bulunduğu ülke",
-      "factCluster": "Angel Şelalesi|bulunduğu ülke|Venezuela",
-      "questionForm": "direct_identification",
-      "precisionRequired": "P0",
+      "subject": "Kaldera",
+      "askedProperty": "tanımı",
+      "factCluster": "Kaldera|tanım|çöken volkan tepesi",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Angel Şelalesi",
-        "Venezuela",
-        "bulunduğu ülke"
+        "kaldera",
+        "volkan",
+        "Nemrut"
       ],
       "status": "live",
-      "semanticSignature": "angel selalesi|bulundugu ulke|venezuela"
+      "semanticSignature": "kaldera|tanımı|kaldera"
     },
     "YQ245-Q03": {
       "id": "YQ245-Q03",
@@ -5003,23 +5003,23 @@
       "id": "YQ245-Q08",
       "quizCode": "YQ245",
       "questionId": 8,
-      "stem": "“Enigma Variations” eserinin bestecisi kimdir?",
-      "correctAnswer": "Edward Elgar",
+      "stem": "Koro topluluklarında en pes erkek ses türü hangisidir?",
+      "correctAnswer": "Bas",
       "category": "Müzik",
       "topicFamily": "Klasik Müzik",
       "scope": "Dünya",
-      "subject": "Enigma Variations",
-      "askedProperty": "bestecisi",
-      "factCluster": "Enigma Variations|bestecisi|Edward Elgar",
-      "questionForm": "relationship",
+      "subject": "Bas ses türü",
+      "askedProperty": "tanımı",
+      "factCluster": "koro ses türleri|en pes erkek ses|bas",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Enigma Variations",
-        "Edward Elgar",
-        "bestecisi"
+        "bas",
+        "koro",
+        "ses türü"
       ],
       "status": "live",
-      "semanticSignature": "enigma variations|bestecisi|edward elgar"
+      "semanticSignature": "bas ses turu|tanımı|bas"
     },
     "YQ245-Q09": {
       "id": "YQ245-Q09",
@@ -5091,23 +5091,23 @@
       "id": "YQ246-Q02",
       "quizCode": "YQ246",
       "questionId": 2,
-      "stem": "Iguazú Şelaleleri hangi iki ülkenin sınır bölgesindedir?",
-      "correctAnswer": "Arjantin ve Brezilya",
+      "stem": "Kara üzerindeki en alçak nokta hangi gölün kıyısındadır?",
+      "correctAnswer": "Lut Gölü",
       "category": "Coğrafya",
-      "topicFamily": "Ünlü Doğal Yerler",
+      "topicFamily": "Nehirler & Göller",
       "scope": "Dünya",
-      "subject": "Iguazú Şelaleleri",
-      "askedProperty": "sınırındaki ülkeler",
-      "factCluster": "Iguazú Şelaleleri|sınırındaki ülkeler|Arjantin ve Brezilya",
+      "subject": "Karadaki en alçak nokta",
+      "askedProperty": "hangi göl kıyısı",
+      "factCluster": "en alçak kara noktası|göl|Lut Gölü",
       "questionForm": "direct_identification",
-      "precisionRequired": "P0",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Iguazú Şelaleleri",
-        "Arjantin ve Brezilya",
-        "sınırındaki ülkeler"
+        "Lut Gölü",
+        "Ölü Deniz",
+        "en alçak nokta"
       ],
       "status": "live",
-      "semanticSignature": "ıguazu selaleleri|sınırındaki ulkeler|arjantin ve brezilya"
+      "semanticSignature": "karadaki en alcak nokta|hangi gol kıyısı|lut golu"
     },
     "YQ246-Q03": {
       "id": "YQ246-Q03",
@@ -5839,23 +5839,23 @@
       "id": "YQ249-Q06",
       "quizCode": "YQ249",
       "questionId": 6,
-      "stem": "Aşağıdaki yazarlardan hangisi “Saatleri Ayarlama Enstitüsü” eserini kaleme almıştır?",
-      "correctAnswer": "Ahmet Hamdi Tanpınar",
+      "stem": "Türk edebiyatındaki “Garip” akımı hangi alanda bir yenilik hareketidir?",
+      "correctAnswer": "Şiir",
       "category": "Edebiyat & Dil",
       "topicFamily": "Türk Edebiyatı",
       "scope": "Türkiye",
-      "subject": "Saatleri Ayarlama Enstitüsü",
-      "askedProperty": "yazarı",
-      "factCluster": "Saatleri Ayarlama Enstitüsü|yazarı|Ahmet Hamdi Tanpınar",
-      "questionForm": "relationship",
-      "precisionRequired": "P0",
+      "subject": "Garip akımı",
+      "askedProperty": "yenilik alanı",
+      "factCluster": "Garip akımı|alan|şiir",
+      "questionForm": "classification",
+      "precisionRequired": "P1",
       "retrievalKeys": [
-        "Saatleri Ayarlama Enstitüsü",
-        "Ahmet Hamdi Tanpınar",
-        "yazarı"
+        "Garip",
+        "Orhan Veli",
+        "şiir akımı"
       ],
       "status": "live",
-      "semanticSignature": "saatleri ayarlama enstitusu|yazarı|ahmet hamdi tanpınar"
+      "semanticSignature": "garip akımı|yenilik alanı|siir"
     },
     "YQ249-Q07": {
       "id": "YQ249-Q07",
@@ -5971,23 +5971,23 @@
       "id": "YQ250-Q02",
       "quizCode": "YQ250",
       "questionId": 2,
-      "stem": "“Kürk Mantolu Madonna” adlı eserin yazarı kimdir?",
-      "correctAnswer": "Sabahattin Ali",
+      "stem": "Türk şiirinde “hece ölçüsü” neye göre belirlenir?",
+      "correctAnswer": "Dizedeki hece sayısına",
       "category": "Edebiyat & Dil",
       "topicFamily": "Türk Edebiyatı",
       "scope": "Türkiye",
-      "subject": "Kürk Mantolu Madonna",
-      "askedProperty": "yazarı",
-      "factCluster": "Kürk Mantolu Madonna|yazarı|Sabahattin Ali",
-      "questionForm": "relationship",
+      "subject": "Hece ölçüsü",
+      "askedProperty": "belirlenme ölçütü",
+      "factCluster": "hece ölçüsü|ölçüt|hece sayısı",
+      "questionForm": "classification",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "Kürk Mantolu Madonna",
-        "Sabahattin Ali",
-        "yazarı"
+        "hece ölçüsü",
+        "aruz",
+        "halk şiiri"
       ],
       "status": "live",
-      "semanticSignature": "kurk mantolu madonna|yazarı|sabahattin ali"
+      "semanticSignature": "hece olcusu|belirlenme olcutu|dizedeki hece sayısına"
     },
     "YQ250-Q03": {
       "id": "YQ250-Q03",
@@ -6169,23 +6169,23 @@
       "id": "YQ251-Q01",
       "quizCode": "YQ251",
       "questionId": 1,
-      "stem": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
-      "correctAnswer": "Karadeniz ve Marmara Denizi",
+      "stem": "Coğrafyada boğaz ile kanal arasındaki temel fark nedir?",
+      "correctAnswer": "Boğaz doğal oluşumdur, kanal insan yapımıdır",
       "category": "Coğrafya",
       "topicFamily": "Denizler & Okyanuslar",
-      "scope": "Türkiye",
-      "subject": "İstanbul Boğazı",
-      "askedProperty": "bağladığı denizler",
-      "factCluster": "İstanbul Boğazı|bağladığı denizler|Karadeniz ve Marmara Denizi",
-      "questionForm": "direct_identification",
+      "scope": "Dünya",
+      "subject": "Boğaz ve kanal",
+      "askedProperty": "aralarındaki fark",
+      "factCluster": "boğaz-kanal|fark|doğal-yapay",
+      "questionForm": "comparison",
       "precisionRequired": "P0",
       "retrievalKeys": [
-        "İstanbul Boğazı",
-        "Karadeniz ve Marmara Denizi",
-        "bağladığı denizler"
+        "boğaz",
+        "kanal",
+        "Süveyş"
       ],
       "status": "live",
-      "semanticSignature": "istanbul bogazı|bagladıgı denizler|karadeniz ve marmara denizi"
+      "semanticSignature": "bogaz ve kanal|aralarındaki fark|bogaz dogal olusumdur kanal insan yapımıdır"
     },
     "YQ251-Q02": {
       "id": "YQ251-Q02",

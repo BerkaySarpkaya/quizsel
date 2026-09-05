@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 249",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Fuji Dağı, Japonya’nın Honshu Adası’nda yer alan aktif bir stratovolkandır."
+      "answerInfo": "Neredeyse kusursuz simetrisini, üst üste binmiş üç ayrı volkanın en üsttekine borçludur. En son 1707'de püskürdü ve külü Tokyo'ya kadar ulaştı."
     },
     {
       "id": 2,
@@ -111,12 +111,12 @@
     },
     {
       "id": 6,
-      "text": "Aşağıdaki yazarlardan hangisi “Saatleri Ayarlama Enstitüsü” eserini kaleme almıştır?",
+      "text": "Türk edebiyatındaki “Garip” akımı hangi alanda bir yenilik hareketidir?",
       "options": [
-        "Gabriel García Márquez",
-        "Ahmet Hamdi Tanpınar",
-        "Chinua Achebe",
-        "Sabahattin Ali"
+        "Roman",
+        "Şiir",
+        "Tiyatro",
+        "Deneme"
       ],
       "answer": 1,
       "time": 20,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Saatleri Ayarlama Enstitüsü”, Ahmet Hamdi Tanpınar tarafından yazılmıştır."
+      "answerInfo": "Orhan Veli, Melih Cevdet ve Oktay Rifat'ın 1941'de yayımladığı Garip kitabıyla başladı. Ölçü, uyak ve şairane söyleyişi bırakıp gündelik dili ve sıradan insanı şiirin merkezine aldılar."
     },
     {
       "id": 7,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Peter ve Kurt”, Sergey Prokofyev tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser çocuklara orkestra çalgılarını tanıtmak için yazıldı ve her karakteri ayrı bir çalgı temsil eder: kuşu flüt, kediyi klarnet, dedeyi fagot, kurdu ise üç korno."
     }
   ]
 }

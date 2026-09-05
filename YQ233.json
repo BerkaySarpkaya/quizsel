@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 233",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Campbell's Soup Cans” adlı görsel sanat eseri Andy Warhol tarafından yaratılmıştır."
+      "answerInfo": "Warhol otuz iki tuval yaptı; bu, o dönemde Campbell'ın sattığı çorba çeşidi sayısıydı. Seri, sıradan bir market ürününü galeriye taşıyarak pop art'ın simgesi hâline geldi."
     },
     {
       "id": 2,
@@ -54,12 +54,12 @@
     },
     {
       "id": 3,
-      "text": "“Things Fall Apart” hangi yazarın eseridir?",
+      "text": "Anı ile günlük türü arasındaki temel fark nedir?",
       "options": [
-        "Ernest Hemingway",
-        "Yasunari Kawabata",
-        "Chinua Achebe",
-        "Geoffrey Chaucer"
+        "Anı şiir, günlük düzyazı biçiminde yazılır",
+        "Anı tümüyle kurgusaldır, günlük ise yalnızca gerçek olaylara dayanır",
+        "Anı olaylardan sonra, günlük ise yaşandığı gün yazılır",
+        "Anı yalnızca ünlü kişilerce yazılabilir"
       ],
       "answer": 2,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Things Fall Apart”, Chinua Achebe tarafından yazılmıştır."
+      "answerInfo": "Günlük olayın sıcağı sıcağına tutulduğu için ayrıntıda güvenilir sayılır; anı ise yıllar sonra yazıldığından bellek ve yorum devreye girer. Tarihçiler bu yüzden ikisini farklı ağırlıkta değerlendirir."
     },
     {
       "id": 4,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Finlandia”, Jean Sibelius tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser 1899'da Rus sansürüne karşı düzenlenen bir gösteride seslendirildi ve Finlandiya'da ulusal direnişin simgesi sayıldı. Orta bölümündeki ezgi sonradan sözlendirilip ilahi gibi söylenmeye başlandı."
     }
   ]
 }

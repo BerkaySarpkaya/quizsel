@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 236",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Kobaltın kimyasal sembolü Co’dur ve atom numarası 27’dir."
+      "answerInfo": "Adı, Alman madencilerin cevheri gümüş sanıp ayıramayınca suçladıkları “kobold” adlı yeraltı cinlerinden gelir. Kobalt bileşikleri yüzyıllardır cam ve seramiği koyu maviye boyamak için kullanılır."
     },
     {
       "id": 2,
@@ -107,16 +107,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Bir Bebek Evi”, Henrik Ibsen tarafından yazılmıştır."
+      "answerInfo": "Oyunun sonunda Nora'nın kapıyı çarpıp evi terk etmesi 1879'da büyük tepki topladı. Ibsen, Almanya'daki sahnelemeler için istemeye istemeye daha yumuşak bir final yazmak zorunda kalmıştı."
     },
     {
       "id": 6,
-      "text": "“Rhapsody in Blue” adlı yapıtın bestecisi kimdir?",
+      "text": "Klasik müzikte “oda müziği” terimi neyi anlatır?",
       "options": [
-        "Franz Liszt",
-        "Aaron Copland",
-        "Claude Debussy",
-        "George Gershwin"
+        "Yalnızca kilise için yazılmış müziği",
+        "Tek bir solistin seslendirdiği müziği",
+        "Yüz kişiyi aşan büyük senfoni orkestrası için yazılmış müziği",
+        "Her partisi tek çalgıya düşen küçük topluluk müziğini"
       ],
       "answer": 3,
       "time": 20,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Rhapsody in Blue”, George Gershwin tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Oda müziği adını, büyük konser salonları yerine küçük mekânlarda çalınmasından alır. Yaylı dörtlü — iki keman, viyola ve viyolonsel — türün en yerleşik topluluk biçimidir."
     },
     {
       "id": 7,
@@ -183,7 +183,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Cloud Gate” adlı görsel sanat eseri Anish Kapoor tarafından yaratılmıştır."
+      "answerInfo": "Chicago'daki yapıt, dikişleri görünmeyecek biçimde cilalanmış paslanmaz çelik levhalardan oluşur ve kenti eğri bir aynada yansıtır. Halk arasında biçimi yüzünden “Fasulye” diye anılır."
     },
     {
       "id": 10,

@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 246",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,16 +31,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Günden Kalanlar”, Kazuo Ishiguro tarafından yazılmıştır."
+      "answerInfo": "Roman, bir İngiliz malikânesinin baş uşağının geriye dönüp kendi seçimlerini sorguladığı bir yol yolculuğu üzerine kuruludur. Yazar 1989'da Booker, 2017'de Nobel Edebiyat Ödülü'nü kazandı."
     },
     {
       "id": 2,
-      "text": "Iguazú Şelaleleri hangi iki ülkenin sınır bölgesindedir?",
+      "text": "Kara üzerindeki en alçak nokta hangi gölün kıyısındadır?",
       "options": [
-        "Karadeniz ve Marmara Denizi",
-        "İsviçre ve İtalya",
-        "Arjantin ve Brezilya",
-        "Zambiya ve Zimbabve"
+        "Aral Gölü",
+        "Baykal Gölü",
+        "Lut Gölü",
+        "Titicaca Gölü"
       ],
       "answer": 2,
       "time": 20,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Iguazú Şelaleleri, Arjantin ile Brezilya sınırındaki Iguazú/Iguaçu Nehri üzerinde yer alır."
+      "answerInfo": "Lut Gölü kıyısı deniz seviyesinin yaklaşık 430 metre altındadır ve su seviyesi her yıl düşmeye devam etmektedir. Tuzluluğu okyanusunkinin yaklaşık on katı olduğu için insan kolayca batmadan yüzebilir."
     },
     {
       "id": 3,
@@ -88,7 +88,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Milwaukee Sanat Müzesi’nin Quadracci Pavyonu, İspanyol mimar Santiago Calatrava tarafından tasarlanmıştır."
+      "answerInfo": "Pavyonun üzerindeki kanat biçimli güneşlik günde birkaç kez açılıp kapanır ve açıklığı büyük bir uçağın kanat genişliğine ulaşır. Calatrava aynı zamanda inşaat mühendisidir; yapıları bu iki disiplinin kesişiminde durur."
     },
     {
       "id": 5,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Titan, Satürn’ün en büyük uydusudur ve yoğun bir atmosfere sahiptir."
+      "answerInfo": "Güneş Sistemi'nde kalın atmosferi olan tek uydudur ve yüzeyinde su yerine sıvı metandan göller bulunur. Huygens sondası 2005'te buraya inerek dış Güneş Sistemi'ndeki ilk yüzey inişini gerçekleştirdi."
     },
     {
       "id": 7,
@@ -145,7 +145,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Water Music”, George Frideric Handel tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser 1717'de Kral I. George'un Thames Nehri'ndeki tekne gezisi için yazıldı ve müzisyenler kralın teknesini izleyen ayrı bir mavnada çaldı. Kralın parçayı aynı gece üç kez tekrarlattığı anlatılır."
     },
     {
       "id": 8,

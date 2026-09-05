@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 239",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -16,12 +16,12 @@
   "questions": [
     {
       "id": 1,
-      "text": "Serengeti ekosisteminin büyük bölümü hangi ülkededir?",
+      "text": "Bir nehrin denize döküldüğü yerde taşıdığı malzemeyi biriktirerek oluşturduğu üçgen biçimli araziye ne ad verilir?",
       "options": [
-        "Rusya",
-        "Bolivya",
-        "Tanzanya",
-        "İtalya"
+        "Haliç",
+        "Kanyon",
+        "Delta",
+        "Fiyort"
       ],
       "answer": 2,
       "time": 20,
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Serengeti ekosisteminin büyük bölümü, Tanzanya sınırları içinde yer alır."
+      "answerInfo": "Ad, üçgen biçimin Yunan alfabesindeki Δ harfine benzemesinden gelir ve ilk kez Herodot tarafından Nil'in ağzı için kullanılmıştır. Delta oluşumu için akıntının zayıf, gelgitin düşük olması gerekir."
     },
     {
       "id": 2,
@@ -50,16 +50,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“İlahi Komedya”, Dante Alighieri tarafından yazılmıştır."
+      "answerInfo": "Dante eseri, dönemin edebiyat dili Latince iken kendi Toskana lehçesiyle yazdı ve bu tercih modern İtalyancanın temelini attı. Yapıt Cehennem, Araf ve Cennet olmak üzere üç bölümden oluşur."
     },
     {
       "id": 3,
-      "text": "Fallingwater hangi mimarın tasarımıdır?",
+      "text": "Mimar Sinan'ın kendi deyişiyle “ustalık eserim” dediği yapı hangisidir?",
       "options": [
-        "Le Corbusier",
-        "Frank Lloyd Wright",
-        "Philip Johnson",
-        "I. M. Pei"
+        "Şehzade Camii",
+        "Selimiye Camii",
+        "Süleymaniye Camii",
+        "Rüstem Paşa Camii"
       ],
       "answer": 1,
       "time": 20,
@@ -69,7 +69,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Fallingwater, Frank Lloyd Wright ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Sinan, Şehzade Camii'ni çıraklık, Süleymaniye'yi kalfalık, Edirne'deki Selimiye'yi ise ustalık dönemi eseri saymıştır. Selimiye'nin kubbesini Ayasofya'nınkinden geniş yapmayı hedeflediğini de yazmıştır."
     },
     {
       "id": 4,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Macar Rapsodileri”, Franz Liszt tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Liszt on dokuz rapsodi yazdı ve ezgilerin çoğunu Macar halk müziği sandığı Roman topluluklarının çaldığı parçalardan aldı. İkinci rapsodi çizgi filmlerde en çok kullanılan klasik parçalardan biridir."
     },
     {
       "id": 9,

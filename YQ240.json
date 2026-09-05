@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 240",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Canterbury Hikâyeleri”, Geoffrey Chaucer tarafından yazılmıştır."
+      "answerInfo": "Chaucer eseri, dönemin edebiyat dilleri Latince ve Fransızca iken Orta İngilizce yazdı. Canterbury'ye giden bir hacı grubunun birbirine anlattığı hikâyelerden oluşur ve yarım kalmıştır."
     },
     {
       "id": 3,
@@ -107,16 +107,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Fiber optiklerde ışığın çekirdek içinde tutulmasında tam iç yansıma temel rol oynar."
+      "answerInfo": "Işık, çekirdekten kılıfa kritik açıdan büyük bir açıyla çarptığı için dışarı kaçamaz ve kilometrelerce boyunca sekerek ilerler. Bu yapı fiberi, bakır kabloların aksine elektromanyetik girişimden korur."
     },
     {
       "id": 6,
-      "text": "Galápagos Adaları hangi ülkeye bağlıdır?",
+      "text": "Mercan resiflerinin oluşturduğu, ortasında sığ bir lagün bulunan halka biçimli adaya ne ad verilir?",
       "options": [
-        "Şili",
-        "Ekvador",
-        "Bolivya",
-        "Tanzanya"
+        "Takımada",
+        "Atol",
+        "Yarımada",
+        "Kıstak"
       ],
       "answer": 1,
       "time": 20,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Galápagos Adaları, Ekvador sınırları içinde yer alır."
+      "answerInfo": "Atoller, denizin altına gömülmeye başlayan bir volkanik adanın çevresindeki mercan halkasının yükselmeyi sürdürmesiyle oluşur. Bu açıklamayı ilk kez Charles Darwin ortaya koymuştur."
     },
     {
       "id": 7,
@@ -145,16 +145,16 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Şehrazat”, Nikolay Rimski-Korsakov tarafından bestelenmiş bir eserdir."
+      "answerInfo": "Eser Binbir Gece Masalları'ndan esinlenir. Şehrazat'ı temsil eden ezgi solo keman tarafından çalınır ve dört bölüm boyunca farklı biçimlerde geri döner."
     },
     {
       "id": 8,
-      "text": "Aşağıdaki mimarlardan hangisi Sagrada Família yapısıyla ilişkilidir?",
+      "text": "Mimarlıkta, üstü örtülü olup bir yanı sütun dizisiyle dışa açılan geçit alanına ne ad verilir?",
       "options": [
-        "Jørn Utzon",
-        "Robert Venturi",
-        "Santiago Calatrava",
-        "Antoni Gaudí"
+        "Nef",
+        "Kubbe",
+        "Apsis",
+        "Revak"
       ],
       "answer": 3,
       "time": 20,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Sagrada Família, Antoni Gaudí’nin en ünlü mimarlık projelerindendir; Gaudí yapının tasarımını uzun yıllar boyunca geliştirmiştir."
+      "answerInfo": "Revaklar avlu çevresinde gölgeli bir dolaşım alanı sağlar. Osmanlı külliyelerinde cami avlusunu kuşatan revaklı düzen, işlev olarak Antik Yunan'daki stoa yapılarına benzer."
     },
     {
       "id": 9,

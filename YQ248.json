@@ -5,7 +5,7 @@
   "title": "Genel Kültür 4.5 — 248",
   "category": "Genel Kültür",
   "difficulty": 4.5,
-  "version": 2,
+  "version": 3,
   "description": "Türkiye, dünya, bilim, kültür, teknoloji, spor ve gündelik yaşamdan bağımsız ve karışık 10 genel kültür sorusu.",
   "estimatedMinutes": 5,
   "tags": [
@@ -31,7 +31,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Benim Adım Kırmızı”, Orhan Pamuk tarafından yazılmıştır."
+      "answerInfo": "Roman 16. yüzyıl Osmanlı nakkaşhanesinde geçer ve her bölüm farklı bir anlatıcının ağzından aktarılır — bir ceset, bir köpek, hatta bir renk. Yazar 2006'da Nobel Edebiyat Ödülü'nü kazandı."
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Kimbell Sanat Müzesi, Louis Kahn ile ilişkilendirilen önemli bir mimarlık eseridir."
+      "answerInfo": "Kahn müzeyi, üstten gelen gün ışığını beton tonozlara yansıtan bir düzenle tasarladı. Yapı, doğal ışığın eserlere zarar vermeden kullanılmasında referans örnek sayılır."
     },
     {
       "id": 3,
@@ -107,7 +107,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Olympus Mons, Mars’ta bulunan dev bir kalkan yanardağıdır."
+      "answerInfo": "Yüksekliği yaklaşık 22 kilometreyle Everest'in iki buçuk katından fazladır. Levha hareketi olmadığı için volkan aynı sıcak nokta üzerinde milyonlarca yıl büyümeyi sürdürebilmiştir."
     },
     {
       "id": 6,
@@ -126,7 +126,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "“Bahar Ayini (The Rite of Spring)”, Igor Stravinsky tarafından bestelenmiş bir eserdir."
+      "answerInfo": "1913'teki ilk temsilinde salonda kavga çıkacak kadar gürültü koptu; sert ritimleri ve alışılmadık armonisi dönemin dinleyicisini şoke etti. Bugün 20. yüzyıl müziğinin dönüm noktalarından sayılır."
     },
     {
       "id": 7,
@@ -164,7 +164,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Matterhorn, İsviçre ile İtalya sınırındaki Alpler’de yükselir."
+      "answerInfo": "Dört yüzü de piramit gibi düzgün olan bu tepe, buzulların dört ayrı yönden aşındırmasıyla biçimlenmiştir. İlk tırmanışı 1865'te yapıldı ve dönüşte dört kişinin ölümüyle sonuçlandı."
     },
     {
       "id": 9,
@@ -202,7 +202,7 @@
       "imageCredit": null,
       "imagePosition": "top",
       "imageFit": "cover",
-      "answerInfo": "Higrometre, havadaki nemi ölçmek için kullanılan ölçüm aracıdır."
+      "answerInfo": "En eski biçimlerinden biri, neme göre uzayıp kısalan insan saçının hareketini bir ibreye aktarır. Bugün nem ölçümü çoğunlukla elektriksel direnç ya da sığa değişimi üzerinden yapılır."
     }
   ]
 }
